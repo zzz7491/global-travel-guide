@@ -2,19 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://travel.mootlsv.com/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/changcheng</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/gugong</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/tiantan</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/yiheyuan</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/meiji-jingu</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/sensoji</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/shibuya-crossing</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/shinjuku-gyoen</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/teamlab-borderless</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/tokyo-tower</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/tsukiji</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/ueno-park</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/routes/elderly-friendly</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/routes/five-days</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/routes/three-days</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/routes/five-days</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/routes/three-days</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/accommodation</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/food</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/tips</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/transport</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/accommodation</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/budget</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/food</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/transport</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/best-time</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/normal</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/budget</loc></url>
   <url><loc>https://travel.mootlsv.com/about</loc></url>

@@ -1,0 +1,18 @@
+{
+  "id": "japan-tokyo",
+  "type": "city",
+  "country": "japan",
+  "city": "tokyo",
+  "name": "东京",
+  "nameEn": "Tokyo",
+  "title": "东京旅行攻略 | Global Travel Guide",
+  "description": "东京旅游攻略与东京自由行路线全指南：涵盖东京景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排东京行程。",
+  "keywords": "东京旅游攻略,东京自由行,东京旅行路线,东京景点攻略,东京美食,东京交通",
+  "h1": "东京",
+  "lead": "日本首都与国际都会，传统寺庙与摩天楼并存，轨道交通发达，适合自由行深度探索。",
+  "continent": "亚洲",
+  "language": "日语",
+  "currency": "日元 (JPY)",
+  "timezone": "UTC+9",
+  "related": ["japan-tokyo-sensoji", "japan-tokyo-best-time"]
+}

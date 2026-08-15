@@ -1,0 +1,55 @@
+{
+  "id": "japan-tokyo-five-days",
+  "type": "route",
+  "country": "japan",
+  "city": "tokyo",
+  "slug": "five-days",
+  "title": "东京5日游路线｜文化·购物·美食·城市体验",
+  "description": "东京5日游路线规划：五天覆盖文化、购物、美食与城市体验，含浅草、上野、皇居、筑地、原宿、涩谷、新宿与teamLab。",
+  "keywords": "东京5日游,东京旅游路线,东京自由行,东京深度游,东京行程",
+  "h1": "东京5日游路线",
+  "lead": "五天行程兼顾文化、购物、美食与现代城市体验，节奏比三日线更从容，适合希望深度感受东京的旅行者。",
+  "days": 5,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>本路线以「主题日」组织：文化日、城市与美食日、潮流购物日、现代体验日、弹性探索日。每日聚焦一个区域，减少交通损耗，也便于按天气与体力调整。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 文化日：浅草与上野",
+      "html": "<h3>安排</h3><p>浅草寺与仲见世通感受老江户；午后上野公园走访博物馆或美术馆，傍晚不忍池散步。以东京东部传统文化开场。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 2 城市与美食日：皇居、银座、筑地",
+      "html": "<h3>安排</h3><p>上午皇居外苑；中午银座；下午至筑地场外市场品尝海鲜与玉子烧。把「都心地标+在地饮食」放在同一天，步行与短乘结合。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 3 潮流购物日：原宿、表参道、涩谷",
+      "html": "<h3>安排</h3><p>明治神宫森林开场，转竹下通与表参道购物，傍晚涩谷十字路口与夜景收尾。适合喜欢街区与年轻人的氛围。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 4 现代体验日：新宿、新宿御苑、teamLab",
+      "html": "<h3>安排</h3><p>上午新宿御苑静谧散步；午后新宿都心；预约时段前往 teamLab Borderless 沉浸艺术。传统庭园与数字艺术同日对照。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 5 弹性探索日：台场或近郊",
+      "html": "<h3>安排</h3><p>预留给天气或体力缓冲：可前往台场海滨看彩虹大桥，或安排近郊半日游。无强制景点，便于补漏与购物。</p><h3>旅行节奏</h3><p>五天由文化到现代逐步递进，最后留白，整体从容不累。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["teamLab 为预约制，务必提前购票。", "筑地场外中午前后打烊，宜早到。", "购物日行李增多，可先回住宿寄存再出门。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["japan-tokyo-tokyo-tower", "japan-tokyo-shibuya-crossing", "japan-tokyo-shinjuku-gyoen", "japan-tokyo-ueno-park", "japan-tokyo-teamlab-borderless", "japan-tokyo-accommodation"]
+    }
+  ]
+}

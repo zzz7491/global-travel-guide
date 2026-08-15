@@ -1,0 +1,16 @@
+{
+  "id": "japan",
+  "type": "country",
+  "country": "japan",
+  "name": "日本",
+  "nameEn": "Japan",
+  "title": "日本旅行攻略 | Global Travel Guide",
+  "description": "日本目的地旅行攻略：从东京等城市出发，整理景点、路线、最佳旅行时间与实用旅行信息，助你规划日本自由行。",
+  "keywords": "日本旅行攻略,日本旅游,日本自由行,东京旅行,日本目的地,日本城市",
+  "h1": "日本",
+  "lead": "东亚岛国，千年传统与现代都市并存，从东京的霓虹街区到古都寺庙，适合深度自由行。",
+  "continent": "亚洲",
+  "language": "日语",
+  "currency": "日元 (JPY)",
+  "timezone": "UTC+9"
+}

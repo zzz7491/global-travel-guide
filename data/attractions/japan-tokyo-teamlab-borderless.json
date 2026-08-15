@@ -1,0 +1,40 @@
+{
+  "id": "japan-tokyo-teamlab-borderless",
+  "type": "attraction",
+  "country": "japan",
+  "city": "tokyo",
+  "slug": "teamlab-borderless",
+  "title": "teamLab Borderless 旅游攻略｜沉浸式数字艺术馆指南",
+  "description": "teamLab Borderless 旅游攻略：无边界数字艺术、沉浸式光影与必看作品，附预约方式与交通建议。",
+  "keywords": "teamLab Borderless,teamLab攻略,东京数字艺术,沉浸艺术,麻布台之丘",
+  "h1": "teamLab Borderless 旅游攻略",
+  "lead": "teamLab Borderless 是以「无边界」为概念的数字艺术美术馆，作品彼此交融、没有固定动线，每次到访都可能走出不同路线。",
+  "tags": ["数字艺术", "沉浸体验", "亲子", "麻布台"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>Borderless 由艺术团队 teamLab 打造，强调「作品之间没有界限、与人和空间相互流动」。场馆迁至麻布台之丘（Azabudai Hills）后，空间与作品再度重新编排，强调沉浸与探索。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>看点与体验</h3><p>经典的无边界空间里，光影随脚步流动；「灯之森林」「无尽的空间」等区域适合静观。部分作品会随人数与时间变化，建议放慢节奏、多绕几圈。</p><h3>适合人群</h3><p>喜欢艺术装置、亲子家庭、想拍氛围大片的旅行者都很适合，通常安排 2-3 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段与交通</h3><p>采取完全预约制，务必提前购票选定时段；上午场通常较从容。位于麻布台之丘，搭乘地铁「麻布十番站」或「六本木一丁目站」步行可达，可与六本木一带串联。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["仅限预约入场，现场可能无票。", "馆内昏暗，注意看护同行孩童与随身物。", "部分区域禁止闪光灯与自拍杆，请遵守指引。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["japan-tokyo-five-days", "japan-tokyo-accommodation", "japan-tokyo-shibuya-crossing"]
+    }
+  ]
+}

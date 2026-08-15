@@ -1,0 +1,28 @@
+{
+  "id": "japan-tokyo-best-time",
+  "type": "best-time",
+  "country": "japan",
+  "city": "tokyo",
+  "title": "东京最佳旅行时间｜几月去东京最好",
+  "description": "东京最佳旅行时间：3-4月樱花季、10-11月红叶季最宜人；夏季湿热多台风，冬季干冷可赏雪景与富士远眺。",
+  "keywords": "东京最佳旅行时间,东京几月去,东京旅游季节,东京天气,东京樱花",
+  "h1": "东京最佳旅行时间",
+  "lead": "东京四季分明：春季樱花、秋季红叶最为迷人，夏季湿热、冬季干冷，全年皆可安排出行。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>樱花季（3月下旬至4月上旬），气温 10-20℃，上野、千鸟之渊等地赏樱人气高，游客明显增多。</li><li><strong>5-6月：</strong>新绿与初夏，6月进入梅雨，体感潮湿。</li><li><strong>7-8月：</strong>炎热潮湿，偶有台风；夏季祭典与花火大会集中。</li><li><strong>9月：</strong>台风较多的月份，出行前关注天气。</li><li><strong>10-11月：</strong>红叶季，秋高气爽，公认最佳出游窗口。</li><li><strong>12-2月：</strong>干冷少雪，晴天多时可远眺富士山，年末年初有冬季灯饰。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["赏樱与红叶高峰期热门景点人流密集，建议清晨前往。", "夏季备好防晒与饮水，梅雨期随身带伞。", "10月下旬至11月中旬红叶与舒适气温叠加，优先安排户外行程。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["japan-tokyo-sensoji", "japan-tokyo-five-days", "japan-tokyo-transport"]
+    }
+  ]
+}
