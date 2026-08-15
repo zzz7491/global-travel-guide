@@ -26,6 +26,8 @@ import {
   ogImage,
   buildContentBody,
   buildCitySections,
+  buildCountrySections,
+  buildIndexSections,
   buildListingBody,
   buildBreadcrumb,
 } from '../src/lib/content.js';
@@ -70,9 +72,50 @@ const INDEX = {};
 ENTITIES.forEach((e) => { INDEX[e.id] = e; });
 
 // Long-form itinerary pages kept as verbatim static HTML (not in the data model).
+// country/city let buildCitySections filter each itinerary to its own city, so
+// future cities (Tokyo/Paris) never inherit Beijing's routes.
 const ITINERARIES = [
-  { title: '正常版（舒适）', desc: '食宿品鉴与风光体验配置更完整。', url: '/china/beijing/normal' },
-  { title: '经济版（省钱）', desc: '控制住宿餐饮交通成本，保留核心体验。', url: '/china/beijing/budget' },
+  { title: '正常版（舒适）', desc: '食宿品鉴与风光体验配置更完整。', url: '/china/beijing/normal', country: 'china', city: 'beijing' },
+  { title: '经济版（省钱）', desc: '控制住宿餐饮交通成本，保留核心体验。', url: '/china/beijing/budget', country: 'china', city: 'beijing' },
+];
+
+// Global directory pages — "travel knowledge catalog", not content pages.
+const INDEX_PAGES = [
+  {
+    kind: 'countries', url: '/countries', file: 'countries/index.html',
+    title: '全球国家旅行指南 | Global Travel Guide',
+    description: 'Global Travel Guide 全球国家旅行指南：按国家浏览世界目的地，规划你的下一段旅程。',
+    keywords: '全球国家,国家旅行指南,世界目的地,各国旅游攻略',
+    h1: '全球国家旅行指南', lead: '按国家浏览世界目的地，发现值得一去的旅行地。',
+  },
+  {
+    kind: 'cities', url: '/cities', file: 'cities/index.html',
+    title: '全球城市旅行指南 | Global Travel Guide',
+    description: 'Global Travel Guide 全球城市旅行指南：汇集世界各地城市，提供景点、路线与实用旅行信息。',
+    keywords: '全球城市,城市旅行指南,世界城市旅游,城市自由行',
+    h1: '全球城市旅行指南', lead: '汇集世界各地的城市，探索它们的景点、路线与玩法。',
+  },
+  {
+    kind: 'attractions', url: '/attractions', file: 'attractions/index.html',
+    title: '全球景点指南 | Global Travel Guide',
+    description: 'Global Travel Guide 全球景点指南：整理世界知名景点与必访之地，助你规划行程。',
+    keywords: '全球景点,世界景点攻略,必去景点,景点推荐',
+    h1: '全球景点指南', lead: '整理世界各地的知名景点与必访之地。',
+  },
+  {
+    kind: 'routes', url: '/routes', file: 'routes/index.html',
+    title: '全球旅行路线指南 | Global Travel Guide',
+    description: 'Global Travel Guide 全球旅行路线指南：集合各地自由行路线与行程规划参考。',
+    keywords: '全球路线,旅行路线规划,自由行路线,行程参考',
+    h1: '全球旅行路线指南', lead: '集合各地的自由行路线与行程规划参考。',
+  },
+  {
+    kind: 'guides', url: '/guides', file: 'guides/index.html',
+    title: '全球旅行实用指南 | Global Travel Guide',
+    description: 'Global Travel Guide 全球旅行实用指南：交通、住宿、美食、预算等实用旅行建议。',
+    keywords: '旅行指南,实用旅行攻略,交通住宿美食,旅行建议',
+    h1: '全球旅行实用指南', lead: '交通、住宿、美食、预算等实用旅行建议，帮你轻松出行。',
+  },
 ];
 
 // Static base pages (about / contact / sitemap / privacy / terms). Kept as
@@ -80,6 +123,7 @@ const ITINERARIES = [
 // Canonical/og/JSON-LD are hand-authored inside each file's <head>.
 const STATIC_PAGES = [
   { url: '/about', file: 'about.html' },
+  { url: '/services', file: 'services.html' },
   { url: '/contact', file: 'contact.html' },
   { url: '/sitemap-page', file: 'sitemap-page.html' },
   { url: '/privacy', file: 'privacy.html' },
@@ -175,7 +219,7 @@ function main() {
     e._heroImageUrl = heroImageUrl(e, SITE);
     let body;
     if (e.type === 'city') body = buildListingBody(e, buildCitySections(e, ctx), tpl.listing);
-    else if (e.type === 'country') body = buildListingBody(e, e.sections || [], tpl.listing);
+    else if (e.type === 'country') body = buildListingBody(e, buildCountrySections(e, ctx), tpl.listing);
     else body = buildContentBody(e, ctx);
     const rel = urlFor(e).replace(/^\//, '').replace(/\/$/, '/index.html');
     writeFile(rel, renderPage(e, body));
@@ -187,6 +231,27 @@ function main() {
   copyDir(ASSETS_DIR, path.join(OUT_DIR, 'assets'));
   for (const it of ITINERARIES) pages.push({ url: it.url, file: it.url.replace(/^\//, '') });
   for (const sp of STATIC_PAGES) pages.push({ url: sp.url, file: sp.file });
+
+  // Global directory pages — pseudo-entities reusing renderPage + body-listing.
+  const baseUrl = SITE.siteUrl.replace(/\/$/, '');
+  for (const ip of INDEX_PAGES) {
+    const page = {
+      type: 'index',
+      title: ip.title,
+      description: ip.description,
+      keywords: ip.keywords,
+      h1: ip.h1,
+      lead: ip.lead,
+      breadcrumbLabel: ip.h1,
+      breadcrumbUrl: baseUrl + ip.url,
+    };
+    page._canonical = baseUrl + ip.url;
+    page._ogImage = SITE.defaultSocialImage;
+    page._heroImageUrl = SITE.heroImage;
+    const body = buildListingBody(page, buildIndexSections(ip.kind, ctx), tpl.listing);
+    writeFile(ip.file, renderPage(page, body));
+    pages.push({ url: ip.url, file: ip.file });
+  }
 
   // Sitemap generated from the SAME data model (single source of truth).
   const siteUrl = SITE.siteUrl.replace(/\/$/, '');

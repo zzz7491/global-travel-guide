@@ -73,6 +73,10 @@ export function buildBreadcrumb(e, ctx) {
   if (LEAF_TYPES.has(e.type)) {
     crumbs.push({ name: e.h1 || e.name || '', url: siteUrl + linkUrl(e) });
   }
+  // Index/directory pages (no country/city) get a self crumb labeled by caller.
+  if (e.breadcrumbLabel) {
+    crumbs.push({ name: e.breadcrumbLabel, url: e.breadcrumbUrl || `${siteUrl}/` });
+  }
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -163,8 +167,50 @@ export function buildCitySections(city, ctx) {
       return items.length ? { title: g.title, items } : null;
     })
     .filter(Boolean);
-  sections.push({ title: '完整路书', items: ctx.itineraries });
+  // Only show itineraries that belong to THIS city. Each itinerary carries
+  // its own country/city (set in build.js ITINERARIES), so future cities such
+  // as Tokyo/Paris only surface their own routes — never Beijing's.
+  const itineraryItems = (ctx.itineraries || []).filter(
+    (it) => it.country === city.country && it.city === city.city
+  );
+  if (itineraryItems.length) sections.push({ title: '完整路书', items: itineraryItems });
   return sections;
+}
+
+// Country landing sections are DERIVED from the data model — no hard-coded
+// city links. Every city belonging to this country shows up automatically;
+// drop a new cities/*.json and it appears with zero template edits.
+export function buildCountrySections(country, ctx) {
+  const cities = ctx.entities
+    .filter((e) => e.type === 'city' && e.country === country.country)
+    .map((e) => ({ title: e.name, desc: e.lead || '', url: linkUrl(e) }));
+  return cities.length ? [{ title: '热门城市', items: cities }] : [];
+}
+
+// Global index / directory pages (countries / cities / attractions / routes /
+// guides). Each lists every entity of one type, with clean internal links.
+export function buildIndexSections(kind, ctx) {
+  const typeMap = {
+    countries: 'country',
+    cities: 'city',
+    attractions: 'attraction',
+    routes: 'route',
+    guides: 'guide',
+  };
+  const type = typeMap[kind];
+  if (!type) return [];
+  const items = ctx.entities
+    .filter((e) => e.type === type)
+    .map((e) => ({ title: e.h1 || e.name, desc: e.lead || '', url: linkUrl(e) }));
+  if (!items.length) return [];
+  const labelMap = {
+    countries: '国家',
+    cities: '城市',
+    attractions: '景点',
+    routes: '路线',
+    guides: '旅行指南',
+  };
+  return [{ title: labelMap[kind], items }];
 }
 
 // Listing page body (country / city) given pre-built sections.
