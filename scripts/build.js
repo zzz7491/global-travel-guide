@@ -75,6 +75,17 @@ const ITINERARIES = [
   { title: '经济版（省钱）', desc: '控制住宿餐饮交通成本，保留核心体验。', url: '/china/beijing/budget' },
 ];
 
+// Static base pages (about / contact / sitemap / privacy / terms). Kept as
+// verbatim HTML in /src/static and registered here so they enter sitemap.xml.
+// Canonical/og/JSON-LD are hand-authored inside each file's <head>.
+const STATIC_PAGES = [
+  { url: '/about', file: 'about.html' },
+  { url: '/contact', file: 'contact.html' },
+  { url: '/sitemap-page', file: 'sitemap-page.html' },
+  { url: '/privacy', file: 'privacy.html' },
+  { url: '/terms', file: 'terms.html' },
+];
+
 const tpl = {
   layout: readTpl('layout.html'),
   content: readTpl('body-content.html'),
@@ -175,6 +186,7 @@ function main() {
   copyDir(STATIC_DIR, OUT_DIR);
   copyDir(ASSETS_DIR, path.join(OUT_DIR, 'assets'));
   for (const it of ITINERARIES) pages.push({ url: it.url, file: it.url.replace(/^\//, '') });
+  for (const sp of STATIC_PAGES) pages.push({ url: sp.url, file: sp.file });
 
   // Sitemap generated from the SAME data model (single source of truth).
   const siteUrl = SITE.siteUrl.replace(/\/$/, '');

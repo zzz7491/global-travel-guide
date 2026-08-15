@@ -98,6 +98,13 @@ p { margin: 0 0 14px; color: var(--muted); line-height: 1.8; }
   font-size: 13px;
   margin-top: 24px;
 }
+.site-footer a {
+  color: var(--warm);
+  text-decoration: none;
+  font-weight: 600;
+}
+.site-footer a:hover { text-decoration: underline; }
+.site-footer .footer-links { margin: 8px 0; }
 @media (max-width: 680px) {
   main { padding: 26px 20px; }
   .cards { grid-template-columns: 1fr; }
