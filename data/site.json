@@ -1,0 +1,15 @@
+{
+  "siteUrl": "https://travel.mootlsv.com",
+  "brand": "Global Travel Guide",
+  "locale": "zh-CN",
+  "imageBaseUrl": "/assets/img",
+  "defaultSocialImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
+  "heroImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1800&q=80",
+  "nav": [
+    { "label": "首页", "url": "/" },
+    { "label": "北京攻略", "url": "/china/beijing/" },
+    { "label": "景点", "url": "/china/beijing/attractions/gugong.html" },
+    { "label": "路线", "url": "/china/beijing/routes/three-days.html" },
+    { "label": "实用攻略", "url": "/china/beijing/guides/accommodation.html" }
+  ]
+}

@@ -1,0 +1,22 @@
+<h1>{{h1}}</h1>
+<p class="lead">{{lead}}</p>
+{{#each sections}}
+<section class="block">
+  <h2>{{title}}</h2>
+  <div class="cards">
+    {{#each items}}
+    {{#if url}}
+    <a class="card" href="{{url}}">
+      <strong>{{title}}</strong>
+      <span>{{desc}}</span>
+    </a>
+    {{else}}
+    <div class="card soon">
+      <strong>{{title}}</strong>
+      <span>{{desc}}</span>
+    </div>
+    {{/if}}
+    {{/each}}
+  </div>
+</section>
+{{/each}}

@@ -1,0 +1,18 @@
+{
+  "id": "china-beijing-accommodation",
+  "type": "guide",
+  "country": "china",
+  "city": "beijing",
+  "slug": "accommodation",
+  "title": "北京住宿攻略｜区域选择与预订",
+  "description": "北京住宿攻略：热门区域对比、交通便利度与预订时机，帮你选对落脚点。",
+  "keywords": "北京住宿攻略,北京酒店,北京自由行,北京旅游攻略",
+  "h1": "北京住宿攻略",
+  "lead": "住宿首选地铁沿线、近核心景点的区域，平衡价格与通勤；旺季提前预订更稳妥。",
+  "blocks": [
+    { "kind": "section", "title": "攻略概览", "html": "<p>住宿首选地铁沿线、近核心景点的区域，平衡价格与通勤；旺季提前预订更稳妥。</p>" },
+    { "kind": "section", "title": "核心内容", "html": "<h3>区域选择</h3><p>占位：待补充详细攻略内容。</p><h3>预订时机</h3><p>占位：待补充建议。</p>" },
+    { "kind": "notes", "title": "注意事项", "items": ["核心区价格偏高但通勤省时。", "国庆/暑期旺季建议提前预订。"] },
+    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-transport", "china-beijing-food", "china-beijing-five-days"] }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "china-beijing-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "beijing",
+  "title": "北京最佳旅行时间｜几月去北京最好",
+  "description": "北京最佳旅行时间：春秋最宜人，9-10月秋高气爽、3-4月春花烂漫；夏季炎热多雨，冬季寒冷可赏雪。",
+  "keywords": "北京最佳旅行时间,北京几月去,北京旅游季节,北京天气",
+  "h1": "北京最佳旅行时间",
+  "lead": "北京四季分明：9-10月秋高气爽最适合出游，3-4月春意盎然，夏冬各有特色。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>春暖花开，气温 10-20℃，游客较少。</li><li><strong>5-6月：</strong>温暖舒适，偶有风沙。</li><li><strong>7-8月：</strong>炎热多雨，暑期人流量大。</li><li><strong>9-10月：</strong>秋高气爽，最佳出游季（推荐 9月下旬避开国庆高峰）。</li><li><strong>11-2月：</strong>寒冷干燥，可赏雪景与故宫雪。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["春秋早晚温差大，备薄外套。", "热门景点提前预约门票。", "9月20-28日为金秋最佳窗口。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["china-beijing-gugong", "china-beijing-five-days", "china-beijing-tips"]
+    }
+  ]
+}

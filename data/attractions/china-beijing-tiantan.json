@@ -1,0 +1,18 @@
+{
+  "id": "china-beijing-tiantan",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "tiantan",
+  "title": "天坛旅游攻略｜祭天建筑与回音壁",
+  "description": "北京天坛公园参观攻略：祈年殿、圜丘、回音壁看点，以及最佳游览动线与门票信息。",
+  "keywords": "天坛旅游攻略,北京天坛,天坛公园,北京景点攻略",
+  "h1": "天坛旅游攻略",
+  "lead": "天坛是明清皇帝祭天之所，祈年殿造型经典，回音壁与三音石适合带小朋友体验。",
+  "blocks": [
+    { "kind": "section", "title": "攻略概览", "html": "<p>天坛是明清皇帝祭天之所，祈年殿造型经典，回音壁与三音石适合带小朋友体验。</p>" },
+    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
+    { "kind": "notes", "title": "注意事项", "items": ["门票预约与开放时间以景点官方公布为准。", "旺季人流较大，建议错峰出行。"] },
+    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-gugong", "china-beijing-yiheyuan", "china-beijing-elderly-friendly"] }
+  ]
+}

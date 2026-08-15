@@ -1,0 +1,18 @@
+{
+  "id": "china-beijing-changcheng",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "changcheng",
+  "title": "长城旅游攻略｜八达岭与慕田峪怎么选",
+  "description": "北京长城旅游攻略：八达岭与慕田峪对比、交通方式、最佳游览时间与拍照点，轻松登城不踩坑。",
+  "keywords": "长城旅游攻略,北京长城,八达岭,慕田峪,北京景点攻略",
+  "h1": "长城旅游攻略",
+  "lead": "长城距离市区较远，八达岭设施成熟、慕田峪人少景美，建议根据体力和时间选择段点。",
+  "blocks": [
+    { "kind": "section", "title": "攻略概览", "html": "<p>长城距离市区较远，八达岭设施成熟、慕田峪人少景美，建议根据体力和时间选择段点。</p>" },
+    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
+    { "kind": "notes", "title": "注意事项", "items": ["门票预约与开放时间以景点官方公布为准。", "旺季人流较大，建议错峰出行。"] },
+    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-gugong", "china-beijing-yiheyuan", "china-beijing-three-days"] }
+  ]
+}

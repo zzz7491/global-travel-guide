@@ -1,0 +1,18 @@
+{
+  "id": "china-beijing-three-days",
+  "type": "route",
+  "country": "china",
+  "city": "beijing",
+  "slug": "three-days",
+  "title": "北京3日游路线｜紧凑精华行程",
+  "description": "北京3日游路线规划：用三天覆盖故宫、长城、颐和园等核心景点，适合时间有限的自由行。",
+  "keywords": "北京3日游,北京旅游路线,北京自由行,北京景点攻略",
+  "h1": "北京3日游路线",
+  "lead": "三天行程以「市内经典+近郊长城」为主，节奏偏紧但覆盖率高，适合首次到访。",
+  "blocks": [
+    { "kind": "section", "title": "攻略概览", "html": "<p>三天行程以「市内经典+近郊长城」为主，节奏偏紧但覆盖率高，适合首次到访。</p>" },
+    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
+    { "kind": "notes", "title": "注意事项", "items": ["热门景点建议提前预约门票。", "长城段体力消耗大，备好饮水。"] },
+    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-five-days", "china-beijing-elderly-friendly", "china-beijing-food"] }
+  ]
+}

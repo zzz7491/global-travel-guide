@@ -1,0 +1,18 @@
+{
+  "id": "china-beijing-gugong",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "gugong",
+  "title": "故宫旅游攻略｜北京故宫博物院参观指南",
+  "description": "北京故宫旅游攻略：开放时间、门票预约、中轴线游览路线与珍宝馆看点，助你高效逛完紫禁城。",
+  "keywords": "故宫旅游攻略,北京故宫,故宫博物院,北京景点攻略,北京自由行",
+  "h1": "故宫旅游攻略",
+  "lead": "故宫（紫禁城）是北京必访的核心景点，建议提前预约门票、留足半天时间，沿中轴线依次参观三大殿与后三宫。",
+  "blocks": [
+    { "kind": "section", "title": "攻略概览", "html": "<p>故宫（紫禁城）是北京必访的核心景点，建议提前预约门票、留足半天时间，沿中轴线依次参观三大殿与后三宫。</p>" },
+    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
+    { "kind": "notes", "title": "注意事项", "items": ["门票预约与开放时间以景点官方公布为准。", "旺季人流较大，建议错峰出行。"] },
+    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-changcheng", "china-beijing-yiheyuan", "china-beijing-five-days"] }
+  ]
+}

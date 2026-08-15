@@ -1,0 +1,20 @@
+{
+  "id": "china",
+  "type": "country",
+  "country": "china",
+  "name": "中国",
+  "nameEn": "China",
+  "title": "中国旅行攻略 | Global Travel Guide",
+  "description": "中国目的地旅行攻略：从北京等城市出发，覆盖景点、路线、最佳旅行时间与实用攻略。",
+  "keywords": "中国旅行攻略,中国旅游,北京旅行,中国自由行",
+  "h1": "中国",
+  "lead": "探索中国的历史名城与现代都市，从首都北京的古都风韵开始。",
+  "sections": [
+    {
+      "title": "热门城市",
+      "items": [
+        { "title": "北京 · 中国", "desc": "故宫、长城、颐和园与胡同烟火。", "url": "/china/beijing/" }
+      ]
+    }
+  ]
+}

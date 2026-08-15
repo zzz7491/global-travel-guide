@@ -1,0 +1,18 @@
+{
+  "id": "china-beijing-food",
+  "type": "guide",
+  "country": "china",
+  "city": "beijing",
+  "slug": "food",
+  "title": "北京美食攻略｜必吃与避坑",
+  "description": "北京美食攻略：烤鸭、铜锅涮肉、小吃与用餐避坑，附区域推荐。",
+  "keywords": "北京美食攻略,北京烤鸭,北京小吃,北京自由行",
+  "h1": "北京美食攻略",
+  "lead": "除了烤鸭与铜锅涮肉，胡同里的老字号小吃也值得一试；留意 tourist trap。",
+  "blocks": [
+    { "kind": "section", "title": "攻略概览", "html": "<p>除了烤鸭与铜锅涮肉，胡同里的老字号小吃也值得一试；留意 tourist trap。</p>" },
+    { "kind": "section", "title": "核心内容", "html": "<h3>必吃清单</h3><p>占位：待补充详细攻略内容。</p><h3>区域推荐</h3><p>占位：待补充建议。</p>" },
+    { "kind": "notes", "title": "注意事项", "items": ["王府井小吃街部分摊位价格虚高，建议只逛不买。", "烤鸭推荐提前取号或订位。"] },
+    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-accommodation", "china-beijing-five-days", "china-beijing-tips"] }
+  ]
+}

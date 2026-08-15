@@ -1,0 +1,9 @@
+<h1>{{h1}}</h1>
+<p class="lead">{{lead}}</p>
+{{#each blocks}}
+<section class="block">
+  {{#if title}}<h2>{{title}}</h2>{{/if}}
+  {{{inner}}}
+</section>
+{{/each}}
+<p class="back"><a href="{{backUrl}}">&larr; {{backLabel}}</a></p>
