@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>京城金秋·五日经济版定制路书</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --primary:#2E7D32;
+    --primary-light:#43A047;
+    --primary-dark:#1B5E20;
+    --gold:#F9A825;
+    --gold-light:#FBC02D;
+    --ink:#2B2B2B;
+    --ink-light:#5A5A5A;
+    --bg-cream:#FAF6F0;
+    --bg-light:#F5F0E8;
+    --bg-card:#FFFFFF;
+    --accent-red:#C0392B;
+    --accent-green:#27AE60;
+    --accent-blue:#2980B9;
+    --accent-orange:#E67E22;
+    --accent-purple:#8E44AD;
+    --shadow:0 4px 20px rgba(0,0,0,0.08);
+    --shadow-lg:0 8px 40px rgba(0,0,0,0.12);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    font-family:'Noto Sans SC',sans-serif;
+    color:var(--ink);
+    background:var(--bg-cream);
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+  }
+  .serif{font-family:'Noto Serif SC',serif;}
+
+  /* ====== 封面 ====== */
+  .cover{
+    min-height:100vh;
+    background:linear-gradient(135deg,#1B5E20 0%,#2E7D32 50%,#43A047 100%);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+    padding:60px 20px;
+  }
+  .cover::before{
+    content:'';
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-image:
+      radial-gradient(circle at 20% 30%,rgba(249,168,37,0.15) 0%,transparent 50%),
+      radial-gradient(circle at 80% 70%,rgba(249,168,37,0.1) 0%,transparent 50%);
+  }
+  .cover-content{position:relative;z-index:1;max-width:700px;}
+  .cover-tag{
+    display:inline-block;
+    padding:6px 20px;
+    border:1px solid rgba(249,168,37,0.5);
+    border-radius:30px;
+    font-size:13px;
+    letter-spacing:3px;
+    color:var(--gold);
+    margin-bottom:30px;
+  }
+  .cover h1{
+    font-family:'Noto Serif SC',serif;
+    font-size:54px;
+    font-weight:900;
+    line-height:1.3;
+    margin-bottom:16px;
+    text-shadow:0 4px 30px rgba(0,0,0,0.3);
+  }
+  .cover h2{
+    font-family:'Noto Serif SC',serif;
+    font-size:22px;
+    font-weight:400;
+    color:var(--gold-light);
+    letter-spacing:6px;
+    margin-bottom:50px;
+  }
+  .cover-divider{
+    width:60px;height:3px;
+    background:var(--gold);
+    margin:0 auto 40px;
+  }
+  .cover-info{
+    display:flex;
+    gap:40px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+  }
+  .cover-info-item{text-align:center;}
+  .cover-info-item .num{
+    font-family:'Noto Serif SC',serif;
+    font-size:36px;
+    font-weight:700;
+    color:var(--gold);
+  }
+  .cover-info-item .label{
+    font-size:12px;
+    letter-spacing:2px;
+    opacity:0.8;
+  }
+  .cover-badge{
+    display:inline-block;
+    background:rgba(249,168,37,0.2);
+    border:1px solid var(--gold);
+    color:var(--gold-light);
+    padding:8px 24px;
+    border-radius:30px;
+    font-size:14px;
+    margin-top:10px;
+  }
+  .cover-bottom{
+    position:absolute;
+    bottom:40px;
+    left:0;right:0;
+    text-align:center;
+    font-size:12px;
+    color:rgba(255,255,255,0.5);
+    letter-spacing:2px;
+  }
+
+  /* ====== 通用容器 ====== */
+  .section{
+    max-width:960px;
+    margin:0 auto;
+    padding:60px 24px;
+  }
+  .section-title{
+    text-align:center;
+    margin-bottom:50px;
+  }
+  .section-title .icon{
+    display:inline-block;
+    width:48px;height:48px;
+    background:var(--primary);
+    color:#fff;
+    border-radius:50%;
+    line-height:48px;
+    font-size:22px;
+    margin-bottom:16px;
+  }
+  .section-title h2{
+    font-family:'Noto Serif SC',serif;
+    font-size:32px;
+    font-weight:700;
+    color:var(--primary-dark);
+    margin-bottom:8px;
+  }
+  .section-title p{
+    font-size:14px;
+    color:var(--ink-light);
+    letter-spacing:1px;
+  }
+
+  /* ====== 经济版亮点横幅 ====== */
+  .eco-banner{
+    background:linear-gradient(135deg,#FFF8E1,#FFECB3);
+    border:2px solid var(--gold);
+    border-radius:16px;
+    padding:32px;
+    margin-bottom:40px;
+    text-align:center;
+  }
+  .eco-banner h3{
+    font-family:'Noto Serif SC',serif;
+    font-size:22px;
+    color:var(--primary-dark);
+    margin-bottom:16px;
+  }
+  .eco-banner .eco-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:12px;
+    margin-top:20px;
+  }
+  @media(max-width:768px){.eco-banner .eco-grid{grid-template-columns:repeat(2,1fr);}}
+  .eco-item{
+    background:#fff;
+    border-radius:10px;
+    padding:14px 10px;
+    text-align:center;
+  }
+  .eco-item .eco-icon{font-size:24px;margin-bottom:6px;}
+  .eco-item .eco-label{font-size:11px;color:var(--ink-light);margin-bottom:4px;}
+  .eco-item .eco-value{font-size:13px;font-weight:700;color:var(--primary-dark);}
+
+  /* ====== 行程总览 ====== */
+  .overview-cards{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:16px;
+    margin-bottom:40px;
+  }
+  @media(max-width:768px){.overview-cards{grid-template-columns:repeat(2,1fr);}}
+  .overview-card{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:20px 16px;
+    text-align:center;
+    box-shadow:var(--shadow);
+    border-top:4px solid var(--primary);
+    transition:transform 0.3s;
+  }
+  .overview-card:hover{transform:translateY(-4px);}
+  .overview-card .day-badge{
+    display:inline-block;
+    background:var(--primary);
+    color:#fff;
+    padding:4px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:12px;
+  }
+  .overview-card h3{
+    font-family:'Noto Serif SC',serif;
+    font-size:16px;
+    font-weight:700;
+    color:var(--ink);
+    margin-bottom:8px;
+    line-height:1.4;
+  }
+  .overview-card .theme{
+    font-size:12px;
+    color:var(--ink-light);
+    margin-bottom:10px;
+  }
+  .overview-card .spots{
+    font-size:11px;
+    color:var(--primary);
+    line-height:1.6;
+  }
+  .overview-card .ticket{
+    margin-top:8px;
+    font-size:11px;
+    color:var(--gold);
+    font-weight:700;
+  }
+
+  .chart-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    margin-bottom:30px;
+  }
+  @media(max-width:768px){.chart-row{grid-template-columns:1fr;}}
+  .chart-card{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:24px;
+    box-shadow:var(--shadow);
+  }
+  .chart-card h4{
+    font-size:15px;
+    font-weight:700;
+    color:var(--ink);
+    margin-bottom:16px;
+    text-align:center;
+  }
+  .chart-container{
+    position:relative;
+    height:240px;
+  }
+
+  /* ====== 门票三档对比 ====== */
+  .ticket-tiers{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-bottom:40px;
+  }
+  @media(max-width:768px){.ticket-tiers{grid-template-columns:1fr;}}
+  .tier-card{
+    background:var(--bg-card);
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    transition:transform 0.3s;
+  }
+  .tier-card:hover{transform:translateY(-4px);}
+  .tier-card .tier-header{
+    padding:20px;
+    text-align:center;
+    color:#fff;
+  }
+  .tier-card.tier1 .tier-header{background:linear-gradient(135deg,#43A047,#2E7D32);}
+  .tier-card.tier2 .tier-header{background:linear-gradient(135deg,#F9A825,#F57F17);}
+  .tier-card.tier3 .tier-header{background:linear-gradient(135deg,#8E44AD,#6A1B9A);}
+  .tier-card .tier-name{font-family:'Noto Serif SC',serif;font-size:18px;font-weight:700;margin-bottom:4px;}
+  .tier-card .tier-price{font-size:28px;font-weight:900;font-family:'Noto Serif SC',serif;}
+  .tier-card .tier-price small{font-size:14px;font-weight:400;}
+  .tier-card .tier-body{padding:20px;}
+  .tier-card .tier-body p{font-size:12px;color:var(--ink-light);line-height:1.7;}
+  .tier-card .tier-body ul{list-style:none;margin-top:10px;}
+  .tier-card .tier-body li{
+    font-size:12px;
+    padding:4px 0 4px 16px;
+    position:relative;
+    color:var(--ink);
+  }
+  .tier-card .tier-body li::before{content:'✓';position:absolute;left:0;color:var(--primary);font-weight:700;}
+
+  /* ====== 时间轴每日行程 ====== */
+  .day-section{
+    margin-bottom:60px;
+    background:var(--bg-card);
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:var(--shadow-lg);
+  }
+  .day-header{
+    background:linear-gradient(135deg,var(--primary-dark),var(--primary));
+    color:#fff;
+    padding:28px 32px;
+    position:relative;
+  }
+  .day-header::after{
+    content:'';
+    position:absolute;
+    bottom:0;left:0;right:0;
+    height:4px;
+    background:var(--gold);
+  }
+  .day-header .day-num{
+    font-family:'Noto Serif SC',serif;
+    font-size:14px;
+    letter-spacing:3px;
+    color:var(--gold-light);
+    margin-bottom:4px;
+  }
+  .day-header h3{
+    font-family:'Noto Serif SC',serif;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:6px;
+  }
+  .day-header .day-sub{
+    font-size:13px;
+    opacity:0.85;
+  }
+  .day-header .day-tag{
+    position:absolute;
+    top:28px;right:32px;
+    background:rgba(249,168,37,0.2);
+    border:1px solid var(--gold);
+    color:var(--gold);
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:500;
+  }
+  .day-header .day-ticket{
+    position:absolute;
+    top:62px;right:32px;
+    background:rgba(255,255,255,0.15);
+    padding:4px 12px;
+    border-radius:12px;
+    font-size:12px;
+    color:#fff;
+  }
+
+  .day-body{padding:32px;}
+  .timeline{position:relative;padding-left:28px;}
+  .timeline::before{
+    content:'';
+    position:absolute;
+    left:8px;top:0;bottom:0;
+    width:2px;
+    background:linear-gradient(to bottom,var(--primary) 0%,var(--gold) 100%);
+  }
+  .timeline-item{
+    position:relative;
+    margin-bottom:28px;
+    padding-bottom:28px;
+    border-bottom:1px dashed #E8E0D5;
+  }
+  .timeline-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0;}
+  .timeline-item::before{
+    content:'';
+    position:absolute;
+    left:-28px;top:4px;
+    width:18px;height:18px;
+    border-radius:50%;
+    background:#fff;
+    border:3px solid var(--primary);
+    z-index:1;
+  }
+  .timeline-item.scenic::before{border-color:var(--accent-green);}
+  .timeline-item.food::before{border-color:var(--accent-orange);}
+  .timeline-item.hotel::before{border-color:var(--accent-purple);}
+  .timeline-item.transport::before{border-color:var(--accent-blue);}
+
+  .timeline-time{
+    display:inline-block;
+    background:var(--bg-light);
+    padding:2px 10px;
+    border-radius:4px;
+    font-size:12px;
+    font-weight:700;
+    color:var(--primary);
+    margin-bottom:8px;
+  }
+  .timeline-title{
+    font-family:'Noto Serif SC',serif;
+    font-size:17px;
+    font-weight:700;
+    color:var(--ink);
+    margin-bottom:6px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    flex-wrap:wrap;
+  }
+  .timeline-title .badge{
+    font-size:10px;
+    padding:2px 8px;
+    border-radius:10px;
+    font-weight:400;
+    font-family:'Noto Sans SC',sans-serif;
+  }
+  .badge-scenic{background:#E8F5E9;color:#2E7D32;}
+  .badge-food{background:#FFF3E0;color:#E65100;}
+  .badge-hotel{background:#F3E5F5;color:#6A1B9A;}
+  .badge-transport{background:#E3F2FD;color:#1565C0;}
+  .badge-free{background:#C8E6C9;color:#1B5E20;font-weight:700;}
+  .badge-paid{background:#FFCDD2;color:#B71C1C;font-weight:700;}
+  .badge-optional{background:#FFF9C4;color:#F57F17;font-weight:700;}
+  .timeline-desc{
+    font-size:13px;
+    color:var(--ink-light);
+    line-height:1.7;
+    margin-bottom:8px;
+  }
+  .timeline-tips{
+    background:var(--bg-light);
+    border-left:3px solid var(--gold);
+    padding:8px 12px;
+    border-radius:0 6px 6px 0;
+    font-size:12px;
+    color:var(--ink-light);
+  }
+  .timeline-tips strong{color:var(--primary);}
+
+  .info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:12px;
+    margin-top:10px;
+  }
+  .info-item{
+    background:var(--bg-light);
+    padding:8px 12px;
+    border-radius:6px;
+    font-size:12px;
+  }
+  .info-item .label{color:var(--ink-light);font-size:11px;}
+  .info-item .value{color:var(--ink);font-weight:700;}
+  .info-item .value.free{color:var(--accent-green);}
+  .info-item .value.paid{color:var(--accent-red);}
+
+  /* ====== 方案AB切换 ====== */
+  .alt-plan{
+    background:linear-gradient(135deg,#E8F5E9,#F5F0E8);
+    border:1px dashed var(--primary);
+    border-radius:10px;
+    padding:16px;
+    margin-top:12px;
+  }
+  .alt-plan h5{
+    font-family:'Noto Serif SC',serif;
+    font-size:14px;
+    color:var(--primary-dark);
+    margin-bottom:8px;
+  }
+  .alt-plan p{font-size:12px;color:var(--ink-light);line-height:1.7;}
+
+  /* ====== 住宿对比表 ====== */
+  .hotel-compare{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0;
+    background:var(--bg-card);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    margin-bottom:24px;
+  }
+  .hotel-compare th{
+    background:var(--primary);
+    color:#fff;
+    padding:14px 12px;
+    text-align:center;
+    font-size:13px;
+    font-weight:700;
+  }
+  .hotel-compare td{
+    padding:12px;
+    border-bottom:1px solid #F0E8DC;
+    font-size:12px;
+    text-align:center;
+  }
+  .hotel-compare tr:last-child td{border-bottom:none;}
+  .hotel-compare tr:nth-child(even) td{background:var(--bg-light);}
+  .hotel-compare .hotel-name{text-align:left;font-weight:700;color:var(--primary);}
+  .hotel-compare .price{color:var(--accent-red);font-weight:700;}
+
+  /* ====== 预算表 ====== */
+  .budget-table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0;
+    background:var(--bg-card);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    margin-bottom:24px;
+  }
+  .budget-table th{
+    background:var(--primary);
+    color:#fff;
+    padding:14px 16px;
+    text-align:center;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+  }
+  .budget-table td{
+    padding:12px 16px;
+    border-bottom:1px solid #F0E8DC;
+    font-size:13px;
+    text-align:center;
+  }
+  .budget-table tr:last-child td{border-bottom:none;}
+  .budget-table tr:nth-child(even) td{background:var(--bg-light);}
+  .budget-table .total-row td{
+    background:var(--primary-dark);
+    color:#fff;
+    font-weight:700;
+    font-size:14px;
+  }
+  .budget-table .category{text-align:left;font-weight:700;color:var(--primary);}
+
+  /* ====== 三档预算对比卡片 ====== */
+  .budget-tiers{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    margin-bottom:24px;
+  }
+  @media(max-width:768px){.budget-tiers{grid-template-columns:1fr;}}
+  .budget-tier-card{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:20px;
+    box-shadow:var(--shadow);
+    border-top:4px solid;
+    text-align:center;
+  }
+  .budget-tier-card.tier1{border-top-color:var(--accent-green);}
+  .budget-tier-card.tier2{border-top-color:var(--gold);}
+  .budget-tier-card.tier3{border-top-color:var(--accent-purple);}
+  .budget-tier-card h4{
+    font-family:'Noto Serif SC',serif;
+    font-size:16px;
+    margin-bottom:8px;
+  }
+  .budget-tier-card .big-price{
+    font-family:'Noto Serif SC',serif;
+    font-size:28px;
+    font-weight:900;
+    margin-bottom:4px;
+  }
+  .budget-tier-card.tier1 .big-price{color:var(--accent-green);}
+  .budget-tier-card.tier2 .big-price{color:var(--gold);}
+  .budget-tier-card.tier3 .big-price{color:var(--accent-purple);}
+  .budget-tier-card .per-person{font-size:12px;color:var(--ink-light);margin-bottom:8px;}
+  .budget-tier-card .desc{font-size:12px;color:var(--ink-light);line-height:1.6;}
+
+  /* ====== 提醒卡片 ====== */
+  .tips-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  @media(max-width:768px){.tips-grid{grid-template-columns:1fr;}}
+  .tips-card{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:24px;
+    box-shadow:var(--shadow);
+    border-top:4px solid;
+  }
+  .tips-card.urgent{border-top-color:var(--accent-red);}
+  .tips-card.booking{border-top-color:var(--accent-orange);}
+  .tips-card.notice{border-top-color:var(--accent-blue);}
+  .tips-card h4{
+    font-family:'Noto Serif SC',serif;
+    font-size:17px;
+    font-weight:700;
+    margin-bottom:14px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .tips-card ul{list-style:none;}
+  .tips-card li{
+    font-size:13px;
+    color:var(--ink-light);
+    padding:6px 0;
+    padding-left:18px;
+    position:relative;
+    line-height:1.7;
+    border-bottom:1px dashed #F0E8DC;
+  }
+  .tips-card li:last-child{border-bottom:none;}
+  .tips-card li::before{
+    content:'▸';
+    position:absolute;
+    left:0;
+    color:var(--primary);
+    font-weight:700;
+  }
+  .tips-card li strong{color:var(--ink);}
+
+  /* ====== 省钱秘籍 ====== */
+  .saving-tips{
+    background:linear-gradient(135deg,#E8F5E9,#F5F0E8);
+    border-radius:12px;
+    padding:28px;
+    margin-bottom:24px;
+  }
+  .saving-tips h3{
+    font-family:'Noto Serif SC',serif;
+    font-size:20px;
+    color:var(--primary-dark);
+    margin-bottom:16px;
+    padding-bottom:10px;
+    border-bottom:2px solid var(--gold);
+  }
+  .saving-tips .tip-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+  }
+  @media(max-width:768px){.saving-tips .tip-grid{grid-template-columns:1fr;}}
+  .saving-tips .tip-item{
+    background:#fff;
+    border-radius:8px;
+    padding:12px 14px;
+    font-size:13px;
+    color:var(--ink-light);
+    line-height:1.6;
+  }
+  .saving-tips .tip-item strong{color:var(--primary);}
+
+  /* ====== 附录 ====== */
+  .appendix{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:32px;
+    box-shadow:var(--shadow);
+    margin-bottom:30px;
+  }
+  .appendix h3{
+    font-family:'Noto Serif SC',serif;
+    font-size:20px;
+    color:var(--primary-dark);
+    margin-bottom:16px;
+    padding-bottom:10px;
+    border-bottom:2px solid var(--gold);
+  }
+  .packing-list{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+  }
+  @media(max-width:768px){.packing-list{grid-template-columns:1fr;}}
+  .packing-list li{
+    list-style:none;
+    font-size:13px;
+    padding:6px 0 6px 20px;
+    position:relative;
+    color:var(--ink-light);
+  }
+  .packing-list li::before{
+    content:'✓';
+    position:absolute;left:0;
+    color:var(--accent-green);
+    font-weight:700;
+  }
+
+  /* ====== 页脚 ====== */
+  .footer{
+    background:var(--primary-dark);
+    color:rgba(255,255,255,0.6);
+    text-align:center;
+    padding:40px 20px;
+    font-size:12px;
+    letter-spacing:1px;
+  }
+  .footer strong{color:var(--gold);}
+
+  /* ====== 动画 ====== */
+  @keyframes fadeUp{
+    from{opacity:0;transform:translateY(20px);}
+    to{opacity:1;transform:translateY(0);}
+  }
+  .day-section{animation:fadeUp 0.6s ease-out;}
+
+  /* 打印优化 */
+  @media print{
+    body{background:#fff;}
+    .cover{min-height:auto;page-break-after:always;}
+    .section{padding:30px 16px;}
+    .day-section{box-shadow:none;border:1px solid #ddd;page-break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== 封面 ===== -->
+<div class="cover">
+  <div class="cover-content">
+    <div class="cover-tag">ECONOMY EDITION · PRIVATE GUIDEBOOK</div>
+    <h1>京城金秋<br>五日经济版路书</h1>
+    <div class="cover-divider"></div>
+    <h2 class="serif">省钱不省精彩 · 平价也出深度</h2>
+    <div class="cover-info">
+      <div class="cover-info-item">
+        <div class="num serif">5</div>
+        <div class="label">DAYS</div>
+      </div>
+      <div class="cover-info-item">
+        <div class="num serif">15+</div>
+        <div class="label">FREE SPOTS</div>
+      </div>
+      <div class="cover-info-item">
+        <div class="num serif">¥42+</div>
+        <div class="label">TICKETS FROM</div>
+      </div>
+      <div class="cover-info-item">
+        <div class="num serif">¥90</div>
+        <div class="label">TRANSIT</div>
+      </div>
+    </div>
+    <div class="cover-badge">💰 不含往返路费 · 全地铁出行 · 经济型酒店</div>
+  </div>
+  <div class="cover-bottom">
+    2026 · 九月中下旬 · 国庆前夕 · 花最少的钱看最深的北京
+  </div>
+</div>
+
+<!-- ===== 经济版调整亮点 ===== -->
+<div class="section" id="eco-highlight">
+  <div class="section-title">
+    <div class="icon">💰</div>
+    <h2 class="serif">经济版核心调整</h2>
+    <p>WHAT'S CHANGED IN THIS ECONOMY EDITION</p>
+  </div>
+
+  <div class="eco-banner">
+    <h3>vs 原版方案 · 五大核心变化</h3>
+    <p style="font-size:13px;color:var(--ink-light);">根据用户经费紧张的实际情况，在保留北京精华体验的前提下全面压缩开支</p>
+    <div class="eco-grid">
+      <div class="eco-item">
+        <div class="eco-icon">🚫</div>
+        <div class="eco-label">往返大交通</div>
+        <div class="eco-value">已去掉<br>用户自行控制</div>
+      </div>
+      <div class="eco-item">
+        <div class="eco-icon">🎫</div>
+        <div class="eco-label">门票策略</div>
+        <div class="eco-value">免费为主<br>三档可选¥42起</div>
+      </div>
+      <div class="eco-item">
+        <div class="eco-icon">🏨</div>
+        <div class="eco-label">住宿标准</div>
+        <div class="eco-value">经济连锁<br>¥150-280/晚</div>
+      </div>
+      <div class="eco-item">
+        <div class="eco-icon">🚇</div>
+        <div class="eco-label">市内交通</div>
+        <div class="eco-value">全地铁<br>5天约¥90-120</div>
+      </div>
+      <div class="eco-item">
+        <div class="eco-icon">🍜</div>
+        <div class="eco-label">美食策略</div>
+        <div class="eco-value">去高价餐厅<br>扩平价小吃</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 行程总览 ===== -->
+<div class="section" id="overview">
+  <div class="section-title">
+    <div class="icon">📊</div>
+    <h2 class="serif">行程总览</h2>
+    <p>FIVE DAYS AT A GLANCE</p>
+  </div>
+
+  <div class="overview-cards">
+    <div class="overview-card">
+      <span class="day-badge">DAY 1</span>
+      <h3>中轴皇城</h3>
+      <div class="theme">初识北京磅礴气象</div>
+      <div class="spots">天安门广场(免费)<br>故宫(¥40)<br>景山(¥2)<br>前门大街(免费)</div>
+      <div class="ticket">🎫 门票42元</div>
+    </div>
+    <div class="overview-card">
+      <span class="day-badge">DAY 2</span>
+      <h3>长城雄关</h3>
+      <div class="theme">登临万里脊梁</div>
+      <div class="spots">方案A:慕田峪长城(¥40)<br>方案B:免费城市探索<br>明城墙遗址/三里屯</div>
+      <div class="ticket">🎫 门票40/0元</div>
+    </div>
+    <div class="overview-card">
+      <span class="day-badge">DAY 3</span>
+      <h3>园林校园</h3>
+      <div class="theme">免费文艺日</div>
+      <div class="spots">颐和园(可选¥30)<br>清华/北大(免费)<br>五道营胡同(免费)<br>国子监街(免费)</div>
+      <div class="ticket">🎫 门票0~30元</div>
+    </div>
+    <div class="overview-card">
+      <span class="day-badge">DAY 4</span>
+      <h3>胡同市井</h3>
+      <div class="theme">人间烟火深度体验</div>
+      <div class="spots">天坛(可选¥15/34)<br>南锣鼓巷(免费)<br>什刹海(免费)<br>钟鼓楼广场(免费)</div>
+      <div class="ticket">🎫 门票0~34元</div>
+    </div>
+    <div class="overview-card">
+      <span class="day-badge">DAY 5</span>
+      <h3>艺术收官</h3>
+      <div class="theme">免费文化盛宴</div>
+      <div class="spots">国博(免费)<br>798艺术区(免费)<br>奥林匹克公园(免费)<br>簋街(免费逛街)</div>
+      <div class="ticket">🎫 门票0元 🎉</div>
+    </div>
+  </div>
+
+  <div class="chart-row">
+    <div class="chart-card">
+      <h4>📅 每日游玩时长分配</h4>
+      <div class="chart-container"><canvas id="chart-hours"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h4>💰 单人总预算构成（推荐平衡版）</h4>
+      <div class="chart-container"><canvas id="chart-budget"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 门票三档选择 ===== -->
+<div class="section" id="tickets">
+  <div class="section-title">
+    <div class="icon">🎫</div>
+    <h2 class="serif">门票三档方案</h2>
+    <p>FLEXIBLE TICKET OPTIONS · CHOOSE BY YOUR BUDGET</p>
+  </div>
+
+  <div class="ticket-tiers">
+    <div class="tier-card tier1">
+      <div class="tier-header">
+        <div class="tier-name">极致省钱版</div>
+        <div class="tier-price">¥42<small>/人</small></div>
+      </div>
+      <div class="tier-body">
+        <p>只花在"绝对必去"的景点上</p>
+        <ul>
+          <li>故宫 ¥40（必去之王）</li>
+          <li>景山公园 ¥2（性价比之王）</li>
+          <li>Day2选方案B免费日</li>
+          <li>不去颐和园、天坛</li>
+        </ul>
+        <p style="margin-top:8px;color:var(--accent-green);font-weight:700;">省了约80%！</p>
+      </div>
+    </div>
+    <div class="tier-card tier2">
+      <div class="tier-header">
+        <div class="tier-name">推荐平衡版 ⭐</div>
+        <div class="tier-price">¥97<small>/人</small></div>
+      </div>
+      <div class="tier-body">
+        <p>兼顾必去地标与长城体验</p>
+        <ul>
+          <li>故宫 ¥40 + 景山 ¥2</li>
+          <li>慕田峪长城 ¥40</li>
+          <li>天坛大门票 ¥15</li>
+          <li>不去颐和园联票</li>
+        </ul>
+        <p style="margin-top:8px;color:var(--gold);font-weight:700;">省了约一半！</p>
+      </div>
+    </div>
+    <div class="tier-card tier3">
+      <div class="tier-header">
+        <div class="tier-name">完整体验版</div>
+        <div class="tier-price">¥146<small>/人</small></div>
+      </div>
+      <div class="tier-body">
+        <p>不留遗憾的全景体验</p>
+        <ul>
+          <li>故宫 ¥40 + 景山 ¥2</li>
+          <li>慕田峪长城 ¥40</li>
+          <li>颐和园 ¥30</li>
+          <li>天坛联票 ¥34</li>
+        </ul>
+        <p style="margin-top:8px;color:var(--accent-purple);font-weight:700;">比原版仍省30%！</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 住宿推荐 ===== -->
+<div class="section" id="hotels">
+  <div class="section-title">
+    <div class="icon">🏨</div>
+    <h2 class="serif">经济型酒店推荐</h2>
+    <p>3选1 · 建议连住5晚不换</p>
+  </div>
+
+  <table class="hotel-compare">
+    <thead>
+      <tr>
+        <th>酒店</th>
+        <th>参考价格</th>
+        <th>5晚总价</th>
+        <th>最近地铁</th>
+        <th>核心优势</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="hotel-name">🥇 汉庭·前门大街</td>
+        <td class="price">¥220-280/晚</td>
+        <td>¥1100-1400</td>
+        <td>前门站(2/8号线)<br>步行5min</td>
+        <td>皇城核心，步行到天安门10min，Day1&4动线最优锚点</td>
+      </tr>
+      <tr>
+        <td class="hotel-name">🥈 如家·鼓楼大街</td>
+        <td class="price">¥180-240/晚</td>
+        <td>¥900-1200</td>
+        <td>鼓楼大街站(2/8号线)<br>步行5min</td>
+        <td>价格最低，贴近胡同文化区，出门即什刹海</td>
+      </tr>
+      <tr>
+        <td class="hotel-name">🥉 锦江之星·西直门</td>
+        <td class="price">¥200-260/晚</td>
+        <td>¥1000-1300</td>
+        <td>西直门站(2/4/13号线)<br>步行5min</td>
+        <td>三线换乘枢纽，去长城和颐和园最方便</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="timeline-tips" style="margin-top:16px;">
+    <strong>💡 选住建议：</strong>5天行程建议选定一家酒店连住，避免搬运行李浪费时间。首推<strong>汉庭前门大街店</strong>，地处皇城核心，Day1故宫天安门和Day4天坛前门均可步行到达。9月下旬临近国庆，经济酒店涨价明显，<strong>建议提前7-10天预订</strong>，推荐使用华住会/如家/锦江官方App享会员价。
+  </div>
+</div>
+
+<!-- ===== 每日行程 ===== -->
+<div class="section" id="daily">
+
+  <!-- ====== DAY 1 ====== -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-num">DAY 01</div>
+      <h3 class="serif">中轴皇城 · 初识北京磅礴气象</h3>
+      <div class="day-sub">沿北京中轴线，一日阅尽六百年皇家气度 · 门票性价比最高的一天</div>
+      <span class="day-tag">🏆 必去高性价比</span>
+      <span class="day-ticket">🎫 当日门票 ¥42</span>
+    </div>
+    <div class="day-body">
+      <div class="timeline">
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">抵达北京</span>
+          <div class="timeline-title">🚇 抵京入住酒店<span class="badge badge-transport">交通</span></div>
+          <div class="timeline-desc">自行抵达北京（往返路费用户自行控制）。出站后乘地铁至酒店，放下行李轻装出行。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">交通方式</div><div class="value">地铁</div></div>
+            <div class="info-item"><div class="label">耗时</div><div class="value">30-60min</div></div>
+            <div class="info-item"><div class="label">费用</div><div class="value">¥4-6</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">早餐</span>
+          <div class="timeline-title">🥟 锦芳小吃（鲜鱼口店）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">从酒店步行5分钟即到。地道老北京早餐——豆汁油饼、面茶、驴打滚，品种丰富价格亲民。15-25元吃饱。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">类型</div><div class="value">老北京早餐</div></div>
+            <div class="info-item"><div class="label">人均</div><div class="value">¥15-25</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">上午</span>
+          <div class="timeline-title">🏛 天安门广场<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">9月北京秋高气爽，天蓝如洗。在天安门城楼前驻足，感受大国首都的庄严气象。以城楼为背景拍下北京第一张合影。升旗仪式约5:50开始，可选择性观看。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">30-60分钟</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费（需预约）</div></div>
+            <div class="info-item"><div class="label">出片机位</div><div class="value">城楼正前方中轴线</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 提醒：</strong>需提前在"天安门广场预约"小程序预约；带身份证；安检较严，尽量轻装。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">09:00 - 14:00</span>
+          <div class="timeline-title">🏯 故宫博物院（紫禁城）<span class="badge badge-scenic">景点</span> <span class="badge badge-paid">¥40</span></div>
+          <div class="timeline-desc">世界现存最大最完整的木结构古建筑群，9月游客远少于暑期和国庆。走"中轴+东西六宫"路线，既看三大殿恢弘，也走进延禧宫、储秀宫看后宫人间烟火。从午门进、神武门出，不走回头路。40元看六百年帝王居所，全北京性价比最高没有之一。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">4-5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value paid">¥40（必去之王）</div></div>
+            <div class="info-item"><div class="label">出片机位</div><div class="value">太和殿·角楼·延禧宫</div></div>
+            <div class="info-item"><div class="label">午餐</div><div class="value">故宫内冰窖餐厅¥30-40</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 抢票：</strong>必须提前7天20:00在"故宫博物院"公众号抢票！午门附近可租讲解器。预算极低可自带干粮。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">15:00 - 16:30</span>
+          <div class="timeline-title">⛰ 景山公园 · 俯瞰紫禁城<span class="badge badge-scenic">景点</span> <span class="badge badge-paid">¥2</span></div>
+          <div class="timeline-desc">故宫神武门正对面，登万春亭只需20分钟，可360°俯瞰北京中轴线——脚下是金黄琉璃瓦的紫禁城全貌，远处CBD现代天际线与古老皇城同框。2元换一个"上帝视角"，全北京最值。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1-1.5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value paid">¥2（性价比之王）</div></div>
+            <div class="info-item"><div class="label">最佳时间</div><div class="value">16:30上山等日落</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">晚餐</span>
+          <div class="timeline-title">🦆 四季民福（王府井店）<span class="badge badge-food">餐饮</span></div>
+          <div class="timeline-desc">王府井步行街收尾。本地人最爱的高性价比烤鸭，果木烤鸭外脆里嫩，价格仅大董的三分之一。芥末鸭掌、鸭架汤也是必点。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">类型</div><div class="value">性价比烤鸭</div></div>
+            <div class="info-item"><div class="label">人均</div><div class="value">¥120-150</div></div>
+            <div class="info-item"><div class="label">招牌</div><div class="value">果木烤鸭·芥末鸭掌</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 排队：</strong>故宫店排队最久，选王府井店或灯市口店，11点前到几乎不排。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">晚上</span>
+          <div class="timeline-title">🛍 前门大街 + 大栅栏<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">百年老字号聚集地，夜晚灯火通明，是感受"老北京"烟火气的最佳落点。老式铛铛车穿行街巷，复古感十足。</div>
+          <div class="timeline-tips"><strong>💡 省钱提醒：</strong>王府井小吃街偏贵，建议看即可，吃饭回大栅栏更实惠。都一处烧卖、陈记卤煮小肠均为人均20-40元平价老字号。</div>
+        </div>
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">交通汇总</span>
+          <div class="timeline-title">🚇 Day1 交通动线<span class="badge badge-transport">交通</span></div>
+          <div class="timeline-desc">酒店→天安门（地铁1号线，20-30min，¥3-4）→故宫→景山（步行）→前门/王府井（步行）→酒店（地铁，20min，¥3-5）</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">交通方式</div><div class="value">地铁+步行</div></div>
+            <div class="info-item"><div class="label">Day1费用</div><div class="value">约¥10-15/人</div></div>
+            <div class="info-item"><div class="label">餐饮合计</div><div class="value">¥165-215/人</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== DAY 2 ====== -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-num">DAY 02</div>
+      <h3 class="serif">长城雄关 · 登临万里脊梁</h3>
+      <div class="day-sub">提供两个方案供按预算选择 · 长城日或免费城市探索日</div>
+      <span class="day-tag">🏔 深度体验</span>
+      <span class="day-ticket">🎫 门票 ¥40 或 ¥0</span>
+    </div>
+    <div class="day-body">
+      <div class="timeline">
+
+        <div class="timeline-item food">
+          <span class="timeline-time">06:30 早餐</span>
+          <div class="timeline-title">🥟 庆丰包子铺（就近）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">快速解决，二两包子+粥，赶早出发去长城。15-20元吃饱。主席同款，最经济正餐。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">人均</div><div class="value">¥15-20</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">07:00 - 09:30</span>
+          <div class="timeline-title">🚌 最经济交通方案赴长城<span class="badge badge-transport">交通</span></div>
+          <div class="timeline-desc">地铁2号线至东直门→916路快车到怀柔北大街（约1h20min，¥12）→换乘H23/H24路公交到慕田峪（约40min，¥5）。单程约17元，往返约34元。全程约2-2.5小时。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">单程费用</div><div class="value">约¥17/人</div></div>
+            <div class="info-item"><div class="label">往返费用</div><div class="value">约¥34/人</div></div>
+            <div class="info-item"><div class="label">单程耗时</div><div class="value">约2-2.5h</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 关键提醒：</strong>① 916快首班约6:00，每10-15min一班；② H23/H24路发车间隔约20-30min，提前用"北京公交"APP查实时；③ <strong>返程末班约17:00-17:30从慕田峪发车，务必控制下山时间</strong>；④ 备¥20零钱以防手机故障。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">09:30 - 14:00</span>
+          <div class="timeline-title">🧱 慕田峪长城（方案A）<span class="badge badge-scenic">景点</span> <span class="badge badge-paid">¥40</span></div>
+          <div class="timeline-desc">比八达岭人少40%以上，植被覆盖率达96%，9月山间层林初染，是"最美长城"的代名词。敌楼密集、建筑形制丰富。40元看万里长城精华，是全北京仅次于故宫的性价比之选。<strong>如预算紧张可全程步行，不坐缆车/滑道。</strong></div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">4-5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value paid">¥40</div></div>
+            <div class="info-item"><div class="label">缆车/滑道</div><div class="value">另收费（可省）</div></div>
+            <div class="info-item"><div class="label">出片机位</div><div class="value">14号敌楼·20号敌楼</div></div>
+          </div>
+          <div class="timeline-tips"><strong>💡 省钱技巧：</strong>带足饮水和能量食品，山上物价高。缆车/滑道另收费，如预算紧张可全程步行上下山。</div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">午餐</span>
+          <div class="timeline-title">🍚 长城脚下农家菜/自带干粮<span class="badge badge-food">餐饮</span></div>
+          <div class="timeline-desc">景区内餐饮贵，建议山下小馆或自带面包水。农家菜人均30-50元。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">人均</div><div class="value">¥30-50</div></div>
+            <div class="info-item"><div class="label">省钱方案</div><div class="value">自带干粮¥0</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">晚餐</span>
+          <div class="timeline-title">🍜 姚记炒肝 + 爆肚冯（鼓楼）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">回城后到鼓楼吃经典老北京小吃。姚记炒肝——美国副总统吃过，炒肝+包子不到30元。爆肚冯——百年老字号清真爆肚，两家挨着可一起吃。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">姚记炒肝人均</div><div class="value">¥25-40</div></div>
+            <div class="info-item"><div class="label">爆肚冯人均</div><div class="value">¥40-60</div></div>
+            <div class="info-item"><div class="label">合计</div><div class="value">¥50-70/人</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">备选方案</span>
+          <div class="timeline-title">🆓 方案B：零门票城市探索日<span class="badge badge-scenic">替代方案</span> <span class="badge badge-free">全部免费</span></div>
+          <div class="timeline-desc">如果40元长城也觉得超预算，可将Day2替换为以下免费城市探索日：</div>
+          <div class="alt-plan">
+            <h5>📋 免费替代路线</h5>
+            <p>• <strong>明城墙遗址公园</strong>【免费】——北京仅存明清城墙遗址，秋日夕阳下极有历史感<br>
+            • <strong>皇城根遗址公园</strong>【免费】——沿故宫东墙遗址建成的带状公园<br>
+            • <strong>东交民巷</strong>【免费】——北京最长胡同，清末民国使馆区，西洋建筑群<br>
+            • <strong>三里屯太古里</strong>【免费】——北京最潮流街区，建筑现代感十足<br>
+            • <strong>亮马河畔步道</strong>【免费】——新晋网红滨河步道，傍晚灯光秀免费</p>
+          </div>
+        </div>
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">交通汇总</span>
+          <div class="timeline-title">🚇 Day2 交通动线<span class="badge badge-transport">交通</span></div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">交通方式</div><div class="value">地铁+916快+H23路</div></div>
+            <div class="info-item"><div class="label">Day2费用</div><div class="value">约¥40-44/人</div></div>
+            <div class="info-item"><div class="label">餐饮合计</div><div class="value">¥95-140/人</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== DAY 3 ====== -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-num">DAY 03</div>
+      <h3 class="serif">园林校园 · 免费文艺日</h3>
+      <div class="day-sub">免费公园+最高学府+文艺胡同 · 一天不花门票也精彩</div>
+      <span class="day-tag">🌿 免费文艺</span>
+      <span class="day-ticket">🎫 门票 ¥0~30</span>
+    </div>
+    <div class="day-body">
+      <div class="timeline">
+
+        <div class="timeline-item food">
+          <span class="timeline-time">早餐</span>
+          <div class="timeline-title">🥟 护国寺小吃（就近分店）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">品种丰富，豆汁焦圈驴打滚一次吃齐。老北京小吃集合店，品种最全。20-30元吃饱。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">人均</div><div class="value">¥20-30</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">09:00 - 12:30</span>
+          <div class="timeline-title">🌊 颐和园（可选）<span class="badge badge-scenic">景点</span> <span class="badge badge-optional">可选¥30</span></div>
+          <div class="timeline-desc">中国现存最大的皇家园林，9月昆明湖碧波荡漾，万寿山层林渐染。走"东宫门→仁寿殿→长廊→排云殿→佛香阁→昆明湖→十七孔桥→南湖岛"经典线。30元看世界文化遗产，性价比仍高。如预算紧张可跳过。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">3-4小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value paid">¥30（可选）</div></div>
+            <div class="info-item"><div class="label">出片机位</div><div class="value">佛香阁·十七孔桥</div></div>
+          </div>
+          <div class="alt-plan">
+            <h5>🆓 免费替代：紫竹院公园</h5>
+            <p>如不去颐和园，可替换为<strong>紫竹院公园</strong>【免费】——以竹闻名的小众公园，秋日翠竹青青、亭台掩映，人少景美，是北京人的私藏。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">午餐</span>
+          <div class="timeline-title">🥟 庆丰包子铺（颐和园附近）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">园外快速解决，省时省钱。猪肉大葱包子+粥，15-25元搞定。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">人均</div><div class="value">¥15-25</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">14:00 - 16:00</span>
+          <div class="timeline-title">🎓 清华/北大校园漫步<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">中国最高学府的秋色是北京人的私藏秘境。北大未名湖畔的博雅塔、清华二校门与荷塘月色，秋日午后光影温柔。感受"湖光塔影"与青春气息。选其一即可，推荐北大未名湖。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1.5-2小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费（需预约）</div></div>
+            <div class="info-item"><div class="label">预约方式</div><div class="value">"参观北大"小程序</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 提醒：</strong>需提前在"参观清华""参观北大"小程序预约；9月工作日较易约。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">16:00 - 17:30</span>
+          <div class="timeline-title">🏘 五道营胡同<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">北京新晋文艺地标，比南锣鼓巷更安静、更精致。独立咖啡馆、手作器物店、小众酒吧在此聚集，是"文青版"的北京。即使不消费，逛逛橱窗、拍拍照也极有氛围。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1.5-2小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">17:30 - 18:30</span>
+          <div class="timeline-title">🌿 国子监街漫步<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">北京最美的古街之一，两侧古槐夹道，国子监与孔庙红墙相对。秋日古树下光影斑驳，仿佛穿越回科举时代。<strong>不进馆不收费，仅逛街道本身已足够惊艳。</strong>雍和宫25元已砍掉，但外围红墙拍照同样好看，与国子监街仅一街之隔。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费（仅逛街道）</div></div>
+            <div class="info-item"><div class="label">出片机位</div><div class="value">古槐夹道·红墙蓝天</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">晚餐</span>
+          <div class="timeline-title">🍲 局气（三里屯/中关村店）<span class="badge badge-food">餐饮</span></div>
+          <div class="timeline-desc">创意京味菜，蜂窝煤炒饭很有仪式感，乾隆白菜清爽开胃，门钉肉饼皮薄馅大汁多，适合拍照发朋友圈。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">类型</div><div class="value">创意京菜</div></div>
+            <div class="info-item"><div class="label">人均</div><div class="value">¥80-100</div></div>
+            <div class="info-item"><div class="label">招牌</div><div class="value">蜂窝煤炒饭·乾隆白菜</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 排队：</strong>排队30-60分钟，建议提前在大众点评线上取号。</div>
+        </div>
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">交通汇总</span>
+          <div class="timeline-title">🚇 Day3 交通动线<span class="badge badge-transport">交通</span></div>
+          <div class="timeline-desc">酒店→颐和园北宫门（地铁4号线，40-50min，¥5-7）→清华/北大（地铁/步行）→五道营胡同（地铁2号线）→国子监街（步行）→晚餐→酒店</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">交通方式</div><div class="value">地铁+步行</div></div>
+            <div class="info-item"><div class="label">Day3费用</div><div class="value">约¥10-17/人</div></div>
+            <div class="info-item"><div class="label">餐饮合计</div><div class="value">¥115-155/人</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== DAY 4 ====== -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-num">DAY 04</div>
+      <h3 class="serif">胡同市井 · 人间烟火深度体验</h3>
+      <div class="day-sub">从天坛的神圣到胡同的市井 · 感受北京最真实的生活肌理</div>
+      <span class="day-tag">🏮 人文深度</span>
+      <span class="day-ticket">🎫 门票 ¥0~34</span>
+    </div>
+    <div class="day-body">
+      <div class="timeline">
+
+        <div class="timeline-item food">
+          <span class="timeline-time">早餐</span>
+          <div class="timeline-title">🥟 天兴居（鲜鱼口店）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">炒肝+包子，老北京早餐标配。与姚记齐名的炒肝老字号，始于1862年。15-25元吃饱。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">人均</div><div class="value">¥15-25</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">06:30 - 09:00</span>
+          <div class="timeline-title">🏛 天坛公园（可选）<span class="badge badge-scenic">景点</span> <span class="badge badge-optional">可选¥15/34</span></div>
+          <div class="timeline-desc">世界最大的祭天建筑群。9月清晨6:30开门，此时游客极少，本地晨练大爷大妈的身影让你看到"活着的天坛"——有人在祈年殿广场打太极，有人在古柏林下唱戏。祈年殿的三层蓝色琉璃瓦在秋日晨光下纯粹而庄严。<strong>省钱方案：只买大门票15元进园，能看祈年殿外观、回音壁外围、古柏林。</strong></div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">2-2.5小时</div></div>
+            <div class="info-item"><div class="label">大门票</div><div class="value paid">¥15（进园看外观）</div></div>
+            <div class="info-item"><div class="label">联票</div><div class="value paid">¥34（含祈年殿内部）</div></div>
+            <div class="info-item"><div class="label">免费方案</div><div class="value free">外围逛同样古朴</div></div>
+          </div>
+          <div class="timeline-tips"><strong>💡 省钱技巧：</strong>预算紧张可只买15元大门票（看祈年殿外观、回音壁外围、古柏林），或在公园外围免费逛，天坛外墙同样古朴。趁早到1小时，少挤2小时。</div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">午餐</span>
+          <div class="timeline-title">🍜 方砖厂69号炸酱面（什刹海附近）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">逛完南锣鼓巷吃碗米其林推荐的炸酱面。面条手擀，炸酱肉丁肥瘦相间，配上八样菜码，拌匀后每一口都是满足。25-35元一碗，米其林推荐平价面馆。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">类型</div><div class="value">米其林推荐·炸酱面</div></div>
+            <div class="info-item"><div class="label">人均</div><div class="value">¥25-35</div></div>
+            <div class="info-item"><div class="label">招牌</div><div class="value">炸酱面·腊八蒜</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">13:00 - 14:30</span>
+          <div class="timeline-title">🏘 南锣鼓巷<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">北京最知名的胡同商业街，主街热闹，但精华在两侧分支胡同——雨儿胡同、帽儿胡同、炒豆胡同，这里才是真北京。齐白石故居、茅盾故居外观看一眼即可。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1.5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费</div></div>
+          </div>
+          <div class="timeline-tips"><strong>💡 省钱提醒：</strong>主街小吃偏贵，建议拍照打卡为主，吃饭去什刹海周边更实惠。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">14:30 - 16:00</span>
+          <div class="timeline-title">🌊 什刹海胡同 + 银锭桥<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">从南锣鼓巷北口出来即是什刹海。沿湖漫步，过银锭桥——"银锭观山"是燕京小八景之一，站在桥头可远望西山。落日时分，后海水面映着柳树和四合院灰瓦，尤其醉人。沿湖长椅坐下来，看本地人钓鱼、唱戏、遛鸟，这才是北京的灵魂。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1.5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费</div></div>
+            <div class="info-item"><div class="label">隐藏秘境</div><div class="value">银锭观山（燕京小八景）</div></div>
+          </div>
+          <div class="timeline-tips"><strong>💡 省钱提醒：</strong>原版推荐租黄包车（150元/小时）已取消——自己走路逛胡同免费且更有乐趣。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">16:00 - 16:30</span>
+          <div class="timeline-title">🚬 烟袋斜街<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">比南锣更老牌的胡同商业街，从银锭桥边进入。卖烟袋、卖风筝、卖手工鞋垫，烟火气十足。短短200米却极有味道。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">30分钟</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">16:30 - 17:30</span>
+          <div class="timeline-title">🔔 钟鼓楼广场<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">鼓楼和钟楼是古代北京的"报时中心"，广场本身免费开放。在广场上看钟鼓楼雄姿、看大爷们踢毽子下棋，是北京最市井的画面。<strong>登楼20元标记为可选</strong>——在广场仰拍同样震撼。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1小时</div></div>
+            <div class="info-item"><div class="label">广场</div><div class="value free">免费</div></div>
+            <div class="info-item"><div class="label">登楼</div><div class="value paid">¥20（可选）</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">晚餐</span>
+          <div class="timeline-title">🥘 四世同堂（什刹海店）<span class="badge badge-food">餐饮</span></div>
+          <div class="timeline-desc">老舍同名小说主题餐厅，装修复原老北京四合院场景，服务员身着长衫马褂。铜锅涮肉用传统炭火铜锅，手切鲜羊肉薄如纸，配上麻酱小料，这才是北京人的灵魂美食。京酱肉丝、炸酱面也很地道。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">类型</div><div class="value">沉浸式京味菜</div></div>
+            <div class="info-item"><div class="label">人均</div><div class="value">¥70-90</div></div>
+            <div class="info-item"><div class="label">招牌</div><div class="value">铜锅涮肉·京酱肉丝</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">晚上</span>
+          <div class="timeline-title">🌃 什刹海夜景<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">入夜后海酒吧街灯火倒映湖面，远处鼓楼剪影。可沿湖漫步（免费），是北京最具浪漫气质的夜晚。</div>
+          <div class="timeline-tips"><strong>💡 省钱提醒：</strong>沿湖漫步免费，不必非进酒吧消费。如晚间太晚，地铁8号线末班约22:30，注意把握时间。</div>
+        </div>
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">交通汇总</span>
+          <div class="timeline-title">🚇 Day4 交通动线<span class="badge badge-transport">交通</span></div>
+          <div class="timeline-desc">酒店→天坛（地铁5号线，20-30min，¥3-5）→前门/南锣鼓巷（地铁2号线→6号线，20min，¥4）→什刹海（步行15min）→酒店（地铁8号线，20min，¥3-5）</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">交通方式</div><div class="value">地铁+步行</div></div>
+            <div class="info-item"><div class="label">Day4费用</div><div class="value">约¥10-17/人</div></div>
+            <div class="info-item"><div class="label">餐饮合计</div><div class="value">¥110-150/人</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== DAY 5 ====== -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-num">DAY 05</div>
+      <h3 class="serif">艺术收官 · 免费文化盛宴</h3>
+      <div class="day-sub">一天全是免费景点！从国家殿堂到798先锋艺术再到奥林匹克公园</div>
+      <span class="day-tag">🎉 全天免费</span>
+      <span class="day-ticket">🎫 当日门票 ¥0 🎉</span>
+    </div>
+    <div class="day-body">
+      <div class="timeline">
+
+        <div class="timeline-item food">
+          <span class="timeline-time">早餐</span>
+          <div class="timeline-title">🥟 锦芳小吃（前门店）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">最后一早再吃一顿老北京味。油饼、豆汁、面茶，15-25元吃饱。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">人均</div><div class="value">¥15-25</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">09:00 - 12:00</span>
+          <div class="timeline-title">🏛 中国国家博物馆<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">世界单体建筑面积最大的博物馆，140万件藏品讲述中华五千年文明。必看"古代中国"基本陈列——后母戊鼎、四羊方尊、击鼓说唱俑……每件都是课本里走出来的国宝。9月工作日人少，可慢慢品味。<strong>建议只看古代中国厅，不要贪多。</strong></div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">2.5-3小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费（需预约）</div></div>
+            <div class="info-item"><div class="label">必看</div><div class="value">后母戊鼎·四羊方尊·金缕玉衣</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 提醒：</strong>需提前7天在"国家博物馆"公众号预约。</div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">午餐</span>
+          <div class="timeline-title">🍡 牛街白记 + 护国寺小吃（牛街店）<span class="badge badge-food">餐饮</span> <span class="badge badge-free">平价</span></div>
+          <div class="timeline-desc">牛街扫街买年糕切糕，搭配小吃当午饭。牛街白记是"排队王"——切糕层层叠叠，豌豆黄细腻清甜。30-50元吃遍多种小吃。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">牛街白记人均</div><div class="value">¥20-35</div></div>
+            <div class="info-item"><div class="label">护国寺人均</div><div class="value">¥30-50</div></div>
+          </div>
+          <div class="timeline-tips"><strong>💡 提醒：</strong>牛街周末人特别多，建议工作日去，很多小摊下午就卖完。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">13:30 - 16:00</span>
+          <div class="timeline-title">🎨 798艺术区<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">由老工厂改造的中国当代艺术地标，斑驳的工业管道与先锋画廊共存。9月正值各大画廊秋季新展开幕期，偶遇好展的概率很高。涂鸦墙、钢铁结构、空间装置，随手出片。<strong>核心区域免费逛，个别特展可能收费，可跳过。</strong></div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">2.5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费（核心区域）</div></div>
+            <div class="info-item"><div class="label">出片机位</div><div class="value">涂鸦墙·工业管道</div></div>
+          </div>
+          <div class="timeline-tips"><strong>⚠️ 避坑：</strong>周一多数画廊闭馆，注意避开！先看798官方小程序的展览日历，选有展的日子来。</div>
+        </div>
+
+        <div class="timeline-item scenic">
+          <span class="timeline-time">16:00 - 17:30</span>
+          <div class="timeline-title">🏟 奥林匹克公园<span class="badge badge-scenic">景点</span> <span class="badge badge-free">免费</span></div>
+          <div class="timeline-desc">2008年奥运会核心区域，鸟巢、水立方外观全部免费观看！9月秋高气爽，在景观中轴线上漫步，拍鸟巢的钢铁编织结构、水立方的蓝泡泡外墙，是北京现代地标的代表。晚上亮灯后更加震撼。<strong>外观拍照免费且效果更好，不建议进内部。</strong></div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">建议时长</div><div class="value">1.5小时</div></div>
+            <div class="info-item"><div class="label">门票</div><div class="value free">免费（外观）</div></div>
+            <div class="info-item"><div class="label">进内部</div><div class="value paid">鸟巢¥50/水立方¥30（不建议）</div></div>
+          </div>
+        </div>
+
+        <div class="timeline-item food">
+          <span class="timeline-time">晚餐 · 收官</span>
+          <div class="timeline-title">🦆 便宜坊（前门店/鲜鱼口店）<span class="badge badge-food">餐饮</span></div>
+          <div class="timeline-desc">最后一晚用焖炉烤鸭收官！便宜坊是600年老字号，与全聚德的挂炉不同，便宜坊用焖炉技法——鸭子在封闭炉膛中焖熟，外皮更酥脆、肉质更嫩滑。离前门酒店近。蒸蛋黄鸭卷也是特色。</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">类型</div><div class="value">600年老字号·焖炉烤鸭</div></div>
+            <div class="info-item"><div class="label">人均</div><div class="value">¥100-130</div></div>
+            <div class="info-item"><div class="label">招牌</div><div class="value">焖炉烤鸭·蒸蛋黄鸭卷</div></div>
+          </div>
+          <div class="timeline-tips"><strong>💡 优势：</strong>工作日基本不排队。全聚德前门店是总店但游客多，便宜坊体验更好。</div>
+        </div>
+
+        <div class="timeline-item transport">
+          <span class="timeline-time">交通汇总</span>
+          <div class="timeline-title">🚇 Day5 交通动线<span class="badge badge-transport">交通</span></div>
+          <div class="timeline-desc">酒店→国博（地铁1号线，20-30min，¥3-5）→798（地铁换乘，30min，¥5-6）→奥林匹克公园（地铁，30min，¥5-6）→酒店取行李→自行前往车站/机场（地铁，30-60min，¥4-6）</div>
+          <div class="info-grid">
+            <div class="info-item"><div class="label">交通方式</div><div class="value">全地铁</div></div>
+            <div class="info-item"><div class="label">Day5费用</div><div class="value">约¥17-24/人</div></div>
+            <div class="info-item"><div class="label">餐饮合计</div><div class="value">¥145-205/人</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===== 经济版总预算 ===== -->
+<div class="section" id="budget">
+  <div class="section-title">
+    <div class="icon">💰</div>
+    <h2 class="serif">经济版总预算估算</h2>
+    <p>BUDGET BREAKDOWN · NOT INCLUDING ROUND-TRIP TRANSPORT</p>
+  </div>
+
+  <div class="budget-tiers">
+    <div class="budget-tier-card tier1">
+      <h4>极致省钱版</h4>
+      <div class="big-price">¥1,612</div>
+      <div class="per-person">单人 / 不含往返路费</div>
+      <div class="desc">门票¥42 + 交通¥90 + 餐饮¥630 + 住宿¥850（如家两人合住）<br><strong>两人同行：约¥1,162/人</strong></div>
+    </div>
+    <div class="budget-tier-card tier2">
+      <h4>⭐ 推荐平衡版</h4>
+      <div class="big-price">¥2,047</div>
+      <div class="per-person">单人 / 不含往返路费</div>
+      <div class="desc">门票¥97 + 交通¥100 + 餐饮¥750 + 住宿¥1,100（汉庭中位）<br><strong>两人同行：约¥1,497/人</strong></div>
+    </div>
+    <div class="budget-tier-card tier3">
+      <h4>完整体验版</h4>
+      <div class="big-price">¥2,531</div>
+      <div class="per-person">单人 / 不含往返路费</div>
+      <div class="desc">门票¥146 + 交通¥120 + 餐饮¥865 + 住宿¥1,400（汉庭最高）<br><strong>两人同行：约¥1,831/人</strong></div>
+    </div>
+  </div>
+
+  <table class="budget-table">
+    <thead>
+      <tr>
+        <th>项目</th>
+        <th>极致省钱版</th>
+        <th>推荐平衡版</th>
+        <th>完整体验版</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="category">🎫 门票</td>
+        <td>¥42</td>
+        <td>¥97</td>
+        <td>¥146</td>
+      </tr>
+      <tr>
+        <td class="category">🚇 市内交通（5天）</td>
+        <td>¥90</td>
+        <td>¥100</td>
+        <td>¥120</td>
+      </tr>
+      <tr>
+        <td class="category">🍽 餐饮（5天）</td>
+        <td>¥630</td>
+        <td>¥750</td>
+        <td>¥865</td>
+      </tr>
+      <tr>
+        <td class="category">🏨 住宿（5晚·单人）</td>
+        <td>¥850（如家两人合住）</td>
+        <td>¥1,100（汉庭中位）</td>
+        <td>¥1,400（汉庭最高）</td>
+      </tr>
+      <tr class="total-row">
+        <td>合计（单人）</td>
+        <td>¥1,612</td>
+        <td>¥2,047</td>
+        <td>¥2,531</td>
+      </tr>
+      <tr class="total-row">
+        <td>两人同行（每人）</td>
+        <td>¥1,162</td>
+        <td>¥1,497</td>
+        <td>¥1,831</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="chart-row">
+    <div class="chart-card">
+      <h4>📊 推荐平衡版预算构成</h4>
+      <div class="chart-container"><canvas id="chart-budget-pie"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h4>📈 三档方案预算对比</h4>
+      <div class="chart-container"><canvas id="chart-budget-bar"></canvas></div>
+    </div>
+  </div>
+
+  <div class="timeline-tips" style="margin-top:16px;">
+    <strong>💰 核心省费对比：</strong>原版方案单人约¥7,348（含往返高铁¥553+住宿¥1200-1800/晚+大董¥300+包车¥150等）→ 经济版推荐平衡版单人约¥2,047，<strong>省了约72%！</strong>不含往返路费，但所有精华体验（故宫、长城、天坛、国博、胡同）全部保留。
+  </div>
+</div>
+
+<!-- ===== 每日餐饮费用明细 ===== -->
+<div class="section" id="food-detail">
+  <div class="section-title">
+    <div class="icon">🍽</div>
+    <h2 class="serif">每日餐饮费用明细</h2>
+    <p>DAILY FOOD BUDGET BREAKDOWN</p>
+  </div>
+
+  <table class="budget-table">
+    <thead>
+      <tr>
+        <th>日期</th>
+        <th>早餐</th>
+        <th>午餐</th>
+        <th>晚餐</th>
+        <th>小计</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="category">Day1 中轴皇城</td>
+        <td>¥15-25<br><small>锦芳小吃</small></td>
+        <td>¥30-40<br><small>故宫冰窖餐厅</small></td>
+        <td>¥120-150<br><small>四季民福烤鸭</small></td>
+        <td>¥165-215</td>
+      </tr>
+      <tr>
+        <td class="category">Day2 长城雄关</td>
+        <td>¥15-20<br><small>庆丰包子</small></td>
+        <td>¥30-50<br><small>长城脚下/自带</small></td>
+        <td>¥50-70<br><small>姚记+爆肚冯</small></td>
+        <td>¥95-140</td>
+      </tr>
+      <tr>
+        <td class="category">Day3 园林校园</td>
+        <td>¥20-30<br><small>护国寺小吃</small></td>
+        <td>¥15-25<br><small>庆丰包子</small></td>
+        <td>¥80-100<br><small>局气京味菜</small></td>
+        <td>¥115-155</td>
+      </tr>
+      <tr>
+        <td class="category">Day4 胡同市井</td>
+        <td>¥15-25<br><small>天兴居</small></td>
+        <td>¥25-35<br><small>方砖厂炸酱面</small></td>
+        <td>¥70-90<br><small>四世同堂</small></td>
+        <td>¥110-150</td>
+      </tr>
+      <tr>
+        <td class="category">Day5 艺术收官</td>
+        <td>¥15-25<br><small>锦芳小吃</small></td>
+        <td>¥30-50<br><small>牛街白记+护国寺</small></td>
+        <td>¥100-130<br><small>便宜坊烤鸭</small></td>
+        <td>¥145-205</td>
+      </tr>
+      <tr class="total-row">
+        <td>5天合计</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>¥630-865</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ===== 每日交通费用明细 ===== -->
+<div class="section" id="transit-detail">
+  <div class="section-title">
+    <div class="icon">🚇</div>
+    <h2 class="serif">每日市内交通费用</h2>
+    <p>METRO-BASED DAILY TRANSIT COST</p>
+  </div>
+
+  <table class="budget-table">
+    <thead>
+      <tr>
+        <th>日程</th>
+        <th>主要交通方式</th>
+        <th>费用/人</th>
+        <th>关键提醒</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="category">Day1 中轴线</td>
+        <td>地铁+步行</td>
+        <td>¥10-15</td>
+        <td>故宫→景山步行串联，不换乘</td>
+      </tr>
+      <tr>
+        <td class="category">Day2 长城</td>
+        <td>地铁+916快+H23路</td>
+        <td>¥40-44</td>
+        <td><strong>末班17:00-17:30从慕田峪发车！</strong></td>
+      </tr>
+      <tr>
+        <td class="category">Day3 西北线</td>
+        <td>地铁4号线+步行</td>
+        <td>¥10-17</td>
+        <td>4号线一线串联颐和园、清华</td>
+      </tr>
+      <tr>
+        <td class="category">Day4 南中轴</td>
+        <td>地铁5/2/6/8号线+步行</td>
+        <td>¥10-17</td>
+        <td>南锣鼓巷→什刹海步行15min</td>
+      </tr>
+      <tr>
+        <td class="category">Day5 收官</td>
+        <td>地铁1/8号线+步行</td>
+        <td>¥17-24</td>
+        <td>含返程地铁，全地铁不打车</td>
+      </tr>
+      <tr class="total-row">
+        <td>5天合计</td>
+        <td>全程地铁+公交</td>
+        <td>¥90-120</td>
+        <td>相比原版交通¥700-800，省了85%！</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="timeline-tips">
+    <strong>💡 支付方式：</strong>支付宝/微信搜"北京公交乘车码"或"亿通行"APP，扫码进站最方便。<strong>省钱技巧：</strong>公交1小时内换乘享半价优惠；地铁每次乘车注意不要超时（4小时内）。
+  </div>
+</div>
+
+<!-- ===== 省钱秘籍 ===== -->
+<div class="section" id="saving-tips">
+  <div class="section-title">
+    <div class="icon">💡</div>
+    <h2 class="serif">省钱秘籍</h2>
+    <p>MONEY-SAVING TIPS</p>
+  </div>
+
+  <div class="saving-tips">
+    <h3>💡 经费紧张必备省钱技巧</h3>
+    <div class="tip-grid">
+      <div class="tip-item"><strong>① 早餐控制15-25元：</strong>老北京小吃店早餐极便宜，10元就能吃饱。锦芳、天兴居、庆丰包子都是平价首选。</div>
+      <div class="tip-item"><strong>② 午餐轻量化：</strong>包子铺、面馆解决，25元以内搞定。方砖厂69号炸酱面25-35元有米其林品质。</div>
+      <div class="tip-item"><strong>③ 晚餐适当升级：</strong>把预算留给晚餐，烤鸭和京味菜安排在傍晚。四季民福、便宜坊比大董省200+。</div>
+      <div class="tip-item"><strong>④ 景区餐饮避雷：</strong>故宫、颐和园内餐饮价高质低，建议自带干粮或出园就餐。</div>
+      <div class="tip-item"><strong>⑤ 自带水杯：</strong>地铁站和景区矿泉水5-8元/瓶，便利店2元，自带水杯最省。</div>
+      <div class="tip-item"><strong>⑥ 免费景点同样精彩：</strong>北京最精华体验中近一半完全免费——天安门、什刹海、南锣鼓巷、798、国博、奥林匹克公园。</div>
+      <div class="tip-item"><strong>⑦ 两人同行更省：</strong>住宿费减半（450-700元/人），食宿总计仅需1,080-1,565元/人。</div>
+      <div class="tip-item"><strong>⑧ 簋街只逛不买：</strong>晚上拍照打卡即可，不必非在胡大消费150-200元，周边也有平价小馆。</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 实用提醒 ===== -->
+<div class="section" id="tips">
+  <div class="section-title">
+    <div class="icon">⚠️</div>
+    <h2 class="serif">实用提醒</h2>
+    <p>IMPORTANT REMINDERS</p>
+  </div>
+
+  <div class="tips-grid">
+    <div class="tips-card urgent">
+      <h4>🎫 抢票日历（必看）</h4>
+      <ul>
+        <li><strong>故宫博物院：</strong>提前7天20:00在"故宫博物院"公众号抢票，9月周末仍紧俏</li>
+        <li><strong>国家博物馆：</strong>提前7天在"国家博物馆"公众号预约（免费但需预约）</li>
+        <li><strong>清华/北大：</strong>提前在"参观清华""参观北大"小程序预约，9月工作日较易约</li>
+        <li><strong>天安门广场：</strong>需在"天安门广场预约"小程序预约</li>
+        <li><strong>慕田峪长城：</strong>建议提前在网上购票（限流）</li>
+      </ul>
+    </div>
+
+    <div class="tips-card booking">
+      <h4>🏨 预订与排队</h4>
+      <ul>
+        <li><strong>住宿：</strong>9月下旬临近国庆旺季，经济酒店涨价明显，建议提前7-10天预订</li>
+        <li><strong>四季民福：</strong>故宫店排队最久，选王府井店或灯市口店，11点前到几乎不排</li>
+        <li><strong>便宜坊：</strong>工作日基本不排队，全聚德前门店游客多</li>
+        <li><strong>局气：</strong>排队30-60分钟，建议提前在大众点评线上取号</li>
+        <li><strong>牛街美食：</strong>周末人特别多，建议工作日去，很多小摊下午就卖完</li>
+      </ul>
+    </div>
+
+    <div class="tips-card notice">
+      <h4>📌 行前须知</h4>
+      <ul>
+        <li><strong>天气：</strong>9月北京早晚凉（15-20℃）、午间暖（25℃左右），薄外套+短袖叠穿</li>
+        <li><strong>长城装备：</strong>穿运动鞋，带足饮水和能量食品，山上物价高</li>
+        <li><strong>避开人流：</strong>天坛6:30开门即入、故宫8:30开门即入、颐和园8:00开门即入</li>
+        <li><strong>798避坑：</strong>周一多数画廊闭馆，注意避开</li>
+        <li><strong>地铁高峰：</strong>工作日早7:30-9:00、晚17:30-19:00避开1/5/6号线</li>
+        <li><strong>雨具：</strong>9月偶有秋雨，随身带伞，长城段备防滑鞋</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 行李清单 ===== -->
+<div class="section" id="packing">
+  <div class="section-title">
+    <div class="icon">🎒</div>
+    <h2 class="serif">行李清单</h2>
+    <p>PACKING LIST</p>
+  </div>
+
+  <div class="appendix">
+    <h3>🎒 9月北京5日出行清单</h3>
+    <div class="packing-list">
+      <li>身份证（必带！景点预约核验）</li>
+      <li>手机+充电宝（地铁扫码、电子票）</li>
+      <li>薄外套（早晚15-20℃凉意明显）</li>
+      <li>短袖T恤2-3件（午间25℃）</li>
+      <li>长裤1-2条（登长城、逛胡同方便）</li>
+      <li>运动鞋（长城必备，日常也舒适）</li>
+      <li>雨伞（9月偶有秋雨）</li>
+      <li>水杯（省钱利器，便利店水2元vs景区5-8元）</li>
+      <li>干粮零食（长城午餐备用，省30-50元）</li>
+      <li>常备药品（肠胃药、创可贴、感冒药）</li>
+      <li>相机/手机云台（出片利器）</li>
+      <li>零钱¥20（公交备用，防手机故障）</li>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 页脚 ===== -->
+<div class="footer">
+  <p>京城金秋 · 五日经济版定制路书</p>
+  <p style="margin-top:8px;">统筹整合：风光体验官 · 食宿品鉴专家 · 交通动线规划师 · 首席行程主理人</p>
+  <p style="margin-top:8px;"><strong>省钱不省精彩 · 平价也出深度</strong></p>
+  <p style="margin-top:8px;opacity:0.5;">2026 · 九月中下旬 · 国庆前夕 · 花最少的钱看最深的北京</p>
+</div>
+
+<script>
+// ===== 图表1：每日游玩时长 =====
+const ctxHours = document.getElementById('chart-hours').getContext('2d');
+new Chart(ctxHours, {
+  type: 'bar',
+  data: {
+    labels: ['Day1 中轴皇城', 'Day2 长城雄关', 'Day3 园林校园', 'Day4 胡同市井', 'Day5 艺术收官'],
+    datasets: [{
+      label: '游玩时长（小时）',
+      data: [7, 7, 7, 8, 6],
+      backgroundColor: ['#2E7D32','#43A047','#66BB6A','#81C784','#A5D6A7'],
+      borderRadius: 6
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { beginAtZero: true, max: 10, ticks: { font: { size: 11 } } },
+      x: { ticks: { font: { size: 10 } } }
+    }
+  }
+});
+
+// ===== 图表2：预算构成饼图 =====
+const ctxBudget = document.getElementById('chart-budget').getContext('2d');
+new Chart(ctxBudget, {
+  type: 'pie',
+  data: {
+    labels: ['住宿 ¥1,100', '餐饮 ¥750', '门票 ¥97', '交通 ¥100'],
+    datasets: [{
+      data: [1100, 750, 97, 100],
+      backgroundColor: ['#8E44AD','#E67E22','#C0392B','#2980B9'],
+      borderWidth: 2,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { size: 11 }, padding: 10 } }
+    }
+  }
+});
+
+// ===== 图表3：预算构成饼图（推荐版）=====
+const ctxPie = document.getElementById('chart-budget-pie').getContext('2d');
+new Chart(ctxPie, {
+  type: 'doughnut',
+  data: {
+    labels: ['住宿 ¥1,100 (54%)', '餐饮 ¥750 (37%)', '门票 ¥97 (5%)', '交通 ¥100 (5%)'],
+    datasets: [{
+      data: [1100, 750, 97, 100],
+      backgroundColor: ['#8E44AD','#E67E22','#C0392B','#2980B9'],
+      borderWidth: 3,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { size: 11 }, padding: 8 } }
+    }
+  }
+});
+
+// ===== 图表4：三档预算对比柱状图 =====
+const ctxBar = document.getElementById('chart-budget-bar').getContext('2d');
+new Chart(ctxBar, {
+  type: 'bar',
+  data: {
+    labels: ['极致省钱版', '推荐平衡版', '完整体验版'],
+    datasets: [
+      { label: '住宿', data: [850,1100,1400], backgroundColor: '#8E44AD', borderRadius: 4 },
+      { label: '餐饮', data: [630,750,865], backgroundColor: '#E67E22', borderRadius: 4 },
+      { label: '交通', data: [90,100,120], backgroundColor: '#2980B9', borderRadius: 4 },
+      { label: '门票', data: [42,97,146], backgroundColor: '#C0392B', borderRadius: 4 }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { size: 11 }, padding: 8 } }
+    },
+    scales: {
+      x: { stacked: true, ticks: { font: { size: 11 } } },
+      y: { stacked: true, beginAtZero: true, ticks: { font: { size: 10 } } }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
