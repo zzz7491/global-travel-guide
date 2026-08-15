@@ -1,0 +1,18 @@
+# Beijing old URLs migration
+
+/normal.html /china/beijing/normal.html 301
+/budget.html /china/beijing/budget.html 301
+
+/attractions/gugong.html /china/beijing/attractions/gugong.html 301
+/attractions/changcheng.html /china/beijing/attractions/changcheng.html 301
+/attractions/yiheyuan.html /china/beijing/attractions/yiheyuan.html 301
+/attractions/tiantan.html /china/beijing/attractions/tiantan.html 301
+
+/routes/three-days.html /china/beijing/routes/three-days.html 301
+/routes/five-days.html /china/beijing/routes/five-days.html 301
+/routes/elderly-friendly.html /china/beijing/routes/elderly-friendly.html 301
+
+/guides/food.html /china/beijing/guides/food.html 301
+/guides/transport.html /china/beijing/guides/transport.html 301
+/guides/accommodation.html /china/beijing/guides/accommodation.html 301
+/guides/tips.html /china/beijing/guides/tips.html 301
