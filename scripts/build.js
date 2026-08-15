@@ -20,12 +20,14 @@ import { fileURLToPath } from 'node:url';
 import { renderTemplate } from '../src/templates/render.js';
 import {
   urlFor,
+  linkUrl,
   canonicalFor,
   heroImageUrl,
   ogImage,
   buildContentBody,
   buildCitySections,
   buildListingBody,
+  buildBreadcrumb,
 } from '../src/lib/content.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -69,8 +71,8 @@ ENTITIES.forEach((e) => { INDEX[e.id] = e; });
 
 // Long-form itinerary pages kept as verbatim static HTML (not in the data model).
 const ITINERARIES = [
-  { title: '正常版（舒适）', desc: '食宿品鉴与风光体验配置更完整。', url: '/china/beijing/normal.html' },
-  { title: '经济版（省钱）', desc: '控制住宿餐饮交通成本，保留核心体验。', url: '/china/beijing/budget.html' },
+  { title: '正常版（舒适）', desc: '食宿品鉴与风光体验配置更完整。', url: '/china/beijing/normal' },
+  { title: '经济版（省钱）', desc: '控制住宿餐饮交通成本，保留核心体验。', url: '/china/beijing/budget' },
 ];
 
 const tpl = {
@@ -82,6 +84,25 @@ const ctx = { site: SITE, index: INDEX, entities: ENTITIES, home: HOME, itinerar
 
 // --- output primitives ------------------------------------------------------
 function renderPage(e, bodyHtml) {
+  // JSON-LD: WebSite + Organization (reliable site fields) + BreadcrumbList
+  // (auto-derived). Only real data — no faked address/geo/author/date/image.
+  const siteUrl = String(SITE.siteUrl || '').replace(/\/$/, '');
+  const jsonld = JSON.stringify([
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: SITE.brand,
+      url: siteUrl + '/',
+      description: SITE.description || e.description || '',
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: SITE.brand,
+      url: siteUrl + '/',
+    },
+    buildBreadcrumb(e, ctx),
+  ]).replace(/</g, '\\u003c');
   return renderTemplate(tpl.layout, {
     locale: SITE.locale,
     brand: SITE.brand,
@@ -93,6 +114,7 @@ function renderPage(e, bodyHtml) {
     heroImageUrl: e._heroImageUrl,
     nav: SITE.nav,
     bodyHtml,
+    jsonld,
   });
 }
 function writeFile(rel, content) {
@@ -146,7 +168,7 @@ function main() {
     else body = buildContentBody(e, ctx);
     const rel = urlFor(e).replace(/^\//, '').replace(/\/$/, '/index.html');
     writeFile(rel, renderPage(e, body));
-    pages.push({ url: urlFor(e), file: rel });
+    pages.push({ url: linkUrl(e), file: rel });
   }
 
   // Static long-form pages (itineraries) + shared assets + favicon + robots
