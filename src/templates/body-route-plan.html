@@ -1,0 +1,399 @@
+<style>
+/* Route-plan module consumes Design System tokens — no private color values. */
+:root{
+  --primary:var(--brand);
+  --primary-light:var(--brand-light);
+  --primary-dark:var(--brand-dark);
+  --gold:var(--accent);
+  --gold-light:var(--accent-light);
+  --bg-cream:var(--background);
+  --bg-light:var(--background);
+  --bg-card:var(--paper);
+  --c-red:var(--accent-red);
+  --c-green:var(--accent-green);
+  --c-blue:var(--accent-blue);
+  --c-orange:var(--accent-orange);
+  --c-purple:var(--accent-purple);
+  --shadow:var(--shadow-sm);
+  --r-card:var(--radius-lg);
+  --r-lg:var(--radius-lg);
+  --r-pill:var(--radius-pill);
+}
+.rp-back{display:block;max-width:960px;margin:0 auto;padding:18px 24px 0;color:var(--primary);font-weight:600;font-size:14px;}
+.cover{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;
+  background:linear-gradient(135deg,var(--brand-dark),var(--brand) 50%,var(--brand-light));color:#fff;padding:60px 24px;}
+.cover-tag{display:inline-block;letter-spacing:3px;font-size:13px;padding:6px 16px;border:1px solid rgba(255,255,255,.5);border-radius:var(--r-pill);margin-bottom:20px;}
+.cover h1{font-family:"Noto Serif SC",serif;font-size:54px;font-weight:900;line-height:1.15;margin:0;}
+.cover-sub{font-size:18px;margin-top:14px;color:var(--tint-brand);font-family:"Noto Serif SC",serif;}
+.cover-info{display:flex;flex-wrap:wrap;justify-content:center;gap:28px;margin:36px 0 24px;}
+.cover-info-item{display:flex;flex-direction:column;}
+.cover-info-item .num{font-size:30px;font-weight:800;font-family:"Noto Serif SC",serif;color:var(--gold-light);}
+.cover-info-item .label{font-size:12px;letter-spacing:1px;opacity:.85;margin-top:4px;}
+.cover-badge{display:inline-block;background:rgba(0,0,0,.18);padding:10px 20px;border-radius:var(--r-pill);font-size:14px;}
+.cover-budget{display:inline-block;margin-top:18px;background:rgba(249,168,37,.16);border:1px solid var(--gold-light);color:var(--gold-text-light);padding:10px 22px;border-radius:var(--r-pill);font-size:15px;font-weight:700;letter-spacing:.3px;}
+.cover-bottom{margin-top:22px;font-size:13px;opacity:.85;max-width:520px;line-height:1.7;}
+.section{padding:60px 24px;max-width:960px;margin:0 auto;}
+.section-title{display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:32px;}
+.section-icon{width:48px;height:48px;border-radius:50%;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:12px;box-shadow:var(--shadow);}
+.section-title h2{font-family:"Noto Serif SC",serif;font-size:30px;font-weight:700;color:var(--primary-dark);margin:0;}
+.section-sub{font-size:12px;letter-spacing:2px;color:var(--ink-light);margin-top:6px;text-transform:uppercase;}
+.eco-banner{background:linear-gradient(135deg,var(--tint-gold),var(--tint-gold-2));border:2px solid var(--gold-light);border-radius:var(--r-lg);padding:24px;}
+.eco-banner .eco-desc{color:var(--ink);font-size:14px;margin:0 0 16px;line-height:1.7;}
+.eco-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;}
+.eco-item{background:#fff;border-radius:var(--r-card);padding:14px;box-shadow:var(--shadow);text-align:center;}
+.eco-item .eicon{font-size:22px;}
+.eco-item .elabel{font-weight:700;margin:6px 0 2px;color:var(--primary-dark);font-size:14px;}
+.eco-item .eval{font-size:13px;color:var(--ink-light);}
+.overview-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;}
+.overview-card{background:var(--bg-card);border-radius:var(--r-card);padding:20px;box-shadow:var(--shadow);border-top:4px solid var(--primary);}
+.overview-card .day{display:inline-block;background:var(--primary);color:#fff;font-size:12px;padding:3px 10px;border-radius:var(--r-pill);font-weight:700;}
+.overview-card h3{font-family:"Noto Serif SC",serif;font-size:18px;margin:10px 0 4px;color:var(--ink);}
+.overview-card .dsub{font-size:12px;color:var(--ink-light);margin-bottom:6px;}
+.overview-card .spots{list-style:none;padding:0;margin:8px 0 0;font-size:13px;color:var(--ink-light);}
+.overview-card .spots li{padding:2px 0;}
+.overview-card .tk{display:inline-block;margin-top:10px;font-size:12px;color:var(--primary);font-weight:600;}
+.ticket-tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+.tier-card{background:var(--bg-card);border-radius:var(--r-card);padding:22px;box-shadow:var(--shadow);border:1px solid var(--bg-light);}
+.tier-card .lv{font-size:12px;color:#fff;background:var(--primary-light);display:inline-block;padding:2px 10px;border-radius:var(--r-pill);margin-bottom:10px;}
+.tier-card h3{font-family:"Noto Serif SC",serif;font-size:20px;margin:0 0 6px;color:var(--primary-dark);}
+.tier-card .tdesc{font-size:13px;color:var(--ink-light);margin:0 0 10px;line-height:1.6;}
+.tier-card ul{margin:0;padding-left:18px;font-size:13px;color:var(--ink);line-height:1.7;}
+.tier-card .tnote{margin-top:10px;font-size:12px;color:var(--c-orange);}
+.accommodation{background:var(--bg-card);border-radius:var(--r-card);box-shadow:var(--shadow);overflow:hidden;}
+.accommodation table{width:100%;border-collapse:collapse;}
+.accommodation th,.accommodation td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--bg-light);font-size:14px;vertical-align:top;}
+.accommodation th{background:var(--bg-light);color:var(--primary-dark);font-weight:700;}
+.accommodation .at{color:var(--primary);font-weight:700;}
+.day-section{background:var(--bg-card);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:24px;margin-bottom:20px;}
+.day-header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px;border-bottom:2px solid var(--bg-light);padding-bottom:14px;}
+.day-header .dnum{background:var(--primary);color:#fff;font-weight:800;font-family:"Noto Serif SC",serif;padding:6px 14px;border-radius:var(--r-pill);}
+.day-header h3{font-family:"Noto Serif SC",serif;font-size:22px;margin:0;color:var(--ink);}
+.day-header .dsub{color:var(--ink-light);font-size:13px;}
+.day-header .dtag{margin-left:auto;font-size:12px;background:var(--gold-light);color:var(--gold-ink);padding:4px 12px;border-radius:var(--r-pill);font-weight:600;}
+.timeline{position:relative;padding-left:22px;}
+.timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:3px;background:linear-gradient(var(--primary-light),var(--primary));border-radius:3px;}
+.timeline-item{position:relative;margin-bottom:22px;padding-left:16px;}
+.timeline-item::before{content:"";position:absolute;left:-19px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--primary);box-shadow:0 0 0 3px var(--tint-brand);}
+.timeline-item.scenic::before{background:var(--c-green);}
+.timeline-item.food::before{background:var(--c-orange);}
+.timeline-item.transport::before{background:var(--c-blue);}
+.timeline-item.experience::before{background:var(--c-purple);}
+.timeline-time{font-weight:800;color:var(--primary-dark);font-family:"Noto Serif SC",serif;font-size:15px;}
+.timeline-cat{display:inline-block;font-size:11px;padding:2px 9px;border-radius:var(--r-pill);margin-left:8px;vertical-align:middle;color:#fff;}
+.timeline-item.scenic .timeline-cat{background:var(--c-green);}
+.timeline-item.food .timeline-cat{background:var(--c-orange);}
+.timeline-item.transport .timeline-cat{background:var(--c-blue);}
+.timeline-item.experience .timeline-cat{background:var(--c-purple);}
+.timeline-title{font-size:16px;font-weight:700;margin:4px 0;color:var(--ink);}
+.timeline-desc{font-size:13px;color:var(--ink-light);line-height:1.7;margin:4px 0;}
+.badges{margin:6px 0;}
+.badge{display:inline-block;font-size:11px;padding:2px 9px;border-radius:var(--r-pill);margin-right:6px;background:var(--bg-light);color:var(--ink-light);}
+.badge.free{background:var(--tint-brand);color:var(--c-green);}
+.badge.paid{background:var(--tint-red);color:var(--c-red);}
+.badge.optional{background:var(--tint-gold-3);color:var(--gold);}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin:8px 0;}
+.info-item{background:var(--bg-light);border-radius:8px;padding:8px 10px;font-size:12px;}
+.info-item .il{color:var(--ink-light);display:block;}
+.info-item .iv{color:var(--ink);font-weight:600;}
+.timeline-tips{background:var(--bg-light);border-left:3px solid var(--gold);border-radius:6px;padding:8px 12px;font-size:12px;color:var(--ink-light);margin-top:6px;line-height:1.6;}
+.budget-tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+.budget-tier-card{background:var(--bg-card);border-radius:var(--r-card);padding:22px;box-shadow:var(--shadow);border-top:4px solid var(--gold);}
+.budget-tier-card h3{font-family:"Noto Serif SC",serif;font-size:20px;margin:0 0 4px;color:var(--primary-dark);}
+.budget-tier-card .est{font-size:22px;font-weight:800;color:var(--primary);font-family:"Noto Serif SC",serif;margin:8px 0;}
+.budget-tier-card .est small{font-size:12px;color:var(--ink-light);font-weight:400;}
+.budget-tier-card .comp{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px;margin:10px 0;}
+.budget-tier-card .comp .ck{color:var(--ink-light);}
+.budget-tier-card .comp .cv{color:var(--ink);font-weight:600;}
+.budget-tier-card .tnote{font-size:12px;color:var(--c-orange);margin-top:8px;line-height:1.6;}
+.budget-note{background:var(--tint-gold);border:1px dashed var(--gold);border-radius:var(--r-card);padding:14px 18px;font-size:13px;color:var(--gold-ink);margin-top:18px;line-height:1.7;}
+.detail-table{width:100%;border-collapse:collapse;background:var(--bg-card);border-radius:var(--r-card);overflow:hidden;box-shadow:var(--shadow);}
+.detail-table th,.detail-table td{padding:12px 14px;border-bottom:1px solid var(--bg-light);font-size:13px;text-align:left;vertical-align:top;}
+.detail-table th{background:var(--bg-light);color:var(--primary-dark);}
+.saving-tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;}
+.tip-card{background:var(--bg-card);border-radius:var(--r-card);padding:16px 18px;box-shadow:var(--shadow);border-left:4px solid var(--gold);}
+.tip-card h4{margin:0 0 6px;font-size:15px;color:var(--primary-dark);font-family:"Noto Serif SC",serif;}
+.tip-card p{margin:0;font-size:13px;color:var(--ink-light);line-height:1.6;}
+.tips-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+.tips-card{background:var(--bg-card);border-radius:var(--r-card);padding:20px;box-shadow:var(--shadow);border-top:4px solid var(--c-blue);}
+.tips-card.urgent{border-top-color:var(--c-red);}
+.tips-card.booking{border-top-color:var(--gold);}
+.tips-card h3{font-family:"Noto Serif SC",serif;font-size:18px;margin:0 0 10px;color:var(--primary-dark);}
+.tips-card ul{margin:0;padding-left:18px;font-size:13px;color:var(--ink);line-height:1.7;}
+.packing-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;}
+.packing-list>*{list-style:none;padding:8px 12px;background:var(--bg-light);border-radius:8px;font-size:13px;color:var(--ink);}
+.cover-season{margin-top:14px;font-size:12px;opacity:.8;max-width:520px;line-height:1.7;}
+/* timeline item extended meta */
+.tl-meta{font-size:12px;color:var(--ink-light);margin:5px 0;line-height:1.6;}
+.tl-meta .k{color:var(--primary);font-weight:600;margin-right:5px;}
+.tl-alt{background:var(--tint-brand);border-left:3px solid var(--c-green);border-radius:6px;padding:8px 12px;font-size:12px;color:var(--ink-light);margin-top:6px;line-height:1.7;}
+.tl-alt b{color:var(--primary-dark);}
+/* daily summary table */
+.rp-table{width:100%;border-collapse:collapse;background:var(--bg-card);border-radius:var(--r-card);overflow:hidden;box-shadow:var(--shadow);}
+.rp-table th,.rp-table td{padding:12px 14px;border-bottom:1px solid var(--bg-light);font-size:13px;text-align:left;vertical-align:top;}
+.rp-table th{background:var(--bg-light);color:var(--primary-dark);font-weight:700;}
+.rp-table .at{color:var(--primary);font-weight:700;}
+.rp-table .total-row td{background:var(--primary-dark);color:#fff;font-weight:700;}
+.rp-table small{color:var(--ink-light);font-weight:400;}
+/* A/B alternatives */
+.alt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+.alt-card{background:var(--bg-card);border-radius:var(--r-card);padding:20px;box-shadow:var(--shadow);border-top:4px solid var(--c-green);}
+.alt-card h3{font-family:"Noto Serif SC",serif;font-size:17px;margin:0 0 8px;color:var(--primary-dark);}
+.alt-card .orig{font-size:12px;color:var(--ink-light);margin-bottom:6px;}
+.alt-card .alt{font-size:13px;color:var(--ink);line-height:1.6;font-weight:600;}
+.alt-card .reason{font-size:12px;color:var(--c-orange);margin-top:8px;line-height:1.6;}
+/* charts */
+.chart-row{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:20px;}
+.chart-card{background:var(--bg-card);border-radius:var(--r-card);padding:24px;box-shadow:var(--shadow);}
+.chart-card h4{font-size:15px;font-weight:700;color:var(--ink);margin:0 0 16px;text-align:center;}
+.chart-container{position:relative;height:260px;}
+@media(max-width:768px){
+  .cover h1{font-size:30px;line-height:1.25;}
+  .section{padding:40px 16px;}
+  .rp-back{padding:16px 16px 0;}
+  .overview-cards,.ticket-tiers,.budget-tiers,.saving-tips,.tips-grid,.chart-row{grid-template-columns:1fr;}
+  .detail-table,.rp-table,.accommodation table{min-width:560px;}
+}
+</style>
+
+<a class="rp-back" href="{{backUrl}}">← {{backLabel}}</a>
+
+<section class="cover">
+  <span class="cover-tag">{{cover.tag}}</span>
+  <h1>{{cover.title.0}}<br>{{cover.title.1}}</h1>
+  <p class="cover-sub">{{cover.subtitle}}</p>
+  <div class="cover-info">
+    {{#each cover.info}}
+    <div class="cover-info-item"><span class="num">{{num}}</span><span class="label">{{label}}</span></div>
+    {{/each}}
+  </div>
+  <span class="cover-badge">{{cover.badge}}</span>
+  {{#if cover.budget}}<p class="cover-budget">💴 {{cover.budget}}</p>{{/if}}
+  <p class="cover-bottom">{{cover.bottom}}</p>
+  {{#if cover.tone}}<p class="cover-bottom">{{cover.tone}}</p>{{/if}}
+  {{#if cover.season}}<p class="cover-season">🌤 {{cover.season}}</p>{{/if}}
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🔄</div><h2>路线设计理念</h2><p class="section-sub">Why this plan works</p></div>
+  <div class="eco-banner">
+    <p class="eco-desc">{{designPhilosophy.desc}}</p>
+    <div class="eco-grid">
+      {{#each designPhilosophy.items}}
+      <div class="eco-item"><div class="eicon">{{icon}}</div><div class="elabel">{{label}}</div><div class="eval">{{value}}</div></div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🗺️</div><h2>行程总览</h2><p class="section-sub">Itinerary Overview</p></div>
+  <div class="overview-cards">
+    {{#each overview}}
+    <div class="overview-card">
+      <span class="day">DAY {{day}}</span>
+      <h3>{{title}}</h3>
+      <div class="dsub">{{theme}}</div>
+      <ul class="spots">{{#each spots}}<li>{{name}}</li>{{/each}}</ul>
+      <span class="tk">{{ticketLabel}}</span>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🎫</div><h2>门票方案</h2><p class="section-sub">Ticket Tiers</p></div>
+  <div class="ticket-tiers">
+    {{#each ticketTiers}}
+    <div class="tier-card">
+      <span class="lv">{{level}}</span>
+      <h3>{{name}}</h3>
+      <p class="tdesc">{{desc}}</p>
+      <ul>{{#each items}}<li>{{text}}</li>{{/each}}</ul>
+      {{#if note}}<div class="tnote">{{note}}</div>{{/if}}
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🏨</div><h2>住宿建议</h2><p class="section-sub">Where to Stay</p></div>
+  <div class="accommodation">
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th>类型</th><th>推荐区域</th><th>预算档</th><th>优势 / 适合人群</th></tr></thead>
+      <tbody>
+        {{#each accommodation.rows}}
+        <tr><td class="at">{{type}}</td><td>{{area}}</td><td>{{priceLevel}}</td><td>{{advantage}}</td></tr>
+        {{/each}}
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">📅</div><h2>每日时间轴</h2><p class="section-sub">Day by Day</p></div>
+  {{#each days}}
+  <div class="day-section">
+    <div class="day-header">
+      <span class="dnum">DAY {{day}}</span>
+      <h3>{{title}}</h3>
+      <span class="dsub">{{sub}}</span>
+      {{#if tag}}<span class="dtag">{{tag}}</span>{{/if}}
+    </div>
+    <div class="timeline">
+      {{#each items}}
+      <div class="timeline-item {{category}}">
+        <div class="timeline-time">{{time}}<span class="timeline-cat">{{categoryLabel}}</span></div>
+        <div class="timeline-title">{{title}}</div>
+        <div class="timeline-desc">{{desc}}</div>
+        <div class="badges">{{#each badges}}<span class="badge {{c}}">{{t}}</span>{{/each}}</div>
+        <div class="info-grid">{{#each info}}<div class="info-item"><span class="il">{{label}}</span><span class="iv">{{value}}</span></div>{{/each}}</div>
+        {{#if photoSpot}}<div class="tl-meta"><span class="k">📸 拍摄</span>{{photoSpot}}</div>{{/if}}
+        {{#if bestTime}}<div class="tl-meta"><span class="k">⏰ 最佳</span>{{bestTime}}</div>{{/if}}
+        {{#if reservation}}<div class="tl-meta"><span class="k">🎟 预约</span>{{reservation}}</div>{{/if}}
+        {{#if localTip}}<div class="tl-meta"><span class="k">🧭 当地</span>{{localTip}}</div>{{/if}}
+        {{#if tips}}<div class="timeline-tips">💡 {{tips}}</div>{{/if}}
+        {{#if alternative}}<div class="tl-alt"><b>替代方案：</b>{{alternative}}</div>{{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  {{/each}}
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🧭</div><h2>每日交通与花费汇总</h2><p class="section-sub">Daily Transit &amp; Cost</p></div>
+  <div class="table-scroll"><table class="rp-table">
+    <thead><tr><th>日</th><th>路线</th><th>交通</th><th>预计时长</th><th>费用区间</th><th>餐饮区间</th></tr></thead>
+    <tbody>
+      {{#each dailySummary}}
+      <tr>
+        <td class="at">{{day}}</td>
+        <td>{{route}}</td>
+        <td>{{transport}}</td>
+        <td>{{estimatedTime}}</td>
+        <td>{{costRange}}</td>
+        <td>{{foodRange}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">💰</div><h2>预算估算</h2><p class="section-sub">Estimated Budget</p></div>
+  <div class="budget-tiers">
+    {{#each budgetTiers}}
+    <div class="budget-tier-card">
+      <h3>{{label}}</h3>
+      <div class="est">{{estimate.currency}}{{estimate.low}}–{{estimate.high}}<small> /人·估算</small></div>
+      <div class="comp">
+        <span class="ck">门票</span><span class="cv">{{composition.门票}}</span>
+        <span class="ck">交通</span><span class="cv">{{composition.交通}}</span>
+        <span class="ck">餐饮</span><span class="cv">{{composition.餐饮}}</span>
+        <span class="ck">住宿</span><span class="cv">{{composition.住宿}}</span>
+      </div>
+      <div class="tnote">{{estimate.note}}</div>
+      <div class="tnote">{{factors}}</div>
+    </div>
+    {{/each}}
+  </div>
+  <div class="budget-note">⚠️ 以上金额为<b>估算区间</b>，仅供旅行规划参考；实际花费受季节淡旺、汇率、住宿区域、提前预订程度影响，请以出行当时实际价格为准。</div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">📊</div><h2>预算分解表</h2><p class="section-sub">Budget Breakdown</p></div>
+  <div class="table-scroll"><table class="rp-table">
+    <thead><tr><th>类别</th><th>极致省钱版</th><th>平衡舒适版</th><th>宽松体验版</th></tr></thead>
+    <tbody>
+      {{#each budgetTable.rows}}
+      <tr>
+        <td class="at">{{cat}}</td>
+        <td>约¥{{economy.low}}–{{economy.high}}<br><small>{{economy.note}}</small></td>
+        <td>约¥{{comfort.low}}–{{comfort.high}}<br><small>{{comfort.note}}</small></td>
+        <td>约¥{{flexible.low}}–{{flexible.high}}<br><small>{{flexible.note}}</small></td>
+      </tr>
+      {{/each}}
+      <tr class="total-row">
+        <td>合计（单人）</td>
+        <td>约¥{{budgetTable.totals.economy.low}}–{{budgetTable.totals.economy.high}}</td>
+        <td>约¥{{budgetTable.totals.comfort.low}}–{{budgetTable.totals.comfort.high}}</td>
+        <td>约¥{{budgetTable.totals.flexible.low}}–{{budgetTable.totals.flexible.high}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="budget-note">⚠️ 以上为<b>估算区间</b>（不含往返大交通），实际受季节淡旺、汇率、住宿区位、提前预订程度影响。</div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">📈</div><h2>数据可视化</h2><p class="section-sub">At a Glance</p></div>
+  <div class="chart-row">
+    <div class="chart-card"><h4>📅 每日游玩时长（小时）</h4><div class="chart-container"><canvas id="rpChartHours"></canvas></div></div>
+    <div class="chart-card"><h4>💰 预算构成（极致省钱版）</h4><div class="chart-container"><canvas id="rpChartBudget"></canvas></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🍜</div><h2>每日餐饮明细</h2><p class="section-sub">Food by Day</p></div>
+  <div class="table-scroll"><table class="detail-table">
+    <thead><tr><th>日</th><th>早餐</th><th>午餐</th><th>晚餐</th><th>小计</th></tr></thead>
+    <tbody>{{#each foodDetail.rows}}<tr><td>{{day}}</td><td>{{早餐}}</td><td>{{午餐}}</td><td>{{晚餐}}</td><td>{{小计}}</td></tr>{{/each}}</tbody>
+  </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🚉</div><h2>每日交通明细</h2><p class="section-sub">Transit by Day</p></div>
+  <div class="table-scroll"><table class="detail-table">
+    <thead><tr><th>日</th><th>方式</th><th>费用</th><th>提醒</th></tr></thead>
+    <tbody>{{#each transitDetail.rows}}<tr><td>{{day}}</td><td>{{方式}}</td><td>{{费用}}</td><td>{{提醒}}</td></tr>{{/each}}</tbody>
+  </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🔀</div><h2>备选方案 · A/B</h2><p class="section-sub">Plan B Options</p></div>
+  <div class="alt-grid">
+    {{#each alternatives}}
+    <div class="alt-card">
+      <h3>{{title}}</h3>
+      <div class="orig">原方案：{{original}}</div>
+      <div class="alt">替代：{{alternative}}</div>
+      <div class="reason">💡 {{reason}}</div>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">💡</div><h2>省钱技巧</h2><p class="section-sub">Money Saving</p></div>
+  <div class="saving-tips">
+    {{#each savingTips}}
+    <div class="tip-card"><h4>{{title}}</h4><p>{{text}}</p></div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">⚠️</div><h2>实用提醒</h2><p class="section-sub">Good to Know</p></div>
+  <div class="tips-grid">
+    {{#each reminders}}
+    <div class="tips-card {{type}}">
+      <h3>{{title}}</h3>
+      <ul>{{#each items}}<li>{{text}}</li>{{/each}}</ul>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><div class="section-icon">🎒</div><h2>行李清单</h2><p class="section-sub">Packing List</p></div>
+  <div class="packing-list">
+    {{#each packing}}<div>✓ {{text}}</div>{{/each}}
+  </div>
+</section>
+
+{{{chartsScript}}}

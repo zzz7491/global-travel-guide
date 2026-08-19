@@ -33,12 +33,23 @@
     {
       "kind": "notes",
       "title": "要点回顾",
-      "items": ["以山手线沿线车站为住宿锚点。", "旺季提前订，留意退房与儿童条款。", "下单前量「最近出口」步行距离。", "按行程重心而非名气选区域。"]
+      "items": [
+        "以山手线沿线车站为住宿锚点。",
+        "旺季提前订，留意退房与儿童条款。",
+        "下单前量「最近出口」步行距离。",
+        "按行程重心而非名气选区域。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-tokyo-five-days", "japan-tokyo-transport", "japan-tokyo-budget", "japan-tokyo-teamlab-borderless"]
+      "refs": [
+        "japan-tokyo-five-days",
+        "japan-tokyo-transport",
+        "japan-tokyo-budget",
+        "japan-tokyo-teamlab-borderless"
+      ]
     }
-  ]
+  ],
+  "category": "住宿"
 }

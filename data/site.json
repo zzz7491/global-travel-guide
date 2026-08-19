@@ -6,12 +6,10 @@
   "defaultSocialImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
   "heroImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1800&q=80",
   "nav": [
-    { "label": "首页", "url": "/" },
-    { "label": "目的地", "url": "/countries" },
-    { "label": "国家", "url": "/countries" },
-    { "label": "城市", "url": "/cities" },
-    { "label": "景点", "url": "/attractions" },
-    { "label": "路线", "url": "/routes" },
-    { "label": "旅行指南", "url": "/guides" }
+    { "label": "Home", "url": "/" },
+    { "label": "Countries", "url": "/countries" },
+    { "label": "Routes", "url": "/routes" },
+    { "label": "Guides", "url": "/guides" },
+    { "label": "About", "url": "/about" }
   ]
 }

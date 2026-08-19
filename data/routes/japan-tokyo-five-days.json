@@ -44,12 +44,24 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["teamLab 为预约制，务必提前购票。", "筑地场外中午前后打烊，宜早到。", "购物日行李增多，可先回住宿寄存再出门。"]
+      "items": [
+        "teamLab 为预约制，务必提前购票。",
+        "筑地场外中午前后打烊，宜早到。",
+        "购物日行李增多，可先回住宿寄存再出门。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-tokyo-tokyo-tower", "japan-tokyo-shibuya-crossing", "japan-tokyo-shinjuku-gyoen", "japan-tokyo-ueno-park", "japan-tokyo-teamlab-borderless", "japan-tokyo-accommodation"]
+      "refs": [
+        "japan-tokyo-tokyo-tower",
+        "japan-tokyo-shibuya-crossing",
+        "japan-tokyo-shinjuku-gyoen",
+        "japan-tokyo-ueno-park",
+        "japan-tokyo-teamlab-borderless",
+        "japan-tokyo-accommodation"
+      ]
     }
-  ]
+  ],
+  "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=80"
 }

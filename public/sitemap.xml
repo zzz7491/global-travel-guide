@@ -32,8 +32,10 @@
   <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/transport</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/best-time</loc></url>
-  <url><loc>https://travel.mootlsv.com/china/beijing/normal</loc></url>
-  <url><loc>https://travel.mootlsv.com/china/beijing/budget</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/beijing/route-plan/comfort</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/tokyo/route-plan/economy</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/beijing/budget/economy</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/beijing/seasonal/autumn</loc></url>
   <url><loc>https://travel.mootlsv.com/about</loc></url>
   <url><loc>https://travel.mootlsv.com/services</loc></url>
   <url><loc>https://travel.mootlsv.com/contact</loc></url>
@@ -45,4 +47,6 @@
   <url><loc>https://travel.mootlsv.com/attractions</loc></url>
   <url><loc>https://travel.mootlsv.com/routes</loc></url>
   <url><loc>https://travel.mootlsv.com/guides</loc></url>
+  <url><loc>https://travel.mootlsv.com/budgets</loc></url>
+  <url><loc>https://travel.mootlsv.com/seasonals</loc></url>
 </urlset>

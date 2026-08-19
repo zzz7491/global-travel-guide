@@ -10,9 +10,33 @@
   "h1": "北京适老 / 亲子路线",
   "lead": "线路以平坦园区与室内展馆为主，安排午休与就近餐饮，适合长辈与小朋友。",
   "blocks": [
-    { "kind": "section", "title": "攻略概览", "html": "<p>线路以平坦园区与室内展馆为主，安排午休与就近餐饮，适合长辈与小朋友。</p>" },
-    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
-    { "kind": "notes", "title": "注意事项", "items": ["优先选择无障碍/平缓景区。", "中午安排休息与就近用餐。"] },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-five-days", "china-beijing-tiantan", "china-beijing-accommodation"] }
-  ]
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>线路以平坦园区与室内展馆为主，安排午休与就近餐饮，适合长辈与小朋友。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "核心内容",
+      "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "优先选择无障碍/平缓景区。",
+        "中午安排休息与就近用餐。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-five-days",
+        "china-beijing-tiantan",
+        "china-beijing-accommodation"
+      ]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80"
 }

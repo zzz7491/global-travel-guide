@@ -1,0 +1,228 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "japan-tokyo-economy",
+  "country": "japan",
+  "city": "tokyo",
+  "slug": "economy",
+  "title": "东京五日经济版路书｜低预算东京自由行计划 | Global Travel Guide",
+  "description": "东京五日经济版路书：以地铁与步行为主、免费地标为核心、街头美食与平价住宿搭配的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过核心体验的自由行旅客。",
+  "keywords": "东京经济游,东京五日游,东京自由行省钱,东京预算攻略,东京地铁游,东京便宜玩法",
+  "h1": "东京五日经济版路书",
+  "lead": "省钱不省精彩 · 用地铁与步行串起老城与新潮，平价也出深度。",
+  "edition": "economy",
+  "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=70",
+  "featured": true,
+  "priority": 1,
+  "days": 5,
+  "suitableFor": "首次访日、希望控制预算又想覆盖核心体验的自由行旅客",
+  "seasonNote": "春季樱花季（3–4月）热门区域需提前规划住宿并错峰；秋季（10–11月）气候舒适，最适合城市漫步与夜景；夏季湿热建议多安排室内与夜游，冬季干冷需保暖与室内行程。",
+  "travelTone": "第一次东京自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["东京五日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 平价也出深度",
+    "tone": "🧭 适合：第一次东京自由行",
+    "info": [
+      { "num": "5", "label": "DAYS" },
+      { "num": "15+", "label": "FREE SPOTS" },
+      { "num": "经济档", "label": "TICKETS" },
+      { "num": "地铁为主", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 地铁出行 · 经济住宿",
+    "bottom": "适合首次访日、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌤 春樱秋枫最佳 · 夏夜冬暖可调",
+    "budget": "约 ¥2400–5400 / 人·5天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把东京玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "每笔开销都花在核心地标，能免则免、该省省到位" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，减少跨城折返与无效通勤" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "神社、公园、街区漫步零门票，体验不打折" },
+      { "icon": "🚇", "label": "交通效率", "value": "地铁24/48/72小时券 + 步行，省车费也省时间" },
+      { "icon": "🏯", "label": "深度体验", "value": "经典地标一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "老东京入门", "title": "浅草 · 晴空塔 · 上野", "spots": ["浅草寺", "晴空塔", "东京国立博物馆", "隅田川"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "皇居与银座", "title": "皇居 · 银座 · 筑地外围", "spots": ["皇居外苑", "银座", "筑地外围", "滨离宫"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "新潮东京", "title": "明治神宫 · 原宿 · 涩谷", "spots": ["明治神宫", "原宿", "涩谷", "表参道"], "ticketLabel": "经济档" },
+    { "day": 4, "theme": "夜景与高楼", "title": "新宿 · 池袋 · 都厅", "spots": ["新宿御苑", "新宿", "池袋", "都厅展望"], "ticketLabel": "经济档" },
+    { "day": 5, "theme": "文化与收尾", "title": "上野 · 秋叶原 · 东京站", "spots": ["上野公园", "秋叶原", "东京站", "博物馆群"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "只把钱花在必去地标，多数景点免费进入。", "items": ["浅草寺 / 神社免费", "公园与街区漫步免费", "博物馆常设展低价或夜场免费", "晴空塔可外观不登塔"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含 1–2 个付费观景与博物馆通票，体验更完整。", "items": ["晴空塔展望券", "博物馆通票", "每日1顿特色正餐", "都厅免费展望作为补充"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多个付费体验 + 餐厅正餐，体验优先。", "items": ["teamLab 数字艺术馆", "晴空塔展望", "多个博物馆特展", "特色餐厅正餐"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选近核心地铁站的区域，减少搬运行李与通勤时间。",
+    "rows": [
+      { "type": "经济型连锁", "area": "新宿区域（近新宿站）", "priceLevel": "约 ¥300–700/晚（估算）", "advantage": "交通枢纽 · 夜生活与24h便利店密集 · 适合想少走路、多动线的旅客" },
+      { "type": "公寓式住宿", "area": "上野 / 浅草区域", "priceLevel": "约 ¥350–700/晚（估算）", "advantage": "近博物馆与老城 · 家庭 / 长住友好 · 可自炊进一步省餐饮费" },
+      { "type": "品质酒店", "area": "东京站 / 丸之内区域", "priceLevel": "约 ¥700–1200/晚（估算）", "advantage": "干净高效 · 近JR枢纽 · 适合中转与商务感体验" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "老东京入门", "title": "浅草 · 晴空塔 · 上野", "sub": "从最经典的江户风情开始，免费地标打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "机场入境与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "从成田 / 羽田乘京成 / 利木津 / 都营线进入市区，放下行李轻装出发。往返大交通不含，自行控制。", "info": [{ "label": "交通方式", "value": "利木津/京成+地铁" }, { "label": "耗时", "value": "60–90分钟" }, { "label": "费用", "value": "约¥40–80" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的城市天际线", "reservation": "无需预约", "localTip": "先购交通IC卡再出站更顺畅", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住，次日再出发" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店简餐出发", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "酒店附近便利店饭团 / 三明治，快速解决，把时间留给景点。", "info": [{ "label": "人均", "value": "¥10–20" }, { "label": "建议", "value": "就近解决" }], "bestTime": "出发前", "photoSpot": "便利店门口街景", "reservation": "无需预约", "localTip": "自带水杯随时补水", "tips": "景区饮料常贵2–3倍，提前补水更省", "alternative": "想尝热食可找连锁早餐店" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "浅草寺与雷门", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "从雷门大红灯笼进入仲见世通，逛传统小吃街，参拜浅草寺主殿。建议早到避开人潮，求签随意、不强制。", "info": [{ "label": "建议时长", "value": "1.5–2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "9点前人流最少", "photoSpot": "雷门红灯笼正面、仲见世通纵深、寺内五重塔", "reservation": "无需预约", "localTip": "寺内深处比主街更清净", "tips": "求签随意、不强制", "alternative": "雨天改浅草文化中心或周边展馆" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "仲见世通街头小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "人形烧、仙贝、烤团子边走边吃，少量多样试吃最划算。", "info": [{ "label": "人均", "value": "经济档" }, { "label": "建议", "value": "少量多样" }], "bestTime": "上午逛吃", "photoSpot": "小吃铺招牌与手信陈列", "reservation": "无需预约", "localTip": "现做现吃最香", "tips": "少量多样试吃，别一次买太多占肚子", "alternative": "排队店可错峰，巷子深处常有同款" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "晴空塔周边（不登塔也精彩）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "塔下商业设施与河边步道免费，想看全景可购展望券（估算 ¥80–150）。", "info": [{ "label": "建议时长", "value": "1–2小时" }, { "label": "费用", "value": "免费 / 可选" }], "bestTime": "黄昏光线最好", "photoSpot": "塔下广场仰拍、河边倒影", "reservation": "旺季展望券建议线上购", "localTip": "不登塔也能拍到漂亮塔景", "tips": "外观免费，省下门票钱留作晚餐", "alternative": "不登塔省费用并减少排队" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "隅田川散步至东京国立博物馆", "badges": [{ "t": "体验", "c": "experience" }, { "t": "可选付费", "c": "paid" }], "desc": "沿隅田川步行或乘地铁到上野，博物馆本馆常设展估算 ¥30–60，周五夜场常免费。", "info": [{ "label": "交通", "value": "地铁 / 步行" }, { "label": "费用", "value": "免费 / 低价" }], "bestTime": "傍晚散步最舒服", "photoSpot": "隅田川桥上、博物馆主建筑", "reservation": "特展需线上预约", "localTip": "上野公园傍晚很舒服", "tips": "适合作为第一天轻松收尾", "alternative": "只看公园免费区域也精彩" },
+        { "time": "夜间", "category": "experience", "categoryLabel": "体验", "title": "夜游浅草 / 晴空塔灯光", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "入夜后塔身灯光与浅草商店街灯火，免费散步感受老城夜色。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落后", "photoSpot": "晴空塔夜景、雷门夜灯", "reservation": "无需预约", "localTip": "商店街傍晚更热闹", "tips": "只逛不买也开心，感受老城夜色", "alternative": "体力不足则回住处休息" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "浅草↔上野↔晴空塔以地铁串联，单日费用含在24/48小时券内。", "info": [{ "label": "交通方式", "value": "地铁 + 步行" }, { "label": "当日费用", "value": "约¥15–30" }, { "label": "餐饮合计", "value": "约¥150–250" }], "bestTime": "避开早晚高峰", "photoSpot": "车站站内指示牌", "reservation": "无需预约", "localTip": "先购地铁券再出行", "tips": "地铁券按天数选购，抵达当天就买", "alternative": "步行可达区间优先步行" }
+      ]
+    },
+    {
+      "day": 2, "theme": "皇居与银座", "title": "皇居 · 银座 · 筑地外围", "sub": "市中心的历史与繁华，步行即可串联", "tag": "市中心经典", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "酒店前往皇居", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至皇居外苑，上午凉爽适合户外漫步。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "20–30分钟" }, { "label": "费用", "value": "¥3–6" }], "bestTime": "上午", "photoSpot": "车站出口街景", "reservation": "无需预约", "localTip": "带上水杯轻装出发", "tips": "户外漫步记得防晒与补水", "alternative": "就近便利店解决早餐" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "连锁 / 便利店早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "酒店附近便利店或连锁早餐，快速解决再出发。", "info": [{ "label": "人均", "value": "¥10–25" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "想热食找连锁", "tips": "自带水杯省费用", "alternative": "想热食可找连锁早餐店" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "皇居外苑与二重桥", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "开阔草坪、护城河与二重桥是东京都心的经典画面，外围全天免费进入。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午光线柔和", "photoSpot": "二重桥、护城河倒影、樱树列道", "reservation": "无需（东御苑需预约）", "localTip": "外围已足够出片", "tips": "想进东御苑需提前线上预约", "alternative": "想进东御苑需提前线上预约" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "银座周边简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "银座百货地下熟食（デパ地下）是平价又体面的选择，便当与炸物按需取用。", "info": [{ "label": "人均", "value": "经济–舒适" }, { "label": "建议", "value": "百货地下熟食" }], "bestTime": "中午", "photoSpot": "百货橱窗", "reservation": "无需预约", "localTip": "傍晚熟食常打折", "tips": "错峰购买更划算，便当也能带走", "alternative": "想省钱可回便利店" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "筑地外围与胜哄", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "场内批发市场已迁往丰洲，但外围餐饮街与水产小店依旧热闹，逛吃不花钱。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "中午–下午", "photoSpot": "玉子烧店铺、水产陈列", "reservation": "无需预约", "localTip": "试吃免费", "tips": "正餐另算，先试吃再决定", "alternative": "雨天改室内市场或百货" },
+        { "time": "傍晚", "category": "scenic", "categoryLabel": "景点", "title": "滨离宫恩赐庭园", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "江户时期大名庭园，潮入之池与茶园雅致，门票估算 ¥20–30，是市中心性价比极高的静谧角落。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "约¥20–30" }], "bestTime": "黄昏", "photoSpot": "潮入之池、茶园", "reservation": "无需预约", "localTip": "临近黄昏光线最好", "tips": "适合慢走，预留充足时间", "alternative": "免费公园也可替代" },
+        { "time": "夜间", "category": "experience", "categoryLabel": "体验", "title": "银座橱窗与傍晚散步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "银座并木通橱窗与百货灯光，只逛不买也精彩。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "傍晚–夜间", "photoSpot": "银座灯光、并木通", "reservation": "无需预约", "localTip": "只逛不买反而轻松", "tips": "橱窗与建筑本身免费好看", "alternative": "雨天改银座百货室内" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "皇居↔银座↔筑地以地铁丸之内线串联，银座可步行连通。", "info": [{ "label": "交通方式", "value": "地铁丸之内线 + 步行" }, { "label": "当日费用", "value": "约¥10–20" }, { "label": "餐饮合计", "value": "约¥150–250" }], "bestTime": "避开高峰", "photoSpot": "车站站内", "reservation": "无需预约", "localTip": "银座可步行连通", "tips": "少换乘更省心，按导航走即可", "alternative": "步行优先，省车费" }
+      ]
+    },
+    {
+      "day": 3, "theme": "新潮东京", "title": "明治神宫 · 原宿 · 涩谷", "sub": "从森林神社到十字路口的青春能量", "tag": "潮流必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往明治神宫", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至原宿 / 明治神宫前，上午森林神社清凉。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "20–30分钟" }, { "label": "费用", "value": "¥3–6" }], "bestTime": "清晨", "photoSpot": "车站", "reservation": "无需预约", "localTip": "赶早避开人潮", "tips": "清晨森林最安静、最出片", "alternative": "就近便利店早餐" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "酒店附近便利店解决早餐，省钱省时。", "info": [{ "label": "人均", "value": "¥10–20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "便利店便宜又省时", "alternative": "想热食找连锁" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "明治神宫", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "穿过参道森林抵达神宫，城市中心的一片静谧，参拜与散步均免费。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "清晨人少、森林感最强", "photoSpot": "大鸟居、参道森林、神宫主殿", "reservation": "无需预约", "localTip": "清晨人少、森林感最强", "tips": "建议开门即到，避开旅行团", "alternative": "雨天带伞照常游览" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "原宿竹下通小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "创意可丽饼、彩虹吐司等街头甜咸点心，边走边吃是体验本身。", "info": [{ "label": "人均", "value": "经济档" }, { "label": "建议", "value": "1–2样尝鲜" }], "bestTime": "中午", "photoSpot": "竹下通招牌", "reservation": "无需预约", "localTip": "排队店可错峰", "tips": "巷子深处常有同款更便宜", "alternative": "巷子深处同款更便宜" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "表参道橱窗与猫街", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "沿表参道看建筑与橱窗，拐进猫街（キャットストリート）淘古着，逛不买也精彩。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午", "photoSpot": "表参道建筑、猫街", "reservation": "无需预约", "localTip": "只逛不买反而轻松", "tips": "古着与橱窗免费好看", "alternative": "雨天改表参道百货室内" },
+        { "time": "傍晚", "category": "scenic", "categoryLabel": "景点", "title": "涩谷十字路口与 SHIBUYA SKY", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "在世界最繁忙的十字路口感受人流，想俯瞰可上 SHIBUYA SKY（估算 ¥60–100）。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费 / 约¥60–100" }], "bestTime": "黄昏人流壮观", "photoSpot": "十字路口、SKY观景台", "reservation": "SKY建议线上购", "localTip": "不登楼也能在路口看景", "tips": "外观免费，省下票钱留作晚餐", "alternative": "不登楼省费用并减少排队" },
+        { "time": "夜间", "category": "experience", "categoryLabel": "体验", "title": "涩谷周边夜景 / 购物", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "涩谷中心街灯光与百货，免费感受青春能量。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "夜间", "photoSpot": "涩谷灯光", "reservation": "无需预约", "localTip": "只逛不买", "tips": "感受氛围即可，避免冲动消费", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "明治神宫↔原宿↔涩谷以 JR 山手线 + 地铁串联，原宿–涩谷步行可达。", "info": [{ "label": "交通方式", "value": "JR山手线 + 地铁 / 步行" }, { "label": "当日费用", "value": "约¥10–20" }, { "label": "餐饮合计", "value": "约¥150–250" }], "bestTime": "避开高峰", "photoSpot": "车站站内", "reservation": "无需预约", "localTip": "原宿到涩谷步行约10分钟", "tips": "步行可达，省下车费", "alternative": "步行优先，省车费" }
+      ]
+    },
+    {
+      "day": 4, "theme": "夜景与高楼", "title": "新宿 · 池袋 · 都厅", "sub": "白天逛街、傍晚登高看免费夜景", "tag": "夜景免费", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往新宿", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至新宿，白天逛街、傍晚登高看免费夜景。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "20–30分钟" }, { "label": "费用", "value": "¥3–6" }], "bestTime": "上午", "photoSpot": "车站", "reservation": "无需预约", "localTip": "白天先逛街、傍晚登高", "tips": "早到可避开人潮", "alternative": "就近便利店早餐" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "酒店附近便利店解决早餐。", "info": [{ "label": "人均", "value": "¥10–20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "便利店方便又便宜", "alternative": "想热食找连锁" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "新宿御苑", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "日式与西式庭园并置，樱花季尤美，门票估算 ¥20–30。", "info": [{ "label": "建议时长", "value": "1.5–2小时" }, { "label": "费用", "value": "约¥20–30" }], "bestTime": "上午人少", "photoSpot": "庭园草坪、樱花 / 红叶", "reservation": "无需（特定展需）", "localTip": "园内禁饮食与吸烟", "tips": "进门前用完早餐", "alternative": "免费公园也可替代" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "新宿横丁小酌", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "思出横丁、歌舞伎町横丁的小店串烧与家常菜，人均可控。", "info": [{ "label": "人均", "value": "经济–舒适" }, { "label": "建议", "value": "横丁小店" }], "bestTime": "中午", "photoSpot": "横丁招牌", "reservation": "无需（热门店早入座）", "localTip": "居酒屋早入座更便宜", "tips": "晚市加价明显，17点前入座最划算", "alternative": "想省钱回便利店" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "池袋阳光城与动漫街", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费 / 可选", "c": "optional" }], "desc": "阳光城水族馆需票，但周边动漫周边街与书店免费逛，适合御宅向旅客。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费 / 可选" }], "bestTime": "下午", "photoSpot": "动漫橱窗、阳光城外观", "reservation": "水族馆需购票", "localTip": "只逛不买，看橱窗", "tips": "动漫展陈免费，重点看限定", "alternative": "雨天改水族馆（付费）" },
+        { "time": "傍晚", "category": "scenic", "categoryLabel": "景点", "title": "东京都厅展望台（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "45层南北展望台免费开放，夜景不输收费观景台，是经济版必打卡。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落前到，一次看黄昏到夜景", "photoSpot": "展望台夜景、都厅建筑", "reservation": "无需预约", "localTip": "日落前到最值", "tips": "一次看尽黄昏到夜景，提前占好位置", "alternative": "阴天改室内展馆" },
+        { "time": "夜间", "category": "experience", "categoryLabel": "体验", "title": "新宿夜景 / 歌舞伎町外围", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "新宿西口灯光与摩天楼，外围散步感受不夜城。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "夜间", "photoSpot": "新宿灯光", "reservation": "无需预约", "localTip": "只逛不消费", "tips": "外围散步感受不夜城，避免冲动消费", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "新宿↔池袋↔都厅以地铁串联，都厅免费展望收尾。", "info": [{ "label": "交通方式", "value": "地铁 + JR" }, { "label": "当日费用", "value": "约¥10–20" }, { "label": "餐饮合计", "value": "约¥150–250" }], "bestTime": "避开高峰", "photoSpot": "车站站内", "reservation": "无需预约", "localTip": "都厅免费展望收尾", "tips": "省钱又出片，作为一天收尾", "alternative": "步行优先，省车费" }
+      ]
+    },
+    {
+      "day": 5, "theme": "文化与收尾", "title": "上野 · 秋叶原 · 东京站", "sub": "博物馆、电器街与最后采购", "tag": "文化收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往上野", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至上野，博物馆与电器街收尾。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "20–30分钟" }, { "label": "费用", "value": "¥3–6" }], "bestTime": "上午", "photoSpot": "车站", "reservation": "无需预约", "localTip": "上午博物馆刚开门人最少", "tips": "早到可避开人潮", "alternative": "就近便利店早餐" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "酒店附近便利店解决早餐。", "info": [{ "label": "人均", "value": "¥10–20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "便利店便宜又省时", "alternative": "想热食找连锁" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "上野公园与博物馆群", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "公园免费，园内美术馆 / 博物馆常设展低价，周五夜场常免费，文化密度极高。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "常设展低价 / 夜场免费" }], "bestTime": "上午人少", "photoSpot": "公园樱花、博物馆主建筑", "reservation": "特展需线上预约", "localTip": "选1–2馆深入", "tips": "不必全刷，留体力给下午", "alternative": "只看公园免费区域也精彩" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "阿美横丁小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "上野阿美横丁的炸串、海鲜小丼与水果摊，平价又热闹。", "info": [{ "label": "人均", "value": "经济档" }, { "label": "建议", "value": "小吃组合" }], "bestTime": "中午", "photoSpot": "阿美横丁招牌", "reservation": "无需预约", "localTip": "现炸现吃", "tips": "当季水果便宜，别错过", "alternative": "想省钱回便利店" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "秋叶原电器与动漫", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "电器量贩与动漫楼层免费逛，橱窗与限定展品本身就是体验。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午", "photoSpot": "秋叶原招牌、橱窗", "reservation": "免税需出示护照", "localTip": "免税合并结算更划算", "tips": "免税门槛注意，只逛也很过瘾", "alternative": "雨天更适合室内逛" },
+        { "time": "傍晚", "category": "transport", "categoryLabel": "交通", "title": "东京站与丸之内收尾", "badges": [{ "t": "交通", "c": "transport" }, { "t": "免费", "c": "free" }], "desc": "东京站红砖建筑与丸之内街区是回程前最后一站，伴手礼与便当一站购齐。", "info": [{ "label": "建议时长", "value": "0.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "傍晚", "photoSpot": "东京站红砖、丸之内", "reservation": "无需预约", "localTip": "站内便当种类多", "tips": "适合带回车上或飞机上吃", "alternative": "直接赴机场" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "伴手礼采购", "badges": [{ "t": "体验", "c": "experience" }, { "t": "弹性", "c": "optional" }], "desc": "东京站 / 百货地下挑选手信，预算内控制。", "info": [{ "label": "建议时长", "value": "0.5–1小时" }, { "label": "费用", "value": "弹性" }], "bestTime": "傍晚", "photoSpot": "百货橱窗", "reservation": "无需预约", "localTip": "免税合并结算", "tips": "合并结账达到免税门槛", "alternative": "机场免税补购" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接 / 返程", "badges": [{ "t": "交通", "c": "transport" }], "desc": "上野↔秋叶原↔东京站以 JR 山手线 + 地铁串联，东京站换乘枢纽赴机场。", "info": [{ "label": "交通方式", "value": "JR山手线 + 地铁" }, { "label": "当日费用", "value": "约¥10–25" }, { "label": "餐饮合计", "value": "约¥150–250" }], "bestTime": "避开高峰", "photoSpot": "车站站内", "reservation": "无需预约", "localTip": "预留赴机场所需", "tips": "留足时间赴机场，别卡点", "alternative": "直接赴机场" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 2400, "high": 5400, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 经济住宿 + 免费地标 + 街头餐饮" },
+      "composition": { "门票": "多数免费", "交通": "地铁券 + 步行", "餐饮": "街头 + 便利店 + 1正餐", "住宿": "经济型 / 公寓" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 5700, "high": 9900, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含1–2付费观景 + 博物馆通票 + 每日1正餐" },
+      "composition": { "门票": "1–2付费", "交通": "地铁券 + 偶尔打车", "餐饮": "+每日1正餐", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 9100, "high": 15700, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 多付费体验 + 餐厅正餐 + 优选位置住宿" },
+      "composition": { "门票": "多付费", "交通": "自由", "餐饮": "+特色餐厅", "住宿": "品质酒店 + 位置优" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（5晚）", "economy": { "low": 1500, "high": 3500, "note": "经济型/公寓·5晚估算" }, "comfort": { "low": 3500, "high": 6000, "note": "品质酒店·5晚估算" }, "flexible": { "low": 6000, "high": 10000, "note": "优选位置·5晚估算" } },
+      { "cat": "🍽 餐饮（5天）", "economy": { "low": 500, "high": 900, "note": "街头+便利店+1正餐" }, "comfort": { "low": 1200, "high": 1800, "note": "+每日1特色正餐" }, "flexible": { "low": 1800, "high": 3000, "note": "+特色餐厅" } },
+      { "cat": "🚇 交通（5天）", "economy": { "low": 100, "high": 200, "note": "地铁券+步行" }, "comfort": { "low": 200, "high": 400, "note": "地铁券+偶尔打车" }, "flexible": { "low": 400, "high": 700, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 80, "high": 300, "note": "多数免费/精选付费" }, "comfort": { "low": 300, "high": 700, "note": "1–2付费观景+通票" }, "flexible": { "low": 700, "high": 1500, "note": "多付费体验" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 200, "high": 500, "note": "手信/纪念品弹性" }, "comfort": { "low": 500, "high": 1000, "note": "手信+伴手礼" }, "flexible": { "low": 1000, "high": 2500, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 2380, "high": 5400, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 5700, "high": 9900, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 9100, "high": 15700, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "机场 → 住宿区域 → 浅草 / 上野", "transport": "轨道交通 + 步行", "estimatedTime": "约60–90分钟", "costRange": "约¥15–30/人", "foodRange": "约¥150–250/人" },
+    { "day": "Day2", "route": "住宿 → 皇居 → 银座 → 筑地", "transport": "地铁丸之内线 + 步行", "estimatedTime": "约40–60分钟", "costRange": "约¥10–20/人", "foodRange": "约¥150–250/人" },
+    { "day": "Day3", "route": "住宿 → 明治神宫 → 原宿 → 涩谷", "transport": "JR山手线 + 地铁", "estimatedTime": "约40–60分钟", "costRange": "约¥10–20/人", "foodRange": "约¥150–250/人" },
+    { "day": "Day4", "route": "住宿 → 新宿 → 池袋 → 都厅", "transport": "地铁 + JR", "estimatedTime": "约50–70分钟", "costRange": "约¥10–20/人", "foodRange": "约¥150–250/人" },
+    { "day": "Day5", "route": "住宿 → 上野 → 秋叶原 → 东京站", "transport": "JR山手线 + 地铁", "estimatedTime": "约40–60分钟", "costRange": "约¥10–25/人", "foodRange": "约¥150–250/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外地标与街区漫步", "alternative": "室内文化设施：上野的东京国立博物馆 / 国立西洋美术馆、六本木的森美术馆、惠比寿的东京都写真美术馆，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费观景设施", "alternative": "免费城市观景与常设展：都厅展望台、东京站 / 新宿站高层、上野公园，以及东京都写真美术馆等常设免费展区", "reason": "不花钱也能看全景与好展，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "步行密集的老城路线", "alternative": "以上野公园博物馆群（馆间步数少、可坐下歇）与都厅免费展望为主，增加地铁接驳与中途休息", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2–3个核心点（如浅草寺 + 晴空塔外观、或明治神宫 + 表参道），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "便利店饭团 ¥10–20", "午餐": "仲见世小吃 ¥30–60", "晚餐": "浅草天妇罗盖饭区域 ¥60–100", "小计": "经济档" },
+      { "day": "Day2", "早餐": "酒店附近便利店", "午餐": "银座百货地下熟食 ¥40–80", "晚餐": "筑地外围海鲜小丼 ¥60–100", "小计": "经济–舒适" },
+      { "day": "Day3", "早餐": "明治神宫前便利店", "午餐": "原宿竹下通创意小吃 ¥30–60", "晚餐": "涩谷平价拉面 ¥50–80", "小计": "经济档" },
+      { "day": "Day4", "早餐": "新宿便利店", "午餐": "思出横丁串烧 ¥50–90", "晚餐": "池袋阳光城食街 ¥50–90", "小计": "经济–舒适" },
+      { "day": "Day5", "早餐": "上野便利店", "午餐": "阿美横丁炸串 ¥30–60", "晚餐": "东京站便当 ¥50–90", "小计": "经济档" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "地铁 + 步行", "费用": "含在24h券内", "提醒": "抵达当天先购地铁券" },
+      { "day": "Day2", "方式": "地铁丸之内线为主", "费用": "券覆盖", "提醒": "银座可步行连通" },
+      { "day": "Day3", "方式": "JR山手线 + 地铁", "费用": "券 + 步行", "提醒": "原宿–涩谷步行可达" },
+      { "day": "Day4", "方式": "地铁 + JR", "费用": "券覆盖", "提醒": "都厅免费展望收尾" },
+      { "day": "Day5", "方式": "JR山手线 + 地铁", "费用": "券末段", "提醒": "东京站换乘枢纽" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 浅草·晴空塔", "Day2 皇居·银座", "Day3 明治·原宿", "Day4 新宿·池袋", "Day5 上野·秋叶原"],
+    "dailyHours": [7, 7, 7, 8, 6],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [2500, 700, 150, 190, 350],
+      "comfort": [4500, 1500, 300, 500, 750],
+      "flexible": [8000, 2400, 550, 1100, 1750]
+    }
+  },
+  "savingTips": [
+    { "title": "早餐控费", "text": "便利店饭团 / 三明治，人均 ¥10–20，比餐厅便宜且省时。" },
+    { "title": "午餐轻量", "text": "小吃 + 便利店组合，把预算留给一天中唯一一顿正餐。" },
+    { "title": "晚餐升级", "text": "每天仅1顿正餐，体验地道料理却不破费。" },
+    { "title": "景区避雷", "text": "景区内饮料常贵2–3倍，自带水杯随时补水。" },
+    { "title": "免费优先", "text": "公园、神社、博物馆常设展多免费或低价，先填满免费项。" },
+    { "title": "交通券", "text": "抵达即买24/48/72小时地铁券，按行程天数选档最划算。" },
+    { "title": "同行分摊", "text": "2人及以上时住宿与部分交通更划算，优先拼房拼行。" },
+    { "title": "只逛不买", "text": "表参道、银座、秋叶原的橱窗与展陈本身免费好看。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["晴空塔展望券旺季建议提前购", "博物馆特展多需线上预约", "如加 teamLab 须提前线上预约（非经济版默认项）", "皇居东御苑如想进入需提前预约"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前2–4周更优", "地铁券抵达后购买即可", "热门餐厅正餐提前1–2周"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带护照等有效证件", "少量日元现金 + 国际信用卡", "提前下载导航 / 交通 App", "准备流量卡或开通漫游", "备好交通IC卡（抵日购买）"] }
+  ],
+  "packing": [
+    "有效证件（护照）", "日元现金少量", "国际信用卡", "交通IC卡（抵日购买）", "舒适步行鞋", "转换插头（两扁脚）", "轻便雨具", "常用药品", "移动电源", "流量卡 / 漫游", "折叠购物袋", "轻薄外套（应对空调与早晚温差）"
+  ]
+}

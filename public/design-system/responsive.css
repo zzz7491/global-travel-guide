@@ -1,0 +1,73 @@
+/* ============================================================
+   Global Travel Guide — Design System v2.0 · RESPONSIVE
+   iPhone 375px first. Prevents awkward CJK line breaks,
+   caps title size, enforces table scroll, no horizontal overflow.
+   ============================================================ */
+
+/* ---- Headings: never break a CJK word mid-word; balance multi-line ---- */
+h1, h2, h3 {
+  word-break: keep-all;
+  text-wrap: balance;
+}
+
+/* ---- Base mobile typography ---- */
+body { font-size: 16px; line-height: 1.7; }
+
+@media (max-width: 768px) {
+  /* Cap H1 on small screens (hero included) */
+  h1 { font-size: clamp(24px, 7vw, 30px); line-height: 1.2; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
+
+  /* Footer collapses to a single readable column, stays ≤220px tall */
+  .site-footer {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    text-align: center;
+    padding: var(--space-6) var(--space-4);
+  }
+  .footer-brand { align-items: center; }
+  .footer-tag { max-width: 320px; }
+  .footer-cols { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-8); }
+  .footer-copy { margin-top: var(--space-3); }
+
+  /* Tables already in .table-scroll get a min-width so they scroll, not squash */
+  .detail-table, .rp-table, .accommodation table { min-width: 560px; }
+}
+
+/* Prevent any element from forcing horizontal page overflow */
+html, body { overflow-x: hidden; max-width: 100%; }
+
+/* ============================================================
+   Home & City v2.0 · mobile (375px first)
+   ============================================================ */
+@media (max-width: 768px) {
+  /* Hero: shorter on small screens, headline 24–32px, no text break */
+  .hero {
+    min-height: 56vh;
+    padding: var(--space-8) var(--space-4);
+    border-radius: var(--radius-lg);
+  }
+  .hero--city { min-height: 40vh; }
+  .hero-title { font-size: clamp(24px, 7vw, 32px); }
+  .hero-actions { flex-direction: column; }
+  .hero-search { width: 100%; }
+  .hero-search input { padding: 12px 16px; }
+  .btn-on-hero { width: 100%; }
+  .stats-bar { gap: var(--space-6); }
+
+  /* Cards: single column */
+  .dest-grid, .route-grid, .cards { grid-template-columns: 1fr; }
+  .dest-card, .dest-card--city { min-height: 0; }
+  .route-card--featured { padding: var(--space-5) var(--space-4); }
+
+  /* Section header stays aligned, smaller title */
+  .section-header h2 { font-size: 19px; }
+  .section-more { font-size: 12px; }
+
+  /* Facts row wraps gracefully */
+  .stats-bar--facts { gap: var(--space-4); }
+
+  /* Breadcrumb wraps */
+  .breadcrumb { gap: var(--space-1); }
+}

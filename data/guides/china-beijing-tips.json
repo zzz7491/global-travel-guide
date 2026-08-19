@@ -10,9 +10,33 @@
   "h1": "北京旅行贴士",
   "lead": "多数热门景点需提前预约门票；春秋最适宜出游，夏季注意防晒补水。",
   "blocks": [
-    { "kind": "section", "title": "攻略概览", "html": "<p>多数热门景点需提前预约门票；春秋最适宜出游，夏季注意防晒补水。</p>" },
-    { "kind": "section", "title": "核心内容", "html": "<h3>门票预约</h3><p>占位：待补充详细攻略内容。</p><h3>天气与装备</h3><p>占位：待补充建议。</p>" },
-    { "kind": "notes", "title": "注意事项", "items": ["故宫、国博等需提前在官方渠道预约。", "9月20-28日为金秋最佳窗口。"] },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-transport", "china-beijing-food", "china-beijing-three-days"] }
-  ]
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>多数热门景点需提前预约门票；春秋最适宜出游，夏季注意防晒补水。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "核心内容",
+      "html": "<h3>门票预约</h3><p>占位：待补充详细攻略内容。</p><h3>天气与装备</h3><p>占位：待补充建议。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "故宫、国博等需提前在官方渠道预约。",
+        "9月20-28日为金秋最佳窗口。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-transport",
+        "china-beijing-food",
+        "china-beijing-three-days"
+      ]
+    }
+  ],
+  "category": "贴士"
 }

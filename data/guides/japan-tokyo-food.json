@@ -33,12 +33,23 @@
     {
       "kind": "notes",
       "title": "要点回顾",
-      "items": ["筑地早市宜早到。", "拉面店多用食券机。", "小费不必给，服务费看店。", "午市正餐性价比高。"]
+      "items": [
+        "筑地早市宜早到。",
+        "拉面店多用食券机。",
+        "小费不必给，服务费看店。",
+        "午市正餐性价比高。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-tokyo-tsukiji", "japan-tokyo-sensoji", "japan-tokyo-three-days", "japan-tokyo-budget"]
+      "refs": [
+        "japan-tokyo-tsukiji",
+        "japan-tokyo-sensoji",
+        "japan-tokyo-three-days",
+        "japan-tokyo-budget"
+      ]
     }
-  ]
+  ],
+  "category": "美食"
 }

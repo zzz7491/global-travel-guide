@@ -1,0 +1,70 @@
+<!-- ===== Seasonal v2.0 · Seasonal Guide (Design System only) ===== -->
+<a class="rp-back" href="{{backUrl}}">← {{backLabel}}</a>
+
+<section class="hero hero--city"{{#if heroImage}} style="--hero-image:url('{{heroImage}}')"{{/if}}>
+  <div class="hero-inner">
+    {{#if heroName}}<p class="hero-brand">{{heroName}} · {{season}}</p>{{/if}}
+    <h1 class="hero-title">{{h1}}</h1>
+    {{#if lead}}<p class="hero-sub">{{lead}}</p>{{/if}}
+    {{#if months}}
+    <div class="stats-bar">
+      {{#each months}}<div class="stat"><span class="stat-value">{{text}}</span><span class="stat-label">BEST MONTHS</span></div>{{/each}}
+    </div>
+    {{/if}}
+  </div>
+</section>
+
+{{#if overview}}
+<section class="block home-block">
+  <div class="section-header"><h2>Season Overview</h2></div>
+  <p class="about-text">{{overview}}</p>
+</section>
+{{/if}}
+
+{{#if weather}}
+<section class="block home-block">
+  <div class="section-header"><h2>Weather &amp; Best Time</h2></div>
+  <p class="section-summary">{{weather}}</p>
+</section>
+{{/if}}
+
+{{#if highlights}}
+<section class="block home-block">
+  <div class="section-header"><h2>Season Highlights</h2></div>
+  <div class="highlight-chips">
+    {{#each highlights}}<span class="chip">{{text}}</span>{{/each}}
+  </div>
+</section>
+{{/if}}
+
+{{#if events}}
+<section class="block home-block">
+  <div class="section-header"><h2>Events &amp; Experiences</h2></div>
+  <div class="cards">
+    {{#each events}}
+    <div class="card season-card">
+      <strong>{{name}}{{#if time}} · {{time}}{{/if}}</strong>
+      <span>{{place}}{{#if note}} — {{note}}{{/if}}</span>
+    </div>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
+
+{{#if tips}}
+<section class="block home-block">
+  <div class="section-header"><h2>Travel Tips</h2></div>
+  <ul class="notes-list">
+    {{#each tips}}<li>{{text}}</li>{{/each}}
+  </ul>
+</section>
+{{/if}}
+
+{{#if blocks}}
+{{#each blocks}}
+<section class="block home-block">
+  {{#if title}}<div class="section-header"><h2>{{title}}</h2></div>{{/if}}
+  {{{html}}}
+</section>
+{{/each}}
+{{/if}}

@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/design-system/tokens.css">
+  <link rel="stylesheet" href="/design-system/components.css">
+  <link rel="stylesheet" href="/design-system/responsive.css">
 <title>网站地图 | Global Travel Guide</title>
 <meta name="description" content="Global Travel Guide 网站地图：汇总全站目的地、景点、路线、实用攻略与基础页面，方便快速浏览与检索。">
 <meta name="keywords" content="Global Travel Guide,网站地图,站点导航,页面索引">
@@ -44,12 +47,12 @@
 </script>
 </head>
 <body>
-  <nav class="topnav">
-    <a href="/">首页</a>
-    <a href="/china/beijing/">北京攻略</a>
-    <a href="/about.html">关于我们</a>
-    <a href="/contact.html">联系我们</a>
-    <a href="/sitemap-page.html">网站地图</a>
+    <nav class="topnav">
+    <a href="/">Home</a>
+    <a href="/countries">Countries</a>
+    <a href="/routes">Routes</a>
+    <a href="/guides">Guides</a>
+    <a href="/about">About</a>
   </nav>
   <main>
     <h1>网站地图</h1>
@@ -66,48 +69,56 @@
       <h2>北京 · 中国</h2>
       <ul class="notes-list">
         <li><a href="/china/beijing/">北京 · 中国（目的地）</a></li>
-        <li><a href="/china/beijing/attractions/gugong.html">故宫</a></li>
-        <li><a href="/china/beijing/attractions/changcheng.html">长城</a></li>
-        <li><a href="/china/beijing/attractions/yiheyuan.html">颐和园</a></li>
-        <li><a href="/china/beijing/attractions/tiantan.html">天坛</a></li>
-        <li><a href="/china/beijing/routes/three-days.html">北京3日游路线</a></li>
-        <li><a href="/china/beijing/routes/five-days.html">北京5日游路线</a></li>
-        <li><a href="/china/beijing/routes/elderly-friendly.html">北京适老路线</a></li>
-        <li><a href="/china/beijing/guides/accommodation.html">住宿攻略</a></li>
-        <li><a href="/china/beijing/guides/transport.html">交通攻略</a></li>
-        <li><a href="/china/beijing/guides/food.html">美食攻略</a></li>
-        <li><a href="/china/beijing/guides/tips.html">旅行贴士</a></li>
-        <li><a href="/china/beijing/best-time.html">北京最佳旅行时间</a></li>
-        <li><a href="/china/beijing/normal.html">北京5日游路书（舒适版）</a></li>
-        <li><a href="/china/beijing/budget.html">北京5日游路书（经济版）</a></li>
+        <li><a href="/china/beijing/attractions/gugong">故宫</a></li>
+        <li><a href="/china/beijing/attractions/changcheng">长城</a></li>
+        <li><a href="/china/beijing/attractions/yiheyuan">颐和园</a></li>
+        <li><a href="/china/beijing/attractions/tiantan">天坛</a></li>
+        <li><a href="/china/beijing/routes/three-days">北京3日游路线</a></li>
+        <li><a href="/china/beijing/routes/five-days">北京5日游路线</a></li>
+        <li><a href="/china/beijing/routes/elderly-friendly">北京适老路线</a></li>
+        <li><a href="/china/beijing/guides/accommodation">住宿攻略</a></li>
+        <li><a href="/china/beijing/guides/transport">交通攻略</a></li>
+        <li><a href="/china/beijing/guides/food">美食攻略</a></li>
+        <li><a href="/china/beijing/guides/tips">旅行贴士</a></li>
+        <li><a href="/china/beijing/best-time">北京最佳旅行时间</a></li>
+        <li><a href="/china/beijing/normal">北京5日游路书（舒适版）</a></li>
+        <li><a href="/china/beijing/budget">北京5日游路书（经济版）</a></li>
       </ul>
     </div>
 
     <div class="block">
       <h2>关于与帮助</h2>
       <ul class="notes-list">
-        <li><a href="/about.html">关于我们</a></li>
-        <li><a href="/services.html">服务方向</a></li>
-        <li><a href="/contact.html">联系我们</a></li>
-        <li><a href="/privacy.html">隐私政策</a></li>
-        <li><a href="/terms.html">服务条款</a></li>
+        <li><a href="/about">关于我们</a></li>
+        <li><a href="/services">服务方向</a></li>
+        <li><a href="/contact">联系我们</a></li>
+        <li><a href="/privacy">隐私政策</a></li>
+        <li><a href="/terms">服务条款</a></li>
         <li><a href="/sitemap.xml">XML 网站地图（sitemap.xml）</a></li>
       </ul>
     </div>
 
     <div class="back"><a href="/">返回首页</a></div>
   </main>
-  <footer class="site-footer">
-    <p>© 2026 Global Travel Guide</p>
-    <p>全球旅行攻略与自由行路线指南</p>
-    <p>提供全球目的地介绍、旅行路线规划、景点攻略、美食推荐及自由行参考信息。</p>
-    <p class="footer-links">
-      <a href="/about">关于我们</a> | <a href="/services">服务方向</a> | <a href="/contact">联系我们</a> | <a href="/sitemap-page">网站地图</a>
-    </p>
-    <p>联系我们：<br>Email: moming2603@hotmail.com</p>
-    <p>Website: https://travel.mootlsv.com</p>
-    <p>运营主体：嘉兴市东诚信息咨询有限公司</p>
-    <p>© 2026 Global Travel Guide. All Rights Reserved.</p>
+    <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="footer-logo">Global Travel Guide</span>
+      <span class="footer-tag">Explore the world with smart travel planning.</span>
+    </div>
+    <nav class="footer-cols">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="/countries">Countries</a>
+        <a href="/cities">Cities</a>
+        <a href="/routes">Routes</a>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
+    <p class="footer-copy">© 2026 Global Travel Guide</p>
   </footer>
 </body>
 </html>

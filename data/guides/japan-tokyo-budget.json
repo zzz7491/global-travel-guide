@@ -33,12 +33,23 @@
     {
       "kind": "notes",
       "title": "要点回顾",
-      "items": ["住宿与餐饮是最可调分项。", "午市正餐、免费景点拉低日均。", "备现金零钱应对小店。", "提前预约付费体验更划算。"]
+      "items": [
+        "住宿与餐饮是最可调分项。",
+        "午市正餐、免费景点拉低日均。",
+        "备现金零钱应对小店。",
+        "提前预约付费体验更划算。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-tokyo-three-days", "japan-tokyo-five-days", "japan-tokyo-accommodation", "japan-tokyo-transport"]
+      "refs": [
+        "japan-tokyo-three-days",
+        "japan-tokyo-five-days",
+        "japan-tokyo-accommodation",
+        "japan-tokyo-transport"
+      ]
     }
-  ]
+  ],
+  "category": "预算"
 }

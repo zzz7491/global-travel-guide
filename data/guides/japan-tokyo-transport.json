@@ -33,12 +33,23 @@
     {
       "kind": "notes",
       "title": "要点回顾",
-      "items": ["备一张 Suica/Pasmo 走全城。", "山手线沿线住宿最省心。", "大站认颜色编号与出口编号。", "机场按住宿区域选交通方式。"]
+      "items": [
+        "备一张 Suica/Pasmo 走全城。",
+        "山手线沿线住宿最省心。",
+        "大站认颜色编号与出口编号。",
+        "机场按住宿区域选交通方式。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-tokyo-three-days", "japan-tokyo-five-days", "japan-tokyo-accommodation", "japan-tokyo-ueno-park"]
+      "refs": [
+        "japan-tokyo-three-days",
+        "japan-tokyo-five-days",
+        "japan-tokyo-accommodation",
+        "japan-tokyo-ueno-park"
+      ]
     }
-  ]
+  ],
+  "category": "交通"
 }

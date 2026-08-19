@@ -1,7 +1,12 @@
 # Beijing old URLs migration
 
-/normal.html /china/beijing/normal.html 301
-/budget.html /china/beijing/budget.html 301
+# Legacy itineraries -> data-driven types (P1/P2)
+/normal.html /china/beijing/route-plan/comfort 301
+/budget.html /china/beijing/budget/economy 301
+/china/beijing/normal /china/beijing/route-plan/comfort 301
+/china/beijing/normal.html /china/beijing/route-plan/comfort 301
+/china/beijing/budget /china/beijing/budget/economy 301
+/china/beijing/budget.html /china/beijing/budget/economy 301
 
 /attractions/gugong.html /china/beijing/attractions/gugong.html 301
 /attractions/changcheng.html /china/beijing/attractions/changcheng.html 301

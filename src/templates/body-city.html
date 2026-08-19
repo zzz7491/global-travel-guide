@@ -1,0 +1,87 @@
+<!-- ===== City v2.0 · City Travel Hub ===== -->
+{{#if crumbs}}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  {{#each crumbs}}<a href="{{url}}">{{name}}</a>{{/each}}
+</nav>
+{{/if}}
+
+<section class="hero hero--city"{{#if heroImage}} style="--hero-image:url('{{heroImage}}')"{{/if}}>
+  <div class="hero-inner">
+    {{#if heroNameEn}}<p class="hero-brand">{{heroNameEn}}</p>{{/if}}
+    <h1 class="hero-title">{{h1}}</h1>
+    {{#if tagline}}<p class="hero-sub">{{tagline}}</p>{{/if}}
+  </div>
+</section>
+
+{{#if about}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>About {{name}}</h2>
+  </div>
+  <p class="about-text">{{about}}</p>
+  {{#if highlights}}
+  <div class="highlight-chips">
+    {{#each highlights}}<span class="chip">{{text}}</span>{{/each}}
+  </div>
+  {{/if}}
+  {{#if facts}}
+  <div class="stats-bar stats-bar--facts">
+    {{#each facts}}
+    <div class="stat">
+      <span class="stat-value">{{value}}</span>
+      <span class="stat-label">{{label}}</span>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</section>
+{{/if}}
+
+{{#if gallery}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>City Gallery</h2>
+  </div>
+  <div class="gallery-grid">
+    {{#each gallery}}
+    <figure class="gallery-card">
+      <img class="card-img" width="800" height="450" src="{{src}}" alt="{{alt}}" loading="lazy" decoding="async">
+      <figcaption class="gallery-caption">{{#if credit}}{{alt}} · {{credit}}{{else}}{{alt}}{{/if}}</figcaption>
+    </figure>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
+
+{{#each sections}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>{{title}}</h2>
+  </div>
+  {{#if empty}}
+  <div class="empty-state">
+    <strong>{{emptyTitle}}</strong>
+    <span>{{note}}</span>
+  </div>
+  {{else}}
+    {{#if summary}}<p class="section-summary">{{summary}}</p>{{/if}}
+    {{#if featured}}
+    <a class="route-card route-card--featured" href="{{featured.url}}">
+      {{#if featured.image}}<img class="card-img" width="800" height="450" src="{{featured.image}}" alt="{{featured.alt}}" loading="lazy" decoding="async">{{/if}}
+      <span class="badge">{{featured.badge}}</span>
+      <strong>{{featured.title}}</strong>
+      <span>{{featured.desc}}</span>
+    </a>
+    {{/if}}
+    <div class="cards">
+      {{#each items}}
+      <a class="card {{#if cardClass}}{{cardClass}}{{else}}city-card{{/if}}" href="{{url}}">
+        {{#if image}}<img class="card-img" width="800" height="450" src="{{image}}" alt="{{alt}}" loading="lazy" decoding="async">{{/if}}
+        <strong>{{title}}</strong>
+        <span>{{desc}}</span>
+      </a>
+      {{/each}}
+    </div>
+  {{/if}}
+</section>
+{{/each}}

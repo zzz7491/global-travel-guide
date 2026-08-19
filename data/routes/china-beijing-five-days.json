@@ -10,9 +10,33 @@
   "h1": "北京5日游路线",
   "lead": "五天时间可兼顾经典与小众，建议前三天走核心、后两天补胡同与展陈。",
   "blocks": [
-    { "kind": "section", "title": "攻略概览", "html": "<p>五天时间可兼顾经典与小众，建议前三天走核心、后两天补胡同与展陈。</p>" },
-    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
-    { "kind": "notes", "title": "注意事项", "items": ["热门景点建议提前预约门票。", "春秋最适宜出游，夏季注意防晒补水。"] },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-three-days", "china-beijing-elderly-friendly", "china-beijing-food"] }
-  ]
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>五天时间可兼顾经典与小众，建议前三天走核心、后两天补胡同与展陈。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "核心内容",
+      "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "热门景点建议提前预约门票。",
+        "春秋最适宜出游，夏季注意防晒补水。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-three-days",
+        "china-beijing-elderly-friendly",
+        "china-beijing-food"
+      ]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80"
 }

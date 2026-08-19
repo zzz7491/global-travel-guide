@@ -1,0 +1,52 @@
+{{#if heroImage}}<div class="hero hero--story" style="--hero-image:url({{heroImage}})">{{else}}<div class="hero hero--story">{{/if}}
+  <div class="hero-inner">
+    {{#if cityName}}<p class="hero-brand">{{cityName}}</p>{{/if}}
+    <h1 class="hero-title">{{h1}}</h1>
+    {{#if lead}}<p class="hero-sub">{{lead}}</p>{{/if}}
+    {{#if meta}}<p class="hero-meta">{{meta}}</p>{{/if}}
+  </div>
+</div>
+
+<nav class="breadcrumb" aria-label="面包屑">
+  <a href="/">Home</a><span>/</span>
+  {{#if cityName}}<a href="{{backUrl}}">{{cityName}}</a><span>/</span>{{/if}}
+  <span>{{h1}}</span>
+</nav>
+
+{{#if hasAuthor}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Story</h2>
+  </div>
+  <div class="story-meta">
+    <span class="author-badge">{{author.name}}</span>
+    {{#if travelStyle}}<span class="badge">{{travelStyle}}</span>{{/if}}
+    {{#if season}}<span class="badge">{{season}}</span>{{/if}}
+    {{#if days}}<span class="badge">{{days}} Days</span>{{/if}}
+  </div>
+</section>
+{{/if}}
+
+{{#if highlights}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Highlights</h2>
+  </div>
+  <ul class="highlight-chips">
+    {{#each highlights}}
+    <li class="chip">{{text}}</li>
+    {{/each}}
+  </ul>
+</section>
+{{/if}}
+
+{{#if blocks}}
+{{#each blocks}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>{{title}}</h2>
+  </div>
+  {{{inner}}}
+</section>
+{{/each}}
+{{/if}}

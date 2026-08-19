@@ -34,12 +34,22 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["热门景点建议提前确认开放时间。", "地铁按颜色与编号换乘，下载离线地图更安心。", "紧凑行程可删减 Day3 的新宿御苑以留休息。"]
+      "items": [
+        "热门景点建议提前确认开放时间。",
+        "地铁按颜色与编号换乘，下载离线地图更安心。",
+        "紧凑行程可删减 Day3 的新宿御苑以留休息。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-tokyo-sensoji", "japan-tokyo-meiji-jingu", "japan-tokyo-food", "japan-tokyo-five-days"]
+      "refs": [
+        "japan-tokyo-sensoji",
+        "japan-tokyo-meiji-jingu",
+        "japan-tokyo-food",
+        "japan-tokyo-five-days"
+      ]
     }
-  ]
+  ],
+  "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=80"
 }

@@ -1,0 +1,65 @@
+/* ============================================================
+   Global Travel Guide — Design System v2.0 · TOKENS
+   Single source of truth for color / type / space / radii / shadow.
+   Every page (global shell + route-plan module) consumes these.
+   No template may redefine a color value — alias to these instead.
+   ============================================================ */
+:root {
+  /* ---- Color ---- */
+  --brand: #2E7D32;          /* 旅行绿 · 唯一主色 */
+  --brand-dark: #1B5E20;
+  --brand-light: #43A047;
+  --accent: #F9A825;         /* 金 · 高级点缀（仅少量使用） */
+  --accent-light: #FBC02D;
+
+  --ink: #2B2B2B;            /* 标题/正文深色 */
+  --ink-light: #5A5A5A;      /* 次级文字 */
+  --muted: #6B6B6B;          /* 辅助说明 */
+
+  --paper: #FFFDF8;          /* 卡片/表层 */
+  --background: #FAF6F0;      /* 页面底色（暖米） */
+  --line: #E7E0D4;           /* 分隔线 */
+
+  /* 语义强调色（系统内置，禁止页面私有定义） */
+  --accent-red: #C0392B;
+  --accent-green: #27AE60;
+  --accent-blue: #2980B9;
+  --accent-orange: #E67E22;
+  --accent-purple: #8E44AD;
+  --warn: #8b1e18;           /* 特价/警示（降级使用） */
+
+  /* 浅色底色 / 点缀文字（组件内复用，禁止页面重新发明） */
+  --tint-brand: #E8F5E9;
+  --tint-gold: #FFF8E1;
+  --tint-gold-2: #FFECB3;
+  --tint-gold-3: #FEF9E7;
+  --tint-red: #FDEDEC;
+  --gold-ink: #5a4500;
+  --gold-text-light: #FFF3D6;
+
+  /* ---- Typography ---- */
+  --font-serif: "Noto Serif SC", Georgia, "Songti SC", serif;   /* 标题 · 杂志衬线 */
+  --font-sans: system-ui, -apple-system, "Segoe UI", "Noto Sans SC", sans-serif; /* 正文 · 现代无衬线 */
+
+  /* ---- Spacing scale (px) ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* ---- Radius ---- */
+  --radius-sm: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* ---- Shadow ---- */
+  --shadow-sm: 0 4px 20px rgba(0, 0, 0, .08);
+  --shadow: 0 14px 40px rgba(40, 30, 20, .10);
+  --shadow-lg: 0 18px 55px rgba(44, 31, 20, .16);
+
+  /* ---- Hero image (shared brand backdrop) ---- */
+  --hero-image: url("https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1800&q=80");
+}

@@ -28,8 +28,14 @@ import {
   buildCitySections,
   buildCountrySections,
   buildIndexSections,
+  buildHomeSections,
+  buildHomeBody,
+  buildCityBody,
   buildListingBody,
   buildBreadcrumb,
+  buildRoutePlanBody,
+  buildSeasonalBody,
+  buildStoryBody,
 } from '../src/lib/content.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -39,6 +45,7 @@ const DATA_DIR = path.join(ROOT, 'data');
 const TMPL_DIR = path.join(ROOT, 'src', 'templates');
 const STATIC_DIR = path.join(ROOT, 'src', 'static');
 const ASSETS_DIR = path.join(ROOT, 'src', 'assets');
+const DESIGN_DIR = path.join(ROOT, 'src', 'design-system');
 const OUT_DIR = path.join(ROOT, 'public');
 
 // --- helpers ----------------------------------------------------------------
@@ -67,17 +74,17 @@ const ENTITIES = [
   ...loadDir(path.join(DATA_DIR, 'routes')),
   ...loadDir(path.join(DATA_DIR, 'guides')),
   ...loadDir(path.join(DATA_DIR, 'best-times')),
+  ...loadDir(path.join(DATA_DIR, 'route-plans')),
+  ...loadDir(path.join(DATA_DIR, 'budgets')),
+  ...loadDir(path.join(DATA_DIR, 'seasonals')),
+  ...loadDir(path.join(DATA_DIR, 'stories')),
 ];
 const INDEX = {};
 ENTITIES.forEach((e) => { INDEX[e.id] = e; });
 
-// Long-form itinerary pages kept as verbatim static HTML (not in the data model).
-// country/city let buildCitySections filter each itinerary to its own city, so
-// future cities (Tokyo/Paris) never inherit Beijing's routes.
-const ITINERARIES = [
-  { title: '正常版（舒适）', desc: '食宿品鉴与风光体验配置更完整。', url: '/china/beijing/normal', country: 'china', city: 'beijing' },
-  { title: '经济版（省钱）', desc: '控制住宿餐饮交通成本，保留核心体验。', url: '/china/beijing/budget', country: 'china', city: 'beijing' },
-];
+// Beijing itineraries migrated to data-driven types (budget / route-plan).
+// Kept as an empty array; future static itineraries can be registered here.
+const ITINERARIES = [];
 
 // Global directory pages — "travel knowledge catalog", not content pages.
 const INDEX_PAGES = [
@@ -116,6 +123,28 @@ const INDEX_PAGES = [
     keywords: '旅行指南,实用旅行攻略,交通住宿美食,旅行建议',
     h1: '全球旅行实用指南', lead: '交通、住宿、美食、预算等实用旅行建议，帮你轻松出行。',
   },
+  {
+    kind: 'budgets', url: '/budgets', file: 'budgets/index.html',
+    title: '全球旅行预算方案 | Global Travel Guide',
+    description: 'Global Travel Guide 全球旅行预算方案：分档预算路书，经济型与舒适型自由行成本参考。',
+    keywords: '旅行预算,旅行花费,经济自由行,预算路书',
+    h1: '全球旅行预算方案', lead: '分档预算路书：经济型与舒适型自由行成本参考，花得明白。',
+  },
+  {
+    kind: 'seasonals', url: '/seasonals', file: 'seasonals/index.html',
+    title: '全球季节旅行攻略 | Global Travel Guide',
+    description: 'Global Travel Guide 全球季节旅行攻略：按季节与月份精选最佳旅行时机与当季玩法。',
+    keywords: '季节旅行,最佳旅行时间,当季玩法,季节攻略',
+    h1: '全球季节旅行攻略', lead: '按季节与月份精选最佳旅行时机与当季玩法。',
+  },
+  {
+    kind: 'stories', url: '/stories', file: 'stories/index.html',
+    title: '旅行者故事 | Global Travel Guide',
+    description: 'Global Travel Guide 旅行者故事：真实旅行者的路线分享与体验。',
+    keywords: '旅行故事,旅行分享,旅行体验',
+    h1: '旅行者故事', lead: '真实旅行者的路线分享与体验。',
+    conditional: true, // only generated when at least one story entity exists
+  },
 ];
 
 // Static base pages (about / contact / sitemap / privacy / terms). Kept as
@@ -134,6 +163,11 @@ const tpl = {
   layout: readTpl('layout.html'),
   content: readTpl('body-content.html'),
   listing: readTpl('body-listing.html'),
+  home: readTpl('body-home.html'),
+  city: readTpl('body-city.html'),
+  routePlan: readTpl('body-route-plan.html'),
+  seasonal: readTpl('body-seasonal.html'),
+  story: readTpl('body-story.html'),
 };
 const ctx = { site: SITE, index: INDEX, entities: ENTITIES, home: HOME, itineraries: ITINERARIES, tpl };
 
@@ -157,6 +191,98 @@ function renderPage(e, bodyHtml) {
       url: siteUrl + '/',
     },
     buildBreadcrumb(e, ctx),
+    ...(e.type === 'home'
+      ? [(() => {
+          const dests = ctx.entities.filter((et) => et.type === 'country' || et.type === 'city');
+          return {
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            name: 'Featured Destinations',
+            itemListElement: dests.map((it, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              name: it.name || it.h1 || '',
+              url: siteUrl + linkUrl(it),
+            })),
+          };
+        })()]
+      : []),
+    ...(e.type === 'index' && e._indexItems && e._indexItems.length
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: e.h1 || '',
+          itemListElement: e._indexItems.map((it, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            name: it.title || '',
+            url: siteUrl + it.url,
+          })),
+        }]
+      : []),
+    ...(e.type === 'route-plan' || e.type === 'budget'
+      ? [(() => {
+          const a = {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: e.h1 || e.name || e.title || '',
+            description: e.description || e.lead || '',
+            url: siteUrl + linkUrl(e),
+          };
+          // image only when the entity actually has one — never an empty field.
+          if (e.image) a.image = e.image;
+          return a;
+        })()]
+      : []),
+    ...(e.type === 'seasonal'
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: e.h1 || e.name || e.title || '',
+          description: e.description || e.lead || '',
+          url: siteUrl + linkUrl(e),
+          ...(e.heroImage ? { image: e.heroImage } : {}),
+        }]
+      : []),
+    ...(e.type === 'story'
+      ? [(() => {
+          const a = {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: e.title || e.h1 || '',
+            description: e.summary || e.description || '',
+            url: siteUrl + linkUrl(e),
+          };
+          if (e.cover) a.image = e.cover;
+          if (e.author && e.author.name) a.author = { '@type': 'Person', name: e.author.name };
+          if (e.publishedAt) a.datePublished = e.publishedAt;
+          return a;
+        })()]
+      : []),
+    ...(e.type === 'city'
+      ? [(() => {
+          const lang = e.language
+            || (e.facts || []).find((f) => f.label === 'Language')?.value
+            || '';
+          const td = {
+            '@context': 'https://schema.org',
+            '@type': 'TouristDestination',
+            name: e.name || e.city,
+            description: e.description || e.lead || '',
+            url: siteUrl + linkUrl(e),
+          };
+          // image: heroImage first, then gallery srcs — only when real data.
+          const imgs = [];
+          if (e.heroImage) imgs.push(e.heroImage);
+          for (const g of (e.gallery || [])) {
+            if (g && g.src && !imgs.includes(g.src)) imgs.push(g.src);
+          }
+          if (imgs.length) td.image = imgs;
+          if (lang) td.availableLanguage = lang;
+          if (e.bestTime && e.bestTime.description) td.bestTime = e.bestTime.description;
+          return td;
+        })()]
+      : []),
   ]).replace(/</g, '\\u003c');
   return renderTemplate(tpl.layout, {
     locale: SITE.locale,
@@ -209,7 +335,7 @@ function main() {
   HOME._canonical = canonicalFor(HOME, SITE.siteUrl);
   HOME._ogImage = SITE.defaultSocialImage;
   HOME._heroImageUrl = SITE.heroImage;
-  writeFile('index.html', renderPage(HOME, buildListingBody(HOME, HOME.sections, tpl.listing)));
+  writeFile('index.html', renderPage(HOME, renderTemplate(tpl.home, buildHomeBody(ctx))));
   pages.push({ url: '/', file: 'index.html' });
 
   // Entities (country / city / attraction / route / guide / best-time)
@@ -218,8 +344,11 @@ function main() {
     e._ogImage = ogImage(e, SITE);
     e._heroImageUrl = heroImageUrl(e, SITE);
     let body;
-    if (e.type === 'city') body = buildListingBody(e, buildCitySections(e, ctx), tpl.listing);
+    if (e.type === 'city') body = renderTemplate(tpl.city, buildCityBody(e, ctx));
     else if (e.type === 'country') body = buildListingBody(e, buildCountrySections(e, ctx), tpl.listing);
+    else if (e.type === 'route-plan' || e.type === 'budget') body = buildRoutePlanBody(e, ctx);
+    else if (e.type === 'seasonal') body = renderTemplate(tpl.seasonal, buildSeasonalBody(e, ctx));
+    else if (e.type === 'story') body = renderTemplate(tpl.story, buildStoryBody(e, ctx));
     else body = buildContentBody(e, ctx);
     const rel = urlFor(e).replace(/^\//, '').replace(/\/$/, '/index.html');
     writeFile(rel, renderPage(e, body));
@@ -229,12 +358,17 @@ function main() {
   // Static long-form pages (itineraries) + shared assets + favicon + robots
   copyDir(STATIC_DIR, OUT_DIR);
   copyDir(ASSETS_DIR, path.join(OUT_DIR, 'assets'));
+  copyDir(DESIGN_DIR, path.join(OUT_DIR, 'design-system'));
   for (const it of ITINERARIES) pages.push({ url: it.url, file: it.url.replace(/^\//, '') });
   for (const sp of STATIC_PAGES) pages.push({ url: sp.url, file: sp.file });
 
   // Global directory pages — pseudo-entities reusing renderPage + body-listing.
   const baseUrl = SITE.siteUrl.replace(/\/$/, '');
+  const KIND_TYPE = { countries: 'country', cities: 'city', attractions: 'attraction', routes: 'route', guides: 'guide', budgets: 'budget', seasonals: 'seasonal', stories: 'story' };
   for (const ip of INDEX_PAGES) {
+    // Conditional directories (e.g. /stories) render only when real content
+    // exists — never generate empty SEO pages.
+    if (ip.conditional && !ENTITIES.some((e) => e.type === KIND_TYPE[ip.kind])) continue;
     const page = {
       type: 'index',
       title: ip.title,
@@ -248,7 +382,10 @@ function main() {
     page._canonical = baseUrl + ip.url;
     page._ogImage = SITE.defaultSocialImage;
     page._heroImageUrl = SITE.heroImage;
-    const body = buildListingBody(page, buildIndexSections(ip.kind, ctx), tpl.listing);
+    const sections = buildIndexSections(ip.kind, ctx);
+    // Index items feed the page's ItemList JSON-LD (P8-P2) — only when real.
+    page._indexItems = (sections[0] && sections[0].items) || [];
+    const body = buildListingBody(page, sections, tpl.listing);
     writeFile(ip.file, renderPage(page, body));
     pages.push({ url: ip.url, file: ip.file });
   }

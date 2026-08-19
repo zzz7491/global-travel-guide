@@ -1,0 +1,126 @@
+<!-- ===== Home v2.0 · World Travel Planning Entry ===== -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-brand">{{heroBrand}}</p>
+    <h1 class="hero-title">Explore the world.</h1>
+    <p class="hero-sub">Plan your journey.</p>
+    <p class="hero-sub-zh">探索世界，规划你的下一段旅程。</p>
+    <div class="hero-actions">
+      <form class="hero-search" action="/countries" method="get" role="search">
+        <input type="search" name="q" placeholder="Search destination…" aria-label="Search destination" autocomplete="off">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <a class="btn btn-ghost btn-on-hero" href="/countries">Featured Destinations &rarr;</a>
+    </div>
+    <div class="stats-bar">
+      {{#each stats}}
+      <div class="stat">
+        <span class="stat-value">{{value}}</span>
+        <span class="stat-label">{{label}}</span>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+{{#if countries}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Featured Destinations</h2>
+    <a class="section-more" href="/countries">All destinations &rarr;</a>
+  </div>
+  <div class="dest-grid">
+    {{#each countries}}
+    <a class="dest-card dest-card--country" href="{{url}}">
+      {{#if image}}<img class="card-img" width="800" height="450" src="{{image}}" alt="{{alt}}" loading="lazy" decoding="async">{{/if}}
+      <strong>{{title}}</strong>
+      <span>{{#if tagline}}{{tagline}}{{else}}{{desc}}{{/if}}</span>
+    </a>
+    {{/each}}
+  </div>
+  {{#if cities}}
+  <div class="dest-grid dest-grid--cities">
+    {{#each cities}}
+    <a class="dest-card dest-card--city" href="{{url}}">
+      {{#if image}}<img class="card-img" width="800" height="450" src="{{image}}" alt="{{alt}}" loading="lazy" decoding="async">{{/if}}
+      <strong>{{title}}</strong>
+      <span>{{#if tagline}}{{tagline}}{{else}}{{desc}}{{/if}}</span>
+    </a>
+    {{/each}}
+  </div>
+  {{/if}}
+</section>
+{{/if}}
+
+{{#if featured}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Popular Routes</h2>
+    <a class="section-more" href="/routes">All routes &rarr;</a>
+  </div>
+  <a class="route-card route-card--featured" href="{{featured.url}}">
+    {{#if featured.image}}<img class="card-img" width="800" height="450" src="{{featured.image}}" alt="{{featured.alt}}" loading="lazy" decoding="async">{{/if}}
+    <span class="badge">{{featured.badge}}</span>
+    <strong>{{featured.title}}</strong>
+    <span>{{#if featured.cityName}}{{featured.cityName}} · {{/if}}{{featured.desc}}</span>
+  </a>
+  {{#if routes}}
+  <div class="route-grid">
+    {{#each routes}}
+    <a class="route-card" href="{{url}}">
+      {{#if image}}<img class="card-img" width="800" height="450" src="{{image}}" alt="{{alt}}" loading="lazy" decoding="async">{{/if}}
+      {{#if badge}}<span class="badge">{{badge}}</span>{{/if}}
+      <strong>{{title}}</strong>
+      <span>{{#if cityName}}{{cityName}} · {{/if}}{{desc}}</span>
+    </a>
+    {{/each}}
+  </div>
+  {{/if}}
+</section>
+{{/if}}
+
+{{#if guides}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Travel Planning Guides</h2>
+    <a class="section-more" href="/guides">All guides &rarr;</a>
+  </div>
+  <div class="cards">
+    {{#each guides}}
+    <a class="card guide-card" href="{{url}}">
+      {{#if category}}<span class="badge badge--guide">{{category}}</span>{{/if}}
+      <strong>{{title}}</strong>
+      <span>{{desc}}</span>
+    </a>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
+
+{{#if seasons}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Seasonal Experiences</h2>
+  </div>
+  <div class="cards">
+    {{#each seasons}}
+    <a class="card season-card" href="{{url}}">
+      {{#if image}}<img class="card-img" width="800" height="450" src="{{image}}" alt="{{alt}}" loading="lazy" decoding="async">{{/if}}
+      {{#if cityName}}<span class="badge badge--guide">{{cityName}}</span>{{/if}}
+      <strong>{{title}}</strong>
+      <span>{{#if meta}}{{meta}}{{else}}{{desc}}{{/if}}</span>
+    </a>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
+
+<section class="block home-block">
+  <div class="section-header">
+    <h2>Traveler Stories</h2>
+  </div>
+  <div class="empty-state">
+    <strong>Traveler Stories Coming Soon</strong>
+    <span>真实旅行经验将在未来开放，敬请期待。</span>
+  </div>
+</section>

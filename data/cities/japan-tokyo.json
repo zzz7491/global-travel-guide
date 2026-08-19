@@ -14,5 +14,62 @@
   "language": "日语",
   "currency": "日元 (JPY)",
   "timezone": "UTC+9",
-  "related": ["japan-tokyo-sensoji", "japan-tokyo-best-time"]
+  "related": [
+    "japan-tokyo-sensoji",
+    "japan-tokyo-best-time"
+  ],
+  "tagline": "未来都市与传统文化交织的日本首都",
+  "heroImage": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "春秋（3-5月 / 9-11月）",
+    "description": "春秋气候宜人，樱花与红叶季最受欢迎；夏季热闹多雨，冬季干爽少人。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "日语"
+    },
+    {
+      "label": "Currency",
+      "value": "日元 (JPY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+9"
+    }
+  ],
+  "highlights": [
+    "浅草寺与雷门",
+    "涩谷十字路口",
+    "teamLab 数字艺术",
+    "新宿御苑",
+    "东京塔夜景"
+  ],
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=70",
+      "alt": "东京 地标夜景",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=70",
+      "alt": "东京 传统街区街道",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=800&q=70",
+      "alt": "东京 神社与传统文化",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=70",
+      "alt": "东京 现代都市街道",
+      "credit": "Unsplash"
+    }
+  ],
+  "relatedCities": []
 }

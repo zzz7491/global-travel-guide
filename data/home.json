@@ -5,38 +5,5 @@
   "description": "Global Travel Guide 全球旅行攻略：覆盖世界目的地、城市旅行指南、最佳旅行时间、精选自由行路线与实用旅行技巧。",
   "keywords": "全球旅行攻略,世界目的地,城市旅行指南,最佳旅行时间,自由行路线,旅行技巧",
   "h1": "Global Travel Guide",
-  "lead": "全球旅行攻略与自由行路线指南 —— 带你探索世界目的地、规划城市行程、掌握最佳旅行时间与实用技巧。",
-  "sections": [
-    {
-      "title": "世界目的地",
-      "items": [
-        { "title": "北京 · 中国", "desc": "故宫、长城、颐和园与5日游路线。", "url": "/china/beijing/" },
-        { "title": "东京 · 日本", "desc": "即将上线。", "url": null },
-        { "title": "巴黎 · 法国", "desc": "即将上线。", "url": null }
-      ]
-    },
-    {
-      "title": "精选路线",
-      "items": [
-        { "title": "北京5日游", "desc": "深度慢游安排。", "url": "/china/beijing/routes/five-days.html" },
-        { "title": "北京3日游", "desc": "紧凑精华路线。", "url": "/china/beijing/routes/three-days.html" },
-        { "title": "适老路线", "desc": "轻松不赶、少爬坡。", "url": "/china/beijing/routes/elderly-friendly.html" }
-      ]
-    },
-    {
-      "title": "最佳旅行时间",
-      "items": [
-        { "title": "北京最佳旅行时间", "desc": "春秋最宜人，9-10月最佳。", "url": "/china/beijing/best-time.html" }
-      ]
-    },
-    {
-      "title": "旅行技巧",
-      "items": [
-        { "title": "住宿", "desc": "区域选择与预订建议。", "url": "/china/beijing/guides/accommodation.html" },
-        { "title": "交通", "desc": "地铁公交与机场接驳。", "url": "/china/beijing/guides/transport.html" },
-        { "title": "美食", "desc": "必吃与用餐避坑。", "url": "/china/beijing/guides/food.html" },
-        { "title": "贴士", "desc": "季节、门票与注意事项。", "url": "/china/beijing/guides/tips.html" }
-      ]
-    }
-  ]
+  "lead": "全球旅行攻略与自由行路线指南 —— 带你探索世界目的地、规划城市行程、掌握最佳旅行时间与实用技巧。"
 }

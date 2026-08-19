@@ -9,8 +9,12 @@
   "keywords": "日本旅行攻略,日本旅游,日本自由行,东京旅行,日本目的地,日本城市",
   "h1": "日本",
   "lead": "东亚岛国，千年传统与现代都市并存，从东京的霓虹街区到古都寺庙，适合深度自由行。",
+  "code": "JP",
   "continent": "亚洲",
   "language": "日语",
   "currency": "日元 (JPY)",
-  "timezone": "UTC+9"
+  "timezone": "UTC+9",
+  "visa": "多数国家可免签短期停留或提前办理日本签证，政策随国籍而异。",
+  "transport": "新干线覆盖主要城市，市内以地铁、JR 与巴士为主。",
+  "heroImage": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=800&q=80"
 }

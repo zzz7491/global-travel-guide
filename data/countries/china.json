@@ -8,5 +8,13 @@
   "description": "中国目的地旅行攻略：从北京等城市出发，覆盖景点、路线、最佳旅行时间与实用攻略。",
   "keywords": "中国旅行攻略,中国旅游,北京旅行,中国自由行",
   "h1": "中国",
-  "lead": "探索中国的历史名城与现代都市，从首都北京的古都风韵开始。"
+  "lead": "探索中国的历史名城与现代都市，从首都北京的古都风韵开始。",
+  "code": "CN",
+  "continent": "亚洲",
+  "language": "中文",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "visa": "多数国家需提前办理中国签证，部分口岸可落地签；政策随国籍而异。",
+  "transport": "高铁网络发达，市内以地铁、公交为主。",
+  "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
 }

@@ -10,5 +10,66 @@
   "keywords": "北京旅游攻略,北京自由行,北京五日游,北京景点攻略,北京旅游路线",
   "h1": "北京",
   "lead": "中国首都，故宫、长城、颐和园与胡同烟火，古今交织的旅行目的地。",
-  "related": ["china-beijing-gugong", "china-beijing-best-time"]
+  "related": [
+    "china-beijing-gugong",
+    "china-beijing-best-time"
+  ],
+  "tagline": "千年历史与现代中国交汇之城",
+  "heroImage": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1600&q=80",
+  "continent": "亚洲",
+  "language": "中文",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "bestTime": {
+    "season": "秋季（9-10月）",
+    "description": "秋高气爽是北京最佳出游季；春季 3-4 月次之，夏冬各有特色。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "中文"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "故宫博物院",
+    "八达岭长城",
+    "颐和园",
+    "天坛",
+    "胡同与烤鸭"
+  ],
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&q=70",
+      "alt": "北京 故宫",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&q=70",
+      "alt": "北京 长城",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=70",
+      "alt": "北京 城市天际线",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=70",
+      "alt": "北京 都市街道",
+      "credit": "Unsplash"
+    }
+  ],
+  "relatedCities": []
 }
