@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-byodo-in-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-byodo-in-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-byodo-in-gallery-01-placeholder.webp",
-      "alt": "平等院凤凰堂"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-byodo-in-gallery-02-placeholder.webp",
-      "alt": "平等院庭院"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/byodo-in-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/byodo-in-og.webp",
+  "gallery": []
 }

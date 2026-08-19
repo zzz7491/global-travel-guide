@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-kamo-river-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-kamo-river-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-kamo-river-gallery-01-placeholder.webp",
-      "alt": "鸭川日落"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-kamo-river-gallery-02-placeholder.webp",
-      "alt": "河岸散步"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/kamo-river-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/kamo-river-og.webp",
+  "gallery": []
 }

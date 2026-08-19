@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-tofuku-ji-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-tofuku-ji-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-tofuku-ji-gallery-01-placeholder.webp",
-      "alt": "东福寺通天桥红叶"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-tofuku-ji-gallery-02-placeholder.webp",
-      "alt": "黄檗宗庭园"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/tofuku-ji-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/tofuku-ji-og.webp",
+  "gallery": []
 }

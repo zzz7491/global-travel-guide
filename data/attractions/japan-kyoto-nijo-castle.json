@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-nijo-castle-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-nijo-castle-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-nijo-castle-gallery-01-placeholder.webp",
-      "alt": "二条城天守阁"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-nijo-castle-gallery-02-placeholder.webp",
-      "alt": "鹂鸣地板"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/nijo-castle-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/nijo-castle-og.webp",
+  "gallery": []
 }

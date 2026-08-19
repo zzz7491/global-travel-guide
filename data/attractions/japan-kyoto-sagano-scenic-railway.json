@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-sagano-scenic-railway-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-sagano-scenic-railway-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-sagano-scenic-railway-gallery-01-placeholder.webp",
-      "alt": "嵯峨野小火车穿越峡谷"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-sagano-scenic-railway-gallery-02-placeholder.webp",
-      "alt": "保津峡风景"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/sagano-scenic-railway-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/sagano-scenic-railway-og.webp",
+  "gallery": []
 }

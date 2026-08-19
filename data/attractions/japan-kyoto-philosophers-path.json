@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-philosophers-path-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-philosophers-path-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-philosophers-path-gallery-01-placeholder.webp",
-      "alt": "哲学之道樱花隧道"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-philosophers-path-gallery-02-placeholder.webp",
-      "alt": "运河石板路"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/philosophers-path-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/philosophers-path-og.webp",
+  "gallery": []
 }

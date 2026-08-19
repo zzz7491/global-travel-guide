@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-nishiki-market-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-nishiki-market-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-nishiki-market-gallery-01-placeholder.webp",
-      "alt": "锦市场入口"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-nishiki-market-gallery-02-placeholder.webp",
-      "alt": "摊位美食"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/nishiki-market-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/nishiki-market-og.webp",
+  "gallery": []
 }

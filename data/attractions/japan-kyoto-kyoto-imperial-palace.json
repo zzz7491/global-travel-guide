@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-kyoto-imperial-palace-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-kyoto-imperial-palace-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-kyoto-imperial-palace-gallery-01-placeholder.webp",
-      "alt": "京都御所正门"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-kyoto-imperial-palace-gallery-02-placeholder.webp",
-      "alt": "御所庭院"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/kyoto-imperial-palace-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/kyoto-imperial-palace-og.webp",
+  "gallery": []
 }

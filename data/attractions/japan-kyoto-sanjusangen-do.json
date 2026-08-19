@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-sanjusangen-do-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-sanjusangen-do-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-sanjusangen-do-gallery-01-placeholder.webp",
-      "alt": "三十三间堂千手观音"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-sanjusangen-do-gallery-02-placeholder.webp",
-      "alt": "堂内空间感"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/sanjusangen-do-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/sanjusangen-do-og.webp",
+  "gallery": []
 }

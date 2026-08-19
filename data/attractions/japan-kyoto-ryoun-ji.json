@@ -51,16 +51,7 @@
       ]
     }
   ],
-  "heroImage": "/images/kyoto/kyoto-hero-ryoun-ji-hero-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-og-ryoun-ji-og-placeholder.webp",
-  "gallery": [
-    {
-      "src": "/images/kyoto/kyoto-gallery-ryoun-ji-gallery-01-placeholder.webp",
-      "alt": "龙安寺石庭全景"
-    },
-    {
-      "src": "/images/kyoto/kyoto-gallery-ryoun-ji-gallery-02-placeholder.webp",
-      "alt": "枯山水禅意"
-    }
-  ]
+  "heroImage": "/assets/images/kyoto/attractions/ryoun-ji-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/ryoun-ji-og.webp",
+  "gallery": []
 }
