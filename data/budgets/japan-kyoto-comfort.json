@@ -1,0 +1,135 @@
+{
+  "type": "budget",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-comfort",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "comfort",
+  "title": "京都舒适版预算方案｜品质体验京都5日游",
+  "description": "京都舒适版预算方案：日均¥12000-18000的品质配置，民宿+特色餐+全景点入内，兼顾舒适与深度。",
+  "keywords": "京都舒适游,京都品质游,京都民宿,京都怀石料理,京都自由行",
+  "h1": "京都舒适版预算方案",
+  "lead": "品质不贵 · 把钱花在值得的体验上",
+  "edition": "comfort",
+  "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+  "priority": 20,
+  "suitableFor": "希望兼顾品质与性价比的旅行者",
+  "seasonNote": "春秋旺季民宿紧张需提前预订；夏季性价比高但湿热；冬季可赏雪景且价格实惠。",
+  "travelTone": "品质体验 · 文化沉浸 · 美食探索",
+  "cover": {
+    "tag": "COMFORT BUDGET PLAN",
+    "title": ["京都舒适版", "5日品质方案"],
+    "subtitle": "品质不贵·把钱花在值得的体验上",
+    "info": [
+      { "num": "¥12-18", "label": "千/天" },
+      { "num": "5", "label": "DAYS" },
+      { "num": "15+", "label": "景点" }
+    ],
+    "badge": "不含往返 · 品质住宿 · 特色餐饮",
+    "bottom": "适合希望兼顾品质与性价比、体验京都深度文化的旅行者。",
+    "season": "🌸 春秋旺季需提前预订",
+    "budget": "约 ¥60000–90000 / 人·5天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？五条原则让京都体验更有品质：",
+    "items": [
+      { "icon": "🏠", "label": "住宿升级", "value": "町家民宿或品质酒店，体验京都生活美学" },
+      { "icon": "🍱", "label": "餐饮提质", "value": "每日1顿特色正餐（怀石/汤豆腐），其余平价" },
+      { "icon": "🏛️", "label": "全景点入内", "value": "核心寺庙本堂入内，感受真实文化内涵" },
+      { "icon": "🚗", "label": "交通优化", "value": "巴士券 + 必要时出租车，节省体力" },
+      { "icon": "✨", "label": "体验升级", "value": "和服租赁、茶道体验等付费活动" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "东山文化线", "title": "清水寺 → 二年坂 → 祇园 → 花见小路", "spots": ["清水寺(入内)", "八坂神社", "祇园街区"], "ticketLabel": "舒适档" },
+    { "day": 2, "theme": "稻荷与市中心", "title": "伏见稻荷 → 锦市场 → 寺町通 → 鸭川", "spots": ["伏见稻荷(免费)", "锦市场", "鸭川散步"], "ticketLabel": "经济" },
+    { "day": 3, "theme": "岚山自然", "title": "天龙寺 → 岚山竹林 → 渡月桥", "spots": ["天龙寺(入内)", "岚山竹林", "渡月桥"], "ticketLabel": "低价" },
+    { "day": 4, "theme": "北区禅意", "title": "金阁寺 → 龙安寺 → 仁和寺", "spots": ["金阁寺(入内)", "龙安寺(入内)", "仁和寺(入内)"], "ticketLabel": "舒适档" },
+    { "day": 5, "theme": "宇治文化", "title": "平等院 → 源氏物語博物館 → 宇治抹茶街", "spots": ["平等院(入内)", "博物馆"], "ticketLabel": "中档" }
+  ],
+  "dailyBudget": [
+    {
+      "day": 1,
+      "theme": "东山文化线",
+      "accommodation": { "low": 8000, "high": 12000, "note": "町家民宿·祇园周边" },
+      "transport": { "low": 800, "high": 1200, "note": "巴士一日券+步行" },
+      "food": { "low": 3000, "high": 5000, "note": "特色午餐+晚餐" },
+      "tickets": { "low": 500, "high": 500, "note": "清水寺本堂" },
+      "experience": { "low": 3000, "high": 5000, "note": "和服租赁体验" },
+      "total": { "low": 15300, "high": 23700 },
+      "tips": "和服体验建议预约含化妆造型的套餐"
+    },
+    {
+      "day": 2,
+      "theme": "稻荷与市集",
+      "accommodation": { "low": 8000, "high": 12000, "note": "连住" },
+      "transport": { "low": 500, "high": 800, "note": "JR单次" },
+      "food": { "low": 2500, "high": 4000, "note": "锦市场午餐+町家料理晚餐" },
+      "tickets": { "low": 0, "high": 0, "note": "伏见稻荷免费" },
+      "experience": { "low": 0, "high": 2000, "note": "可选" },
+      "total": { "low": 11000, "high": 18800 },
+      "tips": "伏见稻荷清晨前往体验最佳"
+    },
+    {
+      "day": 3,
+      "theme": "岚山自然",
+      "accommodation": { "low": 8000, "high": 12000, "note": "连住" },
+      "transport": { "low": 800, "high": 1200, "note": "JR+岚电" },
+      "food": { "low": 3000, "high": 5000, "note": "嵯峨野汤豆腐或荞麦面" },
+      "tickets": { "low": 500, "high": 500, "note": "天龙寺" },
+      "experience": { "low": 0, "high": 0, "note": "-" },
+      "total": { "low": 12300, "high": 18700 },
+      "tips": "嵯峨野小火车旺季需提前预约"
+    },
+    {
+      "day": 4,
+      "theme": "北区禅意",
+      "accommodation": { "low": 8000, "high": 12000, "note": "连住" },
+      "transport": { "low": 1000, "high": 1500, "note": "市巴士跨区" },
+      "food": { "low": 3000, "high": 5000, "note": "日式定食+怀石晚餐" },
+      "tickets": { "low": 1800, "high": 1800, "note": "三处寺庙入内" },
+      "experience": { "low": 2000, "high": 3000, "note": "茶道体验可选" },
+      "total": { "low": 15800, "high": 23300 },
+      "tips": "怀石料理建议提前预约"
+    },
+    {
+      "day": 5,
+      "theme": "宇治抹茶",
+      "accommodation": { "low": 0, "high": 0, "note": "返程日" },
+      "transport": { "low": 1200, "high": 1800, "note": "JR往返宇治" },
+      "food": { "low": 3000, "high": 5000, "note": "宇治特色餐+抹茶甜点" },
+      "tickets": { "low": 400, "high": 1100, "note": "平等院入内+博物馆" },
+      "experience": { "low": 0, "high": 0, "note": "-" },
+      "total": { "low": 4600, "high": 7900 },
+      "tips": "宇治抹茶冰淇淋是必吃体验"
+    }
+  ],
+  "budgetTable": {
+    "rows": [
+      { "cat": "🏨 住宿（5晚）", "comfort": { "low": 40000, "high": 60000, "note": "町家民宿或品质酒店·京都站/祇园周边" } },
+      { "cat": "🍽 餐饮（5天）", "comfort": { "low": 15000, "high": 25000, "note": "含1-2顿特色正餐" } },
+      { "cat": "🚌 交通（5天）", "comfort": { "low": 4500, "high": 6500, "note": "巴士券+JR+必要时出租车" } },
+      { "cat": "🎫 门票", "comfort": { "low": 3200, "high": 4900, "note": "核心寺庙全部入内" } },
+      { "cat": "✨ 体验", "comfort": { "low": 5000, "high": 8000, "note": "和服+茶道等文化体验" } },
+      { "cat": "🛍 购物备用", "comfort": { "low": 5000, "high": 10000, "note": "伴手礼弹性预算" } }
+    ],
+    "totals": {
+      "comfort": { "low": 72700, "high": 114400, "note": "不含往返大交通·单人5天估算" }
+    }
+  },
+  "savingTips": [
+    { "title": "民宿选择", "text": "町家民宿体验京都传统生活，比酒店更地道且性价比更高。" },
+    { "title": "特色餐安排", "text": "每日安排1顿特色餐（怀石/汤豆腐），其余简餐控制成本。" },
+    { "title": "和服体验", "text": "祇园区域和服店竞争激烈，比价后选择性价比高的套餐。" },
+    { "title": "巴士券必买", "text": "京都景点分散，巴士一日券¥700性价比极高。" },
+    { "title": "旺季预约", "text": "樱花红叶季民宿紧张，建议提前1个月预订。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约提醒", "items": ["怀石/汤豆腐名店提前1周预约", "和服体验旺季提前1周预约", "樱花红叶季住宿提前1个月"] },
+    { "type": "booking", "title": "预订时机", "items": ["品质民宿提前2-4周预订", "特色餐厅提前3-7天预约"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带日元现金（部分小店仅收现金）", "备好舒适步行鞋", "下载日文/英文翻译App"] }
+  ],
+  "packing": [
+    "有效护照与签证", "日元现金（约8万日元）", "IC卡（ICOCA/Suica）", "舒适步行鞋", "轻便雨具", "充电宝", "转换插头", "薄外套", "相机/手机"
+  ]
+}

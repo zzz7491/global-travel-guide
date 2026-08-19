@@ -105,15 +105,32 @@ export function buildBreadcrumb(e, ctx) {
   };
 }
 
+// --- Image path resolution --------------------------------------------------
+// Support both legacy bare filenames and new schema full paths.
+// Legacy: image = "kyoto.jpg" → /assets/img/kyoto.jpg
+// New schema: heroImage/socialImage = "/images/kyoto/xxx.webp" → used as-is
+
+function resolveImagePath(rawPath, baseUrl, fallback, addExt = '.jpg') {
+  if (!rawPath) return fallback;
+  // Full URL or absolute path with extension → use directly
+  if (/^https?:\/\//i.test(rawPath) || /^\//.test(rawPath)) {
+    if (/\.(webp|jpg|jpeg|png)$/i.test(rawPath)) return rawPath;
+    return rawPath + addExt;
+  }
+  // Bare filename → legacy behavior
+  return `${baseUrl}/${rawPath}${addExt}`;
+}
+
 // --- R2-ready image resolution ----------------------------------------------
 // `site.imageBaseUrl` is a SINGLE switch: "/assets/img" locally, or an R2
 // public domain (e.g. "https://img.mootlsv.com") once images migrate.
 export function heroImageUrl(e, site) {
+  if (e && e.heroImage) return resolveImagePath(e.heroImage, site.imageBaseUrl, site.heroImage, '');
   if (e && e.image) return `${site.imageBaseUrl}/${e.image}.jpg`;
   return site.heroImage;
 }
 export function ogImage(e, site) {
-  if (e && e.socialImage) return `${site.imageBaseUrl}/${e.socialImage}.jpg`;
+  if (e && e.socialImage) return resolveImagePath(e.socialImage, site.imageBaseUrl, site.defaultSocialImage, '');
   if (e && e.image) return `${site.imageBaseUrl}/${e.image}-social.jpg`;
   return site.defaultSocialImage;
 }
@@ -147,16 +164,39 @@ export function buildContentBody(e, ctx) {
     title: b.title || '',
     inner: blockInner(b, ctx),
   }));
+  const gallery = (e.gallery || []).map((g) => ({
+    src: g.src || '',
+    alt: g.alt || '',
+    caption: g.caption || g.alt || '',
+  })).filter((g) => g.src);
   const cityId = `${e.country}-${e.city}`;
   const city = ctx.index[cityId] || ctx.home;
   const back =
     e.type === 'city' || e.type === 'country'
       ? { backUrl: '/', backLabel: '返回首页' }
       : { backUrl: linkUrl(city), backLabel: `返回${city.name || '首页'}` };
+  // Related links from blocks.referenced or auto-generated
+  const relBlock = e.blocks?.find(b => b.kind === 'related');
+  const relatedLinks = relBlock?.refs?.length
+    ? relBlock.refs.map(id => {
+        const ref = ctx.index[id];
+        if (!ref) return null;
+        return {
+          title: ref.h1 || ref.title || '',
+          desc: ref.lead || ref.description || '',
+          url: linkUrl(ref),
+          image: ref.heroImage || ref.image || '',
+          alt: ref.h1 || ref.title || '',
+        };
+      }).filter(Boolean)
+    : [];
   return renderTemplate(ctx.tpl.content, {
     h1: e.h1,
     lead: e.lead,
     blocks,
+    gallery,
+    relatedTitle: relBlock?.title || '相关推荐',
+    relatedLinks,
     backUrl: back.backUrl,
     backLabel: back.backLabel,
   });
@@ -633,6 +673,22 @@ export function buildStoryBody(e, ctx) {
     .filter(Boolean).join(' · ');
   story.backUrl = e.city ? linkUrl(city) : '/';
   story.backLabel = e.city && city && city.name ? `返回${city.name}` : '返回首页';
+  // Related links for stories
+  const relBlock = e.blocks?.find(b => b.kind === 'related');
+  story.relatedLinks = relBlock?.refs?.length
+    ? relBlock.refs.map(id => {
+        const ref = ctx.index[id];
+        if (!ref) return null;
+        return {
+          title: ref.h1 || ref.title || '',
+          desc: ref.lead || ref.description || '',
+          url: linkUrl(ref),
+          image: ref.heroImage || ref.image || '',
+          alt: ref.h1 || ref.title || '',
+        };
+      }).filter(Boolean)
+    : [];
+  story.relatedTitle = relBlock?.title || '相关景点';
   return story;
 }
 

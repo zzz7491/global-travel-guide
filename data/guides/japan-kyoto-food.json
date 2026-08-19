@@ -43,8 +43,14 @@
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-gion", "japan-kyoto-three-days", "japan-kyoto-economy"]
+      "refs": [
+        "japan-kyoto-gion",
+        "japan-kyoto-three-days",
+        "japan-kyoto-economy"
+      ]
     }
   ],
-  "category": "美食"
+  "category": "美食",
+  "image": "/images/kyoto/kyoto-cover-food-cover-d1387f43.webp",
+  "socialImage": "/images/kyoto/kyoto-cover-food-cover-d1387f43.webp"
 }

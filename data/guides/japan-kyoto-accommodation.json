@@ -43,8 +43,14 @@
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-transport", "japan-kyoto-economy", "japan-kyoto-tips"]
+      "refs": [
+        "japan-kyoto-transport",
+        "japan-kyoto-economy",
+        "japan-kyoto-tips"
+      ]
     }
   ],
-  "category": "住宿"
+  "category": "住宿",
+  "image": "/images/kyoto/kyoto-guide-accommodation-cover-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-guide-accommodation-cover-placeholder.webp"
 }

@@ -9,7 +9,12 @@
   "keywords": "金阁寺,鹿苑寺,京都寺庙,金箔舍利殿,镜湖池,京都庭园",
   "h1": "金阁寺旅游攻略",
   "lead": "金阁寺的金箔楼阁倒映在镜湖池中，是京都最富盛名的风景之一。",
-  "tags": ["寺庙", "庭园", "摄影", "世界遗产"],
+  "tags": [
+    "寺庙",
+    "庭园",
+    "摄影",
+    "世界遗产"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["步道单向通行，请勿逆行。", "舍利殿不对外开放，只能在池畔观赏。", "入园门票为御守形式，可留作纪念。"]
+      "items": [
+        "步道单向通行，请勿逆行。",
+        "舍利殿不对外开放，只能在池畔观赏。",
+        "入园门票为御守形式，可留作纪念。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-gion", "japan-kyoto-three-days", "japan-kyoto-best-time"]
+      "refs": [
+        "japan-kyoto-gion",
+        "japan-kyoto-three-days",
+        "japan-kyoto-best-time"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/kyoto/attractions/kinkaku-ji-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/kinkaku-ji-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/kyoto/attractions/kinkaku-ji-gallery-01.webp",
+      "alt": "金阁寺倒影"
+    },
+    {
+      "src": "/assets/images/kyoto/attractions/kinkaku-ji-gallery-02.webp",
+      "alt": "金阁寺全景"
     }
   ]
 }

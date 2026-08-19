@@ -43,8 +43,14 @@
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-transport", "japan-kyoto-economy", "japan-kyoto-food"]
+      "refs": [
+        "japan-kyoto-transport",
+        "japan-kyoto-economy",
+        "japan-kyoto-food"
+      ]
     }
   ],
-  "category": "贴士"
+  "category": "贴士",
+  "image": "/images/kyoto/kyoto-guide-tips-cover-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-guide-tips-cover-placeholder.webp"
 }

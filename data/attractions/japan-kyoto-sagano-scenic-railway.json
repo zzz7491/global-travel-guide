@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-sagano-scenic-railway",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "sagano-scenic-railway",
+  "title": "嵯峨野小火车攻略｜岚山田园风景线的浪漫列车之旅",
+  "description": "京都嵯峨野观光铁道旅游攻略：沿保津川穿行的田园风景、四季变换的车窗景色与购票指南。",
+  "keywords": "嵯峨野,小火车,观光铁道,岚山,保津川,京都浪漫",
+  "h1": "嵯峨野小火车攻略",
+  "lead": "嵯峨野观光铁道（Sagano Scenic Railway）穿行于岚山田园风光之中，是京都最具浪漫气息的列车体验。",
+  "tags": [
+    "火车",
+    "风景",
+    "浪漫",
+    "季节限定"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>嵯峨野观光铁道（Sagano Scenic Railway）是一条全长约7.3公里的观光铁路线，连接JR嵯峨岚山站与二条站。列车沿保津川峡谷行驶，穿过田园与山谷，四季景色各异：春季新绿、夏季翠绿、秋季红叶、冬季雪景。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>车窗风景</h3><p>全程约50分钟，大部分时间为靠窗座位。沿途经过保津峡、田园风光和山间隧道。春季（4月）的樱花与夏季（7-8月）的翠绿山谷最为迷人。</p><h3>特别车厢</h3><p>部分班次提供「玻璃车厢」或「开放式车厢」（季节限定），体验更为独特。冬季有特别灯光秀班次。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>春季樱花季（4月上旬）和秋季红叶季（11月下旬）是最受欢迎的时段，需提前预约。平日游客较少，体验更佳。</p><h3>交通</h3><p>起点为JR「嵯峨岚山站」，从京都站乘JR嵯峨野线约20分钟可达。返程可在二条站下车后转乘地铁。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "旺季需提前1个月在网上预约购票。",
+        "开放式车厢仅限特定日期运营，请查询官网。",
+        "车内禁止站立行走，请在座位上欣赏风景。",
+        "可携带食品饮料上车，但请勿在车内食用气味强烈的食物。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-arashiyama-bamboo-grove",
+        "japan-kyoto-spring"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-sagano-scenic-railway-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-sagano-scenic-railway-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-sagano-scenic-railway-gallery-01-placeholder.webp",
+      "alt": "嵯峨野小火车穿越峡谷"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-sagano-scenic-railway-gallery-02-placeholder.webp",
+      "alt": "保津峡风景"
+    }
+  ]
+}

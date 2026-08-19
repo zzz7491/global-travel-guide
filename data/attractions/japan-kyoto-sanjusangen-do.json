@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-sanjusangen-do",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "sanjusangen-do",
+  "title": "三十三间堂攻略｜千尊观音像的震撼宗教艺术",
+  "description": "京都三十三间堂旅游攻略：一百零三尊观音像、日本最大木造建筑与每月十六日御式行的传统。",
+  "keywords": "三十三间堂,观音,一千观音,京都寺庙,日本艺术,宗教景点",
+  "h1": "三十三间堂攻略",
+  "lead": "三十三间堂内供奉着一千零一尊观音像，是日本规模最大的佛教堂宇之一，展现了镰仓时代木雕艺术的巅峰成就。",
+  "tags": [
+    "寺庙",
+    "宗教",
+    "艺术",
+    "历史"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>三十三间堂（Sanjusangendo）正式名称为「莲华王院本堂」，始建于1164年，是京都最古老的木造建筑之一。因其内部有33个开间而得名。本堂全长120米，是日本现存最长的木造建筑，供奉着1001尊千手观音像。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>千手观音像</h3><p>中央供奉的主尊千手观音坐像（国宝）高约3米，两侧各排列500尊较小的立像，总计1001尊。所有佛像均由镰仓时代著名工匠运庆、快庆等人制作，神态各异却和谐统一。</p><h3>建筑奇迹</h3><p>本堂采用「大佛样」建筑风格，无需一根钉子，全木结构历经850年依然稳固。室内无窗设计保护了珍贵的木雕佛像。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>参观时间</h3><p>建议安排30-45分钟：本堂参观 + 回向院（收藏重要文化财）。每月16日上午举办的「每月十六日御式行」是传统射箭仪式，值得体验。</p><h3>交通</h3><p>从京都站乘市巴士206路至「京都车站前」步行约10分钟；或地铁东西线「东福寺站」步行约15分钟。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "本堂内禁止拍照。",
+        "回向院可单独购票，内有重要文化财展示。",
+        "每月16日上午有传统射箭仪式，可前往观看。",
+        "秋季与春季游客较多，建议早晨前往。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-tofuku-ji",
+        "japan-kyoto-autumn"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-sanjusangen-do-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-sanjusangen-do-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-sanjusangen-do-gallery-01-placeholder.webp",
+      "alt": "三十三间堂千手观音"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-sanjusangen-do-gallery-02-placeholder.webp",
+      "alt": "堂内空间感"
+    }
+  ]
+}

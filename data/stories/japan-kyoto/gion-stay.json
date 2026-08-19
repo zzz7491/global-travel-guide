@@ -1,0 +1,63 @@
+{
+  "type": "story",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-gion-stay",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "gion-stay",
+  "title": "祇园町家民宿两日记｜住在京都最古老的街区",
+  "summary": "住在祇园的传统町家民宿，体验京都人的日常生活。两天时间，比打卡景点更珍贵的记忆。",
+  "author": {
+    "name": "@京都控",
+    "avatar": "",
+    "bio": "日本文化爱好者，五次访日"
+  },
+  "travelStyle": "文化沉浸",
+  "season": "秋季",
+  "duration": 2,
+  "budget": "约¥18000（不含往返）",
+  "travelPeriod": "2025年11月",
+  "highlights": [
+    "祇园町家民宿体验",
+    "清晨花见小路漫步",
+    "本地人推荐小餐馆",
+    "鸭川纳凉床晚餐",
+    "手抄经文书道体验"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "古镇日常",
+      "route": "入住町家民宿 → 花见小路早逛 → 八坂神社 → 建仁寺 → 先斗町晚餐",
+      "notes": "民宿主人推荐了一家只有本地人知道的汤豆腐店"
+    },
+    {
+      "day": 2,
+      "theme": "禅意与茶",
+      "route": "建仁寺早课 → 手抄经书体验 → 锦市场采购 → 鸭川河畔告别",
+      "notes": "经书体验需提前预约，约90分钟"
+    }
+  ],
+  "tips": [
+    "町家民宿价格比普通酒店高30%，但体验无可替代",
+    "祇园区域餐厅价格偏高，锦市场小吃更实惠",
+    "鸭川纳凉床夏季限定，冬季可改喝热清酒",
+    "手抄经书体验需提前一周预约"
+  ],
+  "images": [],
+  "points": 0,
+  "moderationStatus": "seed",
+  "publishedAt": "2025-11-20T14:00:00Z",
+  "coverImage": "/images/kyoto/kyoto-cover-gion-stay-cover-33f216fd.webp",
+  "socialImage": "/images/kyoto/kyoto-cover-gion-stay-cover-33f216fd.webp",
+  "blocks": [
+    {
+      "kind": "related",
+      "title": "相关景点",
+      "refs": [
+        "japan-kyoto-gion",
+        "japan-kyoto-arashiyama-bamboo-grove"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "story",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-spring-2026",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "spring-2026",
+  "title": "京都樱花季五日深度游｜从清水寺到岚山的粉色旅程",
+  "summary": "2026年4月的京都，樱花正盛。五天时间，从东山古刹到岚山竹林，用脚步丈量这座千年古都的春天。",
+  "author": {
+    "name": "@樱花旅人",
+    "avatar": "",
+    "bio": "自由行爱好者，专注亚洲文化深度游"
+  },
+  "travelStyle": "自由行",
+  "season": "春季",
+  "duration": 5,
+  "budget": "约¥45000（不含往返）",
+  "travelPeriod": "2026年4月8日-13日",
+  "highlights": [
+    "清水寺夜樱灯饰",
+    "哲学之道樱花隧道",
+    "岚山竹林晨光",
+    "锦市场美食探索",
+    "鸭川河畔日落"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "东山初体验",
+      "route": "清水寺 → 二年坂 → 八坂神社 → 祇园",
+      "notes": "清晨8点前抵达清水寺可避开人流"
+    },
+    {
+      "day": 2,
+      "theme": "哲学之道漫步",
+      "route": "银阁寺 → 哲学之道 → 南禅寺 → 三十三间堂",
+      "notes": "哲学之道全长约2公里，沿途多岔路可探索"
+    },
+    {
+      "day": 3,
+      "theme": "岚山与竹林",
+      "route": "天龙寺 → 岚山竹林 → 渡月桥 → 嵯峨野小火车",
+      "notes": "小火车建议提前一周预约"
+    },
+    {
+      "day": 4,
+      "theme": "宇治抹茶巡礼",
+      "route": "平等院 → 源氏物語博物館 → 中村藤吉本店",
+      "notes": "冰淇淋旺季排队约30分钟"
+    },
+    {
+      "day": 5,
+      "theme": "市集与告别",
+      "route": "伏见稻荷 → 锦市场 → 河原町采购 → 鸭川日落",
+      "notes": "伏见稻荷建议7点前到达"
+    }
+  ],
+  "tips": [
+    "樱花季住宿需提前2-3个月预订，价格约平时两倍",
+    "每日步行约15000步，穿舒适运动鞋",
+    "携带折叠伞，4月偶有阵雨",
+    "便利店早餐约¥500-800，节省晚餐预算用于特色餐"
+  ],
+  "images": [],
+  "points": 0,
+  "moderationStatus": "seed",
+  "publishedAt": "2026-04-15T10:00:00Z",
+  "coverImage": "/images/kyoto/kyoto-cover-spring-2026-cover-cc6d7d64.webp",
+  "socialImage": "/images/kyoto/kyoto-cover-spring-2026-cover-cc6d7d64.webp",
+  "blocks": [
+    {
+      "kind": "related",
+      "title": "相关景点",
+      "refs": [
+        "japan-kyoto-kiyomizu-dera",
+        "japan-kyoto-philosophers-path"
+      ]
+    }
+  ]
+}

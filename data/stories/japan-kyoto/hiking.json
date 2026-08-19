@@ -1,0 +1,57 @@
+{
+  "type": "story",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-hiking",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "hiking",
+  "title": "从伏见稻荷到鞍马一天走完｜京都登山挑战全记录",
+  "summary": "清晨6点出发，从伏见稻荷千本鸟居一路走到鞍马寺，全程约14公里。这是一次体力与意志的挑战，也是体验京都山野之美的最佳方式。",
+  "author": {
+    "name": "@徒步者",
+    "avatar": "",
+    "bio": "户外爱好者，日本 Alps 穿越者"
+  },
+  "travelStyle": "户外挑战",
+  "season": "秋季",
+  "duration": 1,
+  "budget": "约¥3000（不含往返）",
+  "travelPeriod": "2025年11月",
+  "highlights": [
+    "伏见稻荷千本鸟居晨光",
+    "比叡山登山道",
+    "鞍马寺天狗传说",
+    "贺茂川河畔午餐",
+    "鞍马火祭文化体验"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "稻荷至鞍马",
+      "route": "伏见稻荷 → 三十三所神社 → 比叡山登山口 → 鞍马寺",
+      "notes": "全程约14公里，海拔爬升约600米，建议6:00出发"
+    }
+  ],
+  "tips": [
+    "穿着专业登山鞋，石板路湿滑时极危险",
+    "携带至少1.5L水，途中补给点稀少",
+    "秋季是最佳季节，夏季湿热易中暑",
+    "鞍马寺16:00关门，需控制行程节奏"
+  ],
+  "images": [],
+  "points": 0,
+  "moderationStatus": "seed",
+  "publishedAt": "2025-11-15T12:00:00Z",
+  "coverImage": "/images/kyoto/kyoto-story-hiking-cover-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-story-hiking-cover-placeholder.webp",
+  "blocks": [
+    {
+      "kind": "related",
+      "title": "相关景点",
+      "refs": [
+        "japan-kyoto-fushimi-inari",
+        "japan-kyoto-tofuku-ji"
+      ]
+    }
+  ]
+}

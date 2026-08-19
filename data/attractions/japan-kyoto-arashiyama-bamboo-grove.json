@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-arashiyama-bamboo-grove",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "arashiyama-bamboo-grove",
+  "title": "岚山竹林攻略｜京都最美漫步道的清晨秘境",
+  "description": "京都岚山竹林旅游攻略：竹林小径的摄影机位与最佳时段，附周边天龙寺、渡月桥串联动线。",
+  "keywords": "岚山,竹林,京都自然,摄影胜地,免费景点,渡月桥",
+  "h1": "岚山竹林攻略",
+  "lead": "岚山竹林小径是京都最具禅意的步行道，晨光穿透竹梢的瞬间是无数摄影师追逐的画面。",
+  "tags": [
+    "自然",
+    "摄影",
+    "散步",
+    "免费"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>岚山竹林（Arashiyama Bamboo Grove）位于京都西部岚山地区，是一条长约500米的竹林步道。高耸的翠竹形成天然隧道，光线从竹叶缝隙洒落，营造出静谧而神圣的氛围。这里是京都最负盛名的自然景观之一，也是日本传统美学的代表。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>竹林小径</h3><p>主步道宽约2-3米，全长约500米，单程行走约10-15分钟。竹竿高耸入云，直径可达30厘米，树龄可达数十年。清晨时分光线柔和，是拍摄竹林光柱的最佳时段。</p><h3>周边联动</h3><p>竹林紧邻天龙寺（世界遗产），可顺路参观曹源池庭园。向南步行15分钟可达渡月桥，沿保津川漫步可欣赏河岸风光。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>清晨7:00-8:30是人流最少、光线最美的时段；傍晚时分竹林呈现暖色调，适合拍摄剪影。避免周末和节假日午后前往，人流密集影响体验。</p><h3>交通</h3><p>从京都站乘JR嵯峨野线至「岚山站」约15分钟；或阪急电铁至「岚山站」约25分钟。出站后步行约5分钟即达竹林入口。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "竹林免费开放，但周边寺庙需购票入场。",
+        "早晨时段人流较少，建议早到。",
+        "步行为主，不适合轮椅或婴儿车。",
+        "请勿采摘竹子或破坏植被。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-sagano-scenic-railway",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/kyoto/attractions/arashiyama-bamboo-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/arashiyama-bamboo-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/kyoto/attractions/arashiyama-bamboo-gallery-01.webp",
+      "alt": "竹林深处"
+    },
+    {
+      "src": "/assets/images/kyoto/attractions/arashiyama-bamboo-gallery-02.webp",
+      "alt": "竹林小径"
+    }
+  ]
+}

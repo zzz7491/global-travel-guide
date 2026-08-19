@@ -1,0 +1,46 @@
+{
+  "id": "japan-kyoto-family-route",
+  "type": "route",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "family-route",
+  "title": "京都亲子轻松路线｜三天不赶路的古都探索",
+  "description": "京都亲子路线规划：奈良公园喂鹿、清水寺简单参拜、锦市场美食体验，适合带小孩的家庭。",
+  "keywords": "京都亲子,京都带娃,奈良公园,亲子游,京都家庭游,轻松行程",
+  "h1": "京都亲子轻松路线",
+  "lead": "用三天时间，让家人一起感受京都的温柔与有趣。",
+  "days": 3,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>本路线以「轻松不累+互动性强+餐饮便利」为原则，每天只安排2-3个核心景点，留有充足休息时间。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 奈良互动日",
+      "html": "<h3>上午</h3><p>从京都乘JR至奈良（约40分钟）→ 奈良公园喂鹿（购买鹿仙贝）</p><h3>下午</h3><p>东大寺大佛殿 → 奈良町漫步 → 返回京都</p><h3>晚上</h3><p>京都站附近家庭餐厅休息</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 2 寺庙入门日",
+      "html": "<h3>上午</h3><p>清水寺（简版参拜，重点看清水舞台）→ 二年坂小吃</p><h3>下午</h3><p>八坂神社 → 祇园白川沿岸散步 → 休息</p><h3>晚上</h3><p>河原町百货商场用餐</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 3 自然探索日",
+      "html": "<h3>上午</h3><p>岚山竹林（短途步行即可）→ 渡月桥观景</p><h3>下午</h3><p>嵯峨野小火车（可选）→ 返程采购伴手礼</p><h3>晚上</h3><p>京都站返程</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["奈良鹿可能啄人，需教导孩子不要用手喂食。", "清水寺石板坡道不适合婴儿车，建议背带。", "午餐可选择便利店或家庭餐厅，节省时间与金钱。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["japan-kyoto-three-days", "japan-kyoto-arashiyama-bamboo-grove", "japan-kyoto-food"]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80"
+}

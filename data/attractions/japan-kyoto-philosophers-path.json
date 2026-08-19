@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-philosophers-path",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "philosophers-path",
+  "title": "哲学之道攻略｜京都最美樱花步道的禅意漫步",
+  "description": "京都哲学之道旅游攻略：沿运河的樱花步道、南禅寺与银阁寺串联路线，以及日本哲学家西田几多郎的灵感源泉。",
+  "keywords": "哲学之道,樱花,南禅寺,银阁寺,京都散步,免费景点",
+  "h1": "哲学之道攻略",
+  "lead": "哲学之道是一条长约500米的运河旁小径，是京都最著名的赏樱胜地之一，也是日本哲学家西田几多郎每日沉思默想的灵感之路。",
+  "tags": [
+    "散步",
+    "樱花",
+    "自然",
+    "免费"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>哲学之道（Philosopher's Path）是京都东山区的一条运河旁小径，长约500米，连接南禅寺与银阁寺（哲学堂）。这条步道因日本著名哲学家西田几多郎（Nishida Kitaro）每日在此散步思考而得名，现已成为京都最受欢迎的散步道之一。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>樱花隧道</h3><p>春季（3月下旬至4月上旬）是哲学之道最美的季节。沿岸数百棵樱花树形成粉色隧道，花瓣飘落运河水面，景致如梦似幻。许多情侣选择在此拍摄婚纱照。</p><h3>文化串联</h3><p>哲学之道连接南禅寺与银阁寺两大名刹，中间可参观永观堂（兼六庵），是一条完整的文化游览线。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>樱花季清晨7-8点人最少、光线最美；平日午后也可悠闲漫步。运河两岸设有长椅可供休息观景。</p><h3>交通</h3><p>起点南禅寺：从京都站乘市巴士202路至「南禅寺」站；终点银阁寺：步行约20分钟可达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "步道免费开放，全年可走。",
+        "樱花季人流密集，建议错峰前往。",
+        "沿途有小咖啡馆和茶室可休息。",
+        "雨季运河水位较高，注意安全。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-spring",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-philosophers-path-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-philosophers-path-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-philosophers-path-gallery-01-placeholder.webp",
+      "alt": "哲学之道樱花隧道"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-philosophers-path-gallery-02-placeholder.webp",
+      "alt": "运河石板路"
+    }
+  ]
+}

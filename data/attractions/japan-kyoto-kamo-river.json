@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-kamo-river",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "kamo-river",
+  "title": "鸭川攻略｜京都人的河畔生活与黄昏散步指南",
+  "description": "京都鸭川旅游攻略：河畔散步道、宵宫祭典与河原町日落最佳观赏点，附沿岸咖啡与居酒屋推荐。",
+  "keywords": "鸭川,京都河畔,河原町,京都散步,免费景点,京都夜景",
+  "h1": "鸭川攻略",
+  "lead": "鸭川是穿流京都市中心的母亲河，河畔步道是当地人休闲漫步、年轻人社交聚会的热门场所。",
+  "tags": [
+    "自然",
+    "散步",
+    "河畔",
+    "免费"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>鸭川（Kamo River）发源于京都北部的丹波山地，流经京都市区约15公里后汇入宇治川。河岸两侧设有步行道，是京都人日常生活中最常出没的休闲空间。从鸭川大桥至三条大桥的河段，是游客体验京都河畔生活最佳位置。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>河畔散步道</h3><p>鸭川两岸设有宽敞的步行道，傍晚时分当地人在此散步、慢跑、骑自行车，周末常有街头艺人在岸边表演。春季染井吉野樱沿河岸盛开，构成美丽的花见场景。</p><h3>日落观景</h3><p>三条大桥至锦天满宫一段是欣赏京都日落的最佳位置，夕阳映照河面泛起金色光芒，与远处的东山景色交相辉映。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>傍晚17:00-18:30是鸭川最美的时刻：夕阳西下，灯光初上，河岸两旁坐满享受黄昏的人们。夏季夜晚还有「鸭川纳凉床」餐饮体验。</p><h3>交通</h3><p>鸭川沿河有多个入口：四条大桥（市中心）、先斗町口（祇园）、船岗大桥（北野天满宫方向）。从京都站乘市巴士或地铁均可便捷到达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "河畔步行道免费开放，全年可漫步。",
+        "请勿在河道内游泳或垂钓。",
+        "夏季夜间河面可能有蚊虫，建议携带驱蚊液。",
+        "河边餐厅价格偏高，可选择自带简餐野餐。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-gion",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-kamo-river-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-kamo-river-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-kamo-river-gallery-01-placeholder.webp",
+      "alt": "鸭川日落"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-kamo-river-gallery-02-placeholder.webp",
+      "alt": "河岸散步"
+    }
+  ]
+}

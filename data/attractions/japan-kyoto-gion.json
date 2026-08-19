@@ -9,7 +9,12 @@
   "keywords": "祇园,花见小路,京都街区,艺伎,町家,京都漫步",
   "h1": "祇园与花见小路漫步攻略",
   "lead": "祇园是京都最著名的传统街区，町家建筑与茶屋沿石板路展开，傍晚偶遇艺伎的机率最高。",
-  "tags": ["街区", "传统文化", "摄影", "历史"],
+  "tags": [
+    "街区",
+    "传统文化",
+    "摄影",
+    "历史"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["茶屋多为会员制，请勿擅入或拍照内部。", "拍摄艺伎请保持距离并征得同意。", "街区为居民区，夜间请保持安静。"]
+      "items": [
+        "茶屋多为会员制，请勿擅入或拍照内部。",
+        "拍摄艺伎请保持距离并征得同意。",
+        "街区为居民区，夜间请保持安静。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-kiyomizu-dera", "japan-kyoto-kinkaku-ji", "japan-kyoto-food"]
+      "refs": [
+        "japan-kyoto-kiyomizu-dera",
+        "japan-kyoto-kinkaku-ji",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/kyoto/attractions/gion-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/gion-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/kyoto/attractions/gion-gallery-01.webp",
+      "alt": "花见小路漫步"
+    },
+    {
+      "src": "/assets/images/kyoto/attractions/gion-gallery-02.webp",
+      "alt": "祇园传统街区"
     }
   ]
 }

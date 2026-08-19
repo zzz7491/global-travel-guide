@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-byodo-in",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "byodo-in",
+  "title": "平等院凤凰堂攻略｜宇治世界遗产的千年之美",
+  "description": "京都宇治平等院旅游攻略：凤凰堂建筑艺术、庭院景观与10日元硬币上的国宝，附宇治抹茶串联建议。",
+  "keywords": "平等院,凤凰堂,宇治,世界遗产,日本银行,京都景点",
+  "h1": "平等院凤凰堂攻略",
+  "lead": "平等院凤凰堂是日本平安时代建筑的巅峰之作，其形象印在10日元硬币上，是联合国教科文组织认定的世界遗产。",
+  "tags": [
+    "寺庙",
+    "世界遗产",
+    "建筑",
+    "历史"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>平等院（Byodo-in）位于京都府宇治市，始建于1052年，是平安时代贵族藤原赖通建造的别墅改建而成的佛教寺院。凤凰堂（Ho-do）是其本堂，以其优美的平衡美学被誉为「日本的帕特农神庙」。1994年作为「古京都遗址」的一部分被列入世界遗产。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>凤凰堂外观</h3><p>凤凰堂面朝宇治川，倒影映池中如仙岛凌空。建筑采用「寝殿造」样式，中央本堂两侧为回廊，后方有凤凰 ornament。外观免费观赏，入内需单独购票（约¥400）。</p><h3>凤凰堂内部</h3><p>每年仅开放数次，可进入本堂内部参观。内有阿弥陀如来坐像（国宝）， surrounded by 飞天雕塑和彩绘天花板。春季绣球花、秋季红叶尤为美丽。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>参观时间</h3><p>建议安排1-1.5小时：凤凰堂外观拍照 + 庭院漫步 + 可选入内参观。清晨人少光线佳，适合拍摄倒影。</p><h3>交通</h3><p>从京都站乘JR奈良线至「宇治站」约30分钟；或京阪电车至「竹原站」步行15分钟。宇治站周边有大量抹茶店和商店街。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "凤凰堂内部参观仅限特定日期开放，需提前查询官网。",
+        "庭院免费进入，凤凰堂入内需购票。",
+        "宇治以抹茶闻名，可顺路品尝中村藤吉等名店。",
+        "秋季周末游客较多，建议工作日前往。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-food",
+        "japan-kyoto-autumn"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-byodo-in-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-byodo-in-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-byodo-in-gallery-01-placeholder.webp",
+      "alt": "平等院凤凰堂"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-byodo-in-gallery-02-placeholder.webp",
+      "alt": "平等院庭院"
+    }
+  ]
+}

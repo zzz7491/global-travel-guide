@@ -1,0 +1,130 @@
+{
+  "type": "budget",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-economy",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "economy",
+  "title": "京都经济版预算方案｜高性价比京都5日游",
+  "description": "京都经济版预算方案：日均¥6000-10000的高性价比配置，青旅+巴士+市集餐饮组合，覆盖全部核心体验。",
+  "keywords": "京都经济游,京都省钱攻略,京都背包客,京都预算,日本自由行省钱",
+  "h1": "京都经济版预算方案",
+  "lead": "省钱不省精彩 · 用最少的钱玩最地道的京都",
+  "edition": "economy",
+  "image": "https://images.unsplash.com/photo-1578637387939-43c525550085?w=800&q=70",
+  "priority": 10,
+  "suitableFor": "预算有限但希望体验京都精华的旅行者",
+  "seasonNote": "春秋双高峰住宿涨价明显；夏季湿热但价格最低；冬季游客最少体验最佳。",
+  "travelTone": "高性价比 · 自助游 · 深度体验",
+  "cover": {
+    "tag": "ECONOMY BUDGET PLAN",
+    "title": ["京都经济版", "5日预算方案"],
+    "subtitle": "省钱不省精彩",
+    "info": [
+      { "num": "¥5-10", "label": "千/天" },
+      { "num": "5", "label": "DAYS" },
+      { "num": "12+", "label": "景点" }
+    ],
+    "badge": "不含往返 · 巴士出行 · 平价住宿",
+    "bottom": "适合预算有限但希望深度体验京都的旅行者。",
+    "season": "🌸 春秋旺季 · 冬夏淡季更划算",
+    "budget": "约 ¥25000–50000 / 人·5天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？五条原则让京都也能玩出高性价比：",
+    "items": [
+      { "icon": "💴", "label": "住宿控费", "value": "青旅/经济酒店为主，减少住宿支出" },
+      { "icon": "🚌", "label": "交通优化", "value": "巴士一日券 + 步行，日均交通费控制在¥1000以内" },
+      { "icon": "🍱", "label": "餐饮策略", "value": "便利店早餐 + 市集午餐 + 平价晚餐" },
+      { "icon": "🏛️", "label": "门票精选", "value": "免费寺庙外观 + 付费只留最值得入内的3-4处" },
+      { "icon": "🎯", "label": "体验优先", "value": "把节省下来的钱留给真正值得的体验" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "东山寺庙线", "title": "清水寺 → 祇园 → 鸭川", "spots": ["清水寺(¥500)", "祇园(免费)", "八坂神社(免费)"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "稻荷与市集", "title": "伏见稻荷 → 锦市场 → 寺町通", "spots": ["伏见稻荷(免费)", "锦市场(免费)", "鸭川散步(免费)"], "ticketLabel": "免费为主" },
+    { "day": 3, "theme": "岚山自然", "title": "竹林 → 渡月桥 → 天龙寺", "spots": ["岚山竹林(免费)", "渡月桥(免费)", "天龙寺(¥500)"], "ticketLabel": "低价" },
+    { "day": 4, "theme": "北区文化", "title": "金阁寺 → 龙安寺 → 仁和寺", "spots": ["金阁寺(¥500)", "龙安寺(¥500)", "仁和寺(¥800)"], "ticketLabel": "中档" },
+    { "day": 5, "theme": "宇治抹茶", "title": "平等院 → 宇治川 → 抹茶街", "spots": ["平等院外观(免费)", "源氏物語博物館(¥800)"], "ticketLabel": "低价" }
+  ],
+  "dailyBudget": [
+    {
+      "day": 1,
+      "theme": "东山寺庙线",
+      "accommodation": { "low": 4000, "high": 6000, "note": "青旅床位·京都站周边" },
+      "transport": { "low": 600, "high": 1000, "note": "巴士一日券" },
+      "food": { "low": 1500, "high": 2500, "note": "便利店+市集小吃" },
+      "tickets": { "low": 500, "high": 500, "note": "清水寺本堂" },
+      "total": { "low": 6600, "high": 10000 },
+      "tips": "清水寺建议早到，避开人流高峰"
+    },
+    {
+      "day": 2,
+      "theme": "稻荷与市集",
+      "accommodation": { "low": 4000, "high": 6000, "note": "连住" },
+      "transport": { "low": 300, "high": 500, "note": "JR单次" },
+      "food": { "low": 1200, "high": 2000, "note": "锦市场边走边吃" },
+      "tickets": { "low": 0, "high": 0, "note": "伏见稻荷免费" },
+      "total": { "low": 5500, "high": 8500 },
+      "tips": "伏见稻荷清晨前往人少景美"
+    },
+    {
+      "day": 3,
+      "theme": "岚山自然",
+      "accommodation": { "low": 4000, "high": 6000, "note": "连住" },
+      "transport": { "low": 500, "high": 800, "note": "JR+岚电" },
+      "food": { "low": 1500, "high": 2500, "note": "嵯峨野简餐" },
+      "tickets": { "low": 500, "high": 500, "note": "天龙寺庭园" },
+      "total": { "low": 6500, "high": 9800 },
+      "tips": "岚山周末人多，建议工作日前往"
+    },
+    {
+      "day": 4,
+      "theme": "北区文化",
+      "accommodation": { "low": 4000, "high": 6000, "note": "连住" },
+      "transport": { "low": 800, "high": 1200, "note": "市巴士跨区" },
+      "food": { "low": 1500, "high": 2500, "note": "北区简餐" },
+      "tickets": { "low": 1800, "high": 1800, "note": "金阁寺+龙安寺+仁和寺" },
+      "total": { "low": 8100, "high": 11500 },
+      "tips": "三个寺庙可各选一个入内参观"
+    },
+    {
+      "day": 5,
+      "theme": "宇治抹茶",
+      "accommodation": { "low": 0, "high": 0, "note": "返程日" },
+      "transport": { "low": 1000, "high": 1500, "note": "JR往返宇治" },
+      "food": { "low": 2000, "high": 3000, "note": "宇治特色餐" },
+      "tickets": { "low": 0, "high": 800, "note": "博物馆可选" },
+      "total": { "low": 3000, "high": 5300 },
+      "tips": "预留充足时间返程"
+    }
+  ],
+  "budgetTable": {
+    "rows": [
+      { "cat": "🏨 住宿（5晚）", "economy": { "low": 20000, "high": 30000, "note": "青旅或经济酒店·京都站周边" } },
+      { "cat": "🍽 餐饮（5天）", "economy": { "low": 7500, "high": 12500, "note": "便利店+市集+平价餐厅" } },
+      { "cat": "🚌 交通（5天）", "economy": { "low": 3200, "high": 4500, "note": "巴士一日券×2 + JR单次" } },
+      { "cat": "🎫 门票", "economy": { "low": 3300, "high": 4300, "note": "精选3-4个核心寺庙入内" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 3000, "high": 6000, "note": "伴手礼弹性预算" } }
+    ],
+    "totals": {
+      "economy": { "low": 37000, "high": 57300, "note": "不含往返大交通·单人5天估算" }
+    }
+  },
+  "savingTips": [
+    { "title": "巴士一日券", "text": "¥700/张，日均坐3次巴士即回本，抵达当天就买。" },
+    { "title": "免费寺庙优先", "text": "八坂神社、北野天满宫、鸭川河岸、岚山竹林全部免费。" },
+    { "title": "便利店早餐", "text": "京都站便利店早餐人均¥400-600，比餐厅便宜且快。" },
+    { "title": "市集解决午餐", "text": "锦市场边走边吃，多样实惠，人均¥800-1500。" },
+    { "title": "精选入内门票", "text": "只选最有价值的3-4处寺庙入内，外观同样精彩。" },
+    { "title": "错峰出行", "text": "樱花红叶季价格翻倍，淡季出行性价比最高。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约提醒", "items": ["清水寺旺季需排队入场", "巴士一日券抵达当天购买", "热门餐厅提前1天预约"] },
+    { "type": "booking", "title": "预订时机", "items": ["青旅建议提前2周预订", "樱花红叶季住宿提前2-3个月"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带日元现金（部分小店仅收现金）", "备好舒适步行鞋", "下载日文/英文翻译App"] }
+  ],
+  "packing": [
+    "有效护照与签证", "日元现金（约5万日元）", "IC卡（ICOCA/Suica）", "舒适步行鞋", "轻便雨具", "充电宝", "转换插头", "薄外套（早晚温差）"
+  ]
+}

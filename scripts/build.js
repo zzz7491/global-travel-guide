@@ -52,11 +52,23 @@ const OUT_DIR = path.join(ROOT, 'public');
 function readJson(p) {
   return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
-function loadDir(dir) {
+function loadDir(dir, recursive = false) {
   const out = [];
   if (!fs.existsSync(dir)) return out;
-  for (const f of fs.readdirSync(dir)) {
-    if (f.endsWith('.json')) out.push(readJson(path.join(dir, f)));
+  if (recursive) {
+    // Recursive loading for nested directories (e.g. stories/japan-kyoto/)
+    function walk(d) {
+      for (const entry of fs.readdirSync(d, { withFileTypes: true })) {
+        const full = path.join(d, entry.name);
+        if (entry.isDirectory()) walk(full);
+        else if (entry.isFile() && entry.name.endsWith('.json')) out.push(readJson(full));
+      }
+    }
+    walk(dir);
+  } else {
+    for (const f of fs.readdirSync(dir)) {
+      if (f.endsWith('.json')) out.push(readJson(path.join(dir, f)));
+    }
   }
   return out;
 }
@@ -77,7 +89,7 @@ const ENTITIES = [
   ...loadDir(path.join(DATA_DIR, 'route-plans')),
   ...loadDir(path.join(DATA_DIR, 'budgets')),
   ...loadDir(path.join(DATA_DIR, 'seasonals')),
-  ...loadDir(path.join(DATA_DIR, 'stories')),
+  ...loadDir(path.join(DATA_DIR, 'stories'), true),
 ];
 const INDEX = {};
 ENTITIES.forEach((e) => { INDEX[e.id] = e; });
@@ -283,6 +295,37 @@ function renderPage(e, bodyHtml) {
           return td;
         })()]
       : []),
+    ...(e.faq && e.faq.length
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          name: e.h1 ? `${e.h1} 常见问题` : '常见问题',
+          mainEntity: e.faq.map((item, i) => ({
+            '@type': 'Question',
+            name: item.q || item.question || '',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: item.a || item.answer || '',
+            },
+          })).filter((q) => q.name),
+        }]
+      : []),
+    ...(e.howto
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'HowTo',
+          name: e.howto.name || e.h1 || '',
+          description: e.howto.description || e.lead || '',
+          totalTime: e.howto.totalTime || '',
+          step: (e.howto.steps || []).map((s, i) => ({
+            '@type': 'HowToStep',
+            position: i + 1,
+            name: s.name || `步骤${i+1}`,
+            text: s.text || '',
+            image: s.image || '',
+          })).filter(s => s.name),
+        }]
+      : []),
   ]).replace(/</g, '\\u003c');
   return renderTemplate(tpl.layout, {
     locale: SITE.locale,
@@ -338,8 +381,55 @@ function main() {
   writeFile('index.html', renderPage(HOME, renderTemplate(tpl.home, buildHomeBody(ctx))));
   pages.push({ url: '/', file: 'index.html' });
 
-  // Entities (country / city / attraction / route / guide / best-time)
+  // --- Auto internal link generation ---------------------------------------
+  function autoLink(e, entities) {
+    const cityEntities = entities.filter(x => x.country === e.country && x.city === e.city);
+    if (!cityEntities.length) return [];
+    const seen = new Set(e.blocks?.find(b => b.kind === 'related')?.refs || []);
+    const results = [];
+    if (e.type === 'city' || e.type === 'country') {
+      for (const t of ['attraction', 'route', 'guide', 'story']) {
+        for (const c of cityEntities.filter(x => x.type === t)) {
+          if (!seen.has(c.id) && results.length < 6) results.push(c.id);
+        }
+      }
+    } else if (e.type === 'attraction') {
+      for (const c of cityEntities.filter(x => x.type === 'attraction' && x.slug !== e.slug).slice(0, 4)) {
+        if (!seen.has(c.id)) results.push(c.id);
+      }
+      for (const c of cityEntities.filter(x => x.type === 'route').slice(0, 2)) {
+        if (!seen.has(c.id)) results.push(c.id);
+      }
+    } else if (e.type === 'guide') {
+      for (const c of cityEntities.filter(x => x.type === 'attraction').slice(0, 3)) {
+        if (!seen.has(c.id)) results.push(c.id);
+      }
+    } else if (e.type === 'story') {
+      for (const c of cityEntities.filter(x => x.type === 'attraction').slice(0, 3)) {
+        if (!seen.has(c.id)) results.push(c.id);
+      }
+      for (const c of cityEntities.filter(x => x.type === 'route').slice(0, 2)) {
+        if (!seen.has(c.id)) results.push(c.id);
+      }
+    } else if (e.type === 'route' || e.type === 'route-plan' || e.type === 'budget') {
+      for (const c of cityEntities.filter(x => x.type === 'attraction').slice(0, 3)) {
+        if (!seen.has(c.id)) results.push(c.id);
+      }
+    }
+    return results;
+  }
+
   for (const e of ENTITIES) {
+    const existingRef = e.blocks?.find(b => b.kind === 'related')?.refs;
+    const autoRefs = autoLink(e, ENTITIES);
+    if (autoRefs.length && !existingRef) {
+      e.blocks = e.blocks || [];
+      e.blocks.push({ kind: 'related', title: '相关推荐', refs: autoRefs });
+    } else if (autoRefs.length && existingRef) {
+      const merged = [...new Set([...existingRef, ...autoRefs])];
+      const relBlock = e.blocks.find(b => b.kind === 'related');
+      if (relBlock) relBlock.refs = merged.slice(0, 8);
+    }
     e._canonical = canonicalFor(e, SITE.siteUrl);
     e._ogImage = ogImage(e, SITE);
     e._heroImageUrl = heroImageUrl(e, SITE);

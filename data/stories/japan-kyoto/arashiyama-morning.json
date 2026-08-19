@@ -1,0 +1,57 @@
+{
+  "type": "story",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-arashiyama-morning",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "arashiyama-morning",
+  "title": "岚山竹林清晨独享｜早起的回报是整片竹林",
+  "summary": "早上7点到达岚山竹林，整个步道只有我和几个摄影爱好者。这一刻，竹林真正属于我。",
+  "author": {
+    "name": "@早起鸟",
+    "avatar": "",
+    "bio": "旅行摄影师，专拍晨景"
+  },
+  "travelStyle": "摄影",
+  "season": "春季",
+  "duration": 1,
+  "budget": "约¥5000（不含往返）",
+  "travelPeriod": "2026年4月",
+  "highlights": [
+    "清晨7点竹林独享",
+    "天龙寺曹源池庭园",
+    "渡月桥晨雾",
+    "野宫神社祈求",
+    "岚电复古电车"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "竹林晨光",
+      "route": "JR嵯峨岚山站 → 竹林小径 → 天龙寺 → 野宫神社 → 渡月桥 → 岚电返回",
+      "notes": "7:00前到达竹林入口，人少到可以独享整条隧道"
+    }
+  ],
+  "tips": [
+    "竹林最佳拍摄时间是日出后30分钟内",
+    "天龙寺早晨8点开门，可顺路参观",
+    "渡月桥上午光线适合拍正面照",
+    "岚电是复古电车，票价约¥240"
+  ],
+  "images": [],
+  "points": 0,
+  "moderationStatus": "seed",
+  "publishedAt": "2026-04-10T08:00:00Z",
+  "coverImage": "/images/kyoto/kyoto-story-arashiyama-morning-cover-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-story-arashiyama-morning-cover-placeholder.webp",
+  "blocks": [
+    {
+      "kind": "related",
+      "title": "相关景点",
+      "refs": [
+        "japan-kyoto-arashiyama-bamboo-grove",
+        "japan-kyoto-sagano-scenic-railway"
+      ]
+    }
+  ]
+}

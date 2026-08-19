@@ -9,7 +9,12 @@
   "keywords": "清水寺,京都寺庙,清水舞台,音羽瀑布,京都景点,和服体验",
   "h1": "清水寺旅游攻略",
   "lead": "清水寺是京都最具代表性的古刹，清水舞台悬空而立，四季景色与音羽瀑布相映成趣。",
-  "tags": ["寺庙", "历史", "观景", "世界遗产"],
+  "tags": [
+    "寺庙",
+    "历史",
+    "观景",
+    "世界遗产"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["音羽瀑布取水请排队，勿用手直接接水。", "三年坂/二年坂为石板坡道，雨天注意防滑。", "春季与红叶季清晨到访可避开人流。"]
+      "items": [
+        "音羽瀑布取水请排队，勿用手直接接水。",
+        "三年坂/二年坂为石板坡道，雨天注意防滑。",
+        "春季与红叶季清晨到访可避开人流。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-three-days", "japan-kyoto-fushimi-inari", "japan-kyoto-food"]
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-fushimi-inari",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/kyoto/attractions/kiyomizu-dera-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/kiyomizu-dera-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/kyoto/attractions/kiyomizu-dera-gallery-01.webp",
+      "alt": "清水舞台全景"
+    },
+    {
+      "src": "/assets/images/kyoto/attractions/kiyomizu-dera-gallery-02.webp",
+      "alt": "三重塔与东山远景"
     }
   ]
 }

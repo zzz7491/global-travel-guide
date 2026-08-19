@@ -43,8 +43,36 @@
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-three-days", "japan-kyoto-economy", "japan-kyoto-tips"]
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-economy",
+        "japan-kyoto-tips"
+      ]
     }
   ],
-  "category": "交通"
+  "category": "交通",
+  "image": "/images/kyoto/kyoto-cover-transport-cover-9741b998.webp",
+  "socialImage": "/images/kyoto/kyoto-cover-transport-cover-9741b998.webp",
+  "howto": {
+    "name": "京都巴士一日券使用指南",
+    "description": "三步学会使用京都巴士一日券，轻松出行不迷路",
+    "totalTime": "PT10M",
+    "steps": [
+      {
+        "name": "购买一日券",
+        "text": "在京都站或主要景点巴士中心购买一日券（票价 ¥1200），也可使用 ICOCA 等 IC 卡。",
+        "image": "/images/kyoto/kyoto-cover-transport-cover-9741b998.webp"
+      },
+      {
+        "name": "上车刷卡",
+        "text": "从后门上车，在前门下车时刷一日券或 IC 卡。注意确认车内电子屏显示 OK。",
+        "image": ""
+      },
+      {
+        "name": "规划路线",
+        "text": "使用京都市巴士 App 或官网查询线路，优先选择观光巴士（100/101/102路）覆盖主要景点。",
+        "image": ""
+      }
+    ]
+  }
 }

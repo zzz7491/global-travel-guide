@@ -1,14 +1,15 @@
-# 备份文件（不入库）
-backup-20260815-public/
+# Dependencies
+node_modules/
 
-# 打包产物
-*.zip
+# Build output (regenerated, not committed)
+public/
 
-# WorkBuddy 项目数据
-.workbuddy/
+# Temporary files
+tmp/
 
-# 系统/编辑器文件
+# Agnes cache
+.agnes/
+
+# OS files
 .DS_Store
 Thumbs.db
-Desktop.ini
-ehthumbs.db

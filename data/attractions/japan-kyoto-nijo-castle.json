@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-nijo-castle",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "nijo-castle",
+  "title": "二条城攻略｜德川幕府权力象征的辉煌遗迹",
+  "description": "京都二条城旅游攻略：世界遗产 castle complex、樱之殿金鳟画、鹂鸣地板与江户时代政治中心的历史。",
+  "keywords": "二条城,世界遗产,德川幕府,京都城堡,京都景点,京都历史",
+  "h1": "二条城攻略",
+  "lead": "二条城是德川家康建造的和式城堡，既是权力象征也是艺术宝库，其樱之殿的金箔绘画堪称江户时代的巅峰之作。",
+  "tags": [
+    "历史",
+    "建筑",
+    "世界遗产",
+    "城堡"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>二条城（Nijo Castle）建于1603年，是德川幕府在京都的权力据点。1867年在此发生了「大政奉还」事件，标志着幕末时代的终结。1994年作为「古京都遗址」的一部分被列入世界遗产。城内的本丸御殿以其豪华装饰闻名，尤其是「鹂鸣地板」（鶬飛び床）和众多金箔绘画。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>本丸御殿</h3><p>御殿群由正厅、寝殿、后宫组成，展示了德川家族的奢华生活。「凤之间」「雁之间」等寝室的障壁画出自狩野派画师之手，金箔装饰极尽奢华。</p><h3>鹂鸣地板</h3><p>走廊铺设的特殊木地板会在人行走时发出类似黄莺啼叫的声音，据说是为了防止刺客潜入。这是二条城最著名的特色之一。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>参观时间</h3><p>建议安排1.5-2小时：本丸御殿参观 + 二之丸庭园漫步 + 城郭外围拍照。春季樱花和秋季红叶时节景色尤为壮观。</p><h3>交通</h3><p>从京都站乘市巴士5或101路至「二条城前」站步行约3分钟；或地铁东西线「二条城前站」步行约5分钟。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "门票包含本丸御殿和庭园，无需额外购票。",
+        "御殿内禁止拍照，请在指定区域拍摄。",
+        "周一周二闭馆（如遇节假日则顺延）。",
+        "春季樱花季游客较多，建议工作日前往。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-spring",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-nijo-castle-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-nijo-castle-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-nijo-castle-gallery-01-placeholder.webp",
+      "alt": "二条城天守阁"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-nijo-castle-gallery-02-placeholder.webp",
+      "alt": "鹂鸣地板"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-ryoun-ji",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "ryoun-ji",
+  "title": "龙安寺石庭攻略｜枯山水禅意的极致体验",
+  "description": "京都龙安寺旅游攻略：日本最著名的枯山水庭院「方丈之庭」，15块石头的禅意布局与参观要点。",
+  "keywords": "龙安寺,枯山水,石庭,禅宗,世界遗产,京都寺庙",
+  "h1": "龙安寺石庭攻略",
+  "lead": "龙安寺方丈之庭是日本枯山水庭园的代表作，15块石头错落分布于白砂之上，引发无数关于禅意的思考。",
+  "tags": [
+    "寺庙",
+    "庭园",
+    "世界遗产",
+    "禅宗"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>龙安寺（Ryoun-ji）是京都临济宗妙心寺派的寺院，始建于1450年。其方丈之庭（Karesansui Garden）是日本最具代表性的枯山水庭园，1994年作为「古京都遗址」的一部分被列入世界遗产。庭园仅由15块石头和白色砂砾构成，却蕴含深刻的禅意哲学。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>枯山水庭园</h3><p>方丈之庭长10米、宽25米，覆盖约200平方米。15块石头以不对称方式排列，象征着龙之形态。传说从任何角度观看都无法同时看到全部15块石头，必须有一块隐藏在视野之外。</p><h3>观赏方式</h3><p>建议在方丈建筑的缘侧（走廊）静坐观赏，而非走动观看。庭园设计意图是让观者通过冥想和内省来理解其深意。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>参观时间</h3><p>建议安排30-45分钟：庭园观赏 + 方丈本堂参观 + 周边禅意空间感受。建议上午前往，光线柔和且人流较少。</p><h3>交通</h3><p>从京都站乘市巴士205路至「龙安寺站」约30分钟；或地铁学研奈美 Fine线至「北大路站」换乘巴士。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "请保持安静，这是禅宗修行场所。",
+        "请勿触摸石头或进入庭园内部。",
+        "拍照时请关闭闪光灯。",
+        "秋季红叶季游客较多，建议早到。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-kinkaku-ji",
+        "japan-kyoto-autumn"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-ryoun-ji-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-ryoun-ji-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-ryoun-ji-gallery-01-placeholder.webp",
+      "alt": "龙安寺石庭全景"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-ryoun-ji-gallery-02-placeholder.webp",
+      "alt": "枯山水禅意"
+    }
+  ]
+}

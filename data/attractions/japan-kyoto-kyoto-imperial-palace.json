@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-kyoto-imperial-palace",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "kyoto-imperial-palace",
+  "title": "京都御所攻略｜天皇家族的千年居所与庭园漫步",
+  "description": "京都御所旅游攻略：天皇在京都的居所、九条殿遗址、禁中御三条大纳言邸的历史与参观指南。",
+  "keywords": "京都御所,皇宫,天皇家,京都历史,世界遗产,免费景点",
+  "h1": "京都御所攻略",
+  "lead": "京都御所是天皇家族在江户时代前的居所，拥有精美的庭园和宏伟的宫殿建筑群，是感受日本皇室文化的绝佳去处。",
+  "tags": [
+    "历史",
+    "建筑",
+    "庭园",
+    "免费"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>京都御所（Kyoto Imperial Palace）是明治维新前天皇在日本的居所，位于京都市中心。整个御所占地广阔，由正殿（紫宸殿）、后宫（内里）、禁中所等建筑群组成。自1869年天皇迁都东京后，御所作为文化遗产被保留下来，庭园对公众开放。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>紫宸殿</h3><p>紫宸殿是御所的正殿，天皇在此举行即位礼等朝廷大典。建筑采用「寝殿造」样式，白色墙壁与深绿色瓦顶相映成辉。</p><h3>禁中所</h3><p>禁中所是后宫的一部分，曾是皇后及女官们的居所，保存了平安时代的室内布局。需参加导览团方可入内参观。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>参观时间</h3><p>建议安排1.5-2小时：庭园漫步 + 可选的宫内厅导览团（入内参观）。导览团需提前在网上预约。</p><h3>交通</h3><p>从京都站乘市巴士205路至「御所前」站步行约5分钟；或地铁乌丸线「今出川站」步行约10分钟。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "御所每日8:00-17:00开放（冬季缩短至16:30）。",
+        "宫内厅导览团需提前一周在线预约。",
+        "庭园部分自由参观，无需预约。",
+        "周一、周二闭馆（如遇节假日则顺延）。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-nijo-castle",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-kyoto-imperial-palace-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-kyoto-imperial-palace-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-kyoto-imperial-palace-gallery-01-placeholder.webp",
+      "alt": "京都御所正门"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-kyoto-imperial-palace-gallery-02-placeholder.webp",
+      "alt": "御所庭院"
+    }
+  ]
+}

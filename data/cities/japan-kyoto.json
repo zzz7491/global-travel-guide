@@ -19,7 +19,7 @@
     "japan-kyoto-best-time"
   ],
   "tagline": "千年古都，一步一景的日本传统之心",
-  "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+  "heroImage": "/assets/images/kyoto/city/kyoto-hero.webp",
   "bestTime": {
     "season": "春秋（3-4月樱花 / 10-11月红叶）",
     "description": "京都春秋双高峰最迷人：春季樱花与秋季红叶吸引大量游客；夏季湿热、冬季干冷少人，别有韵味。"
@@ -71,6 +71,31 @@
       "credit": "Unsplash"
     }
   ],
-  "relatedCities": ["japan-tokyo"],
-  "featured": false
+  "relatedCities": [
+    "japan-tokyo"
+  ],
+  "featured": false,
+  "faq": [
+    {
+      "q": "京都适合玩几天？",
+      "a": "建议安排 3-5 天。3天可覆盖核心景点（清水寺、伏见稻荷、金阁寺、岚山），5天可深度体验周边如宇治、奈良。"
+    },
+    {
+      "q": "京都最佳旅行时间是几月？",
+      "a": "春季（3-4月）赏樱花，秋季（10-11月）看红叶。夏季较热但游客较少，冬季可体验雪景和温泉。"
+    },
+    {
+      "q": "京都旅行预算多少？",
+      "a": "经济型约 5000-8000日元/天，舒适型约 10000-20000日元/天，含住宿、餐饮、交通和门票。"
+    },
+    {
+      "q": "京都交通方便吗？",
+      "a": "主要景点可通过公交和地铁到达。推荐购买巴士一日券（700日元）或地铁套票。"
+    },
+    {
+      "q": "京都必去景点有哪些？",
+      "a": "清水寺、伏见稻荷大社、金阁寺、岚山竹林、祇园、二条城、哲学之道是经典必游。"
+    }
+  ],
+  "socialImage": "/assets/images/kyoto/og/kyoto-city-og.webp"
 }

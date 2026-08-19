@@ -6,4 +6,32 @@
   {{{inner}}}
 </section>
 {{/each}}
+{{#if gallery}}
+<section class="image-gallery">
+  <div class="gallery-grid">
+    {{#each gallery}}
+    <figure class="gallery-item">
+      <img class="gallery-img" width="800" height="600" src="{{src}}" alt="{{alt}}" loading="lazy" decoding="async">
+      {{#if caption}}<figcaption class="gallery-caption">{{caption}}</figcaption>{{/if}}
+    </figure>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
+{{#if relatedLinks}}
+<section class="block home-block">
+  <div class="section-header">
+    <h2>{{relatedTitle}}</h2>
+  </div>
+  <div class="cards">
+    {{#each relatedLinks}}
+    <a class="card" href="{{url}}">
+      {{#if image}}<img class="card-img" width="800" height="450" src="{{image}}" alt="{{alt}}" loading="lazy" decoding="async">{{/if}}
+      <strong>{{title}}</strong>
+      <span>{{desc}}</span>
+    </a>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
 <p class="back"><a href="{{backUrl}}">&larr; {{backLabel}}</a></p>

@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-tofuku-ji",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "tofuku-ji",
+  "title": "东福寺攻略｜京都红叶名所的通天桥与禅意庭园",
+  "description": "京都东福寺旅游攻略：红叶季节的通天桥、方丈庭园与华藏世界院的绝景，附最佳观赏时段与交通指南。",
+  "keywords": "东福寺,红叶,通天桥,京都寺庙,京都秋景,禅宗",
+  "h1": "东福寺攻略",
+  "lead": "东福寺是京都最著名的赏枫胜地之一，通天桥横跨深谷，俯瞰漫山红叶如油画般绚烂。",
+  "tags": [
+    "寺庙",
+    "红叶",
+    "庭园",
+    "观景"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>东福寺（Tofuku-ji）是京都临济宗东福寺派的大本山，始建于1236年，由藤原赖经创建。作为「京都五大禅寺」之一，东福寺以其宏大的规模和优美的庭园闻名，尤其是秋季的红叶景观被誉为京都最佳赏枫地之一。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>通天桥</h3><p>通天桥是东福寺最著名的观景点，横跨于深谷之上，从这里可以俯瞰整个东山山谷的红叶。秋季时，红色枫林与绿色苔藓交织，构成令人窒息的美景。</p><h3>方丈庭园</h3><p>方丈 gardens 由著名园艺师重森三玲设计，融合了传统禅宗庭园与现代抽象艺术，被称为「坐在轮椅上也能欣赏的庭园」。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>红叶季为11月中旬至12月上旬，其中11月下旬最为壮观。建议清晨8:00开门时入内，此时光线柔和且人流较少。夏季（7-8月）的绣球花也别有韵味。</p><h3>交通</h3><p>从京都站乘京阪本线至「东福寺站」约15分钟；或JR奈良线至「东福寺站」步行约5分钟。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "红叶季周末游客极多，建议工作日前往。",
+        "通天桥段为木栈道，雨天湿滑请小心。",
+        "方丈庭园需额外购票（约¥500）。",
+        "寺内有多处茶屋可休息饮用抹茶。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-autumn",
+        "japan-kyoto-sanjusangen-do"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-tofuku-ji-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-tofuku-ji-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-tofuku-ji-gallery-01-placeholder.webp",
+      "alt": "东福寺通天桥红叶"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-tofuku-ji-gallery-02-placeholder.webp",
+      "alt": "黄檗宗庭园"
+    }
+  ]
+}

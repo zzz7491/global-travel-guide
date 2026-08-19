@@ -1,0 +1,69 @@
+{
+  "type": "story",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-food-tour",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "food-tour",
+  "title": "京都美食地图｜从锦市场到先斗町的味蕾之旅",
+  "summary": "用三天时间吃遍京都，从锦市场的街头小吃到先斗町的町家料理，每一口都是古都的味道。",
+  "author": {
+    "name": "@吃货阿明",
+    "avatar": "",
+    "bio": "美食博主，专注日本料理探索"
+  },
+  "travelStyle": "美食探索",
+  "season": "秋季",
+  "duration": 3,
+  "budget": "约¥15000（不含往返）",
+  "travelPeriod": "2025年10月",
+  "highlights": [
+    "锦市场10种必吃小吃",
+    "南禅寺汤豆腐名店",
+    "先斗町町家料理晚餐",
+    "宇治抹茶本店巡礼",
+    "河原町居酒屋夜食"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "市集与街头",
+      "route": "锦市场早餐 → 寺町通午餐 → 先斗町晚餐",
+      "notes": "锦市场9:00-11:00最热闹，摊位刚补货"
+    },
+    {
+      "day": 2,
+      "theme": "寺庙与抹茶",
+      "route": "南禅寺汤豆腐 → 宇治抹茶街 → 中村藤吉本店",
+      "notes": "汤豆腐午市套餐约¥2500，建议提前预约"
+    },
+    {
+      "day": 3,
+      "theme": "夜市与收尾",
+      "route": "河原町早市 → 祇园午餐 → 先斗町夜食",
+      "notes": "先斗町夏日有纳凉床，冬季是暖炉席"
+    }
+  ],
+  "tips": [
+    "锦市场多数摊位仅收现金，备足零钱",
+    "抹茶甜点人均¥500-800即可体验正宗味道",
+    "町家料理晚餐需提前一周预约",
+    "便利店饭团约¥200-400，早餐首选"
+  ],
+  "images": [],
+  "points": 0,
+  "moderationStatus": "seed",
+  "publishedAt": "2025-10-25T16:00:00Z",
+  "coverImage": "/images/kyoto/kyoto-story-food-tour-cover-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-story-food-tour-cover-placeholder.webp",
+  "blocks": [
+    {
+      "kind": "related",
+      "title": "相关景点",
+      "refs": [
+        "japan-kyoto-nishiki-market",
+        "japan-kyoto-fushimi-inari"
+      ]
+    }
+  ]
+}

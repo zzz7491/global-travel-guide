@@ -1,0 +1,41 @@
+{
+  "id": "japan-kyoto-couple-route",
+  "type": "route",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "couple-route",
+  "title": "京都情侣浪漫路线｜两天漫步古都的爱意时光",
+  "description": "京都情侣路线规划：岚山竹林、鸭川黄昏、和服体验与百年町家晚餐，适合恋爱中的旅行者。",
+  "keywords": "京都情侣,京都浪漫,京都约会,岚山竹林,鸭川日落,和服体验,京都必去",
+  "h1": "京都情侣浪漫路线",
+  "lead": "两天时间串起京都最美的风景，让古老街巷成为你们爱情的见证。",
+  "days": 2,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>本路线专为情侣设计，以「慢节奏+高颜值+强体验」为原则。第一天岚山自然风光，第二天市区文化沉浸，每天留出充足的二人世界时间。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 岚山浪漫日",
+      "html": "<h3>上午</h3><p>嵯峨野小火车（清晨班次人少）→ 岚山竹林小径（拍照圣地）→ 天龙寺庭园</p><h3>下午</h3><p>渡月桥拍合照 → 桂离宫远眺 → 岚山公园散步</p><h3>晚上</h3><p>岚山花灯路（樱花季）或百年料亭晚餐</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 2 市区文化日",
+      "html": "<h3>上午</h3><p>伏见稻荷千本鸟居（清晨出发）→ 八坂神社恋爱祈愿</p><h3>下午</h3><p>祇园花见小路和服体验 → 二年坂三年坂手牵手逛街</p><h3>晚上</h3><p>鸭川河畔散步看日落 → 先斗町居酒屋约会</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["和服体验建议提前预约，选择含化妆造型的套餐。", "鸭川河畔傍晚是热门约会地，建议预订河原町餐厅。", "岚山周末人流较多，工作日体验更佳。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["japan-kyoto-arashiyama-bamboo-grove", "japan-kyoto-sagano-scenic-railway", "japan-kyoto-kamo-river", "japan-kyoto-food"]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80"
+}

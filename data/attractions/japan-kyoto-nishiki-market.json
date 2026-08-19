@@ -1,0 +1,66 @@
+{
+  "id": "japan-kyoto-nishiki-market",
+  "type": "attraction",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "nishiki-market",
+  "title": "锦市场攻略｜京都厨房的百年美食天堂",
+  "description": "京都锦市场旅游攻略：室内长街市集的300+摊位、渍物与海产小吃，附必买伴手礼与用餐时间建议。",
+  "keywords": "锦市场,京都美食,室内市场,京都厨房,渍物,伴手礼",
+  "h1": "锦市场攻略",
+  "lead": "锦市场被称为「京都的厨房」，这条长约400米的室内商店街聚集了300多家老店，是体验京都饮食文化的最佳去处。",
+  "tags": [
+    "美食",
+    "购物",
+    "历史",
+    "室内"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>锦市场（Nishiki Market）位于京都市中心锦小路通，是一条长约400米的室内商店街，经营历史超过400年。这里聚集了300多家店铺，出售新鲜海产、渍物（泡菜）、豆制品、京野菜、和果子等各类京都特色食品，是体验当地饮食文化的首选之地。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>美食街区</h3><p>市场内最著名的是渍物店、海鲜摊位和豆制品铺。推荐的尝鲜包括：玉子烧、炸豆腐、抹茶糰子、鲭鱼寿司、京野菜渍物等。多数摊位提供试吃，可以边走边品尝。</p><h3>伴手礼采购</h3><p>锦市场是购买京都伴手礼的理想场所，特别是加工食品类的抹茶、酱油、味噌、清酒等均有老字号店铺提供精美包装。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>早晨9:00-11:00是最热闹的时段，新鲜食材刚上架；午后部分摊位会休息；建议在午餐前到达，可选择店内简餐或外带。<b>注意：14:00后部分店铺开始打烊。</b></p><h3>交通</h3><p>从京都站乘市巴士206路至「京都市役所前」站步行约5分钟；或地铁东西线「竹田站」步行约10分钟。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "部分店铺仅接受现金支付，请备足零钱。",
+        "市场内空间狭窄，请勿阻塞通道。",
+        "拍照前请先征得店主同意。",
+        "周一、周二许多店铺休息，建议周三至周日前往。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "japan-kyoto-three-days",
+        "japan-kyoto-food",
+        "japan-kyoto-accommodation"
+      ]
+    }
+  ],
+  "heroImage": "/images/kyoto/kyoto-hero-nishiki-market-hero-placeholder.webp",
+  "socialImage": "/images/kyoto/kyoto-og-nishiki-market-og-placeholder.webp",
+  "gallery": [
+    {
+      "src": "/images/kyoto/kyoto-gallery-nishiki-market-gallery-01-placeholder.webp",
+      "alt": "锦市场入口"
+    },
+    {
+      "src": "/images/kyoto/kyoto-gallery-nishiki-market-gallery-02-placeholder.webp",
+      "alt": "摊位美食"
+    }
+  ]
+}

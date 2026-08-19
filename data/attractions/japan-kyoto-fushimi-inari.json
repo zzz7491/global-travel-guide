@@ -9,7 +9,12 @@
   "keywords": "伏见稻荷,千本鸟居,稻荷大社,京都神社,稻荷山,京都徒步",
   "h1": "伏见稻荷大社攻略",
   "lead": "伏见稻荷大社以绵延山间的千本朱红鸟居闻名，是京都最具画面感的神社。",
-  "tags": ["神社", "摄影", "徒步", "免费"],
+  "tags": [
+    "神社",
+    "摄影",
+    "徒步",
+    "免费"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["千本鸟居段人流量大，拍照请礼让。", "登山环线建议穿舒适鞋，全程约 4 公里。", "回程末班车时间提前确认，避免夜间滞留山上。"]
+      "items": [
+        "千本鸟居段人流量大，拍照请礼让。",
+        "登山环线建议穿舒适鞋，全程约 4 公里。",
+        "回程末班车时间提前确认，避免夜间滞留山上。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["japan-kyoto-kiyomizu-dera", "japan-kyoto-three-days", "japan-kyoto-food"]
+      "refs": [
+        "japan-kyoto-kiyomizu-dera",
+        "japan-kyoto-three-days",
+        "japan-kyoto-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/kyoto/attractions/fushimi-inari-hero.webp",
+  "socialImage": "/assets/images/kyoto/og/fushimi-inari-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/kyoto/attractions/fushimi-inari-gallery-01.webp",
+      "alt": "伏见稻荷千本鸟居隧道"
+    },
+    {
+      "src": "/assets/images/kyoto/attractions/fushimi-inari-gallery-02.webp",
+      "alt": "伏见稻荷鸟居细节特写"
     }
   ]
 }
