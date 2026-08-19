@@ -1,0 +1,50 @@
+{
+  "id": "france-paris-museum-route",
+  "type": "route",
+  "country": "france",
+  "city": "paris",
+  "slug": "museum-route",
+  "title": "巴黎艺术博物馆2日游路线｜艺术爱好者深度行程",
+  "description": "巴黎艺术博物馆2日游：卢浮宫、奥赛博物馆、橘园美术馆与蓬皮杜艺术中心组合路线，附各馆重点与预约建议，适合艺术爱好者。",
+  "keywords": "巴黎博物馆,巴黎艺术之旅,奥赛博物馆,橘园,蓬皮杜,卢浮宫路线",
+  "h1": "巴黎艺术博物馆2日游路线",
+  "lead": "两天串起卢浮宫、奥赛、橘园与蓬皮杜，从古典到现代，一条线看懂巴黎艺术脉络。",
+  "days": 2,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>巴黎的博物馆密度全球罕见，且多集中在塞纳河两岸。本路线按「古典→印象派→现代」的时间线编排，每天一主馆一辅馆，避免审美疲劳。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 古典与印象派：卢浮宫 + 橘园",
+      "html": "<h3>动线与区域逻辑</h3><p>上午卢浮宫（重点：三大镇馆之宝，2-3 小时）；午后过桥步行至橘园美术馆（Musée de l'Orangerie），看莫奈睡莲组画；傍晚杜乐丽花园散步收尾。</p><h3>预约建议</h3><p>两馆均需官网预约；卢浮宫约上午最早时段，橘园下午人较少。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 2 印象派到现代：奥赛 + 蓬皮杜",
+      "html": "<h3>动线与区域逻辑</h3><p>上午奥赛博物馆（Musée d'Orsay，火车站改造，印象派收藏世界级）；午后过河到蓬皮杜艺术中心（Centre Pompidou，现代与当代艺术）；傍晚可在屋顶咖啡看巴黎天际线。</p><h3>节奏提示</h3><p>两馆体量都大，各安排 2-2.5 小时即可，选重点展厅而非全馆扫荡。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "四馆全部需预约，旺季提前 1-2 周。",
+        "博物馆通票 2 日版覆盖多数馆，比单买划算。",
+        "馆内禁闪光灯，部分展室禁止拍照。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-louvre",
+        "france-paris-latin-quarter",
+        "france-paris-food",
+        "france-paris-three-days"
+      ]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80"
+}

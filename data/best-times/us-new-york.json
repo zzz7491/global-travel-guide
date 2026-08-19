@@ -1,0 +1,28 @@
+{
+  "id": "us-new-york-best-time",
+  "type": "best-time",
+  "country": "us",
+  "city": "new-york",
+  "title": "纽约最佳旅行时间｜几月去纽约最好",
+  "description": "纽约最佳旅行时间：9-11月秋高气爽最推荐；春季樱花与复活节氛围好、夏季活动多、冬季圣诞季迷人，全年各有玩法。",
+  "keywords": "纽约最佳旅行时间,纽约几月去,纽约旅游季节,纽约天气,纽约四季",
+  "h1": "纽约最佳旅行时间",
+  "lead": "纽约四季分明：秋季金黄、春季清新、夏季火热、冬季节庆，9-11月体感最佳。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>早春转暖（5-16℃），中央公园樱花与郁金香开放，游客较少。</li><li><strong>5-6月：</strong>舒适宜人（15-25℃），户外活动与露天市场开启。</li><li><strong>7-8月：</strong>夏季炎热潮湿（25-32℃），游客高峰，室内馆与夜游是主力。</li><li><strong>9-11月：</strong>秋高气爽（10-22℃），中央公园秋色与感恩节游行，公认最佳出游窗口。</li><li><strong>12月：</strong>圣诞季，洛克菲勒中心树灯与橱窗迷人，人最多。</li><li><strong>1-2月：</strong>冬季寒冷（-2-5℃），打折季购物划算，游客最少。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["9-11月气候与活动组合最佳，优先安排户外行程。", "7-8月与12月务必提前订住宿与景点票。", "冬季备好羽绒服，室内博物馆是主力。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["us-new-york-three-days", "us-new-york-central-park", "us-new-york-transport"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "uk-london-best-time",
+  "type": "best-time",
+  "country": "uk",
+  "city": "london",
+  "title": "伦敦最佳旅行时间｜几月去伦敦最好",
+  "description": "伦敦最佳旅行时间：5-9月日照最长最推荐；夏季音乐节与户外活动多、冬季圣诞氛围浓且人少，全年各有玩法。",
+  "keywords": "伦敦最佳旅行时间,伦敦几月去,伦敦旅游季节,伦敦天气,伦敦四季",
+  "h1": "伦敦最佳旅行时间",
+  "lead": "伦敦天气多变，但 5-9 月日照最长、活动最多，是公认的最佳出游窗口。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>早春转暖（8-16℃），樱花与水仙盛开，游客较少。</li><li><strong>5-6月：</strong>日照延长（15-22℃），公园绿意与户外活动最多，气候宜人。</li><li><strong>7-8月：</strong>夏季高峰（18-25℃），节庆与露天演出密集，住宿最贵。</li><li><strong>9-10月：</strong>秋高气爽（12-19℃），游客回落，博物馆看展体验好。</li><li><strong>11-12月：</strong>转冷（3-9℃），圣诞集市与灯饰开启，年末氛围浓。</li><li><strong>1-2月：</strong>冬季湿冷（1-7℃），打折季购物划算，游客最少。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["5-6月气候与活动组合最佳，优先安排户外行程。", "7-8月务必提前订住宿与景点票。", "冬季备好防水外套，室内博物馆是主力。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["uk-london-three-days", "uk-london-westminster", "uk-london-transport"]
+    }
+  ]
+}

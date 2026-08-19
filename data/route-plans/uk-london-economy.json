@@ -1,0 +1,206 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "uk-london-economy",
+  "country": "uk",
+  "city": "london",
+  "slug": "economy",
+  "title": "伦敦四日经济版路书｜低预算伦敦自由行计划 | Global Travel Guide",
+  "description": "伦敦四日经济版路书：以地铁与步行为主、免费博物馆为核心、市集美食与平价住宿搭配的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过核心体验的自由行旅客。",
+  "keywords": "伦敦经济游,伦敦四日游,伦敦自由行省钱,伦敦预算攻略,伦敦免费博物馆,伦敦便宜玩法",
+  "h1": "伦敦四日经济版路书",
+  "lead": "省钱不省精彩 · 免费博物馆打底，市集与公园撑起体验。",
+  "edition": "economy",
+  "image": "https://images.unsplash.com/photo-1520262494112-9fe481d36ec3?w=800&q=70",
+  "featured": true,
+  "priority": 1,
+  "days": 4,
+  "suitableFor": "首次访英、希望控制预算又想覆盖核心体验的自由行旅客",
+  "seasonNote": "夏季（6-8月）日照长、活动多但住宿最贵需提前规划；春秋（4-5月、9-10月）气候宜人性价比高；冬季打折季适合购物但湿冷。",
+  "travelTone": "第一次伦敦自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["伦敦四日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 免费博物馆打底",
+    "tone": "🧭 适合：第一次伦敦自由行",
+    "info": [
+      { "num": "4", "label": "DAYS" },
+      { "num": "10+", "label": "FREE SPOTS" },
+      { "num": "免费馆", "label": "MUSEUMS" },
+      { "num": "地铁为主", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 地铁出行 · 平价住宿",
+    "bottom": "适合首次访英、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌤 春秋最佳 · 夏冬可调",
+    "budget": "约 £230–480 / 人·4天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把伦敦玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "免费博物馆打底，付费地标精选，能免则免" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，减少跨区折返与无效通勤" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "公园、广场、街区漫步零门票，体验不打折" },
+      { "icon": "🚇", "label": "交通效率", "value": "Contactless 每日封顶 + 步行，省车费也省时间" },
+      { "icon": "🏛️", "label": "深度体验", "value": "经典地标一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "政治心脏", "title": "威斯敏斯特 · 南岸 · 伦敦眼", "spots": ["大本钟", "国会大厦", "威斯敏斯特教堂", "南岸", "伦敦眼"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "历史与博物馆", "title": "伦敦塔 · 大英博物馆", "spots": ["伦敦塔", "塔桥", "大英博物馆", "考文特花园"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "免费艺术日", "title": "国家美术馆 · 泰特现代 · 南岸", "spots": ["特拉法加广场", "国家美术馆", "千禧桥", "泰特现代"], "ticketLabel": "经济档" },
+    { "day": 4, "theme": "街区与收尾", "title": "诺丁山 · 苏荷 · 返程", "spots": ["波多贝罗路", "苏荷区", "摄政街", "考文特花园"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "免费博物馆+公园+街区漫步，几乎零门票。", "items": ["大英博物馆/国家美术馆免费", "公园与广场免费", "塔桥外观免费", "伦敦眼只看不坐"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含 1-2 个付费景点与观景，体验更完整。", "items": ["伦敦塔参观", "伦敦眼或碎片大厦观景", "每日1顿正餐", "西区看一场剧（可选）"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多个付费体验 + 餐厅正餐，体验优先。", "items": ["伦敦塔+威斯敏斯特教堂", "伦敦眼+游船", "西区音乐剧", "法餐/英式正餐"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选近地铁站的区域（如国王十字、考文特花园周边），减少搬运行李与通勤时间。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "国王十字 / 尤斯顿周边", "priceLevel": "约 £40-80/晚（估算）", "advantage": "交通枢纽 · 近大英博物馆 · 平价选择多" },
+      { "type": "公寓式住宿", "area": "南岸 / 东区", "priceLevel": "约 £70-130/晚（估算）", "advantage": "河岸氛围 · 可自炊省餐饮费 · 家庭长住友好" },
+      { "type": "品质酒店", "area": "考文特花园 / 苏荷周边", "priceLevel": "约 £130-220/晚（估算）", "advantage": "核心商圈 · 步行可达景点 · 干净高效" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "政治心脏", "title": "威斯敏斯特 · 南岸 · 伦敦眼", "sub": "从地标开始，免费外观打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "机场入境与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "从希思罗乘伊丽莎白线或地铁皮卡迪利线进入市区，放下行李轻装出发。往返大交通不含，自行控制。", "info": [{ "label": "交通方式", "value": "伊丽莎白线 / 皮卡迪利线" }, { "label": "耗时", "value": "40-60分钟" }, { "label": "费用", "value": "约£6-13" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的城市天际线", "reservation": "无需预约", "localTip": "先买 Oyster 或绑定 Contactless", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住，次日再出发" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "连锁咖啡+三明治出发", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "就近 Pret/Pret A Manger 类连锁或便利店早餐，人均 £5-7，把时间留给景点。", "info": [{ "label": "人均", "value": "£5-7" }, { "label": "建议", "value": "就近解决" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯随时补水", "tips": "连锁早餐比酒店便宜，街头咖啡随处有", "alternative": "超市三明治更省" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "大本钟与国会大厦外观", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "威斯敏斯特地铁站出口即见大本钟与国会大厦，外观免费；过 Jubilee 桥到南岸是最佳合影机位。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午顺光", "photoSpot": "Jubilee桥、国会广场", "reservation": "无需预约", "localTip": "桥上是经典机位", "tips": "外观免费，省下票钱留作晚餐", "alternative": "想进教堂参观需购票" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "南岸市集午餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "南岸中心或博罗市场的小吃摊，人均 £8-12，边吃边看泰晤士河。", "info": [{ "label": "人均", "value": "£8-12" }, { "label": "建议", "value": "市集小吃" }], "bestTime": "12:30前", "photoSpot": "市集摊位", "reservation": "无需预约", "localTip": "市集摊性价比高于正餐厅", "tips": "西班牙海鲜饭、汉堡、烤肉随便挑", "alternative": "连锁三明治 £5-8" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "伦敦眼外观与南岸步道", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "伦敦眼外观免费合影（乘坐约 £30）；沿南岸步道散步至千禧桥，看街头艺人。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "外观免费 / 乘坐约£30" }], "bestTime": "下午", "photoSpot": "伦敦眼全景、南岸街头", "reservation": "乘坐建议官网购票", "localTip": "不坐也很出片", "tips": "预算紧只看外观，省下票钱", "alternative": "改免费塔桥步道" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "泰特现代免费看日落", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "千禧桥过河到泰特现代美术馆（Tate Modern），常设展免费，观景层俯瞰圣保罗大教堂与南岸日落。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "常设展免费" }], "bestTime": "日落前", "photoSpot": "观景层、千禧桥", "reservation": "常设展建议预约", "localTip": "观景层免费开放", "tips": "免费看伦敦最美日落之一", "alternative": "雨天改馆内看展" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "威斯敏斯特↔南岸以步行+地铁串联，当日费用含在地铁每日封顶内。", "info": [{ "label": "交通方式", "value": "地铁 + 步行" }, { "label": "当日费用", "value": "约£5-8" }, { "label": "餐饮合计", "value": "约£20-32" }], "bestTime": "避开早晚高峰", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "南岸全程步行最舒服", "tips": "每日封顶自动生效，多坐不心疼", "alternative": "步行可达区间优先步行" }
+      ]
+    },
+    {
+      "day": 2, "theme": "历史与博物馆", "title": "伦敦塔 · 大英博物馆", "sub": "千年城堡 + 世界级免费馆", "tag": "历史必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往伦敦塔", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至 Tower Hill 站，上午开馆人流最少。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "£3-5" }], "bestTime": "开馆即入", "photoSpot": "伦敦塔城墙", "reservation": "伦敦塔需网上购票", "localTip": "开馆时段人最少", "tips": "网上购票比现场便宜且快", "alternative": "只拍塔桥外观免费" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "地铁口连锁早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "就近连锁咖啡+三明治解决早餐。", "info": [{ "label": "人均", "value": "£5-7" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "吃饱再进馆，馆内餐饮偏贵", "alternative": "酒店早餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "伦敦塔与皇冠珠宝（可选）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "付费", "c": "paid" }], "desc": "伦敦塔门票约 £30-35，含皇冠珠宝与御用侍卫导览；预算紧可只拍塔桥与城墙外观（免费）。", "info": [{ "label": "建议时长", "value": "2-2.5小时" }, { "label": "费用", "value": "约£30-35 / 外观免费" }], "bestTime": "上午", "photoSpot": "伦敦塔、塔桥同框", "reservation": "网上购票", "localTip": "皇冠珠宝开馆先看", "tips": "外观+塔桥步道免费也能出片", "alternative": "预算紧改纯外观路线" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "塔桥附近简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "塔桥附近连锁店或三明治简餐，人均 £8-12。", "info": [{ "label": "人均", "value": "£8-12" }, { "label": "建议", "value": "连锁简餐" }], "bestTime": "中午", "photoSpot": "塔桥", "reservation": "无需预约", "localTip": "错峰用餐人少", "tips": "景区餐厅偏贵，连锁更稳", "alternative": "超市三明治 £4-6" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "大英博物馆（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "免费但需预约，重点罗塞塔石碑、埃及馆与希腊馆，2-3 小时覆盖核心。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午人较少", "photoSpot": "大穹顶中庭", "reservation": "官网预约", "localTip": "App 有免费语音导览", "tips": "先看罗塞塔石碑再自由逛", "alternative": "雨天更适合馆内" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "考文特花园逛街", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "从大英博物馆步行至考文特花园，看街头艺人、逛中央市场，只逛不买也精彩。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "傍晚", "photoSpot": "玻璃顶市场、街头艺人", "reservation": "无需预约", "localTip": "傍晚演出最多", "tips": "市场橱窗免费好看", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "塔桥↔大英博物馆↔考文特花园以地铁串联，跨一次区即达。", "info": [{ "label": "交通方式", "value": "地铁 + 步行" }, { "label": "当日费用", "value": "约£5-8" }, { "label": "餐饮合计", "value": "约£20-32" }], "bestTime": "避开高峰", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "博物馆与市场步行可串联", "tips": "同区安排减少换乘", "alternative": "步行优先" }
+      ]
+    },
+    {
+      "day": 3, "theme": "免费艺术日", "title": "国家美术馆 · 泰特现代", "sub": "两大免费美术馆，艺术零成本", "tag": "艺术必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往特拉法加广场", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至 Charing Cross / Leicester Square 站，出站即达特拉法加广场。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "£3-5" }], "bestTime": "上午", "photoSpot": "特拉法加广场喷泉", "reservation": "无需预约", "localTip": "广场鸽子别喂", "tips": "上午人少，先看梵高向日葵", "alternative": "步行可达区优先步行" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "广场附近连锁早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "就近连锁咖啡+三明治。", "info": [{ "label": "人均", "value": "£5-7" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "美术馆内咖啡偏贵", "alternative": "超市早餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "国家美术馆（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "免费常设展，梵高《向日葵》、莫奈睡莲等印象派名作集中，2 小时足够。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午", "photoSpot": "大画廊、广场喷泉", "reservation": "建议预约", "localTip": "重点展厅在一二层", "tips": "免费看世界级名作", "alternative": "雨天最适合" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "苏荷区午餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "步行至苏荷区（Soho），各国简餐与面馆云集，人均 £8-14。", "info": [{ "label": "人均", "value": "£8-14" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "苏荷街角", "reservation": "无需预约", "localTip": "面馆与日料性价比高", "tips": "错峰用餐省排队", "alternative": "连锁三明治 £5-8" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "泰特现代美术馆（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "过千禧桥到泰特现代，现代与当代艺术免费常设展，观景层免费开放。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "常设展免费" }], "bestTime": "下午", "photoSpot": "涡轮大厅、观景层", "reservation": "建议预约", "localTip": "观景层必去", "tips": "两个免费馆一天看完，零门票", "alternative": "雨天馆内更佳" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "南岸日落散步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "沿南岸步道返回，看圣保罗大教堂与千禧桥日落，晚间街头艺人开场。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落", "photoSpot": "千禧桥、圣保罗日落", "reservation": "无需预约", "localTip": "日落机位在桥中段", "tips": "免费看伦敦经典日落", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "特拉法加↔苏荷↔南岸以步行串联，几乎零交通费。", "info": [{ "label": "交通方式", "value": "步行" }, { "label": "当日费用", "value": "约£3-5" }, { "label": "餐饮合计", "value": "约£20-34" }], "bestTime": "全天", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "全程步行最舒服", "tips": "艺术日基本不用坐车", "alternative": "雨天改地铁直达" }
+      ]
+    },
+    {
+      "day": 4, "theme": "街区与收尾", "title": "诺丁山 · 苏荷 · 返程", "sub": "市集氛围与最后采购", "tag": "文艺收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往诺丁山", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至 Notting Hill Gate 站，周六波多贝罗路市集最热闹。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "耗时", "value": "30-40分钟" }, { "label": "费用", "value": "£3-5" }], "bestTime": "上午", "photoSpot": "彩色房子街", "reservation": "无需预约", "localTip": "周六市集最全", "tips": "平日市集摊少，适合拍彩色房子", "alternative": "改波多贝罗路拍照" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "诺丁山咖啡早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "市集周边的独立咖啡店，可颂+咖啡 £6-9。", "info": [{ "label": "人均", "value": "£6-9" }, { "label": "建议", "value": "独立咖啡店" }], "bestTime": "出发前", "photoSpot": "咖啡店门口", "reservation": "无需预约", "localTip": "市集内咖啡偏贵", "tips": "街边咖啡氛围好", "alternative": "连锁早餐" },
+        { "time": "上午", "category": "experience", "categoryLabel": "体验", "title": "波多贝罗路市集", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "古董、二手衣、街头小吃一条街，免费逛，淘货看眼缘。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "周六上午", "photoSpot": "市集长街、彩色房子", "reservation": "无需预约", "localTip": "只逛不买也开心", "tips": "古董摊位看看就好，砍价看心情", "alternative": "雨天改室内市集" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "西区简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "回苏荷/考文特花园用餐，面馆或市集小吃人均 £8-14。", "info": [{ "label": "人均", "value": "£8-14" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "西区街角", "reservation": "无需预约", "localTip": "午市套餐划算", "tips": "返程前最后一顿正餐", "alternative": "连锁三明治" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "摄政街购物与收尾", "badges": [{ "t": "体验", "c": "experience" }, { "t": "弹性", "c": "optional" }], "desc": "摄政街与牛津街橱窗免费逛，纪念品控制在预算内。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "弹性" }], "bestTime": "下午", "photoSpot": "摄政街建筑", "reservation": "无需预约", "localTip": "免税门槛注意", "tips": "橱窗本身免费好看", "alternative": "改博物馆收尾" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "市区↔希思罗乘伊丽莎白线/皮卡迪利线，预留 2 小时以上。", "info": [{ "label": "交通方式", "value": "地铁 + 伊丽莎白线" }, { "label": "当日费用", "value": "约£6-13" }, { "label": "餐饮合计", "value": "约£20-34" }], "bestTime": "避开高峰", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "预留充足返程时间", "tips": "别卡点，机场安检排队不定", "alternative": "希思罗快线（更贵更快）" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 230, "high": 480, "currency": "£", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费博物馆 + 市集餐饮" },
+      "composition": { "门票": "免费馆为主", "交通": "Contactless 封顶 + 步行", "餐饮": "连锁 + 市集 + 1正餐", "住宿": "青旅 / 平价酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 480, "high": 820, "currency": "£", "note": "估算 / 参考 · 单人不含往返 · 含伦敦塔 + 观景 + 每日1正餐" },
+      "composition": { "门票": "1-2付费", "交通": "地铁 + 偶尔打车", "餐饮": "+每日1正餐", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 800, "high": 1350, "currency": "£", "note": "估算 / 参考 · 单人不含往返 · 多付费体验 + 西区音乐剧 + 餐厅正餐" },
+      "composition": { "门票": "多付费", "交通": "自由", "餐饮": "+餐厅正餐", "住宿": "品质酒店 + 位置优" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（4晚）", "economy": { "low": 160, "high": 320, "note": "青旅/平价·4晚估算" }, "comfort": { "low": 320, "high": 520, "note": "品质酒店·4晚估算" }, "flexible": { "low": 520, "high": 880, "note": "优选位置·4晚估算" } },
+      { "cat": "🍽 餐饮（4天）", "economy": { "low": 60, "high": 110, "note": "连锁+市集+1正餐" }, "comfort": { "low": 140, "high": 230, "note": "+每日1特色正餐" }, "flexible": { "low": 230, "high": 380, "note": "+餐厅正餐" } },
+      { "cat": "🚇 交通（4天）", "economy": { "low": 15, "high": 25, "note": "Contactless封顶+步行" }, "comfort": { "low": 25, "high": 50, "note": "地铁+偶尔打车" }, "flexible": { "low": 50, "high": 90, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 0, "high": 40, "note": "免费馆为主" }, "comfort": { "low": 40, "high": 90, "note": "伦敦塔+观景" }, "flexible": { "low": 90, "high": 180, "note": "多付费+音乐剧" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 30, "high": 70, "note": "手信/纪念品弹性" }, "comfort": { "low": 70, "high": 150, "note": "手信+伴手礼" }, "flexible": { "low": 150, "high": 300, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 265, "high": 565, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 595, "high": 1040, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 1040, "high": 1830, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "机场 → 威斯敏斯特 → 南岸 → 泰特", "transport": "伊丽莎白线 + 地铁 + 步行", "estimatedTime": "约40-60分钟", "costRange": "约£5-8/人", "foodRange": "约£20-32/人" },
+    { "day": "Day2", "route": "住宿 → 伦敦塔 → 大英博物馆 → 考文特", "transport": "地铁 + 步行", "estimatedTime": "约20-30分钟", "costRange": "约£5-8/人", "foodRange": "约£20-32/人" },
+    { "day": "Day3", "route": "住宿 → 特拉法加 → 苏荷 → 泰特", "transport": "地铁 + 步行", "estimatedTime": "约20-30分钟", "costRange": "约£3-5/人", "foodRange": "约£20-34/人" },
+    { "day": "Day4", "route": "住宿 → 诺丁山 → 西区 → 返程", "transport": "地铁 + 伊丽莎白线", "estimatedTime": "约30-40分钟", "costRange": "约£6-13/人", "foodRange": "约£20-34/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外地标与街区漫步", "alternative": "室内免费场馆：大英博物馆、国家美术馆、泰特现代、自然历史博物馆，雨天也能逛得充实", "reason": "室内场馆避雨且免费，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费观景设施", "alternative": "免费城市观景：天空花园（Sky Garden）需预约免费、泰特观景层、圣保罗大教堂外观", "reason": "不花钱也能看全景，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "步行密集的街区路线", "alternative": "以地铁直达的博物馆（大英、国家美术馆）与公园长椅休息为主，减少长途步行与登山", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如威斯敏斯特外观+泰特、或大英博物馆+考文特），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "连锁咖啡+三明治 £5-7", "午餐": "南岸市集小吃 £8-12", "晚餐": "博罗市场熟食 £6-10", "小计": "经济档" },
+      { "day": "Day2", "早餐": "地铁口连锁", "午餐": "塔桥连锁简餐 £8-12", "晚餐": "考文特市集小吃 £6-10", "小计": "经济档" },
+      { "day": "Day3", "早餐": "广场连锁", "午餐": "苏荷面馆 £8-14", "晚餐": "南岸市集 £6-10", "小计": "经济-舒适" },
+      { "day": "Day4", "早餐": "诺丁山咖啡 £6-9", "午餐": "西区简餐 £8-14", "晚餐": "返程自理", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "伊丽莎白线 + 地铁", "费用": "约£6-13（含机场）", "提醒": "抵达当天绑定 Contactless" },
+      { "day": "Day2", "方式": "地铁 + 步行", "费用": "约£5-8", "提醒": "博物馆区步行串联" },
+      { "day": "Day3", "方式": "地铁 + 步行", "费用": "约£3-5", "提醒": "艺术日基本步行" },
+      { "day": "Day4", "方式": "地铁 + 伊丽莎白线", "费用": "约£6-13", "提醒": "返程预留2小时" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 政治心脏", "Day2 历史博物馆", "Day3 免费艺术", "Day4 街区收尾"],
+    "dailyHours": [6, 7, 6, 6],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [240, 85, 20, 20, 50],
+      "comfort": [420, 185, 35, 65, 110],
+      "flexible": [700, 305, 70, 135, 225]
+    }
+  },
+  "savingTips": [
+    { "title": "免费馆打底", "text": "大英博物馆、国家美术馆、泰特现代均免费，把行程重心放这里。" },
+    { "title": "早餐控费", "text": "连锁咖啡+三明治人均 £5-7，比酒店早餐便宜且快。" },
+    { "title": "午餐市集", "text": "博罗/南岸市集小吃人均 £8-12，比正餐厅便宜一半。" },
+    { "title": "交通封顶", "text": "Contactless 每日封顶自动生效，多坐地铁不心疼。" },
+    { "title": "免费观景", "text": "天空花园（免费预约）、泰特观景层、塔桥步道，不花钱看全景。" },
+    { "title": "外观策略", "text": "伦敦眼、大本钟、塔桥看外观免费，付费只留给最想进的馆。" },
+    { "title": "错峰预约", "text": "免费博物馆预约开馆/闭馆前时段，人少体验好。" },
+    { "title": "只逛不买", "text": "考文特、诺丁山、摄政街的橱窗与街景本身免费好看。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["大英博物馆/国家美术馆免费但需预约", "伦敦塔网上购票", "天空花园免费观景需提前预约", "西区音乐剧票早购有折扣"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2个月更优", "交通卡抵达后绑定即可", "热门餐厅正餐提前1-2天"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带护照与英国签证", "少量英镑现金 + Contactless卡", "提前下载导航/交通App", "准备英国eSIM或漫游", "备好防水外套（伦敦常雨）"] }
+  ],
+  "packing": [
+    "有效证件（护照+英国签证）", "英镑现金少量", "Contactless 银行卡/手机", "英国eSIM/漫游", "防水外套（必备）", "舒适步行鞋", "折叠伞", "常用药品", "移动电源", "薄毛衣（室内冷气足）", "折叠购物袋", "小背包（防盗前置）"
+  ]
+}

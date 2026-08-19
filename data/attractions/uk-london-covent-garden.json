@@ -1,0 +1,40 @@
+{
+  "id": "uk-london-covent-garden",
+  "type": "attraction",
+  "country": "uk",
+  "city": "london",
+  "slug": "covent-garden",
+  "title": "考文特花园攻略｜市场与街头艺术漫步指南",
+  "description": "伦敦考文特花园旅游攻略：中央市场、街头艺人、七溜巷与周边剧场区，附免费玩法与交通方式，适合喜欢烟火气的旅行者。",
+  "keywords": "考文特花园,伦敦市场,街头艺人,伦敦逛街,七溜巷,伦敦剧场",
+  "h1": "考文特花园漫步攻略",
+  "lead": "考文特花园把市场、剧场与街头艺术揉在一起，是伦敦最热闹也最好逛的街区之一。",
+  "tags": ["街区", "市场", "街头艺术", "免费"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>考文特花园（Covent Garden）曾是伦敦的蔬果市场，如今以玻璃顶的中央市场（Market Building）、街头艺人与剧场区闻名。周边的七溜巷（Seven Dials）与尼尔街（Neal's Yard）藏着独立小店与彩色庭院。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>中央市场</h3><p>市场内以手作、香氛与精品小店为主，免费逛；二层的阳台适合俯拍玻璃顶与人群。市场周边常有即兴街头演出，魔术、杂技与音乐轮番登场。</p><h3>七溜巷与尼尔街</h3><p>七条放射状小巷交汇处是经典拍照点；尼尔街的彩色墙面与健康餐厅是「出片圣地」，周末人流最多。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>上午人少适合拍照，傍晚街头艺人最多、氛围最浓；市场内的餐厅价格偏高，建议在周边巷子用餐。</p><h3>交通</h3><p>地铁 Covent Garden 站步行 3 分钟，或 Leicester Square 站步行 5 分钟；与苏荷区（Soho）、国家美术馆相邻，可安排半日连逛。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["观看街头演出可自愿给小费。", "市场周末拥挤，注意随身物品。", "部分小巷单向通行，看导航少走弯路。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["uk-london-three-days", "uk-london-british-museum", "uk-london-food"]
+    }
+  ]
+}

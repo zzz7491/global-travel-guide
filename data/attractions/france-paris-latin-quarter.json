@@ -1,0 +1,40 @@
+{
+  "id": "france-paris-latin-quarter",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "latin-quarter",
+  "title": "拉丁区与左岸漫步攻略｜塞纳河畔文艺街区指南",
+  "description": "巴黎拉丁区与塞纳河左岸漫步攻略：先贤祠、索邦大学、莎士比亚书店与河边书摊，附一条顺路步行动线，适合喜欢文艺氛围的自由行。",
+  "keywords": "巴黎拉丁区,塞纳河左岸,先贤祠,莎士比亚书店,巴黎书摊,巴黎漫步",
+  "h1": "拉丁区与左岸漫步攻略",
+  "lead": "塞纳河左岸的拉丁区是巴黎的学术与文艺心脏，书店、咖啡馆与旧书摊把巴黎的浪漫落到实处。",
+  "tags": ["街区", "文化", "步行", "咖啡"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>拉丁区（Quartier Latin）位于塞纳河左岸，因中世纪拉丁语教学得名。核心看点包括先贤祠（Panthéon）、索邦大学（Sorbonne）与卢森堡公园（Jardin du Luxembourg），沿河则是著名的绿色旧书摊（Bouquinistes）。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "步行动线",
+      "html": "<h3>建议路线</h3><p>从卢森堡公园出发 → 先贤祠（付费参观，穹顶视野佳）→ 索邦大学广场 → 圣米歇尔喷泉 → 沿圣日耳曼大道走向河边 → 莎士比亚书店（Shakespeare and Company）→ 沿塞纳河散步至巴黎圣母院对岸。全程约 2.5–3 小时，节奏轻松。</p><h3>咖啡馆与书店</h3><p>圣日耳曼大道上的老牌咖啡馆价格偏高，本地常去的是巷子里的小馆；莎士比亚书店允许拍照但人多，建议早去。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间与节奏</h3><p>卢森堡公园适合清晨或黄昏散步；先贤祠排队较短，可安排上午。河岸书摊下午最热闹，摊主多为本地藏家，可聊可还价。</p><h3>交通</h3><p>地铁 4 号线 Saint-Michel 站或 RER B/C 线直达，周边巷窄车多，建议以步行为主。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["先贤祠内部穹顶较高，恐高者注意。", "书店内人多时请按动线排队入场。", "河边夜间灯光较暗，注意脚下台阶。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["france-paris-louvre", "france-paris-museum-route", "france-paris-food"]
+    }
+  ]
+}

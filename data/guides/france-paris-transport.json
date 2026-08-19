@@ -1,0 +1,50 @@
+{
+  "id": "france-paris-transport",
+  "type": "guide",
+  "country": "france",
+  "city": "paris",
+  "slug": "transport",
+  "title": "巴黎交通指南｜地铁 RER 与车票购买全攻略",
+  "description": "巴黎交通指南：地铁 1-14 号线与 RER 使用、Navigo 卡与单程票选购、机场往返方式与打车建议，助你高效省时地在巴黎出行。",
+  "keywords": "巴黎交通,巴黎地铁,RER,巴黎车票,Navigo,戴高乐机场交通",
+  "h1": "巴黎交通指南",
+  "lead": "巴黎的地铁网络密集，用对车票与线路，市区内多数目的地 30 分钟内可达。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>巴黎公共交通由地铁（Métro 1–14 号线）、RER 快铁、公交车与有轨电车组成，覆盖整个大巴黎。地铁站间距短、换乘方便，是市区出行的首选。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>车票选择</h3><p><strong>单程票（t+）：</strong>地铁与公交通用，约 €2.15/张，一次买 10 张（carnet）更划算。<br><strong>Navigo 卡：</strong>周票/月票需照片，适合停留一周以上；也有日票（Mobilis）。<br><strong>机场往返：</strong>戴高乐机场乘 RER B 或 Roissybus 进城，奥利机场乘 Orlybus 或 RER B+C。</p><h3>使用技巧</h3><p>换乘限时内免费（地铁内 90 分钟内、与公交间另有规则）；出站无需再刷。高峰期地铁拥挤，尽量错峰出行。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>景区周边的「出租车拉客」与「假警察查票」骗局需警惕；随身包背前侧，避免在地铁门边玩手机。<br>部分线路施工时周末停运，出发前查 RATP 官网或地图 App 的实时通知。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>动线策略</h3><p>把同区域景点排在同一天（如左岸一日、蒙马特+歌剧院一日），减少跨区折返；跨区长途用 RER，市内短途优先步行。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "单程 t+ 约 €2.15，一次买 10 张划算",
+        "Navigo 周票适合停留一周以上",
+        "机场乘 RER B / Roissybus / Orlybus",
+        "换乘限时内免费"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["france-paris-three-days", "france-paris-economy", "france-paris-tips"]
+    }
+  ],
+  "category": "交通"
+}

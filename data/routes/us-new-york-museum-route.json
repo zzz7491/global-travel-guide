@@ -1,0 +1,50 @@
+{
+  "id": "us-new-york-museum-route",
+  "type": "route",
+  "country": "us",
+  "city": "new-york",
+  "slug": "museum-route",
+  "title": "纽约艺术博物馆2日游路线｜文化爱好者深度行程",
+  "description": "纽约艺术博物馆2日游：大都会博物馆、现代艺术博物馆MoMA、惠特尼与高线公园组合路线，附预约与动线建议，适合艺术爱好者。",
+  "keywords": "纽约博物馆,MoMA,大都会博物馆,惠特尼,高线公园,纽约艺术",
+  "h1": "纽约艺术博物馆2日游路线",
+  "lead": "两天串起大都会、MoMA、惠特尼与高线公园，从古典到当代，一条线看懂纽约艺术。",
+  "days": 2,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>纽约的博物馆密度全球顶级，且集中在曼哈顿。本路线按「古典+现代」与「当代+公共艺术」分两日，各安排一主一辅，避免审美疲劳。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 古典与现代：大都会 + MoMA",
+      "html": "<h3>动线与区域逻辑</h3><p>上午上东区大都会博物馆（重点丹铎神庙与欧洲绘画，2-3 小时）；午后地铁至中城 MoMA（现代艺术博物馆，梵高《星夜》、毕加索名作，2 小时）；傍晚第五大道散步收尾。</p><h3>预约建议</h3><p>两馆建议官网购票预约；大都会周五晚延长开放、人流较少。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 2 当代与公共艺术：惠特尼 + 高线公园",
+      "html": "<h3>动线与区域逻辑</h3><p>上午切尔西区惠特尼美国艺术博物馆（Whitney，当代美国艺术）；午后高线公园（High Line，废弃铁路改造的空中步道，免费）沿线走到哈德逊广场；傍晚看新地标 The Vessel（外观）。</p><h3>节奏提示</h3><p>高线公园免费且风景好，安排 1.5-2 小时慢走，与惠特尼相邻动线顺路。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "四馆建议官网预约，旺季提前 1-2 周。",
+        "特展单独售票，可现场决定。",
+        "馆内部分展室禁止拍照。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "us-new-york-met",
+        "us-new-york-central-park",
+        "us-new-york-food",
+        "us-new-york-three-days"
+      ]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?auto=format&fit=crop&w=800&q=80"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "france-paris-best-time",
+  "type": "best-time",
+  "country": "france",
+  "city": "paris",
+  "title": "巴黎最佳旅行时间｜几月去巴黎最好",
+  "description": "巴黎最佳旅行时间：4-6月与9-10月气候宜人最推荐；夏季游客最多、冬季打折季购物划算，全年各有玩法。",
+  "keywords": "巴黎最佳旅行时间,巴黎几月去,巴黎旅游季节,巴黎天气,巴黎四季",
+  "h1": "巴黎最佳旅行时间",
+  "lead": "巴黎四季各有韵味：春夏绿意盎然、秋季金黄浪漫、冬季打折季热闹，4-6月与9-10月体感最佳。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>4-6月：</strong>气温 12-24℃，公园与河岸绿意最盛，游客逐渐增多。</li><li><strong>7-8月：</strong>夏季炎热（偶超 30℃），游客高峰，本地人度假、部分小店歇业。</li><li><strong>9-10月：</strong>秋高气爽（15-22℃），游客回落，公认最佳出游窗口。</li><li><strong>11-12月：</strong>转凉有雨，但圣诞市集与冬季灯饰开启。</li><li><strong>1-2月：</strong>冬季湿冷（0-8℃），打折季（soldes）购物最划算，游客最少。</li><li><strong>3月：</strong>初春仍凉，博物馆类室内行程不受影响。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["9-10月气候与游客量最佳组合，优先安排户外行程。", "7-8月务必提前订住宿与博物馆门票。", "冬季打折季（1月初起）适合购物，备好保暖衣物。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["france-paris-three-days", "france-paris-eiffel-tower", "france-paris-transport"]
+    }
+  ]
+}

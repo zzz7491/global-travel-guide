@@ -1,0 +1,40 @@
+{
+  "id": "uk-london-tower",
+  "type": "attraction",
+  "country": "uk",
+  "city": "london",
+  "slug": "tower-of-london",
+  "title": "伦敦塔旅游攻略｜千年城堡参观指南",
+  "description": "伦敦塔旅游攻略：城堡历史、皇冠珠宝参观、御用侍卫导览与门票建议，附交通方式，助你高效安排伦敦塔行程。",
+  "keywords": "伦敦塔,Tower of London,伦敦城堡,皇冠珠宝,伦敦历史景点",
+  "h1": "伦敦塔旅游攻略",
+  "lead": "伦敦塔是英国最古老的要塞之一，近千年历史浓缩在泰晤士河畔这座城堡里。",
+  "tags": ["城堡", "历史", "皇冠珠宝", "泰晤士河"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>伦敦塔（Tower of London）始建于 11 世纪诺曼征服时期，先后用作王宫、监狱与军械库。如今以皇冠珠宝（Crown Jewels）与御用侍卫（Beefeaters）导览闻名，是伦敦最受欢迎的历史景点之一。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>皇冠珠宝</h3><p>珠宝展厅陈列历代王冠与权杖，其中镶嵌「光明之山」钻石的帝国皇冠最受瞩目，参观需排队，建议开馆或闭馆前前往。</p><h3>御用侍卫导览</h3><p>每日多场免费导览（含在门票内），讲解城堡历史与趣闻，跟随队伍约 1 小时，适合第一次到访者快速建立背景。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间与动线</h3><p>建议安排 2.5-3 小时：先参加导览了解历史，再看皇冠珠宝，最后登白塔城墙。门票建议官网提前购票并预约时段。</p><h3>交通</h3><p>地铁 Tower Hill 站步行约 5 分钟，或乘轻轨至 Tower Gateway；与伦敦塔桥（Tower Bridge）相邻，可安排同一天。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["皇冠珠宝展厅内禁止拍照。", "门票分时段入场，迟到可能需重新排队。", "城堡内路面多为石板，建议穿舒适鞋。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["uk-london-three-days", "uk-london-british-museum", "uk-london-food"]
+    }
+  ]
+}

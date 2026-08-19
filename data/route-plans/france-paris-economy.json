@@ -1,0 +1,206 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "france-paris-economy",
+  "country": "france",
+  "city": "paris",
+  "slug": "economy",
+  "title": "巴黎四日经济版路书｜低预算巴黎自由行计划 | Global Travel Guide",
+  "description": "巴黎四日经济版路书：以地铁与步行为主、免费地标为核心、面包房与市集美食搭配平价住宿的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过核心体验的自由行旅客。",
+  "keywords": "巴黎经济游,巴黎四日游,巴黎自由行省钱,巴黎预算攻略,巴黎地铁游,巴黎便宜玩法",
+  "h1": "巴黎四日经济版路书",
+  "lead": "省钱不省精彩 · 用地铁与步行串起左岸与右岸，平价也出深度。",
+  "edition": "economy",
+  "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=800&q=70",
+  "featured": true,
+  "priority": 1,
+  "days": 4,
+  "suitableFor": "首次访法、希望控制预算又想覆盖核心体验的自由行旅客",
+  "seasonNote": "春季（4-6月）与秋季（9-10月）气候舒适，最适合城市漫步；夏季游客高峰住宿与门票需提前规划；冬季打折季适合购物但体感湿冷。",
+  "travelTone": "第一次巴黎自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["巴黎四日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 平价也出深度",
+    "tone": "🧭 适合：第一次巴黎自由行",
+    "info": [
+      { "num": "4", "label": "DAYS" },
+      { "num": "10+", "label": "FREE SPOTS" },
+      { "num": "经济档", "label": "TICKETS" },
+      { "num": "地铁为主", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 地铁出行 · 平价住宿",
+    "bottom": "适合首次访法、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌤 春秋最佳 · 夏冬可调",
+    "budget": "约 €260–520 / 人·4天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把巴黎玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "每笔开销都花在核心地标，能免则免、该省省到位" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，减少跨区折返与无效通勤" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "公园、广场、街区漫步零门票，体验不打折" },
+      { "icon": "🚇", "label": "交通效率", "value": "地铁 t+ 票 + 步行，省车费也省时间" },
+      { "icon": "🏛️", "label": "深度体验", "value": "经典地标一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "左岸文化入门", "title": "拉丁区 · 卢森堡 · 先贤祠", "spots": ["卢森堡公园", "先贤祠", "索邦大学", "圣日耳曼"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "博物馆日", "title": "卢浮宫 · 杜乐丽 · 橘园", "spots": ["卢浮宫", "杜乐丽花园", "橘园美术馆", "塞纳河畔"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "右岸地标", "title": "铁塔 · 战神广场 · 凯旋门", "spots": ["特罗卡德罗", "埃菲尔铁塔", "战神广场", "凯旋门", "香榭丽舍"], "ticketLabel": "经济档" },
+    { "day": 4, "theme": "高地与收尾", "title": "蒙马特 · 玛黑 · 返程", "spots": ["圣心堂", "小丘广场", "玛黑区", "蓬皮杜外观"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "只把钱花在必去地标，多数地标免费进入。", "items": ["公园与广场免费", "教堂免费进入", "铁塔外观免费（不登塔）", "博物馆选1馆深入"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含 1-2 个付费观景与博物馆通票，体验更完整。", "items": ["铁塔登二层", "博物馆通票2日", "每日1顿正餐", "凯旋门登顶"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多个付费体验 + 餐厅正餐，体验优先。", "items": ["铁塔登顶", "塞纳河游船", "博物馆通票+特展", "法餐正餐"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选近地铁站的区域（如拉丁区、玛黑区周边），减少搬运行李与通勤时间。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "蒙马特周边（18区）", "priceLevel": "约 €40-80/晚（估算）", "advantage": "价格友好 · 文艺氛围 · 地铁12号线直达市区" },
+      { "type": "公寓式住宿", "area": "拉丁区 / 玛黑区", "priceLevel": "约 €70-130/晚（估算）", "advantage": "近左岸景点 · 可自炊省餐饮费 · 适合家庭长住" },
+      { "type": "品质酒店", "area": "歌剧院 / 卢浮宫周边", "priceLevel": "约 €130-220/晚（估算）", "advantage": "核心商圈 · 步行可达景点 · 干净高效" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "左岸文化入门", "title": "拉丁区 · 卢森堡 · 先贤祠", "sub": "从文艺左岸开始，免费地标打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "机场入境与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "从戴高乐机场乘 RER B 或 Roissybus 进入市区，放下行李轻装出发。往返大交通不含，自行控制。", "info": [{ "label": "交通方式", "value": "RER B / Roissybus + 地铁" }, { "label": "耗时", "value": "45-75分钟" }, { "label": "费用", "value": "约€12-16" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的城市天际线", "reservation": "无需预约", "localTip": "先购地铁 t+ 票再出站更顺畅", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住，次日再出发" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "面包房可颂出发", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "街角面包房（boulangerie）可颂+咖啡，人均 €4-6，把时间留给景点。", "info": [{ "label": "人均", "value": "€4-6" }, { "label": "建议", "value": "就近面包房" }], "bestTime": "出发前", "photoSpot": "面包房橱窗", "reservation": "无需预约", "localTip": "自带水杯随时补水", "tips": "面包房现烤最香，比酒店早餐便宜", "alternative": "超市可颂+酸奶更省" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "卢森堡公园", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "找把绿椅子晒太阳，看喷泉与花圃，是巴黎本地人最爱的免费消遣。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午光线柔和", "photoSpot": "喷泉、林荫道、绿椅子", "reservation": "无需预约", "localTip": "清晨人少更惬意", "tips": "公园免费，省下门票钱留作午餐", "alternative": "雨天改室内咖啡馆" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "拉丁区午市套餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "拉丁区学生馆子的午市套餐（前菜+主菜）约 €15-20，是尝法餐的性价比窗口。", "info": [{ "label": "人均", "value": "€15-20" }, { "label": "建议", "value": "午市套餐" }], "bestTime": "12:30前入座", "photoSpot": "小馆招牌", "reservation": "热门店建议预约", "localTip": "午市比晚市便宜30%以上", "tips": "套餐含前菜主菜，点单更划算", "alternative": "市集买面包奶酪野餐更省" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "先贤祠与索邦大学", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "先贤祠外观与广场免费，入内参观约 €10-12；索邦大学广场与街巷散步免费。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "外观免费 / 入内约€10-12" }], "bestTime": "下午", "photoSpot": "先贤祠门廊、拉丁区巷子", "reservation": "入内参观无需预约", "localTip": "外观已很出片", "tips": "预算紧可只看外观与广场", "alternative": "改去免费教堂参观" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "塞纳河左岸漫步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "沿左岸旧书摊（Bouquinistes）散步至圣米歇尔，看河边日落与书店橱窗。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落前", "photoSpot": "旧书摊、塞纳河桥、日落", "reservation": "无需预约", "localTip": "莎士比亚书店在路口，可顺路打卡", "tips": "河岸散步免费，是巴黎最佳体验之一", "alternative": "雨天改逛玛黑区室内小店" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "拉丁区↔左岸↔卢森堡以地铁 4 号线 + 步行为主，单日费用约 €4-6。", "info": [{ "label": "交通方式", "value": "地铁4号线 + 步行" }, { "label": "当日费用", "value": "约€4-6" }, { "label": "餐饮合计", "value": "约€25-40" }], "bestTime": "避开早晚高峰", "photoSpot": "地铁站内指示牌", "reservation": "无需预约", "localTip": "t+ 票一次买10张更划算", "tips": "购票机支持英文，备小额现金", "alternative": "步行可达区间优先步行" }
+      ]
+    },
+    {
+      "day": 2, "theme": "博物馆日", "title": "卢浮宫 · 杜乐丽 · 橘园", "sub": "一天一主馆一辅馆，古典看到印象派", "tag": "艺术必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往卢浮宫", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁至卢浮宫站，上午开馆人流最少，优先看镇馆之宝。", "info": [{ "label": "交通方式", "value": "地铁1/7号线" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "€2-4" }], "bestTime": "开馆即入", "photoSpot": "玻璃金字塔入口", "reservation": "需官网预约", "localTip": "卡鲁索入口人更少", "tips": "预约最早时段，先看三大镇馆之宝", "alternative": "未预约则改看外观+杜乐丽" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "地铁口面包房", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "卢浮宫附近面包房可颂+咖啡解决早餐。", "info": [{ "label": "人均", "value": "€4-6" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "馆内餐饮偏贵，吃饱再进馆", "alternative": "酒店早餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "卢浮宫三大镇馆之宝", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "付费", "c": "paid" }], "desc": "蒙娜丽莎、米洛的维纳斯与胜利女神一条线看完（门票约 €17-22，26岁以下欧盟居民免费）。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "约€17-22" }], "bestTime": "开馆第一时间", "photoSpot": "金字塔内景、三宝展室", "reservation": "官网预约", "localTip": "蒙娜丽莎展室人最多，先看", "tips": "只挑重点，不必全馆扫荡", "alternative": "预算紧可只看外观+杜乐丽" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "杜乐丽花园野餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出馆过街到杜乐丽花园（Jardin des Tuileries），超市买三明治+水果，湖边椅子野餐。", "info": [{ "label": "人均", "value": "€6-10" }, { "label": "建议", "value": "超市采购" }], "bestTime": "中午", "photoSpot": "花园喷泉与摩天轮", "reservation": "无需预约", "localTip": "花园椅子免费坐", "tips": "野餐是省钱又出片的午餐方案", "alternative": "花园旁快餐店" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "橘园美术馆（可选）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "花园尽头即橘园美术馆，莫奈睡莲组画世界级（约 €12-14），预算允许值得一去。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "约€12-14" }], "bestTime": "下午人少", "photoSpot": "睡莲厅、花园窗外景", "reservation": "建议预约", "localTip": "睡莲厅360度环绕", "tips": "与卢浮宫隔花园相望，动线顺路", "alternative": "预算紧改免费公园休息" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "塞纳河畔与协和广场", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "沿河散步至协和广场方尖碑，日落时分看杜乐丽与铁塔方向金光。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落", "photoSpot": "方尖碑、塞纳河日落", "reservation": "无需预约", "localTip": "日落机位在协和广场东侧", "tips": "免费看巴黎最经典日落", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "卢浮宫↔杜乐丽↔橘园步行即可串联，几乎零交通费。", "info": [{ "label": "交通方式", "value": "步行" }, { "label": "当日费用", "value": "约€4-6" }, { "label": "餐饮合计", "value": "约€18-30" }], "bestTime": "全天", "photoSpot": "花园林荫道", "reservation": "无需预约", "localTip": "花园连成一片，步行最省", "tips": "博物馆日基本不用坐车", "alternative": "雨天改地铁直达" }
+      ]
+    },
+    {
+      "day": 3, "theme": "右岸地标", "title": "铁塔 · 战神广场 · 凯旋门", "sub": "经典地标一日，免费外观+可选登塔", "tag": "地标必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往特罗卡德罗", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁6号线至 Trocadéro 站，出站即是铁塔经典合影机位。", "info": [{ "label": "交通方式", "value": "地铁6号线" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "€2-4" }], "bestTime": "上午", "photoSpot": "特罗卡德罗平台", "reservation": "无需预约", "localTip": "平台免费，合影机位多", "tips": "上午顺光，拍塔最清晰", "alternative": "RER C 战神广场站" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "地铁口面包房", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "就近面包房解决早餐。", "info": [{ "label": "人均", "value": "€4-6" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "铁塔周边餐饮偏贵，提前吃好", "alternative": "酒店早餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "埃菲尔铁塔外观与登塔（可选）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "战神广场仰拍全塔免费；登二层约 €11-14，登顶约 €20-26（旺季需提前预约）。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "外观免费 / 登塔约€11-26" }], "bestTime": "上午顺光", "photoSpot": "战神广场仰拍、平台合影", "reservation": "登塔建议官网预约", "localTip": "外观已很出片", "tips": "预算紧可只拍外观，省钱留作晚餐", "alternative": "不登塔改河边散步" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "战神广场野餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "超市买法棍+奶酪+水果，战神广场草坪野餐，正对铁塔。", "info": [{ "label": "人均", "value": "€6-10" }, { "label": "建议", "value": "超市采购" }], "bestTime": "中午", "photoSpot": "草坪与铁塔同框", "reservation": "无需预约", "localTip": "草坪免费可坐", "tips": "巴黎最经典野餐机位", "alternative": "广场旁快餐" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "凯旋门与香榭丽舍", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "凯旋门外观免费，登顶约 €13-16；香榭丽舍大道步行购物免费逛。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "外观免费 / 登顶约€13-16" }], "bestTime": "下午", "photoSpot": "凯旋门中轴、香榭丽舍", "reservation": "登顶无需预约", "localTip": "地铁走地下通道过环岛", "tips": "只逛大道橱窗也精彩", "alternative": "预算紧只看外观" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "埃菲尔整点闪烁（可选）", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "入夜后每逢整点铁塔闪烁灯光约5分钟，在战神广场或河边免费观赏。", "info": [{ "label": "建议时长", "value": "30分钟" }, { "label": "费用", "value": "免费" }], "bestTime": "日落后整点", "photoSpot": "铁塔灯光闪烁", "reservation": "无需预约", "localTip": "整点前到位", "tips": "免费看巴黎最浪漫时刻", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "特罗卡德罗↔铁塔↔凯旋门以地铁 6 号线 + 步行串联，费用约 €4-6。", "info": [{ "label": "交通方式", "value": "地铁6号线 + 步行" }, { "label": "当日费用", "value": "约€4-6" }, { "label": "餐饮合计", "value": "约€20-32" }], "bestTime": "避开高峰", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "铁塔到凯旋门可步行过桥", "tips": "同在西区，少换乘更省心", "alternative": "步行优先" }
+      ]
+    },
+    {
+      "day": 4, "theme": "高地与收尾", "title": "蒙马特 · 玛黑 · 返程", "sub": "文艺高地与潮流街区，最后采购", "tag": "文艺收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往蒙马特", "badges": [{ "t": "交通", "c": "transport" }], "desc": "乘地铁2号线 Anvers 站或12号线 Abbesses 站上山，上午人少。", "info": [{ "label": "交通方式", "value": "地铁2/12号线" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "€2-4" }], "bestTime": "上午", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "也可乘蒙马特缆车", "tips": "上午圣心堂人最少", "alternative": "缆车（€2-3）省体力" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "蒙马特面包房", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "高地脚下面包房早餐，可颂配咖啡。", "info": [{ "label": "人均", "value": "€4-6" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "蒙马特小店偏游客价，面包房除外", "alternative": "酒店早餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "圣心堂与小丘广场", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "圣心堂免费进入，门前台阶俯瞰巴黎；小丘广场画家摊位免费看。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "教堂免费 / 穹顶约€8-10" }], "bestTime": "上午", "photoSpot": "圣心堂台阶、白顶教堂", "reservation": "无需预约", "localTip": "台阶是免费观景台", "tips": "穹顶登顶性价比高，可俯瞰全城", "alternative": "只看外观与台阶" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "蒙马特简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "高地脚下 bistro 午市套餐或可丽饼摊，人均 €10-16。", "info": [{ "label": "人均", "value": "€10-16" }, { "label": "建议", "value": "午市套餐" }], "bestTime": "12:30前", "photoSpot": "石板巷", "reservation": "无需预约", "localTip": "午市套餐最划算", "tips": "避开正对教堂的贵餐厅", "alternative": "面包+奶酪简餐" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "玛黑区逛街与咖啡", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "玛黑区（Le Marais）潮流小店与独立咖啡免费逛，橱窗本身就是风景。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午", "photoSpot": "玛黑巷子、小店橱窗", "reservation": "无需预约", "localTip": "只逛不买也开心", "tips": "蓬皮杜外观在附近，可顺路打卡", "alternative": "雨天改逛室内市集" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "蒙马特↔玛黑以地铁串联，之后赴机场/车站返程，预留 2 小时以上。", "info": [{ "label": "交通方式", "value": "地铁 + RER" }, { "label": "当日费用", "value": "约€5-8" }, { "label": "餐饮合计", "value": "约€20-32" }], "bestTime": "避开高峰", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "预留充足返程时间", "tips": "别卡点，机场安检排队不定", "alternative": "直达 RER 去机场" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 260, "high": 520, "currency": "€", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费地标 + 面包房市集餐饮" },
+      "composition": { "门票": "免费地标为主", "交通": "地铁 t+ + 步行", "餐饮": "面包房 + 市集 + 1正餐", "住宿": "青旅 / 平价酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 520, "high": 880, "currency": "€", "note": "估算 / 参考 · 单人不含往返 · 含1-2付费观景 + 博物馆通票 + 每日1正餐" },
+      "composition": { "门票": "1-2付费", "交通": "地铁 + 偶尔打车", "餐饮": "+每日1正餐", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 850, "high": 1400, "currency": "€", "note": "估算 / 参考 · 单人不含往返 · 多付费体验 + 法餐正餐 + 优选位置住宿" },
+      "composition": { "门票": "多付费", "交通": "自由", "餐饮": "+法餐正餐", "住宿": "品质酒店 + 位置优" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（4晚）", "economy": { "low": 160, "high": 320, "note": "青旅/平价·4晚估算" }, "comfort": { "low": 320, "high": 520, "note": "品质酒店·4晚估算" }, "flexible": { "low": 520, "high": 880, "note": "优选位置·4晚估算" } },
+      { "cat": "🍽 餐饮（4天）", "economy": { "low": 70, "high": 120, "note": "面包房+市集+1正餐" }, "comfort": { "low": 150, "high": 240, "note": "+每日1特色正餐" }, "flexible": { "low": 240, "high": 400, "note": "+法餐正餐" } },
+      { "cat": "🚇 交通（4天）", "economy": { "low": 15, "high": 25, "note": "地铁t+ +步行" }, "comfort": { "low": 25, "high": 50, "note": "地铁+偶尔打车" }, "flexible": { "low": 50, "high": 90, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 20, "high": 60, "note": "免费地标/选1馆" }, "comfort": { "low": 60, "high": 120, "note": "登塔+博物馆通票" }, "flexible": { "low": 120, "high": 220, "note": "多付费体验" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 30, "high": 70, "note": "手信/纪念品弹性" }, "comfort": { "low": 70, "high": 150, "note": "手信+伴手礼" }, "flexible": { "low": 150, "high": 300, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 295, "high": 595, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 625, "high": 1080, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 1080, "high": 1890, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "机场 → 拉丁区 → 卢森堡 → 先贤祠", "transport": "RER B + 地铁 + 步行", "estimatedTime": "约45-75分钟", "costRange": "约€4-6/人", "foodRange": "约€25-40/人" },
+    { "day": "Day2", "route": "住宿 → 卢浮宫 → 杜乐丽 → 橘园", "transport": "地铁1/7号线 + 步行", "estimatedTime": "约20-30分钟", "costRange": "约€4-6/人", "foodRange": "约€18-30/人" },
+    { "day": "Day3", "route": "住宿 → 特罗卡德罗 → 铁塔 → 凯旋门", "transport": "地铁6号线 + 步行", "estimatedTime": "约20-30分钟", "costRange": "约€4-6/人", "foodRange": "约€20-32/人" },
+    { "day": "Day4", "route": "住宿 → 蒙马特 → 玛黑 → 返程", "transport": "地铁2/12号线 + 步行", "estimatedTime": "约30-40分钟", "costRange": "约€5-8/人", "foodRange": "约€20-32/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外地标与街区漫步", "alternative": "室内文化设施：卢浮宫、奥赛博物馆、蓬皮杜艺术中心、老佛爷百货屋顶观景台，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费观景设施", "alternative": "免费城市观景与公园：圣心堂台阶、协和广场、蒙帕纳斯大厦外观、卢森堡公园与杜乐丽花园", "reason": "不花钱也能看全景与好风景，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "步行密集的老城路线", "alternative": "以地铁直达的室内场馆（卢浮宫、奥赛）与公园长椅休息为主，减少登山与长距离步行", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如铁塔外观+杜乐丽、或卢浮宫+塞纳河），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "面包房可颂 €4-6", "午餐": "拉丁区午市套餐 €15-20", "晚餐": "市集熟食 €6-10", "小计": "经济档" },
+      { "day": "Day2", "早餐": "地铁口面包房", "午餐": "杜乐丽野餐 €6-10", "晚餐": "玛黑小馆 €10-16", "小计": "经济-舒适" },
+      { "day": "Day3", "早餐": "特罗卡德罗面包房", "午餐": "战神广场野餐 €6-10", "晚餐": "西区可丽饼摊 €6-10", "小计": "经济档" },
+      { "day": "Day4", "早餐": "蒙马特面包房", "午餐": "蒙马特午市套餐 €10-16", "晚餐": "返程自理", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "RER B + 地铁4号线", "费用": "约€12-16（含机场）", "提醒": "抵达当天先买 t+ 十张装" },
+      { "day": "Day2", "方式": "地铁1/7号线 + 步行", "费用": "约€4-6", "提醒": "博物馆区步行可串联" },
+      { "day": "Day3", "方式": "地铁6号线 + 步行", "费用": "约€4-6", "提醒": "西区地标一条线" },
+      { "day": "Day4", "方式": "地铁2/12号线 + RER", "费用": "约€5-8", "提醒": "返程预留2小时" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 左岸文化", "Day2 博物馆", "Day3 右岸地标", "Day4 高地收尾"],
+    "dailyHours": [6, 6, 7, 6],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [240, 95, 20, 40, 50],
+      "comfort": [420, 195, 35, 90, 110],
+      "flexible": [700, 320, 70, 170, 225]
+    }
+  },
+  "savingTips": [
+    { "title": "早餐控费", "text": "面包房可颂+咖啡人均 €4-6，比酒店早餐便宜且地道。" },
+    { "title": "午餐轻量", "text": "市集熟食或公园野餐，把预算留给一天中唯一一顿正餐。" },
+    { "title": "晚餐升级", "text": "每天仅1顿正餐（午市套餐最佳），体验地道料理却不破费。" },
+    { "title": "景区避雷", "text": "景区餐饮常贵30%以上，自带水杯随时补水。" },
+    { "title": "免费优先", "text": "公园、教堂、广场与街区漫步多免费，先填满免费项。" },
+    { "title": "交通券", "text": "t+ 单程票一次买10张（carnet）比单买划算；行程超过5天考虑 Navigo 周票。" },
+    { "title": "博物馆策略", "text": "卢浮宫等大馆预约最早时段，26岁以下欧盟居民常免费。" },
+    { "title": "只逛不买", "text": "香榭丽舍、玛黑区、老佛爷的橱窗与建筑本身免费好看。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["卢浮宫需官网预约（旺季提前1-2周）", "橘园美术馆建议预约", "铁塔登塔旺季提前预约", "法网等赛事季门票需早购"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2个月更优", "t+ 车票抵达后购买即可", "热门餐厅正餐提前1-2天"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带护照与申根签证", "少量欧元现金 + 芯片信用卡", "提前下载导航/交通App", "准备欧盟流量卡或eSIM", "备好舒适步行鞋"] }
+  ],
+  "packing": [
+    "有效证件（护照+申根签证）", "欧元现金少量", "芯片信用卡", "欧盟流量卡/eSIM", "舒适步行鞋", "转换插头（欧标两圆脚）", "轻便雨具", "常用药品", "移动电源", "薄外套（早晚与空调）", "折叠购物袋", "小背包（防盗前置）"
+  ]
+}

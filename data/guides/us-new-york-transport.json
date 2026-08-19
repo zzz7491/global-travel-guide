@@ -1,0 +1,50 @@
+{
+  "id": "us-new-york-transport",
+  "type": "guide",
+  "country": "us",
+  "city": "new-york",
+  "slug": "transport",
+  "title": "纽约交通指南｜地铁公交与机场往返全攻略",
+  "description": "纽约交通指南：地铁MTA使用、OMNY支付、机场往返方式（JFK/LGA/EWR）与打车建议，助你高效省时地在纽约出行。",
+  "keywords": "纽约交通,纽约地铁,MTA,OMNY,肯尼迪机场交通,纽约出行",
+  "h1": "纽约交通指南",
+  "lead": "纽约地铁 24 小时运营且覆盖全城，用对支付方式与线路，曼哈顿多数目的地 30 分钟内可达。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>纽约公共交通以地铁（MTA）与巴士为主，地铁 24 小时运行、不按区分价（单程统一价），是曼哈顿出行的绝对主力。部分线路周末与深夜施工改道，出行前查实时信息。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>支付方式</h3><p><strong>OMNY：</strong>新式非接触支付，手机/银行卡直接刷闸，7 天内满 12 次免费（Weekly Fare Cap）。<br><strong>MetroCard：</strong>传统充值卡，仍在部分闸机使用，新卡建议 OMNY。<br><strong>单程：</strong>约 $2.90/次，地铁与巴士同价。<br><strong>机场往返：</strong>JFK 乘 AirTrain+地铁，LGA 乘 Q70 巴士接驳，EWR 乘 NJ Transit 或机场巴士。</p><h3>使用技巧</h3><p>进站刷一次即可，出站无需刷；换乘地铁线内免费。公交下车按铃，上车刷卡。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>高峰期（8-9点、17-19点）与深夜注意看线路图与实时公告；机场「黑车拉客」需警惕，认准黄色出租车与网约车正规平台。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>动线策略</h3><p>把同区域景点排在同一天（如中城一日、下城一日），曼哈顿南北通勤靠地铁，东西短途优先步行。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "OMNY 非接触支付，7天满12次免费",
+        "单程 $2.90，地铁巴士同价",
+        "JFK 乘 AirTrain 接驳地铁",
+        "进站刷一次，出站不刷"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["us-new-york-three-days", "us-new-york-economy", "us-new-york-tips"]
+    }
+  ],
+  "category": "交通"
+}

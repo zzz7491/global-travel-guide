@@ -1,0 +1,50 @@
+{
+  "id": "uk-london-accommodation",
+  "type": "guide",
+  "country": "uk",
+  "city": "london",
+  "slug": "accommodation",
+  "title": "伦敦住宿指南｜区域选择与预算参考",
+  "description": "伦敦住宿指南：西区/南岸/东区等热门住宿区域对比、酒店与公寓选择、预算参考与预订建议，助你选对住处少走弯路。",
+  "keywords": "伦敦住宿,伦敦酒店,伦敦民宿,伦敦区域推荐,伦敦住处",
+  "h1": "伦敦住宿指南",
+  "lead": "伦敦住宿的关键是「地铁可达 + 区域氛围」，选对区域，通勤时间能省下一大截。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>伦敦市区大、地铁快，住宿不必紧贴景点，但要确保步行 5-10 分钟内可达地铁站。Zone 1-2 是游客主力区，价格高；Zone 2-3 性价比更高。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>区域对比</h3><p><strong>西区/苏荷（Soho）：</strong>剧场与夜生活中心，近购物区，价格高。<br><strong>南岸（South Bank）：</strong>近伦敦眼与泰晤士河，文艺氛围浓。<br><strong>考文特花园：</strong>市场与街头艺术，游客最爱，房间偏小。<br><strong>国王十字（King's Cross）：</strong>交通枢纽，近大英博物馆，性价比高。<br><strong>东区肖尔迪奇（Shoreditch）：</strong>潮流街区，价格友好，夜生活丰富。</p><h3>房型选择</h3><p>酒店连锁品质稳定；公寓适合家庭长住；青旅分布在国王十字与东区，旺季需早订。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "预算参考",
+      "html": "<p><strong>经济型/青旅：</strong>约 £40-90/晚。<br><strong>中档酒店/公寓：</strong>约 £90-180/晚。<br><strong>品质酒店：</strong>约 £180-350/晚。以上为估算区间，夏季（6-8月）与圣诞季上浮明显，提前 1-2 个月预订价差最大。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>预订策略</h3><p>优先选近地铁站且位于 Zone 1-2 的住处；国王十字适合机场往返多的旅客；连住不换，省去搬运行李的时间。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "Zone 1-2 内近地铁站优先",
+        "国王十字性价比高、交通方便",
+        "夏季提前 1-2 个月预订",
+        "老建筑公寓注意电梯与隔音"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["uk-london-transport", "uk-london-economy", "uk-london-tips"]
+    }
+  ],
+  "category": "住宿"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "uk-london-transport",
+  "type": "guide",
+  "country": "uk",
+  "city": "london",
+  "slug": "transport",
+  "title": "伦敦交通指南｜地铁公交与牡蛎卡全攻略",
+  "description": "伦敦交通指南：地铁Tube与公交使用、Oyster卡与Contactless支付、机场往返方式与打车建议，助你高效省时地在伦敦出行。",
+  "keywords": "伦敦交通,伦敦地铁,Oyster卡,牡蛎卡,希思罗机场交通,伦敦公交",
+  "h1": "伦敦交通指南",
+  "lead": "伦敦的地铁（Tube）与红色双层巴士覆盖全城，用对支付方式，出行既快又省钱。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>伦敦公共交通由地铁（Tube）、地面铁路（Overground）、轻轨（DLR）与红色双层巴士组成，分区计价（Zone 1-6），市区核心景点多在 Zone 1-2。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>支付方式</h3><p><strong>Oyster 卡：</strong>预充值交通卡，地铁/巴士通用，每日封顶（Daily Cap）自动生效。<br><strong>Contactless 银行卡/手机：</strong>与 Oyster 同价同封顶，无需购卡，最省事。<br><strong>单程票：</strong>纸质票比卡贵，基本不推荐。<br><strong>机场往返：</strong>希思罗乘伊丽莎白线（Elizabeth Line）或希思罗快线；盖特威克乘盖特威克快线或普通火车。</p><h3>使用技巧</h3><p>进出站都要刷卡；巴士上车刷一次即可，无需下车刷。每日封顶让你多坐不心疼，公交单程固定价 £1.75。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>高峰期（8-9点、17-19点）地铁拥挤，尽量错峰；地铁站内部分线路周末施工停运，出发前查 TfL 官网或地图 App 实时通知。红色观光巴士价格贵，普通巴士+步行更划算。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>动线策略</h3><p>把同区域景点排在同一天（如威斯敏斯特+南岸一日、博物馆区一日），减少跨区折返；Zone 1-2 内短途步行或公交更划算。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "Contactless 卡与 Oyster 同价，免购卡",
+        "每日封顶自动生效",
+        "公交单程 £1.75，上车刷一次",
+        "机场乘伊丽莎白线最实惠"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["uk-london-three-days", "uk-london-economy", "uk-london-tips"]
+    }
+  ],
+  "category": "交通"
+}
