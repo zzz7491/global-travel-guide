@@ -311,16 +311,16 @@
       {{#each budgetTable.rows}}
       <tr>
         <td class="at">{{cat}}</td>
-        <td>约¥{{economy.low}}–{{economy.high}}<br><small>{{economy.note}}</small></td>
-        <td>约¥{{comfort.low}}–{{comfort.high}}<br><small>{{comfort.note}}</small></td>
-        <td>约¥{{flexible.low}}–{{flexible.high}}<br><small>{{flexible.note}}</small></td>
+        <td>约{{budgetTiers.0.estimate.currency}}{{economy.low}}–{{economy.high}}<br><small>{{economy.note}}</small></td>
+        <td>约{{budgetTiers.0.estimate.currency}}{{comfort.low}}–{{comfort.high}}<br><small>{{comfort.note}}</small></td>
+        <td>约{{budgetTiers.0.estimate.currency}}{{flexible.low}}–{{flexible.high}}<br><small>{{flexible.note}}</small></td>
       </tr>
       {{/each}}
       <tr class="total-row">
         <td>合计（单人）</td>
-        <td>约¥{{budgetTable.totals.economy.low}}–{{budgetTable.totals.economy.high}}</td>
-        <td>约¥{{budgetTable.totals.comfort.low}}–{{budgetTable.totals.comfort.high}}</td>
-        <td>约¥{{budgetTable.totals.flexible.low}}–{{budgetTable.totals.flexible.high}}</td>
+        <td>约{{budgetTiers.0.estimate.currency}}{{budgetTable.totals.economy.low}}–{{budgetTable.totals.economy.high}}</td>
+        <td>约{{budgetTiers.0.estimate.currency}}{{budgetTable.totals.comfort.low}}–{{budgetTable.totals.comfort.high}}</td>
+        <td>约{{budgetTiers.0.estimate.currency}}{{budgetTable.totals.flexible.low}}–{{budgetTable.totals.flexible.high}}</td>
       </tr>
     </tbody>
   </table>
