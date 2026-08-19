@@ -1,0 +1,20 @@
+{
+  "id": "uk",
+  "type": "country",
+  "country": "uk",
+  "name": "英国",
+  "nameEn": "United Kingdom",
+  "title": "英国旅行攻略 | Global Travel Guide",
+  "description": "英国目的地旅行攻略：从伦敦等城市出发，覆盖景点、路线、最佳旅行时间与实用旅行信息，助你规划英国自由行。",
+  "keywords": "英国旅行攻略,英国旅游,英国自由行,伦敦旅行,英国目的地",
+  "h1": "英国",
+  "lead": "西欧岛国，历史王宫、博物馆与都市文化交汇，从伦敦的经典地标到湖区乡野风光。",
+  "code": "GB",
+  "continent": "欧洲",
+  "language": "英语",
+  "currency": "英镑 (GBP)",
+  "timezone": "UTC+0",
+  "visa": "多数国家需提前办理英国签证，短期停留政策随国籍而异。",
+  "transport": "城际铁路与地铁发达，城市间以火车为主。",
+  "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80"
+}

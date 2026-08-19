@@ -71,5 +71,6 @@
       "credit": "Unsplash"
     }
   ],
-  "relatedCities": []
+  "relatedCities": [],
+  "featured": true
 }

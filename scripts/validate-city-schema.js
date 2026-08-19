@@ -21,7 +21,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const CITIES_DIR = path.join(__dirname, '..', 'data', 'cities');
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const CITIES_DIR = path.join(DATA_DIR, 'cities');
+const COUNTRIES_DIR = path.join(DATA_DIR, 'countries');
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const GALLERY_TYPES = new Set(['landmark', 'street', 'culture', 'food', 'nature']);
 
@@ -47,23 +49,29 @@ function checkFile(file) {
     problems.push(`id 应等于 "{country}-{city}"，实际 "${entity.id}"`);
   }
 
-  // 4. heroImage URL
-  if (entity.heroImage && !/^https?:\/\//.test(entity.heroImage)) {
+  // 4. heroImage — required (P10 standard) + URL check
+  if (!entity.heroImage) {
+    problems.push('缺少 heroImage（P10 起新城市必填）');
+  } else if (!/^https?:\/\//.test(entity.heroImage)) {
     problems.push(`heroImage 非法 URL: ${String(entity.heroImage).slice(0, 60)}`);
   }
 
-  // 5. gallery[] shape
-  if (entity.gallery !== undefined) {
-    if (!Array.isArray(entity.gallery)) {
-      problems.push('gallery 应为数组');
-    } else {
-      entity.gallery.forEach((g, i) => {
-        if (!g || typeof g !== 'object') { problems.push(`gallery[${i}] 应为对象`); return; }
-        if (!g.src || !/^https?:\/\//.test(g.src)) problems.push(`gallery[${i}] 缺少合法 src`);
-        if (!g.alt) problems.push(`gallery[${i}] 缺少 alt`);
-        if (g.type && !GALLERY_TYPES.has(g.type)) problems.push(`gallery[${i}].type 非法: "${g.type}"（枚举: ${[...GALLERY_TYPES].join('/')}）`);
-      });
-    }
+  // 4b. country file must exist (data/countries/{country}.json)
+  if (entity.country) {
+    const countryFile = path.join(COUNTRIES_DIR, `${entity.country}.json`);
+    if (!fs.existsSync(countryFile)) problems.push(`国家文件不存在: data/countries/${entity.country}.json`);
+  }
+
+  // 5. gallery[] — required (P10 standard) + shape
+  if (!entity.gallery || !Array.isArray(entity.gallery) || entity.gallery.length === 0) {
+    problems.push('缺少 gallery（P10 起新城市至少 1 张图）');
+  } else {
+    entity.gallery.forEach((g, i) => {
+      if (!g || typeof g !== 'object') { problems.push(`gallery[${i}] 应为对象`); return; }
+      if (!g.src || !/^https?:\/\//.test(g.src)) problems.push(`gallery[${i}] 缺少合法 src`);
+      if (!g.alt) problems.push(`gallery[${i}] 缺少 alt`);
+      if (g.type && !GALLERY_TYPES.has(g.type)) problems.push(`gallery[${i}].type 非法: "${g.type}"（枚举: ${[...GALLERY_TYPES].join('/')}）`);
+    });
   }
 
   // 6. facts[] shape
@@ -95,6 +103,24 @@ function main() {
 
   let passCount = 0;
   let failed = false;
+
+  // Slug uniqueness across all city files (country-city must not repeat).
+  const seen = new Map();
+  for (const f of files) {
+    if (!fs.existsSync(f)) continue;
+    try {
+      const e = JSON.parse(fs.readFileSync(f, 'utf8'));
+      const key = `${e.country}-${e.city}`;
+      if (key && key.includes('-')) {
+        if (seen.has(key)) {
+          failed = true;
+          console.log(`FAIL  slug 冲突: "${key}" 同时存在于 ${seen.get(key)} 与 ${path.basename(f)}`);
+        }
+        seen.set(key, path.basename(f));
+      }
+    } catch { /* handled per-file below */ }
+  }
+
   for (const f of files) {
     if (!fs.existsSync(f)) { console.log(`FAIL — 文件不存在: ${f}`); failed = true; continue; }
     const r = checkFile(f);

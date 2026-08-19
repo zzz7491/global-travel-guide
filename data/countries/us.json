@@ -1,0 +1,20 @@
+{
+  "id": "us",
+  "type": "country",
+  "country": "us",
+  "name": "美国",
+  "nameEn": "United States",
+  "title": "美国旅行攻略 | Global Travel Guide",
+  "description": "美国目的地旅行攻略：从纽约等城市出发，覆盖景点、路线、最佳旅行时间与实用旅行信息，助你规划美国自由行。",
+  "keywords": "美国旅行攻略,美国旅游,美国自由行,纽约旅行,美国目的地",
+  "h1": "美国",
+  "lead": "北美大国，多元都市、国家公园与公路文化并存，从纽约的天际线到西部旷野。",
+  "code": "US",
+  "continent": "北美洲",
+  "language": "英语",
+  "currency": "美元 (USD)",
+  "timezone": "UTC-5",
+  "visa": "多数国家需申请美国签证或 ESTA 免签计划，政策随国籍而异。",
+  "transport": "航空网络发达，城际以飞机与长途巴士为主，城市内地铁与公交。",
+  "heroImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80"
+}

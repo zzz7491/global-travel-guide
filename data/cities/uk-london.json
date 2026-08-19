@@ -1,0 +1,44 @@
+{
+  "id": "uk-london",
+  "type": "city",
+  "country": "uk",
+  "city": "london",
+  "name": "伦敦",
+  "nameEn": "London",
+  "title": "伦敦旅行攻略 | Global Travel Guide",
+  "description": "伦敦旅游攻略与伦敦自由行路线全指南：涵盖伦敦景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排伦敦行程。",
+  "keywords": "伦敦旅游攻略,伦敦自由行,伦敦旅行路线,伦敦景点攻略,伦敦美食,伦敦交通",
+  "h1": "伦敦",
+  "lead": "英国首都，泰晤士河畔的历史王宫、博物馆与多元街区，古典与现代并存。",
+  "continent": "欧洲",
+  "language": "英语",
+  "currency": "英镑 (GBP)",
+  "timezone": "UTC+0",
+  "related": [],
+  "tagline": "历史王宫与现代都市交织的英伦之都",
+  "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "夏季（6-8月）",
+    "description": "夏季白昼长、活动多；春秋温和，冬季有节日氛围。"
+  },
+  "facts": [
+    { "label": "Continent", "value": "欧洲" },
+    { "label": "Language", "value": "英语" },
+    { "label": "Currency", "value": "英镑 (GBP)" },
+    { "label": "Timezone", "value": "UTC+0" }
+  ],
+  "highlights": [
+    "大本钟与议会大厦",
+    "大英博物馆",
+    "伦敦塔桥",
+    "白金汉宫",
+    "泰晤士河畔"
+  ],
+  "gallery": [
+    { "src": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=800&q=70", "alt": "伦敦 城市地标建筑", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=800&q=70", "alt": "伦敦 城市街景", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1473163928189-364b2c4e1135?w=800&q=70", "alt": "伦敦 河畔建筑", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800&q=70", "alt": "伦敦 城市风貌", "credit": "Unsplash" }
+  ],
+  "relatedCities": []
+}

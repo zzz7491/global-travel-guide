@@ -1,0 +1,20 @@
+{
+  "id": "france",
+  "type": "country",
+  "country": "france",
+  "name": "法国",
+  "nameEn": "France",
+  "title": "法国旅行攻略 | Global Travel Guide",
+  "description": "法国目的地旅行攻略：从巴黎等城市出发，覆盖景点、路线、最佳旅行时间与实用旅行信息，助你规划法国自由行。",
+  "keywords": "法国旅行攻略,法国旅游,法国自由行,巴黎旅行,法国目的地",
+  "h1": "法国",
+  "lead": "西欧文化大国，艺术、美食与浪漫之都的国度，从巴黎的都市风情到南部海岸的明媚风光。",
+  "code": "FR",
+  "continent": "欧洲",
+  "language": "法语",
+  "currency": "欧元 (EUR)",
+  "timezone": "UTC+1",
+  "visa": "多数国家可持申根签证入境，短期停留政策随国籍而异。",
+  "transport": "TGV 高铁网络发达，城市内以地铁与公交为主。",
+  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80"
+}

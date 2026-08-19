@@ -16,5 +16,6 @@
   "timezone": "UTC+8",
   "visa": "多数国家需提前办理中国签证，部分口岸可落地签；政策随国籍而异。",
   "transport": "高铁网络发达，市内以地铁、公交为主。",
-  "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
+  "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+  "featured": true
 }

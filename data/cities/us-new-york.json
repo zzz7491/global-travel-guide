@@ -1,0 +1,44 @@
+{
+  "id": "us-new-york",
+  "type": "city",
+  "country": "us",
+  "city": "new-york",
+  "name": "纽约",
+  "nameEn": "New York",
+  "title": "纽约旅行攻略 | Global Travel Guide",
+  "description": "纽约旅游攻略与纽约自由行路线全指南：涵盖纽约景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排纽约行程。",
+  "keywords": "纽约旅游攻略,纽约自由行,纽约旅行路线,纽约景点攻略,纽约美食,纽约交通",
+  "h1": "纽约",
+  "lead": "美国东海岸都会，摩天楼群、中央公园与多元文化街区，不夜城的活力四射。",
+  "continent": "北美洲",
+  "language": "英语",
+  "currency": "美元 (USD)",
+  "timezone": "UTC-5",
+  "related": [],
+  "tagline": "摩天楼群与多元文化汇流的都市心脏",
+  "heroImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "春季（4-6月）与秋季（9-11月）",
+    "description": "春秋气候宜人；夏季湿热、冬季有节日氛围。"
+  },
+  "facts": [
+    { "label": "Continent", "value": "北美洲" },
+    { "label": "Language", "value": "英语" },
+    { "label": "Currency", "value": "美元 (USD)" },
+    { "label": "Timezone", "value": "UTC-5" }
+  ],
+  "highlights": [
+    "时代广场",
+    "中央公园",
+    "自由女神像",
+    "布鲁克林大桥",
+    "百老汇剧院区"
+  ],
+  "gallery": [
+    { "src": "https://images.unsplash.com/photo-1522083165195-3424ed129620?w=800&q=70", "alt": "纽约 城市地标", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=70", "alt": "纽约 城市天际线", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&q=70", "alt": "纽约 都市街景", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800&q=70", "alt": "纽约 城市街景", "credit": "Unsplash" }
+  ],
+  "relatedCities": []
+}

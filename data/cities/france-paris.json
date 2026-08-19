@@ -1,0 +1,44 @@
+{
+  "id": "france-paris",
+  "type": "city",
+  "country": "france",
+  "city": "paris",
+  "name": "巴黎",
+  "nameEn": "Paris",
+  "title": "巴黎旅行攻略 | Global Travel Guide",
+  "description": "巴黎旅游攻略与巴黎自由行路线全指南：涵盖巴黎景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排巴黎行程。",
+  "keywords": "巴黎旅游攻略,巴黎自由行,巴黎旅行路线,巴黎景点攻略,巴黎美食,巴黎交通",
+  "h1": "巴黎",
+  "lead": "法国首都与艺术文化之都，塞纳河穿城而过，博物馆、咖啡文化与历史建筑交织。",
+  "continent": "欧洲",
+  "language": "法语",
+  "currency": "欧元 (EUR)",
+  "timezone": "UTC+1",
+  "related": [],
+  "tagline": "浪漫之都与艺术之都的完美融合",
+  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "春季（4-6月）",
+    "description": "春季气候宜人、游客相对适中；夏季热闹、冬季有圣诞市集。"
+  },
+  "facts": [
+    { "label": "Continent", "value": "欧洲" },
+    { "label": "Language", "value": "法语" },
+    { "label": "Currency", "value": "欧元 (EUR)" },
+    { "label": "Timezone", "value": "UTC+1" }
+  ],
+  "highlights": [
+    "埃菲尔铁塔",
+    "卢浮宫博物馆",
+    "塞纳河游船",
+    "香榭丽舍大街",
+    "蒙马特高地"
+  ],
+  "gallery": [
+    { "src": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=70", "alt": "巴黎 城市街景", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=800&q=70", "alt": "巴黎 城市风貌", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=800&q=70", "alt": "巴黎 城市建筑", "credit": "Unsplash" },
+    { "src": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=800&q=70", "alt": "巴黎 街景", "credit": "Unsplash" }
+  ],
+  "relatedCities": []
+}

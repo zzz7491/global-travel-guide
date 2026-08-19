@@ -301,8 +301,15 @@ function planBadge(rp) {
 }
 export function buildHomeBody(ctx) {
   const cityOf = (e) => ctx.index[`${e.country}-${e.city}`];
-  const countries = ctx.entities
-    .filter((e) => e.type === 'country')
+  // Featured Destinations: when ANY entity carries `featured: true`, only
+  // those are shown on the homepage (curated entry); otherwise all are shown
+  // (backward compatible with pre-P10 data that has no featured field).
+  const featuredOnly = (type) => {
+    const all = ctx.entities.filter((e) => e.type === type);
+    const marked = all.filter((e) => e.featured === true);
+    return (marked.length ? marked : all);
+  };
+  const countries = featuredOnly('country')
     .map((e) => ({
       title: e.name || e.h1 || '',
       desc: e.lead || e.description || '',
@@ -312,8 +319,7 @@ export function buildHomeBody(ctx) {
       alt: `${e.name || ''} 旅行目的地`,
     }))
     .filter((i) => i.title);
-  const cities = ctx.entities
-    .filter((e) => e.type === 'city')
+  const cities = featuredOnly('city')
     .map((e) => ({
       title: e.name || e.h1 || '',
       desc: e.lead || '',

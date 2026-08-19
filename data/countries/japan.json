@@ -16,5 +16,6 @@
   "timezone": "UTC+9",
   "visa": "多数国家可免签短期停留或提前办理日本签证，政策随国籍而异。",
   "transport": "新干线覆盖主要城市，市内以地铁、JR 与巴士为主。",
-  "heroImage": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=800&q=80"
+  "heroImage": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=800&q=80",
+  "featured": true
 }

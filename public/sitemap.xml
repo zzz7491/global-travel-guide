@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://travel.mootlsv.com/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/</loc></url>
+  <url><loc>https://travel.mootlsv.com/france/</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/</loc></url>
+  <url><loc>https://travel.mootlsv.com/uk/</loc></url>
+  <url><loc>https://travel.mootlsv.com/us/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/</loc></url>
+  <url><loc>https://travel.mootlsv.com/france/paris/</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/</loc></url>
+  <url><loc>https://travel.mootlsv.com/uk/london/</loc></url>
+  <url><loc>https://travel.mootlsv.com/us/new-york/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/changcheng</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/gugong</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/tiantan</loc></url>
