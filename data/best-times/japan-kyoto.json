@@ -1,0 +1,28 @@
+{
+  "id": "japan-kyoto-best-time",
+  "type": "best-time",
+  "country": "japan",
+  "city": "kyoto",
+  "title": "京都最佳旅行时间｜几月去京都最好",
+  "description": "京都最佳旅行时间：3-4月樱花与10-11月红叶双高峰最迷人；夏季湿热、冬季干冷少人，全年各有韵味。",
+  "keywords": "京都最佳旅行时间,京都几月去,京都旅游季节,京都樱花,京都红叶",
+  "h1": "京都最佳旅行时间",
+  "lead": "京都春秋双高峰：樱花与红叶把古都装点成画，也是人流与价格的顶峰。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>樱花季（3月下旬-4月上旬），清水寺、哲学之道与岚山赏樱人气极高，住宿翻倍。</li><li><strong>5月：</strong>新绿与紫阳花前奏，气候舒适、游客回落。</li><li><strong>6-7月：</strong>梅雨湿热（6 月），紫阳花季；7 月祇园祭（7 月中）盛大。</li><li><strong>8月：</strong>盛夏炎热，游客多但清晨寺院安静。</li><li><strong>9月：</strong>台风与闷热渐退，红叶前奏。</li><li><strong>10-11月：</strong>红叶季（11 月中下旬最盛），秋高气爽，公认最佳出游窗口。</li><li><strong>12-2月：</strong>干冷少雪，寺院人少，偶见金阁覆雪。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["樱花与红叶季为双高峰，住宿提前 2-3 个月预订。", "11 月中旬红叶最盛，清晨寺院光线最佳。", "7 月祇园祭与夏季花火为特色体验，需耐湿热。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["japan-kyoto-kiyomizu-dera", "japan-kyoto-three-days", "japan-kyoto-transport"]
+    }
+  ]
+}

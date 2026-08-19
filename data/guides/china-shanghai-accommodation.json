@@ -1,0 +1,50 @@
+{
+  "id": "china-shanghai-accommodation",
+  "type": "guide",
+  "country": "china",
+  "city": "shanghai",
+  "slug": "accommodation",
+  "title": "上海住宿指南｜区域选择与预算参考",
+  "description": "上海住宿指南：人民广场/外滩/静安等热门区域对比、酒店与公寓选择、预算参考与预订建议，助你选对住处。",
+  "keywords": "上海住宿,上海酒店,上海民宿,上海区域推荐,上海住处",
+  "h1": "上海住宿指南",
+  "lead": "上海住宿的关键是「近地铁 + 区域氛围」：人民广场方便、静安文艺、外滩景致最佳。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>上海住宿资源丰富，选择时优先「步行 5-10 分钟到地铁站」。核心区域人民广场-南京东路一带是游客主力区，价格较高；静安、徐汇性价比与氛围更佳。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>区域对比</h3><p><strong>人民广场/南京东路：</strong>市中心枢纽，近外滩与豫园，最便利，价格高。<br><strong>陆家嘴：</strong>江景与登高体验，近金融区。<br><strong>静安寺/南京西路：</strong>梧桐街区与高端商场，文艺与购物兼顾。<br><strong>徐汇/武康路：</strong>法租界氛围，咖啡与小店密集。<br><strong>虹桥枢纽：</strong>适合中转与早班机。</p><h3>房型选择</h3><p>连锁酒店品质稳定；公寓适合家庭长住；青旅集中在人民广场与徐汇，旺季需早订。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "预算参考",
+      "html": "<p><strong>经济型/青旅：</strong>约 ¥150-350/晚。<br><strong>中档酒店/公寓：</strong>约 ¥400-800/晚。<br><strong>品质酒店：</strong>约 ¥800-1500/晚。以上为估算区间，节假日（五一/国庆/春节）上浮明显，提前 1-2 个月预订价差最大。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>预订策略</h3><p>首次到访选人民广场或静安寺，近地铁且安全；预算敏感选徐汇或虹桥周边；连住不换，注意节假日酒店普遍满房。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "人民广场最便利，价格高",
+        "静安/徐汇性价比与氛围佳",
+        "节假日提前 1-2 个月预订",
+        "近地铁比近景点更重要"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["china-shanghai-transport", "china-shanghai-economy", "china-shanghai-tips"]
+    }
+  ],
+  "category": "住宿"
+}

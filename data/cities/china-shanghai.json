@@ -1,0 +1,76 @@
+{
+  "id": "china-shanghai",
+  "type": "city",
+  "country": "china",
+  "city": "shanghai",
+  "name": "上海",
+  "nameEn": "Shanghai",
+  "title": "上海旅行攻略 | Global Travel Guide",
+  "description": "上海旅游攻略与上海自由行路线全指南：涵盖上海景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排上海行程。",
+  "keywords": "上海旅游攻略,上海自由行,上海旅行路线,上海景点攻略,上海美食,上海交通",
+  "h1": "上海",
+  "lead": "中国最大都会，外滩万国建筑与陆家嘴天际线隔江相望，法租界街巷适合悠闲漫步。",
+  "continent": "亚洲",
+  "language": "中文",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "related": [
+    "china-shanghai-bund",
+    "china-shanghai-best-time"
+  ],
+  "tagline": "外滩灯火与摩登天际线的东方都会",
+  "heroImage": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "春秋（3-5月 / 9-11月）",
+    "description": "春秋气候宜人最推荐；夏季湿热多雨（梅雨季 6 月），冬季湿冷少雪，各有玩法。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "中文"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "外滩万国建筑群",
+    "陆家嘴天际线",
+    "豫园与城隍庙",
+    "武康路与法租界",
+    "南京路步行街"
+  ],
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=800&q=70",
+      "alt": "上海 陆家嘴天际线",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=70",
+      "alt": "上海 城市街景",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1545893835-abaa50cbe628?w=800&q=70",
+      "alt": "上海 都市建筑景观",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=70",
+      "alt": "上海 高楼与城市空间",
+      "credit": "Unsplash"
+    }
+  ],
+  "relatedCities": ["china-beijing"],
+  "featured": false
+}

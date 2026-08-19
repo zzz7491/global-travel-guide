@@ -1,0 +1,49 @@
+{
+  "id": "south-korea-seoul-trend-route",
+  "type": "route",
+  "country": "south-korea",
+  "city": "seoul",
+  "slug": "trend-route",
+  "title": "首尔韩流潮流2日游路线｜弘大圣水年轻人路线",
+  "description": "首尔韩流潮流2日游：弘大、圣水洞、梨泰院与汉江公园组合路线，附独立咖啡与打卡动线，适合年轻自由行。",
+  "keywords": "首尔潮流,弘大,圣水洞,梨泰院,首尔咖啡,韩流路线",
+  "h1": "首尔韩流潮流2日游路线",
+  "lead": "两天串起弘大、圣水洞与梨泰院的年轻人据点，从独立咖啡到汉江野餐，感受首尔的潮流脉搏。",
+  "days": 2,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>本路线聚焦首尔年轻人的生活方式：第一天弘大创意街区，第二天圣水洞与梨泰院。全程以步行为主，节奏轻松，适合咖啡与潮流爱好者。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 弘大创意街区",
+      "html": "<h3>动线与区域逻辑</h3><p>上午弘大商圈（独立设计师店与街头表演）；中午弘大美食；下午延南洞小街与咖啡店；傍晚汉江公园（望远洞）野餐看日落。</p><h3>建议</h3><p>弘大-延南洞步行 15 分钟，汉江公园步行或地铁一站。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 2 圣水洞与梨泰院",
+      "html": "<h3>动线与区域逻辑</h3><p>上午圣水洞（废弃工厂改造的咖啡与买手店）；中午圣水用餐；下午梨泰院异国街区与南山公园入口；傍晚梨泰院夜景收尾。</p><h3>节奏提示</h3><p>圣水-梨泰院地铁约 25 分钟；梨泰院街区坡道多，穿舒适鞋。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "圣水洞咖啡店周末人多，错峰前往。",
+        "梨泰院街区坡多，注意体力分配。",
+        "汉江野餐备好防潮垫，垃圾随身带走。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "south-korea-seoul-myeongdong",
+        "south-korea-seoul-food",
+        "south-korea-seoul-three-days"
+      ]
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1516410529446-2c777cb7366d?auto=format&fit=crop&w=800&q=80"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "japan-kyoto",
+  "type": "city",
+  "country": "japan",
+  "city": "kyoto",
+  "name": "京都",
+  "nameEn": "Kyoto",
+  "title": "京都旅行攻略 | Global Travel Guide",
+  "description": "京都旅游攻略与京都自由行路线全指南：涵盖京都景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排京都行程。",
+  "keywords": "京都旅游攻略,京都自由行,京都旅行路线,京都景点攻略,京都美食,京都交通",
+  "h1": "京都",
+  "lead": "日本千年古都，清水寺、伏见稻荷与祇园街区沉淀着传统文化，适合慢节奏深度探索。",
+  "continent": "亚洲",
+  "language": "日语",
+  "currency": "日元 (JPY)",
+  "timezone": "UTC+9",
+  "related": [
+    "japan-kyoto-kiyomizu-dera",
+    "japan-kyoto-best-time"
+  ],
+  "tagline": "千年古都，一步一景的日本传统之心",
+  "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "春秋（3-4月樱花 / 10-11月红叶）",
+    "description": "京都春秋双高峰最迷人：春季樱花与秋季红叶吸引大量游客；夏季湿热、冬季干冷少人，别有韵味。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "日语"
+    },
+    {
+      "label": "Currency",
+      "value": "日元 (JPY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+9"
+    }
+  ],
+  "highlights": [
+    "清水寺与清水舞台",
+    "伏见稻荷千本鸟居",
+    "金阁寺",
+    "祇园花见小路",
+    "岚山竹林"
+  ],
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=70",
+      "alt": "京都 清水寺与山间景致",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&q=70",
+      "alt": "京都 传统街区街道",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=800&q=70",
+      "alt": "京都 古都建筑与庭院",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&q=70",
+      "alt": "京都 神社与传统文化",
+      "credit": "Unsplash"
+    }
+  ],
+  "relatedCities": ["japan-tokyo"],
+  "featured": false
+}

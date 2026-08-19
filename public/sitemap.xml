@@ -4,21 +4,33 @@
   <url><loc>https://travel.mootlsv.com/china/</loc></url>
   <url><loc>https://travel.mootlsv.com/france/</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/</loc></url>
   <url><loc>https://travel.mootlsv.com/us/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/</loc></url>
   <url><loc>https://travel.mootlsv.com/us/new-york/</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/changcheng</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/gugong</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/tiantan</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/attractions/yiheyuan</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/attractions/bund</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/attractions/lujiazui</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/attractions/wukang-road</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/attractions/yuyuan</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/attractions/eiffel-tower</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/attractions/latin-quarter</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/attractions/louvre</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/attractions/montmartre</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/attractions/fushimi-inari</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/attractions/gion</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/attractions/kinkaku-ji</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/attractions/kiyomizu-dera</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/meiji-jingu</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/sensoji</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/shibuya-crossing</loc></url>
@@ -27,6 +39,10 @@
   <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/tokyo-tower</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/tsukiji</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/attractions/ueno-park</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/attractions/bukchon</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/attractions/gyeongbokgung</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/attractions/myeongdong</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/attractions/namsan</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/attractions/british-museum</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/attractions/covent-garden</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/attractions/tower-of-london</loc></url>
@@ -38,10 +54,16 @@
   <url><loc>https://travel.mootlsv.com/china/beijing/routes/elderly-friendly</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/routes/five-days</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/routes/three-days</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/routes/street-route</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/routes/three-days</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/routes/museum-route</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/routes/three-days</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/routes/temple-route</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/routes/three-days</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/routes/five-days</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/routes/three-days</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/routes/three-days</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/routes/trend-route</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/routes/museum-route</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/routes/three-days</loc></url>
   <url><loc>https://travel.mootlsv.com/us/new-york/routes/museum-route</loc></url>
@@ -50,14 +72,26 @@
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/food</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/tips</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/guides/transport</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/guides/accommodation</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/guides/food</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/guides/tips</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/guides/transport</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/guides/accommodation</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/guides/food</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/guides/tips</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/guides/transport</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/guides/accommodation</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/guides/food</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/guides/tips</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/guides/transport</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/accommodation</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/budget</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/food</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/guides/transport</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/guides/accommodation</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/guides/food</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/guides/tips</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/guides/transport</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/guides/accommodation</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/guides/food</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/guides/tips</loc></url>
@@ -67,18 +101,27 @@
   <url><loc>https://travel.mootlsv.com/us/new-york/guides/tips</loc></url>
   <url><loc>https://travel.mootlsv.com/us/new-york/guides/transport</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/best-time</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/best-time</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/best-time</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/us/new-york/best-time</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/route-plan/comfort</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/route-plan/economy</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/route-plan/economy</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/route-plan/economy</loc></url>
   <url><loc>https://travel.mootlsv.com/japan/tokyo/route-plan/economy</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/route-plan/economy</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/route-plan/economy</loc></url>
   <url><loc>https://travel.mootlsv.com/us/new-york/route-plan/economy</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/budget/economy</loc></url>
   <url><loc>https://travel.mootlsv.com/china/beijing/seasonal/autumn</loc></url>
+  <url><loc>https://travel.mootlsv.com/china/shanghai/seasonal/autumn</loc></url>
   <url><loc>https://travel.mootlsv.com/france/paris/seasonal/spring</loc></url>
+  <url><loc>https://travel.mootlsv.com/japan/kyoto/seasonal/spring</loc></url>
+  <url><loc>https://travel.mootlsv.com/south-korea/seoul/seasonal/spring</loc></url>
   <url><loc>https://travel.mootlsv.com/uk/london/seasonal/summer</loc></url>
   <url><loc>https://travel.mootlsv.com/us/new-york/seasonal/autumn</loc></url>
   <url><loc>https://travel.mootlsv.com/about</loc></url>

@@ -1,0 +1,28 @@
+{
+  "id": "south-korea-seoul-best-time",
+  "type": "best-time",
+  "country": "south-korea",
+  "city": "seoul",
+  "title": "首尔最佳旅行时间｜几月去首尔最好",
+  "description": "首尔最佳旅行时间：3-5月樱花与9-11月红叶最宜人；夏季梅雨湿热、冬季干冷，全年各有玩法。",
+  "keywords": "首尔最佳旅行时间,首尔几月去,首尔旅游季节,首尔天气,首尔樱花",
+  "h1": "首尔最佳旅行时间",
+  "lead": "首尔四季分明：春季樱花、秋季红叶最迷人，夏季湿热、冬季干冷，全年皆可安排出行。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-5月：</strong>春季（8-22℃），樱花（4月初汝矣岛轮中路）与春花人气高，游客增多。</li><li><strong>6-7月：</strong>梅雨（6月底-7月中）潮湿，闷热感强。</li><li><strong>7-8月：</strong>盛夏炎热（25-32℃），雨热同季，室内场馆是主力。</li><li><strong>9-11月：</strong>秋高气爽（10-22℃），红叶与银杏（10-11月）最佳，公认最佳出游窗口。</li><li><strong>12-2月：</strong>冬季干冷（-5-5℃），滑雪场近郊可达，圣诞灯饰与首尔广场冰场开放。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["4 月初汝矣岛轮中路赏樱为经典。", "10-11 月秋色与舒适气温叠加，优先户外。", "冬季备好羽绒服，近郊滑雪可安排一日。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["south-korea-seoul-three-days", "south-korea-seoul-gyeongbokgung", "south-korea-seoul-transport"]
+    }
+  ]
+}

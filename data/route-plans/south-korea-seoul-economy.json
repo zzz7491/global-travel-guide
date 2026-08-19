@@ -1,0 +1,205 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "south-korea-seoul-economy",
+  "country": "south-korea",
+  "city": "seoul",
+  "slug": "economy",
+  "title": "首尔四日经济版路书｜低预算首尔自由行计划 | Global Travel Guide",
+  "description": "首尔四日经济版路书：以地铁与步行为主、免费宫殿外观与街区为核心、街头美食与平价住宿搭配的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过核心体验的自由行旅客。",
+  "keywords": "首尔经济游,首尔四日游,首尔自由行省钱,首尔预算攻略,首尔地铁游,首尔便宜玩法",
+  "h1": "首尔四日经济版路书",
+  "lead": "省钱不省精彩 · 用地铁与步行串起宫殿与潮流街区，平价也出深度。",
+  "edition": "economy",
+  "image": "https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=800&q=70",
+  "featured": false,
+  "priority": 0,
+  "days": 4,
+  "suitableFor": "首次访韩、希望控制预算又想覆盖核心体验的自由行旅客",
+  "seasonNote": "春季（3-5月）樱花与秋季（9-11月）秋色最佳；夏季梅雨湿热宜室内；冬季干冷、圣诞灯饰与滑雪近郊可调。",
+  "travelTone": "第一次首尔自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["首尔四日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 平价也出深度",
+    "tone": "🧭 适合：第一次首尔自由行",
+    "info": [
+      { "num": "4", "label": "DAYS" },
+      { "num": "12+", "label": "FREE SPOTS" },
+      { "num": "经济档", "label": "TICKETS" },
+      { "num": "地铁为主", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 地铁出行 · 平价住宿",
+    "bottom": "适合首次访韩、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌸 春秋最佳 · 夏冬可调",
+    "budget": "约 ₩320000–560000 / 人·4天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把首尔玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "宫殿外观与街区免费打底，付费只留登塔" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，减少跨区折返" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "宫殿庭院、街区、汉江公园零门票" },
+      { "icon": "🚇", "label": "交通效率", "value": "T-money 换乘优惠 + 步行，省车费" },
+      { "icon": "🏯", "label": "深度体验", "value": "经典地标一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "宫殿与传统", "title": "景福宫 · 北村 · 三清洞", "spots": ["景福宫", "光化门", "北村韩屋", "三清洞"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "购物与观景", "title": "明洞 · 南山 · N首尔塔", "spots": ["明洞", "南山", "N首尔塔外观", "爱情锁桥"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "潮流街区", "title": "弘大 · 延南洞 · 汉江", "spots": ["弘大", "延南洞", "汉江公园", "望远洞"], "ticketLabel": "经济档" },
+    { "day": 4, "theme": "市集与收尾", "title": "广藏市场 · 东大门 · 返程", "spots": ["广藏市场", "东大门", "清溪川"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "宫殿外观与街区漫步为主，几乎零门票。", "items": ["景福宫外观/庭院免费区", "北村与三清洞免费", "南山公园免费", "N首尔塔只看外观"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含景福宫门票与 1 处付费体验。", "items": ["景福宫门票", "N首尔塔观景（可选）", "韩服体验半日", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多付费体验 + 韩式正餐，体验优先。", "items": ["N首尔塔观景", "南山缆车", "烤肉/参鸡汤正餐", "韩服体验全日"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选近地铁站的区域（明洞/钟路），减少搬运行李与通勤时间。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "弘大 / 东大门", "priceLevel": "约 ₩40000-80000/晚（估算）", "advantage": "性价比高 · 近地铁 · 夜生活丰富" },
+      { "type": "中档酒店/民宿", "area": "钟路 / 仁寺洞", "priceLevel": "约 ₩90000-160000/晚（估算）", "advantage": "宫殿氛围 · 韩屋体验 · 近景点" },
+      { "type": "品质酒店", "area": "明洞 / 南山", "priceLevel": "约 ₩160000-280000/晚（估算）", "advantage": "核心商圈 · 近机场快线 · 干净高效" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "宫殿与传统", "title": "景福宫 · 北村 · 三清洞", "sub": "从朝鲜王朝正宫开始，免费街区打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "抵达首尔与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "仁川机场乘 AREX 机场快线或机场巴士进城，放下行李轻装出发。往返大交通不含。", "info": [{ "label": "交通方式", "value": "AREX / 机场巴士" }, { "label": "耗时", "value": "43-70分钟" }, { "label": "费用", "value": "约₩9000-17000" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的城市", "reservation": "无需预约", "localTip": "先购 T-money 卡", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "紫菜包饭/便利店早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "紫菜包饭或便利店早餐，人均 ₩4000-8000。", "info": [{ "label": "人均", "value": "₩4000-8000" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "紫菜包饭便宜管饱", "tips": "早餐简单解决", "alternative": "咖啡+面包" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "景福宫与光化门", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "景福宫门票约 ₩3000，光化门与广场免费；守门将换岗仪式每日多场。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "约₩3000 / 外观免费" }], "bestTime": "上午（周二闭馆）", "photoSpot": "光化门、勤政殿", "reservation": "无需预约", "localTip": "穿韩服可免费入宫", "tips": "门票便宜，值得入内", "alternative": "只看光化门与广场" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "仁寺洞午市", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "仁寺洞或钟路小馆，参鸡汤/拌饭人均 ₩10000-15000。", "info": [{ "label": "人均", "value": "₩10000-15000" }, { "label": "建议", "value": "午市套餐" }], "bestTime": "12:30前", "photoSpot": "仁寺洞街景", "reservation": "无需预约", "localTip": "午市比晚市划算", "tips": "参鸡汤补身又实惠", "alternative": "便利商店便当" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "北村韩屋村八景", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "北村八景环线免费漫步，俯瞰韩屋屋顶与石阶巷弄。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午", "photoSpot": "北村八景、韩屋屋顶", "reservation": "无需预约", "localTip": "第五六景最上镜", "tips": "街区免费，出片率高", "alternative": "雨天改仁寺洞画廊" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "三清洞咖啡与夜景", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "顺坡而下三清洞，独立咖啡馆与画廊，傍晚街灯亮起。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "黄昏", "photoSpot": "三清洞街景", "reservation": "无需预约", "localTip": "咖啡人均 ₩5000-8000", "tips": "街区免费，咖啡量力", "alternative": "直接回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "景福宫↔北村↔三清洞步行串联，基本零地铁费。", "info": [{ "label": "交通方式", "value": "步行" }, { "label": "当日费用", "value": "约₩2000-4000" }, { "label": "餐饮合计", "value": "约₩20000-34000" }], "bestTime": "全天", "photoSpot": "街角", "reservation": "无需预约", "localTip": "钟路区步行最舒服", "tips": "区域集中，步行即可", "alternative": "地铁 3 号线" }
+      ]
+    },
+    {
+      "day": 2, "theme": "购物与观景", "title": "明洞 · 南山 · N首尔塔", "sub": "商圈购物与山顶夜景，登塔可选", "tag": "城市必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往明洞", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁 4 号线明洞站直达，上午商圈人流适中。", "info": [{ "label": "交通方式", "value": "地铁4号线" }, { "label": "耗时", "value": "15-25分钟" }, { "label": "费用", "value": "₩1400-1800" }], "bestTime": "上午", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "明洞站6号口出", "tips": "上午逛街更从容", "alternative": "打车" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "明洞早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "明洞早餐店或咖啡，人均 ₩5000-9000。", "info": [{ "label": "人均", "value": "₩5000-9000" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "街头咖啡快", "tips": "早餐简单解决", "alternative": "便利店" },
+        { "time": "上午", "category": "experience", "categoryLabel": "体验", "title": "明洞购物与小吃", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "韩妆店与品牌旗舰店免费逛，小吃摊人均 ₩5000-10000。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费逛 / 小吃弹性" }], "bestTime": "上午-午后", "photoSpot": "明洞大街", "reservation": "无需预约", "localTip": "退税满₩30000", "tips": "只逛不买也开心", "alternative": "雨天改百货" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "明洞午市", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "明洞小馆或美食城，人均 ₩10000-16000。", "info": [{ "label": "人均", "value": "₩10000-16000" }, { "label": "建议", "value": "午市" }], "bestTime": "12:30前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "错峰用餐", "tips": "正餐放午餐划算", "alternative": "小吃组合" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "南山公园与 N 首尔塔外观", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "南山公园免费登山或缆车（往返约 ₩14000-16000）；塔顶观景约 ₩21000，只看外观与爱情锁桥免费。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "公园免费 / 缆车观景付费" }], "bestTime": "日落前", "photoSpot": "爱情锁桥、城市全景", "reservation": "无需预约", "localTip": "步行登山免费省缆车钱", "tips": "预算紧只看外观与锁桥", "alternative": "步行登山（30-45分钟）" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "首尔夜景（山顶）", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "南山瞭望平台免费看首尔夜景，灯光渐亮时最壮观。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落后", "photoSpot": "首尔夜景", "reservation": "无需预约", "localTip": "日落前到位", "tips": "免费看城市全景", "alternative": "改明洞商圈夜景" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "明洞↔南山步行串联，费用约 ₩3000-5000。", "info": [{ "label": "交通方式", "value": "步行 + 地铁" }, { "label": "当日费用", "value": "约₩3000-5000" }, { "label": "餐饮合计", "value": "约₩22000-36000" }], "bestTime": "避开高峰", "photoSpot": "街角", "reservation": "无需预约", "localTip": "明洞到缆车站步行10分钟", "tips": "区域集中，交通费低", "alternative": "循环巴士02/03路" }
+      ]
+    },
+    {
+      "day": 3, "theme": "潮流街区", "title": "弘大 · 延南洞 · 汉江", "sub": "年轻人据点与汉江野餐，全程低预算", "tag": "潮流必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往弘大", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁 2 号线弘大入口站直达，上午小店陆续开门。", "info": [{ "label": "交通方式", "value": "地铁2号线" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "₩1400-1800" }], "bestTime": "上午", "photoSpot": "弘大街头", "reservation": "无需预约", "localTip": "弘大入口站9号口", "tips": "上午人少好逛", "alternative": "打车" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "弘大咖啡早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "弘大独立咖啡店，人均 ₩5000-9000。", "info": [{ "label": "人均", "value": "₩5000-9000" }, { "label": "建议", "value": "独立咖啡" }], "bestTime": "出发前", "photoSpot": "咖啡馆", "reservation": "无需预约", "localTip": "弘大咖啡店密度高", "tips": "咖啡+面包套餐", "alternative": "便利店" },
+        { "time": "上午", "category": "experience", "categoryLabel": "体验", "title": "弘大创意街区", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "独立设计师店、街头表演与涂鸦墙免费逛，弘大是首尔年轻文化中心。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午-午后", "photoSpot": "弘大街头、涂鸦墙", "reservation": "无需预约", "localTip": "主街旁的小巷更精彩", "tips": "街区免费，氛围即体验", "alternative": "雨天改逛商场" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "弘大午市", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "弘大美食街部队锅或炸鸡，人均 ₩10000-18000。", "info": [{ "label": "人均", "value": "₩10000-18000" }, { "label": "建议", "value": "午市" }], "bestTime": "12:30前", "photoSpot": "美食街", "reservation": "无需预约", "localTip": "弘大性价比高于明洞", "tips": "部队锅两人份更划算", "alternative": "街头小吃" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "延南洞与汉江公园", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "延南洞小街散步后，步行或地铁至汉江公园（望远洞），草地野餐看日落。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "午后-黄昏", "photoSpot": "汉江与城市天际线", "reservation": "无需预约", "localTip": "便利店买野餐食材更省", "tips": "汉江野餐是本地玩法", "alternative": "雨天改室内咖啡馆" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "弘大↔延南洞↔汉江步行或地铁一站，费用约 ₩3000-5000。", "info": [{ "label": "交通方式", "value": "步行 + 地铁" }, { "label": "当日费用", "value": "约₩3000-5000" }, { "label": "餐饮合计", "value": "约₩22000-38000" }], "bestTime": "避开高峰", "photoSpot": "街角", "reservation": "无需预约", "localTip": "望远汉江公园人少", "tips": "区域集中，交通费低", "alternative": "共享单车骑行汉江" }
+      ]
+    },
+    {
+      "day": 4, "theme": "市集与收尾", "title": "广藏市场 · 东大门 · 返程", "sub": "传统市集与最后采购", "tag": "市井收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往广藏市场", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁 1 号线钟路5街站直达，上午市场摊位全开。", "info": [{ "label": "交通方式", "value": "地铁1号线" }, { "label": "耗时", "value": "15-25分钟" }, { "label": "费用", "value": "₩1400-1800" }], "bestTime": "上午", "photoSpot": "市场摊位", "reservation": "无需预约", "localTip": "钟路5街站8号口", "tips": "市场早去最热闹", "alternative": "打车" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "广藏市场早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "广藏市场辣炒年糕、鱼饼与绿豆煎饼，人均 ₩6000-12000。", "info": [{ "label": "人均", "value": "₩6000-12000" }, { "label": "建议", "value": "市场小吃" }], "bestTime": "上午", "photoSpot": "小吃摊位", "reservation": "无需预约", "localTip": "绿豆煎饼是招牌", "tips": "市场早餐地道又实惠", "alternative": "便利店" },
+        { "time": "上午", "category": "experience", "categoryLabel": "体验", "title": "广藏市场传统小吃", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "市场里摊位密集，边走边吃是体验本身，人均 ₩8000-15000。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "弹性" }], "bestTime": "上午", "photoSpot": "市场烟火气", "reservation": "无需预约", "localTip": "摊主多会中文招呼", "tips": "少量多样试吃最划算", "alternative": "雨天改商场" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "东大门商圈午餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "东大门商圈简餐或美食城，人均 ₩9000-15000。", "info": [{ "label": "人均", "value": "₩9000-15000" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "东大门街景", "reservation": "无需预约", "localTip": "东大门购物中心旁美食城", "tips": "最后一天吃顿好的", "alternative": "市场小吃" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "清溪川与返程采购", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "清溪川散步道免费，周边采购伴手礼，预算内控制。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费/弹性" }], "bestTime": "下午", "photoSpot": "清溪川步道", "reservation": "无需预约", "localTip": "伴手礼选钟路街铺", "tips": "清溪川免费散步", "alternative": "直接返程" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "市区↔仁川乘 AREX 或机场巴士，预留 2 小时以上。", "info": [{ "label": "交通方式", "value": "地铁 + AREX" }, { "label": "当日费用", "value": "约₩9000-17000" }, { "label": "餐饮合计", "value": "约₩22000-36000" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "无需预约", "localTip": "预留充足返程时间", "tips": "AREX 直通快最稳", "alternative": "机场巴士" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 320000, "high": 560000, "currency": "₩", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费外观 + 市场小吃" },
+      "composition": { "门票": "免费外观为主", "交通": "T-money + 步行", "餐饮": "市场 + 街头 + 1正餐", "住宿": "青旅 / 平价酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 560000, "high": 920000, "currency": "₩", "note": "估算 / 参考 · 单人不含往返 · 含景福宫 + 登塔 + 韩服 + 每日1正餐" },
+      "composition": { "门票": "1-2付费", "交通": "地铁 + 偶尔打车", "餐饮": "+每日1正餐", "住宿": "中档酒店/民宿" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 920000, "high": 1500000, "currency": "₩", "note": "估算 / 参考 · 单人不含往返 · 多付费体验 + 烤肉正餐 + 品质住宿" },
+      "composition": { "门票": "多付费", "交通": "自由", "餐饮": "+烤肉/参鸡汤", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（4晚）", "economy": { "low": 160000, "high": 320000, "note": "青旅/平价·4晚估算" }, "comfort": { "low": 360000, "high": 640000, "note": "中档/民宿·4晚估算" }, "flexible": { "low": 640000, "high": 1120000, "note": "品质酒店·4晚估算" } },
+      { "cat": "🍽 餐饮（4天）", "economy": { "low": 70000, "high": 120000, "note": "市场+街头+1正餐" }, "comfort": { "low": 150000, "high": 240000, "note": "+每日1正餐" }, "flexible": { "low": 240000, "high": 400000, "note": "+烤肉/参鸡汤" } },
+      { "cat": "🚇 交通（4天）", "economy": { "low": 15000, "high": 25000, "note": "T-money+步行" }, "comfort": { "low": 25000, "high": 50000, "note": "地铁+偶尔打车" }, "flexible": { "low": 50000, "high": 90000, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 3000, "high": 15000, "note": "景福宫/外观为主" }, "comfort": { "low": 30000, "high": 80000, "note": "登塔+韩服半日" }, "flexible": { "low": 80000, "high": 160000, "note": "缆车+全日韩服" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 40000, "high": 90000, "note": "伴手礼弹性" }, "comfort": { "low": 90000, "high": 180000, "note": "手信+美妆" }, "flexible": { "low": 180000, "high": 350000, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 288000, "high": 570000, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 655000, "high": 1190000, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 1190000, "high": 2120000, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "机场 → 景福宫 → 北村 → 三清洞", "transport": "AREX + 地铁 + 步行", "estimatedTime": "约43-70分钟", "costRange": "约₩2000-4000/人", "foodRange": "约₩20000-34000/人" },
+    { "day": "Day2", "route": "住宿 → 明洞 → 南山 → N首尔塔", "transport": "地铁 + 步行", "estimatedTime": "约15-25分钟", "costRange": "约₩3000-5000/人", "foodRange": "约₩22000-36000/人" },
+    { "day": "Day3", "route": "住宿 → 弘大 → 延南洞 → 汉江", "transport": "地铁 + 步行", "estimatedTime": "约20-30分钟", "costRange": "约₩3000-5000/人", "foodRange": "约₩22000-38000/人" },
+    { "day": "Day4", "route": "住宿 → 广藏市场 → 东大门 → 返程", "transport": "地铁 + AREX", "estimatedTime": "约15-70分钟", "costRange": "约₩9000-17000/人", "foodRange": "约₩22000-36000/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外宫殿与街区漫步", "alternative": "室内文化设施：国立中央博物馆、乐天世界（付费）、各大商场与免税店，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费观景设施", "alternative": "免费城市观景与公园：南山瞭望平台、汉江公园、清溪川、北村八景", "reason": "不花钱也能看全景，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "登山与长距离步行路线", "alternative": "以地铁直达的景点（景福宫、广藏市场）与公园长椅休息为主，减少南山登山", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如景福宫+北村、或明洞+南山），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "紫菜包饭 ₩4000-8000", "午餐": "仁寺洞拌饭 ₩10000-15000", "晚餐": "钟路烤肉小馆 ₩12000-20000", "小计": "经济档" },
+      { "day": "Day2", "早餐": "明洞咖啡 ₩5000-9000", "午餐": "明洞美食城 ₩10000-16000", "晚餐": "南山下山简餐 ₩10000-15000", "小计": "经济-舒适" },
+      { "day": "Day3", "早餐": "弘大咖啡 ₩5000-9000", "午餐": "弘大部队锅 ₩10000-18000", "晚餐": "汉江野餐 ₩8000-15000", "小计": "经济档" },
+      { "day": "Day4", "早餐": "广藏市场 ₩6000-12000", "午餐": "东大门简餐 ₩9000-15000", "晚餐": "返程自理", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "AREX + 地铁", "费用": "约₩9000-17000（含机场）", "提醒": "抵达当天购 T-money 卡" },
+      { "day": "Day2", "方式": "地铁 + 步行", "费用": "约₩3000-5000", "提醒": "明洞-南山步行串联" },
+      { "day": "Day3", "方式": "地铁 + 步行", "费用": "约₩3000-5000", "提醒": "弘大-汉江一站地铁" },
+      { "day": "Day4", "方式": "地铁 + AREX", "费用": "约₩9000-17000", "提醒": "返程预留2小时" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 宫殿传统", "Day2 购物观景", "Day3 潮流汉江", "Day4 市集收尾"],
+    "dailyHours": [6, 7, 6, 5],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [240000, 95000, 20000, 9000, 65000],
+      "comfort": [500000, 195000, 37500, 55000, 135000],
+      "flexible": [880000, 320000, 70000, 120000, 265000]
+    }
+  },
+  "savingTips": [
+    { "title": "免费地标打底", "text": "北村、三清洞、汉江公园与清溪川免费，把行程重心放这里。" },
+    { "title": "T-money 优惠", "text": "地铁换乘优惠自动生效，同区排同一天更省。" },
+    { "title": "市场餐饮", "text": "广藏市场小吃人均 ₩6000-12000，比正餐厅便宜一半。" },
+    { "title": "步行登山", "text": "南山缆车省时但贵，步行 30-45 分钟免费且健康。" },
+    { "title": "韩服免费入宫", "text": "穿韩服游景福宫免费，租借费比门票+体验更值。" },
+    { "title": "退税提醒", "text": "满 ₩30000 退税，购物合并结算更划算。" },
+    { "title": "错峰用餐", "text": "12 点前吃午餐，避免排队与溢价。" },
+    { "title": "只逛不买", "text": "弘大、三清洞、清溪川的街景与氛围本身免费。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["景福宫周二闭馆（公告为准）", "韩服体验旺季提前预约", "N首尔塔观景旺季提前购票", "热门烤肉店晚餐提前订位"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2个月更优", "T-money 抵达后购买", "热门餐厅正餐提前1-2天"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带护照与韩国签证", "T-money 卡", "信用卡 + 少量现金", "韩国eSIM或漫游", "备好舒适步行鞋"] }
+  ],
+  "packing": [
+    "有效证件（护照+签证）", "T-money 卡", "信用卡/电子支付", "韩国eSIM/漫游", "舒适步行鞋", "薄外套（早晚温差）", "折叠伞", "常用药品", "移动电源", "折叠购物袋", "小背包", "保暖衣物（冬季）"
+  ]
+}

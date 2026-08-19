@@ -1,0 +1,205 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "japan-kyoto-economy",
+  "country": "japan",
+  "city": "kyoto",
+  "slug": "economy",
+  "title": "京都四日经济版路书｜低预算京都自由行计划 | Global Travel Guide",
+  "description": "京都四日经济版路书：以巴士与步行为主、免费寺庙外观为核心、抹茶小吃与平价住宿搭配的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过核心体验的自由行旅客。",
+  "keywords": "京都经济游,京都四日游,京都自由行省钱,京都预算攻略,京都巴士游,京都便宜玩法",
+  "h1": "京都四日经济版路书",
+  "lead": "省钱不省精彩 · 用巴士与步行串起古都寺庙与市集，平价也出深度。",
+  "edition": "economy",
+  "image": "https://images.unsplash.com/photo-1578637387939-43c525550085?w=800&q=70",
+  "featured": false,
+  "priority": 0,
+  "days": 4,
+  "suitableFor": "首次访日、希望控制预算又想覆盖核心体验的自由行旅客",
+  "seasonNote": "春季（3-4月）樱花与秋季（10-11月）红叶为双高峰，住宿需提前规划；夏季湿热宜早起；冬季干冷少人、金阁雪景限定。",
+  "travelTone": "第一次京都自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["京都四日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 平价也出深度",
+    "tone": "🧭 适合：第一次京都自由行",
+    "info": [
+      { "num": "4", "label": "DAYS" },
+      { "num": "12+", "label": "FREE SPOTS" },
+      { "num": "经济档", "label": "TICKETS" },
+      { "num": "巴士为主", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 巴士出行 · 平价住宿",
+    "bottom": "适合首次访日、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌸 春秋双高峰 · 冬夏可调",
+    "budget": "约 ¥30000–52000 / 人·4天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把京都玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "免费寺庙外观与神社为主，付费只留核心" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，减少跨区折返" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "神社、街区、庭园漫步零门票，体验不打折" },
+      { "icon": "🚌", "label": "交通效率", "value": "巴士一日券 + 步行，省车费也省时间" },
+      { "icon": "⛩️", "label": "深度体验", "value": "经典寺庙一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "东山寺庙线", "title": "清水寺 · 三年坂 · 祇园", "spots": ["清水寺", "音羽瀑布", "三年坂", "祇园", "八坂神社"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "稻荷与市中心", "title": "伏见稻荷 · 锦市场 · 鸭川", "spots": ["伏见稻荷大社", "锦市场", "寺町通", "鸭川"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "岚山与北区", "title": "岚山竹林 · 金阁寺", "spots": ["岚山竹林", "渡月桥", "金阁寺", "北野天满宫"], "ticketLabel": "经济档" },
+    { "day": 4, "theme": "宇治与收尾", "title": "宇治平等院 · 抹茶 · 返程", "spots": ["宇治", "平等院", "宇治川", "抹茶街"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "免费寺庙外观与神社为主，付费只进最想去的馆。", "items": ["寺庙本堂外观免费", "神社参拜免费", "锦市场小吃解决餐饮", "伏见稻荷免费登山"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含 1-2 个付费参观（清水寺本堂/金阁寺）+ 1 顿特色餐。", "items": ["清水寺本堂门票", "金阁寺门票", "抹茶甜点体验", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多付费体验 + 怀石/汤豆腐正餐，体验优先。", "items": ["和服体验", "怀石午市", "平等院凤凰堂内部", "日式旅馆体验"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选河原町-祇园或京都站周边（近巴士枢纽），减少搬运行李与通勤时间。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "京都站周边 / 三条", "priceLevel": "约 ¥4000-7000/晚（估算）", "advantage": "交通枢纽 · 近巴士地铁 · 平价选择多" },
+      { "type": "町家民宿", "area": "东山 / 祇园周边", "priceLevel": "约 ¥8000-15000/晚（估算）", "advantage": "古都氛围 · 近寺庙景点 · 可体验传统住宿" },
+      { "type": "品质酒店", "area": "河原町 / 乌丸", "priceLevel": "约 ¥15000-25000/晚（估算）", "advantage": "核心商圈 · 步行可达餐饮 · 干净高效" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "东山寺庙线", "title": "清水寺 · 三年坂 · 祇园", "sub": "从千年古刹开始，免费街区打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "抵达京都与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "从关西机场乘 Haruka 特急或机场巴士至京都站，放下行李轻装出发。往返大交通不含。", "info": [{ "label": "交通方式", "value": "Haruka / 机场巴士" }, { "label": "耗时", "value": "75-110分钟" }, { "label": "费用", "value": "约¥2000-3200" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的城市天际线", "reservation": "Haruka 建议提前购票", "localTip": "先买巴士一日券再出行", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住，次日再出发" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店/面包房早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "京都站附近便利店饭团或面包，人均 ¥400-600。", "info": [{ "label": "人均", "value": "¥400-600" }, { "label": "建议", "value": "就近解决" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯随时补水", "tips": "便利店早餐便宜省时", "alternative": "连锁咖啡店" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "清水寺与音羽瀑布", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "清水舞台与音羽瀑布为必看（门票约 ¥400-500）；本堂外观与山门免费合影。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "约¥400-500" }], "bestTime": "清晨人少", "photoSpot": "清水舞台、音羽瀑布", "reservation": "无需预约", "localTip": "8点前抵达人最少", "tips": "门票便宜，值得入内", "alternative": "只拍外观省门票" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "三年坂/锦市场小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "三年坂小吃与锦市场渍物、炸串，人均 ¥800-1500，边走边吃。", "info": [{ "label": "人均", "value": "¥800-1500" }, { "label": "建议", "value": "小吃组合" }], "bestTime": "12:30前", "photoSpot": "石板街巷", "reservation": "无需预约", "localTip": "现做现吃最香", "tips": "景区小吃略贵，量少多样最划算", "alternative": "便利店便当 ¥500" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "祇园花见小路与八坂神社", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "沿三年坂步行至祇园（约25分钟），花见小路町家街景与八坂神社免费逛。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午至傍晚", "photoSpot": "花见小路、八坂神社", "reservation": "无需预约", "localTip": "傍晚艺伎出没概率高", "tips": "街区免费，体验古都氛围", "alternative": "雨天改逛商场" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "白川运河与鸭川散步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "白川运河柳树与町家灯火，或鸭川河岸看日落，免费感受京都黄昏。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落", "photoSpot": "白川运河、鸭川", "reservation": "无需预约", "localTip": "樱花季白川夜樱开放", "tips": "免费看古都黄昏", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "东山线以市巴士 206 路 + 步行串联，含在一日券内。", "info": [{ "label": "交通方式", "value": "市巴士 + 步行" }, { "label": "当日费用", "value": "约¥600-1200" }, { "label": "餐饮合计", "value": "约¥1800-3000" }], "bestTime": "避开高峰", "photoSpot": "巴士站", "reservation": "无需预约", "localTip": "一日券先购再用", "tips": "日均3次巴士即回本", "alternative": "步行可达区间优先步行" }
+      ]
+    },
+    {
+      "day": 2, "theme": "稻荷与市中心", "title": "伏见稻荷 · 锦市场 · 鸭川", "sub": "千本鸟居与市集美食一日", "tag": "摄影必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往伏见稻荷", "badges": [{ "t": "交通", "c": "transport" }], "desc": "JR 奈良线稻荷站约 5 分钟，清晨鸟居人少。", "info": [{ "label": "交通方式", "value": "JR奈良线" }, { "label": "耗时", "value": "5-10分钟" }, { "label": "费用", "value": "约¥140-220" }], "bestTime": "7:00-8:00", "photoSpot": "千本鸟居", "reservation": "无需预约", "localTip": "越往上走人越少", "tips": "早到避开人流", "alternative": "京阪线伏见稻荷站" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "京都站便利店早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前便利店解决早餐。", "info": [{ "label": "人均", "value": "¥400-600" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "早出发，早餐简单解决", "alternative": "车站便当" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "伏见稻荷千本鸟居", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "免费登山，千本鸟居与奥社轻石许愿，体力允许可登顶看京都南部。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "清晨", "photoSpot": "千本鸟居隧道", "reservation": "无需预约", "localTip": "四辻折返最经典", "tips": "免费，早到人少出片", "alternative": "只走前段鸟居" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "锦市场美食巡礼", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "回市区锦市场，渍物、炸串、抹茶糰子边走边吃，人均 ¥800-1500。", "info": [{ "label": "人均", "value": "¥800-1500" }, { "label": "建议", "value": "摊位小吃" }], "bestTime": "12:00-13:00", "photoSpot": "市场摊位", "reservation": "无需预约", "localTip": "现烤摊位最香", "tips": "市场小吃多样又实惠", "alternative": "寺町通简餐" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "寺町通与鸭川河岸", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "寺町通老铺与鸭川河岸散步，黄昏在河边看灯光亮起。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午至黄昏", "photoSpot": "鸭川、寺町通", "reservation": "无需预约", "localTip": "鸭川傍晚最舒服", "tips": "河岸免费，适合休整", "alternative": "雨天改美术馆" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "JR 稻荷 + 市区步行/地铁串联，费用约 ¥300-800。", "info": [{ "label": "交通方式", "value": "JR + 步行" }, { "label": "当日费用", "value": "约¥300-800" }, { "label": "餐饮合计", "value": "约¥1800-3000" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "无需预约", "localTip": "稻荷段单独买票", "tips": "市区段步行优先", "alternative": "全步行更省" }
+      ]
+    },
+    {
+      "day": 3, "theme": "岚山与北区", "title": "岚山竹林 · 金阁寺", "sub": "竹林与金阁，京都代表画面一日集齐", "tag": "自然必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往岚山", "badges": [{ "t": "交通", "c": "transport" }], "desc": "JR 嵯峨野线或岚电前往岚山，上午竹林人少。", "info": [{ "label": "交通方式", "value": "JR嵯峨野线 / 岚电" }, { "label": "耗时", "value": "20-30分钟" }, { "label": "费用", "value": "约¥240-300" }], "bestTime": "上午", "photoSpot": "竹林小径", "reservation": "无需预约", "localTip": "竹林早到人少", "tips": "岚山区域步行最舒服", "alternative": "市巴士前往" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前便利店解决早餐。", "info": [{ "label": "人均", "value": "¥400-600" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "岚山餐饮偏贵，提前吃好", "alternative": "京都站便当" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "岚山竹林与渡月桥", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "竹林小径与渡月桥免费，天龙寺庭园（约 ¥500）可选。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "竹林免费 / 天龙寺约¥500" }], "bestTime": "上午", "photoSpot": "竹林、渡月桥", "reservation": "无需预约", "localTip": "竹林尽头可看野宫神社", "tips": "自然景观免费", "alternative": "雨天改室内庭园" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "嵯峨野简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "嵯峨野豆腐料理或荞麦面简餐，人均 ¥1000-1800。", "info": [{ "label": "人均", "value": "¥1000-1800" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "午市套餐划算", "tips": "汤豆腐老铺偏贵，简餐即可", "alternative": "便利店便当" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "金阁寺", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "从岚山乘巴士/地铁至金阁寺（约40分钟），金箔舍利殿倒影（门票约 ¥500）。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "约¥500" }], "bestTime": "下午顺光", "photoSpot": "镜湖池倒影", "reservation": "无需预约", "localTip": "入园后右转先拍倒影", "tips": "门票值得，御守门票可留作纪念", "alternative": "外观+倒影不购票不可行（需购票）" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "北野天满宫或回祇园收尾", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "金阁寺附近北野天满宫免费逛，或直接回祇园看黄昏街景。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "傍晚", "photoSpot": "北野天满宫", "reservation": "无需预约", "localTip": "天满宫月次祭有市集", "tips": "免费收尾，节奏从容", "alternative": "直接回住处休息" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "岚山↔金阁寺跨区，市巴士/地铁 + 步行，费用约 ¥600-1000。", "info": [{ "label": "交通方式", "value": "市巴士 + 步行" }, { "label": "当日费用", "value": "约¥600-1000" }, { "label": "餐饮合计", "value": "约¥2000-3400" }], "bestTime": "避开高峰", "photoSpot": "巴士站", "reservation": "无需预约", "localTip": "北区线路少，预留等车时间", "tips": "跨区日预留交通时间", "alternative": "包车（贵，不推荐经济版）" }
+      ]
+    },
+    {
+      "day": 4, "theme": "宇治与收尾", "title": "宇治平等院 · 抹茶 · 返程", "sub": "平等院凤凰堂与抹茶本场，最后采购", "tag": "文化收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往宇治", "badges": [{ "t": "交通", "c": "transport" }], "desc": "JR 奈良线至宇治站约 30 分钟，或京阪电车。", "info": [{ "label": "交通方式", "value": "JR奈良线" }, { "label": "耗时", "value": "25-35分钟" }, { "label": "费用", "value": "约¥240-400" }], "bestTime": "上午", "photoSpot": "宇治川", "reservation": "无需预约", "localTip": "平等院上午人少", "tips": "宇治一日从容", "alternative": "京阪线宇治站" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "便利店早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前便利店解决早餐。", "info": [{ "label": "人均", "value": "¥400-600" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "宇治抹茶留给下午", "alternative": "车站便当" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "平等院凤凰堂", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "世界遗产平等院，凤凰堂外观免费观赏，入内参观（约 ¥400）+ 博物馆（约 ¥300）可选。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "外观免费 / 入内约¥400" }], "bestTime": "上午", "photoSpot": "阿字池倒影", "reservation": "入内分时段排队", "localTip": "池畔倒影最经典", "tips": "外观已很出片", "alternative": "只拍外观" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "宇治川畔简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "宇治川边抹茶荞麦或简餐，人均 ¥1000-1600。", "info": [{ "label": "人均", "value": "¥1000-1600" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "宇治川", "reservation": "无需预约", "localTip": "午市套餐含抹茶", "tips": "抹茶街留到下午", "alternative": "便利店便当" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "宇治抹茶街与返程采购", "badges": [{ "t": "体验", "c": "experience" }, { "t": "弹性", "c": "optional" }], "desc": "平等院表参道抹茶店选伴手礼，冰淇淋约 ¥500-800，预算内控制。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "弹性" }], "bestTime": "下午", "photoSpot": "抹茶店街景", "reservation": "无需预约", "localTip": "老铺抹茶粉值得带", "tips": "冰淇淋打卡即可", "alternative": "直接返程" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "宇治↔京都站↔关西机场，预留 2.5 小时以上（Haruka 返程）。", "info": [{ "label": "交通方式", "value": "JR + Haruka" }, { "label": "当日费用", "value": "约¥2600-3600" }, { "label": "餐饮合计", "value": "约¥2000-3200" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "Haruka 提前购票", "localTip": "预留充足返程时间", "tips": "别卡点，机场安检排队不定", "alternative": "机场巴士" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 30000, "high": 52000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费寺庙外观 + 市集餐饮" },
+      "composition": { "门票": "免费外观为主", "交通": "巴士券 + 步行", "餐饮": "便利店 + 市集 + 1正餐", "住宿": "青旅 / 平价酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 52000, "high": 88000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含本堂门票 + 汤豆腐 + 每日1正餐" },
+      "composition": { "门票": "1-2付费", "交通": "巴士 + 地铁", "餐饮": "+每日1正餐", "住宿": "町家/品质酒店" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 88000, "high": 150000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 怀石正餐 + 和服体验 + 日式旅馆" },
+      "composition": { "门票": "多付费", "交通": "自由", "餐饮": "+怀石/汤豆腐", "住宿": "日式旅馆" },
+      "factors": "受①季节淡旺 ②汇率 ③同行人数 ④住宿区位 ⑤提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（4晚）", "economy": { "low": 16000, "high": 28000, "note": "青旅/平价·4晚估算" }, "comfort": { "low": 32000, "high": 60000, "note": "町家/品质·4晚估算" }, "flexible": { "low": 60000, "high": 100000, "note": "日式旅馆·4晚估算" } },
+      { "cat": "🍽 餐饮（4天）", "economy": { "low": 8000, "high": 14000, "note": "便利店+市集+1正餐" }, "comfort": { "low": 16000, "high": 26000, "note": "+每日1特色正餐" }, "flexible": { "low": 26000, "high": 45000, "note": "+怀石/汤豆腐" } },
+      { "cat": "🚌 交通（4天）", "economy": { "low": 2000, "high": 3500, "note": "巴士券+步行" }, "comfort": { "low": 3500, "high": 6000, "note": "巴士+地铁+JR" }, "flexible": { "low": 6000, "high": 10000, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 1000, "high": 2500, "note": "清水寺/金阁寺门票" }, "comfort": { "low": 2500, "high": 5000, "note": "+平等院入内" }, "flexible": { "low": 5000, "high": 12000, "note": "和服+博物馆等" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 3000, "high": 6000, "note": "抹茶伴手礼弹性" }, "comfort": { "low": 6000, "high": 12000, "note": "手信+伴手礼" }, "flexible": { "low": 12000, "high": 25000, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 30000, "high": 54000, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 59500, "high": 109000, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 109000, "high": 192000, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "机场 → 京都 → 清水寺 → 祇园", "transport": "Haruka + 市巴士 + 步行", "estimatedTime": "约75-110分钟", "costRange": "约¥600-1200/人", "foodRange": "约¥1800-3000/人" },
+    { "day": "Day2", "route": "住宿 → 伏见稻荷 → 锦市场 → 鸭川", "transport": "JR + 步行", "estimatedTime": "约5-30分钟", "costRange": "约¥300-800/人", "foodRange": "约¥1800-3000/人" },
+    { "day": "Day3", "route": "住宿 → 岚山 → 金阁寺 → 北野天满宫", "transport": "JR + 市巴士", "estimatedTime": "约20-40分钟", "costRange": "约¥600-1000/人", "foodRange": "约¥2000-3400/人" },
+    { "day": "Day4", "route": "住宿 → 宇治 → 平等院 → 返程", "transport": "JR + Haruka", "estimatedTime": "约25-110分钟", "costRange": "约¥2600-3600/人", "foodRange": "约¥2000-3200/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外寺庙与竹林散步", "alternative": "室内文化设施：京都国立博物馆、铁道博物馆、锦市场与商场，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费本堂门票", "alternative": "免费外观与神社：寺庙本堂外观、八坂神社、北野天满宫、鸭川河岸", "reason": "不花钱也能感受古都，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "登山与长距离步行路线", "alternative": "以巴士直达的寺庙（金阁寺、清水寺本堂）与河岸长椅休息为主，减少稻荷登山", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如清水寺+祇园、或金阁寺+北野天满宫），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "便利店 ¥400-600", "午餐": "三年坂小吃 ¥800-1500", "晚餐": "河原町简餐 ¥1000-1800", "小计": "经济档" },
+      { "day": "Day2", "早餐": "便利店", "午餐": "锦市场小吃 ¥800-1500", "晚餐": "寺町通面馆 ¥800-1500", "小计": "经济档" },
+      { "day": "Day3", "早餐": "便利店", "午餐": "嵯峨野荞麦 ¥1000-1800", "晚餐": "河原町简餐 ¥1000-1600", "小计": "经济-舒适" },
+      { "day": "Day4", "早餐": "便利店", "午餐": "宇治抹茶荞麦 ¥1000-1600", "晚餐": "返程自理", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "Haruka + 市巴士", "费用": "约¥2000-3200（含机场）", "提醒": "抵达当天先购巴士一日券" },
+      { "day": "Day2", "方式": "JR + 步行", "费用": "约¥300-800", "提醒": "稻荷段单独购票" },
+      { "day": "Day3", "方式": "JR + 市巴士", "费用": "约¥600-1000", "提醒": "跨区预留等车时间" },
+      { "day": "Day4", "方式": "JR + Haruka", "费用": "约¥2600-3600", "提醒": "返程预留2.5小时" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 东山寺庙", "Day2 稻荷市集", "Day3 岚山金阁", "Day4 宇治收尾"],
+    "dailyHours": [6, 6, 7, 5],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [22000, 11000, 2800, 1800, 4500],
+      "comfort": [46000, 21000, 4800, 3800, 9000],
+      "flexible": [80000, 35500, 8000, 8500, 18500]
+    }
+  },
+  "savingTips": [
+    { "title": "巴士一日券", "text": "日均坐 3 次巴士即回本，抵达当天就买。" },
+    { "title": "免费寺庙优先", "text": "本堂外观与神社免费，付费只留清水寺/金阁寺。" },
+    { "title": "市集解决餐饮", "text": "锦市场与三年坂小吃多样实惠，正餐留 1 顿。" },
+    { "title": "早餐控费", "text": "便利店饭团人均 ¥400-600，比餐厅便宜且快。" },
+    { "title": "清晨出行", "text": "早到寺庙与鸟居，人少体验好还省排队时间。" },
+    { "title": "抹茶伴手礼", "text": "宇治老铺抹茶粉性价比高，比机场买便宜。" },
+    { "title": "步行串联", "text": "清水寺-祇园、河原町-鸭川步行即达，省车费。" },
+    { "title": "只逛不买", "text": "寺町通、花见小路的街景与町家建筑本身免费好看。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["怀石/汤豆腐名店提前1周预约", "和服体验旺季提前1-2周", "Haruka 特急建议提前购票", "樱花红叶季住宿提前2-3个月"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2个月更优", "巴士一日券抵达后购买", "热门餐厅正餐提前1-2天"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带护照与日本签证", "日元现金（2-3万）", "IC卡（ICOCA 可购）", "提前下载导航/交通App", "备好舒适步行鞋"] }
+  ],
+  "packing": [
+    "有效证件（护照+签证）", "日元现金", "IC卡（ICOCA）", "交通IC卡", "舒适步行鞋", "转换插头（两扁脚）", "轻便雨具", "常用药品", "移动电源", "薄外套（早晚温差）", "折叠购物袋", "和服体验可选（租借即可）"
+  ]
+}

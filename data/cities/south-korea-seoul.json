@@ -1,0 +1,76 @@
+{
+  "id": "south-korea-seoul",
+  "type": "city",
+  "country": "south-korea",
+  "city": "seoul",
+  "name": "首尔",
+  "nameEn": "Seoul",
+  "title": "首尔旅行攻略 | Global Travel Guide",
+  "description": "首尔旅游攻略与首尔自由行路线全指南：涵盖首尔景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排首尔行程。",
+  "keywords": "首尔旅游攻略,首尔自由行,首尔旅行路线,首尔景点攻略,首尔美食,首尔交通",
+  "h1": "首尔",
+  "lead": "韩国首都，景福宫与北村韩屋承载传统，明洞与弘大涌动韩流活力，汉江之滨适合休闲。",
+  "continent": "亚洲",
+  "language": "韩语",
+  "currency": "韩元 (KRW)",
+  "timezone": "UTC+9",
+  "related": [
+    "south-korea-seoul-gyeongbokgung",
+    "south-korea-seoul-best-time"
+  ],
+  "tagline": "宫阙与霓虹之间，传统韩国与 K 潮流并存",
+  "heroImage": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1600&q=80",
+  "bestTime": {
+    "season": "春秋（3-5月 / 9-11月）",
+    "description": "春季樱花与秋季红叶最迷人；夏季梅雨湿热、冬季干冷（偶有雪），各有特色。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "韩语"
+    },
+    {
+      "label": "Currency",
+      "value": "韩元 (KRW)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+9"
+    }
+  ],
+  "highlights": [
+    "景福宫与光化门",
+    "北村韩屋村",
+    "N 首尔塔（南山）",
+    "明洞购物街",
+    "弘大与汉江夜景"
+  ],
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?w=800&q=70",
+      "alt": "首尔 城市地标与山景",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&q=70",
+      "alt": "首尔 传统建筑街区",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&q=70",
+      "alt": "首尔 都市街道",
+      "credit": "Unsplash"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?w=800&q=70",
+      "alt": "首尔 城市夜景",
+      "credit": "Unsplash"
+    }
+  ],
+  "relatedCities": [],
+  "featured": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "south-korea",
+  "type": "country",
+  "country": "south-korea",
+  "name": "韩国",
+  "nameEn": "South Korea",
+  "title": "韩国旅行攻略 | Global Travel Guide",
+  "description": "韩国目的地旅行攻略：从首尔等城市出发，整理景点、路线、最佳旅行时间与实用旅行信息，助你规划韩国自由行。",
+  "keywords": "韩国旅行攻略,韩国旅游,韩国自由行,首尔旅行,韩国目的地,韩国城市",
+  "h1": "韩国",
+  "lead": "东亚半岛国家，传统宫阙与韩流文化并存，从首尔的宫殿街区到汉江夜景，适合文化、美食与购物深度游。",
+  "code": "KR",
+  "continent": "亚洲",
+  "language": "韩语",
+  "currency": "韩元 (KRW)",
+  "timezone": "UTC+9",
+  "visa": "中国护照赴韩需办理签证或确认免签政策，短期停留政策随国籍而异。",
+  "transport": "KTX 高速铁路覆盖主要城市，首尔市内以地铁、公交与机场快线为主。",
+  "heroImage": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=800&q=80",
+  "featured": false
+}
