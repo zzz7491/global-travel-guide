@@ -1,0 +1,64 @@
+{
+  "id": "china-beijing-beihai",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "beihai",
+  "title": "北海公园攻略｜琼华岛与白塔城心秘境",
+  "description": "北海公园是北京最古老的皇家园林，琼华岛白塔矗立湖心，划船游湖是体验老北京悠闲生活的最佳方式。",
+  "keywords": "北海公园攻略,北京北海,琼华岛,白塔,北京景点攻略",
+  "h1": "北海公园旅游攻略",
+  "lead": "北海公园始建于辽代，距今已有千年历史，是中国现存最古老的皇家园林之一。因位于中海、南海之北而得名「北海」。琼华岛上的白塔是北京城区的标志性地标，从景山万春亭远眺最为壮观。",
+  "tags": ["皇家园林", "城市公园", "划船", "摄影"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "核心景点",
+      "html": "<h3>琼华岛与白塔</h3><p>琼华岛位于北海中央，岛上白塔建于1651年，高35.9米，是藏式佛塔风格。登岛可俯瞰北海全景，是北京城区最佳观景点之一。</p><h3>永安桥与五龙亭</h3><p>永安桥连接岸边与琼华岛，桥东的五龙亭造型优美，是拍摄白塔的经典机位。清晨和黄昏光线最佳。</p><h3>团城</h3><p>位于北海南门外的圆形城台，保存完好的古城建筑，可看到珍贵的白玉石佛。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "划船体验",
+      "html": "<p>北海划船是体验老北京生活的最佳方式。电动船¥60-120/小时，脚踏船¥30-60/小时。建议从永安桥码头出发，环湖一周约1小时，途经历代帝王画像陈列馆和静心斋。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "最佳游览季节",
+      "html": "<p>春季（3-4月）：桃花盛开，柳枝新绿，气候宜人；夏季（5-8月）：荷花盛开，湖面碧绿如镜，但天气炎热；秋季（9-10月）：银杏金黄，白塔在红叶映衬下最为壮观；冬季（11-2月）：湖冰可滑冰，别有一番风味。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "大门票¥10（旺季）/¥5（淡季），登塔另收费¥10",
+        "划船时间受季节限制，冬季湖面结冰后关闭",
+        "建议从南门进入，先登琼华岛，再沿湖步行游览",
+        "周末和节假日人流较多，建议工作日前往",
+        "周边有什刹海、南锣鼓巷，可一并游览"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-three-days",
+        "china-beijing-tips",
+        "china-beijing-comfort"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/beihai-hero.webp",
+  "socialImage": "/assets/images/beijing/og/beihai-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/beihai-gallery-01.webp",
+      "alt": "琼华岛白塔",
+      "caption": "琼华岛白塔，北京城区标志性景观"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/beihai-gallery-02.webp",
+      "alt": "北海划船",
+      "caption": "北海划船，老北京休闲体验"
+    }
+  ]
+}

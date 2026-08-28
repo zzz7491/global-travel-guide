@@ -1,0 +1,60 @@
+{
+  "type": "story",
+  "id": "china-beijing-great-wall-sunrise",
+  "country": "china",
+  "city": "beijing",
+  "slug": "great-wall-sunrise",
+  "title": "长城日出｜慕田峪的云海与第一缕晨光",
+  "summary": "凌晨四点起床，攀登慕田峪长城，只为等待第一缕阳光照亮这条千年巨龙。那天的云海，是我这辈子见过最美的风景。",
+  "author": {
+    "name": "旅行编辑",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "户外挑战",
+  "season": "秋季",
+  "days": 1,
+  "cover": "/assets/images/beijing/stories/great-wall-sunrise-cover.webp",
+  "heroImage": "/assets/images/beijing/stories/great-wall-sunrise-hero.webp",
+  "highlights": [
+    "凌晨攀登慕田峪长城",
+    "云海翻腾的壮观景象",
+    "日出时的金色长城",
+    "滑道下山的刺激体验"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "凌晨出发",
+      "html": "<p>为了看日出，我和同伴凌晨三点就起床了。打车到慕田峪脚下，四点开始攀登。山路上只有头灯的光束和我们的脚步声。空气清冽，星光璀璨，每一步都在靠近顶峰。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "云海之上的等待",
+      "html": "<p>登上14号敌楼时，东方已经泛起鱼肚白。我们裹着厚外套等待，下面云海翻腾，像一片白色的海洋。远处的山峰若隐若现，仿佛置身仙境。时间仿佛静止了。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "第一缕阳光",
+      "html": "<p>五点二十分，太阳终于升起来了。金色的光芒首先照在最近的城墙上，然后迅速蔓延开来。整条长城像一条金色的巨龙，在云海中蜿蜒伸展。我举起相机，却发现自己舍不得移开眼睛——这一刻只想铭记，不想错过任何细节。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑创作示例故事，记录长城日出体验",
+        "慕田峪比八达岭人少，更适合看日出",
+        "凌晨攀登需备头灯、保暖衣物和高能量食物",
+        "滑道下山约¥40，是体验长城的趣味方式"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "china-beijing-changcheng",
+        "china-beijing-five-days",
+        "china-beijing-economy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "story",
+  "id": "china-beijing-autumn-palace",
+  "country": "china",
+  "city": "beijing",
+  "slug": "autumn-palace",
+  "title": "秋季故宫｜金光洒满琉璃瓦的那个下午",
+  "summary": "十月的故宫，银杏金黄，红叶如火。我站在万春亭俯瞰紫禁城，那一刻理解了为什么它被称为『世界七大奇观』之一。",
+  "author": {
+    "name": "旅行编辑",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "深度文化游",
+  "season": "秋季",
+  "days": 1,
+  "cover": "/assets/images/beijing/stories/autumn-palace-cover.webp",
+  "heroImage": "/assets/images/beijing/stories/autumn-palace-hero.webp",
+  "highlights": [
+    "万春亭俯瞰紫禁城全景",
+    "银杏大道金色隧道",
+    "太和殿前红墙黄瓦",
+    "御花园秋日落叶"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "清晨的故宫",
+      "html": "<p>早上8:30，我排在午门队伍的最前面。当第一缕阳光照在太和殿的琉璃瓦上时，整个宫殿开始发光。没有旅行团的嘈杂，只有脚步声和风铃声。这是我见过最美的故宫。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "银杏大道的金色",
+      "html": "<p>穿过乾清门，通往御花园的路上有两排银杏树。十月的银杏金黄灿烂，落叶铺成地毯。走在上面，每一步都发出沙沙的响声，像是历史的回响。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "万春亭的日落",
+      "html": "<p>下午四点，我登上了万春亭。这是故宫的最高点，可以俯瞰整个紫禁城。夕阳西下，金碧辉煌的屋顶在余晖中熠熠生辉，远处的西山染上秋色。那一刻，我明白了为什么皇帝要把这里当成权力的中心。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑创作示例故事，记录秋季故宫的体验",
+        "建议秋季（9-10月）前往故宫，色彩最为丰富",
+        "清晨开门即入，避开人流高峰",
+        "万春亭是拍摄故宫全景的最佳机位"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "china-beijing-gugong",
+        "china-beijing-autumn",
+        "china-beijing-comfort"
+      ]
+    }
+  ]
+}

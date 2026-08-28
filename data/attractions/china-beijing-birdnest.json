@@ -1,0 +1,59 @@
+{
+  "id": "china-beijing-birdnest",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "birdnest",
+  "title": "鸟巢水立方攻略｜奥运地标与国家体育场",
+  "description": "鸟巢和水立方是2008年北京奥运会的核心场馆，现代建筑地标。外观拍照免费，建议傍晚前往欣赏夜景灯光。",
+  "keywords": "鸟巢攻略,北京鸟巢,水立方,国家体育场,奥运地标,北京景点攻略",
+  "h1": "鸟巢水立方旅游攻略",
+  "lead": "鸟巢（国家体育场）和水立方（国家游泳中心）位于奥林匹克公园核心区域，是2008年北京奥运会的主要场馆。鸟巢由赫尔佐格和德梅隆设计，外形如同树枝编织的巢穴；水立方由PTW建筑师事务所设计，采用ETFE膜结构，白天呈蔚蓝色，夜晚灯光璀璨。",
+  "tags": ["现代建筑", "奥运遗产", "城市地标", "摄影"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "核心看点",
+      "html": "<h3>鸟巢外观</h3><p>鸟巢建筑面积25.8万平方米，观众席约9.1万个。外部钢结构编织结构极具视觉冲击力，是北京标志性建筑之一。登顶俯瞰可看到整个奥林匹克公园和中轴线。</p><h3>水立方外观</h3><p>水立方总建筑面积17万平方米，外墙由3000多个ETFE气枕组成，白天呈淡蓝色，夜晚灯光变换色彩。可进入内部参观游泳池和水上乐园。</p><h3>奥林匹克公园</h3><p>公园内有奥运纪念展、景观大道、灯光秀等。傍晚时分，鸟巢和水立方的夜景灯光最为壮观。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "门票信息",
+      "html": "<p>外观拍照完全免费。进入鸟巢参观：¥50（普通票）/¥100（含水立方联票）；水立方水上乐园单独购票¥120。建议傍晚到达，先看日落，再看夜景灯光（19:00-21:00）。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "建议乘坐地铁8号线到奥体中心站下车",
+        "夜景灯光通常在日落前后开启，约18:30-21:00",
+        "国庆期间灯光开放时间可能延长",
+        "冬季风大，注意保暖；夏季注意防晒",
+        "可与Day5行程中的798艺术区串联游览"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-economy",
+        "china-beijing-five-days",
+        "china-beijing-tips"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/birdnest-hero.webp",
+  "socialImage": "/assets/images/beijing/og/birdnest-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/birdnest-gallery-01.webp",
+      "alt": "鸟巢夜景",
+      "caption": "鸟巢夜景灯光，奥运地标"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/birdnest-gallery-02.webp",
+      "alt": "水立方外观",
+      "caption": "水立方蓝泡泡外墙"
+    }
+  ]
+}

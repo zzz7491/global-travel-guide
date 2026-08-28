@@ -1,0 +1,66 @@
+{
+  "type": "story",
+  "id": "china-beijing-first-time",
+  "country": "china",
+  "city": "beijing",
+  "slug": "first-time",
+  "title": "第一次北京旅行｜从天安门到胡同的五天记忆",
+  "summary": "一个首次到访北京的旅行者，用五天时间走完了经典的皇城路线，却在北京胡同里找到了最温暖的相遇。",
+  "author": {
+    "name": "旅行编辑",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "自由行",
+  "season": "秋季",
+  "days": 5,
+  "cover": "/assets/images/beijing/stories/first-time-cover.webp",
+  "heroImage": "/assets/images/beijing/stories/first-time-hero.webp",
+  "highlights": [
+    "天安门广场看升旗",
+    "故宫中轴线震撼",
+    "慕田峪长城日出",
+    "什刹海夜游划船",
+    "胡同里喝到一碗热豆汁"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "出发前的忐忑",
+      "html": "<p>这是我第一次来北京，攻略做了整整一周。怕人太多、怕被坑、怕吃不惯。但当我真正站在天安门广场上，看着红旗缓缓升起时，所有的担心都烟消云散了。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "故宫的震撼",
+      "html": "<p>走进午门的那一刻，我才真正理解『紫禁城』这三个字的分量。红墙黄瓦、雕梁画栋，六百年的历史在眼前展开。我特意选了工作日去，人流比周末少很多，可以慢慢走完中轴线，从太和殿走到坤宁宫，每一步都是历史。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "长城的日出",
+      "html": "<p>第二天去了慕田峪长城。为了看日出，我凌晨五点就出发了。当第一缕阳光照在长城上，层林尽染的秋色在脚下展开时，我理解了为什么说『不到长城非好汉』。那天的云海和红叶，我会记一辈子。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "胡同里的温暖",
+      "html": "<p>最后一天，我迷了路，误打误撞进了一个不知名的胡同。一位大爷热情地给我指路，还非要拉我去他家喝茶。那碗热腾腾的茉莉花茶，让我觉得北京原来这么温暖。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑创作示例故事，旨在展示北京旅行体验",
+        "故事中的细节基于真实旅行者反馈整理",
+        "建议首次来访者安排5天左右，覆盖核心景点",
+        "长城建议选慕田峪段，人流较少景色更美"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "china-beijing-gugong",
+        "china-beijing-changcheng",
+        "china-beijing-three-days"
+      ]
+    }
+  ]
+}

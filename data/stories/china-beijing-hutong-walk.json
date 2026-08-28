@@ -1,0 +1,60 @@
+{
+  "type": "story",
+  "id": "china-beijing-hutong-walk",
+  "country": "china",
+  "city": "beijing",
+  "slug": "hutong-walk",
+  "title": "北京胡同漫步｜一条胡同里的老北京生活",
+  "summary": "在雨儿胡同的午后，我遇见了最真实的北京——不是景点里的北京，而是生活在北京的北京。",
+  "author": {
+    "name": "旅行编辑",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "文化沉浸",
+  "season": "秋季",
+  "days": 1,
+  "cover": "/assets/images/beijing/stories/hutong-walk-cover.webp",
+  "heroImage": "/assets/images/beijing/stories/hutong-walk-hero.webp",
+  "highlights": [
+    "雨儿胡同的银杏大道",
+    "四合院里的老邻居",
+    "帽儿胡同等美食小店",
+    "什刹海的落日余晖"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "迷路的开始",
+      "html": "<p>那天我在南锣鼓巷主街挤够了人头，拐进了雨儿胡同。瞬间，喧嚣退去，取而代之的是鸽哨声和自行车铃声。一个老太太坐在门口剥豆角，看到我好奇的目光，笑着招手让我坐下歇脚。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "四合院的秘密",
+      "html": "<p>雨儿胡同里有不少名人故居，齐白石、茅盾都曾住过。但这些建筑不只是历史遗迹，它们依然活着——院里的葡萄藤还挂着果，厨房飘出炒菜的香气。我学会了在胡同里走路要慢，抬头看屋檐，低头看门墩，每一处都有故事。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "一碗豆汁的考验",
+      "html": "<p>中午在帽儿胡同的一家小铺吃了炸酱面，老板看我吃得很香，非要送我一碗豆汁配焦圈。豆汁的味道确实特别，但我喝完了。那不是猎奇，是一种尝试了解另一种生活的态度。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑创作示例故事，展现胡同文化体验",
+        "建议避开南锣鼓巷主街，走雨儿、帽儿等支巷",
+        "尝试当地小吃是融入当地的最好方式",
+        "尊重居民生活，不随意打扰或拍摄私宅"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "china-beijing-hutongs",
+        "china-beijing-gongwangfu",
+        "china-beijing-three-days"
+      ]
+    }
+  ]
+}

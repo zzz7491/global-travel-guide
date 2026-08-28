@@ -4,15 +4,61 @@
   "country": "china",
   "city": "beijing",
   "slug": "tiantan",
-  "title": "天坛旅游攻略｜祭天建筑与回音壁",
-  "description": "北京天坛公园参观攻略：祈年殿、圜丘、回音壁看点，以及最佳游览动线与门票信息。",
-  "keywords": "天坛旅游攻略,北京天坛,天坛公园,北京景点攻略",
+  "title": "天坛旅游攻略｜祈年殿与回音壁参观指南",
+  "description": "天坛是北京必访的世界遗产，祈年殿是古代祭天建筑的巅峰之作。建议清晨前往避开人流，买联票才能看到圜丘和回音壁。",
+  "keywords": "天坛攻略,北京天坛,祈年殿,回音壁,北京景点攻略",
   "h1": "天坛旅游攻略",
-  "lead": "天坛是明清皇帝祭天之所，祈年殿造型经典，回音壁与三音石适合带小朋友体验。",
+  "lead": "天坛是明清两代皇帝祭天的场所，始建于1420年，是世界现存最大的古代祭祀性建筑群。祈年殿是天坛的标志性建筑，三层蓝色琉璃瓦圆形大殿庄严雄伟。建议买联票（¥34）游览祈年殿、回音壁和圜丘。",
+  "tags": ["世界遗产", "皇家建筑", "历史遗迹", "摄影"],
   "blocks": [
-    { "kind": "section", "title": "攻略概览", "html": "<p>天坛是明清皇帝祭天之所，祈年殿造型经典，回音壁与三音石适合带小朋友体验。</p>" },
-    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
-    { "kind": "notes", "title": "注意事项", "items": ["门票预约与开放时间以景点官方公布为准。", "旺季人流较大，建议错峰出行。"] },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-gugong", "china-beijing-yiheyuan", "china-beijing-elderly-friendly"] }
+    {
+      "kind": "section",
+      "title": "核心看点",
+      "html": "<h3>祈年殿</h3><p>天坛的核心建筑，高38米，三层重檐圆形大殿，覆盖蓝色琉璃瓦。殿内28根楠木柱象征四季、十二月、十二时辰和周天星宿。可进入内部参观（联票含此项目）。</p><h3>回音壁</h3><p>祈年殿东侧的圆形围墙，直径65.2米，墙面光滑如镜。两人分别站在东西配殿后，贴近墙壁对话，声音可沿墙传递，是古代声学应用的奇迹。</p><h3>圜丘</h3><p>祈年殿南侧的露天三层石台，是皇帝祭天的主台。中心石板称为「天心石」，站在此处说话声音格外洪亮，仿佛与天对话。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览路线",
+      "html": "<p>推荐路线：南门入→丹陛桥→皇穹宇（回音壁）→圜丘→祈年殿→北门出。全程约2-3小时。丹陛桥是连接南北二坛的御道，两侧古柏参天，秋季落叶铺地极为壮观。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "门票与时间",
+      "html": "<p>开放时间：旺季（4月-10月）6:00-21:00；淡季（11月-次年3月）6:30-20:30。门票：大门票¥15（仅进园），联票¥34（含祈年殿+回音壁+圜丘），强烈推荐联票。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "建议清晨7-8点到达，此时游客最少，光线柔和适合拍照",
+        "购买联票才能参观祈年殿内部，单买大门票只能远观外观",
+        "回音壁实验需排队，工作日相对轻松",
+        "园内餐饮选择有限，建议自带水和干粮",
+        "冬季寒冷，注意保暖；夏季注意防晒"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-gugong",
+        "china-beijing-three-days",
+        "china-beijing-comfort"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/tiantan-hero.webp",
+  "socialImage": "/assets/images/beijing/og/tiantan-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/tiantan-gallery-01.webp",
+      "alt": "祈年殿",
+      "caption": "祈年殿，天坛核心建筑"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/tiantan-gallery-02.webp",
+      "alt": "回音壁",
+      "caption": "回音壁声学奇观"
+    }
   ]
 }

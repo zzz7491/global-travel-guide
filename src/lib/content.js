@@ -126,12 +126,16 @@ function resolveImagePath(rawPath, baseUrl, fallback, addExt = '.jpg') {
 // public domain (e.g. "https://img.mootlsv.com") once images migrate.
 export function heroImageUrl(e, site) {
   if (e && e.heroImage) return resolveImagePath(e.heroImage, site.imageBaseUrl, site.heroImage, '');
-  if (e && e.image) return `${site.imageBaseUrl}/${e.image}.jpg`;
+  // e.image might be a full remote URL - use resolveImagePath which handles this
+  if (e && e.image) return resolveImagePath(e.image, site.imageBaseUrl, site.heroImage, '.jpg');
   return site.heroImage;
 }
 export function ogImage(e, site) {
   if (e && e.socialImage) return resolveImagePath(e.socialImage, site.imageBaseUrl, site.defaultSocialImage, '');
-  if (e && e.image) return `${site.imageBaseUrl}/${e.image}-social.jpg`;
+  // e.image might be a full remote URL - use resolveImagePath which handles this
+  if (e && e.image) return resolveImagePath(e.image, site.imageBaseUrl, site.defaultSocialImage, '-social.jpg');
+  // Fallback to heroImage if available
+  if (e && e.heroImage) return resolveImagePath(e.heroImage, site.imageBaseUrl, site.defaultSocialImage, '');
   return site.defaultSocialImage;
 }
 

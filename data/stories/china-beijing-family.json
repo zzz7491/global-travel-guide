@@ -1,0 +1,62 @@
+{
+  "type": "story",
+  "id": "china-beijing-family",
+  "country": "china",
+  "city": "beijing",
+  "slug": "family",
+  "title": "亲子北京旅行｜带着孩子认识历史文化",
+  "summary": "带孩子来北京，不是为了赶景点，而是让他们感受历史的温度。故宫的角楼、长城的烽火台、胡同里的猫，都是最好的教科书。",
+  "author": {
+    "name": "旅行编辑",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "亲子游",
+  "season": "秋季",
+  "days": 5,
+  "cover": "/assets/images/beijing/stories/family-cover.webp",
+  "heroImage": "/assets/images/beijing/stories/family-hero.webp",
+  "highlights": [
+    "故宫寻宝游戏",
+    "长城儿童滑道",
+    "798艺术区创意空间",
+    "胡同里喂流浪猫",
+    "国家博物馆恐龙化石"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "故宫寻宝",
+      "html": "<p>孩子对历史建筑可能没概念，但我们设计了一个『故宫寻宝』游戏：找五种不同的脊兽、找三个不同颜色的门钉、找一只蹲在屋顶的铜狮。孩子玩得不亦乐乎，不知不觉就走完了一整天。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "长城上的童趣",
+      "html": "<p>慕田峪长城有儿童友好的滑道，孩子兴奋地滑下去三次。在城墙上奔跑，远远望着山谷，他问『古人是怎么造出这么长的墙』？我告诉他，这是无数人用双手建造的奇迹。那一刻，历史不再是书本上的文字。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "博物馆的恐龙",
+      "html": "<p>国家博物馆的恐龙化石让孩子兴奋不已。我们从古代中国展厅走到史前展厅，看了后母戊鼎、四羊方尊，也看了马门溪龙骨架。孩子说这是他见过最大的蜥蜴。回家的路上，他在车上还在背那些朝代顺序。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑创作示例故事，分享亲子旅行经验",
+        "带孩子逛故宫建议选工作日，人流较少",
+        "慕田峪滑道适合6岁以上儿童",
+        "国家博物馆免费，需提前预约"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "china-beijing-gugong",
+        "china-beijing-changcheng",
+        "china-beijing-yuanmingyuan",
+        "china-beijing-family-route"
+      ]
+    }
+  ]
+}

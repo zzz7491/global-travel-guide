@@ -1,0 +1,64 @@
+{
+  "id": "china-beijing-yuanmingyuan",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "yuanmingyuan",
+  "title": "圆明园旅游攻略｜万园之园的历史沉思",
+  "description": "圆明园是清代皇家园林遗址，西洋楼废墟承载着百年国耻记忆。建议结合颐和园安排半日游，在福海畔感受历史的沉重与宁静。",
+  "keywords": "圆明园攻略,北京圆明园,西洋楼,万园之园,北京景点攻略",
+  "h1": "圆明园旅游攻略",
+  "lead": "圆明园曾被誉为「万园之园」，是清代皇家园林的代表作。1860年英法联军焚毁，仅存西洋楼遗址。今日的圆明园是遗址公园，既承载着沉重的历史记忆，也是市民休闲的绿色空间。门票仅需¥10，性价比极高。",
+  "tags": ["历史遗址", "教育意义", "城市公园", "摄影"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "核心景点",
+      "html": "<h3>西洋楼遗址</h3><p>圆明园最著名的景点，欧式喷泉建筑群残骸。大水法遗址的石雕栏杆和拱门虽已残缺，但在秋日夕阳下显得格外震撼。海晏堂十二生肖兽首喷泉基址也是重要打卡点。</p><h3>福海景区</h3><p>圆明园最大水域，面积约为杭州西湖的一半。夏日荷花盛开，秋日芦苇摇曳，是园内最宁静的区域。可乘船游湖，远眺远方山峦。</p><h3>九州清晏</h3><p>圆明园最早建成的区域，曾是皇帝理政和居住之所。现已恢复部分建筑，包括正大光明殿遗址和蓬岛瑶台。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览建议",
+      "html": "<p>建议安排2-3小时，步行游览即可。从正门进入→九洲清晏→正大光明殿→福海→西洋楼遗址→东北门出。若时间充裕可从东南门出，步行5分钟即达颐和园西北门，形成完美串联。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "历史教育意义",
+      "html": "<p>圆明园不仅是旅游景点，更是重要的历史教育基地。站在西洋楼废墟前，可以深刻感受到国家的兴衰荣辱。建议在导游讲解或语音导览的帮助下游览，理解背后的历史故事。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "门票¥10（联票¥20含西洋楼遗址），学生半价",
+        "园区极大，建议穿舒适运动鞋；可租自行车代步",
+        "西洋楼遗址区域无遮荫，夏季注意防晒",
+        "可与颐和园联游，两园相距仅一站地铁",
+        "园内餐饮选择少，建议自带干粮"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-yiheyuan",
+        "china-beijing-five-days",
+        "china-beijing-comfort"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/yuanmingyuan-hero.webp",
+  "socialImage": "/assets/images/beijing/og/yuanmingyuan-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/yuanmingyuan-gallery-01.webp",
+      "alt": "西洋楼遗址",
+      "caption": "大水法遗址，圆明园最具标志性的残迹"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/yuanmingyuan-gallery-02.webp",
+      "alt": "福海荷花",
+      "caption": "福海夏日荷花盛开"
+    }
+  ]
+}

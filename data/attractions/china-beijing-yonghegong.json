@@ -1,0 +1,59 @@
+{
+  "id": "china-beijing-yonghegong",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "yonghegong",
+  "title": "雍和宫攻略｜藏传佛教圣地与万福阁巨佛",
+  "description": "雍和宫是北京最大的藏传佛教寺院，万福阁内18米高的白檀木弥勒大佛举世罕见。建议上午前往，感受宗教氛围与皇家气派。",
+  "keywords": "雍和宫攻略,北京雍和宫,万福阁,藏传佛教,北京景点攻略",
+  "h1": "雍和宫旅游攻略",
+  "lead": "雍和宫位于东城区，是北京最大的藏传佛教寺院。原为雍正帝府邸，其子乾隆帝出生于此。1744年改为喇嘛庙，至今已有近300年历史。万福阁内的白檀木弥勒大佛高18米，是世界最大的木雕佛像之一。",
+  "tags": ["宗教建筑", "藏传佛教", "皇家宫殿", "摄影"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "核心看点",
+      "html": "<h3>万福阁</h3><p>雍和宫的最高建筑，阁内供奉18米高的白檀木弥勒大佛，由整棵古树雕刻而成，历时12年完成。大佛右手施无畏印，左手持衣角，象征给予众生安乐。可进入内部参拜。</p><h3>法轮殿</h3><p>雍和宫的主殿，藏语称『甘丹颇章』，是举行大型宗教活动的场所。殿内有宗喀巴大师塑像，建筑风格融合汉藏特色。</p><h3>永康阁与永佑阁</h3><p>万福阁两侧各有阁楼，分别为永康阁和永佑阁。永康阁供奉无量寿佛，永佑阁供奉三世佛像。</p><h3>碑亭与铜亭</h3><p>碑亭内藏有康熙、乾隆御制碑文，记录雍和宫历史。铜亭铸造于乾隆年间，工艺精湛。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参拜礼仪",
+      "html": "<p>进入寺庙请保持安静，不要大声喧哗。拍照前请确认是否允许（部分殿堂禁止拍照）。烧香建议在指定区域，寺内有免费敬香供应。参拜时顺时针方向绕行殿宇。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "门票¥25，学生半价",
+        "开放时间：夏季6:00-18:00，冬季7:00-17:30",
+        "农历初一、十五及佛诞日香火最旺，人流较多",
+        "穿着得体，避免暴露服装",
+        "雍和宫周边有国子监街，可一并游览"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-hutongs",
+        "china-beijing-three-days",
+        "china-beijing-tips"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/yonghegong-hero.webp",
+  "socialImage": "/assets/images/beijing/og/yonghegong-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/yonghegong-gallery-01.webp",
+      "alt": "万福阁大佛",
+      "caption": "万福阁内18米白檀木弥勒大佛"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/yonghegong-gallery-02.webp",
+      "alt": "雍和宫红墙",
+      "caption": "雍和宫红墙黄瓦，藏汉建筑融合典范"
+    }
+  ]
+}

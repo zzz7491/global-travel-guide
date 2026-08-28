@@ -1,0 +1,64 @@
+{
+  "id": "china-beijing-hutongs",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "hutongs",
+  "title": "胡同漫步攻略｜南锣鼓巷与什刹海的老北京烟火",
+  "description": "胡同是北京的城市血脉，南锣鼓巷和什刹海是最具代表性的老城区。建议避开主街，深入支巷寻找真正的生活气息。",
+  "keywords": "胡同攻略,北京胡同,南锣鼓巷,什刹海,老北京,北京景点攻略",
+  "h1": "北京胡同旅游攻略",
+  "lead": "胡同是北京独有的城市肌理，承载着数百年的市井生活。南锣鼓巷是北京最古老的街区之一，但游客众多；建议延伸至雨儿胡同、帽儿胡同等支巷，或前往什刹海周边的西四、丰盛胡同，才能真正感受老北京的韵味。",
+  "tags": ["历史文化", "城市漫步", "市井生活", "摄影"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "推荐路线",
+      "html": "<h3>南锣鼓巷深度游</h3><p>南锣鼓巷主街商业化严重，建议从南口进入后右转进入雨儿胡同→帽儿胡同→炒豆胡同，这些支巷保留了更多原住民生活。途中可参观齐白石故居（外观看）、茅盾故居等名人旧居。</p><h3>什刹海-银锭桥线</h3><p>从南锣鼓巷北口出来即是什刹海。沿湖漫步至银锭桥，远眺西山。过银锭桥进入烟袋斜街，这里是老北京商业街的遗存。</p><h3>西四-丰盛胡同行</h3><p>更小众的路线，从西四地铁站出发，经过丰盛胡同、辟才胡同，可看到更多本地生活场景，游客较少。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "胡同文化体验",
+      "html": "<p>四合院是北京胡同的核心建筑形式，通常坐北朝南，四面房屋围合中心庭院。部分四合院已改建为咖啡馆、文创店，但仍能看到传统门墩、影壁等元素。建议乘坐人力黄包车（约¥150/小时）听讲解游览，比独自漫步更有收获。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "胡同内居民区请勿随意进入私宅或拍照居民",
+        "南锣鼓巷主街小吃偏贵，建议拍照打卡后去周边就餐",
+        "银锭桥「银锭观山」是燕京小八景之一，落日时分最佳",
+        "什刹海夜晚酒吧街热闹，但沿湖漫步更惬意",
+        "夏季注意防蚊，冬季防风保暖"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-gongwangfu",
+        "china-beijing-three-days",
+        "china-beijing-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/hutongs-hero.webp",
+  "socialImage": "/assets/images/beijing/og/hutongs-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/hutongs-gallery-01.webp",
+      "alt": "南锣鼓巷",
+      "caption": "南锣鼓巷主街，北京最知名的胡同商业区"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/hutongs-gallery-02.webp",
+      "alt": "什刹海",
+      "caption": "什刹海湖畔，老北京休闲胜地"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/hutongs-gallery-03.webp",
+      "alt": "胡同四合院",
+      "caption": "胡同深处的四合院落"
+    }
+  ]
+}

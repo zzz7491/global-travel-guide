@@ -1,0 +1,59 @@
+{
+  "id": "china-beijing-gongwangfu",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "gongwangfu",
+  "title": "恭王府攻略｜和珅府邸与王府花园探秘",
+  "description": "恭王府是清代规模最大、保存最完整的王府花园，曾是和珅的私宅。福字碑、后罩楼和精致园林是必看亮点。",
+  "keywords": "恭王府攻略,北京恭王府,和珅府邸,王府花园,北京景点攻略",
+  "h1": "恭王府旅游攻略",
+  "lead": "恭王府位于西城区什刹海畔，是清代规模最大、保存最完整的王府花园。曾先后作为和珅府邸、庆王府和恭王府，见证了中国近代史的风云变幻。福字碑、后罩楼和精致园林是必看亮点。",
+  "tags": ["历史建筑", "皇家园林", "文化古迹", "摄影"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "核心看点",
+      "html": "<h3>锡晋斋</h3><p>恭王府的核心建筑，曾是和珅私宅的正殿，使用了违制的金丝楠木建造，是其贪腐的重要证据。</p><h3>后罩楼</h3><p>恭王府最长的建筑群，全长约200米，传说和珅借此寓意「日进斗金，夜宿百间」的野心。</p><h3>安善堂与福字碑</h3><p>安善堂是王府主殿，保存完好的清代王府格局。秘云洞中的「福」字碑是镇府之宝，康熙御笔亲书，和珅将其秘密嵌入假山，后被恭亲王奕訢发现。</p><h3>西部花园</h3><p>恭王府花园精巧雅致，有「西南胜概」之称。萃锦园、滴翠岩等景点布局精巧，体现了北方王府园林的最高水平。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览建议",
+      "html": "<p>建议安排1.5-2小时，跟随语音导览深度游览。从正门进入→安善堂→锡晋斋→后罩楼→秘云洞→西部花园。花园区域最为精华，不可错过。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "门票¥40，学生半价；建议购买联票含语音导览",
+        "王府内禁止拍照的区域请勿违反规定",
+        "周边有什刹海、南锣鼓巷，可一并游览",
+        "淡季（11月-3月）游客较少，体验更佳",
+        "园内餐饮选择有限，建议自带水和干粮"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-hutongs",
+        "china-beijing-three-days",
+        "china-beijing-tips"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/gongwangfu-hero.webp",
+  "socialImage": "/assets/images/beijing/og/gongwangfu-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/gongwangfu-gallery-01.webp",
+      "alt": "恭王府大门",
+      "caption": "恭王府正门，清代王府规制"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/gongwangfu-gallery-02.webp",
+      "alt": "王府花园",
+      "caption": "西部花园，萃锦园精华所在"
+    }
+  ]
+}

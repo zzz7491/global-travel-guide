@@ -4,15 +4,62 @@
   "country": "china",
   "city": "beijing",
   "slug": "changcheng",
-  "title": "长城旅游攻略｜八达岭与慕田峪怎么选",
+  "title": "长城旅游攻略｜八达岭与慕田峪对比指南",
   "description": "北京长城旅游攻略：八达岭与慕田峪对比、交通方式、最佳游览时间与拍照点，轻松登城不踩坑。",
   "keywords": "长城旅游攻略,北京长城,八达岭,慕田峪,北京景点攻略",
   "h1": "长城旅游攻略",
-  "lead": "长城距离市区较远，八达岭设施成熟、慕田峪人少景美，建议根据体力和时间选择段点。",
+  "lead": "长城是北京的象征，也是最震撼的历史遗迹。八达岭设施成熟但人流大，慕田峪人少景美且植被覆盖率高。建议根据体力、时间和预算选择段点。",
+  "tags": ["世界遗产", "登山徒步", "历史遗迹", "摄影"],
   "blocks": [
-    { "kind": "section", "title": "攻略概览", "html": "<p>长城距离市区较远，八达岭设施成熟、慕田峪人少景美，建议根据体力和时间选择段点。</p>" },
-    { "kind": "section", "title": "核心内容", "html": "<h3>看点 / 路线</h3><p>占位：待补充详细攻略内容。</p><h3>时间安排</h3><p>占位：待补充建议游玩时长与最佳时段。</p>" },
-    { "kind": "notes", "title": "注意事项", "items": ["门票预约与开放时间以景点官方公布为准。", "旺季人流较大，建议错峰出行。"] },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-beijing-gugong", "china-beijing-yiheyuan", "china-beijing-three-days"] }
+    {
+      "kind": "section",
+      "title": "两段长城对比",
+      "html": "<h3>八达岭长城</h3><p>距离市区约70公里，海拔约400米，是明长城最具代表性的段落。交通最便利（S2线/旅游专线），设施完善，但节假日人流量极大，旺季排队2小时以上入城是常态。</p><h3>慕田峪长城</h3><p>距离市区约80公里，海拔约540米，植被覆盖率超过90%，是「最美长城」的代名词。游客仅为八达岭的1/3，设有缆车和滑道，适合家庭游玩。推荐秋季前往，层林尽染极为壮观。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "交通方式",
+      "html": "<h3>去八达岭</h3><p>① S2线市郊铁路：黄土店站出发，¥4往返，约1小时；② 旅游专线（877路）：德胜门出站，¥12单程，约1.5小时；③ 包车/拼车：¥200-400/人，Door-to-door服务。</p><h3>去慕田峪</h3><p>① 旅游专线：东直门交通枢纽出发，¥80往返，约2小时；② 包车/拼车：¥150-250/人，约1.5小时；③ 公共交通：地铁至东直门换乘916快车到怀柔，转H23/H24路公交。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "最佳游览时间",
+      "html": "<p>春季（4-5月）：山花烂漫，气温适宜；夏季（6-8月）：绿树成荫但炎热多雨，需注意防暑；秋季（9-10月）：天高气爽，红叶满山，是最佳季节；冬季（11-2月）：雪后长城银装素裹，景色壮丽但寒冷，需做好保暖。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "建议清晨出发避开人流高峰，尤其八达岭节假日务必早到",
+        "长城段陡峭，穿舒适运动鞋，带足饮水和能量食品",
+        "山上餐饮价格较高，建议自带干粮",
+        "秋季早晚温差大，带薄外套；夏季注意防晒",
+        "慕田峪可体验滑道（¥40），下山更省力"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-gugong",
+        "china-beijing-yiheyuan",
+        "china-beijing-five-days",
+        "china-beijing-economy"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/changcheng-hero.webp",
+  "socialImage": "/assets/images/beijing/og/changcheng-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/changcheng-gallery-01.webp",
+      "alt": "慕田峪长城",
+      "caption": "慕田峪长城，植被覆盖率90%以上"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/changcheng-gallery-02.webp",
+      "alt": "八达岭长城",
+      "caption": "八达岭长城，最具代表性的长城段"
+    }
   ]
 }

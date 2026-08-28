@@ -1,0 +1,59 @@
+{
+  "id": "china-beijing-798",
+  "type": "attraction",
+  "country": "china",
+  "city": "beijing",
+  "slug": "798",
+  "title": "798艺术区攻略｜老工厂改造的艺术天堂",
+  "description": "798艺术区是由老工厂改造的中国当代艺术地标，涂鸦墙、钢铁结构与先锋画廊共存。多数展览免费，可逛半日到一天。",
+  "keywords": "798艺术区攻略,北京798,当代艺术,老工厂改造,北京景点攻略",
+  "h1": "798艺术区旅游攻略",
+  "lead": "798艺术区位于北京市朝阳区酒仙桥路，原为上世纪50年代的电子工业基地，2002年开始艺术家入驻改造。如今聚集了300多家文化艺术机构，包括画廊、设计公司、艺术工作室和创意餐厅。是了解中国当代艺术的窗口。",
+  "tags": ["当代艺术", "文创园区", "摄影", "艺术展览"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "核心看点",
+      "html": "<h3>UCCA尤伦斯当代艺术中心</h3><p>798最重要的艺术机构，定期举办国内外当代艺术大展。常设展免费，特展需购票约¥80。推荐关注展览日历，选择有展的日子前往。</p><h3>艺术广场与涂鸦墙</h3><p>厂区中央的艺术广场常有装置艺术展览。厂区各处涂鸦墙是拍照打卡热门点，黄色工业管道与现代艺术形成强烈对比。</p><h3>恒通创意产业园</h3><p>798东侧的延伸区域，同样保留工业风貌，有更多创意工作室和设计师品牌店。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览建议",
+      "html": "<p>建议安排2-3小时，工作日前往体验更佳。路线：公交/地铁至电子城站→798主入口→UCCA→艺术广场→各画廊分散游览→恒通创意产业园→出口。大部分画廊免费开放，如遇特展可选择性参观。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "周一大部分画廊闭馆，建议周二至周日前往",
+        "园区内餐饮价格偏高，建议自带午餐",
+        "秋季（9-10月）正值各大画廊秋季展开幕期，最值得去",
+        "穿舒适鞋子，园区较大，步行较多",
+        "部分展区禁止拍照，请遵守规定"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-beijing-economy",
+        "china-beijing-five-days",
+        "china-beijing-tips"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/beijing/attractions/798-hero.webp",
+  "socialImage": "/assets/images/beijing/og/798-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/beijing/attractions/798-gallery-01.webp",
+      "alt": "798艺术区",
+      "caption": "798艺术区工业风与现代艺术融合"
+    },
+    {
+      "src": "/assets/images/beijing/attractions/798-gallery-02.webp",
+      "alt": "UCCA展厅",
+      "caption": "UCCA尤伦斯当代艺术中心展览"
+    }
+  ]
+}

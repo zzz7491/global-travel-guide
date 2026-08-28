@@ -430,6 +430,10 @@ function main() {
       const relBlock = e.blocks.find(b => b.kind === 'related');
       if (relBlock) relBlock.refs = merged.slice(0, 8);
     }
+    // Ensure description fallback for stories (use summary if description missing)
+    if (e.type === 'story' && !e.description) {
+      e.description = e.summary || '';
+    }
     e._canonical = canonicalFor(e, SITE.siteUrl);
     e._ogImage = ogImage(e, SITE);
     e._heroImageUrl = heroImageUrl(e, SITE);
