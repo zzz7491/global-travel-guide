@@ -1,0 +1,38 @@
+{
+  "id": "china-hangzhou",
+  "type": "city",
+  "country": "china",
+  "city": "hangzhou",
+  "name": "杭州",
+  "nameEn": "Hangzhou",
+  "title": "杭州旅行攻略 | Global Travel Guide",
+  "description": "杭州旅游攻略与杭州自由行路线全指南：西湖山水人间天堂，双峰插云，曲径通幽，富春山水尽收眼底。",
+  "keywords": "杭州旅游攻略,杭州自由行,杭州旅行路线,杭州景点攻略,杭州美食,西湖",
+  "h1": "杭州",
+  "lead": "杭州，西湖之城，人间天堂，西湖山水与人文历史交融之处。",
+  "continent": "亚洲",
+  "language": "中文",
+  "currency": "人民币(CNY)",
+  "timezone": "UTC+8",
+  "tagline": "西湖山水人间天堂",
+  "featured": true,
+  "heroImage": "/assets/images/china/hangzhou/city-hero.webp",
+  "socialImage": "/assets/images/china/hangzhou/og/city-og.webp",
+  "bestTime": {
+    "season": "春秋两季",
+    "description": "春季西湖春色醉，秋季丹桂飘香雅"
+  },
+  "facts": [
+    {"label":"Continent","value":"亚洲"},
+    {"label":"Language","value":"中文"},
+    {"label":"Currency","value":"人民币(CNY)"},
+    {"label":"Timezone","value":"UTC+8"}
+  ],
+  "highlights": ["西湖","雷峰塔","灵隐寺","十里银桥","平湖秋月"],
+  "gallery": [
+    {"src": "/assets/images/china/hangzhou/g1.webp", "alt": "西湖春晓", "credit": "Unsplash"},
+    {"src": "/assets/images/china/hangzhou/g2.webp", "alt": "雷峰夕照", "credit": "Unsplash"},
+    {"src": "/assets/images/china/hangzhou/g3.webp", "alt": "Broken Bridge in Snow", "credit": "Unsplash"}
+  ],
+  "relatedCities": ["china-beijing", "china-shanghai"]
+}
