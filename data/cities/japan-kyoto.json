@@ -14,14 +14,9 @@
   "language": "日语",
   "currency": "日元 (JPY)",
   "timezone": "UTC+9",
-  "related": [
-    "japan-kyoto-kiyomizu-dera",
-    "japan-kyoto-best-time"
-  ],
   "tagline": "千年古都，一步一景的日本传统之心",
   "heroImage": "/assets/images/kyoto/city/kyoto-hero.webp",
   "bestTime": {
-    "season": "春秋（3-4月樱花 / 10-11月红叶）",
     "description": "京都春秋双高峰最迷人：春季樱花与秋季红叶吸引大量游客；夏季湿热、冬季干冷少人，别有韵味。"
   },
   "facts": [

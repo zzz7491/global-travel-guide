@@ -14,11 +14,9 @@
   "language": "英语",
   "currency": "英镑 (GBP)",
   "timezone": "UTC+0",
-  "related": [],
   "tagline": "历史王宫与现代都市交织的英伦之都",
   "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
   "bestTime": {
-    "season": "夏季（6-8月）",
     "description": "夏季白昼长、活动多；春秋温和，冬季有节日氛围。"
   },
   "facts": [

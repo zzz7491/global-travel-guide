@@ -14,14 +14,9 @@
   "language": "韩语",
   "currency": "韩元 (KRW)",
   "timezone": "UTC+9",
-  "related": [
-    "south-korea-seoul-gyeongbokgung",
-    "south-korea-seoul-best-time"
-  ],
   "tagline": "宫阙与霓虹之间，传统韩国与 K 潮流并存",
   "heroImage": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1600&q=80",
   "bestTime": {
-    "season": "春秋（3-5月 / 9-11月）",
     "description": "春季樱花与秋季红叶最迷人；夏季梅雨湿热、冬季干冷（偶有雪），各有特色。"
   },
   "facts": [

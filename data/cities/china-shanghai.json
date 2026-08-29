@@ -14,14 +14,9 @@
   "language": "中文",
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
-  "related": [
-    "china-shanghai-bund",
-    "china-shanghai-best-time"
-  ],
   "tagline": "外滩灯火与摩登天际线的东方都会",
   "heroImage": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=1600&q=80",
   "bestTime": {
-    "season": "春秋（3-5月 / 9-11月）",
     "description": "春秋气候宜人最推荐；夏季湿热多雨（梅雨季 6 月），冬季湿冷少雪，各有玩法。"
   },
   "facts": [

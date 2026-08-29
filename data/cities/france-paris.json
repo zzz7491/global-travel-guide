@@ -14,13 +14,11 @@
   "language": "法语",
   "currency": "欧元 (EUR)",
   "timezone": "UTC+1",
-  "related": [],
   "tagline": "浪漫之都与艺术之都的完美融合",
   "featured": true,
   "heroImage": "/assets/images/paris/city/city-hero.webp",
   "socialImage": "/assets/images/paris/og/city-og.webp",
   "bestTime": {
-    "season": "春季（4-6月）",
     "description": "春季气候宜人、游客相对适中；夏季热闹、冬季有圣诞市集。"
   },
   "facts": [

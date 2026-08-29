@@ -14,14 +14,9 @@
   "language": "日语",
   "currency": "日元 (JPY)",
   "timezone": "UTC+9",
-  "related": [
-    "japan-tokyo-sensoji",
-    "japan-tokyo-best-time"
-  ],
   "tagline": "未来都市与传统文化交织的日本首都",
   "heroImage": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1600&q=80",
   "bestTime": {
-    "season": "春秋（3-5月 / 9-11月）",
     "description": "春秋气候宜人，樱花与红叶季最受欢迎；夏季热闹多雨，冬季干爽少人。"
   },
   "facts": [

@@ -14,11 +14,9 @@
   "language": "英语",
   "currency": "美元 (USD)",
   "timezone": "UTC-5",
-  "related": [],
   "tagline": "摩天楼群与多元文化汇流的都市心脏",
   "heroImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80",
   "bestTime": {
-    "season": "春季（4-6月）与秋季（9-11月）",
     "description": "春秋气候宜人；夏季湿热、冬季有节日氛围。"
   },
   "facts": [
