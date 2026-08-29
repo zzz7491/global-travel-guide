@@ -1,0 +1,38 @@
+{
+  "id": "china-xian",
+  "type": "city",
+  "country": "china",
+  "city": "xian",
+  "name": "西安",
+  "nameEn": "Xi'an",
+  "title": "西安旅行攻略 | Global Travel Guide",
+  "description": "西安旅游攻略与西安自由行路线全指南：秦始皇兵马俑、大雁塔、古城墙，一站式体验千年古都的历史与现代的完美融合。",
+  "keywords": "西安旅游攻略,西安自由行,西安旅行路线,西安景点攻略,秦始皇兵马俑,大雁塔",
+  "h1": "西安",
+  "lead": "西安，作为十三朝古都，秦始皇兵马俑与大雁塔的城市，历史与现代交融的旅行目的地。",
+  "continent": "亚洲",
+  "language": "中文",
+  "currency": "人民币(CNY)",
+  "timezone": "UTC+8",
+  "tagline": "千年古都,汉唐盛世",
+  "featured": true,
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/43/Qin_Shihuang_Terracotta_Army%2C_Pit_1.jpg",
+  "socialImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Giant_Wild_Goose_Pagoda%2C_Xi%27an%2C_May%2C_2018-1.jpg",
+  "bestTime": {
+    "season": "春秋两季",
+    "description": "春季秦陵万亩花海，秋季凉风送爽，适合文物游与古城漫步"
+  },
+  "facts": [
+    {"label":"Continent","value":"亚洲"},
+    {"label":"Language","value":"中文"},
+    {"label":"Currency","value":"人民币(CNY)"},
+    {"label":"Timezone","value":"UTC+8"}
+  ],
+  "highlights": ["秦始皇兵马俑","大雁塔","城墙自行车","回民街","华清宫"],
+  "gallery": [
+    {"src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Qin_Terracotta_Army%2C_Pit_1_04.jpg", "alt": "秦始皇兵马俑一号坑", "credit": "Wikimedia Commons"},
+    {"src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Giant_Wild_Goose_Pagoda.jpg", "alt": "大雁塔夜景", "credit": "Wikimedia Commons"},
+    {"src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Xi-an_city_wall.jpg", "alt": "城墙日出", "credit": "Wikimedia Commons"}
+  ],
+  "relatedCities": ["china-beijing", "china-hangzhou", "china-shanghai"]
+}
