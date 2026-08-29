@@ -9,7 +9,14 @@
   "keywords": "巴黎拉丁区,塞纳河左岸,先贤祠,莎士比亚书店,巴黎书摊,巴黎漫步",
   "h1": "拉丁区与左岸漫步攻略",
   "lead": "塞纳河左岸的拉丁区是巴黎的学术与文艺心脏，书店、咖啡馆与旧书摊把巴黎的浪漫落到实处。",
-  "tags": ["街区", "文化", "步行", "咖啡"],
+  "heroImage": "/assets/images/paris/attractions/latin-quarter-hero.webp",
+  "socialImage": "/assets/images/paris/og/latin-quarter-og.webp",
+  "tags": [
+    "街区",
+    "文化",
+    "步行",
+    "咖啡"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +36,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["先贤祠内部穹顶较高，恐高者注意。", "书店内人多时请按动线排队入场。", "河边夜间灯光较暗，注意脚下台阶。"]
+      "items": [
+        "先贤祠内部穹顶较高，恐高者注意。",
+        "书店内人多时请按动线排队入场。",
+        "河边夜间灯光较暗，注意脚下台阶。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["france-paris-louvre", "france-paris-museum-route", "france-paris-food"]
+      "refs": [
+        "france-paris-louvre",
+        "france-paris-museum-route",
+        "france-paris-food"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/latin-quarter-gallery-01.webp",
+      "alt": "巴黎 拉丁区",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/latin-quarter-gallery-02.webp",
+      "alt": "巴黎 拉丁区",
+      "credit": "Wikimedia Commons"
     }
   ]
 }

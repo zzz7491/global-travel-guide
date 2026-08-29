@@ -16,16 +16,30 @@
   "timezone": "UTC+1",
   "related": [],
   "tagline": "浪漫之都与艺术之都的完美融合",
-  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
+  "featured": true,
+  "heroImage": "/assets/images/paris/city/city-hero.webp",
+  "socialImage": "/assets/images/paris/og/city-og.webp",
   "bestTime": {
     "season": "春季（4-6月）",
     "description": "春季气候宜人、游客相对适中；夏季热闹、冬季有圣诞市集。"
   },
   "facts": [
-    { "label": "Continent", "value": "欧洲" },
-    { "label": "Language", "value": "法语" },
-    { "label": "Currency", "value": "欧元 (EUR)" },
-    { "label": "Timezone", "value": "UTC+1" }
+    {
+      "label": "Continent",
+      "value": "欧洲"
+    },
+    {
+      "label": "Language",
+      "value": "法语"
+    },
+    {
+      "label": "Currency",
+      "value": "欧元 (EUR)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+1"
+    }
   ],
   "highlights": [
     "埃菲尔铁塔",
@@ -35,10 +49,26 @@
     "蒙马特高地"
   ],
   "gallery": [
-    { "src": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=70", "alt": "巴黎 城市街景", "credit": "Unsplash" },
-    { "src": "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=800&q=70", "alt": "巴黎 城市风貌", "credit": "Unsplash" },
-    { "src": "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=800&q=70", "alt": "巴黎 城市建筑", "credit": "Unsplash" },
-    { "src": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=800&q=70", "alt": "巴黎 街景", "credit": "Unsplash" }
+    {
+      "src": "/assets/images/paris/city/city-gallery-01.webp",
+      "alt": "巴黎 城市景观",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/city/city-gallery-02.webp",
+      "alt": "巴黎 城市景观",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/city/city-gallery-03.webp",
+      "alt": "巴黎 城市景观",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/city/city-gallery-04.webp",
+      "alt": "巴黎 城市景观",
+      "credit": "Wikimedia Commons"
+    }
   ],
   "relatedCities": []
 }

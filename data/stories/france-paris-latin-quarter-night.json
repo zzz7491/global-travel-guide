@@ -1,0 +1,62 @@
+{
+  "type": "story",
+  "id": "france-paris-latin-quarter-night",
+  "country": "france",
+  "city": "paris",
+  "slug": "latin-quarter-night",
+  "title": "拉丁区的夜｜书店、酒馆与一段即兴爵士",
+  "summary": "入夜后的拉丁区比白天更鲜活。从莎士比亚书店的灯光，到小巷酒馆里一段即兴的钢琴，这一晚属于巴黎的学生与夜猫子。",
+  "author": {
+    "name": "旅行编辑部",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "夜生活",
+  "season": "秋季",
+  "days": 1,
+  "highlights": [
+    "莎士比亚书店的暖黄灯光",
+    "小巷酒馆的即兴钢琴",
+    "索邦周边的学生夜话",
+    "塞纳河夜渡的剪影",
+    "凌晨才散场的露天座"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "书店里的夜",
+      "html": "<p>莎士比亚书店（Shakespeare and Company）深夜仍亮着暖黄的灯。我翻了一本旧诗集，店员在梯子上轻声整理书架。这里不赶人，时间像被故意放慢了。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "巷子里的音乐",
+      "html": "<p>拐进一条窄巷，一家小酒馆飘出钢琴声。没人点歌，弹琴的人也只是自娱自乐，但整条巷子都安静下来听。我点了一杯红酒，站在门外听到曲终。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "河边的归途",
+      "html": "<p>临近午夜，我沿塞纳河走回住处。对岸的灯一串串倒映在水里，游船早已收班，只有夜渡的剪影缓缓移动。拉丁区的夜，把白天的学生气酿成了一点浪漫。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑部创作的示例故事，呈现拉丁区夜生活氛围",
+        "莎士比亚书店为真实存在的独立书店",
+        "夜归注意安全，结伴更佳",
+        "部分小酒馆深夜才散场，可晚些出发"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "france-paris-latin-quarter",
+        "france-paris-food",
+        "france-paris-seine-cruise",
+        "france-paris-three-days"
+      ]
+    }
+  ],
+  "cover": "/assets/images/paris/stories/latin-quarter-night-cover.webp",
+  "heroImage": "/assets/images/paris/stories/latin-quarter-night-cover.webp"
+}

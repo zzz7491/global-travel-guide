@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-centre-pompidou",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "centre-pompidou",
+  "title": "蓬皮杜中心旅游攻略｜现代艺术与建筑奇观参观指南",
+  "description": "蓬皮杜中心旅游攻略：巴黎博堡区的现代艺术殿堂，以‘内外翻转’的高科技建筑著称，藏有毕加索、马蒂斯等现代艺术巨作，附参观、登顶与交通建议。",
+  "keywords": "蓬皮杜中心,Centre Pompidou,现代艺术,巴黎博物馆,毕加索,巴黎建筑",
+  "h1": "蓬皮杜中心旅游攻略",
+  "lead": "蓬皮杜中心把管道、扶梯与结构都翻到建筑外侧，是巴黎最具辨识度的现代建筑之一，内部则是欧洲重要的现代艺术馆。",
+  "heroImage": "/assets/images/paris/attractions/centre-pompidou-hero.webp",
+  "socialImage": "/assets/images/paris/og/centre-pompidou-og.webp",
+  "tags": [
+    "现代艺术",
+    "博物馆",
+    "建筑",
+    "当代",
+    "观景"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>蓬皮杜中心（Centre Pompidou，又称 Beaubourg）1977年落成，由伦佐·皮亚诺与理查德·罗杰斯设计。它将钢骨、彩色管道（蓝=空调、绿=水管、黄=电力、红=交通）与透明扶梯暴露于外，颠覆了传统建筑语言。馆内的国家现代艺术博物馆（Musée National d'Art Moderne）收藏毕加索、马蒂斯、杜尚等作品。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>看什么</h3><p>常设展覆盖20世纪以来绘画、雕塑、摄影与新媒体；门前广场常有街头表演与集市。建筑外围的透明管道扶梯本身即是景观。</p><h3>登顶</h3><p>顶层平台（Georges 餐厅所在层）可免费或凭票俯瞰巴黎屋顶与圣心堂远景，是性价比很高的城市观景点。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>工作日开馆即入人流最少；周四晚间常延长开放。顶层平台傍晚光线适合拍照。</p><h3>交通</h3><p>地铁11号线 Rambuteau 站，或1号线 Hôtel de Ville 站步行可达；与玛黑区、塞纳河左岸步行串联方便。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "现代艺术馆需购票，建议官网预约时段。",
+        "顶层平台开放时间可能与展厅不同，留意公告。",
+        "门前广场人多，注意随身物品。",
+        "与玛黑区相邻，可连成半日艺术漫步。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-marais",
+        "france-paris-musee-orsay",
+        "france-paris-museum-route",
+        "france-paris-culture-etiquette"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/centre-pompidou-gallery-01.webp",
+      "alt": "巴黎 蓬皮杜中心",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/centre-pompidou-gallery-02.webp",
+      "alt": "巴黎 蓬皮杜中心",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

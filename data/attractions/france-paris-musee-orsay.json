@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-musee-orsay",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "musee-orsay",
+  "title": "奥赛博物馆旅游攻略｜印象派殿堂与参观路线",
+  "description": "奥赛博物馆旅游攻略：由旧火车站改造的艺术殿堂，聚焦1848-1914年的绘画与雕塑，藏有莫奈、梵高、雷诺阿等印象派杰作，附参观路线、购票与交通建议。",
+  "keywords": "奥赛博物馆,Musée d'Orsay,印象派,莫奈,梵高,巴黎博物馆",
+  "h1": "奥赛博物馆旅游攻略",
+  "lead": "奥赛博物馆坐落于塞纳河左岸的旧火车站建筑内，是全球最重要的印象派与后印象派藏品聚集地。",
+  "heroImage": "/assets/images/paris/attractions/musee-orsay-hero.webp",
+  "socialImage": "/assets/images/paris/og/musee-orsay-og.webp",
+  "tags": [
+    "博物馆",
+    "印象派",
+    "艺术",
+    "左岸",
+    "梵高"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>奥赛博物馆（Musée d'Orsay）原为1900年建成的奥赛火车站（Gare d'Orsay），1986年改建为博物馆，专注1848至1914年间的艺术。其钟楼大钟与挑高大厅保留了火车站的工业美感。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>必看藏品</h3><p>莫奈的《睡莲》与《日出·印象》、梵高的《自画像》与《阿尔的卧室》、雷诺阿的《煎饼磨坊的舞会》、米勒的《拾穗者》均在此陈列。五层展厅按时间与流派排布，顶层可俯瞰塞纳河与卢浮宫。</p><h3>动线建议</h3><p>建议从底层雕塑大厅起步，乘电梯上五层印象派主厅，再逐层向下。顶层大钟旁是经典拍照机位。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>周四晚间常延长开放且人流较少；工作日开馆即入最从容。旺季务必提前官网预约。</p><h3>交通</h3><p>地铁12号线 Solférino 站，或RER C线 Musée d'Orsay 站；与卢浮宫隔河相望，可步行串联杜乐丽花园。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "需提前官网预约时段票，旺季尤为紧张。",
+        "馆内禁止闪光灯与自拍杆。",
+        "大型行李与三脚架不可入内，入口有寄存。",
+        "周日部分周边小店休业，可安排博物馆室内行程。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-louvre",
+        "france-paris-centre-pompidou",
+        "france-paris-museum-route",
+        "france-paris-food"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/musee-orsay-gallery-01.webp",
+      "alt": "巴黎 奥赛博物馆",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/musee-orsay-gallery-02.webp",
+      "alt": "巴黎 奥赛博物馆",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

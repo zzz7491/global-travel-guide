@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-versailles",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "versailles",
+  "title": "凡尔赛宫一日游攻略｜宫殿、镜厅与园林参观指南",
+  "description": "凡尔赛宫旅游攻略：巴黎西南郊的法国王宫，以镜厅、国王套房与法式园林闻名，附交通、门票、参观路线与半天至一日行程建议。",
+  "keywords": "凡尔赛宫,Château de Versailles,镜厅,法式园林,巴黎一日游,路易十四",
+  "h1": "凡尔赛宫一日游攻略",
+  "lead": "凡尔赛宫是巴黎西南方约20公里的皇家宫殿，由路易十四扩建为绝对王权的象征，镜厅与规整的法式园林是其灵魂。",
+  "heroImage": "/assets/images/paris/attractions/versailles-hero.webp",
+  "socialImage": "/assets/images/paris/og/versailles-og.webp",
+  "tags": [
+    "宫殿",
+    "世界遗产",
+    "园林",
+    "一日游",
+    "历史"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>凡尔赛宫（Château de Versailles）原为路易十三的狩猎行宫，路易十四将其扩建为宏大宫殿。1979年列入世界遗产。核心看点包括镜厅（Galerie des Glaces）、国王与王后套房、战争与和平厅，以及占地广阔的法式花园与特里亚农宫。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>宫殿内部</h3><p>镜厅长73米，17扇拱形镜面窗对应17扇花园落地窗，是当年接待与外事舞台。建议租用语音导览按动线参观，避免走回头路。</p><h3>园林与水戏</h3><p>花园免费开放（特定音乐喷泉日另收费），几何花坛、喷泉与运河恢弘。夏季周末有大型喷泉秀（Grandes Eaux），需单独购票。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>行程安排</h3><p>从巴黎乘RER C线至 Versailles Château Rive Gauche 站，步行约10分钟到宫门。预留半天看宫殿、半天逛园林；时间紧可只走宫殿+主花园。</p><h3>交通</h3><p>RER C线最方便；也可从 Montparnasse 乘SNCF郊区火车。返程留意末班车时间。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "宫殿需购票，建议官网预约时段以避开入口长队。",
+        "花园音乐喷泉日门票与平日不同，提前确认日期。",
+        "园林面积大，穿舒适步行鞋、备饮水。",
+        "旺季人流极多，开园即入体验最佳。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-eiffel-tower",
+        "france-paris-three-days",
+        "france-paris-economy",
+        "france-paris-transport"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/versailles-gallery-01.webp",
+      "alt": "巴黎 凡尔赛宫",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/versailles-gallery-02.webp",
+      "alt": "巴黎 凡尔赛宫",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

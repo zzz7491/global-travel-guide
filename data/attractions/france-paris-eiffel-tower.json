@@ -9,7 +9,14 @@
   "keywords": "埃菲尔铁塔,巴黎铁塔,巴黎地标,登塔攻略,战神广场,巴黎观景",
   "h1": "埃菲尔铁塔旅游攻略",
   "lead": "埃菲尔铁塔是巴黎最具辨识度的地标，登塔俯瞰全城与在战神广场仰望铁塔，是两种不同体验。",
-  "tags": ["地标", "观景", "战神广场", "历史"],
+  "heroImage": "/assets/images/paris/attractions/eiffel-tower-hero.webp",
+  "socialImage": "/assets/images/paris/og/eiffel-tower-og.webp",
+  "tags": [
+    "地标",
+    "观景",
+    "战神广场",
+    "历史"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +36,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["旺季登顶排队可超过 1 小时，预留充足时间。", "观景层禁止携带三脚架等大型摄影器材。", "塔下与景区周边人流密集，注意随身物品。"]
+      "items": [
+        "旺季登顶排队可超过 1 小时，预留充足时间。",
+        "观景层禁止携带三脚架等大型摄影器材。",
+        "塔下与景区周边人流密集，注意随身物品。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["france-paris-three-days", "france-paris-latin-quarter", "france-paris-food"]
+      "refs": [
+        "france-paris-three-days",
+        "france-paris-latin-quarter",
+        "france-paris-food"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/eiffel-tower-gallery-01.webp",
+      "alt": "巴黎 埃菲尔铁塔",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/eiffel-tower-gallery-02.webp",
+      "alt": "巴黎 埃菲尔铁塔",
+      "credit": "Wikimedia Commons"
     }
   ]
 }

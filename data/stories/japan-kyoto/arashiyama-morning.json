@@ -42,8 +42,8 @@
   "points": 0,
   "moderationStatus": "seed",
   "publishedAt": "2026-04-10T08:00:00Z",
-  "coverImage": "/images/kyoto/kyoto-story-arashiyama-morning-cover-placeholder.webp",
-  "socialImage": "/images/kyoto/kyoto-story-arashiyama-morning-cover-placeholder.webp",
+  "coverImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
+  "socialImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
   "blocks": [
     {
       "kind": "related",

@@ -1,0 +1,46 @@
+{
+  "id": "france-paris-culture-etiquette",
+  "type": "guide",
+  "country": "france",
+  "city": "paris",
+  "slug": "culture-etiquette",
+  "title": "巴黎文化与礼仪指南｜入乡随俗不踩雷",
+  "description": "巴黎文化与礼仪指南：问候方式、餐厅与咖啡馆习惯、着装与拍照分寸、宗教场所礼仪与小费规则，帮助自由行旅客更得体地融入当地。",
+  "keywords": "巴黎礼仪,法国文化,巴黎习俗,贴面礼,巴黎餐厅,旅行礼仪",
+  "h1": "巴黎文化与礼仪指南",
+  "lead": "一点法语问候与对小规则的尊重，往往能让巴黎之行顺畅许多——当地人更欢迎愿意入乡随俗的旅客。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "问候与语言",
+      "html": "<p>进店、搭话前先说「Bonjour」（白天）或「Bonsoir」（傍晚后），离开说「Au revoir」，这是基本礼貌。法语中「先生／女士」（Monsieur / Madame）的称呼很常用。哪怕只会几句，当地人通常更乐意帮忙。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "餐厅与咖啡馆",
+      "html": "<h3>点单与停留</h3><p>咖啡馆露天座按「站着/吧台/露台」价格递增；露台位可久坐看街景。买单时说「L'addition, s'il vous plaît」。小费非强制，账单含服务费（service compris）时无需另加；若服务特别好可留少量零钱。</p><h3>用餐节奏</h3><p>午市套餐（formule）约12:00-14:00最旺；晚餐常较晚（19:30后）。周日部分餐厅歇业。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "着装与分寸",
+      "html": "<p>巴黎人偏简洁得体，进教堂等宗教场所避免无袖与过短下装。拍照前留意「禁止拍照」标识，尤其博物馆特展与商店内。地铁与景点人多，背包前置更安全。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "先问候再开口，离开说再见",
+        "账单通常含服务费，小费随意",
+        "周日不少店铺与餐厅休息",
+        "宗教场所注意着装与安静",
+        "地铁与景区背包前置防扒窃"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["france-paris-food", "france-paris-tips", "france-paris-transport", "france-paris-accommodation"]
+    }
+  ],
+  "category": "文化"
+}

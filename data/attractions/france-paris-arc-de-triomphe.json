@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-arc-de-triomphe",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "arc-de-triomphe",
+  "title": "凯旋门旅游攻略｜香榭丽舍顶端地标与登顶指南",
+  "description": "巴黎凯旋门旅游攻略：位于香榭丽舍大街顶端，拿破仑下令兴建的纪念性拱门，可登顶俯瞰十二条放射状大道，附购票、交通与拍照建议。",
+  "keywords": "凯旋门,Arc de Triomphe,香榭丽舍,巴黎登顶,巴黎地标,戴高乐广场",
+  "h1": "凯旋门旅游攻略",
+  "lead": "凯旋门矗立在香榭丽舍大街西端，是巴黎最著名的纪念性建筑之一，登顶可俯瞰以它为中心的十二条放射状大道。",
+  "heroImage": "/assets/images/paris/attractions/arc-de-triomphe-hero.webp",
+  "socialImage": "/assets/images/paris/og/arc-de-triomphe-og.webp",
+  "tags": [
+    "地标",
+    "观景",
+    "香榭丽舍",
+    "历史",
+    "登顶"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>凯旋门（Arc de Triomphe）由拿破仑于1806年下令兴建，以纪念奥斯特里茨战役的胜利，1836年竣工。它位于戴高乐广场（原星形广场）中央，是十二条大道的汇聚点，下方有无名战士墓，每晚点燃纪念火焰。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>登顶观景</h3><p>可购票登上凯旋门顶部平台（约50米高），360度俯瞰香榭丽舍大道、埃菲尔铁塔与拉德芳斯新凯旋门连成的中轴线。顶部设有小型展览介绍其建造历史。</p><h3>建筑细节</h3><p>拱门四面浮雕以《马赛曲》最为著名；无名战士墓自1921年起长明火不熄，每日傍晚举行点火仪式。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>黄昏登顶可同时看到白天与夜景；日落前后光线最适合沿香榭丽舍拍出纵深感。</p><h3>交通</h3><p>地铁1、2、6号线及RER A线 Charles de Gaulle-Étoile 站。注意：凯旋门位于环岛中央，必须通过地下通道前往，切勿横穿车流。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "务必走地下通道进出凯旋门，环岛车流密集，禁止横穿。",
+        "登顶需购票，旺季建议提前预订或错峰。",
+        "顶部平台无遮挡，风雨天注意安全与保暖。",
+        "无名战士墓点火仪式通常在傍晚，可顺路观看。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-eiffel-tower",
+        "france-paris-shopping",
+        "france-paris-three-days",
+        "france-paris-economy"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/arc-de-triomphe-gallery-01.webp",
+      "alt": "巴黎 凯旋门",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/arc-de-triomphe-gallery-02.webp",
+      "alt": "巴黎 凯旋门",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

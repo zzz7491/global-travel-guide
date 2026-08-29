@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-marais",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "marais",
+  "title": "玛黑区旅游攻略｜巴黎历史街区与潮流漫步指南",
+  "description": "玛黑区旅游攻略：巴黎第三、四区的历史街区，融合中世纪巷弄、犹太美食、独立买手店与孚日广场，附漫步路线、必看点与交通建议。",
+  "keywords": "玛黑区,Le Marais,巴黎街区,孚日广场,巴黎购物,犹太美食",
+  "h1": "玛黑区旅游攻略",
+  "lead": "玛黑区是巴黎保存最完整的历史街区之一，石板巷、文艺小店与老字号熟食铺交织，适合慢节奏漫步。",
+  "heroImage": "/assets/images/paris/attractions/marais-hero.webp",
+  "socialImage": "/assets/images/paris/og/marais-og.webp",
+  "tags": [
+    "街区",
+    "历史",
+    "购物",
+    "美食",
+    "漫步"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>玛黑区（Le Marais）横跨巴黎第三、四区，保留了大量17-18世纪贵族宅邸（hôtels particuliers）。它是巴黎的犹太文化重镇，也是 LGBT 友好与潮流设计聚集地。区内禁止高楼、街道格局古老，步行最宜。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>必访点</h3><p>孚日广场（Place des Vosges）是巴黎最古老的方形广场之一，红砖拱廊环抱花园；毕加索博物馆（Musée Picasso）藏于一座古典宅邸内；犹太街区 rue des Rosiers 的熟食铺与可颂值得一试。</p><h3>逛街逻辑</h3><p>周中人流适中，适合逛独立买手店与画廊；周日许多其他区店铺歇业，玛黑却依然热闹。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>上午逛博物馆与广场，下午喝咖啡、逛店；傍晚转入蓬皮杜艺术中心外观或附近用餐。</p><h3>交通</h3><p>地铁1、8号线 Saint-Paul 或 Chemin Vert 站；与蓬皮杜、塞纳河左岸均步行可达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "玛黑区以步行为主，舒适的鞋很重要。",
+        "部分传统店铺周一、周二休业，留意招牌。",
+        "rue des Rosiers 午餐高峰排队常见，错峰更佳。",
+        "与蓬皮杜、巴士底方向可连成半日步行线。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-centre-pompidou",
+        "france-paris-shopping",
+        "france-paris-food",
+        "france-paris-latin-quarter"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/marais-gallery-01.webp",
+      "alt": "巴黎 玛黑区",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/marais-gallery-02.webp",
+      "alt": "巴黎 玛黑区",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

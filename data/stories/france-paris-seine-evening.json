@@ -1,0 +1,62 @@
+{
+  "type": "story",
+  "id": "france-paris-seine-evening",
+  "country": "france",
+  "city": "paris",
+  "slug": "seine-evening",
+  "title": "塞纳河上的黄昏｜一段不赶时间的巴黎傍晚",
+  "summary": "一个普通工作日的傍晚，沿着塞纳河从艺术桥走到铁塔，看整座城市在落日里慢慢亮起来。这是属于巴黎最松弛的半小时。",
+  "author": {
+    "name": "旅行编辑部",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "慢旅行",
+  "season": "夏季",
+  "days": 1,
+  "highlights": [
+    "艺术桥看河面碎金",
+    "西岱岛与圣母院剪影",
+    "特罗卡德罗平台等灯光",
+    "铁塔整点闪烁的五分钟",
+    "河边旧书摊的最后一缕光"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "下班后的临时起意",
+      "html": "<p>那天的行程表排得很满，直到傍晚才终于空下来。我没有再赶任何一个景点，只是顺着塞纳河走。从艺术桥（Pont des Arts）往下，河水把夕阳揉成一片碎金，对岸的窗户次第亮起，整座城市像慢慢睁开了眼。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "西岱岛的剪影",
+      "html": "<p>走到西岱岛时，巴黎圣母院的轮廓在暮色里格外安静。修复后的石墙被暖光勾边，河风很轻。我没有进去，只是站在岸边看了很久——有些风景，隔着一段距离反而更动人。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "铁塔的五分钟",
+      "html": "<p>最后我在特罗卡德罗平台停下，等日落后铁塔的整点闪烁。那五分钟里，周围的人不约而同举起手机，却没有喧哗。灯光灭掉的一刻，有人轻轻鼓了掌。我也跟着笑了——这就是巴黎最松弛的浪漫。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑部创作的示例故事，旨在呈现巴黎傍晚的松弛体验",
+        "细节基于真实街区与公共空间观察整理",
+        "建议预留整段傍晚时间，不赶行程地沿河漫步",
+        "铁塔整点灯光约持续5分钟，提前5分钟到位最佳"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "france-paris-seine-cruise",
+        "france-paris-notre-dame",
+        "france-paris-eiffel-tower",
+        "france-paris-romantic-paris"
+      ]
+    }
+  ],
+  "cover": "/assets/images/paris/stories/seine-evening-cover.webp",
+  "heroImage": "/assets/images/paris/stories/seine-evening-cover.webp"
+}

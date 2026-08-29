@@ -48,8 +48,8 @@
   "points": 0,
   "moderationStatus": "seed",
   "publishedAt": "2025-11-20T14:00:00Z",
-  "coverImage": "/images/kyoto/kyoto-cover-gion-stay-cover-33f216fd.webp",
-  "socialImage": "/images/kyoto/kyoto-cover-gion-stay-cover-33f216fd.webp",
+  "coverImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
+  "socialImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
   "blocks": [
     {
       "kind": "related",

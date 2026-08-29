@@ -1,0 +1,62 @@
+{
+  "type": "story",
+  "id": "france-paris-montmartre-artist",
+  "country": "france",
+  "city": "paris",
+  "slug": "montmartre-artist",
+  "title": "蒙马特的画家｜在小丘广场看一场即兴创作",
+  "summary": "上午的蒙马特人还不多，小丘广场的画家已经摆开画架。我看了一位街头肖像画家十分钟，忽然明白了为什么艺术家偏爱这片高地。",
+  "author": {
+    "name": "旅行编辑部",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "文艺漫游",
+  "season": "春季",
+  "days": 1,
+  "highlights": [
+    "小丘广场的露天画摊",
+    "圣心堂台阶俯瞰全城",
+    "画家村的石板巷",
+    "高地上的城市天际线",
+    "一杯咖啡坐到正午"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "高地上的清晨",
+      "html": "<p>蒙马特在上午最温柔。缆车把我送到半山，小丘广场（Place du Tertre）的画架已经支起，油彩味混着咖啡香。一位肖像画家十分钟内抓出了路人的神韵，围观的人比模特还投入。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "台阶上的城市",
+      "html": "<p>从圣心堂的台阶往上看是白顶教堂，往下看是整片灰蓝屋顶。风把零星的笑声吹上来。我买了一杯咖啡，坐在台阶边什么也没做，却觉得比赶十个景点都富足。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "不止游客",
+      "html": "<p>蒙马特常被说成 tourist trap，但拐进画家村的石板巷，仍能遇见真正在此生活的人：遛狗的老太太、搬画具的年轻人、争论配色的两个学生。艺术在这里不是展品，是日常。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑部创作的示例故事，呈现蒙马特的艺术日常",
+        "小丘广场画摊为真实存在的街头创作场景",
+        "建议上午前往，人少且光线柔和",
+        "台阶风大，备一件薄外套"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "france-paris-montmartre",
+        "france-paris-marais",
+        "france-paris-centre-pompidou",
+        "france-paris-three-days"
+      ]
+    }
+  ],
+  "cover": "/assets/images/paris/stories/montmartre-artist-cover.webp",
+  "heroImage": "/assets/images/paris/stories/montmartre-artist-cover.webp"
+}

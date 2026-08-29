@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-notre-dame",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "notre-dame",
+  "title": "巴黎圣母院旅游攻略｜西岱岛哥特地标与参观指南",
+  "description": "巴黎圣母院旅游攻略：西岱岛上的哥特式教堂地标，了解其历史、建筑亮点、2019年大火后的修复与重新开放参观信息，附交通与周边路线。",
+  "keywords": "巴黎圣母院,Notre-Dame,西岱岛,哥特式教堂,巴黎地标,巴黎参观",
+  "h1": "巴黎圣母院旅游攻略",
+  "lead": "巴黎圣母院是西岱岛上的哥特式教堂象征，历经近九个世纪，在2019年大火后完成修复并于2024年底重新向公众开放。",
+  "heroImage": "/assets/images/paris/attractions/notre-dame-hero.webp",
+  "socialImage": "/assets/images/paris/og/notre-dame-og.webp",
+  "tags": [
+    "哥特式",
+    "教堂",
+    "西岱岛",
+    "世界遗产",
+    "历史"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>巴黎圣母院（Cathédrale Notre-Dame de Paris）位于塞纳河中的西岱岛（Île de la Cité），1163年奠基、约1345年完工，是法国哥特式建筑的巅峰之作。2019年4月的一场大火损毁了尖顶与屋顶，经过数年修复，于2024年12月重新向公众开放。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>建筑亮点</h3><p>西立面两座塔楼、三座玫瑰窗（其中南侧玫瑰窗直径约12.9米）、飞扶壁与怪兽排水口（gargouilles）都是标志性元素。内部中殿高约35米，彩色玻璃在阳光下尤为震撼。</p><h3>修复后参观</h3><p>重新开放后，教堂内部可免费参观（特殊活动或登塔可能另行安排）。建议提前查询官网的开放与预约信息，旺季人流较大。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>清晨或傍晚光线柔和，适合在教堂前广场与塞纳河畔拍照；傍晚点灯后氛围更佳。上午进堂参观人流相对较少。</p><h3>交通</h3><p>地铁4号线 Cité 站直达西岱岛；或乘1号线至 Châtelet，步行过桥可达。周边可顺路步行至圣礼拜堂（Sainte-Chapelle）与司法宫。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "重新开放后入堂政策以官方公告为准，留意官网预约要求。",
+        "西岱岛为核心景区，节假日与周末人流密集，注意随身物品。",
+        "登塔或特殊展览可能单独售票，参观前确认。",
+        "教堂为宗教场所，请保持安静、注意着装得体。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-seine-cruise",
+        "france-paris-latin-quarter",
+        "france-paris-museum-route",
+        "france-paris-three-days"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/notre-dame-gallery-01.webp",
+      "alt": "巴黎 巴黎圣母院",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/notre-dame-gallery-02.webp",
+      "alt": "巴黎 巴黎圣母院",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

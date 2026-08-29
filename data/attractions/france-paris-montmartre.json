@@ -9,7 +9,14 @@
   "keywords": "蒙马特,圣心堂,巴黎高地,小丘广场,画家村,巴黎文艺街区",
   "h1": "蒙马特旅游攻略",
   "lead": "蒙马特是巴黎地势最高的街区，圣心堂的白顶与蜿蜒的石板巷构成了巴黎最文艺的城市角落。",
-  "tags": ["街区", "教堂", "文艺", "登高"],
+  "heroImage": "/assets/images/paris/attractions/montmartre-hero.webp",
+  "socialImage": "/assets/images/paris/og/montmartre-og.webp",
+  "tags": [
+    "街区",
+    "教堂",
+    "文艺",
+    "登高"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +36,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["圣心堂内部禁止拍照区域请留意标识。", "台阶广场周边有兜售手环者，礼貌拒绝即可。", "夜间部分小巷灯光昏暗，结伴出行更安心。"]
+      "items": [
+        "圣心堂内部禁止拍照区域请留意标识。",
+        "台阶广场周边有兜售手环者，礼貌拒绝即可。",
+        "夜间部分小巷灯光昏暗，结伴出行更安心。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["france-paris-three-days", "france-paris-eiffel-tower", "france-paris-food"]
+      "refs": [
+        "france-paris-three-days",
+        "france-paris-eiffel-tower",
+        "france-paris-food"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/montmartre-gallery-01.webp",
+      "alt": "巴黎 蒙马特",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/montmartre-gallery-02.webp",
+      "alt": "巴黎 蒙马特",
+      "credit": "Wikimedia Commons"
     }
   ]
 }

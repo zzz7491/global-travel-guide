@@ -1,0 +1,70 @@
+{
+  "id": "france-paris-seine-cruise",
+  "type": "attraction",
+  "country": "france",
+  "city": "paris",
+  "slug": "seine-cruise",
+  "title": "塞纳河游船攻略｜巴黎水上观光与夜游指南",
+  "description": "塞纳河游船攻略：乘船沿巴黎母亲河游览埃菲尔铁塔、 Notre-Dame、卢浮宫与奥赛等核心地标，附登船点、日间与夜游选择、购票与拍照建议。",
+  "keywords": "塞纳河游船,Seine River Cruise,巴黎夜游,塞纳河,巴黎观光,bateaux",
+  "h1": "塞纳河游船攻略",
+  "lead": "塞纳河穿城而过，将巴黎最经典的地标串成一条水上观光线，是省力又浪漫的初访方式。",
+  "heroImage": "/assets/images/paris/attractions/seine-cruise-hero.webp",
+  "socialImage": "/assets/images/paris/og/seine-cruise-og.webp",
+  "tags": [
+    "游船",
+    "河景",
+    "夜游",
+    "休闲",
+    "地标"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>塞纳河（La Seine）全长约777公里，巴黎段约13公里，沿岸集中了众多世界遗产建筑。游船（Bateaux-Mouches、Bateaux Parisiens 等）从埃菲尔铁塔与鸟羽码头（Port de la Conférence）一带出发，沿河经过自由女神像复制品、奥赛博物馆、巴黎圣母院、西岱岛与卢浮宫。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>日间 vs 夜游</h3><p>日间游船采光好、便于拍照；夜游可看铁塔整点闪烁与两岸灯饰，氛围更浪漫。部分游船提供午餐或晚餐套餐，适合纪念日或轻松社交。</p><h3>航线亮点</h3><p>航线多为闭合环线，单程约1小时。上游段看铁塔与埃菲尔，中游过圣母院与西岱岛，下游抵卢浮宫与玛黑方向后折返。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>日落前后登船，可在一次航程中同时收获黄昏与夜景；夏季夜晚较长，傍晚班次最受欢迎。</p><h3>交通</h3><p>登船点多靠近地铁9号线 Alma-Marceau 或 RER C线 Pont de l'Alma；也可从战神广场步行前往。建议提前在线购票选时段。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "夜游旺季班次紧张，提前预订更稳妥。",
+        "甲板风大，夜间备薄外套。",
+        "晚餐套餐船需注意登船时间，提前到达。",
+        "想拍铁塔与游船同框，可在特罗卡德罗岸上等候整点灯光。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "france-paris-eiffel-tower",
+        "france-paris-notre-dame",
+        "france-paris-musee-orsay",
+        "france-paris-romantic-paris"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/seine-cruise-gallery-01.webp",
+      "alt": "巴黎 塞纳河游船",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/seine-cruise-gallery-02.webp",
+      "alt": "巴黎 塞纳河游船",
+      "credit": "Wikimedia Commons"
+    }
+  ]
+}

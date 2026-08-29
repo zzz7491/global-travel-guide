@@ -51,8 +51,8 @@
     }
   ],
   "category": "交通",
-  "image": "/images/kyoto/kyoto-cover-transport-cover-9741b998.webp",
-  "socialImage": "/images/kyoto/kyoto-cover-transport-cover-9741b998.webp",
+  "image": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
+  "socialImage": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80",
   "howto": {
     "name": "京都巴士一日券使用指南",
     "description": "三步学会使用京都巴士一日券，轻松出行不迷路",
@@ -61,7 +61,7 @@
       {
         "name": "购买一日券",
         "text": "在京都站或主要景点巴士中心购买一日券（票价 ¥1200），也可使用 ICOCA 等 IC 卡。",
-        "image": "/images/kyoto/kyoto-cover-transport-cover-9741b998.webp"
+        "image": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=1200&h=630&q=80"
       },
       {
         "name": "上车刷卡",

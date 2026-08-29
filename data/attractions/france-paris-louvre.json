@@ -9,7 +9,14 @@
   "keywords": "卢浮宫,巴黎博物馆,蒙娜丽莎,艺术博物馆,卢浮宫攻略,镇馆之宝",
   "h1": "卢浮宫旅游攻略",
   "lead": "卢浮宫是全球参观人数最多的艺术博物馆，藏品横跨数千年，合理安排动线比盲目刷馆更有效。",
-  "tags": ["博物馆", "艺术", "历史", "室内"],
+  "heroImage": "/assets/images/paris/attractions/louvre-hero.webp",
+  "socialImage": "/assets/images/paris/og/louvre-og.webp",
+  "tags": [
+    "博物馆",
+    "艺术",
+    "历史",
+    "室内"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +36,32 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["《蒙娜丽莎》展室人多拥挤，建议开馆第一时间前往。", "馆内禁止使用闪光灯拍摄。", "存包柜数量有限，随身只带必需品。"]
+      "items": [
+        "《蒙娜丽莎》展室人多拥挤，建议开馆第一时间前往。",
+        "馆内禁止使用闪光灯拍摄。",
+        "存包柜数量有限，随身只带必需品。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["france-paris-museum-route", "france-paris-montmartre", "france-paris-food"]
+      "refs": [
+        "france-paris-museum-route",
+        "france-paris-montmartre",
+        "france-paris-food"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/images/paris/attractions/louvre-gallery-01.webp",
+      "alt": "巴黎 卢浮宫",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "src": "/assets/images/paris/attractions/louvre-gallery-02.webp",
+      "alt": "巴黎 卢浮宫",
+      "credit": "Wikimedia Commons"
     }
   ]
 }

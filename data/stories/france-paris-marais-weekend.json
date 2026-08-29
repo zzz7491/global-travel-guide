@@ -1,0 +1,62 @@
+{
+  "type": "story",
+  "id": "france-paris-marais-weekend",
+  "country": "france",
+  "city": "paris",
+  "slug": "marais-weekend",
+  "title": "玛黑区的周末｜在石板巷里浪费一个下午",
+  "summary": "周六的玛黑区最适合什么都不买地逛。从孚日广场到小众买手店，再到一杯咖啡坐到天黑——巴黎的慢，原来藏在这些巷子里。",
+  "author": {
+    "name": "旅行编辑部",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "街区漫游",
+  "season": "秋季",
+  "days": 1,
+  "highlights": [
+    "孚日广场的红砖拱廊",
+    "玛黑独立买手店橱窗",
+    "犹太熟食店的现烤可颂",
+    "蓬皮杜外观的彩色管道",
+    "巷子里不期而遇的小广场"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "从孚日广场出发",
+      "html": "<p>周六上午的孚日广场（Place des Vosges）还没热闹起来，红砖拱廊围着一棵大树，几只鸽子比人更自在。我绕着拱廊走了一圈，想象两百年前这里也是同样的安静。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "只逛不买的快乐",
+      "html": "<p>玛黑区的买手店一家挨着一家，橱窗比商品更吸引我。我进了一家 vintage 店，什么也没买，却和店主聊了十分钟巴黎的雨季。原来逛街不一定要消费，光是看也是一种享受。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "一杯咖啡坐到天黑",
+      "html": "<p>傍晚在街角咖啡馆点了杯 café crème，露天座正对一个小广场。路人牵狗、骑车、吵架、亲吻，巴黎的日常像默片一样在眼前流过。我忽然不想走了——这个下午，被我成功地浪费得很幸福。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑部创作的示例故事，呈现玛黑区的慢节奏",
+        "孚日广场与玛黑街区为真实可访问的公共空间",
+        "周日玛黑比多数区更热闹，适合安排街区漫步",
+        "建议轻装步行，穿舒适鞋"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "france-paris-marais",
+        "france-paris-shopping",
+        "france-paris-centre-pompidou",
+        "france-paris-culture-etiquette"
+      ]
+    }
+  ],
+  "cover": "/assets/images/paris/stories/marais-weekend-cover.webp",
+  "heroImage": "/assets/images/paris/stories/marais-weekend-cover.webp"
+}

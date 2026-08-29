@@ -1,0 +1,62 @@
+{
+  "type": "story",
+  "id": "france-paris-versailles-day",
+  "country": "france",
+  "city": "paris",
+  "slug": "versailles-day",
+  "title": "凡尔赛的一日｜从城市逃向王室的花园",
+  "summary": "坐RER出城不到一小时，巴黎的喧嚣就被凡尔赛的几何花园取代。那一天，我在镜厅与喷泉之间，读懂了什么叫‘奢华的秩序’。",
+  "author": {
+    "name": "旅行编辑部",
+    "bio": "Global Travel Guide 编辑部"
+  },
+  "travelStyle": "一日远足",
+  "season": "春季",
+  "days": 1,
+  "highlights": [
+    "镜厅的十七扇窗与镜",
+    "国王套房的金饰天花",
+    "法式花园的几何喷泉",
+    "运河边的野餐草坪",
+    "返程列车上的夕阳"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "出城的早晨",
+      "html": "<p>RER C线把我们从巴黎市区带到 Versailles Château Rive Gauche，出站步行十分钟就到宫门。出了地铁，空气明显更干净，节奏也慢了下来。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "镜厅与花园",
+      "html": "<p>镜厅长73米，十七扇拱窗把花园的光引进来，对面的镜子让空间无限延伸。走出宫殿，法式花园用几何把自然驯服得一丝不苟——喷泉、花坛、运河，像一张工整的图纸。我在运河边野餐，看天鹅划过水面。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "回程的满足",
+      "html": "<p>傍晚乘火车返回，车厢里满是同样晒红脸的游客。夕阳从车窗斜进来，我想起花园里那句无声的宣言：秩序本身，也可以是一种奢华。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "写作说明",
+      "items": [
+        "本文为编辑部创作的示例故事，呈现凡尔赛一日行程",
+        "RER C线至 Versailles Château Rive Gauche 为真实通勤路线",
+        "花园音乐喷泉日需单独购票，提前查日期",
+        "园林面积大，建议预留半天以上"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "相关行程",
+      "refs": [
+        "france-paris-versailles",
+        "france-paris-three-days",
+        "france-paris-economy",
+        "france-paris-transport"
+      ]
+    }
+  ],
+  "cover": "/assets/images/paris/stories/versailles-day-cover.webp",
+  "heroImage": "/assets/images/paris/stories/versailles-day-cover.webp"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "france-paris-shopping",
+  "type": "guide",
+  "country": "france",
+  "city": "paris",
+  "slug": "shopping",
+  "title": "巴黎购物指南｜从百货到古着与市集",
+  "description": "巴黎购物指南：香榭丽舍大牌、老佛爷与春天百货、玛黑区独立买手店、圣旺跳蚤市场与打折季（soldes）攻略，附退税与避坑建议。",
+  "keywords": "巴黎购物,香榭丽舍,老佛爷,玛黑区,圣旺跳蚤市场,巴黎打折季,退税",
+  "h1": "巴黎购物指南",
+  "lead": "巴黎既是高级时装的故乡，也有古着市集与独立小店——从一线大牌到二手宝藏，分层消费都能找到乐趣。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "分区推荐",
+      "html": "<h3>大牌与百货</h3><p>香榭丽舍大街集中一线品牌旗舰；歌剧院周边的老佛爷（Galeries Lafayette）与春天百货（Printemps）是免税购物的核心，顶楼常可观景。玛黑区则胜在独立买手店、设计师小铺与古着店。</p><h3>市集与古着</h3><p>圣旺跳蚤市场（Marché aux Puces de Saint-Ouen）是欧洲最大的古董与二手集市之一，适合淘家具、黑胶与 vintage 服饰；需留足时间、注意辨别真伪。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "打折季与时机",
+      "html": "<p>法国法定打折季（soldes）每年两次：冬季约1月初起、夏季约6月底起，各持续数周，是入手时装的最佳窗口。换季前的常规促销力度较小。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "退税与避坑",
+      "html": "<h3>增值税退税</h3><p>非欧盟居民单店消费通常满额可申请退税（TVA），在贴有退税标识的店铺索取退税单，离境时在机场海关盖章办理。保留小票与商品。</p><h3>避坑</h3><p>景区周边纪念品溢价明显；地铁口「免费手绳」等搭讪多为骗局，礼貌拒绝即可。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "百货顶楼可观景兼购物",
+        "soldes 在1月与6月底，力度最大",
+        "退税单离境海关盖章才生效",
+        "圣旺市场早去、留足时间淘货",
+        "景区纪念品溢价高，理性消费"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["france-paris-marais", "france-paris-arc-de-triomphe", "france-paris-culture-etiquette", "france-paris-tips"]
+    }
+  ],
+  "category": "购物"
+}
