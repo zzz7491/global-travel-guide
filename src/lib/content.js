@@ -112,8 +112,12 @@ export function buildBreadcrumb(e, ctx) {
 
 function resolveImagePath(rawPath, baseUrl, fallback, addExt = '.jpg') {
   if (!rawPath) return fallback;
-  // Full URL or absolute path with extension → use directly
-  if (/^https?:\/\//i.test(rawPath) || /^\//.test(rawPath)) {
+  // Remote http(s) URLs are complete and opaque — never append or alter them,
+  // even when they lack a file extension (e.g. Unsplash query strings).
+  // This prevents injecting "-social.jpg"/".jpg" onto query-terminated URLs.
+  if (/^https?:\/\//i.test(rawPath)) return rawPath;
+  // Absolute local path with extension → use directly
+  if (/^\//.test(rawPath)) {
     if (/\.(webp|jpg|jpeg|png)$/i.test(rawPath)) return rawPath;
     return rawPath + addExt;
   }
