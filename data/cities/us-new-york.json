@@ -38,5 +38,5 @@
     { "src": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&q=70", "alt": "纽约 都市街景", "credit": "Unsplash" },
     { "src": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800&q=70", "alt": "纽约 城市街景", "credit": "Unsplash" }
   ],
-  "relatedCities": []
+  "relatedCities": ["uk-london", "france-paris"]
 }

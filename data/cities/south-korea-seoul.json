@@ -66,6 +66,6 @@
       "credit": "Unsplash"
     }
   ],
-  "relatedCities": [],
+  "relatedCities": ["japan-tokyo", "japan-kyoto"],
   "featured": false
 }

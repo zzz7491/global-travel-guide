@@ -38,5 +38,5 @@
     { "src": "https://images.unsplash.com/photo-1473163928189-364b2c4e1135?w=800&q=70", "alt": "伦敦 河畔建筑", "credit": "Unsplash" },
     { "src": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800&q=70", "alt": "伦敦 城市风貌", "credit": "Unsplash" }
   ],
-  "relatedCities": []
+  "relatedCities": ["france-paris", "us-new-york"]
 }
