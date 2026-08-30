@@ -1,0 +1,157 @@
+{
+  "type": "budget",
+  "schemaVersion": 1.1,
+  "id": "china-xian-economy",
+  "country": "china",
+  "city": "xian",
+  "slug": "economy",
+  "title": "西安经济版预算｜低预算西安自由行花费参考 | Global Travel Guide",
+  "description": "西安经济版预算：以地铁与步行为主、免费街区与夜景为核心、泡馍与面食搭配平价住宿的低成本深度行程。含每日花费估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过城墙与兵马俑体验的自由行旅客。",
+  "keywords": "西安预算,西安花费,西安自由行多少钱,西安经济游,西安省钱,西安旅游费用",
+  "h1": "西安经济版预算",
+  "lead": "省钱不省历史 · 用地铁与步行走通城墙与街区，平价也读得懂十三朝古都。",
+  "edition": "economy",
+  "priority": 20,
+  "suitableFor": "预算优先的第一次西安自由行",
+  "seasonNote": "秋季（9-10月）秋高气爽最适合步行登城；春季（4-5月）温和宜人；夏季炎热、冬季干冷，户外景点需留意体感。",
+  "travelTone": "高性价比 · 地铁+步行 · 平价住宿",
+  "cover": {
+    "tag": "ECONOMY EDITION · PRIVATE GUIDEBOOK",
+    "title": ["西安经济版", "路费参考手册"],
+    "subtitle": "省钱不省历史 · 平价也读得懂古都",
+    "info": [
+      { "num": "¥120", "label": "TICKETS 起" },
+      { "num": "¥15", "label": "TRANSIT" },
+      { "num": "3", "label": "DAYS" }
+    ],
+    "badge": "💰 不含往返路费 · 地铁+步行 · 平价住宿",
+    "budget": "¥700–1300/人 起（估算，不含往返）",
+    "bottom": "适合首次到西安、希望控制预算又不愿错过城墙与兵马俑体验的自由行旅客。"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面几条原则，决定了钱花在哪里、怎么省——用更聪明的方式，把西安玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "大把时间留给免费的城墙漫步与街区，付费只选核心" },
+      { "icon": "🧭", "label": "动线优化", "value": "同片区景点集中排布，减少跨区折返" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "大唐不夜城、回民街、大雁塔北广场零门票，体验不打折" },
+      { "icon": "🚇", "label": "交通效率", "value": "地铁+步行+公交，省车费也省时间" },
+      { "icon": "🏯", "label": "深度体验", "value": "城墙、兵马俑、大雁塔一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "古城中轴", "title": "钟楼 · 鼓楼 · 回民街 · 城墙", "spots": ["钟楼", "鼓楼", "回民街", "西安城墙"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "东线历史", "title": "兵马俑 · 华清宫", "spots": ["秦始皇兵马俑", "华清宫"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "南线文化与夜景", "title": "陕历博 · 大雁塔 · 大唐不夜城", "spots": ["陕西历史博物馆", "大雁塔", "大唐不夜城"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "只把钱花在必去付费点，街区与夜景多免费。", "items": ["城墙登城为城区唯一大额门票", "兵马俑为必去大额门票", "大唐不夜城/回民街/大雁塔北广场免费", "其余以步行/公交解决"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含华清宫、登大雁塔与每日1顿正餐，节奏更完整。", "items": ["华清宫门票", "大雁塔登塔", "兵马俑全套", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多付费体验+餐厅正餐，体验优先。", "items": ["华清宫+温泉体验", "大雁塔登塔+夜游", "曲江正餐", "优选位置住宿"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选近地铁站的区域（钟楼/北大街/小寨），减少通勤时间；想安静可住曲江但价格更高、离老城稍远。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "钟楼/北大街周边", "priceLevel": "约 ¥120-260/晚（估算）", "advantage": "价格友好 · 地铁直达 · 性价比高" },
+      { "type": "品质酒店", "area": "小寨/大雁塔(曲江)", "priceLevel": "约 ¥350-700/晚（估算）", "advantage": "近景点 · 餐饮便利 · 适合家庭" },
+      { "type": "曲江民宿/度假酒店", "area": "曲江池/大唐芙蓉园", "priceLevel": "约 ¥500-1000/晚（估算）", "advantage": "环境好 · 度假感强 · 适合慢游" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "古城中轴", "title": "钟楼 · 鼓楼 · 回民街 · 城墙", "sub": "从中心走到城墙，免费街区打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "钟楼与鼓楼", "desc": "可登楼或仅外观，联票通常比单买划算；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1-2小时" }, { "label": "费用", "value": "联票估算（以官方为准）" }], "bestTime": "开门即入", "localTip": "联票比单买省", "tips": "外观也出片" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "回民街简餐", "desc": "肉夹馍、凉皮、泡馍人均 ¥20-45，把预算留作门票或夜景。", "info": [{ "label": "人均", "value": "¥20-45" }], "bestTime": "12:30前", "localTip": "避开主街高价", "tips": "巷子里更实惠" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "西安城墙（南门段）", "desc": "可租自行车环城或步行，城墙全长约 13.7 公里；以现场售票为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "门票+单车估算" }], "bestTime": "下午光线柔", "localTip": "南门设施最全", "tips": "骑行最舒服" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "城墙夕照/夜景（可选登城）", "desc": "城墙灯亮后夜景可免费外观，登城按预算决定；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "外观免费 / 登城另购" }], "bestTime": "日落前", "localTip": "顶层风大保暖", "tips": "只拍外观也出片" }
+      ]
+    },
+    {
+      "day": 2, "theme": "东线历史", "title": "兵马俑 · 华清宫", "sub": "一天东出，秦唐都照顾", "tag": "文化+历史", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "秦始皇兵马俑", "desc": "一号、二、三号坑与陈列厅，建议租导览或请讲解提升体验；以现场售票为准。", "info": [{ "label": "建议时长", "value": "3-4小时" }, { "label": "费用", "value": "门票估算（以官方为准）" }], "bestTime": "开门即入", "localTip": "早到避团队", "tips": "讲解提升体验" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "临潼简餐", "desc": "景区周边面食或小吃人均 ¥30-50，清淡实惠。", "info": [{ "label": "人均", "value": "¥30-50" }], "bestTime": "中午", "localTip": "选择有限", "tips": "附近餐饮有限" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "华清宫", "desc": "唐御汤遗址与园林，与兵马俑同线，可乘公交或旅游专线接驳；以现场售票为准。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "门票估算" }], "bestTime": "下午", "localTip": "与兵马俑顺路", "tips": "温泉可另购" }
+      ]
+    },
+    {
+      "day": 3, "theme": "南线文化与夜景", "title": "陕历博 · 大雁塔 · 大唐不夜城", "sub": "半日馆 + 夜景收尾", "tag": "文化+夜景", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "陕西历史博物馆", "desc": "基本陈列通常免费需提前预约，珍宝馆等另票；以官方预约为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "基本陈列免费 / 特展另购" }], "bestTime": "预约时段", "localTip": "提前预约", "tips": "免费馆最值" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "大雁塔北广场 + 登塔（可选）", "desc": "北广场音乐喷泉免费，登塔看全城另票；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1-2小时" }, { "label": "费用", "value": "喷泉免费 / 登塔另购" }], "bestTime": "傍晚喷泉", "localTip": "喷泉有时段", "tips": "不登塔也够看" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "大唐不夜城", "desc": "步行街夜景免费，演出以当日公告为准。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "19:00后", "localTip": "周末人多", "tips": "夜景免费必去" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 700, "high": 1300, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费街区 + 地铁步行" },
+      "composition": { "门票": "兵马俑+城墙", "交通": "地铁+步行+公交", "餐饮": "小吃+面食+1正餐", "住宿": "青旅/经济酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④是否登塔/温泉影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 1400, "high": 2400, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含华清宫+登塔+每日1正餐" },
+      "composition": { "门票": "兵马俑+华清宫+登塔", "交通": "地铁+偶尔打车", "餐饮": "+每日1特色正餐", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 2400, "high": 4000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 温泉+夜游+优选位置住宿" },
+      "composition": { "门票": "多付费+温泉", "交通": "自由", "餐饮": "+曲江正餐", "住宿": "曲江优选" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（3晚）", "economy": { "low": 360, "high": 780, "note": "青旅/经济·3晚估算" }, "comfort": { "low": 900, "high": 1800, "note": "品质酒店·3晚估算" }, "flexible": { "low": 1200, "high": 2400, "note": "曲江·3晚估算" } },
+      { "cat": "🍽 餐饮（3天）", "economy": { "low": 180, "high": 360, "note": "小吃+面食+1正餐" }, "comfort": { "low": 360, "high": 720, "note": "+每日1特色正餐" }, "flexible": { "low": 720, "high": 1400, "note": "+曲江正餐" } },
+      { "cat": "🚇 交通（3天）", "economy": { "low": 30, "high": 60, "note": "地铁+步行+公交" }, "comfort": { "low": 60, "high": 150, "note": "地铁+偶尔打车" }, "flexible": { "low": 150, "high": 300, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 200, "high": 400, "note": "兵马俑+城墙" }, "comfort": { "low": 400, "high": 700, "note": "兵马俑+华清宫+登塔" }, "flexible": { "low": 700, "high": 1100, "note": "多付费体验" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 50, "high": 150, "note": "小吃/手信弹性" }, "comfort": { "low": 150, "high": 300, "note": "手信+伴手礼" }, "flexible": { "low": 300, "high": 600, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 820, "high": 1750, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 1870, "high": 3670, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 3070, "high": 5800, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "住宿 → 钟楼 → 鼓楼 → 回民街 → 城墙", "transport": "地铁+步行", "estimatedTime": "约步行3-4小时", "costRange": "约¥15/人交通", "foodRange": "约¥50-90/人" },
+    { "day": "Day2", "route": "住宿 → 兵马俑 → 华清宫", "transport": "地铁+公交/旅游专线", "estimatedTime": "约单程1小时", "costRange": "约¥20-40/人交通", "foodRange": "约¥60-100/人" },
+    { "day": "Day3", "route": "住宿 → 陕历博 → 大雁塔 → 大唐不夜城", "transport": "地铁+步行", "estimatedTime": "约半日 + 夜景", "costRange": "约¥15/人交通", "foodRange": "约¥60-100/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外城墙与兵马俑", "alternative": "改看陕西历史博物馆、西安博物院等室内馆，雨天也能充实", "reason": "室内文化密度高，保持节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费登塔与温泉", "alternative": "只走回民街、大唐不夜城、大雁塔北广场与城墙外观，全部免费", "reason": "不花钱也看核心" },
+    { "title": "🧓 老人友好方案", "original": "长时间步行/骑行", "alternative": "城墙以电瓶车代步，兵马俑用景区电瓶车，减少步行", "reason": "降低体力消耗" }
+  ],
+  "savingTips": [
+    { "title": "街区免费", "text": "大唐不夜城、回民街、大雁塔北广场多免费，先填满免费项。" },
+    { "title": "交通卡", "text": "地铁+公交组合，远郊景点用旅游专线，省车费也省时间。" },
+    { "title": "餐饮避坑", "text": "回民街主街高价绕开，巷子里的泡馍与肉夹馍更实惠。" },
+    { "title": "登塔可选", "text": "大雁塔只拍北广场喷泉也出片，登塔按预算决定。" },
+    { "title": "温泉按需", "text": "华清宫温泉另购，非必需可省。" },
+    { "title": "住宿区位", "text": "住钟楼/北大街性价比高，曲江贵但近景点，按重心选。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["陕西历史博物馆需提前预约", "兵马俑以现场售票为准，旺季早到", "华清宫温泉查当日公告", "城墙夜游留意开放时段"] },
+    { "type": "booking", "title": "预订时机", "items": ["钟楼住宿提前1-2个月更优", "高铁票按出行日购买", "热门正餐可提前订"] },
+    { "type": "notice", "title": "行前须知", "items": ["带身份证（住宿/部分票务）", "小额现金+移动支付", "下载导航/地图App", "舒适步行鞋与薄外套", "春秋薄外套、冬季保暖"] }
+  ],
+  "packing": [
+    "身份证", "移动支付（支付宝/微信）", "舒适步行鞋", "薄外套（春秋）", "雨具（偶阵雨）", "防晒（夏季）", "移动电源", "小背包", "保温杯（秋燥）", "润唇膏（冬季干冷）"
+  ],
+  "charts": {
+    "days": ["Day1 古城中轴", "Day2 东线历史", "Day3 南线夜景"],
+    "dailyHours": [6, 7, 6],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [570, 270, 45, 300, 100],
+      "comfort": [1350, 540, 105, 550, 225],
+      "flexible": [1800, 1060, 225, 900, 450]
+    }
+  }
+}

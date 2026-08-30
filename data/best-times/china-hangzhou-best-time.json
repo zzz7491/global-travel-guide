@@ -1,0 +1,37 @@
+{
+  "id": "china-hangzhou-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "hangzhou",
+  "title": "杭州最佳旅行时间｜几月去杭州最好",
+  "description": "杭州最佳旅行时间：春秋最宜人，3-4月桃柳与采茶季、9-11月秋高桂香；夏季湿热、冬季湿冷但人少。",
+  "keywords": "杭州最佳旅行时间,杭州几月去,杭州旅游季节,杭州天气,西湖季节",
+  "h1": "杭州最佳旅行时间",
+  "lead": "杭州四季皆景：3-4月桃柳新绿、春茶初采，9-11月天高云淡、满城桂香，是最舒服的两段。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>气温 12-22℃，西湖桃柳、龙井采茶，游客渐多。</li><li><strong>5-6月：</strong>温暖湿润，偶有梅雨，绿意最浓。</li><li><strong>7-8月：</strong>炎热多雨，体感闷湿，建议早晚活动。</li><li><strong>9-11月：</strong>秋高气爽，桂花季（9-10月）满城飘香，最佳出游窗口。</li><li><strong>12-2月：</strong>湿冷少雪，游客少、节奏慢，适合清静游。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": [
+        "春秋早晚温差大，备薄外套与叠穿",
+        "采茶季（春）龙井村人最多，想清静错峰",
+        "梅雨季随身带伞，湖岸湿滑",
+        "国庆、五一西湖周边拥堵，早出晚归更从容"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-hangzhou-west-lake",
+        "china-hangzhou-two-day-tea",
+        "china-hangzhou-first-time"
+      ]
+    }
+  ]
+}

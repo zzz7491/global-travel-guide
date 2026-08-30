@@ -1,0 +1,37 @@
+{
+  "id": "china-xian-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "xian",
+  "title": "西安最佳旅行时间｜几月去西安最好",
+  "description": "西安最佳旅行时间：春秋最宜人，4-5月与9-10月凉爽少雨、适合步行与登城；夏季炎热、冬季干冷但雪景少见。",
+  "keywords": "西安最佳旅行时间,西安几月去,西安旅游季节,西安天气,西安季节",
+  "h1": "西安最佳旅行时间",
+  "lead": "西安四季分明：4-5月与9-10月天高云淡最适合步行登城与逛街区，夏冬各有极端但历史景点多为户外需留意。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-4月：</strong>气温 10-22℃，春暖、游客渐多，适合城墙与街区。</li><li><strong>5-6月：</strong>温暖舒适，偶有干热风。</li><li><strong>7-8月：</strong>炎热暴晒，体感 35℃+，户外景点需早出晚归。</li><li><strong>9-10月：</strong>秋高气爽，最佳出游窗口（避开国庆高峰）。</li><li><strong>11-2月：</strong>干冷，0-10℃常见，雪少但风大。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": [
+        "春秋登城墙最舒服，备薄外套",
+        "夏季户外暴晒，兵马俑/城墙早出晚归",
+        "冬季风大干冷，保暖优先",
+        "国庆、五一核心区拥堵，错峰出行"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-xian-city-wall",
+        "china-xian-two-day-history",
+        "china-xian-first-time"
+      ]
+    }
+  ]
+}

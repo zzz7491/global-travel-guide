@@ -1,0 +1,156 @@
+{
+  "type": "budget",
+  "schemaVersion": 1.1,
+  "id": "china-hangzhou-economy",
+  "country": "china",
+  "city": "hangzhou",
+  "slug": "economy",
+  "title": "杭州经济版预算｜低预算杭州自由行花费参考 | Global Travel Guide",
+  "description": "杭州经济版预算：以地铁与步行为主、免费湖区为核心、茶点与小馆搭配平价住宿的低成本深度行程。含每日花费估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过西湖与茶山体验的自由行旅客。",
+  "keywords": "杭州预算,杭州花费,杭州自由行多少钱,杭州经济游,杭州省钱,杭州旅游费用",
+  "h1": "杭州经济版预算",
+  "lead": "省钱不省西湖 · 用步行与公交串起湖区与山林，平价也出深度。",
+  "edition": "economy",
+  "priority": 20,
+  "suitableFor": "预算优先的第一次杭州自由行",
+  "seasonNote": "春季（3-4月）采茶季与秋季（9-11月）桂香季气候最舒适，最适合步行漫游；夏季湿热、冬季湿冷，体感影响但不影响核心体验。",
+  "travelTone": "高性价比 · 公交+步行 · 平价住宿",
+  "cover": {
+    "tag": "ECONOMY EDITION · PRIVATE GUIDEBOOK",
+    "title": ["杭州经济版", "路费参考手册"],
+    "subtitle": "省钱不省西湖 · 平价也出深度",
+    "info": [
+      { "num": "¥500", "label": "TICKETS 起" },
+      { "num": "¥15", "label": "TRANSIT" },
+      { "num": "3", "label": "DAYS" }
+    ],
+    "badge": "💰 不含往返路费 · 公交+步行 · 平价住宿",
+    "budget": "¥500–1000/人 起（估算，不含往返）",
+    "bottom": "适合首次到杭州、希望控制预算又不愿错过西湖与茶山体验的自由行旅客。"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面几条原则，决定了钱花在哪里、怎么省——用更聪明的方式，把杭州玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "大把时间花在免费湖区，付费项目只选核心" },
+      { "icon": "🧭", "label": "动线优化", "value": "同片区景点集中排布，减少跨区折返" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "西湖环线、苏堤、白堤零门票，体验不打折" },
+      { "icon": "🚇", "label": "交通效率", "value": "地铁+步行+公共自行车，省车费也省时间" },
+      { "icon": "🏞️", "label": "深度体验", "value": "西湖、灵隐、龙井一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "西湖环线", "title": "断桥 · 白堤 · 苏堤", "spots": ["断桥", "孤山", "平湖秋月", "苏堤", "雷峰塔"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "山林与茶", "title": "灵隐 · 龙井 · 九溪", "spots": ["灵隐寺", "飞来峰", "龙井村", "九溪烟树"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "湿地或运河", "title": "西溪 或 拱宸桥", "spots": ["西溪湿地", "拱宸桥", "桥西街区"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "只把钱花在必去付费点，湖区与街区多免费。", "items": ["西湖环线免费", "灵隐飞来峰+香花券为唯一大额门票", "雷峰塔登塔可选", "其余以步行/公交解决"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含登塔、西溪船票等付费体验，节奏更完整。", "items": ["雷峰塔登塔", "西溪摇橹/电瓶船", "灵隐全套", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多付费体验+餐厅正餐，体验优先。", "items": ["西溪船+龙井茶体验", "雷峰塔登塔+夜游", "湖滨正餐", "优选位置住宿"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选近地铁站的区域（湖滨/武林/龙翔桥），减少通勤时间；想安静可住龙井但需接受交通不便。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "武林广场/东站周边", "priceLevel": "约 ¥150-300/晚（估算）", "advantage": "价格友好 · 地铁直达 · 性价比高" },
+      { "type": "品质酒店", "area": "湖滨/龙翔桥", "priceLevel": "约 ¥400-800/晚（估算）", "advantage": "步行到西湖 · 餐饮便利 · 省通勤" },
+      { "type": "茶村民宿", "area": "龙井/满觉陇", "priceLevel": "约 ¥500-1000/晚（估算）", "advantage": "安静茶山 · 度假感强 · 适合慢游" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "西湖环线", "title": "断桥 · 白堤 · 苏堤 · 雷峰塔", "sub": "从北线走到南线，免费湖区打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "断桥—白堤—孤山", "desc": "沿白堤步行，经平湖秋月、西泠桥，看湖光与孤山林木，全程免费。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "免费" }], "bestTime": "清晨人少", "localTip": "孤山馆区多需预约", "tips": "免费湖区是省钱核心" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "湖滨简餐", "desc": "湖滨小吃或面馆人均 ¥25-45，把预算留作晚餐或船票。", "info": [{ "label": "人均", "value": "¥25-45" }], "bestTime": "12:30前", "localTip": "避开景区高价餐厅", "tips": "面馆与小吃最实惠" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "苏堤漫步", "desc": "苏堤南北向步行约 2.8 公里，桃柳夹道；体力好可骑公共自行车。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午光线柔", "localTip": "绿道禁机动车", "tips": "步行或骑行最舒服" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "雷峰塔夕照（可选登塔）", "desc": "塔下免费仰望，登塔看「雷峰夕照」另购票；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "外观免费 / 登塔另购" }], "bestTime": "日落前", "localTip": "顶层风大保暖", "tips": "只拍外观也能出片" }
+      ]
+    },
+    {
+      "day": 2, "theme": "山林与茶", "title": "灵隐 · 龙井 · 九溪", "sub": "一天进山，寺与茶山都照顾", "tag": "文化+自然", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "灵隐寺与飞来峰", "desc": "入灵隐通常先过飞来峰景区，再补香花券进寺；以现场售票为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "飞来峰票+香花券（估算）" }], "bestTime": "开门即入", "localTip": "早到避团队", "tips": "两道票分开买" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "天竺/灵隐素面", "desc": "寺周边素面或茶点人均 ¥30-50，清淡实惠。", "info": [{ "label": "人均", "value": "¥30-50" }], "bestTime": "中午", "localTip": "素面现做", "tips": "附近餐饮选择有限" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "龙井村—九溪", "desc": "午后转龙井看茶园，续走九溪烟树溪谷；石阶多，穿防滑鞋。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "免费" }], "bestTime": "下午阴凉", "localTip": "购茶随缘", "tips": "九溪防蚊防滑" }
+      ]
+    },
+    {
+      "day": 3, "theme": "湿地或运河", "title": "西溪 或 拱宸桥", "sub": "二选一，清静收尾", "tag": "慢游", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "西溪湿地（或拱宸桥）", "desc": "西溪以船与绿道为主，船票另购；拱宸桥看桥西街区与博物馆，多数展馆免费。", "info": [{ "label": "建议时长", "value": "3-4小时" }, { "label": "费用", "value": "西溪船票另购 / 运河多免费" }], "bestTime": "上午人少", "localTip": "运河展馆多周一闭", "tips": "二选一即可，别贪多" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "返程前闲逛", "desc": "湖滨或街区买茶点手信，预留去车站/机场时间。", "info": [{ "label": "建议时长", "value": "1-2小时" }], "bestTime": "避开高峰", "localTip": "预留接驳", "tips": "别卡点赶车" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 500, "high": 1000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费湖区 + 公交步行" },
+      "composition": { "门票": "灵隐为主", "交通": "地铁+步行+单车", "餐饮": "小吃+面馆+1正餐", "住宿": "青旅/经济酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④是否登塔/乘船影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 1000, "high": 1800, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含登塔+西溪船+每日1正餐" },
+      "composition": { "门票": "灵隐+登塔+船", "交通": "地铁+偶尔打车", "餐饮": "+每日1特色正餐", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 1800, "high": 3000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 茶体验+夜游+优选位置住宿" },
+      "composition": { "门票": "多付费", "交通": "自由", "餐饮": "+湖滨正餐", "住宿": "湖滨/茶村优选" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（3晚）", "economy": { "low": 450, "high": 900, "note": "青旅/经济·3晚估算" }, "comfort": { "low": 1200, "high": 2400, "note": "品质酒店·3晚估算" }, "flexible": { "low": 1500, "high": 3000, "note": "湖滨/茶村·3晚估算" } },
+      { "cat": "🍽 餐饮（3天）", "economy": { "low": 150, "high": 300, "note": "小吃+面馆+1正餐" }, "comfort": { "low": 300, "high": 600, "note": "+每日1特色正餐" }, "flexible": { "low": 600, "high": 1200, "note": "+湖滨正餐" } },
+      { "cat": "🚇 交通（3天）", "economy": { "low": 30, "high": 60, "note": "地铁+步行+单车" }, "comfort": { "low": 60, "high": 150, "note": "地铁+偶尔打车" }, "flexible": { "low": 150, "high": 300, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 75, "high": 200, "note": "灵隐+可选登塔" }, "comfort": { "low": 200, "high": 400, "note": "灵隐+登塔+西溪船" }, "flexible": { "low": 400, "high": 700, "note": "多付费体验" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 50, "high": 150, "note": "茶点/手信弹性" }, "comfort": { "low": 150, "high": 300, "note": "手信+伴手礼" }, "flexible": { "low": 300, "high": 600, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 755, "high": 1610, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 1910, "high": 3850, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 2950, "high": 5800, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "住宿 → 断桥 → 白堤 → 苏堤 → 雷峰塔", "transport": "地铁+步行", "estimatedTime": "约步行3-4小时", "costRange": "约¥15/人交通", "foodRange": "约¥60-90/人" },
+    { "day": "Day2", "route": "住宿 → 灵隐 → 龙井 → 九溪", "transport": "公交+步行", "estimatedTime": "约公交40分钟", "costRange": "约¥20/人交通", "foodRange": "约¥70-110/人" },
+    { "day": "Day3", "route": "住宿 → 西溪/拱宸桥 → 返程", "transport": "地铁+步行", "estimatedTime": "约半日", "costRange": "约¥15/人交通", "foodRange": "约¥50-90/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外湖区与茶山", "alternative": "改看浙江省博物馆、中国丝绸博物馆等室内馆，或灵隐寺内慢游，雨天也能充实", "reason": "室内文化密度高，保持节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费登塔与游船", "alternative": "只走西湖环线、白堤、苏堤与拱宸桥街区，全部免费", "reason": "不花钱也看核心湖景" },
+    { "title": "🧓 老人友好方案", "original": "长时间步行", "alternative": "环湖以电瓶车/游船代步，九溪改短走，减少爬坡", "reason": "降低体力消耗" }
+  ],
+  "savingTips": [
+    { "title": "湖区免费", "text": "西湖环线、白堤、苏堤、拱宸桥街区多免费，先填满免费项。" },
+    { "title": "交通卡", "text": "地铁+公共自行车组合，远郊景点用公交，省车费也省时间。" },
+    { "title": "餐饮避坑", "text": "景区高价餐厅绕开，选湖滨小吃、面馆与素面更实惠。" },
+    { "title": "登塔可选", "text": "雷峰塔只拍外观也出片，登塔按预算决定。" },
+    { "title": "船票按需", "text": "西溪船按船计费，先定线路再买，不必全程船游。" },
+    { "title": "住宿区位", "text": "住武林/东站性价比高，湖滨贵但省通勤，按重心选。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["博物馆孤山馆区等需提前预约", "灵隐以现场售票为准，旺季早到", "雷峰塔登塔随季节变动", "西溪船班查当日公告"] },
+    { "type": "booking", "title": "预订时机", "items": ["湖滨住宿提前1-2个月更优", "高铁票按出行日购买", "热门正餐可提前订"] },
+    { "type": "notice", "title": "行前须知", "items": ["带身份证（住宿/部分票务）", "小额现金+移动支付", "下载导航/地图App", "舒适步行鞋与雨具", "春秋薄外套"] }
+  ],
+  "packing": [
+    "身份证", "移动支付（支付宝/微信）", "舒适步行鞋", "薄外套（春秋）", "雨具（梅雨/阵雨）", "防晒（夏季）", "公共自行车App", "移动电源", "小背包", "防蚊（九溪/夏季）"
+  ],
+  "charts": {
+    "days": ["Day1 西湖环线", "Day2 山林茶", "Day3 湿地运河"],
+    "dailyHours": [6, 6, 5],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [680, 220, 45, 140, 100],
+      "comfort": [1800, 450, 105, 300, 225],
+      "flexible": [2250, 900, 225, 550, 450]
+    }
+  }
+}
