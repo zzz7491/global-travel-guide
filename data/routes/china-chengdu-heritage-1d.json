@@ -1,0 +1,50 @@
+{
+  "id": "china-chengdu-heritage-1d",
+  "type": "route",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "heritage-1d",
+  "title": "都江堰+青城山 世界遗产1日游路线｜水利与道教名山",
+  "description": "都江堰+青城山世界遗产1日游：上午都江堰水利工程、下午青城山前山道观，附城际交通与动线建议。",
+  "keywords": "都江堰青城山,世界遗产一日游,成都周边,都江堰攻略,青城山攻略,成都一日游",
+  "h1": "都江堰+青城山 世界遗产1日游路线",
+  "lead": "一天串起两座世界遗产：千年水利都江堰与道教名山青城山，山水与人文一次收齐。",
+  "days": 1,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>都江堰与青城山同处都江堰市，2000 年共同列入世界文化遗产。本路线以城际高铁为骨架，上午都江堰、下午青城山前山，当天往返成都。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "上午 都江堰：鱼嘴与宝瓶口",
+      "html": "<h3>动线与区域逻辑</h3><p>成都犀浦乘城际至都江堰站，转公交到景区；伏龙观看宝瓶口→鱼嘴分水堤→飞沙堰→安澜索桥→二王庙，约 3 小时。</p><h3>建议</h3><p>请讲解或租导览，理解水利原理更值；夏季水量大最壮观。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "下午 青城山前山：道观与红墙",
+      "html": "<h3>动线与区域逻辑</h3><p>都江堰乘公交/打车至青城山前山门，观光车+索道上山，游建福宫、天师洞、上清宫，约 3-4 小时；返程城际回成都。</p><h3>节奏提示</h3><p>后山徒步较长，一日游选前山更从容；末班城际留意时间。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "城际班次密集但旺季满座，建议提前购票。",
+        "山区湿滑，备防滑鞋与雨具。",
+        "留意末班高铁，避免延误返程。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-dujiangyan",
+        "china-chengdu-qingchengshan",
+        "china-chengdu-transport",
+        "china-chengdu-best-time"
+      ]
+    }
+  ],
+  "image": "https://picsum.photos/seed/china-chengdu-heritage-1d-cover/1200/800"
+}

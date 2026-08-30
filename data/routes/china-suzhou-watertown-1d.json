@@ -1,0 +1,50 @@
+{
+  "id": "china-suzhou-watertown-1d",
+  "type": "route",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "watertown-1d",
+  "title": "水乡古镇1日游路线｜周庄/同里江南水乡行程",
+  "description": "苏州水乡古镇1日游：周庄或同里水乡，含往返交通、古镇动线与游船建议，适合作为苏州行程的半日/一日延展。",
+  "keywords": "苏州水乡,周庄一日游,同里一日游,苏州周边水乡,江南水乡路线",
+  "h1": "水乡古镇1日游路线",
+  "lead": "从苏州市区出发，一日往返周庄或同里，在碧水石桥与明清老宅间体验最地道的江南水乡。",
+  "days": 1,
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>苏州周边水乡众多，周庄（中国第一水乡）与同里（退思园为世界遗产）最经典。本路线以周庄为主示例，同里可二选一或各半日，均适合从苏州市区当日往返。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "Day 1 市区 → 周庄 → 返程",
+      "html": "<h3>动线与区域逻辑</h3><p>早班大巴/自驾前往周庄（约 1 小时）；上午游双桥、沈厅，午后可乘摇橹船穿巷；傍晚返程苏州市区。</p><h3>时间安排</h3><p>建议 8-9 点出发、17 点前返程，避开晚高峰；若想拍晨雾或夜景可住宿一晚。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "同里备选",
+      "html": "<h3>同里替代方案</h3><p>同里距苏州更近（约 30-40 分钟），退思园为世界遗产，三桥与明清街市更紧凑，适合时间有限者。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "古镇联票含主要宅第展馆，价格约 100 元（估算），以官方为准。",
+        "往返建议预留充足时间，末班长途车较早。",
+        "节假日水巷拥挤，保管好随身物品。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-zhouzhuang",
+        "china-suzhou-transport",
+        "china-suzhou-food",
+        "china-suzhou-economy"
+      ]
+    }
+  ],
+  "image": "https://picsum.photos/seed/china-suzhou-watertown/1200/800"
+}

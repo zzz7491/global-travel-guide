@@ -1,0 +1,65 @@
+{
+  "id": "china-chengdu-dujiangyan",
+  "type": "attraction",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "dujiangyan",
+  "title": "都江堰旅游攻略｜千年水利世界遗产参观指南",
+  "description": "都江堰旅游攻略：鱼嘴、飞沙堰、宝瓶口三大工程与离堆公园动线，附交通与参观建议。",
+  "keywords": "都江堰,都江堰景区,都江堰攻略,世界遗产,水利工程,成都周边",
+  "h1": "都江堰旅游攻略",
+  "lead": "两千多年仍在灌溉成都平原的活态水利工程，鱼嘴分水、飞沙堰泄洪，堪称古代工程奇迹。",
+  "tags": [
+    "世界遗产",
+    "水利工程",
+    "历史",
+    "亲子"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>都江堰位于成都平原西部的岷江上，由战国时期李冰父子主持修建，由鱼嘴、飞沙堰、宝瓶口三大主体工程组成，至今仍发挥灌溉作用，2000 年列入世界文化遗产。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>鱼嘴分水堤、飞沙堰泄洪道、宝瓶口引水口构成完整水利体系；离堆公园、二王庙、安澜索桥串联成线。</p><h3>动线建议</h3><p>由景区入口经伏龙观看宝瓶口，沿内江至鱼嘴与飞沙堰，过安澜索桥至二王庙，全程约 3-4 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>与青城山同安排一日游最划算：上午都江堰、下午青城山。夏季水量大时观景最壮观。</p><h3>交通</h3><p>成都犀浦站乘城际/高铁至都江堰站（约 30-40 分钟），转公交或打车到景区。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "景区依江而建，注意安全，看护好儿童。",
+        "雨季与汛期水位高，关注景区开放提示。",
+        "建议请讲解或租语音导览，理解工程原理更值。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-qingchengshan",
+        "china-chengdu-heritage-1d",
+        "china-chengdu-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-chengdu-dujiangyan-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-dujiangyan-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-dujiangyan-1/1200/800",
+      "alt": "都江堰 鱼嘴分水堤"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-dujiangyan-2/1200/800",
+      "alt": "都江堰 安澜索桥"
+    }
+  ]
+}

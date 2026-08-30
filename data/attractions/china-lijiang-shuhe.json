@@ -1,0 +1,65 @@
+{
+  "id": "china-lijiang-shuhe",
+  "type": "attraction",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "shuhe",
+  "title": "束河古镇旅游攻略｜清静纳西古镇与茶马遗韵指南",
+  "description": "束河古镇旅游攻略：比大研更安静的纳西古镇、九鼎龙潭与四方听音广场，附慢游动线与拍照点，助你安排束河行程。",
+  "keywords": "束河古镇,丽江束河,九鼎龙潭,茶马古道,纳西古镇",
+  "h1": "束河古镇旅游攻略",
+  "lead": "曾是茶马古道重镇的束河，比大研更清静，泉水绕村、柳树拂岸，是慢下来的纳西小镇。",
+  "tags": [
+    "古镇",
+    "茶马古道",
+    "慢游",
+    "摄影"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>束河古镇位于丽江古城西北约 6 公里，是纳西先民最早聚居地之一，也是茶马古道上的重要集镇，2005 年列入世界遗产丽江古城的组成部分。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p>九鼎龙潭泉水清澈、经年不竭；四方听音广场常有民族歌舞；青龙桥与沿河老街保留质朴生活气息。</p><h3>动线建议</h3><p>从古镇入口沿主街慢行至龙潭，午后咖啡馆或客栈院中歇脚，傍晚看远山轮廓。可与大研古城同日、分上下半场游览。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>半天即可从容游完核心区；想体验民宿可住一晚，清晨与夜晚最静。</p><h3>交通</h3><p>从丽江古城乘公交或打车约 20 分钟可达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "古镇石板路不平，行李箱不便、建议轻装。",
+        "部分体验项目（骑马、旅拍）先问清价格。",
+        "高原日照强，注意保暖与防晒。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-oldtown",
+        "china-lijiang-accommodation",
+        "china-lijiang-oldtown-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-lijiang-shuhe/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-shuhe-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-shuhe-01/1200/800",
+      "alt": "束河古镇街巷"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-shuhe-02/1200/800",
+      "alt": "九鼎龙潭"
+    }
+  ]
+}

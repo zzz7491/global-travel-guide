@@ -1,0 +1,78 @@
+{
+  "id": "china-chengdu-transport",
+  "type": "guide",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "transport",
+  "title": "成都交通指南｜地铁公交与机场高铁全攻略",
+  "description": "成都交通指南：地铁线网、公交与机场/高铁接驳、都江堰青城山城际出行，助你高效安排成都出行。",
+  "keywords": "成都交通,成都地铁,成都公交,成都机场,成都高铁,成都出行",
+  "h1": "成都交通指南",
+  "lead": "成都地铁覆盖核心景点，市区靠地铁+步行即可；远郊景点用城际高铁接驳最省心。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>成都地铁已开通多条线路，覆盖春熙路、宽窄巷子、武侯祠、成都东站等主要节点；市区景点密集区辅以公交与步行。掌握地铁动线，出行效率很高。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>地铁与公交</h3><p>地铁单程约 2-7 元（估算），按里程计费；公交多 2 元（估算）。天府通/手机乘车码通用，备零钱或用交通卡。</p><h3>机场往返</h3><p>双流机场乘地铁 10 号线直达市区（约 30-40 分钟，估算）；天府国际机场较远，可乘地铁 18 号线或机场大巴。</p><h3>城际/高铁</h3><p>去都江堰、青城山在犀浦站乘城际/高铁（约 30-40 分钟，估算）；去周边用成都东/南站高铁。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>高峰地铁拥挤，尽量错峰；景区周边打车易拥堵，优先地铁；城际热门时段需提前购票，旺季更早。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>动线策略</h3><p>同区景点排同一天（市中心：宽窄巷子+人民公园+锦里；北郊：熊猫基地）；远郊都江堰/青城山用一日游，减少跨区折返。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "地铁单程约 2-7 元（估算）",
+        "双流机场地铁 10 号线直达市区",
+        "犀浦乘城际去都江堰/青城山约 30-40 分钟",
+        "手机乘车码通用，备零钱"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-heritage-1d",
+        "china-chengdu-economy",
+        "china-chengdu-tips"
+      ]
+    }
+  ],
+  "category": "交通",
+  "image": "https://picsum.photos/seed/china-chengdu-transport-cover/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-transport-og/1200/800",
+  "howto": {
+    "name": "成都地铁乘车指南",
+    "description": "三步学会用手机乘车码乘坐成都地铁，轻松出行不迷路",
+    "totalTime": "PT10M",
+    "steps": [
+      {
+        "name": "开通乘车码",
+        "text": "在支付宝/微信或天府通 App 开通成都地铁乘车码，绑定支付方式。",
+        "image": "https://picsum.photos/seed/china-chengdu-transport-1/1200/800"
+      },
+      {
+        "name": "进站扫码",
+        "text": "闸机处出示乘车码扫码进站；出站再次扫码，费用按里程自动扣除。",
+        "image": ""
+      },
+      {
+        "name": "规划换乘",
+        "text": "用地图 App 查询线路，宽窄巷子（4号线）、春熙路（2/3号线）、熊猫大道（3号线）为主要换乘节点。",
+        "image": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "china-zhangjiajie-huanglong",
+  "type": "attraction",
+  "country": "china",
+  "city": "zhangjiajie",
+  "slug": "huanglong",
+  "title": "黄龙洞旅游攻略｜定海神针与地下河游船怎么逛",
+  "description": "张家界黄龙洞旅游攻略：喀斯特溶洞的分层动线、定海神针石笋与响水河地下河游船，含门票估算与雨天替代建议。",
+  "keywords": "黄龙洞,张家界黄龙洞,定海神针,响水河,地下河游船,喀斯特溶洞",
+  "h1": "黄龙洞旅游攻略",
+  "lead": "武陵源脚下的大型喀斯特溶洞，钟乳石群与地下河游船组合，是张家界最可靠的雨天备选方案。",
+  "tags": [
+    "溶洞",
+    "喀斯特",
+    "地下河",
+    "雨天可去"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>黄龙洞位于武陵源区，是张家界规模最大的溶洞景区，洞内分多层展开，包含旱洞与水洞两类空间，沿途有石笋、石柱、石幔与钟乳石群。门票约 100 元/人（估算，含洞内游船），全程为修好的步道与楼梯，光线由灯光系统提供。因全程在洞内，是雨天与酷暑天最稳的替代行程。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>定海神针</h3><p>洞内标志性石笋，高约 19.2 米、最细处直径很小，是黄龙洞的名片，已被单独保护并投保，讲解会在此停留。</p><h3>响水河地下河</h3><p>洞内水洞段乘小船缓行，两侧岩壁贴近水面，是与旱洞完全不同的空间感受。</p><h3>龙宫与音乐厅</h3><p>石钟乳最密集的厅堂，穹顶高阔、石幔层叠，是洞内体量最大的几处空间。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>完整游览约 1.5-2 小时，上下楼梯较多但强度不高。可与宝峰湖组成半日 + 半日，或作为森林公园行程中被雨困住时的临时替换。</p><h3>洞内条件</h3><p>洞内常年约 16-18℃、湿度高，夏季进洞需加一件外套；台阶湿滑，穿防滑鞋。</p><h3>交通</h3><p>景区位于武陵源区索溪峪一带，距武陵源镇约 10 公里，班车或打车约 20 分钟。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "洞内禁止触摸钟乳石，部分区段禁用闪光灯与三脚架。",
+        "游船按批次发船，团队高峰期排队较长，建议早场进洞。",
+        "地面湿滑且台阶密集，行李箱与婴儿车不便通行。",
+        "洞内信号弱，同行者约好集合点。",
+        "与森林公园门票不通用，需单独购票。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-zhangjiajie-baofeng",
+        "china-zhangjiajie-glass",
+        "china-zhangjiajie-forest",
+        "china-zhangjiajie-summer"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-huanglong-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-huanglong-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-huanglong-cave/1200/800",
+      "alt": "黄龙洞钟乳石与石柱群"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-huanglong-river/1200/800",
+      "alt": "黄龙洞地下河游船段"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "china-chengdu-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "chengdu",
+  "title": "成都最佳旅行时间｜几月去成都最好",
+  "description": "成都最佳旅行时间：3-5月与9-11月气候最舒适，熊猫活跃、适合慢游；夏季湿热、冬季阴冷少人，全年各有韵味。",
+  "keywords": "成都最佳旅行时间,成都几月去,成都旅游季节,成都春秋,成都天气",
+  "h1": "成都最佳旅行时间",
+  "lead": "成都春秋最宜人：气温舒适、熊猫在户外，茶馆坐得住，是慢游的黄金窗口。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-5月：</strong>春季（3-5月）气温 10-28℃，舒适宜人，熊猫户外活跃、桃花与油菜花次第开放，适合城市慢游与近郊赏花。</li><li><strong>6-8月：</strong>夏季湿热（约 25-35℃），多雷阵雨，但青城山避暑、室内火锅与茶馆照样精彩。</li><li><strong>9-11月：</strong>秋季（9-11月）天高气爽（约 15-28℃），公认最佳出游窗口，都江堰与青城山层林染金。</li><li><strong>12-2月：</strong>冬季阴冷（约 5-12℃）、少雨雪，人流最少，温泉与火锅最治愈。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["3-5月与9-11月最舒适，优先安排。", "熊猫基地上午最活跃，务必开园即入并提前预约。", "夏季备雨具与防暑，青城山后山避暑佳。", "节假日（五一、国庆）人多有涨价为常态，提前规划。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["china-chengdu-panda-base", "china-chengdu-heritage-1d", "china-chengdu-tips", "china-chengdu-transport"]
+    }
+  ]
+}

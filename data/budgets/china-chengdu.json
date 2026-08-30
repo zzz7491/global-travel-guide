@@ -1,0 +1,192 @@
+{
+  "type": "budget",
+  "schemaVersion": "1.1",
+  "id": "china-chengdu-budget",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "economy",
+  "title": "成都经济版预算方案｜高性价比成都4日游",
+  "description": "成都经济版预算方案：日均约¥400-800的高性价比配置，青旅+地铁+小吃组合，覆盖熊猫、古街与世界遗产全部核心体验。",
+  "keywords": "成都经济游,成都省钱攻略,成都背包客,成都预算,成都自由行省钱",
+  "h1": "成都经济版预算方案",
+  "lead": "省钱不省精彩 · 用最少的钱玩最地道的成都",
+  "edition": "economy",
+  "image": "https://picsum.photos/seed/china-chengdu-budget-cover/1200/800",
+  "priority": 10,
+  "days": 4,
+  "suitableFor": "预算有限但希望体验成都精华的旅行者",
+  "seasonNote": "春秋最舒适价格平稳；夏季湿热但人流少；冬季阴冷住宿更低，火锅最治愈。",
+  "travelTone": "高性价比 · 自助游 · 深度体验",
+  "cover": {
+    "tag": "ECONOMY BUDGET PLAN",
+    "title": ["成都经济版", "4日预算方案"],
+    "subtitle": "省钱不省精彩",
+    "info": [
+      { "num": "¥400-800", "label": "元/天" },
+      { "num": "4", "label": "DAYS" },
+      { "num": "8+", "label": "核心点" }
+    ],
+    "badge": "不含往返 · 地铁出行 · 平价住宿",
+    "bottom": "适合预算有限但希望深度体验成都的旅行者。",
+    "season": "🌸 春秋旺季 · 冬夏淡季更划算",
+    "budget": "约 ¥1600–3300 / 人·4天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？五条原则让成都也能玩出高性价比：",
+    "items": [
+      { "icon": "💴", "label": "住宿控费", "value": "青旅/经济酒店为主，减少住宿支出" },
+      { "icon": "🚇", "label": "交通优化", "value": "地铁 + 城际，日均交通费控制在¥30以内" },
+      { "icon": "🍜", "label": "餐饮策略", "value": "小吃+简餐，正餐留1顿火锅" },
+      { "icon": "🏛️", "label": "门票精选", "value": "免费街区公园 + 付费只留最值得的3-4处" },
+      { "icon": "🎯", "label": "体验优先", "value": "把节省下来的钱留给真正值得的体验" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "熊猫与老城", "title": "熊猫基地 → 武侯祠 → 锦里", "spots": ["熊猫基地(¥55)", "武侯祠(¥50)", "锦里(免费)"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "慢城院落", "title": "宽窄巷子 → 人民公园 → 杜甫草堂", "spots": ["宽窄巷子(免费)", "人民公园茶(¥20-40)", "杜甫草堂(¥50)"], "ticketLabel": "低价" },
+    { "day": 3, "theme": "世界遗产", "title": "都江堰 → 青城山", "spots": ["都江堰(¥80)", "青城山(¥90)"], "ticketLabel": "中档" },
+    { "day": 4, "theme": "市井美食", "title": "玉林 → 奎星楼街 → 春熙路", "spots": ["玉林(免费)", "串串(¥60-100)", "春熙路(免费)"], "ticketLabel": "低价" }
+  ],
+  "days": [
+    {
+      "day": 1, "theme": "熊猫与老城", "title": "熊猫基地 · 武侯祠 · 锦里", "sub": "从熊猫开始，古街收尾", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "清晨", "category": "scenic", "categoryLabel": "景点", "title": "熊猫基地", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "开园即入看幼年熊猫，门票约 ¥55（估算）。", "info": [{ "label": "建议时长", "value": "3-4小时" }, { "label": "费用", "value": "约¥55" }], "bestTime": "开园即入", "photoSpot": "幼年熊猫别墅", "reservation": "建议提前实名预约", "localTip": "9点后人流上升", "tips": "门票值得，务必早到", "alternative": "雨天观感下降" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "武侯祠与红墙", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "三国文化核心，红墙竹影必拍，门票约 ¥50（估算）。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "约¥50" }], "bestTime": "下午至傍晚", "photoSpot": "红墙夹道", "reservation": "无需预约", "localTip": "后门即达锦里", "tips": "门票便宜，值得入内", "alternative": "只拍外墙" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "锦里古街夜游", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "与武侯祠相连，红灯笼夜景免费逛。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "入夜", "photoSpot": "红灯笼水面", "reservation": "无需预约", "localTip": "小吃边走边吃", "tips": "街区免费，体验老成都夜色", "alternative": "室内茶馆" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁3号线串联，费用约 ¥10-20。", "info": [{ "label": "交通方式", "value": "地铁+步行" }, { "label": "当日费用", "value": "约¥10-20" }, { "label": "餐饮合计", "value": "约¥80-150" }], "bestTime": "避开高峰", "photoSpot": "地铁站", "reservation": "无需预约", "localTip": "手机乘车码", "tips": "地铁最省", "alternative": "公交" }
+      ]
+    },
+    {
+      "day": 2, "theme": "慢城院落", "title": "宽窄巷子 · 人民公园 · 杜甫草堂", "sub": "茶馆与诗意的慢生活", "tag": "慢游必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "宽窄巷子", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "清代院落街区免费逛，盖碗茶坐一坐。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午人少", "photoSpot": "院落门廊", "reservation": "无需预约", "localTip": "井巷子浮雕讲往事", "tips": "街区免费", "alternative": "只拍照" },
+        { "time": "中午", "category": "experience", "categoryLabel": "体验", "title": "人民公园鹤鸣茶社", "badges": [{ "t": "体验", "c": "experience" }, { "t": "低价", "c": "paid" }], "desc": "盖碗茶人均约 ¥20-40（估算）。", "info": [{ "label": "人均", "value": "¥20-40" }, { "label": "建议", "value": "坐一下午" }], "bestTime": "午后", "photoSpot": "茶社竹椅", "reservation": "无需预约", "localTip": "晴天座位紧", "tips": "茶资便宜", "alternative": "公园散步" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "杜甫草堂", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "竹林园林，门票约 ¥50（估算）。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "约¥50" }], "bestTime": "下午", "photoSpot": "竹林小径", "reservation": "无需预约", "localTip": "避暑佳", "tips": "门票便宜", "alternative": "外围街区" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁4号线+公交，费用约 ¥6-12。", "info": [{ "label": "交通方式", "value": "地铁+公交" }, { "label": "当日费用", "value": "约¥6-12" }, { "label": "餐饮合计", "value": "约¥80-140" }], "bestTime": "避开高峰", "photoSpot": "街角", "reservation": "无需预约", "localTip": "步行可达优先步行", "tips": "市区步行最省", "alternative": "全步行" }
+      ]
+    },
+    {
+      "day": 3, "theme": "世界遗产", "title": "都江堰 · 青城山", "sub": "水利与道教名山一日", "tag": "文化必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "transport", "categoryLabel": "交通", "title": "前往都江堰", "badges": [{ "t": "交通", "c": "transport" }], "desc": "犀浦乘城际至都江堰（约30-40分钟，估算¥10-20），转公交。", "info": [{ "label": "交通方式", "value": "城际+公交" }, { "label": "耗时", "value": "40-60分钟" }, { "label": "费用", "value": "约¥15-30" }], "bestTime": "上午", "photoSpot": "城际列车", "reservation": "城际提前购票", "localTip": "旺季早买", "tips": "班次密集", "alternative": "高铁/大巴" },
+        { "time": "上午-中午", "category": "scenic", "categoryLabel": "景点", "title": "都江堰景区", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "鱼嘴、飞沙堰、宝瓶口，门票约 ¥80（估算）。", "info": [{ "label": "建议时长", "value": "3小时" }, { "label": "费用", "value": "约¥80" }], "bestTime": "上午", "photoSpot": "鱼嘴分水堤", "reservation": "建议预约", "localTip": "租语音导览", "tips": "门票值得", "alternative": "外围免费观景" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "青城山前山", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "观光车+索道游道观，门票约 ¥90（估算）。", "info": [{ "label": "建议时长", "value": "3-4小时" }, { "label": "费用", "value": "约¥90" }], "bestTime": "下午", "photoSpot": "上清宫", "reservation": "建议预约", "localTip": "索道省体力", "tips": "前山最从容", "alternative": "后山徒步" },
+        { "time": "傍晚", "category": "transport", "categoryLabel": "交通", "title": "返程成都", "badges": [{ "t": "交通", "c": "transport" }], "desc": "青城山站乘城际返成都，留意末班。", "info": [{ "label": "交通方式", "value": "城际" }, { "label": "当日费用", "value": "约¥20-40" }, { "label": "餐饮合计", "value": "约¥80-150" }], "bestTime": "避开末班", "photoSpot": "车站", "reservation": "提前购票", "localTip": "关注末班", "tips": "留足返程时间", "alternative": "住都江堰" }
+      ]
+    },
+    {
+      "day": 4, "theme": "市井美食", "title": "玉林 · 奎星楼街 · 春熙路", "sub": "最后的味觉巡礼", "tag": "美食收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "上午", "category": "experience", "categoryLabel": "体验", "title": "玉林老社区", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "菜市场与老茶馆感受本地日常，免费逛。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午", "photoSpot": "老街巷", "reservation": "无需预约", "localTip": "玉林路可打卡", "tips": "免费看本地生活", "alternative": "直接商圈" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "奎星楼街串串", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "串串香人均 ¥60-100（估算），微辣可选。", "info": [{ "label": "人均", "value": "¥60-100" }, { "label": "建议", "value": "分食" }], "bestTime": "12:30前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "错峰排号", "tips": "小吃实惠", "alternative": "便利店" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "春熙路采购", "badges": [{ "t": "体验", "c": "experience" }, { "t": "弹性", "c": "optional" }], "desc": "伴手礼（火锅底料等），预算内控制。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "弹性" }], "bestTime": "下午", "photoSpot": "商圈", "reservation": "无需预约", "localTip": "超市比景区便宜", "tips": "留到下午", "alternative": "直接返程" },
+        { "time": "傍晚", "category": "transport", "categoryLabel": "交通", "title": "返程交通", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁至车站/机场，预留2小时+。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "当日费用", "value": "约¥10-40" }, { "label": "餐饮合计", "value": "约¥80-150" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "提前购票", "localTip": "留足时间", "tips": "别卡点", "alternative": "机场大巴" }
+      ]
+    }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "免费街区公园为主，付费只进最想去的 1-2 个馆。", "items": ["街区公园免费", "熊猫基地必去", "武侯祠/草堂二选一", "小吃解决餐饮"], "note": "核心体验不打折" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含主要付费景点 + 1 顿特色火锅/川菜。", "items": ["熊猫基地", "武侯祠", "杜甫草堂", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "全景点 + 川菜正餐 + 茶馆体验。", "items": ["都江堰+青城山全含", "川菜/火锅正餐", "盖碗茶体验", "舒适酒店"], "note": "预算充足最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选春熙路-天府广场或宽窄巷子周边（近地铁枢纽），减少搬运与通勤。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "天府广场 / 骡马市", "priceLevel": "约 ¥150-300/晚（估算）", "advantage": "交通枢纽 · 近地铁 · 平价多" },
+      { "type": "精品民宿", "area": "宽窄巷子 / 人民公园", "priceLevel": "约 ¥300-600/晚（估算）", "advantage": "老城氛围 · 近景点" },
+      { "type": "品质酒店", "area": "春熙路 / 太古里", "priceLevel": "约 ¥500-900/晚（估算）", "advantage": "核心商圈 · 餐饮步行达" }
+    ]
+  },
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 1600, "high": 3300, "currency": "CNY", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费街区 + 小吃餐饮" },
+      "composition": { "门票": "熊猫+武侯祠为主", "交通": "地铁+城际", "餐饮": "小吃+简餐", "住宿": "青旅/平价酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④餐饮选择 ⑤购物弹性影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 3300, "high": 6000, "currency": "CNY", "note": "估算 / 参考 · 单人不含往返 · 含主要门票 + 1顿特色正餐 + 品质酒店" },
+      "composition": { "门票": "全核心景点", "交通": "地铁+城际", "餐饮": "+每日1正餐", "住宿": "精品/品质酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④餐饮选择 ⑤购物弹性影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 6000, "high": 12000, "currency": "CNY", "note": "估算 / 参考 · 单人不含往返 · 全景点 + 川菜火锅 + 茶馆 + 舒适酒店" },
+      "composition": { "门票": "全部付费", "交通": "自由", "餐饮": "+川菜/火锅", "住宿": "品质酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④餐饮选择 ⑤购物弹性影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（4晚）", "economy": { "low": 600, "high": 1200, "note": "青旅/平价·4晚估算" }, "comfort": { "low": 1200, "high": 2400, "note": "精品/品质·4晚估算" }, "flexible": { "low": 2000, "high": 3600, "note": "品质酒店·4晚估算" } },
+      { "cat": "🍜 餐饮（4天）", "economy": { "low": 320, "high": 600, "note": "小吃+简餐" }, "comfort": { "low": 600, "high": 1200, "note": "+每日1特色正餐" }, "flexible": { "low": 1200, "high": 2400, "note": "+川菜/火锅" } },
+      { "cat": "🚇 交通（4天）", "economy": { "low": 120, "high": 300, "note": "地铁+城际" }, "comfort": { "low": 200, "high": 500, "note": "地铁+城际" }, "flexible": { "low": 400, "high": 900, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 150, "high": 300, "note": "熊猫+武侯祠" }, "comfort": { "low": 300, "high": 600, "note": "+杜甫草堂+遗产" }, "flexible": { "low": 600, "high": 1200, "note": "全景点含索道" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 200, "high": 500, "note": "特产弹性" }, "comfort": { "low": 500, "high": 1000, "note": "手信+伴手礼" }, "flexible": { "low": 1000, "high": 3000, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 1390, "high": 2900, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 2800, "high": 5700, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 5200, "high": 11100, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "住宿 → 熊猫基地 → 武侯祠 → 锦里", "transport": "地铁3号线+步行", "estimatedTime": "约40-60分钟", "costRange": "约¥65-125/人", "foodRange": "约¥80-150/人" },
+    { "day": "Day2", "route": "住宿 → 宽窄巷子 → 人民公园 → 杜甫草堂", "transport": "地铁4号线+公交", "estimatedTime": "约20-40分钟", "costRange": "约¥26-62/人", "foodRange": "约¥80-140/人" },
+    { "day": "Day3", "route": "住宿 → 都江堰 → 青城山 → 返程", "transport": "城际+公交", "estimatedTime": "约40-60分钟", "costRange": "约¥135-210/人", "foodRange": "约¥80-150/人" },
+    { "day": "Day4", "route": "住宿 → 玉林 → 奎星楼街 → 春熙路", "transport": "地铁+步行", "estimatedTime": "约20-40分钟", "costRange": "约¥70-190/人", "foodRange": "约¥80-150/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外熊猫与山景", "alternative": "室内文化设施：成都博物馆、四川博物院、宽窄巷子室内茶馆", "reason": "室内场馆避雨且文化密度高" },
+    { "title": "🆓 免费替代方案", "original": "付费景点门票", "alternative": "免费街区与公园：宽窄巷子、人民公园、锦里、玉林老街", "reason": "不花钱也能感受成都" },
+    { "title": "🧓 老人友好方案", "original": "青城山登山与长距离步行", "alternative": "观光车+索道游前山、熊猫基地乘电瓶车", "reason": "降低体力消耗" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点，午后回住休息", "reason": "避免过度疲劳" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "便利店 ¥10-20", "午餐": "简餐 ¥30-60", "晚餐": "锦里小吃 ¥40-80", "小计": "经济档" },
+      { "day": "Day2", "早餐": "酒店/便利店", "午餐": "盖碗茶+小吃 ¥40-80", "晚餐": "奎星楼街 ¥40-80", "小计": "经济档" },
+      { "day": "Day3", "早餐": "便利店", "午餐": "都江堰简餐 ¥40-80", "晚餐": "返程简餐 ¥40-80", "小计": "经济-舒适" },
+      { "day": "Day4", "早餐": "便利店", "午餐": "串串 ¥60-100", "晚餐": "返程自理", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "地铁3号线", "费用": "约¥10-20", "提醒": "熊猫大道站转公交/摆渡" },
+      { "day": "Day2", "方式": "地铁4号线+公交", "费用": "约¥6-12", "提醒": "宽窄巷子站直达" },
+      { "day": "Day3", "方式": "城际+公交", "费用": "约¥40-80", "提醒": "提前购城际票，关注末班" },
+      { "day": "Day4", "方式": "地铁", "费用": "约¥10-40", "提醒": "返程预留2小时+" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 熊猫老城", "Day2 慢城院落", "Day3 遗产一日", "Day4 市井美食"],
+    "dailyHours": [7, 6, 8, 5],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [900, 460, 210, 225, 350],
+      "comfort": [1800, 900, 350, 450, 750],
+      "flexible": [2800, 1800, 650, 900, 2000]
+    }
+  },
+  "savingTips": [
+    { "title": "地铁出行", "text": "市区景点地铁直达，单程仅 ¥2-7，比打车省且避堵。" },
+    { "title": "免费街区优先", "text": "宽窄巷子、锦里、人民公园、玉林老街全部免费。" },
+    { "title": "小吃解决餐饮", "text": "建设路/奎星楼街小吃多样实惠，正餐留1顿火锅即可。" },
+    { "title": "熊猫早到", "text": "开园即入，人少熊猫活跃，体验好还省排队。" },
+    { "title": "城际提前购票", "text": "都江堰/青城山城际旺季满座，提前买票。" },
+    { "title": "特产超市买", "text": "火锅底料等伴手礼在超市比景区便宜。" },
+    { "title": "步行串联", "text": "武侯祠-锦里、宽窄-人民公园步行即达，省车费。" },
+    { "title": "只逛不买", "text": "古街院落与红墙竹影本身免费好看。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["熊猫基地旺季提前实名预约", "都江堰/青城山旺季提前购票", "热门火锅店错峰或排号", "节假日住宿提前1-2个月"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2个月更优", "城际票出发前购买", "火锅正餐可现场排号"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带身份证", "少量现金（约200-500元）", "手机乘车码/移动支付", "提前下载地图导航App", "备好舒适步行鞋与雨具"] }
+  ],
+  "packing": [
+    "身份证", "少量现金（约200-500元）", "手机与充电宝", "移动支付绑定", "舒适步行鞋", "折叠雨具", "薄外套（昼夜温差）", "防滑鞋（青城山）", "常用药品", "转换插头（如需）", "水杯", "购物袋（特产）"
+  ]
+}

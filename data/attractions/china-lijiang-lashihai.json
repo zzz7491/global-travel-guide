@@ -1,0 +1,66 @@
+{
+  "id": "china-lijiang-lashihai",
+  "type": "attraction",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "lashihai",
+  "title": "拉市海旅游攻略｜高原湿地与茶马古道骑马指南",
+  "description": "拉市海旅游攻略：丽江近郊高原湿地、候鸟与茶马古道骑马线路，附骑马安全、观鸟季节与交通建议，助你安排拉市海行程。",
+  "keywords": "拉市海,丽江湿地,候鸟,茶马古道,骑马,高原湖泊",
+  "h1": "拉市海旅游攻略",
+  "lead": "距古城仅十余公里的高原湖泊，秋冬候鸟云集，沿茶马古道骑马穿林，是丽江慢游的另一种打开方式。",
+  "tags": [
+    "湿地",
+    "候鸟",
+    "骑马",
+    "自然"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>拉市海是丽江坝子西侧的构造湖与湿地，为云南重要越冬候鸟栖息地，周边保留茶马古道遗迹，是古城周边最易抵达的自然休闲地之一。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p>秋冬（约 11 月至次年 3 月）候鸟最多，可沿湖观鸟；茶马古道骑马/徒步线路穿行林间与草甸；湖畔村落安静质朴。</p><h3>动线建议</h3><p>多数为半日游：上午骑马走古道、午后湖边漫步或骑行；与束河古镇可同线安排。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>季节</h3><p>观鸟选秋冬；夏季水草丰美、绿意浓但鸟少。</p><h3>骑马</h3><p>选择正规马队，听从向导，勿擅自离队；价格与线路先谈妥。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "骑马属户外运动，穿长裤与运动鞋。",
+        "湿地周边私人围场多，认准正规经营点。",
+        "高原湖畔风大，备外套。",
+        "保护候鸟，不投喂、不惊扰。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-shuhe",
+        "china-lijiang-oldtown",
+        "china-lijiang-transport"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-lijiang-lashihai/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-lashihai-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-lashihai-01/1200/800",
+      "alt": "拉市海湿地"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-lashihai-02/1200/800",
+      "alt": "茶马古道"
+    }
+  ]
+}

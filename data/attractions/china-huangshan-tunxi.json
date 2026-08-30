@@ -1,0 +1,68 @@
+{
+  "id": "china-huangshan-tunxi",
+  "type": "attraction",
+  "country": "china",
+  "city": "huangshan",
+  "slug": "tunxi",
+  "title": "屯溪老街旅游攻略｜黄山市区徽州老字号与夜逛指南",
+  "description": "屯溪老街旅游攻略：黄山市中心的宋代街市格局、徽州老字号与文房四宝、新安江畔夜景，附交通、逛街动线与买茶买墨的实用建议。",
+  "keywords": "屯溪老街,黄山市区,徽州老街,新安江,黄山毛峰,太平猴魁,徽墨歙砚,黄山夜游",
+  "h1": "屯溪老街旅游攻略",
+  "lead": "黄山市区最方便的一条街：一公里多的徽派店铺连成市井，茶叶、徽墨与小吃都在这条街上找齐。",
+  "tags": [
+    "老街",
+    "市井",
+    "购物",
+    "美食",
+    "夜逛"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>屯溪老街位于黄山市屯溪区，紧邻新安江，是黄山市区的核心街区之一。街市格局可追溯至宋代，两侧多为徽派前店后坊式建筑，全长约一公里多，是徽州商业街市的活样本，也是绝大多数游客抵达黄山后的第一站或返程前的最后一站。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p>沿街可看<strong>徽派店铺立面</strong>与老字号招牌；<strong>茶叶铺</strong>集中，黄山毛峰与太平猴魁是本地代表茶；<strong>徽墨、歙砚</strong>等文房四宝店铺是徽州文化的延伸；街尾往江边走可到<strong>新安江畔</strong>，晚上灯光沿江铺开。</p><h3>动线与时长</h3><p>从老街牌坊一端逛到另一端约 1-1.5 小时，加上茶铺试茶、吃小吃可安排 2-3 小时。街区平坦、全程步行，适合到达当天或返程当天的碎片时间。</p><h3>吃什么</h3><p>臭鳜鱼、毛豆腐、徽州馃、五城茶干等徽州风味在老街及周边都能吃到；主街价格偏游客向，往横街与巷子里走更实惠。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>傍晚至夜间最热闹，灯笼亮起后街景更好看；白天则适合安静逛店铺与买茶。</p><h3>交通</h3><p>老街位于市中心，黄山站（老火车站）步行或短途车即可抵达；黄山北站乘公交或打车进城通常 20-30 分钟；从景区汤口返程的班车多经市区。</p><h3>买东西提醒</h3><p>茶叶、徽墨与砚台价格区间大，先试再买、比较两三家；贵重物品索取正规凭证。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "主街商铺以游客生意为主，同类商品建议比价",
+        "茶叶按等级差价很大，试茶后再决定分量",
+        "夜间人流集中，看管随身物品",
+        "部分老字号有固定打烊时间，晚餐别拖太晚"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-huangshan-food",
+        "china-huangshan-accommodation",
+        "china-huangshan-transport",
+        "china-huangshan-huizhou-1d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-huangshan-tunxi-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-huangshan-tunxi-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-tunxi-g1/1200/800",
+      "alt": "屯溪老街徽派店铺与夜间灯笼街景"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-tunxi-g2/1200/800",
+      "alt": "老街茶叶铺与徽墨歙砚柜台"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "china-chengdu-wuhouci",
+  "type": "attraction",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "wuhouci",
+  "title": "武侯祠旅游攻略｜三国文化与红墙竹影参观指南",
+  "description": "武侯祠旅游攻略：君臣合祀格局、红墙竹影打卡与锦里衔接动线，附门票与交通建议。",
+  "keywords": "武侯祠,成都武侯祠,三国,锦里,红墙竹影,成都景点",
+  "h1": "武侯祠旅游攻略",
+  "lead": "中国唯一的君臣合祀祠庙，红墙竹影的夹道是成都最具辨识度的取景地之一。",
+  "tags": [
+    "三国",
+    "历史",
+    "文化",
+    "摄影"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>武侯祠是纪念蜀汉丞相诸葛亮与昭烈帝刘备的祠庙，为罕见的君臣合祀格局，与旁的锦里古街相连，是成都三国文化的核心地标。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>惠陵、汉昭烈庙、武侯祠三大部分沿中轴展开；祠内红墙夹道与竹影是经典合影位；碑刻与塑像讲述三国故事。</p><h3>动线建议</h3><p>由大门入，沿中轴看主体建筑，再走红墙小道，后门即达锦里，可顺路衔接。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>上午或傍晚人少光线佳；与锦里合并半日游最顺。建议租语音导览了解三国背景。</p><h3>交通</h3><p>地铁 3 号线高升桥站或公交至武侯祠站，步行即达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "红墙小道窄，拍照注意礼让。",
+        "节假日人流大，错峰前往更从容。",
+        "与锦里相连，注意出口方向以免绕路。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-jinli",
+        "china-chengdu-food-2d",
+        "china-chengdu-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-chengdu-wuhouci-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-wuhouci-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-wuhouci-1/1200/800",
+      "alt": "武侯祠 红墙竹影"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-wuhouci-2/1200/800",
+      "alt": "武侯祠 主体建筑"
+    }
+  ]
+}

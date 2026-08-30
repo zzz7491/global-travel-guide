@@ -1,0 +1,28 @@
+{
+  "id": "china-lijiang-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "lijiang",
+  "title": "丽江最佳旅行时间｜几月去丽江最好",
+  "description": "丽江最佳旅行时间：3-5月与9-11月气候温和、雪山清晰最宜人；夏季多雨绿意浓，冬季干冷游客少、雪山最清晰。",
+  "keywords": "丽江最佳旅行时间,丽江几月去,丽江旅游季节,丽江春秋,丽江雪山",
+  "h1": "丽江最佳旅行时间",
+  "lead": "丽江春秋最舒服：天高云淡、雪山清晰，古城与湖光都恰到好处。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-5月：</strong>春暖花开、日照充足，古城与郊野皆宜，高原紫外线渐强。</li><li><strong>6-8月：</strong>雨季来临、阵雨多但绿意最浓，虎跳峡等周边水量丰；游客以暑期为主。</li><li><strong>9-11月：</strong>秋高气爽、少雨，雪山能见度全年最佳，公认最舒适窗口（10月国庆人潮大）。</li><li><strong>12-2月：</strong>干冷少雨、游客少，玉龙雪山雪线清晰、最出片，注意保暖。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["3-5月与9-11月为最佳，10月国庆前后人潮与价格高峰。", "雪山清晰期集中在秋冬季，想拍雪峰选9月后。", "雨季（6-8月）备雨具，山区路况留意。", "冬季干冷，古城与雪山顶都需保暖衣物。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["china-lijiang-oldtown", "china-lijiang-yulong", "china-lijiang-transport", "china-lijiang-economy"]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "china-huangshan",
+  "type": "city",
+  "country": "china",
+  "city": "huangshan",
+  "name": "黄山",
+  "nameEn": "Huangshan",
+  "title": "黄山旅行攻略 | Global Travel Guide",
+  "description": "黄山旅游攻略与黄山自由行路线全指南：涵盖黄山风景区登山动线、光明顶日出与云海、西海大峡谷，以及宏村西递等徽州古村落的行程、住宿与交通建议。",
+  "keywords": "黄山旅游攻略,黄山自由行,黄山登山路线,光明顶日出,西海大峡谷,宏村西递,徽州古村落",
+  "h1": "黄山",
+  "lead": "安徽南部的花岗岩名山与徽州文化腹地：山上看奇松怪石与云海日出，山下走宏村、西递的白墙黑瓦。",
+  "continent": "亚洲",
+  "language": "汉语",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "tagline": "奇松怪石云海温泉，山上山下两个世界",
+  "heroImage": "https://picsum.photos/seed/china-huangshan-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-huangshan-og/1200/800",
+  "bestTime": {
+    "description": "春秋最佳：4-5月云雾与新绿，9-11月秋色与云海概率高、体感舒适；夏季多雨闷热但云海雨后常现，冬季有雾凇雪景，山上更冷、部分线路受冰雪影响。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "汉语"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "光明顶日出与云海",
+    "玉屏楼迎客松",
+    "西海大峡谷",
+    "宏村月沼与南湖",
+    "西递胡文光牌楼",
+    "屯溪老街与徽菜"
+  ],
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-g1/1200/800",
+      "alt": "黄山花岗岩峰林与云海",
+      "type": "nature",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-g2/1200/800",
+      "alt": "黄山山脊上的奇松与石阶步道",
+      "type": "landmark",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-g3/1200/800",
+      "alt": "宏村徽派民居与水面倒影",
+      "type": "culture",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-g4/1200/800",
+      "alt": "屯溪老街的徽州老字号店铺街景",
+      "type": "street",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-g5/1200/800",
+      "alt": "徽菜臭鳜鱼与毛豆腐等地方风味",
+      "type": "food",
+      "credit": "Picsum"
+    }
+  ],
+  "relatedCities": [
+    "china-hangzhou",
+    "china-shanghai"
+  ],
+  "faq": [
+    {
+      "q": "黄山适合玩几天？",
+      "a": "建议 3 天左右：2 天走黄山风景区（山上住一晚看日出），1 天逛宏村、西递或屯溪老街。只想登山可压缩为 2 天，想深度看徽州古村落可安排 4 天。"
+    },
+    {
+      "q": "黄山最佳旅行时间是几月？",
+      "a": "4-5 月与 9-11 月最舒适，秋季秋色与云海概率高；夏季多雨闷热，但雨后云海常现；冬季雾凇雪景独特，需注意冰雪对索道与步道的影响。"
+    },
+    {
+      "q": "「黄山」到底指山还是城市？",
+      "a": "黄山既是安徽省的地级市，也指市内的黄山风景区。市中心在屯溪区，高铁站为黄山北站，登山则需从市区前往景区南大门（汤口）或北大门（太平）。"
+    },
+    {
+      "q": "一定要住山上吗？",
+      "a": "想看日出、日落与云海建议山上住一晚。山顶宾馆数量有限、旺季价格明显高于山下，需尽早预订；预算有限可选山下汤口或屯溪住宿，当天上下山。"
+    },
+    {
+      "q": "黄山门票与索道大概多少钱？",
+      "a": "风景区门票旺季约 190 元、淡季约 150 元，各条索道单程约 80-90 元（均为估算，以官方最新公告为准）。山上餐饮与住宿因物资靠人力挑运，价格普遍高于山下。"
+    },
+    {
+      "q": "体力一般能爬黄山吗？",
+      "a": "可以。上下山各选一条索道（如云谷索道上、玉屏索道下），把体力留给山顶环线；西海大峡谷可乘观光缆车（地轨）减少爬升，全程仍需较多石阶步行。"
+    }
+  ]
+}

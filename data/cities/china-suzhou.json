@@ -1,0 +1,92 @@
+{
+  "id": "china-suzhou",
+  "type": "city",
+  "country": "china",
+  "city": "suzhou",
+  "name": "苏州",
+  "nameEn": "Suzhou",
+  "title": "苏州旅行攻略 | Global Travel Guide",
+  "description": "苏州旅游攻略与苏州自由行路线全指南：涵盖苏州古典园林、水乡古镇、运河老街、美食住宿与交通建议，助你轻松安排苏州行程。",
+  "keywords": "苏州旅游攻略,苏州自由行,苏州园林,苏州古典园林,苏州水乡,苏州美食,苏州交通",
+  "h1": "苏州",
+  "lead": "江南水乡的代表，古典园林与运河街巷交织，拙政园、平江路与周庄在粉墙黛瓦间沉淀着千年吴文化。",
+  "continent": "亚洲",
+  "language": "汉语",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "tagline": "园林之城，东方水乡的代表",
+  "heroImage": "https://picsum.photos/seed/china-suzhou-hero/1200/800",
+  "bestTime": {
+    "description": "苏州春秋最宜人：春季（3-5月）园林新绿、秋季（9-11月）天高气爽均为出游高峰；夏季湿热、梅雨（6月）多雨；冬季人少价低，别有一番清幽。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "汉语"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "拙政园与留园",
+    "平江路历史街区",
+    "虎丘云岩寺塔",
+    "苏州博物馆",
+    "周庄水乡古镇"
+  ],
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-g1/1200/800",
+      "alt": "苏州 古典园林庭院",
+      "type": "culture"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-g2/1200/800",
+      "alt": "苏州 平江路运河老街",
+      "type": "street"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-g3/1200/800",
+      "alt": "苏州 虎丘云岩寺塔",
+      "type": "landmark"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-g4/1200/800",
+      "alt": "苏州 周庄水乡风光",
+      "type": "nature"
+    }
+  ],
+  "faq": [
+    {
+      "q": "苏州适合玩几天？",
+      "a": "建议安排 2-3 天。2天可覆盖核心园林（拙政园、留园、虎丘）与平江路；多 1 天可去周庄或同里水乡，深度体验江南。"
+    },
+    {
+      "q": "苏州最佳旅行时间是几月？",
+      "a": "春季（3-5月）园林新绿、秋季（9-11月）秋高气爽最舒适；夏季湿热多雨，冬季人少清幽。节假日园林人流较大，建议错峰。"
+    },
+    {
+      "q": "苏州旅行预算多少？",
+      "a": "经济型约 400-800元/天，舒适型约 800-1500元/天，含住宿、餐饮、交通和园林门票；水乡古镇需另计往返车费与门票。"
+    },
+    {
+      "q": "苏州交通方便吗？",
+      "a": "市内地铁与公交覆盖主要景点，园林区间多可骑行或步行；上海虹桥乘高铁至苏州约 30 分钟，适合作为长三角串联的一站。"
+    },
+    {
+      "q": "苏州必去景点有哪些？",
+      "a": "拙政园、留园、虎丘、平江路、苏州博物馆是经典必游；时间充裕可加周庄或同里水乡古镇。"
+    }
+  ],
+  "socialImage": "https://picsum.photos/seed/china-suzhou-hero/1200/630"
+}

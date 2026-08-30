@@ -1,0 +1,65 @@
+{
+  "id": "china-chengdu-qingchengshan",
+  "type": "attraction",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "qingchengshan",
+  "title": "青城山旅游攻略｜道教名山前山后山玩法指南",
+  "description": "青城山旅游攻略：前山道观与后山自然风光两条路线，含索道、门票与交通建议，助你安排青城山行程。",
+  "keywords": "青城山,青城山攻略,道教名山,青城山前山,青城山后山,成都周边",
+  "h1": "青城山旅游攻略",
+  "lead": "青城天下幽，前山道观森森、后山溪谷清凉，是与都江堰并列的世界遗产避暑胜地。",
+  "tags": [
+    "世界遗产",
+    "道教",
+    "登山",
+    "自然"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>青城山位于都江堰市西南，是道教发源地之一，2000 年与都江堰共同列入世界文化遗产。分为前山（以建福宫、天师洞、上清宫等道观为主）与后山（自然溪谷与徒步线路）两大区域。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>前山道观密集、文化氛围浓，可乘索道上下；后山以五龙沟、飞泉沟溪谷徒步见长，更幽静清凉。</p><h3>动线建议</h3><p>文化游选前山（约 4-5 小时）；亲子或避暑选后山溪谷。前山可乘观光车+索道节省体力。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>与都江堰组一日游：上午都江堰、午后青城山前山。夏季雨后云雾最美。</p><h3>交通</h3><p>成都犀浦乘城际/高铁至青城山站（约 30-40 分钟），转景区公交或摆渡车。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "山区湿滑，穿防滑鞋并备雨具。",
+        "后山徒步较长，量力而行。",
+        "旺季建议提前预约门票。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-dujiangyan",
+        "china-chengdu-heritage-1d",
+        "china-chengdu-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-chengdu-qingchengshan-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-qingchengshan-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-qingchengshan-1/1200/800",
+      "alt": "青城山 前山道观"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-qingchengshan-2/1200/800",
+      "alt": "青城山 后山溪谷"
+    }
+  ]
+}

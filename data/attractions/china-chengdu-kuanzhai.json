@@ -1,0 +1,65 @@
+{
+  "id": "china-chengdu-kuanzhai",
+  "type": "attraction",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "kuanzhai",
+  "title": "宽窄巷子旅游攻略｜老成都院落慢生活指南",
+  "description": "宽窄巷子旅游攻略：宽巷子、窄巷子、井巷子三条院落街区玩法，含茶馆、美食与交通建议。",
+  "keywords": "宽窄巷子,成都宽窄巷子,宽巷子,窄巷子,成都茶馆,成都慢生活",
+  "h1": "宽窄巷子旅游攻略",
+  "lead": "由宽巷子、窄巷子、井巷子组成的清代院落街区，盖碗茶与咖啡馆并存，是成都慢生活的缩影。",
+  "tags": [
+    "古街",
+    "茶馆",
+    "文化",
+    "慢生活"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>宽窄巷子是成都遗存的清代古街道片区，由宽巷子、窄巷子、井巷子三条平行院落式老街组成，保留了老成都的院落民居格局与休闲气质。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>宽巷子偏院落茶馆与民俗，窄巷子多咖啡与文创，井巷子墙面浮雕讲成都往事；盖碗茶坐一下午是标配。</p><h3>动线建议</h3><p>从宽巷子入、穿窄巷子、走井巷子，环形慢逛约 2-3 小时，与人民公园可顺路。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>上午人少适合拍照，下午至傍晚坐茶馆最惬意。可与人民公园鹤鸣茶社组半日慢游。</p><h3>交通</h3><p>地铁 4 号线宽窄巷子站直达；市区多路公交可达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "街区免费开放，内部餐饮茶馆偏溢价。",
+        "院落拍照注意征得住户或商家同意。",
+        "节假日拥挤，尽量工作日或清晨前往。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-jinli",
+        "china-chengdu-food",
+        "china-chengdu-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-chengdu-kuanzhai-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-kuanzhai-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-kuanzhai-1/1200/800",
+      "alt": "宽窄巷子 院落街区"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-kuanzhai-2/1200/800",
+      "alt": "宽窄巷子 盖碗茶馆"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "china-lijiang",
+  "type": "city",
+  "country": "china",
+  "city": "lijiang",
+  "name": "丽江",
+  "nameEn": "Lijiang",
+  "title": "丽江旅行攻略 | Global Travel Guide",
+  "description": "丽江旅游攻略与丽江自由行路线全指南：涵盖丽江古城、玉龙雪山、束河古镇景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排丽江行程。",
+  "keywords": "丽江旅游攻略,丽江自由行,丽江旅行路线,丽江古城攻略,玉龙雪山,丽江美食,丽江交通",
+  "h1": "丽江",
+  "lead": "纳西古乐回荡的千年古城，玉龙雪山的皑皑峰顶与泸沽湖的静谧湖水，构成高原之上的历史与自然双重画卷。",
+  "continent": "亚洲",
+  "language": "汉语",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "tagline": "雪山下的纳西古城，历史与高原自然交织",
+  "heroImage": "https://picsum.photos/seed/china-lijiang-hero/1200/800",
+  "bestTime": {
+    "description": "丽江春秋最舒适：3-5月与9-11月气候温和、日照充足、雪山能见度高；夏季多雨但绿意浓，冬季干冷、雪山最清晰。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "汉语"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "丽江古城与纳西民居",
+    "玉龙雪山与蓝月谷",
+    "束河古镇慢生活",
+    "拉市海湿地与马帮文化",
+    "泸沽湖摩梭风情"
+  ],
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-city-01/1200/800",
+      "alt": "丽江古城街巷与纳西民居",
+      "type": "street",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-city-02/1200/800",
+      "alt": "玉龙雪山远景",
+      "type": "nature",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-city-03/1200/800",
+      "alt": "纳西文化与东巴文字",
+      "type": "culture",
+      "credit": "Picsum"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-city-04/1200/800",
+      "alt": "丽江古城地标建筑",
+      "type": "landmark",
+      "credit": "Picsum"
+    }
+  ],
+  "relatedCities": [
+    "china-kunming"
+  ],
+  "faq": [
+    {
+      "q": "丽江适合玩几天？",
+      "a": "建议安排 3-5 天。3天可覆盖丽江古城、玉龙雪山与束河古镇；5天可北上泸沽湖（约200公里，需预留车程）。"
+    },
+    {
+      "q": "丽江最佳旅行时间是几月？",
+      "a": "春季（3-5月）与秋季（9-11月）最舒适，日照充足、雪山清晰；夏季（6-8月）多雨但绿意浓；冬季干冷、游客少、雪山最清晰。"
+    },
+    {
+      "q": "丽江会有高原反应吗？",
+      "a": "丽江古城海拔约2400米，多数人无明显反应；玉龙雪山索道可达4500米以上，部分人会气短、头痛，建议放缓节奏、备好保暖与氧气。"
+    },
+    {
+      "q": "丽江古城要门票吗？",
+      "a": "古城维护费曾长期征收（约80元/人估算），具体以景区当日公告为准；古城街区本身可自由步行游览。"
+    },
+    {
+      "q": "泸沽湖离丽江多远？",
+      "a": "泸沽湖距丽江古城约200公里，车程约4-5小时，属跨省界高原湖泊，建议安排1-2天往返专程游玩。"
+    }
+  ],
+  "socialImage": "https://picsum.photos/seed/china-lijiang-og/1200/800"
+}

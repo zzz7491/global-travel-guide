@@ -1,0 +1,190 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "china-lijiang-economy",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "economy",
+  "title": "丽江三日经济版路书｜低预算丽江自由行计划 | Global Travel Guide",
+  "description": "丽江三日经济版路书：以古城步行与公交为主、雪山与古镇为核心、腊排骨与小吃搭配的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过核心体验的自由行旅客。",
+  "keywords": "丽江经济游,丽江三日游,丽江自由行省钱,丽江预算攻略,丽江古城游,丽江便宜玩法",
+  "h1": "丽江三日经济版路书",
+  "lead": "省钱不省精彩 · 用步行与公交串起古城、雪山与湿地，平价也出深度。",
+  "edition": "economy",
+  "image": "https://picsum.photos/seed/china-lijiang-plan-economy/1200/800",
+  "featured": false,
+  "priority": 0,
+  "days": 3,
+  "suitableFor": "首次到丽江、希望控制预算又想覆盖古城+雪山核心体验的自由行旅客",
+  "seasonNote": "春季（3-5月）与秋季（9-11月）最舒适、雪山清晰；夏季多雨宜带雨具；冬季干冷、雪山最清晰但需保暖。",
+  "travelTone": "第一次丽江自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["丽江三日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 平价也出深度",
+    "tone": "🧭 适合：第一次丽江自由行",
+    "info": [
+      { "num": "3", "label": "DAYS" },
+      { "num": "5+", "label": "CORE SPOTS" },
+      { "num": "经济档", "label": "TICKETS" },
+      { "num": "公交为主", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 公交出行 · 平价住宿",
+    "bottom": "适合首次到丽江、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌿 春秋最舒适 · 冬夏可调",
+    "budget": "约 ¥1500–2800 / 人·3天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把丽江玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "古城免费漫步为主，付费只留雪山索道等核心" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，古城+束河一线减少折返" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "古城街巷、束河龙潭、拉市海徒步零门票" },
+      { "icon": "🚌", "label": "交通效率", "value": "公交 + 步行 + 拼车，省车费也省时间" },
+      { "icon": "⛩️", "label": "深度体验", "value": "雪山一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "古城适应线", "title": "大研古城 · 四方街 · 狮子山", "spots": ["丽江古城", "四方街", "木府", "狮子山"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "雪山自然线", "title": "玉龙雪山 · 蓝月谷", "spots": ["玉龙雪山", "冰川公园", "蓝月谷"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "古镇湿地线", "title": "束河 · 拉市海", "spots": ["束河古镇", "九鼎龙潭", "拉市海"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "古城免费漫步与古镇为主，雪山只走山脚蓝月谷、不登大索道。", "items": ["古城/束河免费", "蓝月谷免费步道", "腊排骨小吃解决餐饮", "拉市海徒步"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含玉龙雪山大索道 + 1 顿特色餐。", "items": ["玉龙雪山大索道", "蓝月谷环保车", "腊排骨火锅", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多付费体验 + 泸沽湖专程 + 精品客栈。", "items": ["雪山大索道", "泸沽湖环湖", "摩梭家访", "古城精品院"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选古城边缘或新城（近公交枢纽），减少搬运行李与通勤时间；古城内拖行李不便。",
+    "rows": [
+      { "type": "青年旅舍/经济客栈", "area": "新城 / 古城边缘", "priceLevel": "约 ¥120-220/晚（估算）", "advantage": "交通枢纽 · 近公交 · 平价选择多" },
+      { "type": "古城纳西院落", "area": "大研古城边缘", "priceLevel": "约 ¥200-500/晚（估算）", "advantage": "古城氛围 · 步行可达 · 可体验传统住宿" },
+      { "type": "品质酒店", "area": "新城七星街 / 福慧路", "priceLevel": "约 ¥300-600/晚（估算）", "advantage": "核心商圈 · 接送方便 · 干净高效" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "古城适应线", "title": "大研古城 · 四方街 · 狮子山", "sub": "从千年古城开始，免费街区打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "抵达丽江与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "飞机至三义机场乘机场大巴/打车，或动车至丽江站公交前往古城，放下行李轻装出发。往返大交通不含。", "info": [{ "label": "交通方式", "value": "机场大巴/动车+公交" }, { "label": "耗时", "value": "40-90分钟" }, { "label": "费用", "value": "约¥40-120" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的山影", "reservation": "机票/车票提前购", "localTip": "首夜慢行、勿饮酒", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住，次日再出发" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "小吃/早餐店", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "古城外早餐店米线或粑粑，人均 ¥10-20。", "info": [{ "label": "人均", "value": "¥10-20" }, { "label": "建议", "value": "就近解决" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯随时补水", "tips": "早餐便宜省时", "alternative": "连锁快餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "四方街与玉河水系", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "从北门入城沿主街至四方街，看小桥流水与纳西民居，免费漫步。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费" }], "bestTime": "清晨人少", "photoSpot": "四方街、玉河", "reservation": "无需预约", "localTip": "早到人最少", "tips": "街区免费，体验古都氛围", "alternative": "只拍外观省门票" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "古城小吃午餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "鸡豆凉粉、丽江粑粑与小吃，人均 ¥20-40，边走边吃。", "info": [{ "label": "人均", "value": "¥20-40" }, { "label": "建议", "value": "小吃组合" }], "bestTime": "12:30前", "photoSpot": "石板街巷", "reservation": "无需预约", "localTip": "现做现吃最香", "tips": "景区小吃略贵，量少多样最划算", "alternative": "新城简餐 ¥15" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "木府与狮子山", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "木府了解土司历史（门票约 ¥40-60 估算）；狮子山万古楼俯瞰古城与雪山（登楼或外围观景免费）。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "约¥40-60" }], "bestTime": "下午至傍晚", "photoSpot": "万古楼俯瞰", "reservation": "无需预约", "localTip": "傍晚登楼光线好", "tips": "门票便宜，值得入内", "alternative": "只逛外围不购票" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "古城夜色与沿河漫步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "夜幕下沿河酒吧街与灯笼，免费感受古城黄昏。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落", "photoSpot": "沿河灯影", "reservation": "无需预约", "localTip": "夜景安静时段更美", "tips": "免费看古城夜色", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "古城内全程步行，外围接驳含在公交/打车内。", "info": [{ "label": "交通方式", "value": "步行 + 公交" }, { "label": "当日费用", "value": "约¥0-20" }, { "label": "餐饮合计", "value": "约¥40-80" }], "bestTime": "避开高峰", "photoSpot": "街巷", "reservation": "无需预约", "localTip": "古城内步行最省", "tips": "首日少运动利适应", "alternative": "打车进出古城边缘" }
+      ]
+    },
+    {
+      "day": 2, "theme": "雪山自然线", "title": "玉龙雪山 · 蓝月谷", "sub": "神山与碧水，丽江代表画面一日集齐", "tag": "自然必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往玉龙雪山", "badges": [{ "t": "交通", "c": "transport" }], "desc": "古城乘公交/拼车至雪山游客中心（约 30-40 分钟），早出发避排队。", "info": [{ "label": "交通方式", "value": "公交/拼车" }, { "label": "耗时", "value": "30-40分钟" }, { "label": "费用", "value": "约¥15-50" }], "bestTime": "7:00-8:00", "photoSpot": "途中山景", "reservation": "大索道提前预约", "localTip": "雪山大索道需预约时段", "tips": "早到避开人流", "alternative": "包车（贵，不推荐经济版）" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "客栈/早餐店", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前早餐，雪山景区餐饮偏贵，可带干粮。", "info": [{ "label": "人均", "value": "¥10-20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "带好保暖与氧气", "tips": "景区餐贵，自备干粮", "alternative": "景区简餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "冰川公园大索道", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "乘大索道至约 4500 米观冰川雪峰（含索道套票约 ¥200-300 估算），慢行适应海拔。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "约¥200-300" }], "bestTime": "上午云少", "photoSpot": "冰川与雪峰", "reservation": "需提前预约", "localTip": "高点慢走、不适即下撤", "tips": "索道值得，保暖第一", "alternative": "只游蓝月谷不登高处" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "景区简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "游客中心附近简餐或自带干粮，人均 ¥30-60。", "info": [{ "label": "人均", "value": "¥30-60" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "山脚", "reservation": "无需预约", "localTip": "午市人多错峰", "tips": "自带更省", "alternative": "干粮解决" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "蓝月谷", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "下山乘环保车至蓝月谷，沿栈道看宝石蓝湖面（步道免费，环保车另计）。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "免费步道" }], "bestTime": "下午顺光", "photoSpot": "蓝月谷湖面", "reservation": "无需预约", "localTip": "上午顺光更出片", "tips": "自然景观免费", "alternative": "雨天改室内" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "甘海子远眺返程", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "甘海子草甸远眺主峰，随后公交/拼车返古城。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "傍晚", "photoSpot": "草甸与主峰", "reservation": "无需预约", "localTip": "返程预留等车", "tips": "免费收尾", "alternative": "直接返住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "雪山往返公交/拼车，费用约 ¥30-100。", "info": [{ "label": "交通方式", "value": "公交/拼车" }, { "label": "当日费用", "value": "约¥30-100" }, { "label": "餐饮合计", "value": "约¥40-80" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "无需预约", "localTip": "拼车认准正规", "tips": "高峰预留时间", "alternative": "包车" }
+      ]
+    },
+    {
+      "day": 3, "theme": "古镇湿地线", "title": "束河 · 拉市海", "sub": "清静古镇与高原湿地的慢收尾", "tag": "文化收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往束河", "badges": [{ "t": "交通", "c": "transport" }], "desc": "古城乘公交/打车至束河（约 20 分钟），上午人少。", "info": [{ "label": "交通方式", "value": "公交/打车" }, { "label": "耗时", "value": "20分钟" }, { "label": "费用", "value": "约¥5-25" }], "bestTime": "上午", "photoSpot": "途中田园", "reservation": "无需预约", "localTip": "束河比大研安静", "tips": "公交最省", "alternative": "打车直达" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "客栈早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前早餐。", "info": [{ "label": "人均", "value": "¥10-20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "简单解决", "alternative": "车站便当" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "束河古镇与九鼎龙潭", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "沿主街至九鼎龙潭，泉水清澈、柳影拂岸，免费慢游。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "上午", "photoSpot": "龙潭与老街", "reservation": "无需预约", "localTip": "午后咖啡馆歇脚", "tips": "自然景观免费", "alternative": "雨天改室内" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "束河简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "古镇简餐或小吃，人均 ¥25-50。", "info": [{ "label": "人均", "value": "¥25-50" }, { "label": "建议", "value": "简餐" }], "bestTime": "12:30前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "午市套餐划算", "tips": "简餐即可", "alternative": "小吃解决" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "拉市海湿地漫步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "弹性", "c": "optional" }], "desc": "束河往拉市海（公交/拼车约 30 分钟），沿湖徒步观鸟（秋冬最佳），骑马项目按需自费。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "弹性" }], "bestTime": "下午", "photoSpot": "湖畔与草甸", "reservation": "骑马先谈价", "localTip": "认准正规马队", "tips": "徒步免费，骑马按需", "alternative": "直接返程" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "拉市海↔古城公交/拼车，预留充足时间；次日离丽可用。", "info": [{ "label": "交通方式", "value": "公交/拼车" }, { "label": "当日费用", "value": "约¥20-80" }, { "label": "餐饮合计", "value": "约¥40-80" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "无需预约", "localTip": "预留返程时间", "tips": "不卡点", "alternative": "机场/车站直送" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 1500, "high": 2800, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 古城免费 + 雪山山脚" },
+      "composition": { "门票": "古城/束河免费", "交通": "公交 + 拼车", "餐饮": "小吃 + 简餐", "住宿": "青旅 / 平价客栈" },
+      "factors": "受①季节淡旺 ②同行人数 ③住宿区位 ④提前预订影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 2800, "high": 4500, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含雪山大索道 + 腊排骨火锅" },
+      "composition": { "门票": "雪山套票", "交通": "公交 + 拼车", "餐饮": "+每日1正餐", "住宿": "古城/新城客栈" },
+      "factors": "受①季节淡旺 ②同行人数 ③住宿区位 ④提前预订影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 4500, "high": 8000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 泸沽湖专程 + 精品院 + 摩梭家访" },
+      "composition": { "门票": "雪山 + 泸沽湖", "交通": "包车/环湖", "餐饮": "+特色正餐", "住宿": "精品客栈" },
+      "factors": "受①季节淡旺 ②同行人数 ③住宿区位 ④提前预订影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（3晚）", "economy": { "low": 360, "high": 660, "note": "青旅/平价·3晚估算" }, "comfort": { "low": 600, "high": 1500, "note": "古城/新城·3晚估算" }, "flexible": { "low": 1200, "high": 3000, "note": "精品院·3晚估算" } },
+      { "cat": "🍽 餐饮（3天）", "economy": { "low": 150, "high": 300, "note": "小吃+简餐" }, "comfort": { "low": 300, "high": 600, "note": "+每日1特色正餐" }, "flexible": { "low": 600, "high": 1200, "note": "+腊排骨/摩梭餐" } },
+      { "cat": "🚌 交通（3天）", "economy": { "low": 100, "high": 250, "note": "公交+拼车" }, "comfort": { "low": 200, "high": 500, "note": "公交+拼车+打车" }, "flexible": { "low": 500, "high": 1500, "note": "含泸沽湖包车" } },
+      { "cat": "🎫 门票", "economy": { "low": 40, "high": 100, "note": "木府/狮子山" }, "comfort": { "low": 250, "high": 400, "note": "+雪山大索道套票" }, "flexible": { "low": 500, "high": 1000, "note": "+泸沽湖环湖" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 100, "high": 300, "note": "伴手礼弹性" }, "comfort": { "low": 200, "high": 500, "note": "手信+伴手礼" }, "flexible": { "low": 500, "high": 1500, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 750, "high": 1610, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 1550, "high": 3500, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 3300, "high": 8200, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "抵达 → 古城 → 四方街 → 狮子山", "transport": "机场大巴/动车+公交 + 步行", "estimatedTime": "约40-90分钟", "costRange": "约¥0-20/人", "foodRange": "约¥40-80/人" },
+    { "day": "Day2", "route": "住宿 → 玉龙雪山 → 蓝月谷 → 返程", "transport": "公交/拼车", "estimatedTime": "约30-40分钟", "costRange": "约¥30-100/人", "foodRange": "约¥40-120/人" },
+    { "day": "Day3", "route": "住宿 → 束河 → 拉市海 → 返程", "transport": "公交/拼车", "estimatedTime": "约20-30分钟", "costRange": "约¥20-80/人", "foodRange": "约¥40-80/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "雪山与户外漫步", "alternative": "室内文化：丽江博物院、木府室内展与古城咖啡馆，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费雪山大索道", "alternative": "免费蓝月谷步道、古城与束河街巷、拉市海徒步", "reason": "不花钱也能感受自然与古城，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "雪山高处与长距离步行", "alternative": "以蓝月谷步道、古城与束河平缓区为主，减少登高处", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如古城+束河、或雪山+蓝月谷），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "小吃 ¥10-20", "午餐": "古城小吃 ¥20-40", "晚餐": "简餐 ¥20-40", "小计": "经济档" },
+      { "day": "Day2", "早餐": "客栈/干粮", "午餐": "景区简餐 ¥30-60", "晚餐": "古城火锅 ¥40-80", "小计": "经济-舒适" },
+      { "day": "Day3", "早餐": "客栈", "午餐": "束河简餐 ¥25-50", "晚餐": "新城简餐 ¥20-40", "小计": "经济档" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "机场大巴/动车+公交+步行", "费用": "约¥40-120（含往返大交通）", "提醒": "首日慢行利适应" },
+      { "day": "Day2", "方式": "公交/拼车", "费用": "约¥30-100", "提醒": "大索道提前预约" },
+      { "day": "Day3", "方式": "公交/拼车", "费用": "约¥20-80", "提醒": "拉市海认准正规马队" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 古城适应", "Day2 雪山自然", "Day3 古镇湿地"],
+    "dailyHours": [5, 7, 5],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [510, 225, 175, 70, 200],
+      "comfort": [1050, 450, 350, 325, 350],
+      "flexible": [2100, 900, 1000, 750, 1000]
+    }
+  },
+  "savingTips": [
+    { "title": "古城免费", "text": "大研与束河核心街区免费漫步，体验不打折。" },
+    { "title": "公交优先", "text": "市区与雪山、束河均有公交，比打车省得多。" },
+    { "title": "小吃解决餐饮", "text": "鸡豆凉粉、丽江粑粑多样实惠，正餐留 1 顿腊排骨。" },
+    { "title": "早餐控费", "text": "客栈周边早餐人均 ¥10-20，比餐厅便宜且快。" },
+    { "title": "雪山预约", "text": "大索道提前网上约时段，避免现场售罄。" },
+    { "title": "自备干粮", "text": "雪山区餐饮偏贵，带干粮与水最稳。" },
+    { "title": "步行串联", "text": "古城内步行即达，省车费也利高原适应。" },
+    { "title": "只逛不买", "text": "四方街、龙潭的街景与泉水本身免费好看。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["玉龙雪山大索道旺季提前预约", "国庆/暑期住宿提前预订", "腊排骨名店可提前排号"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2周更优", "机票/动车票提前购", "热门餐厅正餐当天早去"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带身份证", "现金少量（小店可能仅收现金）", "防晒墨镜与保暖层", "常用药与氧气（按需）", "舒适防滑鞋"] }
+  ],
+  "packing": [
+    "身份证", "现金少量", "防晒霜与墨镜", "薄外套+羽绒（雪山）", "舒适防滑鞋", "充电宝", "雨具（夏季）", "常用药与氧气（按需）", "水杯", "保湿用品（秋冬季）"
+  ]
+}

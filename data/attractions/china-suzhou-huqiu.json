@@ -1,0 +1,66 @@
+{
+  "id": "china-suzhou-huqiu",
+  "type": "attraction",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "huqiu",
+  "title": "虎丘旅游攻略｜苏州云岩寺塔与吴中第一名胜",
+  "description": "苏州虎丘旅游攻略：云岩寺塔（中国比萨斜塔）、剑池与千人石，附交通方式与登山动线。",
+  "keywords": "虎丘,云岩寺塔,苏州斜塔,虎丘门票,虎丘攻略,吴中第一名胜",
+  "h1": "虎丘旅游攻略",
+  "lead": "虎丘素有「吴中第一名胜」之誉，云岩寺塔斜而不倒，是苏州最古老的地标之一。",
+  "tags": [
+    "地标",
+    "古塔",
+    "历史",
+    "登山"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>虎丘海拔仅约 34 米却名胜荟萃，云岩寺塔建于五代，因地基沉降向东北倾斜，被誉为「中国比萨斜塔」。相传春秋吴王阖闾葬于此，剑池、千人石等传说为其增添厚重历史感。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>云岩寺塔为标志性机位；剑池幽深、崖壁刻石众多；千人石开阔，断梁殿、拥翠山庄各具看头。</p><h3>游览动线</h3><p>南门入经断梁殿、剑池至云岩寺塔，再沿山道上行俯瞰，全程平缓约 1.5-2 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>上午登山光线好、人也较少；可与留园、山塘街安排同一天（同处古城西北）。</p><h3>交通</h3><p>地铁 2 号线至「虎丘」相关站点或公交至「虎丘」站步行可达；景区多设南、北门。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "云岩寺塔为文物，不对外开放登塔。",
+        "山路平缓但石阶湿滑，雨天注意防滑。",
+        "门票约 70 元（估算，随淡旺季浮动），以官方公布为准。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-liuyuan",
+        "china-suzhou-gardens-2d",
+        "china-suzhou-transport",
+        "china-suzhou-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-suzhou-huqiu/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-huqiu/1200/630",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-huqiu-1/1200/800",
+      "alt": "虎丘 云岩寺塔"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-huqiu-2/1200/800",
+      "alt": "虎丘 剑池"
+    }
+  ]
+}

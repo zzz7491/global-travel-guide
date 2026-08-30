@@ -1,0 +1,66 @@
+{
+  "id": "china-lijiang-lugu",
+  "type": "attraction",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "lugu",
+  "title": "泸沽湖旅游攻略｜摩梭风情与高原湖光指南",
+  "description": "泸沽湖旅游攻略：跨丽江市与四川盐源的高原湖泊、摩梭母系文化与走婚桥，附车程、环湖与住宿建议，助你安排泸沽湖行程。",
+  "keywords": "泸沽湖,摩梭,走婚桥,里格半岛,高原湖泊,丽江周边",
+  "h1": "泸沽湖旅游攻略",
+  "lead": "距丽江约 200 公里的云端湖泊，摩梭人沿湖而居，猪槽船划过碧水，是远离古城喧嚣的高原秘境。",
+  "tags": [
+    "湖泊",
+    "摩梭文化",
+    "自然",
+    "摄影"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>泸沽湖地处云南丽江与四川凉山交界，湖面海拔约 2690 米，是高原断陷湖。湖周居住着保留母系家庭与「走婚」习俗的摩梭人，人文与自然并重。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p>里格半岛与情人滩的湖光；草海与走婚桥的田园意境；乘猪槽船游湖、访摩梭家访了解母系文化。</p><h3>动线建议</h3><p>泸沽湖距丽江古城约 200 公里、车程 4-5 小时，建议安排 1-2 天专程往返，环湖包车或拼车最省心。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>季节</h3><p>春秋气候舒适、湖水最蓝；夏季多雨但草海丰茂；冬季晴日多、游客少。</p><h3>海拔</h3><p>湖岸约 2690 米，活动量不大通常无高反，但仍需保暖防晒。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "距丽江较远，务必预留充足车程、勿赶夜路。",
+        "环湖路况弯多，包车选熟悉司机。",
+        "尊重摩梭习俗，家访与走婚桥以了解文化为主。",
+        "湖畔早晚温差大，带好外套。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-oldtown",
+        "china-lijiang-accommodation",
+        "china-lijiang-transport"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-lijiang-lugu/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-lugu-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-lugu-01/1200/800",
+      "alt": "泸沽湖里格半岛"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-lugu-02/1200/800",
+      "alt": "走婚桥与草海"
+    }
+  ]
+}

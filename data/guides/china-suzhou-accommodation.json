@@ -1,0 +1,78 @@
+{
+  "id": "china-suzhou-accommodation",
+  "type": "guide",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "accommodation",
+  "title": "苏州住宿指南｜古城民宿与商圈酒店全攻略",
+  "description": "苏州住宿指南：观前街、平江路、苏州站与园区住宿区域对比，含价位区间与选房建议，助你住得方便又划算。",
+  "keywords": "苏州住宿,苏州酒店,苏州民宿,平江路住宿,观前街酒店,苏州站住宿",
+  "h1": "苏州住宿指南",
+  "lead": "住古城内可步行游园、夜逛平江路；住苏州站或园区则通勤与高铁更方便，按行程重心选区域最划算。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>苏州住宿分古城内与新城两片：古城（观前街、平江路、十全街）氛围好、近园林；苏州站/北站与工业园区交通与商务设施更全。先定区域，再选价位。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>古城片区</h3><p>观前街餐饮购物集中；平江路一带有园林民宿与精品酒店，夜游方便，价格约 300-800 元/晚（估算）。</p><h3>交通枢纽</h3><p>苏州站/北站周边经济酒店与连锁多，往返上海与高铁方便，价格约 200-500 元/晚（估算）。</p><h3>工业园区</h3><p>商圈现代、酒店档次高，适合商务或追求设施者，价格约 400-1000 元/晚（估算）。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>古城民宿部分临街或巷窄，订前看评价与隔音；节假日与旺季价格翻倍，尽早预订。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>选房策略</h3><p>以园林游览为主选古城；以跨城高铁串联为主选苏州站周边；连住不换房可省搬运行李时间。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "古城近园林、氛围好",
+        "苏州站通高铁、性价比高",
+        "园区现代、设施全",
+        "旺季提前预订"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-economy",
+        "china-suzhou-transport",
+        "china-suzhou-tips"
+      ]
+    }
+  ],
+  "category": "住宿",
+  "image": "https://picsum.photos/seed/china-suzhou-accommodation/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-accommodation/1200/630",
+  "howto": {
+    "name": "苏州选住宿区域指南",
+    "description": "三步按行程重心选对区域",
+    "totalTime": "PT15M",
+    "steps": [
+      {
+        "name": "确定行程重心",
+        "text": "以园林为主则选古城；以高铁串联周边则选苏州站周边。",
+        "image": "https://picsum.photos/seed/china-suzhou-accommodation/1200/800"
+      },
+      {
+        "name": "对比价位",
+        "text": "古城民宿约 300-800 元/晚，苏州站经济酒店约 200-500 元/晚（均估算）。",
+        "image": ""
+      },
+      {
+        "name": "提前预订",
+        "text": "旺季与节假日尽早下单，优先选可免费取消的房型。",
+        "image": ""
+      }
+    ]
+  }
+}

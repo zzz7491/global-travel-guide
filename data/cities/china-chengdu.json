@@ -1,0 +1,92 @@
+{
+  "id": "china-chengdu",
+  "type": "city",
+  "country": "china",
+  "city": "chengdu",
+  "name": "成都",
+  "nameEn": "Chengdu",
+  "title": "成都旅行攻略 | Global Travel Guide",
+  "description": "成都旅游攻略与成都自由行路线全指南：涵盖成都景点路线规划、每日行程、美食住宿与交通建议，助你轻松安排成都行程。",
+  "keywords": "成都旅游攻略,成都自由行,成都旅行路线,成都景点攻略,成都美食,成都交通",
+  "h1": "成都",
+  "lead": "熊猫故乡与川菜之都，茶馆、火锅与慢生活交织，是西中国最具烟火气的休闲之城。",
+  "continent": "亚洲",
+  "language": "汉语",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "tagline": "熊猫故乡，一座来了就不想走的休闲之都",
+  "heroImage": "https://picsum.photos/seed/china-chengdu-hero/1200/800",
+  "bestTime": {
+    "description": "成都四季皆可游：春季（3-5月）气候舒适、熊猫活跃；秋季（9-11月）天高气爽最宜出行；夏季湿热、冬季阴冷但人流少。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "汉语"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "成都大熊猫繁育研究基地",
+    "都江堰与青城山世界遗产",
+    "武侯祠与锦里古街",
+    "宽窄巷子慢生活",
+    "杜甫草堂与川菜美食"
+  ],
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-g1/1200/800",
+      "alt": "成都 大熊猫繁育研究基地",
+      "type": "nature"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-g2/1200/800",
+      "alt": "成都 宽窄巷子传统街区",
+      "type": "street"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-g3/1200/800",
+      "alt": "成都 武侯祠文化建筑",
+      "type": "culture"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-g4/1200/800",
+      "alt": "成都 川菜美食",
+      "type": "food"
+    }
+  ],
+  "faq": [
+    {
+      "q": "成都要玩几天合适？",
+      "a": "市区核心（熊猫基地、武侯祠、锦里、宽窄巷子、杜甫草堂）建议 3-4 天；若加都江堰与青城山一日游，可安排 4-5 天。"
+    },
+    {
+      "q": "成都最佳旅行时间是几月？",
+      "a": "春季（3-5月）与秋季（9-11月）最舒适；夏季（6-8月）湿热多雨，冬季（12-2月）阴冷少人，各有体验。"
+    },
+    {
+      "q": "成都旅行预算多少？",
+      "a": "经济型约 1500-3000 元/人·4天（估算，不含往返大交通），含平价住宿、地铁公交、小吃与少量门票。"
+    },
+    {
+      "q": "成都交通方便吗？",
+      "a": "地铁网络覆盖主要景点，市区多可地铁直达；熊猫基地、都江堰需乘地铁或城际/高铁接驳。"
+    },
+    {
+      "q": "成都必去景点有哪些？",
+      "a": "大熊猫繁育研究基地、都江堰、青城山、武侯祠、锦里、宽窄巷子、杜甫草堂是经典必游。"
+    }
+  ],
+  "socialImage": "https://picsum.photos/seed/china-chengdu-og/1200/800"
+}

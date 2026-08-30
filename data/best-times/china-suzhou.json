@@ -1,0 +1,28 @@
+{
+  "id": "china-suzhou-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "suzhou",
+  "title": "苏州最佳旅行时间｜几月去苏州最好",
+  "description": "苏州最佳旅行时间：3-5月园林新绿、9-11月秋高气爽最舒适；夏季湿热多雨、冬季清幽人少，全年各有韵味。",
+  "keywords": "苏州最佳旅行时间,苏州几月去,苏州旅游季节,苏州春天,苏州秋天,苏州梅雨",
+  "h1": "苏州最佳旅行时间",
+  "lead": "苏州春秋最宜人：园林在新绿与金风里各擅胜场，也是人流与价格的温和高峰。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3-5月：</strong>园林新绿、桃花杨柳，气温 12-25℃，最舒适宜人；清明前后人流略增。</li><li><strong>6-7月：</strong>梅雨湿热（6 月为主），多阵雨；园林雨景清幽但需带伞防蚊。</li><li><strong>8月：</strong>盛夏闷热，午后多雷阵雨，建议早出晚归、午休避峰。</li><li><strong>9-11月：</strong>秋高气爽、桂花飘香，公认最佳出游窗口，园林与古城最耐逛。</li><li><strong>12-2月：</strong>湿冷少雪、游客最少，园林清幽，住宿性价比高。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": ["春秋为最佳窗口，住宿与门票建议提前 1-2 周预订。", "9-11 月桂花季与秋色最宜步行漫游。", "6 月梅雨与夏季湿热需备雨具与防蚊。", "冬季人少价低，适合慢节奏深度游。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["china-suzhou-zhuozheng", "china-suzhou-gardens-2d", "china-suzhou-transport"]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "china-suzhou-zhouzhuang",
+  "type": "attraction",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "zhouzhuang",
+  "title": "周庄古镇旅游攻略｜中国第一水乡一日游指南",
+  "description": "苏州周庄古镇旅游攻略：双桥、沈厅与南湖，附上海/苏州往返交通、门票与游览动线，适合水乡一日游。",
+  "keywords": "周庄,周庄古镇,中国第一水乡,周庄门票,周庄攻略,苏州水乡",
+  "h1": "周庄古镇旅游攻略",
+  "lead": "周庄被誉为「中国第一水乡」，碧水环镇、明清老宅沿河而筑，是体验江南水乡最经典的去处之一。",
+  "tags": [
+    "水乡古镇",
+    "世界文化遗产预备",
+    "摄影",
+    "一日游"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>周庄位于苏州昆山境内，距苏州市区约 1 小时车程，镇区依水成街、因水成路，保存大量明清建筑。双桥（世德桥、永安桥）因画家陈逸飞作品闻名，沈厅、张厅为代表性宅第。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>双桥是经典合影位；沈厅展现江南巨宅格局；乘摇橹船穿巷是水乡精髓；南湖秋月园可观开阔水面。</p><h3>游览动线</h3><p>建议早到避开团队，沿主街至双桥、沈厅，再乘船游水巷，黄昏返程；古镇内步行即可，全天约 4-6 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>清晨与傍晚光影最佳、人流较少；若想拍晨雾与夜景可考虑住一晚。与同里可二选一或各半日。</p><h3>交通</h3><p>苏州汽车北站或高铁至昆山/苏州站转公交、旅游专线可达；上海方向自驾或大巴约 1.5 小时。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "古镇多售联票，含主要宅第与展馆，价格约 100 元（估算），以官方为准。",
+        "摇橹船按船计价，可拼船分摊，费用以现场公示为准。",
+        "节假日水巷拥挤，保管好随身物品，夜间石板路注意防滑。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-watertown-1d",
+        "china-suzhou-transport",
+        "china-suzhou-food",
+        "china-suzhou-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-suzhou-zhouzhuang/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-zhouzhuang/1200/630",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-zhouzhuang-1/1200/800",
+      "alt": "周庄 双桥水巷"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-zhouzhuang-2/1200/800",
+      "alt": "周庄 明清老宅"
+    }
+  ]
+}

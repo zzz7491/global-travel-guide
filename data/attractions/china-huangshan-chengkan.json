@@ -1,0 +1,68 @@
+{
+  "id": "china-huangshan-chengkan",
+  "type": "attraction",
+  "country": "china",
+  "city": "huangshan",
+  "slug": "chengkan",
+  "title": "呈坎旅游攻略｜八卦布局古村与罗东舒祠宝纶阁",
+  "description": "呈坎旅游攻略：徽州八卦布局古村的街巷水系、明代罗东舒祠与宝纶阁木构，附交通、游览时长与与宏村西递的差异说明。",
+  "keywords": "呈坎,呈坎八卦村,罗东舒祠,宝纶阁,徽州古村,黄山周边古村,徽派祠堂",
+  "h1": "呈坎旅游攻略",
+  "lead": "街巷按八卦格局铺开的罗氏古村，村中的罗东舒祠与宝纶阁是徽州祠堂建筑里分量最重的一处。",
+  "tags": [
+    "古村落",
+    "徽派建筑",
+    "祠堂",
+    "人文",
+    "小众"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>呈坎位于黄山市徽州区，是以罗氏为主的古村落，因街巷与水系呈八卦状布局而常被称作「八卦村」。村中有大量明清建筑，其中<strong>罗东舒祠</strong>（含后寝<strong>宝纶阁</strong>）为明代大型祠堂建筑，梁架、彩绘与规模在徽州祠堂中极具代表性，是国家级文物保护单位。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p><strong>罗东舒祠与宝纶阁</strong>是必看主体，宜留出足够时间看梁柱、月梁与彩绘细部；村内<strong>街巷与水系</strong>按八卦格局展开，转弯多、视线短，是与宏村完全不同的空间体验；村外<strong>潭水与田畴</strong>在早晚有雾时非常出片。</p><h3>动线与时长</h3><p>从村口沿主巷进入 → 罗东舒祠 → 巷弄穿行 → 村外水口回望，核心游览约 1.5-2 小时。村子体量小于宏村，适合与其他村落串成一天。</p><h3>为什么值得来</h3><p>呈坎游客量通常明显少于宏村、西递，愿意看建筑本体而非只拍风景的人在这里收获更大。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>清晨雾气未散时村外最美；祠堂内部光线偏暗，白天中段进去看细部更清楚。</p><h3>交通</h3><p>呈坎距黄山市区（屯溪）约 30-40 公里，可从屯溪或黄山北站包车、打车前往，也有前往徽州区方向的班车换乘，具体班次以当日运营为准；自驾最灵活。</p><h3>组合建议</h3><p>可与屯溪老街同日安排（半天呈坎 + 傍晚老街），或与宏村、西递组合成两天的徽州古村落线。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "祠堂为重点文物，勿触碰木构与彩绘，遵守拍摄规定",
+        "巷道曲折易绕圈，可跟随景区指示牌或请讲解",
+        "公共交通班次不如宏村密集，返程时间要提前确认",
+        "门票与讲解费用以景区当日公告为准"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-huangshan-hongcun",
+        "china-huangshan-xidi",
+        "china-huangshan-tunxi",
+        "china-huangshan-huizhou-1d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-huangshan-chengkan-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-huangshan-chengkan-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-chengkan-g1/1200/800",
+      "alt": "呈坎古村巷道与马头墙"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-chengkan-g2/1200/800",
+      "alt": "罗东舒祠宝纶阁的明代木构梁架"
+    }
+  ]
+}

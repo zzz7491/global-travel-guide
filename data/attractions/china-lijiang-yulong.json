@@ -1,0 +1,66 @@
+{
+  "id": "china-lijiang-yulong",
+  "type": "attraction",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "yulong",
+  "title": "玉龙雪山旅游攻略｜冰川公园与蓝月谷观光指南",
+  "description": "玉龙雪山旅游攻略：冰川公园大索道、蓝月谷与甘海子，附高原适应、索道预约与拍摄建议，助你安排玉龙雪山行程。",
+  "keywords": "玉龙雪山,冰川公园,蓝月谷,大索道,丽江雪山,高原",
+  "h1": "玉龙雪山旅游攻略",
+  "lead": "十三座雪峰连绵如玉龙腾空，冰川公园与山脚蓝月谷的碧水，是丽江最震撼的高原自然奇观。",
+  "tags": [
+    "雪山",
+    "自然",
+    "高原",
+    "摄影"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>玉龙雪山为横断山系云岭山脉主峰，主峰扇子陡海拔约 5596 米，是纳西族心中的神山。景区含冰川公园（大索道）、云杉坪、牦牛坪与山脚蓝月谷，是丽江自然风光的代表。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p>冰川公园大索道上至约 4500 米，可观现代冰川与雪峰；蓝月谷因钙化湖呈宝石蓝，又称「小九寨」；甘海子草甸是眺望主峰的绝佳位。</p><h3>动线建议</h3><p>进山后乘环保车至各点，大索道需提前预约时段；蓝月谷可与雪山同日顺路游览，留足时间适应海拔。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>高原适应</h3><p>索道高点氧气稀薄，少跑动、慢步行；可备氧气瓶与保暖衣物。出现明显头痛、心慌应下撤。</p><h3>拍摄</h3><p>上午雪山光线更清晰、云量少；蓝月谷上午顺光更出片。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "大索道票旺季需提前网上预约时段。",
+        "山顶气温低、风大，务必带羽绒服。",
+        "有严重心肺疾病者谨慎登高处。",
+        "景区环保车与索道为分段收费，以当日公告为准。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-tips",
+        "china-lijiang-snowmountain-1d",
+        "china-lijiang-oldtown"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-lijiang-yulong/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-yulong-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-yulong-01/1200/800",
+      "alt": "玉龙雪峰"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-yulong-02/1200/800",
+      "alt": "蓝月谷湖水"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "china-suzhou-pingjiang",
+  "type": "attraction",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "pingjiang",
+  "title": "平江路旅游攻略｜苏州保存最完整的历史街区",
+  "description": "苏州平江路旅游攻略：运河老街、水巷民居与评弹茶馆，附步行动线与美食建议，免费开放。",
+  "keywords": "平江路,苏州老街,苏州历史街区,平江路美食,苏州运河,苏州免费景点",
+  "h1": "平江路旅游攻略",
+  "lead": "平江路沿河延展，是苏州保存最完整的历史街区，粉墙黛瓦与水巷生活交织成最地道的江南画面。",
+  "tags": [
+    "历史街区",
+    "运河",
+    "免费",
+    "美食"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>平江路紧邻拙政园与苏州博物馆，街区格局自宋代《平江图》延续至今，河街并行。沿河漫步可看枕河人家、石桥与老宅，是感受苏州日常水巷生活的免费去处。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>主街与支巷交错，耦园（世界遗产）位于街区东侧；评弹博物馆、昆曲博物馆散落其间；临河茶座适合小坐。</p><h3>游览动线</h3><p>从干将路北端入口沿河北行约 1.6 公里，可折入大儒巷、钮家巷等支巷，全程步行约 1-2 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>傍晚至夜间灯笼亮起最有氛围；白天可与拙政园、博物馆串联，步行即达。</p><h3>交通</h3><p>地铁 1 号线相门站步行约 10 分钟；公交至「相门」或「北寺塔」沿线可达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "街区免费开放，内部小景点（如耦园）另需购票。",
+        "周末与节假日人流较大，注意随身物品。",
+        "河岸无栏杆处较多，带小孩需留意安全。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-zhuozheng",
+        "china-suzhou-museum",
+        "china-suzhou-food",
+        "china-suzhou-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-suzhou-pingjiang/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-pingjiang/1200/630",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-pingjiang-1/1200/800",
+      "alt": "平江路 运河老街"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-pingjiang-2/1200/800",
+      "alt": "平江路 水巷民居"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "china-suzhou-zhuozheng",
+  "type": "attraction",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "zhuozheng",
+  "title": "拙政园旅游攻略｜苏州最大古典园林参观指南",
+  "description": "苏州拙政园旅游攻略：明代私家园林、水景布局与借景手法，附交通方式与参观动线，助你安排拙政园行程。",
+  "keywords": "拙政园,苏州园林,苏州古典园林,拙政园门票,拙政园攻略,苏州世界遗产",
+  "h1": "拙政园旅游攻略",
+  "lead": "拙政园是苏州现存最大的古典园林，以水为中心、亭榭轻盈，是江南园林的典范之作。",
+  "tags": [
+    "古典园林",
+    "世界遗产",
+    "摄影",
+    "历史"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>拙政园始建于明正德年间（约 1509 年），为江南私家园林的代表，1997 年作为「苏州古典园林」组成部分列入世界文化遗产。全园以水池为中心，楼台亭榭临水而建，借景、对景手法炉火纯青。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>远香堂为全园主体建筑，临水可观荷；小飞虹廊桥、香洲石舫、留听阁各具意趣；东、中、西三区相连，移步换景。</p><h3>游览动线</h3><p>建议从正门入园，沿中线远香堂—小飞虹—香洲—见山楼顺序，再游西区与东区，全程约 2-3 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>建议清晨开园即入，光线柔和且人流较少；夏季荷花季（6-8月）水面最盛，秋季银杏点缀亦佳。</p><h3>交通</h3><p>地铁 4 号线北寺塔站或公交至「拙政园」站步行可达；与苏州博物馆、狮子林相邻，可串联游览。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "旺季游客较多，错峰入园体验更佳。",
+        "园内地势平整但水边湿滑，注意安全。",
+        "门票约 70-90 元（估算，随淡旺季浮动），以官方公布为准。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-museum",
+        "china-suzhou-pingjiang",
+        "china-suzhou-gardens-2d",
+        "china-suzhou-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-suzhou-zhuozheng/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-zhuozheng/1200/630",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-zhuozheng-1/1200/800",
+      "alt": "拙政园 水景庭院"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-zhuozheng-2/1200/800",
+      "alt": "拙政园 廊桥与亭台"
+    }
+  ]
+}

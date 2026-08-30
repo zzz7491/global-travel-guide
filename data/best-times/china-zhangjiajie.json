@@ -1,0 +1,39 @@
+{
+  "id": "china-zhangjiajie-best-time",
+  "type": "best-time",
+  "country": "china",
+  "city": "zhangjiajie",
+  "title": "张家界最佳旅行时间｜几月去张家界最好",
+  "description": "张家界最佳旅行时间：4-6 月与 9-11 月最舒适，雨后清晨常见云海；7-8 月山上凉爽适合避暑但雨多人多；冬季人少可遇雪景雾凇。",
+  "keywords": "张家界最佳旅行时间,张家界几月去,张家界云海,张家界避暑,张家界雪景",
+  "h1": "张家界最佳旅行时间",
+  "lead": "张家界看的是能见度：春秋雨后转晴的清晨最容易遇上云海，夏季山上凉爽但雨与人都多。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "按月概览",
+      "html": "<ul class='notes-list'><li><strong>3月：</strong>回暖但多阴雨，峰林常被雾遮，游客少、价格低。</li><li><strong>4-5月：</strong>新绿满谷、气温 15-25℃，雨后云海概率高，公认最佳窗口之一。</li><li><strong>6月：</strong>进入多雨期，山上凉爽，云雾变化剧烈，能见度赌运气。</li><li><strong>7-8月：</strong>市区可达 33℃以上，山上明显凉爽（常低 3-8℃），是湖南本地的避暑目的地；但降雨集中且暑期客流最大，索道与天梯排队最久。</li><li><strong>9-10月：</strong>秋高气爽、湿度下降、能见度全年最佳，国庆假期为客流与价格顶峰。</li><li><strong>11月：</strong>山色转黄红，人流回落，早晚偏冷，性价比高。</li><li><strong>12-2月：</strong>最冷月山上可低于 0℃，偶有雪景与雾凇，游客最少；需留意雨雪结冰导致索道与部分栈道临时封闭。</li></ul>"
+    },
+    {
+      "kind": "notes",
+      "title": "出行建议",
+      "items": [
+        "4-6 月与 9-11 月综合体验最好，避开国庆假期首尾两天。",
+        "想看云海就盯「雨后转晴」的清晨，提前一晚住武陵源或山上。",
+        "7-8 月避暑可行，但要接受阵雨与长队，行程留弹性一天。",
+        "冬季出行前查看索道运行公告，备防滑鞋与保暖层。",
+        "任何季节都要带雨衣与外套，山上与市区温差常有 3-8℃。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-zhangjiajie-summer",
+        "china-zhangjiajie-forest",
+        "china-zhangjiajie-forest-2d",
+        "china-zhangjiajie-tips"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "china-suzhou-liuyuan",
+  "type": "attraction",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "liuyuan",
+  "title": "留园旅游攻略｜苏州四大名园之一参观指南",
+  "description": "苏州留园旅游攻略：明代园林、四季假山与冠云峰，附交通方式与游览动线，助你安排留园行程。",
+  "keywords": "留园,苏州园林,苏州四大名园,留园门票,留园攻略,冠云峰",
+  "h1": "留园旅游攻略",
+  "lead": "留园以建筑空间精妙、奇石冠云峰闻名，与拙政园并称苏州园林双璧。",
+  "tags": [
+    "古典园林",
+    "世界遗产",
+    "假山奇石",
+    "历史"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>留园始建于明万历年间（约 1593 年），清代重修，与拙政园、北京颐和园、承德避暑山庄并称中国四大名园，1997 年列入世界文化遗产。以建筑布局精巧、庭院层层递进著称。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>冠云峰为留园镇园之宝，是江南最大太湖石孤峰之一；涵碧山房、明瑟楼临水而筑；东区以厅堂庭院见长，西区为自然山景。</p><h3>游览动线</h3><p>入园先经门厅窄巷，豁然开朗至中区水池，再游东区厅堂与西区假山，全程约 1.5-2 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>上午光线适合拍摄建筑细部；可与虎丘安排同一天（同处古城西北），顺路游览山塘街。</p><h3>交通</h3><p>地铁 2 号线石路站或公交至「留园」站步行可达，邻近山塘街可一并游逛。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "园内有台阶与水池，注意脚下安全。",
+        "冠云峰前合影位常人多，建议错峰。",
+        "门票约 55 元（估算，随淡旺季浮动），以官方公布为准。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-huqiu",
+        "china-suzhou-zhuozheng",
+        "china-suzhou-gardens-2d",
+        "china-suzhou-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-suzhou-liuyuan/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-liuyuan/1200/630",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-liuyuan-1/1200/800",
+      "alt": "留园 厅堂庭院"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-liuyuan-2/1200/800",
+      "alt": "留园 冠云峰"
+    }
+  ]
+}

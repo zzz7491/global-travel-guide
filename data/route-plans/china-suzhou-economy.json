@@ -1,0 +1,189 @@
+{
+  "type": "route-plan",
+  "schemaVersion": "1.1",
+  "id": "china-suzhou-economy",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "economy",
+  "title": "苏州三日经济版路书｜低预算苏州自由行计划 | Global Travel Guide",
+  "description": "苏州三日经济版路书：以地铁与步行为主、免费博物馆与街区为核心、苏式面馆与小吃搭配的低成本深度行程。含每日时间轴、预算估算区间、住宿区域建议与省钱技巧，适合希望控制预算又不愿错过园林与水乡的自由行旅客。",
+  "keywords": "苏州经济游,苏州三日游,苏州自由行省钱,苏州预算攻略,苏州园林游,苏州便宜玩法",
+  "h1": "苏州三日经济版路书",
+  "lead": "省钱不省精彩 · 用地铁与步行串起古典园林与水巷，平价也出深度。",
+  "edition": "economy",
+  "image": "https://picsum.photos/seed/china-suzhou-routeplan/1200/800",
+  "priority": 0,
+  "days": 3,
+  "suitableFor": "首次到苏州、希望控制预算又想覆盖核心园林与水乡的自由行旅客",
+  "seasonNote": "春季（3-5月）园林新绿、秋季（9-11月）秋高气爽最佳；夏季湿热、梅雨（6月）多雨；冬季人少价低、别有一番清幽。",
+  "travelTone": "第一次苏州自由行",
+  "cover": {
+    "tag": "ECONOMY EDITION",
+    "title": ["苏州三日", "经济版路书"],
+    "subtitle": "省钱不省精彩 · 平价也出深度",
+    "tone": "🧭 适合：第一次苏州自由行",
+    "info": [
+      { "num": "3", "label": "DAYS" },
+      { "num": "8+", "label": "FREE SPOTS" },
+      { "num": "经济档", "label": "TICKETS" },
+      { "num": "地铁+步行", "label": "TRANSIT" }
+    ],
+    "badge": "不含往返 · 市内交通 · 平价住宿",
+    "bottom": "适合首次到苏州、希望控制预算又不愿错过核心体验的自由行旅客。",
+    "season": "🌸 春秋最佳 · 冬夏可调",
+    "budget": "约 ¥1200–2400 / 人·3天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把苏州玩透又不超预算。",
+    "items": [
+      { "icon": "💴", "label": "预算控制", "value": "免费博物馆与街区为主，付费只留核心园林" },
+      { "icon": "🧭", "label": "动线优化", "value": "同区景点集中排布，减少跨区折返" },
+      { "icon": "🌿", "label": "免费体验优先", "value": "博物馆、平江路、山塘街漫步零门票，体验不打折" },
+      { "icon": "🚌", "label": "交通效率", "value": "地铁 + 步行 + 共享单车，省车费也省时间" },
+      { "icon": "⛩️", "label": "深度体验", "value": "经典园林一个不落，节奏松紧有度" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "古城东北线", "title": "拙政园 · 苏州博物馆 · 平江路", "spots": ["拙政园", "苏州博物馆", "平江路"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "古城西北线", "title": "留园 · 虎丘 · 山塘街", "spots": ["留园", "虎丘", "山塘街"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "水乡一日", "title": "周庄古镇 · 摇橹船", "spots": ["周庄", "双桥", "摇橹船"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "免费博物馆与街区为主，付费只进最想去的园林与水乡。", "items": ["苏州博物馆免费", "平江路/山塘街免费", "面馆与小吃解决餐饮", "周庄联票按需"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "含全部核心园林门票 + 1 顿苏帮菜正餐。", "items": ["拙政园门票", "留园门票", "虎丘门票", "每日1顿正餐"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "多付费体验 + 水乡摇橹船 + 品质住宿，体验优先。", "items": ["全部园林门票", "周庄摇橹船", "苏帮菜正餐", "园林民宿"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "建议整段行程连住不换，优先选观前街-平江路或苏州站周边（近地铁枢纽），减少搬运行李与通勤时间。",
+    "rows": [
+      { "type": "青年旅舍/经济酒店", "area": "苏州站周边 / 观前街", "priceLevel": "约 ¥150-300/晚（估算）", "advantage": "交通枢纽 · 近地铁 · 平价选择多" },
+      { "type": "园林民宿", "area": "平江路 / 十全街", "priceLevel": "约 ¥300-600/晚（估算）", "advantage": "古城氛围 · 近园林景点 · 可体验江南住宿" },
+      { "type": "品质酒店", "area": "园区 / 观前", "priceLevel": "约 ¥400-1000/晚（估算）", "advantage": "核心商圈 · 设施完善 · 干净高效" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "古城东北线", "title": "拙政园 · 苏州博物馆 · 平江路", "sub": "从最大园林开始，免费馆与老街打底", "tag": "必去高性价比", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "抵达苏州与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "上海虹桥乘高铁至苏州站约 30 分钟；或苏州北站中转，放下行李轻装出发。往返大交通不含。", "info": [{ "label": "交通方式", "value": "高铁/地铁" }, { "label": "耗时", "value": "30-60分钟" }, { "label": "费用", "value": "约¥40-80" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "车窗掠过的江南田野", "reservation": "高铁建议提前购票", "localTip": "先办一张交通卡或开手机支付", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住，次日再出发" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "本地面馆早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "苏州站或观前街附近面馆，焖肉面/爆鱼面人均 ¥15-30。", "info": [{ "label": "人均", "value": "¥15-30" }, { "label": "建议", "value": "就近解决" }], "bestTime": "出发前", "photoSpot": "街角面馆", "reservation": "无需预约", "localTip": "早市面最鲜", "tips": "面馆早餐便宜省时", "alternative": "便利店简餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "拙政园", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "苏州最大古典园林（门票约 ¥70-90，估算），以水景与借景著称，建议开园即入。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "约¥70-90" }], "bestTime": "清晨人少", "photoSpot": "远香堂、小飞虹", "reservation": "建议线上购票", "localTip": "8点前抵达人最少", "tips": "门票值得，园大需留足时间", "alternative": "只拍外墙不入园" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "平江路小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "平江路梅花糕、酒酿圆子、蟹粉小笼边走边吃，人均 ¥30-60。", "info": [{ "label": "人均", "value": "¥30-60" }, { "label": "建议", "value": "小吃组合" }], "bestTime": "12:30前", "photoSpot": "运河老街", "reservation": "无需预约", "localTip": "现做现吃最香", "tips": "景区小吃略贵，量少多样最划算", "alternative": "面馆便餐" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "苏州博物馆", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "贝聿铭设计的现代园林博物馆，免费但常需提前预约，与拙政园相邻可串联。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费(需预约)" }], "bestTime": "下午至闭馆前", "photoSpot": "片石假山、中央大厅", "reservation": "需提前网上预约", "localTip": "周一多闭馆，行程错开", "tips": "免费且出片，务必预约", "alternative": "改逛狮子林(付费)" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "平江路漫步", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "沿河散步、听评弹、看枕河人家，免费感受苏州黄昏与水巷生活。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落", "photoSpot": "河岸灯笼、石桥", "reservation": "无需预约", "localTip": "傍晚灯笼亮起最有氛围", "tips": "免费看古城黄昏", "alternative": "体力不足则回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "东北线以地铁 + 步行串联，费用极低。", "info": [{ "label": "交通方式", "value": "地铁 + 步行" }, { "label": "当日费用", "value": "约¥10-20" }, { "label": "餐饮合计", "value": "约¥60-120" }], "bestTime": "避开高峰", "photoSpot": "地铁站", "reservation": "无需预约", "localTip": "同片区内步行最省", "tips": "日均车费控制在¥10左右", "alternative": "共享单车代步" }
+      ]
+    },
+    {
+      "day": 2, "theme": "古城西北线", "title": "留园 · 虎丘 · 山塘街", "sub": "名园与斜塔，苏州代表画面一日集齐", "tag": "摄影必走", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往留园", "badges": [{ "t": "交通", "c": "transport" }], "desc": "地铁或公交至留园片区，上午人少。", "info": [{ "label": "交通方式", "value": "地铁/公交" }, { "label": "耗时", "value": "15-30分钟" }, { "label": "费用", "value": "约¥4-6" }], "bestTime": "上午", "photoSpot": "古城街巷", "reservation": "无需预约", "localTip": "留园开门即入", "tips": "西北线同区，通勤短", "alternative": "打车约¥15" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "附近面馆早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前面馆解决早餐。", "info": [{ "label": "人均", "value": "¥15-30" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "早市面鲜", "tips": "早出发，早餐简单解决", "alternative": "便利店简餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "留园", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "四大名园之一（门票约 ¥55，估算），冠云峰与庭院精巧，建议上午游览。", "info": [{ "label": "建议时长", "value": "1.5小时" }, { "label": "费用", "value": "约¥55" }], "bestTime": "上午", "photoSpot": "冠云峰、涵碧山房", "reservation": "建议线上购票", "localTip": "冠云峰前合影位人多", "tips": "门票便宜，值得入内", "alternative": "只拍外墙" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "山塘街小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "山塘街生煎、糖粥、臭豆腐边走边吃，人均 ¥30-60。", "info": [{ "label": "人均", "value": "¥30-60" }, { "label": "建议", "value": "摊位小吃" }], "bestTime": "12:00-13:00", "photoSpot": "水巷摊位", "reservation": "无需预约", "localTip": "现做最香", "tips": "小吃多样又实惠", "alternative": "简餐面馆" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "虎丘", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "云岩寺塔斜而不倒（门票约 ¥70，估算），剑池与千人石值得一看。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "约¥70" }], "bestTime": "下午顺光", "photoSpot": "云岩寺塔、剑池", "reservation": "建议线上购票", "localTip": "登山平缓、塔不开放登顶", "tips": "门票值得，地标必到", "alternative": "远观不购票" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "山塘街夜景", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "山塘街河边灯火与老桥，免费散步收尾。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "傍晚至夜间", "photoSpot": "灯影水巷", "reservation": "无需预约", "localTip": "夜景比白天更出片", "tips": "免费收尾，节奏从容", "alternative": "直接回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "留园↔虎丘↔山塘街同处西北，地铁/公交 + 步行，费用约 ¥10-20。", "info": [{ "label": "交通方式", "value": "地铁 + 步行" }, { "label": "当日费用", "value": "约¥10-20" }, { "label": "餐饮合计", "value": "约¥60-120" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "无需预约", "localTip": "同区预留等车时间短", "tips": "西北线通勤极短", "alternative": "打车更省时" }
+      ]
+    },
+    {
+      "day": 3, "theme": "水乡一日", "title": "周庄古镇 · 摇橹船", "sub": "中国第一水乡，最后的水巷记忆", "tag": "文化收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往周庄", "badges": [{ "t": "交通", "c": "transport" }], "desc": "苏州汽车站或旅游专线大巴至周庄约 1 小时，早班出发。", "info": [{ "label": "交通方式", "value": "大巴/专线" }, { "label": "耗时", "value": "50-80分钟" }, { "label": "费用", "value": "约¥20-40" }], "bestTime": "上午", "photoSpot": "沿途水田", "reservation": "认准正规客运", "localTip": "早班车人少", "tips": "末班返程较早，预留时间", "alternative": "同里更近可选" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "市区面馆早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前面馆解决早餐。", "info": [{ "label": "人均", "value": "¥15-30" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "水乡餐饮偏贵，早餐吃好", "alternative": "便利店简餐" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "周庄双桥与沈厅", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "低价", "c": "paid" }], "desc": "联票含双桥、沈厅、张厅等（约 ¥100，估算），清晨光影最佳、人较少。", "info": [{ "label": "建议时长", "value": "3-4小时" }, { "label": "费用", "value": "约¥100" }], "bestTime": "上午", "photoSpot": "双桥、沈厅", "reservation": "可线上购联票", "localTip": "早到拍晨景", "tips": "联票比单买划算", "alternative": "只逛街巷不购票(受限)" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "周庄小吃", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "万三蹄、阿婆茶、糕点边走边吃，人均 ¥40-80。", "info": [{ "label": "人均", "value": "¥40-80" }, { "label": "建议", "value": "小吃组合" }], "bestTime": "12:30前", "photoSpot": "水巷摊位", "reservation": "无需预约", "localTip": "万三蹄可小份尝", "tips": "水乡小吃略贵，适量尝鲜", "alternative": "自带干粮" },
+        { "time": "下午", "category": "experience", "categoryLabel": "体验", "title": "摇橹船游水巷", "badges": [{ "t": "体验", "c": "experience" }, { "t": "弹性", "c": "optional" }], "desc": "乘摇橹船穿巷，约 ¥100-150/船（估算），可拼船分摊。", "info": [{ "label": "建议时长", "value": "30分钟" }, { "label": "费用", "value": "约¥100-150/船" }], "bestTime": "下午", "photoSpot": "船行水巷", "reservation": "现场购票", "localTip": "拼船更划算", "tips": "体验精华，弹性控制", "alternative": "步行游巷" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "周庄↔苏州市区大巴 + 地铁，预留充足时间。", "info": [{ "label": "交通方式", "value": "大巴 + 地铁" }, { "label": "当日费用", "value": "约¥20-40" }, { "label": "餐饮合计", "value": "约¥80-160" }], "bestTime": "避开晚高峰", "photoSpot": "车站", "reservation": "末班较早", "localTip": "提前确认返程班次", "tips": "别卡点，末班车早", "alternative": "住一晚次日返" }
+      ]
+    }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 1200, "high": 2400, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 园林门票 + 市集餐饮" },
+      "composition": { "门票": "园林+水乡联票", "交通": "地铁 + 步行", "餐饮": "面馆 + 小吃 + 1正餐", "住宿": "青旅 / 平价酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④同行人数 ⑤水乡交通影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 2400, "high": 4200, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含全部园林门票 + 苏帮菜正餐" },
+      "composition": { "门票": "全部核心园林", "交通": "地铁 + 打车", "餐饮": "+每日1正餐", "住宿": "园林民宿/品质酒店" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④同行人数 ⑤水乡交通影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 4200, "high": 7000, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 摇橹船 + 苏帮正餐 + 园林民宿" },
+      "composition": { "门票": "全含+游船", "交通": "自由", "餐饮": "+苏帮/正餐", "住宿": "园林民宿" },
+      "factors": "受①季节淡旺 ②住宿区位 ③提前预订 ④同行人数 ⑤水乡交通影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（3晚）", "economy": { "low": 300, "high": 600, "note": "青旅/平价·3晚估算" }, "comfort": { "low": 900, "high": 1800, "note": "民宿/品质·3晚估算" }, "flexible": { "low": 1800, "high": 3600, "note": "园林民宿·3晚估算" } },
+      { "cat": "🍽 餐饮（3天）", "economy": { "low": 300, "high": 540, "note": "面馆+小吃+1正餐" }, "comfort": { "low": 540, "high": 900, "note": "+每日1特色正餐" }, "flexible": { "low": 900, "high": 1500, "note": "+苏帮正餐" } },
+      { "cat": "🚌 交通（3天）", "economy": { "low": 120, "high": 260, "note": "地铁+步行+水乡大巴" }, "comfort": { "low": 200, "high": 400, "note": "地铁+打车+水乡" }, "flexible": { "low": 400, "high": 800, "note": "自由出行" } },
+      { "cat": "🎫 门票", "economy": { "low": 295, "high": 315, "note": "拙政园/留园/虎丘/周庄" }, "comfort": { "low": 295, "high": 315, "note": "同经济" }, "flexible": { "low": 500, "high": 800, "note": "+摇橹船" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 150, "high": 400, "note": "糕点手信弹性" }, "comfort": { "low": 400, "high": 900, "note": "手信+伴手礼" }, "flexible": { "low": 900, "high": 1800, "note": "充裕购物" } }
+    ],
+    "totals": {
+      "economy": { "low": 1165, "high": 2115, "note": "不含往返大交通·估算区间" },
+      "comfort": { "low": 2335, "high": 4315, "note": "不含往返大交通·估算区间" },
+      "flexible": { "low": 4500, "high": 8500, "note": "不含往返大交通·估算区间" }
+    }
+  },
+  "dailySummary": [
+    { "day": "Day1", "route": "苏州站 → 拙政园 → 博物馆 → 平江路", "transport": "地铁 + 步行", "estimatedTime": "约20-40分钟", "costRange": "约¥10-20/人", "foodRange": "约¥60-120/人" },
+    { "day": "Day2", "route": "住宿 → 留园 → 虎丘 → 山塘街", "transport": "地铁 + 步行", "estimatedTime": "约15-30分钟", "costRange": "约¥10-20/人", "foodRange": "约¥60-120/人" },
+    { "day": "Day3", "route": "住宿 → 周庄 → 返程", "transport": "大巴 + 地铁", "estimatedTime": "约50-80分钟", "costRange": "约¥40-80/人", "foodRange": "约¥80-160/人" }
+  ],
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "户外园林与古塔散步", "alternative": "室内场馆：苏州博物馆、苏州园林博物馆、评弹博物馆与商场，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
+    { "title": "🆓 免费替代方案", "original": "付费园林门票", "alternative": "免费馆与街区：苏州博物馆、平江路、山塘街、耦园外巷，不花钱也能感受苏州", "reason": "不花钱也能体会水城氛围，省下预算留作餐饮" },
+    { "title": "🧓 老人友好方案", "original": "长距离步行与跨区", "alternative": "以地铁直达的园林（拙政园、留园）与河岸长椅休息为主，水乡改乘游船少走路", "reason": "降低体力消耗、提升舒适度" },
+    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如拙政园+平江路、或虎丘+山塘街），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+  ],
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "面馆 ¥15-30", "午餐": "平江路小吃 ¥30-60", "晚餐": "苏帮菜 ¥60-120", "小计": "经济档" },
+      { "day": "Day2", "早餐": "面馆 ¥15-30", "午餐": "山塘街小吃 ¥30-60", "晚餐": "苏帮菜 ¥60-120", "小计": "经济档" },
+      { "day": "Day3", "早餐": "面馆 ¥15-30", "午餐": "周庄小吃 ¥40-80", "晚餐": "返程自理", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "地铁 + 步行", "费用": "约¥10-20", "提醒": "同片区内步行最省" },
+      { "day": "Day2", "方式": "地铁 + 步行", "费用": "约¥10-20", "提醒": "西北线通勤短" },
+      { "day": "Day3", "方式": "大巴 + 地铁", "费用": "约¥40-80", "提醒": "末班返程较早，预留时间" }
+    ]
+  },
+  "charts": {
+    "days": ["Day1 古城东北", "Day2 古城西北", "Day3 水乡一日"],
+    "dailyHours": [6, 6, 7],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
+      "economy": [450, 420, 200, 300, 300],
+      "comfort": [1350, 720, 300, 300, 600],
+      "flexible": [2700, 1200, 600, 650, 1350]
+    }
+  },
+  "savingTips": [
+    { "title": "博物馆免费预约", "text": "苏州博物馆免费但需预约，周一多闭馆，务必提前安排。" },
+    { "title": "园林早到避峰", "text": "开园即入，人少体验好还省排队时间。" },
+    { "title": "面馆解决早餐", "text": "焖肉面人均 ¥15-30，比餐厅便宜且快。" },
+    { "title": "平江路小吃多样", "text": "梅花糕、酒酿圆子边走边吃，正餐留 1 顿苏帮菜。" },
+    { "title": "同片区串联", "text": "东北线/西北线各排一天，减少跨区通勤。" },
+    { "title": "水乡拼船", "text": "周庄摇橹船按船计价，拼船分摊更划算。" },
+    { "title": "地铁+步行", "text": "古城内地铁+步行即可，日均车费控制在¥10左右。" },
+    { "title": "住宿选枢纽", "text": "苏州站/观前周边平价住宿多，通勤与高铁都方便。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "预约日历", "items": ["苏州博物馆提前网上预约", "旺季园林建议线上购票早到", "周庄末班返程客车较早", "节假日住宿提前预订"] },
+    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2周更优", "上海-苏州高铁票提前购", "热门苏帮菜馆正餐可预约"] },
+    { "type": "notice", "title": "行前须知", "items": ["携带身份证件", "开通移动支付并备少量现金", "舒适步行鞋", "随身雨具(梅雨/阵雨)", "提前下载地图/导航App"] }
+  ],
+  "packing": [
+    "身份证件", "移动支付(微信/支付宝)", "少量现金", "交通卡/手机支付", "舒适步行鞋", "雨具", "充电宝", "薄外套(早晚温差)", "防晒/防蚊(夏季)", "常用药品", "折叠购物袋", "园林民宿可选(预订即可)"
+  ]
+}

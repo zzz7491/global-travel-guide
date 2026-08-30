@@ -1,0 +1,78 @@
+{
+  "id": "china-chengdu-accommodation",
+  "type": "guide",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "accommodation",
+  "title": "成都住宿指南｜春熙路宽窄巷子与地铁沿线区域全攻略",
+  "description": "成都住宿指南：春熙路、宽窄巷子、天府广场与地铁沿线住宿区域对比，含价位与交通建议。",
+  "keywords": "成都住宿,成都酒店,成都民宿,成都住哪,春熙路住宿,宽窄巷子住宿",
+  "h1": "成都住宿指南",
+  "lead": "住在地铁沿线最省心：春熙路逛吃方便，宽窄巷子氛围足，天府广场中转高效。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>成都住宿选择丰富，从青旅到国际连锁均有。选房核心是「近地铁」，既能快速到景点，也方便前往机场与高铁站。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>春熙路/太古里</h3><p>商圈核心，餐饮购物密集，地铁 2/3 号线交汇，价位中高（经济酒店约 200-400 元/晚、品质酒店约 500-900 元/晚，估算）。</p><h3>宽窄巷子/人民公园</h3><p>老城氛围浓，近茶馆与小吃，适合慢游（约 250-600 元/晚，估算）。</p><h3>天府广场/骡马市</h3><p>地铁枢纽，去机场与高铁方便，性价比高（约 200-450 元/晚，估算）。</p><h3>熊猫基地周边</h3><p>适合早起到基地，但餐饮选择少，仅推荐深度熊猫游。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>节假日（五一、国庆）价格翻倍，提前 1-2 个月预订；景区内民宿溢价明显，往外走两站更实惠；确认是否含早餐与退房时间。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>选房策略</h3><p>首次到访优先春熙路或天府广场，交通与吃饭都方便；慢游爱好者选宽窄巷子周边；连住不换房最省搬运精力。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "优先选地铁沿线",
+        "春熙路方便、宽窄巷子有氛围",
+        "节假日提前 1-2 月预订",
+        "经济酒店约 200-400 元/晚（估算）"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-economy",
+        "china-chengdu-transport",
+        "china-chengdu-tips"
+      ]
+    }
+  ],
+  "category": "住宿",
+  "image": "https://picsum.photos/seed/china-chengdu-accommodation-cover/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-accommodation-og/1200/800",
+  "howto": {
+    "name": "成都选房三步法",
+    "description": "三步锁定适合自己的成都住宿区域",
+    "totalTime": "PT10M",
+    "steps": [
+      {
+        "name": "定区域",
+        "text": "看行程重心：逛吃选春熙路，慢游选宽窄巷子，中转选天府广场。",
+        "image": "https://picsum.photos/seed/china-chengdu-accommodation-1/1200/800"
+      },
+      {
+        "name": "查地铁",
+        "text": "用地图确认酒店 500 米内有地铁站，优先 2/3/4 号线沿线。",
+        "image": ""
+      },
+      {
+        "name": "比价预订",
+        "text": "对比平台价格，节假日提前 1-2 个月预订更稳。",
+        "image": ""
+      }
+    ]
+  }
+}

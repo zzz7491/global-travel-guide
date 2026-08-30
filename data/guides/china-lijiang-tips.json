@@ -1,0 +1,78 @@
+{
+  "id": "china-lijiang-tips",
+  "type": "guide",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "tips",
+  "title": "丽江实用贴士｜高原反应与古城游玩须知",
+  "description": "丽江实用贴士：高原反应预防、防晒保暖、古城维护费与日常安全，附行前清单，助你顺利玩转丽江。",
+  "keywords": "丽江贴士,丽江高原反应,丽江防晒,丽江注意事项,丽江行前",
+  "h1": "丽江实用贴士",
+  "lead": "海拔 2400 米起步，雪山更高——把高反、防晒与保暖安排好，旅程就顺了大半。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>丽江属高原季风气候，紫外线强、昼夜温差大，古城海拔约 2400 米，玉龙雪山索道可达 4500 米以上。行前了解高反与气候，能显著提升体验。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>高原反应</h3><p>多数人抵古城无明显反应；登雪山高点可能气短、头痛。建议抵达首日勿剧烈运动、勿饮酒，缓慢行动、多喝水；可备氧气瓶与常用药，症状重及时下撤就医。</p><h3>防晒保暖</h3><p>高原紫外线强，需防晒霜、墨镜与帽子；早晚凉，备外套与薄羽绒。雪山顶部务必羽绒服+手套。</p><h3>古城与日常</h3><p>古城维护费以景区当日公告为准；石板路防滑；保管财物，夜间酒吧街注意安全；尊重纳西与摩梭习俗。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>火车站/机场周边的「低价包车、低价票务」多为拉客，认准正规平台；骑马、旅拍先谈妥价格再参与。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>行前清单</h3><p>身份证、防晒与墨镜、保暖层、舒适防滑鞋、常用药与氧气（按需）、充电宝、少量现金（小店可能仅收现金）。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "首日慢行、勿饮酒、多喝水防高反",
+        "防晒+保暖并重，雪山带羽绒",
+        "古城维护费以当日公告为准",
+        "正规渠道订车订票，拒拉客"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-yulong",
+        "china-lijiang-transport",
+        "china-lijiang-accommodation"
+      ]
+    }
+  ],
+  "category": "贴士",
+  "image": "https://picsum.photos/seed/china-lijiang-guide-tips/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-tips-og/1200/800",
+  "howto": {
+    "name": "丽江高原适应指南",
+    "description": "三步平稳适应丽江海拔",
+    "totalTime": "PT30M",
+    "steps": [
+      {
+        "name": "抵达慢行",
+        "text": "到古城首日放轻节奏，不跑跳、不提重物、不饮酒，给身体适应约 2400 米海拔。",
+        "image": "https://picsum.photos/seed/china-lijiang-guide-tips/1200/800"
+      },
+      {
+        "name": "补水保暖",
+        "text": "多喝水、注意保暖，避免感冒加重高反；可备氧气瓶与常用药。",
+        "image": ""
+      },
+      {
+        "name": "登雪山谨慎",
+        "text": "玉龙雪山高点氧气稀薄，放慢脚步，头痛心慌明显及时下撤。",
+        "image": ""
+      }
+    ]
+  }
+}

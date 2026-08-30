@@ -1,0 +1,78 @@
+{
+  "id": "china-suzhou-tips",
+  "type": "guide",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "tips",
+  "title": "苏州实用贴士｜出行前必看的注意事项全攻略",
+  "description": "苏州实用贴士：最佳季节、门票预约、支付与语言、安全与防坑，附行前清单，助你顺利安排苏州行程。",
+  "keywords": "苏州贴士,苏州注意事项,苏州旅游攻略,苏州出行,苏州防坑,苏州行前",
+  "h1": "苏州实用贴士",
+  "lead": "苏州整体治安良好、出行便利，掌握预约、支付与季节节奏，就能把园林与水乡玩得从容。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>苏州旅游基础设施成熟，移动支付普及、地铁便捷。核心难点在旺季人流与热门馆预约，提前规划是关键。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>预约与门票</h3><p>苏州博物馆免费但常需提前预约；拙政园、留园、虎丘、周庄等多可线上购票，旺季建议早到或预约时段。</p><h3>支付与通信</h3><p>微信/支付宝普及，备少量现金应急；景区多支持扫码，国际卡受理有限。</p><h3>季节与着装</h3><p>春秋最舒适；夏季湿热带防晒防蚊，梅雨（6月）带伞；冬季湿冷需厚外套。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>防坑</h3><p>水乡周边勿信路边拉客的低价车；景区小吃单价偏高，按需购买；购物认准正规店铺与标价。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>节奏策略</h3><p>园林开园即入、午休避峰；水乡早到拍晨景；同片区景点集中排布，减少通勤。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "博物馆及热门园林提前预约",
+        "移动支付为主、备少量现金",
+        "旺季错峰、开园即入",
+        "水乡认准正规交通与门票"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-best-time",
+        "china-suzhou-transport",
+        "china-suzhou-economy"
+      ]
+    }
+  ],
+  "category": "贴士",
+  "image": "https://picsum.photos/seed/china-suzhou-tips/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-tips/1200/630",
+  "howto": {
+    "name": "苏州行前准备指南",
+    "description": "三步完成行前关键准备",
+    "totalTime": "PT20M",
+    "steps": [
+      {
+        "name": "预约热门场馆",
+        "text": "提前预约苏州博物馆，线上购园林与水乡门票。",
+        "image": "https://picsum.photos/seed/china-suzhou-tips/1200/800"
+      },
+      {
+        "name": "准备支付与证件",
+        "text": "绑定移动支付、备少量现金与身份证件。",
+        "image": ""
+      },
+      {
+        "name": "按季装箱",
+        "text": "春秋薄外套、夏季防晒防蚊、冬季厚衣，舒适步行鞋必备。",
+        "image": ""
+      }
+    ]
+  }
+}

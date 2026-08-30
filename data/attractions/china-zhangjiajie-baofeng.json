@@ -1,0 +1,67 @@
+{
+  "id": "china-zhangjiajie-baofeng",
+  "type": "attraction",
+  "country": "china",
+  "city": "zhangjiajie",
+  "slug": "baofeng",
+  "title": "宝峰湖旅游攻略｜高峡平湖游船与鹰窝寨怎么看",
+  "description": "张家界宝峰湖旅游攻略：山顶高峡平湖的游船动线、土家山歌对唱与鹰窝寨观景台，含门票估算与半日行程建议。",
+  "keywords": "宝峰湖,张家界宝峰湖,高峡平湖,鹰窝寨,土家山歌,武陵源",
+  "h1": "宝峰湖旅游攻略",
+  "lead": "架在山间的一泓碧水，游船穿行于峰峦倒影之间，是张家界少见的以水景为主的半日行程。",
+  "tags": [
+    "湖泊",
+    "游船",
+    "民俗",
+    "轻松步道"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>宝峰湖位于武陵源区，属武陵源风景名胜区范围，湖体由拦谷筑坝形成，水面高悬于山谷之上，因而有「高峡平湖」之称。景区以游船 + 环湖步道为主，门票约 96 元/人（估算，含游船），游览节奏轻松，适合与黄龙洞或大峡谷玻璃桥拼成一天。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>湖上游船</h3><p>游船绕湖航行约 30 分钟，沿途峰石倒影与「孔雀开屏」等象形山石；船行途中常有土家族歌者在崖畔亭台对唱山歌，是这里最有辨识度的体验。</p><h3>鹰窝寨与步道</h3><p>登山步道通往鹰窝寨方向的观景台，可俯视整片湖面与环抱山峰；台阶不多，属轻量爬升。</p><h3>入口瀑布</h3><p>景区入口段有落差可观的溢流瀑布，雨季水量大时颇有气势，是进园前的第一处拍摄点。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>完整游览约 2 小时，半日即可。上午光线打在湖面东侧山体上，倒影更清；午后可接黄龙洞。</p><h3>适合人群</h3><p>路线短、爬升少，是老人小孩与体力不足者的友好选择，也适合作为森林公园两日强度行程之后的休整日。</p><h3>交通</h3><p>景区距武陵源镇中心约 2-3 公里，步行或短途打车即可到达，是武陵源住宿区最容易顺路加入的景点。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "游船按班次发船，人少时可能等待，建议避开正午团队高峰。",
+        "湖面风大且水汽重，船上注意保管手机与帽子。",
+        "山歌对唱为随机安排，并非每班船都能遇到。",
+        "与森林公园门票不通用，需单独购票。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-zhangjiajie-huanglong",
+        "china-zhangjiajie-glass",
+        "china-zhangjiajie-accommodation",
+        "china-zhangjiajie-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-baofeng-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-baofeng-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-baofeng-lake/1200/800",
+      "alt": "宝峰湖山间湖面与峰石倒影"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-baofeng-boat/1200/800",
+      "alt": "宝峰湖游船与崖畔亭台"
+    }
+  ]
+}

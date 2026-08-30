@@ -1,0 +1,190 @@
+{
+  "type": "budget",
+  "schemaVersion": "1.1",
+  "id": "china-huangshan-budget",
+  "country": "china",
+  "city": "huangshan",
+  "slug": "economy",
+  "title": "黄山经济版预算方案｜三日登山+徽州古村落花多少钱",
+  "description": "黄山经济版预算方案：单人三日约 ¥1500-2800（估算，不含往返）的配置拆解——山顶住一晚、两条索道、一座古村落，含住宿餐饮交通门票明细与省钱技巧。",
+  "keywords": "黄山预算,黄山花多少钱,黄山经济游,黄山索道价格,黄山山顶住宿价格,黄山省钱攻略",
+  "h1": "黄山经济版预算方案",
+  "lead": "钱主要花在三处：门票、索道与山顶那一晚 · 其余都能省。",
+  "edition": "economy",
+  "image": "https://picsum.photos/seed/china-huangshan-budget-cover/1200/800",
+  "priority": 10,
+  "days": 3,
+  "suitableFor": "预算有限但想看到日出云海与徽州古村落的旅行者",
+  "seasonNote": "旺季（3.1-11.30）门票高于淡季（12.1-次年2月底）；国庆、五一与暑期周末山顶住宿涨幅最大，错峰出行差价明显。",
+  "travelTone": "高性价比 · 自助游 · 山上山下兼顾",
+  "cover": {
+    "tag": "ECONOMY BUDGET PLAN",
+    "title": ["黄山经济版", "三日预算方案"],
+    "subtitle": "省钱不省风景",
+    "tone": "🧭 适合：控制预算的首次黄山行",
+    "info": [
+      { "num": "¥1.5-2.8", "label": "千/3天" },
+      { "num": "3", "label": "DAYS" },
+      { "num": "2", "label": "UNESCO" },
+      { "num": "2条", "label": "索道" }
+    ],
+    "badge": "不含往返 · 山顶住1晚 · 索道各一条",
+    "bottom": "适合预算有限、又不想错过日出与徽州古村落的旅行者。",
+    "season": "🍂 春秋最佳 · 淡季更便宜",
+    "budget": "约 ¥1500–2800 / 人·3天（估算，不含往返）"
+  },
+  "designPhilosophy": {
+    "desc": "为什么这样花钱？五条原则决定了预算的分配顺序——不可替代的先给，能替代的一律压缩。",
+    "items": [
+      { "icon": "🌄", "label": "先保日出", "value": "山顶一晚不可替代，预算优先级最高" },
+      { "icon": "🚡", "label": "索道够用就好", "value": "上下各一条，不重复消费" },
+      { "icon": "🏨", "label": "住宿分层", "value": "山顶多人间 + 山下经济房，压住最大开支" },
+      { "icon": "🍱", "label": "餐饮下移", "value": "正餐在山下吃，山上以自带补给为主" },
+      { "icon": "🎫", "label": "门票取舍", "value": "古村落先进一座，观光缆车视体力再定" }
+    ]
+  },
+  "overview": [
+    { "day": 1, "theme": "后山上山", "title": "汤口换乘 → 云谷索道 → 北海 → 排云亭", "spots": ["门票（旺季约¥190/淡季约¥150）", "云谷索道（约¥80-90）", "排云亭日落（免费）"], "ticketLabel": "经济档" },
+    { "day": 2, "theme": "日出与峡谷", "title": "光明顶日出 → 西海大峡谷 → 迎客松 → 玉屏索道", "spots": ["日出（含门票内）", "观光缆车（约¥100，可选）", "玉屏索道（约¥80-90）"], "ticketLabel": "经济档" },
+    { "day": 3, "theme": "徽州古村落", "title": "西递（或宏村）→ 屯溪老街 → 返程", "spots": ["古村落门票（约¥100）", "屯溪老街（免费）", "新安江畔（免费）"], "ticketLabel": "经济档" }
+  ],
+  "ticketTiers": [
+    { "name": "极致省钱版", "level": "economy", "desc": "门票 + 两条索道为底线，古村落只进一座。", "items": ["风景区门票（旺季约¥190/淡季约¥150，估算）", "云谷索道上 + 玉屏索道下（各约¥80-90，估算）", "古村落只进一座（约¥100，估算）", "屯溪老街与江畔免费"], "note": "核心体验不打折，钱包最轻松" },
+    { "name": "平衡舒适版", "level": "comfort", "desc": "加西海大峡谷观光缆车 + 两座古村落 + 每日一顿徽菜正餐。", "items": ["西海观光缆车（约¥100，估算）", "西递 + 宏村都进", "每日一顿徽菜正餐", "山顶标间"], "note": "体验与成本最平衡" },
+    { "name": "宽松体验版", "level": "full", "desc": "古村落包车 + 呈坎加码 + 山顶好房型。", "items": ["古村落包车一日", "加呈坎与罗东舒祠", "山顶朝向好的房型", "徽菜招牌吃全"], "note": "预算充足时最尽兴" }
+  ],
+  "accommodation": {
+    "note": "住宿是黄山预算的最大变量：山顶一晚往往等于山下两三晚。经济版策略是山顶只住一晚拿下日出，其余住汤口或屯溪。",
+    "rows": [
+      { "type": "山顶宾馆多人间", "area": "北海 / 白云 / 排云楼一带", "priceLevel": "约 ¥400-800/晚（估算，旺季更高）", "advantage": "日出日落门口就是 · 物资靠挑运，价格偏高" },
+      { "type": "青旅 / 经济酒店", "area": "汤口（景区南大门）", "priceLevel": "约 ¥150-350/晚（估算）", "advantage": "近换乘中心 · 上山最早 · 平价选择多" },
+      { "type": "市区酒店 / 徽派民宿", "area": "屯溪老街 / 黟县古村落", "priceLevel": "约 ¥200-600/晚（估算）", "advantage": "餐饮购物齐全 · 近车站机场 · 住宿氛围好" }
+    ]
+  },
+  "days": [
+    {
+      "day": 1, "theme": "后山上山", "title": "汤口换乘 · 云谷索道 · 排云亭日落", "sub": "当日支出＝门票+索道+接驳", "tag": "支出集中日", "ticketLabel": "经济档",
+      "items": [
+        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "进城并前往汤口", "badges": [{ "t": "交通", "c": "transport" }], "desc": "黄山北站或屯溪机场进市区后乘景区班车至汤口；往返大交通不计入本预算。", "info": [{ "label": "费用", "value": "约¥20-60（估算）" }, { "label": "耗时", "value": "约60-90分钟" }], "bestTime": "上午抵达", "photoSpot": "皖南丘陵车窗", "reservation": "旺季提前预约门票与索道", "localTip": "行李寄存山下，只带随身包", "tips": "接驳是小钱，别为省它耽误上山时间", "alternative": "打车更快但更贵" },
+        { "time": "上午", "category": "transport", "categoryLabel": "交通", "title": "换乘专线至云谷寺", "badges": [{ "t": "交通", "c": "transport" }], "desc": "汤口换乘中心统一发车，私家车不可直达索道站。", "info": [{ "label": "费用", "value": "约¥19/单程（估算）" }, { "label": "耗时", "value": "约20分钟" }], "bestTime": "越早越好", "photoSpot": "换乘中心山门", "reservation": "现场或线上购交通票", "localTip": "上车前把水灌满", "tips": "必付项，无法省略", "alternative": "北大门方向乘太平索道" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "山下吃饱 + 采购补给", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "汤口简餐人均约 ¥25-50（估算），同时买齐当天的水与干粮。", "info": [{ "label": "人均", "value": "约¥25-50（估算）" }, { "label": "省钱点", "value": "山下买水可省一半" }], "bestTime": "上索道前", "photoSpot": "汤口街景", "reservation": "无需预约", "localTip": "两瓶水+面包最实用", "tips": "餐饮预算尽量下移到山下", "alternative": "便利店饭团" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "门票+云谷索道与北海一线", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "付费", "c": "paid" }], "desc": "门票旺季约 ¥190、淡季约 ¥150；云谷索道单程约 ¥80-90（均为估算，以官方公告为准）。上山后走始信峰、黑虎松至北海。", "info": [{ "label": "门票", "value": "约¥150-190（估算）" }, { "label": "索道", "value": "约¥80-90（估算）" }, { "label": "建议时长", "value": "3-4小时" }], "bestTime": "午后侧光", "photoSpot": "始信峰、黑虎松", "reservation": "旺季建议预约", "localTip": "索道省下2-3小时爬升", "tips": "门票是最大单项，淡季来更省", "alternative": "步行上山省索道费（约2-3小时）" },
+        { "time": "傍晚", "category": "scenic", "categoryLabel": "景点", "title": "排云亭日落（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "含在门票内，是山顶住宿的第一份回报。", "info": [{ "label": "费用", "value": "免费（含门票内）" }, { "label": "建议时长", "value": "1-1.5小时" }], "bestTime": "日落前40分钟", "photoSpot": "排云亭观景台", "reservation": "无需预约", "localTip": "外套提前穿", "tips": "零成本高回报", "alternative": "阴雨天改短程步道" },
+        { "time": "住宿", "category": "experience", "categoryLabel": "住宿", "title": "山顶多人间一晚", "badges": [{ "t": "住宿", "c": "experience" }, { "t": "偏贵", "c": "paid" }], "desc": "山顶多人间约 ¥400-800/晚（估算，旺季更高），标间更贵；这是全程最贵的一项，也是看日出的必要成本。", "info": [{ "label": "费用", "value": "约¥400-800（估算）" }, { "label": "省钱点", "value": "多人间比标间便宜明显" }], "bestTime": "尽早预订", "photoSpot": "宾馆窗外暮色", "reservation": "务必提前预订并看退改政策", "localTip": "先问次日日出时间", "tips": "只住一晚，其余住山下", "alternative": "全程住汤口，放弃日出（可省数百元）" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日费用小结", "badges": [{ "t": "交通", "c": "transport" }], "desc": "交通与索道合计约 ¥120-200，加门票与餐饮，全天约 ¥380-620（估算）。", "info": [{ "label": "当日交通", "value": "约¥120-200（估算）" }, { "label": "餐饮合计", "value": "约¥85-170（估算）" }], "bestTime": "避开索道高峰", "photoSpot": "索道舱内", "reservation": "旺季索道预约更稳", "localTip": "排队高峰再加30-60分钟", "tips": "门票+索道占当日大头", "alternative": "步行上山压缩索道支出" }
+      ]
+    },
+    {
+      "day": 2, "theme": "日出与峡谷", "title": "光明顶日出 · 西海大峡谷 · 玉屏索道", "sub": "唯一弹性项是观光缆车", "tag": "体力与花费高峰", "ticketLabel": "经济档",
+      "items": [
+        { "time": "日出", "category": "scenic", "categoryLabel": "景点", "title": "光明顶/清凉台日出（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "提前 30-40 分钟占位；云海看运气，不额外收费。", "info": [{ "label": "费用", "value": "免费（含门票内）" }, { "label": "建议时长", "value": "1-1.5小时" }], "bestTime": "日出前30-40分钟", "photoSpot": "光明顶、清凉台", "reservation": "无需预约", "localTip": "带头灯，步道昏暗", "tips": "住山上的核心回报", "alternative": "阴雨天多睡再进峡谷" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "宾馆早餐或自带", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "宾馆早餐约 ¥30-60（估算），自带面包更省。", "info": [{ "label": "人均", "value": "约¥30-60（估算）" }, { "label": "省钱点", "value": "自带可省约¥30" }], "bestTime": "日出后", "photoSpot": "餐厅窗外", "reservation": "无需预约", "localTip": "进峡谷前灌满水", "tips": "峡谷段别空腹", "alternative": "能量棒" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "西海大峡谷与观光缆车（可选）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "optional" }], "desc": "栈道免费（含门票内），谷底观光缆车（地轨）另行收费约 ¥100（估算，以公告为准），可省下大量返升体力。", "info": [{ "label": "缆车", "value": "约¥100（估算）" }, { "label": "建议时长", "value": "3-4小时" }], "bestTime": "上午", "photoSpot": "一环、二环栈道", "reservation": "现场购票", "localTip": "下切容易返升难", "tips": "预算紧张可只走一环折返", "alternative": "不乘缆车原路返回（省约¥100，费体力）" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "天海一带简餐", "badges": [{ "t": "餐饮", "c": "food" }, { "t": "偏贵", "c": "paid" }], "desc": "山上简餐人均约 ¥40-90（估算），自带干粮可显著压缩。", "info": [{ "label": "人均", "value": "约¥40-90（估算）" }, { "label": "省钱点", "value": "自带干粮省约一半" }], "bestTime": "12:30前", "photoSpot": "山脊步道", "reservation": "无需预约", "localTip": "排队久，早点吃", "tips": "山上物价由挑运成本决定", "alternative": "全靠自带补给" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "鳌鱼峰与玉屏楼迎客松（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "百步云梯至玉屏楼看迎客松，含在门票内。", "info": [{ "label": "费用", "value": "免费（含门票内）" }, { "label": "建议时长", "value": "2-2.5小时" }], "bestTime": "下午顺光", "photoSpot": "玉屏楼迎客松", "reservation": "无需预约", "localTip": "合影需排队", "tips": "零额外成本的招牌画面", "alternative": "当期开放可加登莲花峰/天都峰" },
+        { "time": "傍晚", "category": "transport", "categoryLabel": "交通", "title": "玉屏索道下山 + 住汤口", "badges": [{ "t": "交通", "c": "transport" }], "desc": "索道单程约 ¥80-90，换乘专线约 ¥19（估算）；当晚住汤口经济房约 ¥150-350。", "info": [{ "label": "索道+专线", "value": "约¥100-130（估算）" }, { "label": "住宿", "value": "约¥150-350（估算）" }], "bestTime": "17:00前", "photoSpot": "索道俯瞰前山", "reservation": "无需预约", "localTip": "返程票别订当天傍晚", "tips": "下山日别卡点", "alternative": "步行下山省索道费" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日费用小结", "badges": [{ "t": "交通", "c": "transport" }], "desc": "缆车+索道+专线合计约 ¥200-330，加餐饮与住宿，全天约 ¥450-880（估算）。", "info": [{ "label": "当日交通", "value": "约¥200-330（估算）" }, { "label": "餐饮合计", "value": "约¥100-200（估算）" }], "bestTime": "错开下山高峰", "photoSpot": "索道站", "reservation": "无需预约", "localTip": "停运时改步行下山", "tips": "全程支出最高的一天", "alternative": "放弃缆车可省约¥100" }
+      ]
+    },
+    {
+      "day": 3, "theme": "徽州古村落", "title": "西递（或宏村）· 屯溪老街 · 返程", "sub": "门票可控，逛街免费", "tag": "低支出收尾", "ticketLabel": "经济档",
+      "items": [
+        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往黟县古村落", "badges": [{ "t": "交通", "c": "transport" }], "desc": "城乡班车约 ¥20-40（估算），车程约 1 小时，班次以当日运营为准。", "info": [{ "label": "费用", "value": "约¥20-40（估算）" }, { "label": "耗时", "value": "约60分钟" }], "bestTime": "早班车", "photoSpot": "沿途田畴", "reservation": "无需预约", "localTip": "先问清返程末班", "tips": "班车比包车便宜很多", "alternative": "拼车/包车（更贵更灵活）" },
+        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "本地早点", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "徽州馃等早点人均约 ¥10-25（估算）。", "info": [{ "label": "人均", "value": "约¥10-25（估算）" }, { "label": "省钱点", "value": "最容易省的一餐" }], "bestTime": "出发前", "photoSpot": "早点铺", "reservation": "无需预约", "localTip": "石头馃现做最香", "tips": "早餐控费效果稳定", "alternative": "便利店" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "西递门票与游览", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "付费", "c": "paid" }], "desc": "世界遗产村落，门票约 ¥100 上下（估算，以公告为准），游览约 2 小时。", "info": [{ "label": "门票", "value": "约¥100（估算）" }, { "label": "建议时长", "value": "约2小时" }], "bestTime": "上午", "photoSpot": "胡文光牌楼", "reservation": "无需预约", "localTip": "往横巷走更安静", "tips": "经济版只进一座", "alternative": "改去呈坎（班次少）" },
+        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "村口农家菜", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "笋干烧肉、毛豆腐等人均约 ¥35-70（估算）。", "info": [{ "label": "人均", "value": "约¥35-70（估算）" }, { "label": "省钱点", "value": "多人合点更划算" }], "bestTime": "12:00-13:00", "photoSpot": "院落餐桌", "reservation": "无需预约", "localTip": "臭鳜鱼先点一份", "tips": "农家菜性价比高", "alternative": "自带干粮" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "宏村（可选加购）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "optional" }], "desc": "门票约 ¥100 上下（估算）；预算紧张可只在南湖边与村外散步，免费也很好看。", "info": [{ "label": "门票", "value": "约¥100（估算，可省）" }, { "label": "建议时长", "value": "2-3小时" }], "bestTime": "午后", "photoSpot": "月沼、南湖画桥", "reservation": "无需预约", "localTip": "跟着水流走不迷路", "tips": "两村都进则门票翻倍", "alternative": "村外散步（省约¥100）" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "屯溪老街（免费）与徽菜晚餐", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "逛街免费，晚餐人均约 ¥50-100（估算）；茶叶与徽墨在此比价更划算。", "info": [{ "label": "逛街", "value": "免费" }, { "label": "晚餐人均", "value": "约¥50-100（估算）" }], "bestTime": "傍晚灯亮后", "photoSpot": "老街牌坊、新安江畔", "reservation": "无需预约", "localTip": "茶叶先试再买", "tips": "伴手礼一次买齐，别在机场买", "alternative": "直接回住处" },
+        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日费用小结", "badges": [{ "t": "交通", "c": "transport" }], "desc": "班车与市内通勤约 ¥50-100，加门票与餐饮，全天约 ¥240-450（估算）。", "info": [{ "label": "当日交通", "value": "约¥50-100（估算）" }, { "label": "餐饮合计", "value": "约¥90-180（估算）" }], "bestTime": "避开晚高峰", "photoSpot": "车站", "reservation": "返程票提前订", "localTip": "黄山北站在市区北侧", "tips": "收尾日最省，可留购物余量", "alternative": "打车直达车站（更贵）" }
+      ]
+    }
+  ],
+  "dailySummary": [
+    { "day": "Day1", "route": "市区/机场 → 汤口 → 云谷索道 → 北海 → 排云亭", "transport": "班车 + 换乘专线 + 索道", "estimatedTime": "约60-90分钟接驳", "costRange": "约¥120-200/人（交通与索道，估算）", "foodRange": "约¥85-170/人（估算）" },
+    { "day": "Day2", "route": "光明顶日出 → 西海大峡谷 → 迎客松 → 玉屏索道", "transport": "步行 + 观光缆车 + 索道", "estimatedTime": "约60-90分钟下山接驳", "costRange": "约¥200-330/人（估算）", "foodRange": "约¥100-200/人（估算）" },
+    { "day": "Day3", "route": "汤口/屯溪 → 西递 →（宏村）→ 屯溪老街 → 返程", "transport": "城乡班车 + 公交/打车", "estimatedTime": "约60分钟单程", "costRange": "约¥50-100/人（估算）", "foodRange": "约¥90-180/人（估算）" }
+  ],
+  "budgetTiers": [
+    {
+      "level": "economy", "label": "极致省钱版",
+      "estimate": { "low": 1500, "high": 2800, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 山顶多人间1晚 + 山下1晚 + 两条索道 + 一座古村落" },
+      "composition": { "门票与索道": "门票 + 云谷/玉屏索道", "交通": "班车 + 换乘专线", "餐饮": "山下正餐 + 自带干粮", "住宿": "山顶多人间 + 汤口经济房" },
+      "factors": "受①旺淡季门票差 ②节假日住宿涨幅 ③是否乘观光缆车 ④山顶房型 ⑤古村落进几座影响"
+    },
+    {
+      "level": "comfort", "label": "平衡舒适版",
+      "estimate": { "low": 2800, "high": 5300, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 山顶标间 + 观光缆车 + 西递宏村都进 + 每日一顿徽菜正餐" },
+      "composition": { "门票与索道": "+西海观光缆车、两座村落", "交通": "班车 + 部分打车", "餐饮": "每日1顿徽菜正餐", "住宿": "山顶标间 + 市区酒店" },
+      "factors": "受①旺淡季门票差 ②节假日住宿涨幅 ③是否乘观光缆车 ④山顶房型 ⑤古村落进几座影响"
+    },
+    {
+      "level": "full", "label": "宽松体验版",
+      "estimate": { "low": 5500, "high": 10400, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 山顶好房型 + 古村落包车 + 呈坎加码 + 徽菜吃全" },
+      "composition": { "门票与索道": "全部付费项目 + 呈坎", "交通": "包车/专车为主", "餐饮": "徽菜正餐 + 茶点", "住宿": "山顶好房型 + 徽派精品民宿" },
+      "factors": "受①旺淡季门票差 ②节假日住宿涨幅 ③包车费用 ④山顶房型 ⑤古村落进几座影响"
+    }
+  ],
+  "budgetTable": {
+    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "rows": [
+      { "cat": "🏨 住宿（2晚）", "economy": { "low": 550, "high": 1150, "note": "山顶多人间+汤口经济房·估算" }, "comfort": { "low": 1200, "high": 2400, "note": "山顶标间+市区酒店·估算" }, "flexible": { "low": 2400, "high": 4500, "note": "山顶好房型+精品民宿·估算" } },
+      { "cat": "🍽 餐饮（3天）", "economy": { "low": 200, "high": 380, "note": "山下正餐+自带干粮" }, "comfort": { "low": 400, "high": 750, "note": "每日1顿徽菜正餐" }, "flexible": { "low": 800, "high": 1500, "note": "臭鳜鱼一品锅吃全" } },
+      { "cat": "🚌 交通（3天）", "economy": { "low": 120, "high": 220, "note": "班车+换乘专线" }, "comfort": { "low": 250, "high": 500, "note": "+部分打车" }, "flexible": { "low": 600, "high": 1200, "note": "古村落包车" } },
+      { "cat": "🎫 门票与索道", "economy": { "low": 480, "high": 700, "note": "门票+两条索道+1座村落·估算" }, "comfort": { "low": 650, "high": 950, "note": "+观光缆车+2座村落·估算" }, "flexible": { "low": 900, "high": 1400, "note": "+呈坎等全部付费项·估算" } },
+      { "cat": "🛍 购物备用", "economy": { "low": 100, "high": 300, "note": "毛峰/猴魁茶叶弹性" }, "comfort": { "low": 300, "high": 700, "note": "茶叶+徽墨伴手礼" }, "flexible": { "low": 800, "high": 1800, "note": "砚台与礼盒充裕" } }
+    ],
+    "totals": {
+      "economy": { "low": 1450, "high": 2750, "note": "不含往返大交通·单人3天估算" },
+      "comfort": { "low": 2800, "high": 5300, "note": "不含往返大交通·单人3天估算" },
+      "flexible": { "low": 5500, "high": 10400, "note": "不含往返大交通·单人3天估算" }
+    }
+  },
+  "foodDetail": {
+    "rows": [
+      { "day": "Day1", "早餐": "自带/市区早点 约¥10-25", "午餐": "汤口简餐 约¥25-50", "晚餐": "山顶简餐 约¥60-120", "小计": "经济档（山上偏贵）" },
+      { "day": "Day2", "早餐": "宾馆早餐 约¥30-60", "午餐": "天海简餐/干粮 约¥40-90", "晚餐": "汤口徽菜 约¥40-80", "小计": "经济档" },
+      { "day": "Day3", "早餐": "徽州馃 约¥10-25", "午餐": "村口农家菜 约¥35-70", "晚餐": "屯溪老街徽菜 约¥50-100", "小计": "经济-舒适" }
+    ]
+  },
+  "transitDetail": {
+    "rows": [
+      { "day": "Day1", "方式": "景区班车 + 换乘专线 + 云谷索道", "费用": "约¥120-200（估算）", "提醒": "私家车不能直达索道站" },
+      { "day": "Day2", "方式": "步行 + 西海观光缆车 + 玉屏索道", "费用": "约¥200-330（估算）", "提醒": "雨雪大风可能停运，备步行方案" },
+      { "day": "Day3", "方式": "城乡班车 + 公交/打车", "费用": "约¥50-100（估算）", "提醒": "先确认古村落返程末班车" }
+    ]
+  },
+  "alternatives": [
+    { "title": "🌧 雨天方案", "original": "山顶环线与西海大峡谷栈道", "alternative": "改走屯溪老街与古村落室内厅堂，或把上山推迟一天", "reason": "雨雪天栈道湿滑、索道可能停运，人文线不受影响且花费更低" },
+    { "title": "🆓 免费替代方案", "original": "观光缆车与第二座古村落门票", "alternative": "峡谷只走一环折返、宏村只在南湖边散步，老街与江畔全免费", "reason": "单人可省约 ¥200，核心画面基本不丢" },
+    { "title": "🧓 老人友好方案", "original": "峡谷下切与前山陡阶", "alternative": "上下山都乘索道、只走北海—光明顶平缓段，峡谷仅在排云亭远观", "reason": "多花索道钱、少花体力，安全性更高" },
+    { "title": "🔋 体力不足方案", "original": "两天走满山上核心", "alternative": "放弃西海大峡谷，日出后直接玉屏索道下山，多留一晚山下", "reason": "省下缆车费与体力，行程更从容" }
+  ],
+  "charts": {
+    "days": ["Day1 后山上山", "Day2 日出与峡谷", "Day3 徽州古村落"],
+    "dailyHours": [7, 9, 7],
+    "budget": {
+      "labels": ["住宿", "餐饮", "交通", "门票与索道", "购物备用"],
+      "economy": [850, 290, 170, 590, 200],
+      "comfort": [1800, 575, 375, 800, 500],
+      "flexible": [3450, 1150, 900, 1150, 1300]
+    }
+  },
+  "savingTips": [
+    { "title": "山顶只住一晚", "text": "山顶住宿是最大开支，一晚即可拿下日落与日出，其余住汤口或屯溪。" },
+    { "title": "淡季门票更便宜", "text": "12月至次年2月为淡季价（约¥150 vs 旺季约¥190，估算），住宿也更低。" },
+    { "title": "水与干粮山下备", "text": "山上物资靠人力挑运，水与简餐明显更贵，上山前买齐。" },
+    { "title": "索道各一条", "text": "云谷上、玉屏下即可；体力好可省一条改步行，单人省约¥80-90。" },
+    { "title": "古村落先选一座", "text": "西递与宏村门票相近，先进一座，另一座在村外散步。" },
+    { "title": "峡谷缆车按需买", "text": "观光缆车约¥100，体力充足可只走一环折返省下这笔。" },
+    { "title": "错开长假", "text": "国庆与五一山顶房价涨幅最大，错峰一周差价明显。" },
+    { "title": "茶叶老街买", "text": "毛峰与猴魁在屯溪老街可试后再买，比景区与机场划算。" }
+  ],
+  "reminders": [
+    { "type": "urgent", "title": "行前必查", "items": ["天都峰/莲花峰轮休开放公告", "索道与西海观光缆车运营状态", "山顶宾馆余房与退改政策", "山区天气与雷雨/冰雪预警"] },
+    { "type": "booking", "title": "预订时机", "items": ["山顶住宿尽早预订（旺季极紧）", "旺季门票与索道提前官方预约", "返程车票预留2小时以上缓冲"] },
+    { "type": "notice", "title": "行前须知", "items": ["实名购票需带有效身份证件", "防滑登山鞋与护膝", "轻便雨衣（山风大，伞不好用）", "防风保暖外套", "头灯或手电（看日出）", "少量现金 + 移动支付"] }
+  ],
+  "packing": [
+    "有效身份证件", "防滑登山鞋", "护膝", "轻便雨衣", "防风保暖外套", "速干内层衣物", "头灯或手电", "移动电源", "水壶（山下灌满）", "干粮与能量棒", "防晒霜与帽子", "常用药与创可贴", "折叠购物袋", "登山杖（可选）"
+  ]
+}

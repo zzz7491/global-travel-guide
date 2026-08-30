@@ -1,0 +1,68 @@
+{
+  "id": "china-huangshan-hongcun",
+  "type": "attraction",
+  "country": "china",
+  "city": "huangshan",
+  "slug": "hongcun",
+  "title": "宏村旅游攻略｜月沼、南湖与承志堂参观指南",
+  "description": "宏村旅游攻略：世界遗产皖南古村落的牛形水系、月沼与南湖画桥、承志堂木雕，附交通方式、游览时长与写生取景建议。",
+  "keywords": "宏村,宏村攻略,月沼,南湖,承志堂,皖南古村落,黟县,世界遗产",
+  "h1": "宏村旅游攻略",
+  "lead": "白墙黑瓦沿水而生，月沼的半月形水面与南湖的画桥，是徽州最常被写生与取景的画面。",
+  "tags": [
+    "世界遗产",
+    "古村落",
+    "徽派建筑",
+    "摄影",
+    "写生"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>宏村位于黄山市黟县，与西递一同以「皖南古村落——西递、宏村」于 2000 年列入《世界遗产名录》。村落布局常被形容为「牛形」：以雷岗山为牛头、月沼为牛胃、穿村水圳为牛肠、南湖为牛肚，是研究古代村落水系规划的典型案例。电影《卧虎藏龙》曾在此取景。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p><strong>月沼</strong>为村中心半月形水池，四周民居环列，清晨倒影最完整；<strong>南湖</strong>与湖上画桥是村口经典机位，也是写生者最密集的位置；<strong>承志堂</strong>为清代盐商宅第，木雕繁复，是徽派民居内部装饰的代表；<strong>水圳</strong>沿巷穿行，串起大半个村子。</p><h3>动线与时长</h3><p>从南湖入村 → 沿水圳巷道 → 月沼 → 承志堂等民居 → 村北出口，核心环线步行约 2-3 小时；愿意慢下来喝茶写生可安排半天以上。村中巷道窄而交错，跟着水流走不容易迷路。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>最佳时段</h3><p>清晨与傍晚游客少、光线柔和，月沼与南湖的倒影最好；春季油菜花与秋季（11 月上中旬）附近塔川的秋色是两个额外加分项。</p><h3>交通</h3><p>黄山市区（屯溪）或黄山北站有前往黟县、宏村方向的班车；从景区南大门汤口也有班车前往，通常约 1 小时上下，具体班次以当日运营为准。</p><h3>组合建议</h3><p>宏村与西递同属黟县、相距不远，适合安排在同一天；也可与呈坎、屯溪老街组成一天的「徽州古村落线」。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "村内为居民生活区，拍摄民居与院落前先征得同意",
+        "旺季与节假日南湖、月沼机位拥挤，建议早到",
+        "巷道与水圳边石板湿滑，注意脚下",
+        "门票与讲解、观光车费用以景区当日公告为准"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-huangshan-xidi",
+        "china-huangshan-chengkan",
+        "china-huangshan-huizhou-1d",
+        "china-huangshan-transport"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-huangshan-hongcun-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-huangshan-hongcun-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-hongcun-g1/1200/800",
+      "alt": "宏村月沼半月形水面与环列民居"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-huangshan-hongcun-g2/1200/800",
+      "alt": "宏村南湖画桥与写生的人群"
+    }
+  ]
+}

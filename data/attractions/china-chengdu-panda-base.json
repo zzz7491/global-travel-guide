@@ -1,0 +1,65 @@
+{
+  "id": "china-chengdu-panda-base",
+  "type": "attraction",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "panda-base",
+  "title": "成都大熊猫繁育研究基地旅游攻略｜看熊猫最全指南",
+  "description": "成都大熊猫繁育研究基地旅游攻略：园区布局、看熊猫最佳时段、门票与交通方式，助你安排基地行程。",
+  "keywords": "大熊猫基地,成都熊猫,熊猫基地门票,成都看熊猫,熊猫基地攻略",
+  "h1": "成都大熊猫繁育研究基地旅游攻略",
+  "lead": "清晨的熊猫最活跃，基地里从幼崽到成年大熊猫都能近距离看到，是成都之行的招牌体验。",
+  "tags": [
+    "熊猫",
+    "自然",
+    "亲子",
+    "科普"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>成都大熊猫繁育研究基地位于市区北郊斧头山，占地广阔，分为成年大熊猫别墅区、幼年熊猫别墅与太阳/月亮产房等区域，是观看与了解大熊猫保护研究的核心场所。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>幼年熊猫别墅与月亮产房是「吸猫」热点；成年别墅区可见熊猫啃竹、爬树。园区绿植覆盖，步行与电瓶车结合。</p><h3>动线建议</h3><p>开园即入，先去幼年熊猫区与产房（上午最活跃），再沿步道往成年区，全程约 3-4 小时。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>务必赶开园（约 7:30）入场，9 点后人流与气温上升，熊猫多入室内或休息。建议提前线上预约购票。</p><h3>交通</h3><p>市区乘地铁 3 号线至熊猫大道站，转公交或摆渡车；也可乘景区直通车。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "禁止大声喧哗、闪光灯拍照与投喂。",
+        "园区较大，穿舒适步行鞋并备雨具。",
+        "旺季需实名预约，建议提前购票。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-best-time",
+        "china-chengdu-tips",
+        "china-chengdu-food-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-chengdu-panda-base-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-panda-base-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-panda-base-1/1200/800",
+      "alt": "大熊猫繁育研究基地 园区"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-panda-base-2/1200/800",
+      "alt": "大熊猫 幼年别墅"
+    }
+  ]
+}

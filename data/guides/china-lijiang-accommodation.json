@@ -1,0 +1,78 @@
+{
+  "id": "china-lijiang-accommodation",
+  "type": "guide",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "accommodation",
+  "title": "丽江住宿指南｜古城客栈与新城酒店怎么选",
+  "description": "丽江住宿指南：大研古城客栈、束河民宿与新城酒店对比，附区位、价格区间与预订建议，助你选对丽江落脚地。",
+  "keywords": "丽江住宿,丽江古城客栈,束河民宿,丽江酒店,丽江住哪里",
+  "h1": "丽江住宿指南",
+  "lead": "住古城听得到水声，住新城出行更方便——按预算与节奏，选一处属于你的丽江院子。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>丽江住宿分三大区：大研古城内客栈最有氛围，束河古镇安静质朴，新城（含七星街、福慧路一带）性价比与交通更优。古城内客栈多为纳西院落改造，特色强但隔音与行李搬运需留意。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>大研古城客栈</h3><p>氛围最佳，推窗见瓦与远山；价格旺季上浮明显，普通客栈约估算 200-500 元/晚，精品院子上千元。拖行李进石板路不便。</p><h3>束河民宿</h3><p>比大研安静、价格略低，适合想慢住几日的人，约估算 200-600 元/晚。</p><h3>新城酒店</h3><p>连锁与商务酒店多，交通便利、方便接送，约估算 150-400 元/晚，性价比高。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>古城客栈图片与实景可能有差，预订看近期评价；临主街房间夜间较吵；旺季（国庆、春节、暑期）务必提前预订。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>选法策略</h3><p>首访想体验选大研古城边缘客栈（近入口、少拖行李）；家庭/长住选新城；想躲清静选束河。连住不换最省力。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "大研客栈氛围好但拖行李不便",
+        "束河安静、适合慢住",
+        "新城交通与性价比最优",
+        "旺季提前预订，看近期评价"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-shuhe",
+        "china-lijiang-oldtown-2d",
+        "china-lijiang-economy"
+      ]
+    }
+  ],
+  "category": "住宿",
+  "image": "https://picsum.photos/seed/china-lijiang-guide-stay/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-stay-og/1200/800",
+  "howto": {
+    "name": "丽江住宿选区指南",
+    "description": "三步选对丽江落脚地",
+    "totalTime": "PT10M",
+    "steps": [
+      {
+        "name": "定区位",
+        "text": "体验选大研古城边缘、安静选束河、便利选新城，按行程重心决定。",
+        "image": "https://picsum.photos/seed/china-lijiang-guide-stay/1200/800"
+      },
+      {
+        "name": "看评价",
+        "text": "重点看近期真实评价，关注隔音、卫生与是否临街吵闹。",
+        "image": ""
+      },
+      {
+        "name": "早预订",
+        "text": "旺季与节假日提前预订，并确认是否含古城维护费与接送。",
+        "image": ""
+      }
+    ]
+  }
+}

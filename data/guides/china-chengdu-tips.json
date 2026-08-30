@@ -1,0 +1,83 @@
+{
+  "id": "china-chengdu-tips",
+  "type": "guide",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "tips",
+  "title": "成都实用贴士｜天气支付语言与避坑全指南",
+  "description": "成都实用贴士：气候与穿衣、移动支付与现金、语言沟通、熊猫基地预约与常见避坑，助你顺利出行。",
+  "keywords": "成都贴士,成都攻略,成都天气,成都支付,成都避坑,成都旅行注意",
+  "h1": "成都实用贴士",
+  "lead": "湿润多阴、移动支付普及、熊猫需预约——几条贴士让成都之行更顺。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>成都是一座对自由行友好的城市，但气候湿润、景点预约与支付习惯有本地特点，提前了解能少走弯路。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>气候与穿衣</h3><p>年均湿润，冬季阴冷（约 5-12℃）、夏季湿热（约 25-35℃）；春秋最舒适。随身带折叠伞与薄外套，山区（青城山）更湿滑需防滑鞋。</p><h3>支付</h3><p>移动支付（微信/支付宝）普及，多数商家扫码即可；备少量现金（约 200-500 元）应对小吃摊与个别场景。</p><h3>语言与网络</h3><p>普通话通用，方言为辅；景区有中英文标识。建议开通国际漫游或本地 SIM/ eSIM 方便导航。</p><h3>预约</h3><p>熊猫基地、都江堰/青城山旺季需实名预约购票，建议提前在官方渠道预约。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>景区周边「低价一日游」谨慎选择；火锅按锅底+菜品计费，看清单价；打车用网约车更透明；青城山后山徒步量力而行。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>行程节奏</h3><p>成都适合慢游，每天 2-3 个核心点足够；茶馆坐一下午是本地正确打开方式，不必赶场。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "备折叠伞与薄外套",
+        "移动支付为主、现金少量备用",
+        "熊猫基地提前实名预约",
+        "慢游节奏，不赶场"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-panda-base",
+        "china-chengdu-best-time",
+        "china-chengdu-transport"
+      ]
+    }
+  ],
+  "category": "贴士",
+  "image": "https://picsum.photos/seed/china-chengdu-tips-cover/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-tips-og/1200/800",
+  "howto": {
+    "name": "成都行前准备清单",
+    "description": "四步完成成都行前准备",
+    "totalTime": "PT15M",
+    "steps": [
+      {
+        "name": "预约门票",
+        "text": "提前在官方渠道预约熊猫基地及都江堰/青城山门票，旺季尤其要早。",
+        "image": "https://picsum.photos/seed/china-chengdu-tips-1/1200/800"
+      },
+      {
+        "name": "绑定支付",
+        "text": "开通微信/支付宝支付并绑定银行卡，备少量现金。",
+        "image": ""
+      },
+      {
+        "name": "查天气备衣",
+        "text": "出发前看成都与青城山天气，带伞、薄外套与防滑鞋。",
+        "image": ""
+      },
+      {
+        "name": "装导航",
+        "text": "下载地图 App 并开通网络，保存酒店与景点位置。",
+        "image": ""
+      }
+    ]
+  }
+}

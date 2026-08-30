@@ -1,0 +1,66 @@
+{
+  "id": "china-suzhou-museum",
+  "type": "attraction",
+  "country": "china",
+  "city": "suzhou",
+  "slug": "museum",
+  "title": "苏州博物馆旅游攻略｜贝聿铭设计的现代园林博物馆",
+  "description": "苏州博物馆旅游攻略：贝聿铭设计的现代建筑、馆藏吴地文物与忠王府园林，附预约方式与参观建议。",
+  "keywords": "苏州博物馆,贝聿铭,苏州博物馆预约,苏州博物馆门票,忠王府,苏州园林博物馆",
+  "h1": "苏州博物馆旅游攻略",
+  "lead": "由贝聿铭设计的苏州博物馆，以粉墙黛瓦的现代几何语言重构江南意境，免费开放、紧邻拙政园。",
+  "tags": [
+    "博物馆",
+    "现代建筑",
+    "贝聿铭",
+    "免费"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>苏州博物馆新馆由华裔建筑师贝聿铭设计，2006 年对外开放，与拙政园、狮子林相邻。建筑以几何形天窗、片石假山与现代粉墙呼应传统，馆藏以吴地青铜器、玉器、书画与工艺品见长，另含太平天国忠王府旧址。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>中央大厅的片石假山借景窗景是经典机位；忠王府古戏台与回廊保留历史肌理；馆藏「秘色瓷」与吴门书画值得细看。</p><h3>游览动线</h3><p>免费开放但多需提前预约；建议与拙政园、狮子林安排同一半天，由博物馆入、园林出，动线顺。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>开馆即入可避开团队客流；展厅约 1.5-2 小时，庭院可停留拍照。</p><h3>交通</h3><p>地铁 4 号线北寺塔站或公交至「苏州博物馆」站步行可达，与拙政园共用同一片区。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "免费开放，但旺季常需提前网上预约，以官方渠道为准。",
+        "馆内禁止闪光灯与自拍杆。",
+        "闭馆日一般为周一（法定节假日除外），出行前请核实。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-suzhou-zhuozheng",
+        "china-suzhou-pingjiang",
+        "china-suzhou-gardens-2d",
+        "china-suzhou-best-time"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-suzhou-museum/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-suzhou-museum/1200/630",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-museum-1/1200/800",
+      "alt": "苏州博物馆 现代庭院"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-suzhou-museum-2/1200/800",
+      "alt": "苏州博物馆 片石假山"
+    }
+  ]
+}

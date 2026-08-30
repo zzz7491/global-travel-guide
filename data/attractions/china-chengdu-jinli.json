@@ -1,0 +1,65 @@
+{
+  "id": "china-chengdu-jinli",
+  "type": "attraction",
+  "country": "china",
+  "city": "chengdu",
+  "slug": "jinli",
+  "title": "锦里古街旅游攻略｜成都美食与民俗街区指南",
+  "description": "锦里古街旅游攻略：川西民居街区、小吃与民俗表演动线，附与武侯祠衔接及交通建议。",
+  "keywords": "锦里,锦里古街,成都锦里,成都小吃,武侯祠,成都夜景",
+  "h1": "锦里古街旅游攻略",
+  "lead": "紧邻武侯祠的川西风情街区，红灯笼、青石板与小吃香气，是感受老成都夜色的第一站。",
+  "tags": [
+    "古街",
+    "美食",
+    "民俗",
+    "夜游"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>锦里是成都著名的民俗文化古街，以川西民居风格改建，集小吃、茶馆、手作与民俗表演于一体，与武侯祠仅一墙之隔，通常合并游览。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>核心看点</h3><p>街道两廊为小吃与特产店铺，戏台常有民俗表演；入夜红灯笼亮起，倒影水面最有氛围。</p><h3>动线建议</h3><p>由武侯祠后门出即入锦里，沿主街慢逛，预留 2-3 小时用餐与闲走，晚间最佳。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>傍晚到夜间最热闹；小吃边走边吃，正餐可另选周边火锅。周末人多，注意看护随身物品。</p><h3>交通</h3><p>地铁 3 号线高升桥站或公交至武侯祠站，步行可达。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "小吃单价低但多样，按需购买避免浪费。",
+        "夜间人流密集，看管好财物。",
+        "与武侯祠联游，注意开放与闭园时间。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-chengdu-wuhouci",
+        "china-chengdu-food",
+        "china-chengdu-kuanzhai"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-chengdu-jinli-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-chengdu-jinli-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-jinli-1/1200/800",
+      "alt": "锦里 红灯笼古街"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-chengdu-jinli-2/1200/800",
+      "alt": "锦里 小吃摊位"
+    }
+  ]
+}

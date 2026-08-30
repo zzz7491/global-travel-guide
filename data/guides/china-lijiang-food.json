@@ -1,0 +1,78 @@
+{
+  "id": "china-lijiang-food",
+  "type": "guide",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "food",
+  "title": "丽江美食指南｜纳西菜与腊排骨火锅怎么吃",
+  "description": "丽江美食指南：纳西族家常菜、腊排骨火锅、鸡豆凉粉与丽江粑粑，附推荐菜品与用餐区域，助你吃懂丽江味道。",
+  "keywords": "丽江美食,纳西菜,腊排骨火锅,鸡豆凉粉,丽江粑粑,丽江小吃",
+  "h1": "丽江美食指南",
+  "lead": "纳西人的餐桌离不开腊味与山野：一锅腊排骨、一碗鸡豆凉粉，是高原古城最地道的暖意。",
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "简介",
+      "html": "<p>丽江饮食以纳西风味为根基，受藏、白、彝等民族影响，善用腊制、腌制与山野食材。古城内外餐馆密集，从街边小吃到特色火锅皆有。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "详细说明",
+      "html": "<h3>必尝菜品</h3><p>腊排骨火锅：烟熏排骨熬汤，咸香暖胃，人均约估算 60-100 元；鸡豆凉粉：豌豆制凉粉，凉拌或煎食，几元到十几元；丽江粑粑：麦面烤饼，甜咸两味，可作干粮；纳西烤鱼、水性杨花（海菜）等时令小菜也值得一试。</p><h3>用餐区域</h3><p>古城内主街餐馆多、价格偏高；七一街、五一街与新城忠义市场周边性价比更好，本地人光顾多。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "注意事项",
+      "html": "<h3>避坑</h3><p>古城核心区部分餐厅标价偏高、分量偏少；点餐前看清价格与份量，腊排骨火锅按锅底+配菜计价为常态。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "建议",
+      "html": "<h3>吃法策略</h3><p>多人同行点一锅腊排骨再配凉菜与粑粑最划算；想尝多样可走「小份多品种」路线；高原饮食清淡些更舒服。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "要点回顾",
+      "items": [
+        "腊排骨火锅是招牌，人均约 60-100 元（估算）",
+        "鸡豆凉粉、丽江粑粑便宜又地道",
+        "新城与忠义市场性价比更高",
+        "点餐前确认价格与份量"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-oldtown",
+        "china-lijiang-accommodation",
+        "china-lijiang-economy"
+      ]
+    }
+  ],
+  "category": "美食",
+  "image": "https://picsum.photos/seed/china-lijiang-guide-food/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-food-og/1200/800",
+  "howto": {
+    "name": "丽江腊排骨火锅点单指南",
+    "description": "三步点好一锅地道腊排骨火锅",
+    "totalTime": "PT15M",
+    "steps": [
+      {
+        "name": "选锅底",
+        "text": "腊排骨多为锅底含排骨，按人数选小/中/大锅，价格以门店当日为准（人均约估算 60-100 元）。",
+        "image": "https://picsum.photos/seed/china-lijiang-guide-food/1200/800"
+      },
+      {
+        "name": "加配菜",
+        "text": "配菜选时令蔬菜、豆腐与野生菌，高原菌类鲜美但务必煮熟。",
+        "image": ""
+      },
+      {
+        "name": "配小吃",
+        "text": "点一份鸡豆凉粉与丽江粑粑佐餐，体验更完整。",
+        "image": ""
+      }
+    ]
+  }
+}

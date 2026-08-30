@@ -1,0 +1,102 @@
+{
+  "id": "china-zhangjiajie",
+  "type": "city",
+  "country": "china",
+  "city": "zhangjiajie",
+  "name": "张家界",
+  "nameEn": "Zhangjiajie",
+  "title": "张家界旅行攻略 | Global Travel Guide",
+  "description": "张家界旅游攻略与张家界自由行路线全指南：涵盖张家界国家森林公园、天门山、大峡谷玻璃桥的门票交通、每日行程、美食住宿与实用贴士，助你轻松安排张家界行程。",
+  "keywords": "张家界旅游攻略,张家界自由行,张家界国家森林公园,武陵源,天门山,大峡谷玻璃桥",
+  "h1": "张家界",
+  "lead": "湖南西北部的石英砂岩峰林之城：武陵源三千奇峰拔地而起，天门洞与绝壁栈道构成中国最具辨识度的立体山水。",
+  "continent": "亚洲",
+  "language": "汉语",
+  "currency": "人民币 (CNY)",
+  "timezone": "UTC+8",
+  "tagline": "三千奇峰八百秀水，峰林之城",
+  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-city-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-city-og/1200/800",
+  "bestTime": {
+    "description": "张家界春秋最舒适：4-6 月新绿与雨后云海，9-11 月秋高气爽、能见度高；夏季山上凉爽适合避暑但雨多客流大，冬季人少、可遇雪景雾凇，需留意索道遇冰雪临时停运。"
+  },
+  "facts": [
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "汉语"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币 (CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
+  ],
+  "highlights": [
+    "张家界国家森林公园（袁家界·天子山·金鞭溪）",
+    "天门山与天门洞、玻璃栈道",
+    "张家界大峡谷玻璃桥",
+    "宝峰湖高峡平湖",
+    "黄龙洞喀斯特溶洞"
+  ],
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-peaks/1200/800",
+      "alt": "张家界 武陵源石英砂岩峰林群",
+      "type": "nature",
+      "credit": "Picsum Photos"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-tianmen/1200/800",
+      "alt": "张家界 天门山绝壁与山门景观",
+      "type": "landmark",
+      "credit": "Picsum Photos"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-stream/1200/800",
+      "alt": "张家界 金鞭溪溪谷步道",
+      "type": "nature",
+      "credit": "Picsum Photos"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-xibu/1200/800",
+      "alt": "张家界 武陵源溪布街夜间街景",
+      "type": "street",
+      "credit": "Picsum Photos"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-sanxiaguo/1200/800",
+      "alt": "张家界 湘西土家三下锅与腊味",
+      "type": "food",
+      "credit": "Picsum Photos"
+    }
+  ],
+  "faq": [
+    {
+      "q": "张家界适合玩几天？",
+      "a": "建议 3-4 天。森林公园（武陵源核心景区）本身需 2 天，天门山单独 1 天，若再加大峡谷玻璃桥或黄龙洞、宝峰湖则需第 4 天。"
+    },
+    {
+      "q": "张家界最佳旅行时间是几月？",
+      "a": "4-6 月与 9-11 月最佳，气温舒适、雨后常见云海。7-8 月山上比市区凉爽适合避暑，但降雨与暑期客流集中；12-2 月人少，偶遇雪景雾凇。"
+    },
+    {
+      "q": "森林公园和天门山是同一个地方吗？",
+      "a": "不是。张家界国家森林公园（含袁家界、天子山、金鞭溪）位于武陵源区，距市区约 32 公里；天门山在永定区市中心附近，索道下站紧邻张家界市区，两者需分开安排各 1 天以上。"
+    },
+    {
+      "q": "张家界主要门票大概多少钱？",
+      "a": "武陵源核心景区（森林公园）门票约 225 元/人并含景区环保车、多日有效；天门山约 278 元/人（含往返索道）；大峡谷含玻璃桥约 259 元/人；黄龙洞约 100 元、宝峰湖约 96 元。以上为估算参考，索道、百龙天梯等另计，请以官方渠道实时价格为准。"
+    },
+    {
+      "q": "张家界预算大概多少？",
+      "a": "经济型约 400-700 元/人·天，舒适型约 800-1500 元/人·天（估算，含住宿、餐饮、市内交通与门票，不含往返大交通）。门票与索道占比高，是最大支出项。"
+    }
+  ]
+}

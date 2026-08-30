@@ -1,0 +1,67 @@
+{
+  "id": "china-lijiang-oldtown",
+  "type": "attraction",
+  "country": "china",
+  "city": "lijiang",
+  "slug": "oldtown",
+  "title": "丽江古城旅游攻略｜纳西古城与四方街漫步指南",
+  "description": "丽江古城旅游攻略：世界遗产纳西古城、四方街、木府与玉河水系，附游览动线与高原慢游建议，助你安排丽江古城行程。",
+  "keywords": "丽江古城,大研古城,四方街,木府,纳西古城,世界遗产",
+  "h1": "丽江古城旅游攻略",
+  "lead": "依山傍水的纳西古城，青石板路与玉河水穿街过巷，是世界文化遗产里活着的茶马重镇。",
+  "tags": [
+    "古城",
+    "世界遗产",
+    "纳西文化",
+    "摄影"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>丽江古城（大研古城）始建于宋末元初，是纳西族聚居的历史名城，1997 年列入联合国教科文组织世界文化遗产。古城无城墙，以三山为屏、玉河水系穿城，四方街为商贸核心。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "游览特点",
+      "html": "<h3>核心看点</h3><p>四方街与周边街巷的纳西民居、水在门前流淌的「小桥流水」格局；木府为明代土司衙署，号称「丽江紫禁城」；登狮子山万古楼可俯瞰古城全景与玉龙雪山。</p><h3>动线建议</h3><p>从北门或南门入城，沿主街走到四方街，再向水渠两侧巷弄深入；傍晚登狮子山看古城灯起，夜间沿河酒吧街感受氛围。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间安排</h3><p>白天光线柔和为拍照最佳；清晨与夜晚人流较少，更能体会古城安静一面。</p><h3>交通</h3><p>古城内全程步行，周边可乘公交或打车至古城入口；古城内机动车限行。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "古城石板路湿滑，建议穿防滑鞋。",
+        "高原紫外线强，备好防晒与补水。",
+        "古城维护费以景区当日公告为准。",
+        "夜间酒吧街较热闹，注意保管财物。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-lijiang-shuhe",
+        "china-lijiang-food",
+        "china-lijiang-tips",
+        "china-lijiang-oldtown-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-lijiang-oldtown/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-lijiang-oldtown-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-oldtown-01/1200/800",
+      "alt": "丽江古城街巷"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-lijiang-oldtown-02/1200/800",
+      "alt": "四方街与玉河水系"
+    }
+  ]
+}
