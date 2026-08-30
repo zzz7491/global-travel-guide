@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-wufu-town",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "wufu-town",
+  "title": "五夫古镇旅游攻略｜朱熹结庐讲学40余年的理学故里",
+  "description": "福建武夷山五夫古镇旅游攻略：朱熹结庐讲学40余年的理学故里，紫阳楼、兴贤书院与满池荷塘、白莲之乡，含车程、人文玩法与下梅联游建议。",
+  "keywords": "五夫古镇,五夫镇,朱熹故里,武夷山朱熹,紫阳楼,兴贤书院,白莲之乡,武夷山人文",
+  "h1": "五夫古镇旅游攻略",
+  "lead": "朱熹在此结庐讲学 40 余年，把武夷的山水读成了理学——五夫古镇是武夷山人文版图里最重的一枚砝码。",
+  "tags": [
+    "朱熹故里",
+    "理学",
+    "人文",
+    "古建",
+    "白莲之乡",
+    "研学"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>五夫镇位于武夷山市东南部，是南宋大儒<strong>朱熹</strong>的重要定居与讲学之地，朱熹在此<strong>结庐讲学 40 余年</strong>，把武夷山一带发展成宋代理学重镇。五夫因此被誉为\"朱子故里\"，是武夷山人文版图里极具分量的目的地。</p><p>镇内保存着<strong>紫阳楼、兴贤书院</strong>等与朱熹相关的古建遗迹，周边荷塘错落、莲香四溢，兼有\"白莲之乡\"的田园之美，是\"人文+田园\"结合的理想去处。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>紫阳楼与朱熹遗迹</h3><p>与朱熹晚年著述、讲学相关的标志性建筑，是理解朱子理学的起点（个别展馆开放状态以现场为准）。</p><h3>兴贤书院</h3><p>与朱熹教学传统相关的书院建筑，是感受宋代书院学风的重要现场。</p><h3>白莲之乡</h3><p>镇周边荷塘广布，夏季荷花盛开，兼有莲藕等农产，田园氛围浓厚，非常出片。</p><h3>理学与茶并举的人文线</h3><p>五夫把朱子文化与武夷山岩茶、古村串联，是武夷人文深度游的核心一站。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>交通</h3><p>五夫镇位于武夷山市东南部，从市区或三姑度假区驾车前往约<strong>30-40 分钟</strong>（具体以实时路况为准），适合自驾或包车。</p><h3>门票与用时</h3><p>古镇街区多为开放式，个别遗迹展馆或需门票，以现场公示为准；建议游玩<strong>2-3 小时</strong>。</p><h3>怎么安排</h3><p>常与<strong>下梅古村</strong>组合成一日人文线（下梅侧重茶路商帮、五夫侧重朱子理学），人文浓度高；夏季可搭配赏荷。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "五夫距主景区有一定车程，适合自驾/包车，公共交通可达性弱于主景区，请提前规划。",
+        "个别朱熹相关展馆/书院开放时间或需门票，以现场公示为准。",
+        "夏季赏荷时间与花期有关（6-8 月为主），出行前可查当年花情。",
+        "尊重文保古建，不刻画、不攀爬。",
+        "与下梅联游时两地车程需统筹，一天勿排过满。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-xiamai-village",
+        "china-wuyishan-wuyi-palace",
+        "china-wuyishan-yuling-kiln",
+        "china-wuyishan-jiuqu-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-wufu-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-wufu-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-wufu-1/1200/800",
+      "alt": "五夫古镇紫阳楼朱熹遗迹"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-wufu-2/1200/800",
+      "alt": "五夫古镇荷塘白莲与田园"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-wufu-3/1200/800",
+      "alt": "五夫古镇兴贤书院古建"
+    }
+  ]
+}

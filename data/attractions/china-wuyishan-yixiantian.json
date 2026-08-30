@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-yixiantian",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "yixiantian",
+  "title": "一线天旅游攻略｜最窄30厘米的丹霞裂隙与蝙蝠洞",
+  "description": "福建武夷山一线天旅游攻略：最窄处仅约30厘米的丹霞岩缝、洞内蝙蝠与凉意，含左右线选择、体型提示、洞口时长与开放建议。",
+  "keywords": "武夷山一线天,一线天,武夷山岩缝,蝙蝠洞,武夷山鬼斧神工,虎啸岩一线天",
+  "h1": "一线天旅游攻略",
+  "lead": "一段最窄仅约 30 厘米的丹霞裂隙直逼头顶，抬头只见一线天光——武夷山的一线天是地质营造的\"鬼斧神工\"。",
+  "tags": [
+    "丹霞裂隙",
+    "世界双遗产",
+    "地质奇观",
+    "洞穴",
+    "探险",
+    "轻体力"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>一线天是武夷山风景区内著名的<strong>丹霞裂隙景观</strong>，由岩层受挤压断裂而成，一条通天的石缝窄处仅容一人侧身通过。其中<strong>右线最窄处仅约 30 厘米</strong>，抬头只见一线天光，是武夷山\"武夷三十六峰之奇\"之外的另一重惊叹。</p><p>洞内幽深阴凉，且常有<strong>蝙蝠栖息</strong>，是许多人记忆深刻的\"探洞\"体验。一线天与<strong>虎啸岩</strong>相邻，从一线天出口出来通常直接就是虎啸岩，两处常被串联在同一天游览。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>右线：最窄 30 厘米</h3><p>一线天的核心段，岩缝窄、需侧身，体型偏大或携带大背包者建议改走左线或量力而行。</p><h3>一线天光与凉意</h3><p>正午前后阳光从缝顶直泻而下，是最佳拍照时段；洞内常年阴凉，是夏季天然的\"空调\"。</p><h3>蝙蝠相伴</h3><p>洞内蝙蝠栖息是这里的特色（也是部分游客避让的原因），怕异味或敏感者可戴帽、快速通过。</p><h3>毗邻虎啸岩</h3><p>出缝即接虎啸岩片区，地质与登高体验互补，可一次排完。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>门票与接驳</h3><p>2026 年主景区大门票免费（需实名预约 0 元票），一线天位列其中；乘景区观光车前往（1 日 70 / 2 日 85 元等，估算，以官方为准）。</p><h3>开放时段</h3><p>随主景区开放（参考夏令 6:30-18:00、冬令 7:00-17:00，以官方为准）。正午前后光线最好。</p><h3>怎么安排</h3><p>与虎啸岩串成一天：上午游一线天（光线好、人相对少），下午走虎啸岩；或相反。整体轻体力，穿平底防滑鞋即可。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "右线最窄处仅约 30 厘米，体型偏大者建议走左线或改道。",
+        "洞内幽暗、有蝙蝠，忌用强光直射惊扰；怕异味者戴帽快速通过。",
+        "岩缝湿滑、通道狭窄，依次单行、不推挤，看顾好老人小孩。",
+        "背大背包、拖行李箱不适合进缝，先寄存或放观光车。",
+        "雨季地面湿滑，穿防滑鞋；雷雨天气注意景区是否临时关闭一线天。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-huxiao-rock",
+        "china-wuyishan-yangushan-path",
+        "china-wuyishan-jiuqu-2d",
+        "china-wuyishan-tianyou-peak"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-yixiantian-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-yixiantian-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yixian-1/1200/800",
+      "alt": "一线天岩缝一线天光"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yixian-2/1200/800",
+      "alt": "一线天洞口与丹霞崖壁"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yixian-3/1200/800",
+      "alt": "一线天毗邻虎啸岩片区"
+    }
+  ]
+}

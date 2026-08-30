@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-dahongpao",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "dahongpao",
+  "title": "大红袍景区旅游攻略｜九龙窠600余年岩茶母树",
+  "description": "福建武夷山大红袍景区旅游攻略：九龙窠岩壁上600余年的六株大红袍母树、岩茶之祖与岩骨花香漫游道，含免费开放、母树位置与茶文化体验建议。",
+  "keywords": "大红袍,武夷山大红袍,九龙窠,大红袍母树,武夷岩茶,岩骨花香,武夷山茶园",
+  "h1": "大红袍景区旅游攻略",
+  "lead": "九龙窠的岩壁之上，六株逾 600 年的大红袍母树静立崖间——这是一处要把功夫茶喝懂、才算真正抵达的地方。",
+  "tags": [
+    "岩茶",
+    "大红袍母树",
+    "世界双遗产",
+    "茶园",
+    "茶文化",
+    "徒步"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p><strong>大红袍</strong>是武夷岩茶中最富盛名的名丛，而武夷山风景区内、九龙窠一带岩壁上的<strong>六株大红袍母树</strong>，被公认为武夷岩茶之祖，树龄逾 <strong>600 年</strong>，是武夷山茶文化与世界双遗产的重要载体。</p><p>大红袍景区位于武夷山风景区的西北部，核心观看点是九龙窠岩壁上那几株靠崖而生的母树；周边是绵延的岩茶茶园与<strong>岩骨花香漫游道</strong>，是武夷山\"以茶为名\"的核心片区。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>六株母树</h3><p>九龙窠岩壁上的大红袍母树（6 株）是景区的\"压轴\"，虽不能采摘品饮，但它们是武夷岩茶谱系的源头，观赏本身就有仪式感。</p><h3>岩骨花香漫游道</h3><p>连接大红袍与周边茶园的平缓步道，全程不用爬山，茶香四溢、岩韵环绕，是武夷山公认的\"茶香徒步\"体验，适合各年龄段。</p><h3>茶园与茶村</h3><p>周边岩茶产区与茶村漫延，可现场了解武夷岩茶的岩韵、摇青/炒青/揉捻等制茶工序（部分茶厂提供体验，以现场为准）。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>门票与接驳</h3><p>2026 年主景区大门票免费（需实名预约 0 元票），大红袍景区位列其中；乘景区观光车前往（1 日 70 / 2 日 85 / 3 日 95 元，估算，以官方为准）。</p><h3>开放时段</h3><p>随主景区开放（参考夏令 6:30-18:00、冬令 7:00-17:00，以官方为准）。</p><h3>怎么安排</h3><p>常与水帘洞串联成北线一天（两处间有步行道相连）；也可清晨走岩骨花香漫游道，人少、光线好、茶香更浓。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "主景区大门票免费但需预约 0 元票，约不到无法入园。",
+        "母树区域为保护对象，请勿翻越护栏、攀爬或采摘。",
+        "不要在景区高价摊位冲动购买茶叶，建议去度假区或正规茶厂购买并索取票据。",
+        "岩骨花香漫游道以平缓为主，但雨后步道湿滑，穿防滑鞋。",
+        "茶文化体验（制茶工序等）多为付费项目，预约与价格以现场公示为准。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-shuidong-cave",
+        "china-wuyishan-yangushan-path",
+        "china-wuyishan-wuyi-palace",
+        "china-wuyishan-jiuqu-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-dahongpao-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-dahongpao-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-dahongpao-1/1200/800",
+      "alt": "九龙窠岩壁上的大红袍母树"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-dahongpao-2/1200/800",
+      "alt": "武夷山岩茶茶园与丹霞崖壁"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-dahongpao-3/1200/800",
+      "alt": "岩骨花香漫游道茶园步道"
+    }
+  ]
+}

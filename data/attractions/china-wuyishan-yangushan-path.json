@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-yangushan-path",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "yangushan-path",
+  "title": "岩骨花香漫游道旅游攻略｜不爬山的茶香徒步",
+  "description": "福建武夷山岩骨花香漫游道旅游攻略：连接大红袍与水帘洞的平缓茶步道，岩茶茶园、丹霞溪谷与\"岩韵\"漫步，含时长、难度与最佳时段建议。",
+  "keywords": "岩骨花香,岩骨花香漫游道,武夷山徒步,武夷山茶园步道,大红袍漫游道,武夷山慢游",
+  "h1": "岩骨花香漫游道旅游攻略",
+  "lead": "一条全程平缓的茶步道，把武夷的岩韵和茶香缝在脚下——岩骨花香漫游道是不少人心中武夷山最舒服的一段路。",
+  "tags": [
+    "徒步",
+    "茶园",
+    "岩茶",
+    "平缓步道",
+    "亲子友好",
+    "慢游"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p><strong>岩骨花香漫游道</strong>是武夷山风景区内一条著名的<strong>平缓茶步道</strong>，因串联着茶园、岩壁与溪谷，一路岩韵与茶香弥漫而得名。它是武夷山主景区内少见的<strong>\"不用爬山\"</strong>的徒步段，被誉为武夷山最舒服、最出片的一条慢游路线，尤其适合亲子、中老年与摄影爱好者。</p><p>漫游道通常行走于<strong>大红袍与水帘洞之间</strong>（也有结合九曲溪或武夷宫的连线玩法），全程以缓坡、栈道为主，是我们此前在\"大红袍景区\"提过的岩骨花香一带的精华展开。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>岩茶茶园</h3><p>步道穿行于武夷岩茶的经典产区，岩壁之下、溪谷之间的茶园层层叠叠，是武夷山\"岩韵\"最直接的视觉呈现。</p><h3>丹霞溪谷</h3><p>沿途丹霞崖壁与清溪相伴，雨后溪涨、水声潺潺，光影穿过岩隙，是出片的好场景。</p><h3>茶香氛围</h3><p>茶园与新茶的同时，空气里常氤氲着别处难寻的茶香与草木气息，是武夷山最独特的\"嗅觉\"体验。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>门票与接驳</h3><p>2026 年主景区大门票免费（需实名预约 0 元票）；需乘景区观光车抵达步道出入口（观光车票价估算，以官方为准）。</p><h3>时段与时长</h3><p>清晨光线与茶香俱佳、人也最少，最推荐；全程平缓，可依据体能与时间选取大红袍-水帘洞一段或更长的连线，走读约 2-3 小时（依段而定）。</p><h3>怎么安排</h3><p>与<strong>水帘洞、大红袍</strong>串成北线一天最顺路；也可与九曲溪竹筏分拆在两天，避免一天过满。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "主景区大门票免费但需预约 0 元票，约不到无法入园。",
+        "步道虽平缓，雨后栈道与溪畔仍湿滑，穿防滑鞋。",
+        "不要进入未开放茶园或翻越护栏，茶株为茶农财产、不可采摘。",
+        "带上饮用水，沿溪步道补给点有限。",
+        "夏季午后较晒，宜清晨或近黄昏行走。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-dahongpao",
+        "china-wuyishan-shuidong-cave",
+        "china-wuyishan-yixiantian",
+        "china-wuyishan-jiuqu-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-yangushan-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-yangushan-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yangushan-1/1200/800",
+      "alt": "岩骨花香漫游道茶园平缓步道"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yangushan-2/1200/800",
+      "alt": "岩骨花香丹霞溪谷与茶园"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yangushan-3/1200/800",
+      "alt": "岩骨花香漫游道清晨光影"
+    }
+  ]
+}

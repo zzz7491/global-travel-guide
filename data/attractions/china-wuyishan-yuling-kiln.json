@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-yuling-kiln",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "yuling-kiln",
+  "title": "遇林亭窑址旅游攻略｜宋代龙窑与武夷窑业文明",
+  "description": "福建武夷山遇林亭窑址旅游攻略：宋代青瓷与黑盏烧造的龙窑遗址、武夷窑业历史与茶盏文化，含免费开放、遗址参观与武夷宫领衔的人文联游建议。",
+  "keywords": "遇林亭,遇林亭窑址,武夷山宋代窑址,龙窑,武夷窑,黑釉盏,建盏",
+  "h1": "遇林亭窑址旅游攻略",
+  "lead": "一座宋代龙窑的余烬，把武夷的窑火与茶盏历史留在了青山之间——遇林亭，是武夷人文的另一枚印章。",
+  "tags": [
+    "宋代窑址",
+    "人文",
+    "博物馆",
+    "茶文化",
+    "世界遗产周边",
+    "研学"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>遇林亭窑址是武夷山乃至福建重要的<strong>宋代古窑址</strong>，以烧造<strong>青瓷与黑釉盏</strong>（与建窑同属\"斗茶之盏\"谱系）而闻名，是研究武夷窑业与茶文化发展的重要实物遗存。它隶属武夷山六大景区之一的<strong>遇林亭-莲花峰景区</strong>，是这一人文片区的主看头。</p><p>对瓷器与茶文化爱好者而言，遇林亭是武夷山主景区之外的一处\"深度人文打卡地\"：窑址展现了宋代龙窑的烧造工艺，与武夷山满山满谷的岩茶互为表里——好茶需配好盏，正是宋代斗茶之风在这片山水的注脚。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>宋代龙窑遗存</h3><p>现场可见龙窑分布与匣钵、瓷片等遗物，直观了解宋代武夷的窑业规模与工艺流程。</p><h3>黑釉盏与斗茶文化</h3><p>遇林亭以烧造茶盏（与建盏同源）见长，结合武夷岩茶，可串联起一场\"点茶-斗茶\"的宋代茶事想象。</p><h3>窑址主题展示</h3><p>作为武夷山六大景区组成，遇林亭一带将古窑遗存与山水游步道结合，宜静观、宜研学。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>门票与开放</h3><p>遇林亭窑址位于武夷山风景名胜区范围内，主景区大门票 2026 年免费（需实名预约 0 元票）；具体开放与参观范围以景区现场公示为准。</p><h3>怎么安排</h3><p>适合茶文化/瓷器爱好者做\"人文联游\"：可与武夷宫（博物馆、宋街）或大红袍片区结合，串成一条\"窑火+茶园\"的慢游线。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "主景区大门票免费但需预约 0 元票，约不到无法入园。",
+        "窑址为考古遗存，请在划定参观区行走，勿跨入、踩踏或拾取瓷片。",
+        "遇林亭-莲花峰景区体量相对小、偏深度人文，适合顺路游览而非专程长线。",
+        "爱护文物与遗址，不刻画、不带走任何遗物。",
+        "可提前在武夷山博物馆了解窑业背景，参观更有收获。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-wuyi-palace",
+        "china-wuyishan-dahongpao",
+        "china-wuyishan-wufu-town",
+        "china-wuyishan-jiuqu-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-yuling-kiln-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-yuling-kiln-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yuling-1/1200/800",
+      "alt": "遇林亭宋代龙窑窑址遗存"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yuling-2/1200/800",
+      "alt": "遇林亭黑釉盏与匣钵遗物"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-yuling-3/1200/800",
+      "alt": "遇林亭莲花峰景区山林步道"
+    }
+  ]
+}

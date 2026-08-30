@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-huxiao-rock",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "huxiao-rock",
+  "title": "虎啸岩旅游攻略｜一线天比邻的虎啸之声与登高步道",
+  "description": "福建武夷山虎啸岩旅游攻略：相传风吹岩洞声似虎啸的丹霞岩体，与一线天相邻串联，含登高步道、观景与亲子轻体力玩法建议。",
+  "keywords": "虎啸岩,武夷山虎啸岩,一线天虎啸岩,武夷山登高,虎啸之声,武夷山步道",
+  "h1": "虎啸岩旅游攻略",
+  "lead": "一块传说会\"虎啸\"的丹霞岩：风穿岩洞似虎啸，登顶又见九曲溪远山——虎啸岩是武夷轻体力与登高之间的平衡点。",
+  "tags": [
+    "丹霞岩峰",
+    "世界双遗产",
+    "登高",
+    "一线天联动",
+    "摄影",
+    "观景"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>虎啸岩位于武夷山风景区南部，紧邻<strong>一线天</strong>，二者常被串联成同一天的\"魔鬼城+一线天\"式地质组合。<strong>虎啸岩</strong>得名于一个传说：风吹过岩洞发出的声响似虎啸，因而有此名。景区以丹霞岩体与登高步道为主，登顶可从另一角度俯瞰武夷山水。</p><p>比起天游峰的 848 级石阶，虎啸岩的登高体量相对更轻，是武夷山\"轻体力登高观景\"的稳妥选择，也有适合亲子的缓行段落。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>虎啸之声</h3><p>核心看点是那块相传吹风似虎啸的岩体——它的声音与形态，是武夷山地质奇观的一部分，也是当地人津津乐道的传说。</p><h3>登高俯瞰</h3><p>登顶步道可俯瞰九曲溪远山与武夷丹霞群峰，视野开阔，是虎啸岩最值得的体验。</p><h3>与一线天联动</h3><p>一线天出口即接虎啸岩片区，一缝一峰、一探一登，互补感强，一天内轻松排完。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>门票与接驳</h3><p>2026 年主景区大门票免费（需实名预约 0 元票），虎啸岩位列其中；乘景区观光车往返（1 日 70 / 2 日 85 / 3 日 95 元，估算，以官方为准）。</p><h3>开放时段</h3><p>随主景区开放（参考夏令 6:30-18:00、冬令 7:00-17:00，以官方为准）。斜射光照耀崖壁的午后更出片。</p><h3>怎么安排</h3><p>与一线天合成半天：先一线天（探缝）再虎啸岩（登高），或视编排反过来。全程轻体力量力而行。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "主景区大门票免费但需预约 0 元票，约不到无法入园。",
+        "登顶步道有爬升，穿防滑鞋、备足水；老人小孩可只走缓行段。",
+        "一线天出口人多、与虎啸岩衔接，注意依次通行、不拥挤。",
+        "雾天与雨天登高视野受限，可改日或改走平缓步道。",
+        "不在临崖处翻越护栏拍照，注意安全。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-yixiantian",
+        "china-wuyishan-tianyou-peak",
+        "china-wuyishan-jiuqu-2d",
+        "china-wuyishan-yangushan-path"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-huxiao-rock-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-huxiao-rock-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-huxiao-1/1200/800",
+      "alt": "虎啸岩丹霞岩体与登高步道"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-huxiao-2/1200/800",
+      "alt": "虎啸岩登顶俯瞰九曲溪远山"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-huxiao-3/1200/800",
+      "alt": "虎啸岩与一线天毗邻外景"
+    }
+  ]
+}

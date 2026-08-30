@@ -1,0 +1,74 @@
+{
+  "id": "china-wuyishan-xiamai-village",
+  "type": "attraction",
+  "country": "china",
+  "city": "wuyishan",
+  "slug": "xiamai-village",
+  "title": "下梅古村旅游攻略｜万里茶路起点的明清茶商古镇",
+  "description": "福建武夷山下梅古村旅游攻略：\"万里茶路\"起点、30余座明清古民居、邹氏家祠与大夫第、电视剧《乔家大院》取景地，含门票参考、游玩时长与五夫联游建议。",
+  "keywords": "下梅古村,下梅村,万里茶路,武夷山古村,邹氏家祠,乔家大院取景地,明清古民居",
+  "h1": "下梅古村旅游攻略",
+  "lead": "青石板、老宅院与穿村而过的溪水——下梅是\"万里茶路\"的起点，一砖一瓦都藏着闽北茶商的旧时光。",
+  "tags": [
+    "古村",
+    "万里茶路",
+    "茶文化",
+    "明清古建",
+    "人文",
+    "取景地"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>下梅古村位于武夷山市东部，距三姑度假区约<strong>20 分钟车程</strong>，是闽北保存较完整的明清古村落，更因曾是<strong>\"万里茶路\"的起点</strong>而声名远扬。历史上，下梅正是武夷岩茶经此南运、走向欧亚茶路的集散起点，村中至今保留着<strong>30 余座明清古民居</strong>。</p><p>这里因古色古香的街巷与宅院，曾作为电视剧<strong>《乔家大院》</strong>的取景地，是武夷山主景区之外最值得一去的\"人文+古村\"目的地，尤其适合喜欢老建筑与慢游的旅行者。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "主要看点",
+      "html": "<h3>万里茶路起点</h3><p>下梅是清代武夷茶外运的重要起点，村落的茶号、码头与商道痕迹，是理解\"茶路经济\"的一手现场。</p><h3>邹氏家祠与大夫第</h3><p>村中核心古建：邹氏家祠是全村宗族记忆的凝结，大夫第（官宦宅第）则体现茶商世家的排场与建筑工艺。</p><h3>30 余座明清古民居</h3><p>青砖黛瓦、雕梁画栋的宅院沿溪而布，溪水穿村、石板巷陌纵横，是摄影与慢游的好去处。</p><h3>《乔家大院》取景地</h3><p>因电视剧取景而为人熟知，村口与老宅常唤起观众\"似曾相识\"的亲切感。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "实用信息",
+      "html": "<h3>门票参考</h3><p>下梅古村为独立收费村落，门票参考<strong>约 60 元/人</strong>（常含讲解，估算，以现场/官方公示为准）；主景区 0 元大门票不覆盖此处。</p><h3>开放与用时</h3><p>建议游玩<strong>2-3 小时</strong>，宜穿舒适鞋在石板巷陌间漫步；清晨游客少、光影柔，是出片时段。</p><h3>怎么安排</h3><p>从三姑度假区打车/驾车约 20 分钟可到；可与<strong>五夫古镇</strong>组合成一日人文线（下梅+五夫），或单作半日。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": [
+        "下梅古村村内道路以石板为主，讲究的鞋子与防滑为佳。",
+        "门票与讲解费以现场公示为准，可提前与村方或酒店确认。",
+        "参观古民居请尊重住户，不私闯未开放院落、不刻画。",
+        "与主景区门票不同享，注意单独安排预算与时间。",
+        "可与五夫古镇联游，但两地车程需统筹，避免赶路。"
+      ]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-wuyishan-wufu-town",
+        "china-wuyishan-dahongpao",
+        "china-wuyishan-wuyi-palace",
+        "china-wuyishan-jiuqu-2d"
+      ]
+    }
+  ],
+  "heroImage": "https://picsum.photos/seed/china-wuyishan-xiamai-hero/1200/800",
+  "socialImage": "https://picsum.photos/seed/china-wuyishan-xiamai-og/1200/800",
+  "gallery": [
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-xiamai-1/1200/800",
+      "alt": "下梅古村青石板街巷与明清民居"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-xiamai-2/1200/800",
+      "alt": "下梅古村邹氏家祠"
+    },
+    {
+      "src": "https://picsum.photos/seed/china-wuyishan-xiamai-3/1200/800",
+      "alt": "下梅古村溪水穿村与茶号旧迹"
+    }
+  ]
+}
