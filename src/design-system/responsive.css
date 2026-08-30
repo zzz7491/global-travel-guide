@@ -14,6 +14,9 @@ h1, h2, h3 {
 body { font-size: 16px; line-height: 1.7; }
 
 @media (max-width: 768px) {
+  /* Cancel fixed hero background on mobile for smoother scrolling / performance */
+  body { background-attachment: scroll; }
+
   /* Cap H1 on small screens (hero included) */
   h1 { font-size: clamp(24px, 7vw, 30px); line-height: 1.2; }
   h2 { font-size: 22px; }

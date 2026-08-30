@@ -581,12 +581,6 @@ export function buildCityBody(city, ctx) {
   const gd = byTitle('实用攻略');
   if (gd && gd.items.length) hub.push({ title: 'Planning Guides', items: gd.items });
 
-  // Not-yet-launched content types — elegant empty states, no fake data.
-  hub.push({
-    title: 'Free Experiences', empty: true,
-    emptyTitle: 'Free Experiences Coming Soon',
-    note: '免费景点与零预算体验精选即将上线。',
-  });
   // Traveler Stories — real story cards when data exists (future UGC), else
   // a unified empty state. No fabricated content.
   const cityStories = ctx.entities.filter(
