@@ -312,8 +312,10 @@ export function buildHomeSections(ctx) {
 }
 
 // Listing page body (country / city) given pre-built sections.
+// `e.enableSearch` (set only on the /countries index page) toggles the
+// client-side destination-search UI without touching other listings.
 export function buildListingBody(e, sections, tplListing) {
-  return renderTemplate(tplListing, { h1: e.h1, lead: e.lead, sections });
+  return renderTemplate(tplListing, { h1: e.h1, lead: e.lead, sections, enableSearch: !!e.enableSearch });
 }
 
 // =============================================================================

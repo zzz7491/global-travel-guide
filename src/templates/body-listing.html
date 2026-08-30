@@ -1,5 +1,6 @@
 <h1>{{h1}}</h1>
 <p class="lead">{{lead}}</p>
+<div id="listing-default">
 {{#each sections}}
 <section class="block">
   <h2>{{title}}</h2>
@@ -20,3 +21,72 @@
   </div>
 </section>
 {{/each}}
+</div>
+
+{{#if enableSearch}}
+<div id="search-results" hidden aria-live="polite"></div>
+<script>
+(function () {
+  try {
+    var qp = new URLSearchParams(window.location.search);
+    var q = (qp.get('q') || '').trim();
+    if (!q) return; // empty query → keep the full directory listing
+    var def = document.getElementById('listing-default');
+    var box = document.getElementById('search-results');
+    if (!def || !box) return;
+    fetch('/search-index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (idx) {
+        // Normalize spaces/hyphens so natural queries like "New York"
+        // match the slug "new-york" (case-insensitive, trimmed).
+        var norm = function (s) { return String(s || '').toLowerCase().replace(/[\s-]+/g, ' '); };
+        var needle = norm(q);
+        var hits = (idx || []).filter(function (it) {
+          var hay = norm([it.name, it.country, it.slug, it.desc].filter(Boolean).join(' '));
+          return hay.indexOf(needle) !== -1;
+        });
+        def.hidden = true;
+        box.hidden = false;
+        if (!hits.length) {
+          var empty = document.createElement('section');
+          empty.className = 'block empty-state';
+          var strong = document.createElement('strong');
+          strong.textContent = '未找到与 “' + q + '” 相关目的地';
+          var span = document.createElement('span');
+          span.textContent = '换个关键词，或浏览全部目的地。';
+          empty.appendChild(strong);
+          empty.appendChild(span);
+          box.appendChild(empty);
+          return;
+        }
+        var sec = document.createElement('section');
+        sec.className = 'block';
+        var h = document.createElement('h2');
+        h.textContent = '搜索结果：' + hits.length + ' 个目的地';
+        sec.appendChild(h);
+        var grid = document.createElement('div');
+        grid.className = 'cards';
+        hits.forEach(function (it) {
+          var a = document.createElement('a');
+          a.className = 'card';
+          a.href = it.url;
+          var s1 = document.createElement('strong');
+          s1.textContent = it.name + (it.country ? ' · ' + it.country : '');
+          var s2 = document.createElement('span');
+          s2.textContent = it.desc || (it.type === 'city' ? '城市' : '国家');
+          a.appendChild(s1);
+          a.appendChild(s2);
+          grid.appendChild(a);
+        });
+        sec.appendChild(grid);
+        box.appendChild(sec);
+      })
+      .catch(function () {
+        // Network/index failure → fall back to the full listing.
+        def.hidden = false;
+        box.hidden = true;
+      });
+  } catch (e) { /* no-op: page degrades to the static listing */ }
+})();
+</script>
+{{/if}}

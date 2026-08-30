@@ -476,6 +476,8 @@ function main() {
     page._canonical = baseUrl + ip.url;
     page._ogImage = SITE.defaultSocialImage;
     page._heroImageUrl = SITE.heroImage;
+    // Destination search UI is enabled only on the /countries directory.
+    page.enableSearch = ip.kind === 'countries';
     const sections = buildIndexSections(ip.kind, ctx);
     // Index items feed the page's ItemList JSON-LD (P8-P2) — only when real.
     page._indexItems = (sections[0] && sections[0].items) || [];
@@ -492,7 +494,25 @@ function main() {
     `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
   writeFile('sitemap.xml', sitemap);
 
-  console.log(`Built ${pages.length} pages + sitemap.xml into /public`);
+  // Lightweight static search index for the /countries destination search.
+  // Holds every country + city (name / country / slug / url / type / desc);
+  // consumed only by the client-side filter — pure SSG, no backend, not in
+  // the sitemap (it is not a navigable page).
+  const searchIndex = ENTITIES
+    .filter((e) => e.type === 'country' || e.type === 'city')
+    .map((e) => ({
+      name: e.name || e.h1 || '',
+      type: e.type,
+      country: e.type === 'city' ? (INDEX[e.country]?.name || e.country) : '',
+      countrySlug: e.country,
+      slug: e.type === 'city' ? e.city : e.country,
+      url: linkUrl(e),
+      desc: e.lead || e.description || '',
+    }))
+    .filter((it) => it.name);
+  writeFile('search-index.json', JSON.stringify(searchIndex));
+
+  console.log(`Built ${pages.length} pages + sitemap.xml + search-index.json into /public`);
 }
 
 main();
