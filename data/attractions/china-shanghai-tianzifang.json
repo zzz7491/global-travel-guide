@@ -1,0 +1,40 @@
+{
+  "id": "china-shanghai-tianzifang",
+  "type": "attraction",
+  "country": "china",
+  "city": "shanghai",
+  "slug": "tianzifang",
+  "title": "田子坊攻略｜石库门创意弄堂指南",
+  "description": "上海田子坊旅游攻略：石库门里弄改造的创意园区，小店、手作与街头艺术交织，位于打浦桥，附逛巷动线与交通建议。",
+  "keywords": "田子坊,石库门,创意园区,上海弄堂,手作,街头艺术,打浦桥",
+  "h1": "田子坊攻略",
+  "lead": "石库门里弄里藏着一座创意园区，田子坊的狭窄巷子里布满了小店与手作摊。",
+  "tags": ["街区", "创意", "艺术", "免费"],
+  "blocks": [
+    {
+      "kind": "section",
+      "title": "攻略概览",
+      "html": "<p>田子坊位于<strong>打浦桥</strong>一带，是把<strong>石库门里弄</strong>改造而成的<strong>创意园区</strong>：交错的小巷里分布着特色<strong>小店</strong>、<strong>手作</strong>摊与<strong>街头艺术</strong>，既能看到上海老里弄肌理，也充满年轻文艺气息。弄堂免费进入。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "参观特点",
+      "html": "<h3>石库门里弄</h3><p>保留的老上海石库门建筑与狭窄巷弄，本身就是一道风景，适合慢走细看。</p><h3>小店与手作</h3><p>文创店、咖啡馆、手作工作室密集，巷子深处常有意外发现；街头艺术与涂鸦点缀其间。</p>"
+    },
+    {
+      "kind": "section",
+      "title": "旅行建议",
+      "html": "<h3>时间与动线</h3><p>建议 1.5-2 小时：沿主巷散逛，再钻几条侧巷；工作日或上午人相对少，周末人流大。</p><h3>交通</h3><p>打浦桥站（地铁 9 号线）步行可达；与武康路、衡山路等梧桐街区同属市区，可串联安排。</p>"
+    },
+    {
+      "kind": "notes",
+      "title": "注意事项",
+      "items": ["弄堂狭窄且节假日人流极大，注意随身物品。", "多数店铺只逛不买也欢迎，橱窗本身免费好看。", "地面以石板与老里弄为主，穿舒适鞋更省力。"]
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": ["china-shanghai-wukang-road", "china-shanghai-three-days", "china-shanghai-tips"]
+    }
+  ]
+}
