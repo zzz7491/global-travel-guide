@@ -57,20 +57,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-miaoxia-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-miaoxia-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-miaoxia-1/1200/800",
-      "alt": "妙峡 白龙过江瀑布飞泻峡中"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-miaoxia-2/1200/800",
-      "alt": "妙峡 峭壁对峙的窄峡河道"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-miaoxia-3/1200/800",
-      "alt": "妙峡 古栈道遗迹与峡谷人文景观"
-    }
-  ]
+  "gallery": []
 }

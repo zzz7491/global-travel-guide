@@ -1,0 +1,77 @@
+{
+  "note": "China image remediation — verified photo provenance. Only photos that could be confirmed to be in Wuxi County (by Commons category) are used. All other Wuxi entities intentionally have no curated image and fall back to the site default. No images are fabricated; no creator/license is ever invented.",
+  "licenseConvention": "CC BY 3.0 — attribution to author required per license.",
+  "entities": [
+    {
+      "city": "wuxi",
+      "entity": "china-wuxi",
+      "name": "巫溪 (city page)",
+      "role": "city hero + og + gallery",
+      "localPath": [
+        "/assets/images/wuxi/city/city-hero.webp",
+        "/assets/images/wuxi/og/city-og.webp",
+        "/assets/images/wuxi/attractions/daning-river-gallery-01.webp",
+        "/assets/images/wuxi/attractions/daning-river-gallery-02.webp"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Daning_River_%E5%A4%A7%E5%AE%81%E6%B2%B3_-_panoramio.jpg",
+      "sourceFile": "Daning River 大寧河 - panoramio.jpg",
+      "author": "lienyuan lee",
+      "license": "CC BY 3.0",
+      "captureDate": "2002-04-07",
+      "locationVerification": "Commons category Category:Wuxi County (geotag + category confirms within Wuxi County, Chongqing)",
+      "geoConfidence": "confirmed"
+    },
+    {
+      "city": "wuxi",
+      "entity": "china-wuxi-daning-river",
+      "name": "大宁河（巫溪段）",
+      "role": "attraction hero + og + gallery",
+      "localPath": [
+        "/assets/images/wuxi/attractions/daning-river-hero.webp",
+        "/assets/images/wuxi/og/daning-river-og.webp",
+        "/assets/images/wuxi/attractions/daning-river-gallery-01.webp",
+        "/assets/images/wuxi/attractions/daning-river-gallery-02.webp"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Daning_River_%E5%A4%A7%E5%AE%81%E6%B2%B3_-_panoramio.jpg",
+      "sourceFile": "Daning River 大寧河 - panoramio.jpg",
+      "author": "lienyuan lee",
+      "license": "CC BY 3.0",
+      "captureDate": "2002-04-07",
+      "locationVerification": "Commons category Category:Wuxi County (geotag + category confirms within Wuxi County, Chongqing)",
+      "geoConfidence": "confirmed"
+    },
+    {
+      "city": "wuxi",
+      "entity": "china-wuxi-daning-river (gallery 02)",
+      "name": "大宁河縴夫（历史人文）",
+      "role": "attraction gallery + city gallery",
+      "localPath": "/assets/images/wuxi/attractions/daning-river-gallery-02.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Barge_Haulers_on_Daning_River_%E5%A4%A7%E5%AE%81%E6%B2%B3%E7%B8%B4%E5%A4%AB_-_panoramio.jpg",
+      "sourceFile": "Barge Haulers on Daning River 大寧河縴夫 - panoramio.jpg",
+      "author": "lienyuan lee",
+      "license": "CC BY 3.0",
+      "captureDate": "2002-04-07",
+      "locationVerification": "Commons category Category:Wuxi County",
+      "geoConfidence": "confirmed"
+    }
+  ],
+  "deliberateExclusions": [
+    {
+      "topic": "巫溪 11 个未拍摄景点",
+      "identifiers": [
+        "china-wuxi-daguanshan", "china-wuxi-daning-ancient-city",
+        "china-wuxi-hanfeng-valley", "china-wuxi-hongchiba",
+        "china-wuxi-lanying-canyon", "china-wuxi-lingwu-cave",
+        "china-wuxi-miaoxia", "china-wuxi-ningchang",
+        "china-wuxi-yintiaoling", "china-wuxi-yixiantian", "china-wuxi-yuntai-peak"
+      ],
+      "reason": "No verifiable free-license photo of these specific places could be found on Wikimedia Commons (scans returned unrelated or mis-attributed results). Per approved policy, they use no curated image and fall back to the site default rather than showing a wrong or fabricated image.",
+      "policy": "no-image > wrong-image"
+    },
+    {
+      "topic": "巫山小三峡 / 巫山 / 奉节 混淆",
+      "excluded": true,
+      "reason": "Photos of Wu Shan Small Three Gorges (downstream in Wushan County), Wushan, or Fengjie were deliberately NOT used, even though they are photographically similar, because they are outside Wuxi County jurisdiction."
+    }
+  ]
+}

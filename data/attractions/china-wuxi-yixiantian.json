@@ -53,20 +53,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-yixiantian-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-yixiantian-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yixiantian-1/1200/800",
-      "alt": "一线天 最窄处仅约 3 米的窄峡"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yixiantian-2/1200/800",
-      "alt": "一线天 谷底小溪与蜿蜒步道"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yixiantian-3/1200/800",
-      "alt": "一线天 抬头只见高天一线"
-    }
-  ]
+  "gallery": []
 }

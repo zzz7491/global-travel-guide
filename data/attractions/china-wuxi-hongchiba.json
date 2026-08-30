@@ -56,20 +56,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-hongchiba-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-hongchiba-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-hongchiba-1/1200/800",
-      "alt": "红池坝 云中花海与高山野生粉杜鹃"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-hongchiba-2/1200/800",
-      "alt": "红池坝 南国第一高山草甸与春申湖"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-hongchiba-3/1200/800",
-      "alt": "红池坝 冬季滑雪场与高山雪景"
-    }
-  ]
+  "gallery": []
 }

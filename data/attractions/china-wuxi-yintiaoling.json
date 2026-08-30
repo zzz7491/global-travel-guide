@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-yintiaoling-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-yintiaoling-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yintiaoling-1/1200/800",
-      "alt": "阴条岭 重庆第一峰山脊与云海"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yintiaoling-2/1200/800",
-      "alt": "阴条岭 原始森林林相"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yintiaoling-3/1200/800",
-      "alt": "阴条岭 高山植被与珍稀植物生境"
-    }
-  ]
+  "gallery": []
 }

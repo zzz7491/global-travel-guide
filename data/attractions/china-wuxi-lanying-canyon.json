@@ -56,20 +56,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-lanying-canyon-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-lanying-canyon-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-lanying-canyon-1/1200/800",
-      "alt": "兰英大峡谷 兰英天路挂壁公路"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-lanying-canyon-2/1200/800",
-      "alt": "兰英大峡谷 深谷绝壁与国画山"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-lanying-canyon-3/1200/800",
-      "alt": "兰英大峡谷 秋冬漫山红叶"
-    }
-  ]
+  "gallery": []
 }

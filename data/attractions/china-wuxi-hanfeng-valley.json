@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-hanfeng-valley-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-hanfeng-valley-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-hanfeng-valley-1/1200/800",
-      "alt": "汉风神谷 荆竹坝岩棺群嵌于岩罅"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-hanfeng-valley-2/1200/800",
-      "alt": "汉风神谷 荆竹峡两岸峭壁对峙"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-hanfeng-valley-3/1200/800",
-      "alt": "汉风神谷 巫文化主题公园仿古门阙"
-    }
-  ]
+  "gallery": []
 }

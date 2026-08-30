@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-daguanshan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-daguanshan-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daguanshan-1/1200/800",
-      "alt": "大官山 五月野生杜鹃花海"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daguanshan-2/1200/800",
-      "alt": "大官山 原始次生林与高山草场"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daguanshan-3/1200/800",
-      "alt": "大官山 高山山脊与冷凉气候景观"
-    }
-  ]
+  "gallery": []
 }

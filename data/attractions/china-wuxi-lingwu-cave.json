@@ -56,20 +56,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-lingwu-cave-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-lingwu-cave-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-lingwu-cave-1/1200/800",
-      "alt": "灵巫洞 定海神针与钟乳天桥"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-lingwu-cave-2/1200/800",
-      "alt": "灵巫洞 过江索道俯瞰大宁河"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-lingwu-cave-3/1200/800",
-      "alt": "灵巫洞 大宁河漂流皮艇"
-    }
-  ]
+  "gallery": []
 }

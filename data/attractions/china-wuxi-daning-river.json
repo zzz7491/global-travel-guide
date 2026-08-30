@@ -56,20 +56,18 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-daning-river-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-daning-river-og/1200/800",
+  "heroImage": "/assets/images/wuxi/attractions/daning-river-hero.webp",
+  "socialImage": "/assets/images/wuxi/og/daning-river-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-wuxi-daning-river-1/1200/800",
-      "alt": "大宁河 峡谷河道与百里画廊风光"
+      "src": "/assets/images/wuxi/attractions/daning-river-gallery-01.webp",
+      "alt": "大宁河 峡谷河道与百里画廊风光（巫溪段）",
+      "credit": "Wikimedia Commons · lienyuan lee (CC BY 3.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-wuxi-daning-river-2/1200/800",
-      "alt": "大宁河 漂流皮艇与清澈天然河道"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daning-river-3/1200/800",
-      "alt": "大宁河 沿岸古镇与盐运水道"
+      "src": "/assets/images/wuxi/attractions/daning-river-gallery-02.webp",
+      "alt": "大宁河 大宁河縴夫拉纤，见证盐运水道历史（巫溪段）",
+      "credit": "Wikimedia Commons · lienyuan lee (CC BY 3.0)"
     }
   ]
 }

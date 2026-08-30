@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-ningchang-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-ningchang-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-ningchang-1/1200/800",
-      "alt": "宁厂古镇 七里半边街沿河吊脚楼"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-ningchang-2/1200/800",
-      "alt": "宁厂古镇 大宁盐场制盐遗址"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-ningchang-3/1200/800",
-      "alt": "宁厂古镇 宝源山自流盐泉与后溪河"
-    }
-  ]
+  "gallery": []
 }

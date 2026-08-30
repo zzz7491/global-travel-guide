@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-daning-ancient-city-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-daning-ancient-city-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daning-ancient-city-1/1200/800",
-      "alt": "大宁古城 明清古城墙与城门"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daning-ancient-city-2/1200/800",
-      "alt": "大宁古城 宁河漫滩与大宁河穿城"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-daning-ancient-city-3/1200/800",
-      "alt": "大宁古城 漫滩路烤鱼夜市"
-    }
-  ]
+  "gallery": []
 }

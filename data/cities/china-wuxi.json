@@ -15,8 +15,8 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "上古盐都，峡郡桃源",
-  "heroImage": "https://picsum.photos/seed/china-wuxi-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-og/1200/800",
+  "heroImage": "/assets/images/wuxi/city/city-hero.webp",
+  "socialImage": "/assets/images/wuxi/og/city-og.webp",
   "bestTime": {
     "description": "巫溪立体气候明显，县城与高海拔景区温差大：3-5 月红池坝与大官山杜鹃盛开，9-11 月兰英大峡谷红叶、天气稳定，是公认的最佳窗口；6-8 月县城较热，红池坝、大官山、一线天为避暑地，也是大宁河漂流旺季；12-2 月可到红池坝滑雪、看高山雪景，需注意高海拔路段结冰。"
   },
@@ -48,34 +48,16 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-wuxi-g1/1200/800",
-      "alt": "巫溪 红池坝高山草甸与云中花海",
+      "src": "/assets/images/wuxi/attractions/daning-river-gallery-01.webp",
+      "alt": "巫溪 大宁河峡谷与百里画廊风光",
       "type": "nature",
-      "credit": "placeholder"
+      "credit": "Wikimedia Commons · lienyuan lee (CC BY 3.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-wuxi-g2/1200/800",
-      "alt": "巫溪 宁厂古镇七里半边街与后溪河吊脚楼",
+      "src": "/assets/images/wuxi/attractions/daning-river-gallery-02.webp",
+      "alt": "巫溪 大宁河縴夫拉纤的历史记忆",
       "type": "culture",
-      "credit": "placeholder"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-g3/1200/800",
-      "alt": "巫溪 兰英大峡谷挂壁公路与深谷",
-      "type": "nature",
-      "credit": "placeholder"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-g4/1200/800",
-      "alt": "巫溪 大宁古城城墙与宁河漫滩",
-      "type": "landmark",
-      "credit": "placeholder"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-g5/1200/800",
-      "alt": "巫溪 大宁河峡谷与漂流河道",
-      "type": "nature",
-      "credit": "placeholder"
+      "credit": "Wikimedia Commons · lienyuan lee (CC BY 3.0)"
     }
   ],
   "faq": [

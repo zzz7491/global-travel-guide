@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuxi-yuntai-peak-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuxi-yuntai-peak-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yuntai-peak-1/1200/800",
-      "alt": "云台峰 万步云梯盘旋而上"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yuntai-peak-2/1200/800",
-      "alt": "云台峰 云台寺钟楼与万佛塔"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuxi-yuntai-peak-3/1200/800",
-      "alt": "云台峰 钟楼俯瞰巫溪县城与妙峡"
-    }
-  ]
+  "gallery": []
 }
