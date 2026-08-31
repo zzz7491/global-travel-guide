@@ -12,7 +12,7 @@
     {{#each gallery}}
     <figure class="gallery-item">
       <img class="gallery-img" width="800" height="600" src="{{src}}" alt="{{alt}}" loading="lazy" decoding="async">
-      {{#if caption}}<figcaption class="gallery-caption">{{caption}}</figcaption>{{/if}}
+      {{#if credit}}<figcaption class="gallery-caption">{{alt}} — {{credit}}</figcaption>{{else}}{{#if caption}}<figcaption class="gallery-caption">{{caption}}</figcaption>{{/if}}{{/if}}
     </figure>
     {{/each}}
   </div>

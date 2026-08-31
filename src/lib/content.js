@@ -175,6 +175,7 @@ export function buildContentBody(e, ctx) {
   const gallery = (e.gallery || []).map((g) => ({
     src: g.src || '',
     alt: g.alt || '',
+    credit: g.credit || '',
     caption: g.caption || g.alt || '',
   })).filter((g) => g.src);
   const cityId = `${e.country}-${e.city}`;

@@ -23,8 +23,18 @@ const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const ASSETS = path.join(ROOT, 'src', 'assets');
 
-const CITY = 'wuxi';
+// Cities covered by the image-integrity remediation (Wuxi baseline + 9 remaining).
+// Each has fully verified + locally-hosted commons images and registry entries.
+const CITIES = new Set([
+  'wuxi', 'chengdu', 'hangzhou', 'huangshan', 'lijiang', 'shanghai',
+  'suzhou', 'wuyishan', 'xian', 'zhangjiajie',
+]);
 const SUBDIRS = ['attractions', 'cities', 'routes', 'guides', 'seasonals', 'best-times', 'budgets', 'route-plans'];
+
+function cityOf(filename) {
+  const m = /^china-([a-z]+)-/.exec(filename);
+  return m ? m[1] : null;
+}
 
 const problems = [];
 let checked = 0;
@@ -35,7 +45,8 @@ function allDataFiles() {
     const dir = path.join(DATA, sub);
     if (!fs.existsSync(dir)) continue;
     for (const f of fs.readdirSync(dir)) {
-      if (f.includes(CITY) && f.endsWith('.json')) files.push(path.join(sub, f));
+      const city = cityOf(f);
+      if (city && CITIES.has(city) && f.endsWith('.json')) files.push(path.join(sub, f));
     }
   }
   return files;
@@ -111,9 +122,12 @@ function sweepChina() {
     for (const f of fs.readdirSync(d)) {
       const p = path.join(d, f);
       if (fs.statSync(p).isDirectory()) walk(p);
-      else if (f.includes(CITY) && f.endsWith('.json')) {
-        const c = fs.readFileSync(p, 'utf8');
-        if (/picsum\.photos/i.test(c)) hits.push(path.relative(DATA, p));
+      else {
+        const city = cityOf(f);
+        if (city && CITIES.has(city) && f.endsWith('.json')) {
+          const c = fs.readFileSync(p, 'utf8');
+          if (/picsum\.photos/i.test(c)) hits.push(path.relative(DATA, p));
+        }
       }
     }
   }
@@ -122,7 +136,7 @@ function sweepChina() {
 }
 for (const h of sweepChina()) problems.push(`picsum still present: ${h}`);
 
-console.log(`checked ${checked} Wuxi data entities`);
+console.log(`checked ${checked} China data entities (${[...CITIES].join(', ')})`);
 if (problems.length === 0) {
   console.log('PASS — china image integrity OK');
 } else {
