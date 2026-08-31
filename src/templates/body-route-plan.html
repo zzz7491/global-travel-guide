@@ -174,7 +174,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🔄</div><h2>路线设计理念</h2><p class="section-sub">Why this plan works</p></div>
+  <div class="section-title"><div class="section-icon">🔄</div><h2>路线设计理念</h2><p class="section-sub">路线设计思路</p></div>
   <div class="eco-banner">
     <p class="eco-desc">{{designPhilosophy.desc}}</p>
     <div class="eco-grid">
@@ -186,11 +186,11 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🗺️</div><h2>行程总览</h2><p class="section-sub">Itinerary Overview</p></div>
+  <div class="section-title"><div class="section-icon">🗺️</div><h2>行程总览</h2><p class="section-sub">行程总览</p></div>
   <div class="overview-cards">
     {{#each overview}}
     <div class="overview-card">
-      <span class="day">DAY {{day}}</span>
+      <span class="day">第{{day}}天</span>
       <h3>{{title}}</h3>
       <div class="dsub">{{theme}}</div>
       <ul class="spots">{{#each spots}}<li>{{name}}</li>{{/each}}</ul>
@@ -201,7 +201,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🎫</div><h2>门票方案</h2><p class="section-sub">Ticket Tiers</p></div>
+  <div class="section-title"><div class="section-icon">🎫</div><h2>门票方案</h2><p class="section-sub">门票方案</p></div>
   <div class="ticket-tiers">
     {{#each ticketTiers}}
     <div class="tier-card">
@@ -216,7 +216,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🏨</div><h2>住宿建议</h2><p class="section-sub">Where to Stay</p></div>
+  <div class="section-title"><div class="section-icon">🏨</div><h2>住宿建议</h2><p class="section-sub">住宿建议</p></div>
   <div class="accommodation">
     <div class="table-scroll">
     <table>
@@ -232,11 +232,11 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">📅</div><h2>每日时间轴</h2><p class="section-sub">Day by Day</p></div>
+  <div class="section-title"><div class="section-icon">📅</div><h2>每日时间轴</h2><p class="section-sub">每日行程</p></div>
   {{#each days}}
   <div class="day-section">
     <div class="day-header">
-      <span class="dnum">DAY {{day}}</span>
+      <span class="dnum">第{{day}}天</span>
       <h3>{{title}}</h3>
       <span class="dsub">{{sub}}</span>
       {{#if tag}}<span class="dtag">{{tag}}</span>{{/if}}
@@ -263,7 +263,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🧭</div><h2>每日交通与花费汇总</h2><p class="section-sub">Daily Transit &amp; Cost</p></div>
+  <div class="section-title"><div class="section-icon">🧭</div><h2>每日交通与花费汇总</h2><p class="section-sub">每日交通与花费</p></div>
   <div class="table-scroll"><table class="rp-table">
     <thead><tr><th>日</th><th>路线</th><th>交通</th><th>预计时长</th><th>费用区间</th><th>餐饮区间</th></tr></thead>
     <tbody>
@@ -283,7 +283,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">💰</div><h2>预算估算</h2><p class="section-sub">Estimated Budget</p></div>
+  <div class="section-title"><div class="section-icon">💰</div><h2>预算估算</h2><p class="section-sub">预算估算</p></div>
   <div class="budget-tiers">
     {{#each budgetTiers}}
     <div class="budget-tier-card">
@@ -304,7 +304,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">📊</div><h2>预算分解表</h2><p class="section-sub">Budget Breakdown</p></div>
+  <div class="section-title"><div class="section-icon">📊</div><h2>预算分解表</h2><p class="section-sub">预算分解</p></div>
   <div class="table-scroll"><table class="rp-table">
     <thead><tr><th>类别</th><th>极致省钱版</th><th>平衡舒适版</th><th>宽松体验版</th></tr></thead>
     <tbody>
@@ -329,7 +329,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">📈</div><h2>数据可视化</h2><p class="section-sub">At a Glance</p></div>
+  <div class="section-title"><div class="section-icon">📈</div><h2>数据可视化</h2><p class="section-sub">数据概览</p></div>
   <div class="chart-row">
     <div class="chart-card"><h4>📅 每日游玩时长（小时）</h4><div class="chart-container"><canvas id="rpChartHours"></canvas></div></div>
     <div class="chart-card"><h4>💰 预算构成（极致省钱版）</h4><div class="chart-container"><canvas id="rpChartBudget"></canvas></div></div>
@@ -337,7 +337,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🍜</div><h2>每日餐饮明细</h2><p class="section-sub">Food by Day</p></div>
+  <div class="section-title"><div class="section-icon">🍜</div><h2>每日餐饮明细</h2><p class="section-sub">每日餐饮</p></div>
   <div class="table-scroll"><table class="detail-table">
     <thead><tr><th>日</th><th>早餐</th><th>午餐</th><th>晚餐</th><th>小计</th></tr></thead>
     <tbody>{{#each foodDetail.rows}}<tr><td>{{day}}</td><td>{{早餐}}</td><td>{{午餐}}</td><td>{{晚餐}}</td><td>{{小计}}</td></tr>{{/each}}</tbody>
@@ -346,7 +346,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🚉</div><h2>每日交通明细</h2><p class="section-sub">Transit by Day</p></div>
+  <div class="section-title"><div class="section-icon">🚉</div><h2>每日交通明细</h2><p class="section-sub">每日交通</p></div>
   <div class="table-scroll"><table class="detail-table">
     <thead><tr><th>日</th><th>方式</th><th>费用</th><th>提醒</th></tr></thead>
     <tbody>{{#each transitDetail.rows}}<tr><td>{{day}}</td><td>{{方式}}</td><td>{{费用}}</td><td>{{提醒}}</td></tr>{{/each}}</tbody>
@@ -355,7 +355,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🔀</div><h2>备选方案 · A/B</h2><p class="section-sub">Plan B Options</p></div>
+  <div class="section-title"><div class="section-icon">🔀</div><h2>备选方案 · A/B</h2><p class="section-sub">备选方案</p></div>
   <div class="alt-grid">
     {{#each alternatives}}
     <div class="alt-card">
@@ -369,7 +369,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">💡</div><h2>省钱技巧</h2><p class="section-sub">Money Saving</p></div>
+  <div class="section-title"><div class="section-icon">💡</div><h2>省钱技巧</h2><p class="section-sub">省钱技巧</p></div>
   <div class="saving-tips">
     {{#each savingTips}}
     <div class="tip-card"><h4>{{title}}</h4><p>{{text}}</p></div>
@@ -378,7 +378,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">⚠️</div><h2>实用提醒</h2><p class="section-sub">Good to Know</p></div>
+  <div class="section-title"><div class="section-icon">⚠️</div><h2>实用提醒</h2><p class="section-sub">实用提醒</p></div>
   <div class="tips-grid">
     {{#each reminders}}
     <div class="tips-card {{type}}">
@@ -390,7 +390,7 @@
 </section>
 
 <section class="section">
-  <div class="section-title"><div class="section-icon">🎒</div><h2>行李清单</h2><p class="section-sub">Packing List</p></div>
+  <div class="section-title"><div class="section-icon">🎒</div><h2>行李清单</h2><p class="section-sub">行李清单</p></div>
   <div class="packing-list">
     {{#each packing}}<div>✓ {{text}}</div>{{/each}}
   </div>

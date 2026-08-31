@@ -8,7 +8,7 @@
     {{#if lead}}<p class="hero-sub">{{lead}}</p>{{/if}}
     {{#if months}}
     <div class="stats-bar">
-      {{#each months}}<div class="stat"><span class="stat-value">{{text}}</span><span class="stat-label">BEST MONTHS</span></div>{{/each}}
+      {{#each months}}<div class="stat"><span class="stat-value">{{text}}</span><span class="stat-label">最佳月份</span></div>{{/each}}
     </div>
     {{/if}}
   </div>
@@ -16,21 +16,21 @@
 
 {{#if overview}}
 <section class="block home-block">
-  <div class="section-header"><h2>Season Overview</h2></div>
+  <div class="section-header"><h2>当季概览</h2></div>
   <p class="about-text">{{overview}}</p>
 </section>
 {{/if}}
 
 {{#if weather}}
 <section class="block home-block">
-  <div class="section-header"><h2>Weather &amp; Best Time</h2></div>
+  <div class="section-header"><h2>天气与最佳时间</h2></div>
   <p class="section-summary">{{weather}}</p>
 </section>
 {{/if}}
 
 {{#if highlights}}
 <section class="block home-block">
-  <div class="section-header"><h2>Season Highlights</h2></div>
+  <div class="section-header"><h2>当季亮点</h2></div>
   <div class="highlight-chips">
     {{#each highlights}}<span class="chip">{{text}}</span>{{/each}}
   </div>
@@ -39,7 +39,7 @@
 
 {{#if events}}
 <section class="block home-block">
-  <div class="section-header"><h2>Events &amp; Experiences</h2></div>
+  <div class="section-header"><h2>节庆与体验</h2></div>
   <div class="cards">
     {{#each events}}
     <div class="card season-card">
@@ -53,7 +53,7 @@
 
 {{#if tips}}
 <section class="block home-block">
-  <div class="section-header"><h2>Travel Tips</h2></div>
+  <div class="section-header"><h2>旅行贴士</h2></div>
   <ul class="notes-list">
     {{#each tips}}<li>{{text}}</li>{{/each}}
   </ul>

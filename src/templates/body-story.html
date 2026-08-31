@@ -8,7 +8,7 @@
 </div>
 
 <nav class="breadcrumb" aria-label="面包屑">
-  <a href="/">Home</a><span>/</span>
+  <a href="/">首页</a><span>/</span>
   {{#if cityName}}<a href="{{backUrl}}">{{cityName}}</a><span>/</span>{{/if}}
   <span>{{h1}}</span>
 </nav>
@@ -16,13 +16,13 @@
 {{#if hasAuthor}}
 <section class="block home-block">
   <div class="section-header">
-    <h2>Story</h2>
+    <h2>旅行故事</h2>
   </div>
   <div class="story-meta">
     <span class="author-badge">{{author.name}}</span>
     {{#if travelStyle}}<span class="badge">{{travelStyle}}</span>{{/if}}
     {{#if season}}<span class="badge">{{season}}</span>{{/if}}
-    {{#if days}}<span class="badge">{{days}} Days</span>{{/if}}
+    {{#if days}}<span class="badge">{{days}}天</span>{{/if}}
   </div>
 </section>
 {{/if}}
@@ -30,7 +30,7 @@
 {{#if highlights}}
 <section class="block home-block">
   <div class="section-header">
-    <h2>Highlights</h2>
+    <h2>精彩亮点</h2>
   </div>
   <ul class="highlight-chips">
     {{#each highlights}}

@@ -23,10 +23,10 @@ const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const ASSETS = path.join(ROOT, 'src', 'assets');
 
-// Cities covered by the image-integrity remediation (Wuxi baseline + 9 remaining).
+// Cities covered by the image-integrity remediation.
 // Each has fully verified + locally-hosted commons images and registry entries.
 const CITIES = new Set([
-  'wuxi', 'chengdu', 'hangzhou', 'huangshan', 'lijiang', 'shanghai',
+  'beijing', 'wuxi', 'chengdu', 'hangzhou', 'huangshan', 'lijiang', 'shanghai',
   'suzhou', 'wuyishan', 'xian', 'zhangjiajie',
 ]);
 const SUBDIRS = ['attractions', 'cities', 'routes', 'guides', 'seasonals', 'best-times', 'budgets', 'route-plans'];

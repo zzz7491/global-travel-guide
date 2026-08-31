@@ -346,9 +346,9 @@ export function featuredSort(items) {
 // =============================================================================
 function planBadge(rp) {
   const dayCount = Array.isArray(rp.days) ? rp.days.length : typeof rp.days === 'number' ? rp.days : 0;
-  const days = dayCount ? `${dayCount} Days` : '';
+  const days = dayCount ? `${dayCount}天` : '';
   const edition = rp.edition ? ` · ${rp.edition}` : '';
-  return (days + edition).trim() || 'Route Plan';
+  return (days + edition).trim() || '行程规划';
 }
 export function buildHomeBody(ctx) {
   const cityOf = (e) => ctx.index[`${e.country}-${e.city}`];
@@ -404,7 +404,7 @@ export function buildHomeBody(ctx) {
         url: linkUrl(e),
         image: e.image || cityOf(e)?.heroImage || '',
         alt: `${e.h1 || e.name || ''} 路线封面`,
-        badge: 'Route',
+        badge: '路线',
         cityName: cityOf(e)?.name || '',
       })),
     ...routePlans.slice(1).map((e) => ({
@@ -413,7 +413,7 @@ export function buildHomeBody(ctx) {
       url: linkUrl(e),
       image: cityOf(e)?.heroImage || '',
       alt: `${e.h1 || e.name || ''} 路书封面`,
-      badge: `Route Plan · ${planBadge(e)}`,
+      badge: `行程规划 · ${planBadge(e)}`,
       cityName: cityOf(e)?.name || '',
     })),
     ...budgets.map((e) => ({
@@ -422,16 +422,16 @@ export function buildHomeBody(ctx) {
       url: linkUrl(e),
       image: cityOf(e)?.heroImage || '',
       alt: `${e.h1 || e.name || ''} 预算方案`,
-      badge: `Budget · ${planBadge(e)}`,
+      badge: `预算 · ${planBadge(e)}`,
       cityName: cityOf(e)?.name || '',
     })),
   ].filter((i) => i.title);
 
   // Honest, data-derived stats (no fabricated "100+").
   const stats = [
-    { value: String(countries.length + cities.length), label: 'Destinations' },
-    { value: String(routes.length + routePlans.length + budgets.length + itineraryCount), label: 'Curated Routes' },
-    { value: String(guides.length), label: 'Planning Guides' },
+    { value: String(countries.length + cities.length), label: '目的地' },
+    { value: String(routes.length + routePlans.length + budgets.length + itineraryCount), label: '精选路线' },
+    { value: String(guides.length), label: '攻略指南' },
   ];
 
   // Featured flagship card: priority route-plan -> budget.
@@ -444,7 +444,7 @@ export function buildHomeBody(ctx) {
       url: linkUrl(fp),
       image: fp.image || cityOf(fp)?.heroImage || '',
       alt: `${fp.h1 || fp.title || ''} 旗舰路书封面`,
-      badge: (fp.type === 'budget' ? 'Budget · ' : 'Route Plan · ') + planBadge(fp),
+      badge: (fp.type === 'budget' ? '预算 · ' : '行程规划 · ') + planBadge(fp),
       cityName: cityOf(fp)?.name || '',
     };
   }
@@ -484,10 +484,10 @@ export function buildCityBody(city, ctx) {
     ? city.facts.map((f) => ({ label: f.label, value: f.value }))
     : (() => {
         const out = [];
-        if (city.continent) out.push({ value: city.continent, label: 'Continent' });
-        if (city.language) out.push({ value: city.language, label: 'Language' });
-        if (city.currency) out.push({ value: city.currency, label: 'Currency' });
-        if (city.timezone) out.push({ value: city.timezone, label: 'Timezone' });
+        if (city.continent) out.push({ value: city.continent, label: '大洲' });
+        if (city.language) out.push({ value: city.language, label: '语言' });
+        if (city.currency) out.push({ value: city.currency, label: '货币' });
+        if (city.timezone) out.push({ value: city.timezone, label: '时区' });
         return out;
       })();
 
@@ -496,7 +496,7 @@ export function buildCityBody(city, ctx) {
   // Best Time — from existing best-time entity (+ optional summary field).
   const bt = byTitle('最佳旅行时间');
   if (bt && bt.items.length) {
-    hub.push({ title: 'Best Time', items: bt.items, summary: (city.bestTime && city.bestTime.description) || '' });
+    hub.push({ title: '最佳旅行时间', items: bt.items, summary: (city.bestTime && city.bestTime.description) || '' });
   }
 
   // Featured Routes — routes + route-plans + itineraries of this city.
@@ -517,11 +517,11 @@ export function buildCityBody(city, ctx) {
         url: linkUrl(featuredRp),
         image: featuredRp.image || city.heroImage || '',
         alt: `${featuredRp.h1 || featuredRp.title || ''} 旗舰路书封面`,
-        badge: (featuredRp.type === 'budget' ? 'Budget · ' : 'Route Plan · ') + planBadge(featuredRp),
+        badge: (featuredRp.type === 'budget' ? '预算 · ' : '行程规划 · ') + planBadge(featuredRp),
         cityName: city.name || city.city || '',
       };
     }
-    hub.push({ title: 'Featured Routes', items: rpItems, featured });
+    hub.push({ title: '精选路线', items: rpItems, featured });
   }
 
   // Budget Plans — real rich cards (title / days / budget range), else empty state.
@@ -530,7 +530,7 @@ export function buildCityBody(city, ctx) {
   );
   if (budgetEntities.length) {
     hub.push({
-      title: 'Budget Plans',
+      title: '预算参考',
       items: budgetEntities.map((e) => {
         const est = e.budgetTiers && e.budgetTiers[0] && e.budgetTiers[0].estimate;
         const range = est ? `¥${est.low} 起` : '';
@@ -548,8 +548,8 @@ export function buildCityBody(city, ctx) {
     });
   } else {
     hub.push({
-      title: 'Budget Plans', empty: true,
-      emptyTitle: 'Budget Plans Coming Soon',
+      title: '预算参考', empty: true,
+      emptyTitle: '预算参考即将上线',
       note: '分档预算方案即将上线，帮你把每一笔花在核心体验上。',
     });
   }
@@ -559,7 +559,7 @@ export function buildCityBody(city, ctx) {
   );
   if (seasonalEntities.length) {
     hub.push({
-      title: 'Seasonal Guides',
+      title: '四季指南',
       items: seasonalEntities.map((e) => ({
         title: e.h1 || e.name || '',
         desc: `${e.season || ''}${e.months && e.months.length ? ' · ' + e.months.join('/') : ''}`.trim(),
@@ -571,8 +571,8 @@ export function buildCityBody(city, ctx) {
     });
   } else {
     hub.push({
-      title: 'Seasonal Guides', empty: true,
-      emptyTitle: 'Seasonal Guides Coming Soon',
+      title: '四季指南', empty: true,
+      emptyTitle: '四季指南即将上线',
       note: '当季玩法与季节活动攻略即将上线。',
     });
   }
@@ -580,9 +580,9 @@ export function buildCityBody(city, ctx) {
   // Top Attractions / Planning Guides — retained from the derived sections so
   // the existing content stays reachable from the hub (no regression).
   const att = byTitle('景点攻略');
-  if (att && att.items.length) hub.push({ title: 'Top Attractions', items: att.items });
+  if (att && att.items.length) hub.push({ title: '热门景点', items: att.items });
   const gd = byTitle('实用攻略');
-  if (gd && gd.items.length) hub.push({ title: 'Planning Guides', items: gd.items });
+  if (gd && gd.items.length) hub.push({ title: '实用攻略', items: gd.items });
 
   // Traveler Stories — real story cards when data exists (future UGC), else
   // a unified empty state. No fabricated content.
@@ -591,7 +591,7 @@ export function buildCityBody(city, ctx) {
   );
   if (cityStories.length) {
     hub.push({
-      title: 'Traveler Stories',
+      title: '旅行故事',
       items: cityStories.map((s) => ({
         title: s.title || s.h1 || '',
         desc: [s.author && s.author.name, s.travelStyle].filter(Boolean).join(' · '),
@@ -603,8 +603,8 @@ export function buildCityBody(city, ctx) {
     });
   } else {
     hub.push({
-      title: 'Traveler Stories', empty: true,
-      emptyTitle: 'Traveler Stories Coming Soon',
+      title: '旅行故事', empty: true,
+      emptyTitle: '旅行故事即将上线',
       note: '真实旅行经验将在未来开放，敬请期待。',
     });
   }
@@ -621,7 +621,7 @@ export function buildCityBody(city, ctx) {
   }
   if (relatedCities.length) {
     hub.push({
-      title: 'Related Cities',
+      title: '相关城市',
       items: relatedCities.map((e) => ({ title: e.name || e.city, desc: e.lead || '', url: linkUrl(e) })),
     });
   }
@@ -674,7 +674,7 @@ export function buildStoryBody(e, ctx) {
   story.cityName = city && city.name ? city.name : '';
   story.highlights = (story.highlights || []).map((s) => ({ text: s }));
   story.hasAuthor = !!(story.author && story.author.name);
-  story.meta = [story.travelStyle, story.season, story.days ? `${story.days} Days` : '']
+  story.meta = [story.travelStyle, story.season, story.days ? `${story.days}天` : '']
     .filter(Boolean).join(' · ');
   story.backUrl = e.city ? linkUrl(city) : '/';
   story.backLabel = e.city && city && city.name ? `返回${city.name}` : '返回首页';

@@ -2,15 +2,14 @@
 <section class="hero">
   <div class="hero-inner">
     <p class="hero-brand">{{heroBrand}}</p>
-    <h1 class="hero-title">Explore the world.</h1>
-    <p class="hero-sub">Plan your journey.</p>
-    <p class="hero-sub-zh">探索世界，规划你的下一段旅程。</p>
+    <h1 class="hero-title">探索世界。</h1>
+    <p class="hero-sub">规划你的下一段旅程。</p>
     <div class="hero-actions">
       <form class="hero-search" action="/countries" method="get" role="search">
-        <input type="search" name="q" placeholder="Search destination…" aria-label="Search destination" autocomplete="off">
-        <button class="btn btn-primary" type="submit">Search</button>
+        <input type="search" name="q" placeholder="搜索目的地" aria-label="搜索目的地" autocomplete="off">
+        <button class="btn btn-primary" type="submit">搜索</button>
       </form>
-      <a class="btn btn-ghost btn-on-hero" href="/countries">Featured Destinations &rarr;</a>
+      <a class="btn btn-ghost btn-on-hero" href="/countries">精选目的地 &rarr;</a>
     </div>
     <div class="stats-bar">
       {{#each stats}}
@@ -26,8 +25,8 @@
 {{#if countries}}
 <section class="block home-block">
   <div class="section-header">
-    <h2>Featured Destinations</h2>
-    <a class="section-more" href="/countries">All destinations &rarr;</a>
+    <h2>精选目的地</h2>
+    <a class="section-more" href="/countries">查看全部目的地 &rarr;</a>
   </div>
   <div class="dest-grid">
     {{#each countries}}
@@ -55,8 +54,8 @@
 {{#if featured}}
 <section class="block home-block">
   <div class="section-header">
-    <h2>Popular Routes</h2>
-    <a class="section-more" href="/routes">All routes &rarr;</a>
+    <h2>热门路线</h2>
+    <a class="section-more" href="/routes">查看全部路线 &rarr;</a>
   </div>
   <a class="route-card route-card--featured" href="{{featured.url}}">
     {{#if featured.image}}<img class="card-img" width="800" height="450" src="{{featured.image}}" alt="{{featured.alt}}" loading="lazy" decoding="async">{{/if}}
@@ -82,8 +81,8 @@
 {{#if guides}}
 <section class="block home-block">
   <div class="section-header">
-    <h2>Travel Planning Guides</h2>
-    <a class="section-more" href="/guides">All guides &rarr;</a>
+    <h2>旅行规划指南</h2>
+    <a class="section-more" href="/guides">查看全部攻略 &rarr;</a>
   </div>
   <div class="cards">
     {{#each guides}}
@@ -100,7 +99,7 @@
 {{#if seasons}}
 <section class="block home-block">
   <div class="section-header">
-    <h2>Seasonal Experiences</h2>
+    <h2>四季体验</h2>
   </div>
   <div class="cards">
     {{#each seasons}}
@@ -117,10 +116,10 @@
 
 <section class="block home-block">
   <div class="section-header">
-    <h2>Traveler Stories</h2>
+    <h2>旅行故事</h2>
   </div>
   <div class="empty-state">
-    <strong>Traveler Stories Coming Soon</strong>
+    <strong>旅行故事即将上线</strong>
     <span>真实旅行经验将在未来开放，敬请期待。</span>
   </div>
 </section>
