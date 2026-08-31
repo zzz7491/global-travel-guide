@@ -6,6 +6,8 @@
   "slug": "nanjing-road",
   "title": "南京路步行街攻略｜老字号百货与橱窗指南",
   "description": "上海南京东路步行街旅游攻略：老字号百货、商场橱窗与都市步行体验，通往外滩，附逛街动线与交通建议。",
+  "heroImage": "/assets/images/shanghai/attractions/nanjing-road-hero.webp",
+  "socialImage": "/assets/images/shanghai/og/nanjing-road-og.webp",
   "keywords": "南京路,南京东路,步行街,上海购物,老字号,外滩,上海逛街",
   "h1": "南京路步行街攻略",
   "lead": "从老字号百货到潮流商场，南京东路步行街是上海经典的都市步行大道。",
@@ -50,5 +52,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/shanghai/attractions/nanjing-road-hero.webp", "alt": "南京东路步行街晨景", "credit": "Wikimedia Commons: Chainwit., CC BY 4.0" }
+  ]
 }

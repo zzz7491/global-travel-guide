@@ -6,6 +6,8 @@
   "slug": "wuyi-palace",
   "title": "武夷宫·大王峰旅游攻略｜千年古建群与擎天孤峰",
   "description": "福建武夷山武夷宫·大王峰旅游攻略：唐代始建的武夷宫与宋街、博物馆、三清殿、柳永祠，以及九曲溪畔巍然独立的大王峰，含免费开放与游览建议。",
+  "heroImage": "/assets/images/wuyishan/attractions/wuyi-palace-hero.webp",
+  "socialImage": "/assets/images/wuyishan/og/wuyi-palace-og.webp",
   "keywords": "武夷宫,大王峰,武夷宫宋街,武夷山博物馆,柳永祠,武夷山古建,九曲溪",
   "h1": "武夷宫·大王峰旅游攻略",
   "lead": "武夷宫始建于唐天宝年间，是九曲溪畔的千年古建群；而它身后的大王峰，是武夷山标志性的擎天孤峰——人文与山川在此交汇。",
@@ -55,5 +57,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/wuyishan/attractions/wuyi-palace-hero.webp", "alt": "武夷宫古建群与大王峰", "credit": "Wikimedia Commons: xiquinhosilva, CC BY 2.0" }
+  ]
 }

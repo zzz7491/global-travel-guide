@@ -6,6 +6,8 @@
   "slug": "grand-canal",
   "title": "京杭大运河杭州段旅游攻略｜拱宸桥与水岸老街",
   "description": "京杭大运河杭州段旅游攻略：拱宸桥、桥西历史街区和运河夜游怎么走，附博物馆群与步行动线建议。",
+  "heroImage": "/assets/images/hangzhou/attractions/grand-canal-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/grand-canal-og.webp",
   "keywords": "京杭大运河,拱宸桥,桥西历史街区,杭州运河,运河夜游",
   "h1": "京杭大运河杭州段旅游攻略",
   "lead": "京杭大运河的南端终点在杭州，拱宸桥一带保留着桥西历史街区和一批专题博物馆，是看杭州「运河烟火」的好去处。",
@@ -51,5 +53,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/hangzhou/attractions/grand-canal-hero.webp", "alt": "拱宸桥与京杭大运河杭州段", "credit": "Wikimedia Commons: èè���ռǱ� (Kitty's Japan), CC BY-SA 3.0" }
+  ]
 }

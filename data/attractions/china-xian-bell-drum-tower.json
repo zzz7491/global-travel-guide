@@ -6,6 +6,8 @@
   "slug": "bell-drum-tower",
   "title": "西安钟楼与鼓楼旅游攻略｜明代地标可登楼与联票怎么选",
   "description": "西安钟楼与鼓楼旅游攻略：市中心明代地标，可登楼俯瞰古城；联票通常比单买划算，具体以现场为准；鼓楼后就是回民街，动线顺路。",
+  "heroImage": "/assets/images/xian/attractions/bell-drum-tower-hero.webp",
+  "socialImage": "/assets/images/xian/og/bell-drum-tower-og.webp",
   "keywords": "西安钟楼,西安鼓楼,钟楼鼓楼,西安地标,西安市中心,西安联票",
   "h1": "西安钟楼与鼓楼旅游攻略",
   "lead": "钟楼与鼓楼是西安市中心最醒目的明代地标，登楼可俯瞰古城车流与大街；逛完鼓楼，往后几步就是回民街。",
@@ -51,5 +53,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/xian/attractions/bell-drum-tower-hero.webp", "alt": "西安鼓楼与古城全景", "credit": "Wikimedia Commons: xiquinhosilva, CC BY 2.0" }
+  ]
 }
