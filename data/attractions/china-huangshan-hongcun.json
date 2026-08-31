@@ -53,16 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-huangshan-hongcun-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-hongcun-og/1200/800",
+  "heroImage": "/assets/images/huangshan/attractions/hongcun-hero.webp",
+  "socialImage": "/assets/images/huangshan/attractions/hongcun-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-huangshan-hongcun-g1/1200/800",
-      "alt": "宏村月沼半月形水面与环列民居"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-hongcun-g2/1200/800",
-      "alt": "宏村南湖画桥与写生的人群"
+      "src": "/assets/images/huangshan/attractions/hongcun-gallery-01.webp",
+      "alt": "宏村：徽派村落水圳与月沼",
+      "credit": "Wikimedia Commons · creator unverified (CC BY 2.5)"
     }
   ]
 }

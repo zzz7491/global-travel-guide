@@ -9,7 +9,12 @@
   "keywords": "田子坊,石库门,创意园区,上海弄堂,手作,街头艺术,打浦桥",
   "h1": "田子坊攻略",
   "lead": "石库门里弄里藏着一座创意园区，田子坊的狭窄巷子里布满了小店与手作摊。",
-  "tags": ["街区", "创意", "艺术", "免费"],
+  "tags": [
+    "街区",
+    "创意",
+    "艺术",
+    "免费"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,21 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["弄堂狭窄且节假日人流极大，注意随身物品。", "多数店铺只逛不买也欢迎，橱窗本身免费好看。", "地面以石板与老里弄为主，穿舒适鞋更省力。"]
+      "items": [
+        "弄堂狭窄且节假日人流极大，注意随身物品。",
+        "多数店铺只逛不买也欢迎，橱窗本身免费好看。",
+        "地面以石板与老里弄为主，穿舒适鞋更省力。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-wukang-road", "china-shanghai-three-days", "china-shanghai-tips"]
+      "refs": [
+        "china-shanghai-wukang-road",
+        "china-shanghai-three-days",
+        "china-shanghai-tips"
+      ]
     }
-  ]
+  ],
+  "gallery": []
 }

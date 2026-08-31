@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-wufu-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-wufu-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-wufu-1/1200/800",
-      "alt": "五夫古镇紫阳楼朱熹遗迹"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-wufu-2/1200/800",
-      "alt": "五夫古镇荷塘白莲与田园"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-wufu-3/1200/800",
-      "alt": "五夫古镇兴贤书院古建"
-    }
-  ]
+  "gallery": []
 }

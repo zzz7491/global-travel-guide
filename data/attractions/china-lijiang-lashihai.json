@@ -51,16 +51,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-lijiang-lashihai/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-lashihai-og/1200/800",
+  "heroImage": "/assets/images/lijiang/attractions/lashihai-hero.webp",
+  "socialImage": "/assets/images/lijiang/attractions/lashihai-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-lijiang-lashihai-01/1200/800",
-      "alt": "拉市海湿地"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-lashihai-02/1200/800",
-      "alt": "茶马古道"
+      "src": "/assets/images/lijiang/attractions/lashihai-gallery-01.webp",
+      "alt": "拉市海：高原湖泊与湿地",
+      "credit": "Wikimedia Commons · Chen Fong (CC BY-SA 3.0)"
     }
   ]
 }

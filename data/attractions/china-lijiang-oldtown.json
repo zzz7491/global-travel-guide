@@ -52,16 +52,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-lijiang-oldtown/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-oldtown-og/1200/800",
+  "heroImage": "/assets/images/lijiang/attractions/oldtown-hero.webp",
+  "socialImage": "/assets/images/lijiang/attractions/oldtown-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-lijiang-oldtown-01/1200/800",
-      "alt": "丽江古城街巷"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-oldtown-02/1200/800",
-      "alt": "四方街与玉河水系"
+      "src": "/assets/images/lijiang/attractions/oldtown-gallery-01.webp",
+      "alt": "丽江古城：纳西民居与石桥流水",
+      "credit": "Wikimedia Commons · CEphoto, Uwe Aranas (CC BY-SA 3.0)"
     }
   ]
 }

@@ -53,20 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-forest-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-forest-og/1200/800",
+  "heroImage": "/assets/images/zhangjiajie/attractions/forest-hero.webp",
+  "socialImage": "/assets/images/zhangjiajie/attractions/forest-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-forest-yuanjiajie/1200/800",
-      "alt": "袁家界乾坤柱与天下第一桥"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-forest-tianzishan/1200/800",
-      "alt": "天子山御笔峰峰海视野"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-forest-jinbianxi/1200/800",
-      "alt": "金鞭溪谷底溪流步道"
+      "src": "/assets/images/zhangjiajie/attractions/forest-gallery-01.webp",
+      "alt": "张家界：砂岩峰林地貌",
+      "credit": "Wikimedia Commons · Lianguanlun (CC BY 4.0)"
     }
   ]
 }

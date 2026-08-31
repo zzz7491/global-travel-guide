@@ -51,16 +51,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-suzhou-pingjiang/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-pingjiang/1200/630",
+  "heroImage": "/assets/images/suzhou/attractions/pingjiang-hero.webp",
+  "socialImage": "/assets/images/suzhou/attractions/pingjiang-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-suzhou-pingjiang-1/1200/800",
-      "alt": "平江路 运河老街"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-suzhou-pingjiang-2/1200/800",
-      "alt": "平江路 水巷民居"
+      "src": "/assets/images/suzhou/attractions/pingjiang-gallery-01.webp",
+      "alt": "苏州平江路：小桥流水老街",
+      "credit": "Wikimedia Commons · kevinmcgill (CC BY-SA 2.0)"
     }
   ]
 }

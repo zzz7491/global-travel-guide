@@ -15,8 +15,8 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "碧水丹山，朱子故里",
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-og/1200/800",
+  "heroImage": "/assets/images/wuyishan/city/city-hero.webp",
+  "socialImage": "/assets/images/wuyishan/og/city-og.webp",
   "bestTime": {
     "description": "武夷山亚热带季风气候、冬无严寒夏无酷暑、四季皆宜：3-5 月春茶季山花烂漫、气候最舒适，9-11 月秋高气爽、岩茶上市，是公认的最佳窗口；6-9 月水量充沛、适合亲水漂流避暑；冬季人少雾凇可期，门票预约也更容易。"
   },
@@ -48,34 +48,22 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-wuyishan-g1/1200/800",
-      "alt": "武夷山 九曲溪竹筏与丹霞峰林映水",
+      "src": "/assets/images/wuyishan/attractions/jiuqu-river-gallery-01.webp",
+      "alt": "武夷山 九曲溪竹筏",
       "type": "nature",
-      "credit": "placeholder"
+      "credit": "Wikimedia Commons · Ricky Chow (CC BY-SA 3.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-wuyishan-g2/1200/800",
-      "alt": "武夷山 天游峰俯瞰九曲溪环绕群峰",
+      "src": "/assets/images/wuyishan/attractions/tianyou-peak-gallery-01.webp",
+      "alt": "武夷山 天游峰",
       "type": "nature",
-      "credit": "placeholder"
+      "credit": "Wikimedia Commons · Zhangzhugang (CC BY-SA 3.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-wuyishan-g3/1200/800",
-      "alt": "武夷山 武夷宫古建与大王峰倒影",
+      "src": "/assets/images/wuyishan/attractions/dahongpao-gallery-01.webp",
+      "alt": "武夷山 大红袍景区",
       "type": "culture",
-      "credit": "placeholder"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-g4/1200/800",
-      "alt": "武夷山 岩骨花香漫游道与茶园茶香",
-      "type": "nature",
-      "credit": "placeholder"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-g5/1200/800",
-      "alt": "武夷山 五夫古镇朱熹故里与荷塘",
-      "type": "culture",
-      "credit": "placeholder"
+      "credit": "Wikimedia Commons · Windmemories (CC BY-SA 4.0)"
     }
   ],
   "faq": [

@@ -56,20 +56,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-jiuqu-river-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-jiuqu-river-og/1200/800",
+  "heroImage": "/assets/images/wuyishan/attractions/jiuqu-river-hero.webp",
+  "socialImage": "/assets/images/wuyishan/attractions/jiuqu-river-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-wuyishan-jiuqu-1/1200/800",
-      "alt": "九曲溪竹筏顺流而下夹岸丹霞"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-jiuqu-2/1200/800",
-      "alt": "九曲溪沿岸玉女峰倒影"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-jiuqu-3/1200/800",
-      "alt": "九曲溪晨雾中的竹筏与晨光"
+      "src": "/assets/images/wuyishan/attractions/jiuqu-river-gallery-01.webp",
+      "alt": "武夷山九曲溪：竹筏漂流与玉女峰",
+      "credit": "Wikimedia Commons · Ricky Chow (CC BY-SA 3.0)"
     }
   ]
 }

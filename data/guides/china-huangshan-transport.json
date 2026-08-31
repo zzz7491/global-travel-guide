@@ -53,8 +53,6 @@
     }
   ],
   "category": "交通",
-  "image": "https://picsum.photos/seed/china-huangshan-guide-transport/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-guide-transport-og/1200/800",
   "howto": {
     "name": "从黄山市区上山的换乘流程",
     "description": "三步完成从市区到黄山索道站的换乘，避免走错门",
@@ -62,8 +60,7 @@
     "steps": [
       {
         "name": "市区或车站前往汤口",
-        "text": "在黄山北站或市区汽车站乘景区班车前往南大门汤口，车程约 1 小时（费用与班次以当日公告为准）。",
-        "image": "https://picsum.photos/seed/china-huangshan-howto-1/1200/800"
+        "text": "在黄山北站或市区汽车站乘景区班车前往南大门汤口，车程约 1 小时（费用与班次以当日公告为准）。"
       },
       {
         "name": "汤口换乘中心换景区专线",

@@ -56,20 +56,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-tianyou-peak-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-tianyou-peak-og/1200/800",
+  "heroImage": "/assets/images/wuyishan/attractions/tianyou-peak-hero.webp",
+  "socialImage": "/assets/images/wuyishan/attractions/tianyou-peak-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-wuyishan-tianyou-1/1200/800",
-      "alt": "天游峰俯瞰九曲溪环抱群峰"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-tianyou-2/1200/800",
-      "alt": "天游峰848级石阶登顶道"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-tianyou-3/1200/800",
-      "alt": "天游峰雨后云海晨雾"
+      "src": "/assets/images/wuyishan/attractions/tianyou-peak-gallery-01.webp",
+      "alt": "武夷山天游峰：丹霞峰峦与九曲溪谷",
+      "credit": "Wikimedia Commons · Zhangzhugang (CC BY-SA 3.0)"
     }
   ]
 }

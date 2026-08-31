@@ -51,8 +51,6 @@
     }
   ],
   "category": "美食",
-  "image": "https://picsum.photos/seed/china-chengdu-food-cover/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-food-og/1200/800",
   "howto": {
     "name": "成都吃辣入门指南",
     "description": "三步点出一锅适合自己的成都火锅",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "选锅底",
-        "text": "不能吃辣选鸳鸯锅（一半红汤一半清汤），可兼顾尝味与温和。",
-        "image": "https://picsum.photos/seed/china-chengdu-food-1/1200/800"
+        "text": "不能吃辣选鸳鸯锅（一半红汤一半清汤），可兼顾尝味与温和。"
       },
       {
         "name": "点菜",

@@ -11,23 +11,737 @@
   "h1": "杭州三日经济版路书",
   "lead": "省钱不省精彩 · 用免费西湖环线打底，公交地铁串起灵隐与龙井茶山。",
   "edition": "economy",
-  "image": "https://picsum.photos/seed/china-hangzhou-economy/1200/800",
   "featured": false,
   "priority": 0,
-  "days": 3,
+  "days": [
+    {
+      "day": 1,
+      "theme": "西湖环线",
+      "title": "断桥 · 白堤 · 苏堤 · 雷峰塔",
+      "sub": "从断桥到雷峰塔，一条免费环线看尽西湖",
+      "tag": "必去高性价比",
+      "ticketLabel": "经济档",
+      "items": [
+        {
+          "time": "抵达",
+          "category": "transport",
+          "categoryLabel": "交通",
+          "title": "抵达杭州与入住",
+          "badges": [
+            {
+              "t": "交通",
+              "c": "transport"
+            }
+          ],
+          "desc": "杭州东站/城站乘地铁 1 号线到龙翔桥站一带，放下行李轻装出发。往返大交通不含。",
+          "info": [
+            {
+              "label": "交通方式",
+              "value": "地铁1号线"
+            },
+            {
+              "label": "耗时",
+              "value": "30-50分钟"
+            },
+            {
+              "label": "费用",
+              "value": "约¥3-7"
+            }
+          ],
+          "bestTime": "白天抵达可留出半天游玩",
+          "photoSpot": "地铁站内",
+          "reservation": "无需预约",
+          "localTip": "先绑定地铁/公交乘车码",
+          "tips": "往返大交通不含，预算自行控制",
+          "alternative": "夜间抵达则直接入住"
+        },
+        {
+          "time": "早餐",
+          "category": "food",
+          "categoryLabel": "餐饮",
+          "title": "湖滨早餐",
+          "badges": [
+            {
+              "t": "餐饮",
+              "c": "food"
+            }
+          ],
+          "desc": "湖滨或延安路一带包子、面点早餐，人均 ¥10-20，快速解决。",
+          "info": [
+            {
+              "label": "人均",
+              "value": "¥10-20"
+            },
+            {
+              "label": "建议",
+              "value": "就近连锁"
+            }
+          ],
+          "bestTime": "出发前",
+          "photoSpot": "街角",
+          "reservation": "无需预约",
+          "localTip": "早餐便宜管饱",
+          "tips": "早餐简单解决",
+          "alternative": "便利店早餐"
+        },
+        {
+          "time": "上午",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "断桥残雪与白堤",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "免费",
+              "c": "free"
+            }
+          ],
+          "desc": "从断桥经白堤向孤山方向漫步，白堤免费、全线湖光树影，是西湖最经典的免费路段。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "1.5-2小时"
+            },
+            {
+              "label": "费用",
+              "value": "免费"
+            }
+          ],
+          "bestTime": "清晨/傍晚人少",
+          "photoSpot": "断桥、白堤湖面",
+          "reservation": "无需预约",
+          "localTip": "清晨拍空镜，人多时走边道",
+          "tips": "白堤免费已很出片",
+          "alternative": "沿湖滨码头方向走"
+        },
+        {
+          "time": "中午",
+          "category": "food",
+          "categoryLabel": "餐饮",
+          "title": "北里湖或湖滨简餐",
+          "badges": [
+            {
+              "t": "餐饮",
+              "c": "food"
+            }
+          ],
+          "desc": "孤山或湖滨一带简餐、面馆，人均 ¥25-50，边走边解决。",
+          "info": [
+            {
+              "label": "人均",
+              "value": "¥25-50"
+            },
+            {
+              "label": "建议",
+              "value": "简餐/面馆"
+            }
+          ],
+          "bestTime": "12:00前",
+          "photoSpot": "小馆门口",
+          "reservation": "无需预约",
+          "localTip": "错峰用餐省排队",
+          "tips": "正餐放午餐较划算",
+          "alternative": "便利店"
+        },
+        {
+          "time": "下午",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "苏堤漫步",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "免费",
+              "c": "free"
+            }
+          ],
+          "desc": "从北里湖方向沿苏堤向南，贯穿西湖南北的免费堤道，春有桃柳、晨有薄雾。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "1.5-2小时"
+            },
+            {
+              "label": "费用",
+              "value": "免费"
+            }
+          ],
+          "bestTime": "晨雾或午后",
+          "photoSpot": "苏堤、花港段湖面",
+          "reservation": "无需预约",
+          "localTip": "苏堤较长，可走半程折返",
+          "tips": "免费看西湖最经典一段",
+          "alternative": "雨天改商场或室内"
+        },
+        {
+          "time": "傍晚",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "雷峰塔夕照（登塔另购票）",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "可选付费",
+              "c": "paid"
+            }
+          ],
+          "desc": "2002 年重建的雷峰塔，傍晚夕照为盛景；可只在塔下南山路一带远观，登塔需另购门票（以官方为准）。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "1小时"
+            },
+            {
+              "label": "费用",
+              "value": "塔下免费 / 登塔约¥40-80（估算，以官方为准）"
+            }
+          ],
+          "bestTime": "日落前",
+          "photoSpot": "雷峰塔夕照、湖面倒影",
+          "reservation": "登塔建议先确认开放",
+          "localTip": "预算紧可在塔下南山路远观",
+          "tips": "夕照免费同样经典",
+          "alternative": "改湖滨夜景"
+        },
+        {
+          "time": "衔接",
+          "category": "transport",
+          "categoryLabel": "交通",
+          "title": "当日交通衔接",
+          "badges": [
+            {
+              "t": "交通",
+              "c": "transport"
+            }
+          ],
+          "desc": "断桥↔白堤↔苏堤↔雷峰塔以步行或结合公交串联，费用低。",
+          "info": [
+            {
+              "label": "交通方式",
+              "value": "步行 + 公交"
+            },
+            {
+              "label": "当日费用",
+              "value": "约¥5-15"
+            },
+            {
+              "label": "餐饮合计",
+              "value": "约¥60-110"
+            }
+          ],
+          "bestTime": "全天",
+          "photoSpot": "街景",
+          "reservation": "无需预约",
+          "localTip": "区域集中，步行最舒服",
+          "tips": "西湖环线多免费",
+          "alternative": "公交接驳末端"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "灵隐·龙井·九溪",
+      "title": "灵隐寺 · 龙井村 · 九溪烟树",
+      "sub": "飞峰石窟、龙井茶山与九溪溪径，公交接驳",
+      "tag": "文化必走",
+      "ticketLabel": "经济档",
+      "items": [
+        {
+          "time": "出发",
+          "category": "transport",
+          "categoryLabel": "交通",
+          "title": "前往灵隐",
+          "badges": [
+            {
+              "t": "交通",
+              "c": "transport"
+            }
+          ],
+          "desc": "灵隐无地铁直达，通常市区乘公交到灵隐站，末段步行或接驳进入；也可打车前往。",
+          "info": [
+            {
+              "label": "交通方式",
+              "value": "公交 + 步行"
+            },
+            {
+              "label": "耗时",
+              "value": "40-60分钟"
+            },
+            {
+              "label": "费用",
+              "value": "约¥3-10"
+            }
+          ],
+          "bestTime": "上午开门即入",
+          "photoSpot": "冷泉溪",
+          "reservation": "无需预约（门票现场/线上）",
+          "localTip": "早到避开团队客流",
+          "tips": "灵隐自驾停车有限，公交更省",
+          "alternative": "打车更省时"
+        },
+        {
+          "time": "早餐",
+          "category": "food",
+          "categoryLabel": "餐饮",
+          "title": "市区早餐",
+          "badges": [
+            {
+              "t": "餐饮",
+              "c": "food"
+            }
+          ],
+          "desc": "出发前就近早餐，人均 ¥10-20，快速解决。",
+          "info": [
+            {
+              "label": "人均",
+              "value": "¥10-20"
+            },
+            {
+              "label": "建议",
+              "value": "就近"
+            }
+          ],
+          "bestTime": "出发前",
+          "photoSpot": "街角",
+          "reservation": "无需预约",
+          "localTip": "自带水杯",
+          "tips": "早餐简单解决",
+          "alternative": "便利店"
+        },
+        {
+          "time": "上午",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "灵隐·飞来峰",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "付费",
+              "c": "paid"
+            }
+          ],
+          "desc": "先游飞来峰石刻造像与冷泉溪谷，再入灵隐寺礼佛；进入灵隐寺通常需先购飞来峰门票，再补灵隐寺香花券，具体以现场与官方渠道为准。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "2-3小时"
+            },
+            {
+              "label": "费用",
+              "value": "飞来峰约¥45-75、灵隐香花券约¥30（估算，以官方为准）"
+            }
+          ],
+          "bestTime": "上午",
+          "photoSpot": "飞来峰石刻、冷泉溪",
+          "reservation": "门票以官方渠道为准",
+          "localTip": "殿内禁拍照禁烟火，守寺规",
+          "tips": "飞峰约1小时、寺内约1小时",
+          "alternative": "寺下溪谷不深入"
+        },
+        {
+          "time": "中午",
+          "category": "food",
+          "categoryLabel": "餐饮",
+          "title": "灵隐周边简餐",
+          "badges": [
+            {
+              "t": "餐饮",
+              "c": "food"
+            }
+          ],
+          "desc": "灵隐景区门口或乘公交回市区吃简餐，人均 ¥25-50。",
+          "info": [
+            {
+              "label": "人均",
+              "value": "¥25-50"
+            },
+            {
+              "label": "建议",
+              "value": "简餐/面馆"
+            }
+          ],
+          "bestTime": "12:30前",
+          "photoSpot": "街角",
+          "reservation": "无需预约",
+          "localTip": "热门时段人多，错峰",
+          "tips": "正餐放午餐较划算",
+          "alternative": "自带干粮"
+        },
+        {
+          "time": "下午",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "龙井村·龙井茶园（周边免费徒步）",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "可选付费",
+              "c": "paid"
+            }
+          ],
+          "desc": "龙井村与龙井茶园位于西湖群山（狮峰、龙井一带），茶园徒步多为开放空间，可沿茶山步道漫步；购茶或有偿品茶按需，不作强制。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "1.5-2小时"
+            },
+            {
+              "label": "费用",
+              "value": "茶园徒步免费 / 品茶购茶另计（以商家为准）"
+            }
+          ],
+          "bestTime": "上午或午后光好",
+          "photoSpot": "龙井茶园、山径",
+          "reservation": "无需预约",
+          "localTip": "清明前后是龙井采茶季（春茶）",
+          "tips": "茶园步道多免费，出片率高",
+          "alternative": "时间紧可跳过"
+        },
+        {
+          "time": "傍晚",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "九溪烟树（可选）",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "免费",
+              "c": "free"
+            }
+          ],
+          "desc": "九溪烟树一带以溪径与山色著称，夏季凉爽、雨后烟云朦胧，多为开放免费路段，适合傍晚散步。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "1-1.5小时"
+            },
+            {
+              "label": "费用",
+              "value": "免费（个别区域以现场为准）"
+            }
+          ],
+          "bestTime": "雨后或傍晚",
+          "photoSpot": "九溪溪径、水杉",
+          "reservation": "无需预约",
+          "localTip": "溪径湿滑，穿防滑鞋",
+          "tips": "雨天更有烟云韵味",
+          "alternative": "改回市区"
+        },
+        {
+          "time": "衔接",
+          "category": "transport",
+          "categoryLabel": "交通",
+          "title": "当日交通衔接",
+          "badges": [
+            {
+              "t": "交通",
+              "c": "transport"
+            }
+          ],
+          "desc": "灵隐↔龙井↔九溪多在山间，公交接驳或分段打车，费用可控。",
+          "info": [
+            {
+              "label": "交通方式",
+              "value": "公交 + 步行"
+            },
+            {
+              "label": "当日费用",
+              "value": "约¥15-40"
+            },
+            {
+              "label": "餐饮合计",
+              "value": "约¥60-110"
+            }
+          ],
+          "bestTime": "避开高峰",
+          "photoSpot": "山间公路",
+          "reservation": "无需预约",
+          "localTip": "山间公交班次留意时间",
+          "tips": "三个点同片区，动线顺",
+          "alternative": "打车分段"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "西溪或运河",
+      "title": "西溪湿地 或 拱宸桥运河",
+      "sub": "城市湿地慢游 或 运河历史街区，二选一",
+      "tag": "收尾可选",
+      "ticketLabel": "经济档",
+      "items": [
+        {
+          "time": "出发",
+          "category": "transport",
+          "categoryLabel": "交通",
+          "title": "选择今日方向",
+          "badges": [
+            {
+              "t": "交通",
+              "c": "transport"
+            }
+          ],
+          "desc": "根据天气与体力二选一：西溪湿地（西郊，有地铁可到部分入口）或拱宸桥运河（城北，地铁可达桥西一带）。",
+          "info": [
+            {
+              "label": "交通方式",
+              "value": "地铁 + 公交"
+            },
+            {
+              "label": "耗时",
+              "value": "30-50分钟"
+            },
+            {
+              "label": "费用",
+              "value": "约¥3-8"
+            }
+          ],
+          "bestTime": "上午",
+          "photoSpot": "地铁站内",
+          "reservation": "无需预约",
+          "localTip": "西溪与运河不同片区，选一处即可",
+          "tips": "两处都值得，按兴趣选",
+          "alternative": "改市区轻松游"
+        },
+        {
+          "time": "早餐",
+          "category": "food",
+          "categoryLabel": "餐饮",
+          "title": "商圈早餐",
+          "badges": [
+            {
+              "t": "餐饮",
+              "c": "food"
+            }
+          ],
+          "desc": "就近商圈早餐，人均 ¥10-20。",
+          "info": [
+            {
+              "label": "人均",
+              "value": "¥10-20"
+            },
+            {
+              "label": "建议",
+              "value": "就近"
+            }
+          ],
+          "bestTime": "出发前",
+          "photoSpot": "街角",
+          "reservation": "无需预约",
+          "localTip": "自带水杯",
+          "tips": "早餐简单解决",
+          "alternative": "便利店"
+        },
+        {
+          "time": "上午",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "西溪湿地（入园另购票）",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "可选付费",
+              "c": "paid"
+            }
+          ],
+          "desc": "西溪国家湿地公园主要园区需购票进入（估算，以官方为准），摇橹船按船另计；若预算紧可改走桥西运河区块。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "半天"
+            },
+            {
+              "label": "费用",
+              "value": "园区门票约¥80（估算，以官方为准）；摇橹船另计"
+            }
+          ],
+          "bestTime": "上午光线平、人少",
+          "photoSpot": "芦苇、水道",
+          "reservation": "门票以官方渠道为准",
+          "localTip": "先定入口与船线再购票",
+          "tips": "预算紧可改运河免费街区",
+          "alternative": "改桥西运河历史街区"
+        },
+        {
+          "time": "中午",
+          "category": "food",
+          "categoryLabel": "餐饮",
+          "title": "运河桥西或西溪周边午餐",
+          "badges": [
+            {
+              "t": "餐饮",
+              "c": "food"
+            }
+          ],
+          "desc": "桥西历史街区或西溪周边简餐，人均 ¥25-50。",
+          "info": [
+            {
+              "label": "人均",
+              "value": "¥25-50"
+            },
+            {
+              "label": "建议",
+              "value": "简餐/面馆"
+            }
+          ],
+          "bestTime": "12:30前",
+          "photoSpot": "街区街角",
+          "reservation": "无需预约",
+          "localTip": "桥西街区餐饮选择多",
+          "tips": "正餐放午餐较划算",
+          "alternative": "便利店"
+        },
+        {
+          "time": "下午",
+          "category": "scenic",
+          "categoryLabel": "景点",
+          "title": "拱宸桥·桥西历史街区（免费）",
+          "badges": [
+            {
+              "t": "景点",
+              "c": "scenic"
+            },
+            {
+              "t": "免费",
+              "c": "free"
+            }
+          ],
+          "desc": "杭州是京杭大运河南端，拱宸桥与桥西历史街区为运河畔的历史街区，运河沿线有博物馆群，多数免费开放（个别展馆以现场为准）。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "2小时"
+            },
+            {
+              "label": "费用",
+              "value": "街区免费（个别展馆以现场为准）"
+            }
+          ],
+          "bestTime": "下午",
+          "photoSpot": "拱宸桥、运河河面、老街",
+          "reservation": "无需预约",
+          "localTip": "桥西一带为世界遗产运河街区",
+          "tips": "散步免费，感受运河历史",
+          "alternative": "改西湖环线余韵"
+        },
+        {
+          "time": "傍晚",
+          "category": "experience",
+          "categoryLabel": "体验",
+          "title": "运河沿岸或湖滨夜景收尾",
+          "badges": [
+            {
+              "t": "体验",
+              "c": "experience"
+            },
+            {
+              "t": "免费",
+              "c": "free"
+            }
+          ],
+          "desc": "傍晚沿运河或回湖滨看夜景灯光，全程免费，轻松收尾。",
+          "info": [
+            {
+              "label": "建议时长",
+              "value": "1小时"
+            },
+            {
+              "label": "费用",
+              "value": "免费"
+            }
+          ],
+          "bestTime": "日落后",
+          "photoSpot": "运河灯影 / 湖滨夜景",
+          "reservation": "无需预约",
+          "localTip": "19点后灯光更全",
+          "tips": "免费夜景收尾最划算",
+          "alternative": "直接回住处"
+        },
+        {
+          "time": "衔接",
+          "category": "transport",
+          "categoryLabel": "交通",
+          "title": "返程交通衔接",
+          "badges": [
+            {
+              "t": "交通",
+              "c": "transport"
+            }
+          ],
+          "desc": "市区↔杭州东站/城站乘地铁，预留充足时间办理返程。",
+          "info": [
+            {
+              "label": "交通方式",
+              "value": "地铁"
+            },
+            {
+              "label": "当日费用",
+              "value": "约¥8-20"
+            },
+            {
+              "label": "餐饮合计",
+              "value": "约¥60-110"
+            }
+          ],
+          "bestTime": "避开高峰",
+          "photoSpot": "车站",
+          "reservation": "无需预约",
+          "localTip": "预留充足返程时间",
+          "tips": "地铁直达车站",
+          "alternative": "打车"
+        }
+      ]
+    }
+  ],
   "suitableFor": "首次访杭、希望控制预算又想覆盖西湖、灵隐与龙井茶山核心体验的自由行旅客",
   "seasonNote": "春秋（3-5月、9-11月）气候最佳；春季龙井春茶与桂花香浓、秋日满陇桂雨与梧桐街景美；夏季梅雨湿热、午后雷阵雨宜备雨具并可改晚游；冬季湿冷但游客少、节奏慢。",
   "travelTone": "第一次杭州自由行",
   "cover": {
     "tag": "ECONOMY EDITION",
-    "title": ["杭州三日", "经济版路书"],
+    "title": [
+      "杭州三日",
+      "经济版路书"
+    ],
     "subtitle": "省钱不省精彩 · 平价也出深度",
     "tone": "🧭 适合：第一次杭州自由行",
     "info": [
-      { "num": "3", "label": "DAYS" },
-      { "num": "8+", "label": "FREE SPOTS" },
-      { "num": "经济档", "label": "TICKETS" },
-      { "num": "公交地铁为主", "label": "TRANSIT" }
+      {
+        "num": "3",
+        "label": "DAYS"
+      },
+      {
+        "num": "8+",
+        "label": "FREE SPOTS"
+      },
+      {
+        "num": "经济档",
+        "label": "TICKETS"
+      },
+      {
+        "num": "公交地铁为主",
+        "label": "TRANSIT"
+      }
     ],
     "badge": "不含往返 · 公交地铁出行 · 平价住宿",
     "bottom": "适合首次访杭、希望控制预算又不愿错过西湖、灵隐与龙井茶山的自由行旅客。",
@@ -37,156 +751,519 @@
   "designPhilosophy": {
     "desc": "为什么这样规划？下面五条原则，决定了每天去哪里、怎么走、钱花在哪里——用更聪明的方式，把杭州玩透又不超预算。",
     "items": [
-      { "icon": "💴", "label": "预算控制", "value": "免费西湖环线与下满廓夜色打底，付费只留给灵隐与雷峰塔" },
-      { "icon": "🧭", "label": "动线优化", "value": "同一片区集中排布，减少跨区往返" },
-      { "icon": "🌿", "label": "免费体验优先", "value": "西湖环线、白堤苏堤、断桥、龙井茶园周边零门票" },
-      { "icon": "🚌", "label": "交通效率", "value": "公交地铁 + 步行，省车费也省时间" },
-      { "icon": "🍵", "label": "深度体验", "value": "西湖、灵隐、龙井三处城市名片一次到齐，节奏松紧有度" }
+      {
+        "icon": "💴",
+        "label": "预算控制",
+        "value": "免费西湖环线与下满廓夜色打底，付费只留给灵隐与雷峰塔"
+      },
+      {
+        "icon": "🧭",
+        "label": "动线优化",
+        "value": "同一片区集中排布，减少跨区往返"
+      },
+      {
+        "icon": "🌿",
+        "label": "免费体验优先",
+        "value": "西湖环线、白堤苏堤、断桥、龙井茶园周边零门票"
+      },
+      {
+        "icon": "🚌",
+        "label": "交通效率",
+        "value": "公交地铁 + 步行，省车费也省时间"
+      },
+      {
+        "icon": "🍵",
+        "label": "深度体验",
+        "value": "西湖、灵隐、龙井三处城市名片一次到齐，节奏松紧有度"
+      }
     ]
   },
   "overview": [
-    { "day": 1, "theme": "西湖环线", "title": "断桥 · 白堤 · 苏堤 · 雷峰塔", "spots": ["断桥残雪", "白堤", "苏堤", "雷峰塔"], "ticketLabel": "经济档" },
-    { "day": 2, "theme": "灵隐·龙井·九溪", "title": "灵隐寺 · 龙井村 · 九溪烟树", "spots": ["灵隐·飞来峰", "龙井村", "九溪"], "ticketLabel": "经济档" },
-    { "day": 3, "theme": "西溪或运河", "title": "西溪湿地 或 拱宸桥运河", "spots": ["西溪湿地", "拱宸桥", "桥西历史街区"], "ticketLabel": "经济档" }
+    {
+      "day": 1,
+      "theme": "西湖环线",
+      "title": "断桥 · 白堤 · 苏堤 · 雷峰塔",
+      "spots": [
+        "断桥残雪",
+        "白堤",
+        "苏堤",
+        "雷峰塔"
+      ],
+      "ticketLabel": "经济档"
+    },
+    {
+      "day": 2,
+      "theme": "灵隐·龙井·九溪",
+      "title": "灵隐寺 · 龙井村 · 九溪烟树",
+      "spots": [
+        "灵隐·飞来峰",
+        "龙井村",
+        "九溪"
+      ],
+      "ticketLabel": "经济档"
+    },
+    {
+      "day": 3,
+      "theme": "西溪或运河",
+      "title": "西溪湿地 或 拱宸桥运河",
+      "spots": [
+        "西溪湿地",
+        "拱宸桥",
+        "桥西历史街区"
+      ],
+      "ticketLabel": "经济档"
+    }
   ],
   "ticketTiers": [
-    { "name": "极致省钱版", "level": "economy", "desc": "免费西湖环线与街区漫步为主，几乎零门票。", "items": ["西湖环线免费", "断桥/白堤/苏堤免费", "灵隐与雷峰塔门票另算", "西溪或运河街区免费逛"], "note": "核心体验不打折，钱包最轻松" },
-    { "name": "平衡舒适版", "level": "comfort", "desc": "含灵隐·飞来峰与雷峰塔门票，体验更完整。", "items": ["灵隐·飞来峰门票（估算）", "雷峰塔登塔（估算）", "每日1顿正餐", "公交地铁出行"], "note": "体验与成本最平衡" },
-    { "name": "宽松体验版", "level": "full", "desc": "多付费体验 + 杭帮菜正餐，体验优先。", "items": ["西湖游船（可选）", "西溪摇橹船（可选）", "杭帮菜餐厅正餐", "品质酒店"], "note": "预算充足时最尽兴" }
+    {
+      "name": "极致省钱版",
+      "level": "economy",
+      "desc": "免费西湖环线与街区漫步为主，几乎零门票。",
+      "items": [
+        "西湖环线免费",
+        "断桥/白堤/苏堤免费",
+        "灵隐与雷峰塔门票另算",
+        "西溪或运河街区免费逛"
+      ],
+      "note": "核心体验不打折，钱包最轻松"
+    },
+    {
+      "name": "平衡舒适版",
+      "level": "comfort",
+      "desc": "含灵隐·飞来峰与雷峰塔门票，体验更完整。",
+      "items": [
+        "灵隐·飞来峰门票（估算）",
+        "雷峰塔登塔（估算）",
+        "每日1顿正餐",
+        "公交地铁出行"
+      ],
+      "note": "体验与成本最平衡"
+    },
+    {
+      "name": "宽松体验版",
+      "level": "full",
+      "desc": "多付费体验 + 杭帮菜正餐，体验优先。",
+      "items": [
+        "西湖游船（可选）",
+        "西溪摇橹船（可选）",
+        "杭帮菜餐厅正餐",
+        "品质酒店"
+      ],
+      "note": "预算充足时最尽兴"
+    }
   ],
   "accommodation": {
     "note": "建议整段行程连住不换，优先选近地铁或近湖滨的区域（如湖滨/龙翔桥、或近公交枢纽处），减少搬运行李与通勤时间。",
     "rows": [
-      { "type": "青年旅舍/经济酒店", "area": "湖滨 / 延安路周边", "priceLevel": "约 ¥120-260/晚（估算）", "advantage": "近西湖 · 近地铁公交 · 平价选择多" },
-      { "type": "中档酒店/民宿", "area": "湖滨 / 吴山广场周边", "priceLevel": "约 ¥260-500/晚（估算）", "advantage": "近湖滨商圈 · 可自炊 · 离西湖不远" },
-      { "type": "品质酒店", "area": "湖滨 / 西湖周边", "priceLevel": "约 ¥500-900/晚（估算）", "advantage": "核心湖景商圈 · 步行可达景点 · 干净高效" }
+      {
+        "type": "青年旅舍/经济酒店",
+        "area": "湖滨 / 延安路周边",
+        "priceLevel": "约 ¥120-260/晚（估算）",
+        "advantage": "近西湖 · 近地铁公交 · 平价选择多"
+      },
+      {
+        "type": "中档酒店/民宿",
+        "area": "湖滨 / 吴山广场周边",
+        "priceLevel": "约 ¥260-500/晚（估算）",
+        "advantage": "近湖滨商圈 · 可自炊 · 离西湖不远"
+      },
+      {
+        "type": "品质酒店",
+        "area": "湖滨 / 西湖周边",
+        "priceLevel": "约 ¥500-900/晚（估算）",
+        "advantage": "核心湖景商圈 · 步行可达景点 · 干净高效"
+      }
     ]
   },
-  "days": [
-    {
-      "day": 1, "theme": "西湖环线", "title": "断桥 · 白堤 · 苏堤 · 雷峰塔", "sub": "从断桥到雷峰塔，一条免费环线看尽西湖", "tag": "必去高性价比", "ticketLabel": "经济档",
-      "items": [
-        { "time": "抵达", "category": "transport", "categoryLabel": "交通", "title": "抵达杭州与入住", "badges": [{ "t": "交通", "c": "transport" }], "desc": "杭州东站/城站乘地铁 1 号线到龙翔桥站一带，放下行李轻装出发。往返大交通不含。", "info": [{ "label": "交通方式", "value": "地铁1号线" }, { "label": "耗时", "value": "30-50分钟" }, { "label": "费用", "value": "约¥3-7" }], "bestTime": "白天抵达可留出半天游玩", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "先绑定地铁/公交乘车码", "tips": "往返大交通不含，预算自行控制", "alternative": "夜间抵达则直接入住" },
-        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "湖滨早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "湖滨或延安路一带包子、面点早餐，人均 ¥10-20，快速解决。", "info": [{ "label": "人均", "value": "¥10-20" }, { "label": "建议", "value": "就近连锁" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "早餐便宜管饱", "tips": "早餐简单解决", "alternative": "便利店早餐" },
-        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "断桥残雪与白堤", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "从断桥经白堤向孤山方向漫步，白堤免费、全线湖光树影，是西湖最经典的免费路段。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "清晨/傍晚人少", "photoSpot": "断桥、白堤湖面", "reservation": "无需预约", "localTip": "清晨拍空镜，人多时走边道", "tips": "白堤免费已很出片", "alternative": "沿湖滨码头方向走" },
-        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "北里湖或湖滨简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "孤山或湖滨一带简餐、面馆，人均 ¥25-50，边走边解决。", "info": [{ "label": "人均", "value": "¥25-50" }, { "label": "建议", "value": "简餐/面馆" }], "bestTime": "12:00前", "photoSpot": "小馆门口", "reservation": "无需预约", "localTip": "错峰用餐省排队", "tips": "正餐放午餐较划算", "alternative": "便利店" },
-        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "苏堤漫步", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "从北里湖方向沿苏堤向南，贯穿西湖南北的免费堤道，春有桃柳、晨有薄雾。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "晨雾或午后", "photoSpot": "苏堤、花港段湖面", "reservation": "无需预约", "localTip": "苏堤较长，可走半程折返", "tips": "免费看西湖最经典一段", "alternative": "雨天改商场或室内" },
-        { "time": "傍晚", "category": "scenic", "categoryLabel": "景点", "title": "雷峰塔夕照（登塔另购票）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "2002 年重建的雷峰塔，傍晚夕照为盛景；可只在塔下南山路一带远观，登塔需另购门票（以官方为准）。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "塔下免费 / 登塔约¥40-80（估算，以官方为准）" }], "bestTime": "日落前", "photoSpot": "雷峰塔夕照、湖面倒影", "reservation": "登塔建议先确认开放", "localTip": "预算紧可在塔下南山路远观", "tips": "夕照免费同样经典", "alternative": "改湖滨夜景" },
-        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "断桥↔白堤↔苏堤↔雷峰塔以步行或结合公交串联，费用低。", "info": [{ "label": "交通方式", "value": "步行 + 公交" }, { "label": "当日费用", "value": "约¥5-15" }, { "label": "餐饮合计", "value": "约¥60-110" }], "bestTime": "全天", "photoSpot": "街景", "reservation": "无需预约", "localTip": "区域集中，步行最舒服", "tips": "西湖环线多免费", "alternative": "公交接驳末端" }
-      ]
-    },
-    {
-      "day": 2, "theme": "灵隐·龙井·九溪", "title": "灵隐寺 · 龙井村 · 九溪烟树", "sub": "飞峰石窟、龙井茶山与九溪溪径，公交接驳", "tag": "文化必走", "ticketLabel": "经济档",
-      "items": [
-        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "前往灵隐", "badges": [{ "t": "交通", "c": "transport" }], "desc": "灵隐无地铁直达，通常市区乘公交到灵隐站，末段步行或接驳进入；也可打车前往。", "info": [{ "label": "交通方式", "value": "公交 + 步行" }, { "label": "耗时", "value": "40-60分钟" }, { "label": "费用", "value": "约¥3-10" }], "bestTime": "上午开门即入", "photoSpot": "冷泉溪", "reservation": "无需预约（门票现场/线上）", "localTip": "早到避开团队客流", "tips": "灵隐自驾停车有限，公交更省", "alternative": "打车更省时" },
-        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "市区早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "出发前就近早餐，人均 ¥10-20，快速解决。", "info": [{ "label": "人均", "value": "¥10-20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "早餐简单解决", "alternative": "便利店" },
-        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "灵隐·飞来峰", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "付费", "c": "paid" }], "desc": "先游飞来峰石刻造像与冷泉溪谷，再入灵隐寺礼佛；进入灵隐寺通常需先购飞来峰门票，再补灵隐寺香花券，具体以现场与官方渠道为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "飞来峰约¥45-75、灵隐香花券约¥30（估算，以官方为准）" }], "bestTime": "上午", "photoSpot": "飞来峰石刻、冷泉溪", "reservation": "门票以官方渠道为准", "localTip": "殿内禁拍照禁烟火，守寺规", "tips": "飞峰约1小时、寺内约1小时", "alternative": "寺下溪谷不深入" },
-        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "灵隐周边简餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "灵隐景区门口或乘公交回市区吃简餐，人均 ¥25-50。", "info": [{ "label": "人均", "value": "¥25-50" }, { "label": "建议", "value": "简餐/面馆" }], "bestTime": "12:30前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "热门时段人多，错峰", "tips": "正餐放午餐较划算", "alternative": "自带干粮" },
-        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "龙井村·龙井茶园（周边免费徒步）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "龙井村与龙井茶园位于西湖群山（狮峰、龙井一带），茶园徒步多为开放空间，可沿茶山步道漫步；购茶或有偿品茶按需，不作强制。", "info": [{ "label": "建议时长", "value": "1.5-2小时" }, { "label": "费用", "value": "茶园徒步免费 / 品茶购茶另计（以商家为准）" }], "bestTime": "上午或午后光好", "photoSpot": "龙井茶园、山径", "reservation": "无需预约", "localTip": "清明前后是龙井采茶季（春茶）", "tips": "茶园步道多免费，出片率高", "alternative": "时间紧可跳过" },
-        { "time": "傍晚", "category": "scenic", "categoryLabel": "景点", "title": "九溪烟树（可选）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "九溪烟树一带以溪径与山色著称，夏季凉爽、雨后烟云朦胧，多为开放免费路段，适合傍晚散步。", "info": [{ "label": "建议时长", "value": "1-1.5小时" }, { "label": "费用", "value": "免费（个别区域以现场为准）" }], "bestTime": "雨后或傍晚", "photoSpot": "九溪溪径、水杉", "reservation": "无需预约", "localTip": "溪径湿滑，穿防滑鞋", "tips": "雨天更有烟云韵味", "alternative": "改回市区" },
-        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "当日交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "灵隐↔龙井↔九溪多在山间，公交接驳或分段打车，费用可控。", "info": [{ "label": "交通方式", "value": "公交 + 步行" }, { "label": "当日费用", "value": "约¥15-40" }, { "label": "餐饮合计", "value": "约¥60-110" }], "bestTime": "避开高峰", "photoSpot": "山间公路", "reservation": "无需预约", "localTip": "山间公交班次留意时间", "tips": "三个点同片区，动线顺", "alternative": "打车分段" }
-      ]
-    },
-    {
-      "day": 3, "theme": "西溪或运河", "title": "西溪湿地 或 拱宸桥运河", "sub": "城市湿地慢游 或 运河历史街区，二选一", "tag": "收尾可选", "ticketLabel": "经济档",
-      "items": [
-        { "time": "出发", "category": "transport", "categoryLabel": "交通", "title": "选择今日方向", "badges": [{ "t": "交通", "c": "transport" }], "desc": "根据天气与体力二选一：西溪湿地（西郊，有地铁可到部分入口）或拱宸桥运河（城北，地铁可达桥西一带）。", "info": [{ "label": "交通方式", "value": "地铁 + 公交" }, { "label": "耗时", "value": "30-50分钟" }, { "label": "费用", "value": "约¥3-8" }], "bestTime": "上午", "photoSpot": "地铁站内", "reservation": "无需预约", "localTip": "西溪与运河不同片区，选一处即可", "tips": "两处都值得，按兴趣选", "alternative": "改市区轻松游" },
-        { "time": "早餐", "category": "food", "categoryLabel": "餐饮", "title": "商圈早餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "就近商圈早餐，人均 ¥10-20。", "info": [{ "label": "人均", "value": "¥10-20" }, { "label": "建议", "value": "就近" }], "bestTime": "出发前", "photoSpot": "街角", "reservation": "无需预约", "localTip": "自带水杯", "tips": "早餐简单解决", "alternative": "便利店" },
-        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "西溪湿地（入园另购票）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "可选付费", "c": "paid" }], "desc": "西溪国家湿地公园主要园区需购票进入（估算，以官方为准），摇橹船按船另计；若预算紧可改走桥西运河区块。", "info": [{ "label": "建议时长", "value": "半天" }, { "label": "费用", "value": "园区门票约¥80（估算，以官方为准）；摇橹船另计" }], "bestTime": "上午光线平、人少", "photoSpot": "芦苇、水道", "reservation": "门票以官方渠道为准", "localTip": "先定入口与船线再购票", "tips": "预算紧可改运河免费街区", "alternative": "改桥西运河历史街区" },
-        { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "运河桥西或西溪周边午餐", "badges": [{ "t": "餐饮", "c": "food" }], "desc": "桥西历史街区或西溪周边简餐，人均 ¥25-50。", "info": [{ "label": "人均", "value": "¥25-50" }, { "label": "建议", "value": "简餐/面馆" }], "bestTime": "12:30前", "photoSpot": "街区街角", "reservation": "无需预约", "localTip": "桥西街区餐饮选择多", "tips": "正餐放午餐较划算", "alternative": "便利店" },
-        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "拱宸桥·桥西历史街区（免费）", "badges": [{ "t": "景点", "c": "scenic" }, { "t": "免费", "c": "free" }], "desc": "杭州是京杭大运河南端，拱宸桥与桥西历史街区为运河畔的历史街区，运河沿线有博物馆群，多数免费开放（个别展馆以现场为准）。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "街区免费（个别展馆以现场为准）" }], "bestTime": "下午", "photoSpot": "拱宸桥、运河河面、老街", "reservation": "无需预约", "localTip": "桥西一带为世界遗产运河街区", "tips": "散步免费，感受运河历史", "alternative": "改西湖环线余韵" },
-        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "运河沿岸或湖滨夜景收尾", "badges": [{ "t": "体验", "c": "experience" }, { "t": "免费", "c": "free" }], "desc": "傍晚沿运河或回湖滨看夜景灯光，全程免费，轻松收尾。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "免费" }], "bestTime": "日落后", "photoSpot": "运河灯影 / 湖滨夜景", "reservation": "无需预约", "localTip": "19点后灯光更全", "tips": "免费夜景收尾最划算", "alternative": "直接回住处" },
-        { "time": "衔接", "category": "transport", "categoryLabel": "交通", "title": "返程交通衔接", "badges": [{ "t": "交通", "c": "transport" }], "desc": "市区↔杭州东站/城站乘地铁，预留充足时间办理返程。", "info": [{ "label": "交通方式", "value": "地铁" }, { "label": "当日费用", "value": "约¥8-20" }, { "label": "餐饮合计", "value": "约¥60-110" }], "bestTime": "避开高峰", "photoSpot": "车站", "reservation": "无需预约", "localTip": "预留充足返程时间", "tips": "地铁直达车站", "alternative": "打车" }
-      ]
-    }
-  ],
   "budgetTiers": [
     {
-      "level": "economy", "label": "极致省钱版",
-      "estimate": { "low": 900, "high": 1800, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费西湖环线 + 简餐" },
-      "composition": { "门票": "西湖免费打底，灵隐/雷峰塔可选", "交通": "公交地铁 + 步行", "餐饮": "早餐 + 简餐", "住宿": "青旅 / 平价酒店" },
+      "level": "economy",
+      "label": "极致省钱版",
+      "estimate": {
+        "low": 900,
+        "high": 1800,
+        "currency": "¥",
+        "note": "估算 / 参考 · 单人不含往返 · 平价住宿 + 免费西湖环线 + 简餐"
+      },
+      "composition": {
+        "门票": "西湖免费打底，灵隐/雷峰塔可选",
+        "交通": "公交地铁 + 步行",
+        "餐饮": "早餐 + 简餐",
+        "住宿": "青旅 / 平价酒店"
+      },
       "factors": "受①季节淡旺 ②节假日 ③同行人数 ④住宿区位 ⑤提前预订影响"
     },
     {
-      "level": "comfort", "label": "平衡舒适版",
-      "estimate": { "low": 1800, "high": 3200, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 含灵隐 + 雷峰塔 + 每日1正餐" },
-      "composition": { "门票": "灵隐/雷峰塔等1-2付费", "交通": "公交地铁 + 偶尔打车", "餐饮": "+每日1正餐", "住宿": "中档酒店" },
+      "level": "comfort",
+      "label": "平衡舒适版",
+      "estimate": {
+        "low": 1800,
+        "high": 3200,
+        "currency": "¥",
+        "note": "估算 / 参考 · 单人不含往返 · 含灵隐 + 雷峰塔 + 每日1正餐"
+      },
+      "composition": {
+        "门票": "灵隐/雷峰塔等1-2付费",
+        "交通": "公交地铁 + 偶尔打车",
+        "餐饮": "+每日1正餐",
+        "住宿": "中档酒店"
+      },
       "factors": "受①季节淡旺 ②节假日 ③同行人数 ④住宿区位 ⑤提前预订影响"
     },
     {
-      "level": "full", "label": "宽松体验版",
-      "estimate": { "low": 3200, "high": 5600, "currency": "¥", "note": "估算 / 参考 · 单人不含往返 · 多付费体验 + 杭帮菜正餐 + 品质住宿" },
-      "composition": { "门票": "多付费（游船/摇橹船等）", "交通": "自由", "餐饮": "+杭帮菜正餐", "住宿": "品质酒店" },
+      "level": "full",
+      "label": "宽松体验版",
+      "estimate": {
+        "low": 3200,
+        "high": 5600,
+        "currency": "¥",
+        "note": "估算 / 参考 · 单人不含往返 · 多付费体验 + 杭帮菜正餐 + 品质住宿"
+      },
+      "composition": {
+        "门票": "多付费（游船/摇橹船等）",
+        "交通": "自由",
+        "餐饮": "+杭帮菜正餐",
+        "住宿": "品质酒店"
+      },
       "factors": "受①季节淡旺 ②节假日 ③同行人数 ④住宿区位 ⑤提前预订影响"
     }
   ],
   "budgetTable": {
-    "versionLabels": { "economy": "极致省钱版", "comfort": "平衡舒适版", "flexible": "宽松体验版" },
+    "versionLabels": {
+      "economy": "极致省钱版",
+      "comfort": "平衡舒适版",
+      "flexible": "宽松体验版"
+    },
     "rows": [
-      { "cat": "🏨 住宿（3晚）", "economy": { "low": 400, "high": 800, "note": "青旅/平价·3晚估算" }, "comfort": { "low": 800, "high": 1500, "note": "中档酒店·3晚估算" }, "flexible": { "low": 1500, "high": 2700, "note": "品质酒店·3晚估算" } },
-      { "cat": "🍽 餐饮（3天）", "economy": { "low": 200, "high": 350, "note": "早餐+简餐" }, "comfort": { "low": 400, "high": 750, "note": "+每日1正餐" }, "flexible": { "low": 700, "high": 1200, "note": "+杭帮菜餐厅" } },
-      { "cat": "🚇 交通（3天）", "economy": { "low": 30, "high": 60, "note": "公交地铁+步行" }, "comfort": { "low": 60, "high": 140, "note": "公交地铁+偶尔打车" }, "flexible": { "low": 140, "high": 350, "note": "自由出行" } },
-      { "cat": "🎫 门票", "economy": { "low": 0, "high": 90, "note": "西湖免费，灵隐/雷峰塔可选" }, "comfort": { "low": 90, "high": 260, "note": "灵隐+雷峰塔" }, "flexible": { "low": 260, "high": 600, "note": "多付费+游船/摇橹船" } },
-      { "cat": "🛍 购物备用", "economy": { "low": 80, "high": 200, "note": "龙井手信弹性" }, "comfort": { "low": 200, "high": 500, "note": "手信+伴手礼" }, "flexible": { "low": 500, "high": 1200, "note": "充裕购物" } }
+      {
+        "cat": "🏨 住宿（3晚）",
+        "economy": {
+          "low": 400,
+          "high": 800,
+          "note": "青旅/平价·3晚估算"
+        },
+        "comfort": {
+          "low": 800,
+          "high": 1500,
+          "note": "中档酒店·3晚估算"
+        },
+        "flexible": {
+          "low": 1500,
+          "high": 2700,
+          "note": "品质酒店·3晚估算"
+        }
+      },
+      {
+        "cat": "🍽 餐饮（3天）",
+        "economy": {
+          "low": 200,
+          "high": 350,
+          "note": "早餐+简餐"
+        },
+        "comfort": {
+          "low": 400,
+          "high": 750,
+          "note": "+每日1正餐"
+        },
+        "flexible": {
+          "low": 700,
+          "high": 1200,
+          "note": "+杭帮菜餐厅"
+        }
+      },
+      {
+        "cat": "🚇 交通（3天）",
+        "economy": {
+          "low": 30,
+          "high": 60,
+          "note": "公交地铁+步行"
+        },
+        "comfort": {
+          "low": 60,
+          "high": 140,
+          "note": "公交地铁+偶尔打车"
+        },
+        "flexible": {
+          "low": 140,
+          "high": 350,
+          "note": "自由出行"
+        }
+      },
+      {
+        "cat": "🎫 门票",
+        "economy": {
+          "low": 0,
+          "high": 90,
+          "note": "西湖免费，灵隐/雷峰塔可选"
+        },
+        "comfort": {
+          "low": 90,
+          "high": 260,
+          "note": "灵隐+雷峰塔"
+        },
+        "flexible": {
+          "low": 260,
+          "high": 600,
+          "note": "多付费+游船/摇橹船"
+        }
+      },
+      {
+        "cat": "🛍 购物备用",
+        "economy": {
+          "low": 80,
+          "high": 200,
+          "note": "龙井手信弹性"
+        },
+        "comfort": {
+          "low": 200,
+          "high": 500,
+          "note": "手信+伴手礼"
+        },
+        "flexible": {
+          "low": 500,
+          "high": 1200,
+          "note": "充裕购物"
+        }
+      }
     ],
     "totals": {
-      "economy": { "low": 710, "high": 1500, "note": "不含往返大交通·估算区间" },
-      "comfort": { "low": 1550, "high": 3150, "note": "不含往返大交通·估算区间" },
-      "flexible": { "low": 3100, "high": 6050, "note": "不含往返大交通·估算区间" }
+      "economy": {
+        "low": 710,
+        "high": 1500,
+        "note": "不含往返大交通·估算区间"
+      },
+      "comfort": {
+        "low": 1550,
+        "high": 3150,
+        "note": "不含往返大交通·估算区间"
+      },
+      "flexible": {
+        "low": 3100,
+        "high": 6050,
+        "note": "不含往返大交通·估算区间"
+      }
     }
   },
   "dailySummary": [
-    { "day": "Day1", "route": "车站 → 断桥 → 白堤 → 苏堤 → 雷峰塔", "transport": "地铁 + 步行", "estimatedTime": "约30-50分钟", "costRange": "约¥5-15/人", "foodRange": "约¥60-110/人" },
-    { "day": "Day2", "route": "市区 → 灵隐 → 龙井村 → 九溪", "transport": "公交 + 步行", "estimatedTime": "约40-60分钟", "costRange": "约¥15-40/人", "foodRange": "约¥60-110/人" },
-    { "day": "Day3", "route": "市区 → 西溪 或 拱宸桥运河 → 返程", "transport": "地铁 + 公交", "estimatedTime": "约30-50分钟", "costRange": "约¥8-20/人", "foodRange": "约¥60-110/人" }
+    {
+      "day": "Day1",
+      "route": "车站 → 断桥 → 白堤 → 苏堤 → 雷峰塔",
+      "transport": "地铁 + 步行",
+      "estimatedTime": "约30-50分钟",
+      "costRange": "约¥5-15/人",
+      "foodRange": "约¥60-110/人"
+    },
+    {
+      "day": "Day2",
+      "route": "市区 → 灵隐 → 龙井村 → 九溪",
+      "transport": "公交 + 步行",
+      "estimatedTime": "约40-60分钟",
+      "costRange": "约¥15-40/人",
+      "foodRange": "约¥60-110/人"
+    },
+    {
+      "day": "Day3",
+      "route": "市区 → 西溪 或 拱宸桥运河 → 返程",
+      "transport": "地铁 + 公交",
+      "estimatedTime": "约30-50分钟",
+      "costRange": "约¥8-20/人",
+      "foodRange": "约¥60-110/人"
+    }
   ],
   "alternatives": [
-    { "title": "🌧 雨天方案", "original": "户外西湖环线与茶山徒步", "alternative": "室内文化：浙江省博物馆（不同馆区）、西湖博物馆、运河博物馆群与各大商场，雨天也能逛得充实", "reason": "室内场馆避雨且文化密度高，保持行程节奏" },
-    { "title": "🆓 免费替代方案", "original": "付费灵隐/雷峰塔登塔", "alternative": "免费环湖：断桥、白堤、苏堤、南山路、湖边夜景与龙井茶园徒步", "reason": "不花钱也能看西湖与茶山，省下预算留作餐饮" },
-    { "title": "🧓 老人友好方案", "original": "步行密集的环线与茶山", "alternative": "以地铁可直达的湖滨、断桥、运河街区与商场休息为主，减少长距离步行", "reason": "降低体力消耗、提升舒适度" },
-    { "title": "🔋 体力不足方案", "original": "全天高强度连走", "alternative": "每日精选2-3个核心点（如断桥+苏堤、或灵隐+龙井），午后回住休息", "reason": "避免过度疲劳、保留体验质量" }
+    {
+      "title": "🌧 雨天方案",
+      "original": "户外西湖环线与茶山徒步",
+      "alternative": "室内文化：浙江省博物馆（不同馆区）、西湖博物馆、运河博物馆群与各大商场，雨天也能逛得充实",
+      "reason": "室内场馆避雨且文化密度高，保持行程节奏"
+    },
+    {
+      "title": "🆓 免费替代方案",
+      "original": "付费灵隐/雷峰塔登塔",
+      "alternative": "免费环湖：断桥、白堤、苏堤、南山路、湖边夜景与龙井茶园徒步",
+      "reason": "不花钱也能看西湖与茶山，省下预算留作餐饮"
+    },
+    {
+      "title": "🧓 老人友好方案",
+      "original": "步行密集的环线与茶山",
+      "alternative": "以地铁可直达的湖滨、断桥、运河街区与商场休息为主，减少长距离步行",
+      "reason": "降低体力消耗、提升舒适度"
+    },
+    {
+      "title": "🔋 体力不足方案",
+      "original": "全天高强度连走",
+      "alternative": "每日精选2-3个核心点（如断桥+苏堤、或灵隐+龙井），午后回住休息",
+      "reason": "避免过度疲劳、保留体验质量"
+    }
   ],
   "foodDetail": {
     "rows": [
-      { "day": "Day1", "早餐": "湖滨包子 ¥10-20", "午餐": "北里湖/湖滨简餐 ¥25-50", "晚餐": "湖滨面馆 ¥30-60", "小计": "经济档" },
-      { "day": "Day2", "早餐": "市区早餐 ¥10-20", "午餐": "灵隐周边简餐 ¥25-50", "晚餐": "市区小馆 ¥30-60", "小计": "经济-舒适" },
-      { "day": "Day3", "早餐": "商圈早餐 ¥10-20", "午餐": "桥西/西溪简餐 ¥25-50", "晚餐": "返程自理", "小计": "经济-舒适" }
+      {
+        "day": "Day1",
+        "早餐": "湖滨包子 ¥10-20",
+        "午餐": "北里湖/湖滨简餐 ¥25-50",
+        "晚餐": "湖滨面馆 ¥30-60",
+        "小计": "经济档"
+      },
+      {
+        "day": "Day2",
+        "早餐": "市区早餐 ¥10-20",
+        "午餐": "灵隐周边简餐 ¥25-50",
+        "晚餐": "市区小馆 ¥30-60",
+        "小计": "经济-舒适"
+      },
+      {
+        "day": "Day3",
+        "早餐": "商圈早餐 ¥10-20",
+        "午餐": "桥西/西溪简餐 ¥25-50",
+        "晚餐": "返程自理",
+        "小计": "经济-舒适"
+      }
     ]
   },
   "transitDetail": {
     "rows": [
-      { "day": "Day1", "方式": "地铁 + 步行", "费用": "约¥5-15", "提醒": "抵达当天绑定乘车码" },
-      { "day": "Day2", "方式": "公交 + 步行", "费用": "约¥15-40", "提醒": "灵隐山间公交留意班次" },
-      { "day": "Day3", "方式": "地铁 + 公交", "费用": "约¥8-20", "提醒": "返程预留时间" }
+      {
+        "day": "Day1",
+        "方式": "地铁 + 步行",
+        "费用": "约¥5-15",
+        "提醒": "抵达当天绑定乘车码"
+      },
+      {
+        "day": "Day2",
+        "方式": "公交 + 步行",
+        "费用": "约¥15-40",
+        "提醒": "灵隐山间公交留意班次"
+      },
+      {
+        "day": "Day3",
+        "方式": "地铁 + 公交",
+        "费用": "约¥8-20",
+        "提醒": "返程预留时间"
+      }
     ]
   },
   "charts": {
-    "days": ["Day1 西湖环线", "Day2 灵隐·龙井", "Day3 西溪或运河"],
-    "dailyHours": [6, 7, 5],
+    "days": [
+      "Day1 西湖环线",
+      "Day2 灵隐·龙井",
+      "Day3 西溪或运河"
+    ],
+    "dailyHours": [
+      6,
+      7,
+      5
+    ],
     "budget": {
-      "labels": ["住宿", "餐饮", "交通", "门票", "购物备用"],
-      "economy": [600, 280, 45, 45, 140],
-      "comfort": [1150, 580, 100, 175, 350],
-      "flexible": [2100, 950, 245, 430, 850]
+      "labels": [
+        "住宿",
+        "餐饮",
+        "交通",
+        "门票",
+        "购物备用"
+      ],
+      "economy": [
+        600,
+        280,
+        45,
+        45,
+        140
+      ],
+      "comfort": [
+        1150,
+        580,
+        100,
+        175,
+        350
+      ],
+      "flexible": [
+        2100,
+        950,
+        245,
+        430,
+        850
+      ]
     }
   },
   "savingTips": [
-    { "title": "免费西湖打底", "text": "断桥、白堤、苏堤与湖边夜景免费，把重心放这里。" },
-    { "title": "早餐控费", "text": "包子面点人均 ¥10-20，比酒店早餐便宜且地道。" },
-    { "title": "简餐午餐", "text": "面馆与简餐人均 ¥25-50，比正餐便宜一半。" },
-    { "title": "公交地铁优先", "text": "扫码比打车便宜，高峰期不堵。" },
-    { "title": "塔下远观", "text": "雷峰塔下南山路远观夕照免费，无需登塔。" },
-    { "title": "茶园徒步免费", "text": "龙井茶园步道多为开放空间，出片率高。" },
-    { "title": "错峰用餐", "text": "12 点前吃午餐，避免排队与溢价。" },
-    { "title": "只逛不买", "text": "运河街区与西湖街景本身免费好看。" }
+    {
+      "title": "免费西湖打底",
+      "text": "断桥、白堤、苏堤与湖边夜景免费，把重心放这里。"
+    },
+    {
+      "title": "早餐控费",
+      "text": "包子面点人均 ¥10-20，比酒店早餐便宜且地道。"
+    },
+    {
+      "title": "简餐午餐",
+      "text": "面馆与简餐人均 ¥25-50，比正餐便宜一半。"
+    },
+    {
+      "title": "公交地铁优先",
+      "text": "扫码比打车便宜，高峰期不堵。"
+    },
+    {
+      "title": "塔下远观",
+      "text": "雷峰塔下南山路远观夕照免费，无需登塔。"
+    },
+    {
+      "title": "茶园徒步免费",
+      "text": "龙井茶园步道多为开放空间，出片率高。"
+    },
+    {
+      "title": "错峰用餐",
+      "text": "12 点前吃午餐，避免排队与溢价。"
+    },
+    {
+      "title": "只逛不买",
+      "text": "运河街区与西湖街景本身免费好看。"
+    }
   ],
   "reminders": [
-    { "type": "urgent", "title": "预约日历", "items": ["灵隐·飞来峰与雷峰塔门票以官方渠道为准，旺季提前确认", "西溪湿地入园与摇橹船以官方为准", "国庆/五一等大假住宿与门票提前预订", "部分文博展馆需线上预约"] },
-    { "type": "booking", "title": "预订时机", "items": ["住宿提前1-2个月更优", "地铁乘车码抵达后绑定", "热门正餐提前1-2天"] },
-    { "type": "notice", "title": "行前须知", "items": ["携带护照等有效证件（国内出行身份证）", "微信/支付宝支付 + 少量现金", "下载地图导航与乘车App", "准备流量卡/漫游", "备好舒适步行鞋"] }
+    {
+      "type": "urgent",
+      "title": "预约日历",
+      "items": [
+        "灵隐·飞来峰与雷峰塔门票以官方渠道为准，旺季提前确认",
+        "西溪湿地入园与摇橹船以官方为准",
+        "国庆/五一等大假住宿与门票提前预订",
+        "部分文博展馆需线上预约"
+      ]
+    },
+    {
+      "type": "booking",
+      "title": "预订时机",
+      "items": [
+        "住宿提前1-2个月更优",
+        "地铁乘车码抵达后绑定",
+        "热门正餐提前1-2天"
+      ]
+    },
+    {
+      "type": "notice",
+      "title": "行前须知",
+      "items": [
+        "携带护照等有效证件（国内出行身份证）",
+        "微信/支付宝支付 + 少量现金",
+        "下载地图导航与乘车App",
+        "准备流量卡/漫游",
+        "备好舒适步行鞋"
+      ]
+    }
   ],
   "packing": [
-    "有效证件", "手机与移动支付", "少量现金（¥100-300）", "流量卡/漫游", "舒适步行鞋", "轻便雨具", "常用药品", "移动电源", "薄外套（昼夜与湖畔风）", "折叠购物袋", "小背包",     "防滑鞋（九溪/茶山路）"
+    "有效证件",
+    "手机与移动支付",
+    "少量现金（¥100-300）",
+    "流量卡/漫游",
+    "舒适步行鞋",
+    "轻便雨具",
+    "常用药品",
+    "移动电源",
+    "薄外套（昼夜与湖畔风）",
+    "折叠购物袋",
+    "小背包",
+    "防滑鞋（九溪/茶山路）"
   ],
   "blocks": [
     {

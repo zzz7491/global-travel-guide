@@ -50,5 +50,14 @@
         "china-hangzhou-two-day-tea"
       ]
     }
+  ],
+  "heroImage": "/assets/images/hangzhou/attractions/lingyin-temple-hero.webp",
+  "socialImage": "/assets/images/hangzhou/attractions/lingyin-temple-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/hangzhou/attractions/lingyin-temple-gallery-01.webp",
+      "alt": "杭州灵隐寺：寺院大殿与飞檐",
+      "credit": "Wikimedia Commons · Armin Kübelbeck (Kuebi) (CC BY-SA 3.0)"
+    }
   ]
 }

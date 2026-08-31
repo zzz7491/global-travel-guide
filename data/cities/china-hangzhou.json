@@ -16,22 +16,52 @@
   "timezone": "UTC+8",
   "tagline": "西湖山水人间天堂",
   "featured": true,
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/e/ed/20260424_West_Lake_and_Hangzhou_Skyline.jpg",
-  "socialImage": "https://upload.wikimedia.org/wikipedia/commons/e/ed/20260424_West_Lake_and_Hangzhou_Skyline.jpg",
+  "heroImage": "/assets/images/hangzhou/city/city-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/city-og.webp",
   "bestTime": {
     "description": "春季西湖春色醉，秋季丹桂飘香雅"
   },
   "facts": [
-    {"label":"Continent","value":"亚洲"},
-    {"label":"Language","value":"中文"},
-    {"label":"Currency","value":"人民币(CNY)"},
-    {"label":"Timezone","value":"UTC+8"}
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "中文"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币(CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
   ],
-  "highlights": ["西湖","雷峰塔","灵隐寺","十里银桥","平湖秋月"],
+  "highlights": [
+    "西湖",
+    "雷峰塔",
+    "灵隐寺",
+    "十里银桥",
+    "平湖秋月"
+  ],
   "gallery": [
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/West_Lake%2C_Hangzhou_%28Nine-turn_bridge%29.jpg", "alt": "西湖春晓", "credit": "Wikimedia Commons"},
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Leifeng_Pagoda_%2820240729%29.jpg", "alt": "雷峰夕照", "credit": "Wikimedia Commons"},
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Broken_Bridge%2C_Hangzhou%2C_China.jpg", "alt": "Broken Bridge in Snow", "credit": "Wikimedia Commons"}
+    {
+      "src": "/assets/images/hangzhou/attractions/west-lake-gallery-01.webp",
+      "alt": "杭州 西湖湖光山色",
+      "type": "nature",
+      "credit": "Wikimedia Commons · Louisa Salazar (CC BY-SA 3.0)"
+    },
+    {
+      "src": "/assets/images/hangzhou/attractions/lingyin-temple-gallery-01.webp",
+      "alt": "杭州 灵隐寺",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Armin Kübelbeck (Kuebi) (CC BY-SA 3.0)"
+    }
   ],
-  "relatedCities": ["china-beijing", "china-shanghai"]
+  "relatedCities": [
+    "china-beijing",
+    "china-shanghai"
+  ]
 }

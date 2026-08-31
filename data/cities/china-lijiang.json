@@ -15,7 +15,7 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "雪山下的纳西古城，历史与高原自然交织",
-  "heroImage": "https://picsum.photos/seed/china-lijiang-hero/1200/800",
+  "heroImage": "/assets/images/lijiang/city/city-hero.webp",
   "bestTime": {
     "description": "丽江春秋最舒适：3-5月与9-11月气候温和、日照充足、雪山能见度高；夏季多雨但绿意浓，冬季干冷、雪山最清晰。"
   },
@@ -46,28 +46,22 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-lijiang-city-01/1200/800",
-      "alt": "丽江古城街巷与纳西民居",
-      "type": "street",
-      "credit": "Picsum"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-city-02/1200/800",
-      "alt": "玉龙雪山远景",
-      "type": "nature",
-      "credit": "Picsum"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-city-03/1200/800",
-      "alt": "纳西文化与东巴文字",
+      "src": "/assets/images/lijiang/attractions/oldtown-gallery-01.webp",
+      "alt": "丽江 古城纳西民居",
       "type": "culture",
-      "credit": "Picsum"
+      "credit": "Wikimedia Commons · CEphoto, Uwe Aranas (CC BY-SA 3.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-lijiang-city-04/1200/800",
-      "alt": "丽江古城地标建筑",
-      "type": "landmark",
-      "credit": "Picsum"
+      "src": "/assets/images/lijiang/attractions/yulong-gallery-01.webp",
+      "alt": "丽江 玉龙雪山",
+      "type": "nature",
+      "credit": "Wikimedia Commons · CEphoto, Uwe Aranas (CC BY-SA 3.0)"
+    },
+    {
+      "src": "/assets/images/lijiang/attractions/shuhe-gallery-01.webp",
+      "alt": "丽江 束河古镇",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Gisling (CC BY 3.0)"
     }
   ],
   "relatedCities": [
@@ -95,5 +89,5 @@
       "a": "泸沽湖距丽江古城约200公里，车程约4-5小时，属跨省界高原湖泊，建议安排1-2天往返专程游玩。"
     }
   ],
-  "socialImage": "https://picsum.photos/seed/china-lijiang-og/1200/800"
+  "socialImage": "/assets/images/lijiang/og/city-og.webp"
 }

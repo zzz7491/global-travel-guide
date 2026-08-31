@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-chengdu-wuhouci-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-wuhouci-og/1200/800",
+  "heroImage": "/assets/images/chengdu/attractions/wuhouci-hero.webp",
+  "socialImage": "/assets/images/chengdu/attractions/wuhouci-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-wuhouci-1/1200/800",
-      "alt": "武侯祠 红墙竹影"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-wuhouci-2/1200/800",
-      "alt": "武侯祠 主体建筑"
+      "src": "/assets/images/chengdu/attractions/wuhouci-gallery-01.webp",
+      "alt": "武侯祠：成都武侯祠殿堂建筑",
+      "credit": "Wikimedia Commons · Daderot (CC0)"
     }
   ]
 }

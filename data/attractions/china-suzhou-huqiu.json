@@ -51,16 +51,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-suzhou-huqiu/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-huqiu/1200/630",
+  "heroImage": "/assets/images/suzhou/attractions/huqiu-hero.webp",
+  "socialImage": "/assets/images/suzhou/attractions/huqiu-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-suzhou-huqiu-1/1200/800",
-      "alt": "虎丘 云岩寺塔"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-suzhou-huqiu-2/1200/800",
-      "alt": "虎丘 剑池"
+      "src": "/assets/images/suzhou/attractions/huqiu-gallery-01.webp",
+      "alt": "苏州虎丘：虎丘塔与山景",
+      "credit": "Wikimedia Commons · Rolfmueller (CC BY-SA 3.0)"
     }
   ]
 }

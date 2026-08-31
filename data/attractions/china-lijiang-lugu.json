@@ -51,16 +51,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-lijiang-lugu/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-lugu-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-lugu-01/1200/800",
-      "alt": "泸沽湖里格半岛"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-lugu-02/1200/800",
-      "alt": "走婚桥与草海"
-    }
-  ]
+  "gallery": []
 }

@@ -51,8 +51,6 @@
     }
   ],
   "category": "贴士",
-  "image": "https://picsum.photos/seed/china-suzhou-tips/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-tips/1200/630",
   "howto": {
     "name": "苏州行前准备指南",
     "description": "三步完成行前关键准备",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "预约热门场馆",
-        "text": "提前预约苏州博物馆，线上购园林与水乡门票。",
-        "image": "https://picsum.photos/seed/china-suzhou-tips/1200/800"
+        "text": "提前预约苏州博物馆，线上购园林与水乡门票。"
       },
       {
         "name": "准备支付与证件",

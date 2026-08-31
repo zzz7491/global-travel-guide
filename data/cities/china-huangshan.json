@@ -15,8 +15,8 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "奇松怪石云海温泉，山上山下两个世界",
-  "heroImage": "https://picsum.photos/seed/china-huangshan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-og/1200/800",
+  "heroImage": "/assets/images/huangshan/city/city-hero.webp",
+  "socialImage": "/assets/images/huangshan/og/city-og.webp",
   "bestTime": {
     "description": "春秋最佳：4-5月云雾与新绿，9-11月秋色与云海概率高、体感舒适；夏季多雨闷热但云海雨后常现，冬季有雾凇雪景，山上更冷、部分线路受冰雪影响。"
   },
@@ -48,34 +48,22 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-huangshan-g1/1200/800",
-      "alt": "黄山花岗岩峰林与云海",
+      "src": "/assets/images/huangshan/attractions/scenic-gallery-01.webp",
+      "alt": "黄山 云海奇峰",
       "type": "nature",
-      "credit": "Picsum"
+      "credit": "Wikimedia Commons · Arne Höckelheim (CC BY-SA 3.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-huangshan-g2/1200/800",
-      "alt": "黄山山脊上的奇松与石阶步道",
-      "type": "landmark",
-      "credit": "Picsum"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-g3/1200/800",
-      "alt": "宏村徽派民居与水面倒影",
+      "src": "/assets/images/huangshan/attractions/hongcun-gallery-01.webp",
+      "alt": "黄山 宏村徽派村落",
       "type": "culture",
-      "credit": "Picsum"
+      "credit": "Wikimedia Commons · creator unverified (CC BY 2.5)"
     },
     {
-      "src": "https://picsum.photos/seed/china-huangshan-g4/1200/800",
-      "alt": "屯溪老街的徽州老字号店铺街景",
-      "type": "street",
-      "credit": "Picsum"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-g5/1200/800",
-      "alt": "徽菜臭鳜鱼与毛豆腐等地方风味",
-      "type": "food",
-      "credit": "Picsum"
+      "src": "/assets/images/huangshan/attractions/xidi-gallery-01.webp",
+      "alt": "黄山 西递古村",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Ahunter2003 (CC BY-SA 3.0)"
     }
   ],
   "relatedCities": [

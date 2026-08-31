@@ -50,5 +50,14 @@
         "china-xian-classic-day"
       ]
     }
+  ],
+  "heroImage": "/assets/images/xian/attractions/muslim-quarter-hero.webp",
+  "socialImage": "/assets/images/xian/attractions/muslim-quarter-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/xian/attractions/muslim-quarter-gallery-01.webp",
+      "alt": "西安回民街：穆斯林特色街区",
+      "credit": "Wikimedia Commons · Qianeal (CC BY-SA 4.0)"
+    }
   ]
 }

@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-yixiantian-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-yixiantian-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yixian-1/1200/800",
-      "alt": "一线天岩缝一线天光"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yixian-2/1200/800",
-      "alt": "一线天洞口与丹霞崖壁"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yixian-3/1200/800",
-      "alt": "一线天毗邻虎啸岩片区"
-    }
-  ]
+  "gallery": []
 }

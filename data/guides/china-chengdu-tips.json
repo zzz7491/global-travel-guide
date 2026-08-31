@@ -51,8 +51,6 @@
     }
   ],
   "category": "贴士",
-  "image": "https://picsum.photos/seed/china-chengdu-tips-cover/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-tips-og/1200/800",
   "howto": {
     "name": "成都行前准备清单",
     "description": "四步完成成都行前准备",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "预约门票",
-        "text": "提前在官方渠道预约熊猫基地及都江堰/青城山门票，旺季尤其要早。",
-        "image": "https://picsum.photos/seed/china-chengdu-tips-1/1200/800"
+        "text": "提前在官方渠道预约熊猫基地及都江堰/青城山门票，旺季尤其要早。"
       },
       {
         "name": "绑定支付",

@@ -53,8 +53,6 @@
     }
   ],
   "category": "交通",
-  "image": "https://picsum.photos/seed/china-zhangjiajie-guide-transport/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-guide-transport-og/1200/800",
   "howto": {
     "name": "从张家界市区前往森林公园门票站",
     "description": "三步完成市区到张家界国家森林公园的换乘，避开拉客与绕路",
@@ -62,8 +60,7 @@
     "steps": [
       {
         "name": "到张家界中心汽车站买票",
-        "text": "在市中心汽车站购买前往武陵源区的班车票，票价约 12-15 元（估算），车程约 40 分钟，尽量选上午班次。",
-        "image": "https://picsum.photos/seed/china-zhangjiajie-howto-bus/1200/800"
+        "text": "在市中心汽车站购买前往武陵源区的班车票，票价约 12-15 元（估算），车程约 40 分钟，尽量选上午班次。"
       },
       {
         "name": "在武陵源换乘至门票站",

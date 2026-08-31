@@ -55,16 +55,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-huangshan-scenic-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-scenic-og/1200/800",
+  "heroImage": "/assets/images/huangshan/attractions/scenic-hero.webp",
+  "socialImage": "/assets/images/huangshan/attractions/scenic-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-huangshan-scenic-g1/1200/800",
-      "alt": "光明顶方向的云海与花岗岩峰峦"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-scenic-g2/1200/800",
-      "alt": "西海大峡谷贴壁而行的悬空栈道"
+      "src": "/assets/images/huangshan/attractions/scenic-gallery-01.webp",
+      "alt": "黄山：云海奇峰与松石",
+      "credit": "Wikimedia Commons · Arne Höckelheim (CC BY-SA 3.0)"
     }
   ]
 }

@@ -16,22 +16,59 @@
   "timezone": "UTC+8",
   "tagline": "千年古都,汉唐盛世",
   "featured": true,
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/43/Qin_Shihuang_Terracotta_Army%2C_Pit_1.jpg",
-  "socialImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Giant_Wild_Goose_Pagoda%2C_Xi%27an%2C_May%2C_2018-1.jpg",
+  "heroImage": "/assets/images/xian/city/city-hero.webp",
+  "socialImage": "/assets/images/xian/og/city-og.webp",
   "bestTime": {
     "description": "春季秦陵万亩花海，秋季凉风送爽，适合文物游与古城漫步"
   },
   "facts": [
-    {"label":"Continent","value":"亚洲"},
-    {"label":"Language","value":"中文"},
-    {"label":"Currency","value":"人民币(CNY)"},
-    {"label":"Timezone","value":"UTC+8"}
+    {
+      "label": "Continent",
+      "value": "亚洲"
+    },
+    {
+      "label": "Language",
+      "value": "中文"
+    },
+    {
+      "label": "Currency",
+      "value": "人民币(CNY)"
+    },
+    {
+      "label": "Timezone",
+      "value": "UTC+8"
+    }
   ],
-  "highlights": ["秦始皇兵马俑","大雁塔","城墙自行车","回民街","华清宫"],
+  "highlights": [
+    "秦始皇兵马俑",
+    "大雁塔",
+    "城墙自行车",
+    "回民街",
+    "华清宫"
+  ],
   "gallery": [
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Qin_Terracotta_Army%2C_Pit_1_04.jpg", "alt": "秦始皇兵马俑一号坑", "credit": "Wikimedia Commons"},
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Giant_Wild_Goose_Pagoda.jpg", "alt": "大雁塔夜景", "credit": "Wikimedia Commons"},
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Xi-an_city_wall.jpg", "alt": "城墙日出", "credit": "Wikimedia Commons"}
+    {
+      "src": "/assets/images/xian/attractions/terracotta-army-gallery-01.webp",
+      "alt": "西安 秦始皇兵马俑",
+      "type": "history",
+      "credit": "Wikimedia Commons · Jmhullot (CC BY 3.0)"
+    },
+    {
+      "src": "/assets/images/xian/attractions/dayan-pagoda-gallery-01.webp",
+      "alt": "西安 大雁塔",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Yan Yin (CC BY-SA 2.5)"
+    },
+    {
+      "src": "/assets/images/xian/attractions/city-wall-gallery-01.webp",
+      "alt": "西安 明代城墙",
+      "type": "history",
+      "credit": "Wikimedia Commons · Maros M r a z (CC BY-SA 3.0)"
+    }
   ],
-  "relatedCities": ["china-beijing", "china-hangzhou", "china-shanghai"]
+  "relatedCities": [
+    "china-beijing",
+    "china-hangzhou",
+    "china-shanghai"
+  ]
 }

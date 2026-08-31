@@ -51,8 +51,6 @@
     }
   ],
   "category": "住宿",
-  "image": "https://picsum.photos/seed/china-suzhou-accommodation/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-accommodation/1200/630",
   "howto": {
     "name": "苏州选住宿区域指南",
     "description": "三步按行程重心选对区域",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "确定行程重心",
-        "text": "以园林为主则选古城；以高铁串联周边则选苏州站周边。",
-        "image": "https://picsum.photos/seed/china-suzhou-accommodation/1200/800"
+        "text": "以园林为主则选古城；以高铁串联周边则选苏州站周边。"
       },
       {
         "name": "对比价位",

@@ -15,7 +15,7 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "外滩灯火与摩登天际线的东方都会",
-  "heroImage": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=1600&q=80",
+  "heroImage": "/assets/images/shanghai/city/city-hero.webp",
   "bestTime": {
     "description": "春秋气候宜人最推荐；夏季湿热多雨（梅雨季 6 月），冬季湿冷少雪，各有玩法。"
   },
@@ -46,26 +46,27 @@
   ],
   "gallery": [
     {
-      "src": "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=800&q=70",
+      "src": "/assets/images/shanghai/attractions/bund-gallery-01.webp",
+      "alt": "上海 外滩万国建筑群",
+      "type": "street",
+      "credit": "Wikimedia Commons · Another Believer (CC BY-SA 4.0)"
+    },
+    {
+      "src": "/assets/images/shanghai/attractions/lujiazui-gallery-01.webp",
       "alt": "上海 陆家嘴天际线",
-      "credit": "Unsplash"
+      "type": "street",
+      "credit": "Wikimedia Commons · Daniel Case (CC BY-SA 3.0)"
     },
     {
-      "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=70",
-      "alt": "上海 城市街景",
-      "credit": "Unsplash"
-    },
-    {
-      "src": "https://images.unsplash.com/photo-1545893835-abaa50cbe628?w=800&q=70",
-      "alt": "上海 都市建筑景观",
-      "credit": "Unsplash"
-    },
-    {
-      "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=70",
-      "alt": "上海 高楼与城市空间",
-      "credit": "Unsplash"
+      "src": "/assets/images/shanghai/attractions/yuyuan-gallery-01.webp",
+      "alt": "上海 豫园",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Hermann Luyken (CC0)"
     }
   ],
-  "relatedCities": ["china-beijing"],
-  "featured": false
+  "relatedCities": [
+    "china-beijing"
+  ],
+  "featured": false,
+  "socialImage": "/assets/images/shanghai/og/city-og.webp"
 }

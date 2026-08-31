@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-huxiao-rock-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-huxiao-rock-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-huxiao-1/1200/800",
-      "alt": "虎啸岩丹霞岩体与登高步道"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-huxiao-2/1200/800",
-      "alt": "虎啸岩登顶俯瞰九曲溪远山"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-huxiao-3/1200/800",
-      "alt": "虎啸岩与一线天毗邻外景"
-    }
-  ]
+  "gallery": []
 }

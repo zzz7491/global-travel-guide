@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-lijiang-shuhe/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-shuhe-og/1200/800",
+  "heroImage": "/assets/images/lijiang/attractions/shuhe-hero.webp",
+  "socialImage": "/assets/images/lijiang/attractions/shuhe-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-lijiang-shuhe-01/1200/800",
-      "alt": "束河古镇街巷"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-shuhe-02/1200/800",
-      "alt": "九鼎龙潭"
+      "src": "/assets/images/lijiang/attractions/shuhe-gallery-01.webp",
+      "alt": "束河古镇：纳西茶马古道村落",
+      "credit": "Wikimedia Commons · Gisling (CC BY 3.0)"
     }
   ]
 }

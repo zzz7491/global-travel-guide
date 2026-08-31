@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-wuyi-palace-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-wuyi-palace-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-palace-1/1200/800",
-      "alt": "武夷宫宋街仿宋古建群"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-palace-2/1200/800",
-      "alt": "大王峰兀立九曲溪畔"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-palace-3/1200/800",
-      "alt": "武夷山博物馆与九曲溪"
-    }
-  ]
+  "gallery": []
 }

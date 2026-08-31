@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-xiamai-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-xiamai-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-xiamai-1/1200/800",
-      "alt": "下梅古村青石板街巷与明清民居"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-xiamai-2/1200/800",
-      "alt": "下梅古村邹氏家祠"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-xiamai-3/1200/800",
-      "alt": "下梅古村溪水穿村与茶号旧迹"
-    }
-  ]
+  "gallery": []
 }

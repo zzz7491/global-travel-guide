@@ -11,8 +11,11 @@
   "h1": "上海春季旅行攻略",
   "lead": "回暖的三月到五月，玉兰、樱花、紫藤次第登场，梧桐重新长出新绿，是上海一年里最清新的季节。",
   "season": "春季",
-  "months": ["3月", "4月", "5月"],
-  "heroImage": "https://picsum.photos/seed/china-shanghai-spring-hero/1200/800",
+  "months": [
+    "3月",
+    "4月",
+    "5月"
+  ],
   "weather": "上海春季气温逐步回暖（10-24℃），乍暖还寒、天气多变，早晚仍偏凉需薄外套；春雨频繁，出门随身备雨具。",
   "overview": "春季（3-5月）上海街头巷尾的玉兰率先报春，随后顾村公园与上海植物园的樱花、紫藤相继开放，梧桐也抽出一树新绿。这个季节游客量适中，不像黄金周那样拥挤，是步行逛街区、公园踏青的好时机。缺点是春季天气多变、阴雨反复，行程要留出室内备选。",
   "highlights": [
@@ -23,9 +26,24 @@
     "游客适中：非黄金周时段，街区与场馆人流相对舒适"
   ],
   "events": [
-    { "name": "顾村公园樱花季", "time": "3月下旬-4月初（随气温波动）", "place": "顾村公园", "note": "樱花盛开时间受当年气温影响，出行前查看当地文旅或公园发布的花讯" },
-    { "name": "上海植物园春花展", "time": "春季（3-5月分期）", "place": "上海植物园（近郊）", "note": "樱花、玉兰、郁金香等分期开放，具体以官方公告为准" },
-    { "name": "豫园园林春色", "time": "春季", "place": "豫园（人民广场/城隍庙商圈）", "note": "园林花木复苏，旺季需预约限流，以官方实际运营为准" }
+    {
+      "name": "顾村公园樱花季",
+      "time": "3月下旬-4月初（随气温波动）",
+      "place": "顾村公园",
+      "note": "樱花盛开时间受当年气温影响，出行前查看当地文旅或公园发布的花讯"
+    },
+    {
+      "name": "上海植物园春花展",
+      "time": "春季（3-5月分期）",
+      "place": "上海植物园（近郊）",
+      "note": "樱花、玉兰、郁金香等分期开放，具体以官方公告为准"
+    },
+    {
+      "name": "豫园园林春色",
+      "time": "春季",
+      "place": "豫园（人民广场/城隍庙商圈）",
+      "note": "园林花木复苏，旺季需预约限流，以官方实际运营为准"
+    }
   ],
   "tips": [
     "春季天气多变，出门随身带折叠雨具",
@@ -35,7 +53,20 @@
     "博物馆等室内场馆是雨天好备选，且多免费（以是否需预约为准）"
   ],
   "blocks": [
-    { "kind": "section", "title": "季节玩法建议", "html": "<p>春季上海最合理的排法：<strong>先街区再公园</strong>。先逛<strong>武康路、衡山路</strong>看法租界梧桐新绿与玉兰，再往<strong>顾村公园</strong>或<strong>上海植物园</strong>赏樱踏青；<strong>豫园</strong>园林春色与<strong>外滩</strong>万物复苏的城市画面同样值得安排。若遇阴雨，把<strong>上海博物馆</strong>（人民广场，免费但需以官方预约/开放为准）与各大商场排进来，雨天也不空手而归。</p>" },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-shanghai-best-time", "china-shanghai-wukang-road", "china-shanghai-bund", "china-shanghai-shanghai-museum"] }
+    {
+      "kind": "section",
+      "title": "季节玩法建议",
+      "html": "<p>春季上海最合理的排法：<strong>先街区再公园</strong>。先逛<strong>武康路、衡山路</strong>看法租界梧桐新绿与玉兰，再往<strong>顾村公园</strong>或<strong>上海植物园</strong>赏樱踏青；<strong>豫园</strong>园林春色与<strong>外滩</strong>万物复苏的城市画面同样值得安排。若遇阴雨，把<strong>上海博物馆</strong>（人民广场，免费但需以官方预约/开放为准）与各大商场排进来，雨天也不空手而归。</p>"
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-shanghai-best-time",
+        "china-shanghai-wukang-road",
+        "china-shanghai-bund",
+        "china-shanghai-shanghai-museum"
+      ]
+    }
   ]
 }

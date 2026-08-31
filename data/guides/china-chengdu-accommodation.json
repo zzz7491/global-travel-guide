@@ -51,8 +51,6 @@
     }
   ],
   "category": "住宿",
-  "image": "https://picsum.photos/seed/china-chengdu-accommodation-cover/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-accommodation-og/1200/800",
   "howto": {
     "name": "成都选房三步法",
     "description": "三步锁定适合自己的成都住宿区域",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "定区域",
-        "text": "看行程重心：逛吃选春熙路，慢游选宽窄巷子，中转选天府广场。",
-        "image": "https://picsum.photos/seed/china-chengdu-accommodation-1/1200/800"
+        "text": "看行程重心：逛吃选春熙路，慢游选宽窄巷子，中转选天府广场。"
       },
       {
         "name": "查地铁",

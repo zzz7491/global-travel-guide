@@ -51,8 +51,6 @@
     }
   ],
   "category": "住宿",
-  "image": "https://picsum.photos/seed/china-lijiang-guide-stay/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-stay-og/1200/800",
   "howto": {
     "name": "丽江住宿选区指南",
     "description": "三步选对丽江落脚地",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "定区位",
-        "text": "体验选大研古城边缘、安静选束河、便利选新城，按行程重心决定。",
-        "image": "https://picsum.photos/seed/china-lijiang-guide-stay/1200/800"
+        "text": "体验选大研古城边缘、安静选束河、便利选新城，按行程重心决定。"
       },
       {
         "name": "看评价",

@@ -51,16 +51,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-lijiang-yulong/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-yulong-og/1200/800",
+  "heroImage": "/assets/images/lijiang/attractions/yulong-hero.webp",
+  "socialImage": "/assets/images/lijiang/attractions/yulong-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-lijiang-yulong-01/1200/800",
-      "alt": "玉龙雪峰"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-lijiang-yulong-02/1200/800",
-      "alt": "蓝月谷湖水"
+      "src": "/assets/images/lijiang/attractions/yulong-gallery-01.webp",
+      "alt": "玉龙雪山：丽江城北的雪山风光",
+      "credit": "Wikimedia Commons · CEphoto, Uwe Aranas (CC BY-SA 3.0)"
     }
   ]
 }

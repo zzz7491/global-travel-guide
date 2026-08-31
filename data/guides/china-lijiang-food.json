@@ -51,8 +51,6 @@
     }
   ],
   "category": "美食",
-  "image": "https://picsum.photos/seed/china-lijiang-guide-food/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-food-og/1200/800",
   "howto": {
     "name": "丽江腊排骨火锅点单指南",
     "description": "三步点好一锅地道腊排骨火锅",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "选锅底",
-        "text": "腊排骨多为锅底含排骨，按人数选小/中/大锅，价格以门店当日为准（人均约估算 60-100 元）。",
-        "image": "https://picsum.photos/seed/china-lijiang-guide-food/1200/800"
+        "text": "腊排骨多为锅底含排骨，按人数选小/中/大锅，价格以门店当日为准（人均约估算 60-100 元）。"
       },
       {
         "name": "加配菜",

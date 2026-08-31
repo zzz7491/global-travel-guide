@@ -51,16 +51,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-suzhou-liuyuan/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-liuyuan/1200/630",
+  "heroImage": "/assets/images/suzhou/attractions/liuyuan-hero.webp",
+  "socialImage": "/assets/images/suzhou/attractions/liuyuan-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-suzhou-liuyuan-1/1200/800",
-      "alt": "留园 厅堂庭院"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-suzhou-liuyuan-2/1200/800",
-      "alt": "留园 冠云峰"
+      "src": "/assets/images/suzhou/attractions/liuyuan-gallery-01.webp",
+      "alt": "苏州留园：古典园林的湖石与曲廊",
+      "credit": "Wikimedia Commons · 钉钉 (CC BY-SA 4.0)"
     }
   ]
 }

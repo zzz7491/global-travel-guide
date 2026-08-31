@@ -53,16 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-huangshan-tunxi-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-tunxi-og/1200/800",
+  "heroImage": "/assets/images/huangshan/attractions/tunxi-hero.webp",
+  "socialImage": "/assets/images/huangshan/attractions/tunxi-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-huangshan-tunxi-g1/1200/800",
-      "alt": "屯溪老街徽派店铺与夜间灯笼街景"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-tunxi-g2/1200/800",
-      "alt": "老街茶叶铺与徽墨歙砚柜台"
+      "src": "/assets/images/huangshan/attractions/tunxi-gallery-01.webp",
+      "alt": "屯溪老街：明清徽商老街",
+      "credit": "Wikimedia Commons · Emitchan (Public domain)"
     }
   ]
 }

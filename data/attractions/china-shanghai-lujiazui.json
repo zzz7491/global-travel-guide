@@ -9,7 +9,12 @@
   "keywords": "陆家嘴,上海中心,金茂大厦,环球金融中心,东方明珠,上海观景",
   "h1": "陆家嘴天际线攻略",
   "lead": "陆家嘴是中国摩天楼密度最高的区域，登高观景或沿滨江步道仰望，都能感受上海的城市高度。",
-  "tags": ["观景", "建筑", "夜景", "登高"],
+  "tags": [
+    "观景",
+    "建筑",
+    "夜景",
+    "登高"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,29 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["观景台门票提前线上购，节假日需预约。", "雾天能见度差，出行前看天气。", "摆渡轮末班较早，夜间注意时间。"]
+      "items": [
+        "观景台门票提前线上购，节假日需预约。",
+        "雾天能见度差，出行前看天气。",
+        "摆渡轮末班较早，夜间注意时间。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-bund", "china-shanghai-three-days", "china-shanghai-tips"]
+      "refs": [
+        "china-shanghai-bund",
+        "china-shanghai-three-days",
+        "china-shanghai-tips"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/shanghai/attractions/lujiazui-hero.webp",
+  "socialImage": "/assets/images/shanghai/attractions/lujiazui-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/shanghai/attractions/lujiazui-gallery-01.webp",
+      "alt": "上海陆家嘴：摩天楼天际线",
+      "credit": "Wikimedia Commons · Daniel Case (CC BY-SA 3.0)"
     }
   ]
 }

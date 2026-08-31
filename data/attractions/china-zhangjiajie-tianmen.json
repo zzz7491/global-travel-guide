@@ -53,20 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-tianmen-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-tianmen-og/1200/800",
+  "heroImage": "/assets/images/zhangjiajie/attractions/tianmen-hero.webp",
+  "socialImage": "/assets/images/zhangjiajie/attractions/tianmen-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-tianmen-cave/1200/800",
-      "alt": "天门洞与 999 级上天梯"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-tianmen-road/1200/800",
-      "alt": "通天大道 99 道盘山弯"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-tianmen-skywalk/1200/800",
-      "alt": "天门山绝壁玻璃栈道"
+      "src": "/assets/images/zhangjiajie/attractions/tianmen-gallery-01.webp",
+      "alt": "天门山：天门洞与绝壁栈道",
+      "credit": "Wikimedia Commons · Lianguanlun (CC BY 4.0)"
     }
   ]
 }

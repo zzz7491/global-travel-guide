@@ -52,16 +52,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-baofeng-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-baofeng-og/1200/800",
+  "heroImage": "/assets/images/zhangjiajie/attractions/baofeng-hero.webp",
+  "socialImage": "/assets/images/zhangjiajie/attractions/baofeng-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-baofeng-lake/1200/800",
-      "alt": "宝峰湖山间湖面与峰石倒影"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-baofeng-boat/1200/800",
-      "alt": "宝峰湖游船与崖畔亭台"
+      "src": "/assets/images/zhangjiajie/attractions/baofeng-gallery-01.webp",
+      "alt": "宝峰湖：高山湖泊",
+      "credit": "Wikimedia Commons · Yoo Chung (CC BY-SA 2.5)"
     }
   ]
 }

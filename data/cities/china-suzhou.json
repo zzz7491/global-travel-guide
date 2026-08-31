@@ -15,7 +15,7 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "园林之城，东方水乡的代表",
-  "heroImage": "https://picsum.photos/seed/china-suzhou-hero/1200/800",
+  "heroImage": "/assets/images/suzhou/city/city-hero.webp",
   "bestTime": {
     "description": "苏州春秋最宜人：春季（3-5月）园林新绿、秋季（9-11月）天高气爽均为出游高峰；夏季湿热、梅雨（6月）多雨；冬季人少价低，别有一番清幽。"
   },
@@ -46,24 +46,22 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-suzhou-g1/1200/800",
-      "alt": "苏州 古典园林庭院",
-      "type": "culture"
+      "src": "/assets/images/suzhou/attractions/zhuozheng-gallery-01.webp",
+      "alt": "苏州 拙政园",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Ray in Manila (CC BY 2.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-suzhou-g2/1200/800",
-      "alt": "苏州 平江路运河老街",
-      "type": "street"
+      "src": "/assets/images/suzhou/attractions/liuyuan-gallery-01.webp",
+      "alt": "苏州 留园",
+      "type": "culture",
+      "credit": "Wikimedia Commons · 钉钉 (CC BY-SA 4.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-suzhou-g3/1200/800",
-      "alt": "苏州 虎丘云岩寺塔",
-      "type": "landmark"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-suzhou-g4/1200/800",
-      "alt": "苏州 周庄水乡风光",
-      "type": "nature"
+      "src": "/assets/images/suzhou/attractions/pingjiang-gallery-01.webp",
+      "alt": "苏州 平江路水巷",
+      "type": "street",
+      "credit": "Wikimedia Commons · kevinmcgill (CC BY-SA 2.0)"
     }
   ],
   "faq": [
@@ -88,5 +86,5 @@
       "a": "拙政园、留园、虎丘、平江路、苏州博物馆是经典必游；时间充裕可加周庄或同里水乡古镇。"
     }
   ],
-  "socialImage": "https://picsum.photos/seed/china-suzhou-hero/1200/630"
+  "socialImage": "/assets/images/suzhou/og/city-og.webp"
 }

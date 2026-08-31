@@ -51,8 +51,6 @@
     }
   ],
   "category": "美食",
-  "image": "https://picsum.photos/seed/china-suzhou-food/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-food/1200/630",
   "howto": {
     "name": "苏州一日吃懂苏帮菜指南",
     "description": "三步用最少的钱吃全苏州风味",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "早餐吃面",
-        "text": "选一家本地面馆，点焖肉面或爆鱼面，人均约 15-30 元（估算）。",
-        "image": "https://picsum.photos/seed/china-suzhou-food/1200/800"
+        "text": "选一家本地面馆，点焖肉面或爆鱼面，人均约 15-30 元（估算）。"
       },
       {
         "name": "正餐尝苏帮菜",

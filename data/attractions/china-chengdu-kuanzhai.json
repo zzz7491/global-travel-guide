@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-chengdu-kuanzhai-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-kuanzhai-og/1200/800",
+  "heroImage": "/assets/images/chengdu/attractions/kuanzhai-hero.webp",
+  "socialImage": "/assets/images/chengdu/attractions/kuanzhai-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-kuanzhai-1/1200/800",
-      "alt": "宽窄巷子 院落街区"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-kuanzhai-2/1200/800",
-      "alt": "宽窄巷子 盖碗茶馆"
+      "src": "/assets/images/chengdu/attractions/kuanzhai-gallery-01.webp",
+      "alt": "宽窄巷子：成都特色老街区的街景",
+      "credit": "Wikimedia Commons · Daderot (CC0)"
     }
   ]
 }

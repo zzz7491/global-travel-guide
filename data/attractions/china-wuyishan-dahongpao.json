@@ -55,20 +55,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-dahongpao-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-dahongpao-og/1200/800",
+  "heroImage": "/assets/images/wuyishan/attractions/dahongpao-hero.webp",
+  "socialImage": "/assets/images/wuyishan/attractions/dahongpao-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-wuyishan-dahongpao-1/1200/800",
-      "alt": "九龙窠岩壁上的大红袍母树"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-dahongpao-2/1200/800",
-      "alt": "武夷山岩茶茶园与丹霞崖壁"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-dahongpao-3/1200/800",
-      "alt": "岩骨花香漫游道茶园步道"
+      "src": "/assets/images/wuyishan/attractions/dahongpao-gallery-01.webp",
+      "alt": "武夷山：大红袍母树生长之崖壁",
+      "credit": "Wikimedia Commons · Windmemories (CC BY-SA 4.0)"
     }
   ]
 }

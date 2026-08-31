@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-chengdu-jinli-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-jinli-og/1200/800",
+  "heroImage": "/assets/images/chengdu/attractions/jinli-hero.webp",
+  "socialImage": "/assets/images/chengdu/attractions/jinli-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-jinli-1/1200/800",
-      "alt": "锦里 红灯笼古街"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-jinli-2/1200/800",
-      "alt": "锦里 小吃摊位"
+      "src": "/assets/images/chengdu/attractions/jinli-gallery-01.webp",
+      "alt": "锦里古街：成都锦里历史文化街区",
+      "credit": "Wikimedia Commons · Daderot (CC0)"
     }
   ]
 }

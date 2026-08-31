@@ -51,8 +51,6 @@
     }
   ],
   "category": "交通",
-  "image": "https://picsum.photos/seed/china-lijiang-guide-transport/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-transport-og/1200/800",
   "howto": {
     "name": "丽江机场到古城出行指南",
     "description": "三步从三义机场抵达丽江古城，轻松不迷路",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "选择交通方式",
-        "text": "出机场后可乘机场大巴（至市区/古城附近站点）或正规出租车/网约车，车程约 40-60 分钟。",
-        "image": "https://picsum.photos/seed/china-lijiang-guide-transport/1200/800"
+        "text": "出机场后可乘机场大巴（至市区/古城附近站点）或正规出租车/网约车，车程约 40-60 分钟。"
       },
       {
         "name": "抵达古城入口",

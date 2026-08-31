@@ -50,5 +50,14 @@
         "china-xian-classic-day"
       ]
     }
+  ],
+  "heroImage": "/assets/images/xian/attractions/terracotta-army-hero.webp",
+  "socialImage": "/assets/images/xian/attractions/terracotta-army-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/xian/attractions/terracotta-army-gallery-01.webp",
+      "alt": "秦始皇兵马俑博物馆：一号坑军阵",
+      "credit": "Wikimedia Commons · Jmhullot (CC BY 3.0)"
+    }
   ]
 }

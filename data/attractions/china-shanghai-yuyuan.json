@@ -9,7 +9,12 @@
   "keywords": "豫园,城隍庙,上海园林,九曲桥,上海小吃,豫园商圈",
   "h1": "豫园与城隍庙攻略",
   "lead": "豫园的假山亭榭与城隍庙的市井烟火，是上海少有的江南传统风情所在。",
-  "tags": ["园林", "历史", "市集", "美食"],
+  "tags": [
+    "园林",
+    "历史",
+    "市集",
+    "美食"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,29 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["豫园门票需预约（约 ¥40），节假日提前购。", "九曲桥周末人流大，注意随身物品。", "商圈小吃店排队普遍，错峰用餐更省时。"]
+      "items": [
+        "豫园门票需预约（约 ¥40），节假日提前购。",
+        "九曲桥周末人流大，注意随身物品。",
+        "商圈小吃店排队普遍，错峰用餐更省时。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-bund", "china-shanghai-three-days", "china-shanghai-food"]
+      "refs": [
+        "china-shanghai-bund",
+        "china-shanghai-three-days",
+        "china-shanghai-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/shanghai/attractions/yuyuan-hero.webp",
+  "socialImage": "/assets/images/shanghai/attractions/yuyuan-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/shanghai/attractions/yuyuan-gallery-01.webp",
+      "alt": "上海豫园：园林九曲桥与湖心亭",
+      "credit": "Wikimedia Commons · Hermann Luyken (CC0)"
     }
   ]
 }

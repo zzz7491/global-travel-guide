@@ -51,8 +51,6 @@
     }
   ],
   "category": "交通",
-  "image": "https://picsum.photos/seed/china-suzhou-transport/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-transport/1200/630",
   "howto": {
     "name": "苏州市内园林一日交通指南",
     "description": "三步学会用地铁与步行串联苏州主要园林",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "抵达苏州站",
-        "text": "高铁到苏州站后，乘地铁或公交前往古城片区；寄存行李后轻装出发。",
-        "image": "https://picsum.photos/seed/china-suzhou-transport/1200/800"
+        "text": "高铁到苏州站后，乘地铁或公交前往古城片区；寄存行李后轻装出发。"
       },
       {
         "name": "东北线串联",

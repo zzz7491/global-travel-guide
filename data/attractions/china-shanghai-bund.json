@@ -9,7 +9,12 @@
   "keywords": "外滩,上海外滩,万国建筑群,黄浦江,上海夜景,外滩攻略",
   "h1": "外滩旅游攻略",
   "lead": "外滩是上海的名片，一边是万国建筑群，一边是陆家嘴天际线，白天夜晚两种气质。",
-  "tags": ["街区", "建筑", "夜景", "免费"],
+  "tags": [
+    "街区",
+    "建筑",
+    "夜景",
+    "免费"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,29 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["观景平台节假日限流，听从现场指引。", "江边风大，夜间备件外套。", "建筑内部多为办公用途，外观免费即可。"]
+      "items": [
+        "观景平台节假日限流，听从现场指引。",
+        "江边风大，夜间备件外套。",
+        "建筑内部多为办公用途，外观免费即可。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-three-days", "china-shanghai-yuyuan", "china-shanghai-food"]
+      "refs": [
+        "china-shanghai-three-days",
+        "china-shanghai-yuyuan",
+        "china-shanghai-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/shanghai/attractions/bund-hero.webp",
+  "socialImage": "/assets/images/shanghai/attractions/bund-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/shanghai/attractions/bund-gallery-01.webp",
+      "alt": "上海外滩：万国建筑群与黄浦江",
+      "credit": "Wikimedia Commons · Another Believer (CC BY-SA 4.0)"
     }
   ]
 }

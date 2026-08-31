@@ -53,16 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-huangshan-xidi-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-xidi-og/1200/800",
+  "heroImage": "/assets/images/huangshan/attractions/xidi-hero.webp",
+  "socialImage": "/assets/images/huangshan/attractions/xidi-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-huangshan-xidi-g1/1200/800",
-      "alt": "西递村口的明代胡文光刺史牌楼"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-xidi-g2/1200/800",
-      "alt": "西递巷道与徽派马头墙民居"
+      "src": "/assets/images/huangshan/attractions/xidi-gallery-01.webp",
+      "alt": "西递：徽州古村的牌坊街巷",
+      "credit": "Wikimedia Commons · Ahunter2003 (CC BY-SA 3.0)"
     }
   ]
 }

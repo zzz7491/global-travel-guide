@@ -15,8 +15,8 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "三千奇峰八百秀水，峰林之城",
-  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-city-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-city-og/1200/800",
+  "heroImage": "/assets/images/zhangjiajie/city/city-hero.webp",
+  "socialImage": "/assets/images/zhangjiajie/og/city-og.webp",
   "bestTime": {
     "description": "张家界春秋最舒适：4-6 月新绿与雨后云海，9-11 月秋高气爽、能见度高；夏季山上凉爽适合避暑但雨多客流大，冬季人少、可遇雪景雾凇，需留意索道遇冰雪临时停运。"
   },
@@ -47,34 +47,22 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-peaks/1200/800",
-      "alt": "张家界 武陵源石英砂岩峰林群",
+      "src": "/assets/images/zhangjiajie/attractions/forest-gallery-01.webp",
+      "alt": "张家界 砂岩峰林",
       "type": "nature",
-      "credit": "Picsum Photos"
+      "credit": "Wikimedia Commons · Lianguanlun (CC BY 4.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-tianmen/1200/800",
-      "alt": "张家界 天门山绝壁与山门景观",
-      "type": "landmark",
-      "credit": "Picsum Photos"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-stream/1200/800",
-      "alt": "张家界 金鞭溪溪谷步道",
+      "src": "/assets/images/zhangjiajie/attractions/tianmen-gallery-01.webp",
+      "alt": "张家界 天门山",
       "type": "nature",
-      "credit": "Picsum Photos"
+      "credit": "Wikimedia Commons · Lianguanlun (CC BY 4.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-xibu/1200/800",
-      "alt": "张家界 武陵源溪布街夜间街景",
-      "type": "street",
-      "credit": "Picsum Photos"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-gallery-sanxiaguo/1200/800",
-      "alt": "张家界 湘西土家三下锅与腊味",
-      "type": "food",
-      "credit": "Picsum Photos"
+      "src": "/assets/images/zhangjiajie/attractions/glass-gallery-01.webp",
+      "alt": "张家界 大峡谷玻璃桥",
+      "type": "nature",
+      "credit": "Wikimedia Commons · אביבוד (CC BY-SA 4.0)"
     }
   ],
   "faq": [

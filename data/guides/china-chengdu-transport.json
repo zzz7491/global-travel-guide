@@ -51,8 +51,6 @@
     }
   ],
   "category": "交通",
-  "image": "https://picsum.photos/seed/china-chengdu-transport-cover/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-transport-og/1200/800",
   "howto": {
     "name": "成都地铁乘车指南",
     "description": "三步学会用手机乘车码乘坐成都地铁，轻松出行不迷路",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "开通乘车码",
-        "text": "在支付宝/微信或天府通 App 开通成都地铁乘车码，绑定支付方式。",
-        "image": "https://picsum.photos/seed/china-chengdu-transport-1/1200/800"
+        "text": "在支付宝/微信或天府通 App 开通成都地铁乘车码，绑定支付方式。"
       },
       {
         "name": "进站扫码",

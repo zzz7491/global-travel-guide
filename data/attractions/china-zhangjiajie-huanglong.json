@@ -53,16 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-zhangjiajie-huanglong-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-zhangjiajie-huanglong-og/1200/800",
+  "heroImage": "/assets/images/zhangjiajie/attractions/huanglong-hero.webp",
+  "socialImage": "/assets/images/zhangjiajie/attractions/huanglong-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-huanglong-cave/1200/800",
-      "alt": "黄龙洞钟乳石与石柱群"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-zhangjiajie-huanglong-river/1200/800",
-      "alt": "黄龙洞地下河游船段"
+      "src": "/assets/images/zhangjiajie/attractions/huanglong-gallery-01.webp",
+      "alt": "黄龙洞：地下溶洞与钟乳石",
+      "credit": "Wikimedia Commons · Brookqi (Public domain)"
     }
   ]
 }

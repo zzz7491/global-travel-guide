@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-chengdu-dujiangyan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-dujiangyan-og/1200/800",
+  "heroImage": "/assets/images/chengdu/attractions/dujiangyan-hero.webp",
+  "socialImage": "/assets/images/chengdu/attractions/dujiangyan-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-dujiangyan-1/1200/800",
-      "alt": "都江堰 鱼嘴分水堤"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-dujiangyan-2/1200/800",
-      "alt": "都江堰 安澜索桥"
+      "src": "/assets/images/chengdu/attractions/dujiangyan-gallery-01.webp",
+      "alt": "都江堰水利工程：都江堰灌溉工程的渠首枢纽",
+      "credit": "Wikimedia Commons · Gjl (CC BY-SA 3.0)"
     }
   ]
 }

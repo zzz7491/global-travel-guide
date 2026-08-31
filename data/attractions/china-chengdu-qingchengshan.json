@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-chengdu-qingchengshan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-qingchengshan-og/1200/800",
+  "heroImage": "/assets/images/chengdu/attractions/qingchengshan-hero.webp",
+  "socialImage": "/assets/images/chengdu/attractions/qingchengshan-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-qingchengshan-1/1200/800",
-      "alt": "青城山 前山道观"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-qingchengshan-2/1200/800",
-      "alt": "青城山 后山溪谷"
+      "src": "/assets/images/chengdu/attractions/qingchengshan-gallery-01.webp",
+      "alt": "青城山：道教名山的山门与古建",
+      "credit": "Wikimedia Commons · JianEn Yu (CC BY 2.0)"
     }
   ]
 }

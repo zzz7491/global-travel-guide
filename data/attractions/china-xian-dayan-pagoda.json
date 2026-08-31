@@ -50,5 +50,14 @@
         "china-xian-two-day-history"
       ]
     }
+  ],
+  "heroImage": "/assets/images/xian/attractions/dayan-pagoda-hero.webp",
+  "socialImage": "/assets/images/xian/attractions/dayan-pagoda-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/xian/attractions/dayan-pagoda-gallery-01.webp",
+      "alt": "西安大雁塔：大慈恩寺内的大雁塔",
+      "credit": "Wikimedia Commons · Yan Yin (CC BY-SA 2.5)"
+    }
   ]
 }

@@ -50,16 +50,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-chengdu-panda-base-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-chengdu-panda-base-og/1200/800",
+  "heroImage": "/assets/images/chengdu/attractions/panda-base-hero.webp",
+  "socialImage": "/assets/images/chengdu/attractions/panda-base-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-panda-base-1/1200/800",
-      "alt": "大熊猫繁育研究基地 园区"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-panda-base-2/1200/800",
-      "alt": "大熊猫 幼年别墅"
+      "src": "/assets/images/chengdu/attractions/panda-base-gallery-01.webp",
+      "alt": "成都大熊猫繁育研究基地：成年大熊猫在园区栖居",
+      "credit": "Wikimedia Commons · George Lu (CC BY 2.0)"
     }
   ]
 }

@@ -51,16 +51,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-suzhou-zhouzhuang/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-suzhou-zhouzhuang/1200/630",
+  "heroImage": "/assets/images/suzhou/attractions/zhouzhuang-hero.webp",
+  "socialImage": "/assets/images/suzhou/attractions/zhouzhuang-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-suzhou-zhouzhuang-1/1200/800",
-      "alt": "周庄 双桥水巷"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-suzhou-zhouzhuang-2/1200/800",
-      "alt": "周庄 明清老宅"
+      "src": "/assets/images/suzhou/attractions/zhouzhuang-gallery-01.webp",
+      "alt": "周庄：中国水乡古镇的河道街巷",
+      "credit": "Wikimedia Commons · Mattias Hill (CC BY-SA 4.0)"
     }
   ]
 }

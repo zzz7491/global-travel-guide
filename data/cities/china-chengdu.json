@@ -15,7 +15,7 @@
   "currency": "人民币 (CNY)",
   "timezone": "UTC+8",
   "tagline": "熊猫故乡，一座来了就不想走的休闲之都",
-  "heroImage": "https://picsum.photos/seed/china-chengdu-hero/1200/800",
+  "heroImage": "/assets/images/chengdu/city/city-hero.webp",
   "bestTime": {
     "description": "成都四季皆可游：春季（3-5月）气候舒适、熊猫活跃；秋季（9-11月）天高气爽最宜出行；夏季湿热、冬季阴冷但人流少。"
   },
@@ -46,24 +46,28 @@
   ],
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-chengdu-g1/1200/800",
+      "src": "/assets/images/chengdu/attractions/panda-base-gallery-01.webp",
       "alt": "成都 大熊猫繁育研究基地",
-      "type": "nature"
+      "type": "nature",
+      "credit": "Wikimedia Commons · George Lu (CC BY 2.0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-chengdu-g2/1200/800",
-      "alt": "成都 宽窄巷子传统街区",
-      "type": "street"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-chengdu-g3/1200/800",
+      "src": "/assets/images/chengdu/attractions/wuhouci-gallery-01.webp",
       "alt": "成都 武侯祠文化建筑",
-      "type": "culture"
+      "type": "culture",
+      "credit": "Wikimedia Commons · Daderot (CC0)"
     },
     {
-      "src": "https://picsum.photos/seed/china-chengdu-g4/1200/800",
-      "alt": "成都 川菜美食",
-      "type": "food"
+      "src": "/assets/images/chengdu/attractions/kuanzhai-gallery-01.webp",
+      "alt": "成都 宽窄巷子传统街区",
+      "type": "street",
+      "credit": "Wikimedia Commons · Daderot (CC0)"
+    },
+    {
+      "src": "/assets/images/chengdu/attractions/dujiangyan-gallery-01.webp",
+      "alt": "成都 都江堰水利工程",
+      "type": "culture",
+      "credit": "Wikimedia Commons · Gjl (CC BY-SA 3.0)"
     }
   ],
   "faq": [
@@ -88,5 +92,5 @@
       "a": "大熊猫繁育研究基地、都江堰、青城山、武侯祠、锦里、宽窄巷子、杜甫草堂是经典必游。"
     }
   ],
-  "socialImage": "https://picsum.photos/seed/china-chengdu-og/1200/800"
+  "socialImage": "/assets/images/chengdu/og/city-og.webp"
 }

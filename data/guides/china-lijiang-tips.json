@@ -51,8 +51,6 @@
     }
   ],
   "category": "贴士",
-  "image": "https://picsum.photos/seed/china-lijiang-guide-tips/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-lijiang-guide-tips-og/1200/800",
   "howto": {
     "name": "丽江高原适应指南",
     "description": "三步平稳适应丽江海拔",
@@ -60,8 +58,7 @@
     "steps": [
       {
         "name": "抵达慢行",
-        "text": "到古城首日放轻节奏，不跑跳、不提重物、不饮酒，给身体适应约 2400 米海拔。",
-        "image": "https://picsum.photos/seed/china-lijiang-guide-tips/1200/800"
+        "text": "到古城首日放轻节奏，不跑跳、不提重物、不饮酒，给身体适应约 2400 米海拔。"
       },
       {
         "name": "补水保暖",

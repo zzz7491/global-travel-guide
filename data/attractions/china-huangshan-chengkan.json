@@ -53,16 +53,13 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-huangshan-chengkan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-huangshan-chengkan-og/1200/800",
+  "heroImage": "/assets/images/huangshan/attractions/chengkan-hero.webp",
+  "socialImage": "/assets/images/huangshan/attractions/chengkan-og.webp",
   "gallery": [
     {
-      "src": "https://picsum.photos/seed/china-huangshan-chengkan-g1/1200/800",
-      "alt": "呈坎古村巷道与马头墙"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-huangshan-chengkan-g2/1200/800",
-      "alt": "罗东舒祠宝纶阁的明代木构梁架"
+      "src": "/assets/images/huangshan/attractions/chengkan-gallery-01.webp",
+      "alt": "呈坎：八卦村落的民居与水系",
+      "credit": "Wikimedia Commons · Zhangzhugang (CC BY-SA 4.0)"
     }
   ]
 }

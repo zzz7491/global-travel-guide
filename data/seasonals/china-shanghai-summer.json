@@ -11,8 +11,11 @@
   "h1": "上海夏季旅行攻略",
   "lead": "梅雨与盛夏轮番上场的夏天，把外滩留给夜晚，把博物馆和商场留作白天的避暑驿站。",
   "season": "夏季",
-  "months": ["6月", "7月", "8月"],
-  "heroImage": "https://picsum.photos/seed/china-shanghai-summer-hero/1200/800",
+  "months": [
+    "6月",
+    "7月",
+    "8月"
+  ],
   "weather": "上海夏季闷热：6月中-7月初为梅雨季，潮湿多雨；7-8月酷热（28-36℃），台风偶发；白天闷晒、午后易有雷阵雨，需防暑防晒并随身备雨具。",
   "overview": "夏季（6-8月）上海高温高湿，户外观景体感较差，因此<strong>室内场馆与商场</strong>成为白天主力——博物馆、美术馆、商圈商场冷气充足，又能兼顾文化与购物。梅雨期（约6月中-7月初）雨日多，行程要弹性；外滩等滨江夜景在夏夜最为热闹，是纳凉与看夜景的高光时刻。",
   "highlights": [
@@ -23,9 +26,24 @@
     "防暑防晒：白天尽量避开正午户外暴晒，多补水"
   ],
   "events": [
-    { "name": "梅雨季", "time": "约6月中-7月初", "place": "全市", "note": "潮湿多雨、体感闷热，出行备雨具，具体以气象预报为准" },
-    { "name": "盛夏酷热", "time": "7-8月", "place": "全市", "note": "最高常温（28-36℃），台风偶发，关注气象预警并调整户外安排" },
-    { "name": "博物馆/美术馆大展", "time": "夏季档期", "place": "上海博物馆及各美术馆", "note": "暑期常有大展，热门展览通常需预约，以官方公告为准" }
+    {
+      "name": "梅雨季",
+      "time": "约6月中-7月初",
+      "place": "全市",
+      "note": "潮湿多雨、体感闷热，出行备雨具，具体以气象预报为准"
+    },
+    {
+      "name": "盛夏酷热",
+      "time": "7-8月",
+      "place": "全市",
+      "note": "最高常温（28-36℃），台风偶发，关注气象预警并调整户外安排"
+    },
+    {
+      "name": "博物馆/美术馆大展",
+      "time": "夏季档期",
+      "place": "上海博物馆及各美术馆",
+      "note": "暑期常有大展，热门展览通常需预约，以官方公告为准"
+    }
   ],
   "tips": [
     "白天优先安排室内场馆（博物馆/美术馆/商场），午后再考虑户外",
@@ -35,7 +53,20 @@
     "夜游外滩是最佳纳凉方案，夏夜江边人多注意随身物品"
   ],
   "blocks": [
-    { "kind": "section", "title": "季节玩法建议", "html": "<p>夏季上海玩法的核心是<strong>把凉爽留给夜间与室内</strong>。白天优先安排<strong>上海博物馆</strong>（人民广场）与各类<strong>美术馆</strong>，午后逛<strong>南京东路</strong>、<strong>淮海路</strong>或<strong>陆家嘴</strong>的商圈商场避暑；日落后再上<strong>外滩</strong>与<strong>滨江步道</strong>纳凉看夜景，或乘黄浦江摆渡（约 ¥2）体验江风。若遇梅雨或台风强降雨，博物馆与商场两套室内方案随时能顶上，行程不必空转。</p>" },
-    { "kind": "related", "title": "推荐阅读", "refs": ["china-shanghai-best-time", "china-shanghai-shanghai-museum", "china-shanghai-nanjing-road", "china-shanghai-bund"] }
+    {
+      "kind": "section",
+      "title": "季节玩法建议",
+      "html": "<p>夏季上海玩法的核心是<strong>把凉爽留给夜间与室内</strong>。白天优先安排<strong>上海博物馆</strong>（人民广场）与各类<strong>美术馆</strong>，午后逛<strong>南京东路</strong>、<strong>淮海路</strong>或<strong>陆家嘴</strong>的商圈商场避暑；日落后再上<strong>外滩</strong>与<strong>滨江步道</strong>纳凉看夜景，或乘黄浦江摆渡（约 ¥2）体验江风。若遇梅雨或台风强降雨，博物馆与商场两套室内方案随时能顶上，行程不必空转。</p>"
+    },
+    {
+      "kind": "related",
+      "title": "推荐阅读",
+      "refs": [
+        "china-shanghai-best-time",
+        "china-shanghai-shanghai-museum",
+        "china-shanghai-nanjing-road",
+        "china-shanghai-bund"
+      ]
+    }
   ]
 }

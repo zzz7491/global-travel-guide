@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-shuidong-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-shuidong-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-shuidong-1/1200/800",
-      "alt": "水帘洞80米飞瀑如珠帘挂壁"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-shuidong-2/1200/800",
-      "alt": "水帘洞崖下摩崖石刻与碧潭"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-shuidong-3/1200/800",
-      "alt": "水帘洞旱季崖壁与清潭"
-    }
-  ]
+  "gallery": []
 }

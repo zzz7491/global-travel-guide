@@ -9,7 +9,12 @@
   "keywords": "武康路,法租界,武康大楼,安福路,衡山路,上海漫步",
   "h1": "武康路与法租界漫步攻略",
   "lead": "武康路与周边法租界街巷藏着上海的慢生活：梧桐树、老洋房与独立咖啡馆。",
-  "tags": ["街区", "建筑", "咖啡", "步行"],
+  "tags": [
+    "街区",
+    "建筑",
+    "咖啡",
+    "步行"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,29 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["街区内多为住宅，拍照请勿打扰居民。", "武康大楼路口车流密集，过街注意安全。", "周末咖啡馆人气高，错峰更从容。"]
+      "items": [
+        "街区内多为住宅，拍照请勿打扰居民。",
+        "武康大楼路口车流密集，过街注意安全。",
+        "周末咖啡馆人气高，错峰更从容。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-three-days", "china-shanghai-bund", "china-shanghai-food"]
+      "refs": [
+        "china-shanghai-three-days",
+        "china-shanghai-bund",
+        "china-shanghai-food"
+      ]
+    }
+  ],
+  "heroImage": "/assets/images/shanghai/attractions/wukang-road-hero.webp",
+  "socialImage": "/assets/images/shanghai/attractions/wukang-road-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/shanghai/attractions/wukang-road-gallery-01.webp",
+      "alt": "上海武康路：梧桐老马路与历史建筑",
+      "credit": "Wikimedia Commons · SSYoung (CC BY-SA 4.0)"
     }
   ]
 }

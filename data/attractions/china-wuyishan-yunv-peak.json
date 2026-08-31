@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-yunv-peak-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-yunv-peak-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yunv-1/1200/800",
-      "alt": "玉女峰亭立九曲溪畔"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yunv-2/1200/800",
-      "alt": "玉女峰与大王峰隔溪相望"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yunv-3/1200/800",
-      "alt": "九曲溪玉女峰晨光倒影"
-    }
-  ]
+  "gallery": []
 }

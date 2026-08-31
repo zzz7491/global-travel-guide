@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-yangushan-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-yangushan-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yangushan-1/1200/800",
-      "alt": "岩骨花香漫游道茶园平缓步道"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yangushan-2/1200/800",
-      "alt": "岩骨花香丹霞溪谷与茶园"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yangushan-3/1200/800",
-      "alt": "岩骨花香漫游道清晨光影"
-    }
-  ]
+  "gallery": []
 }

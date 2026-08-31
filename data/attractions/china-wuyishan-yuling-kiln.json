@@ -55,20 +55,5 @@
       ]
     }
   ],
-  "heroImage": "https://picsum.photos/seed/china-wuyishan-yuling-kiln-hero/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-yuling-kiln-og/1200/800",
-  "gallery": [
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yuling-1/1200/800",
-      "alt": "遇林亭宋代龙窑窑址遗存"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yuling-2/1200/800",
-      "alt": "遇林亭黑釉盏与匣钵遗物"
-    },
-    {
-      "src": "https://picsum.photos/seed/china-wuyishan-yuling-3/1200/800",
-      "alt": "遇林亭莲花峰景区山林步道"
-    }
-  ]
+  "gallery": []
 }

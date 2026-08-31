@@ -9,7 +9,12 @@
   "keywords": "朱家角,朱家角古镇,上海水乡,上海古镇,放生桥,青浦,上海一日游",
   "h1": "朱家角古镇攻略",
   "lead": "距离市区约一小时，朱家角让上海人也能随时回到水乡的枕河人家。",
-  "tags": ["古镇", "水乡", "历史", "街区"],
+  "tags": [
+    "古镇",
+    "水乡",
+    "历史",
+    "街区"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,21 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["古镇区域有免费通行部分，个别景点/活动另票，以官方实际运营为准。", "周末与节假日人多，提前出发避开高峰。", "青石板街多湿滑，穿防滑鞋更稳。"]
+      "items": [
+        "古镇区域有免费通行部分，个别景点/活动另票，以官方实际运营为准。",
+        "周末与节假日人多，提前出发避开高峰。",
+        "青石板街多湿滑，穿防滑鞋更稳。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-bund", "china-shanghai-three-days", "china-shanghai-transport"]
+      "refs": [
+        "china-shanghai-bund",
+        "china-shanghai-three-days",
+        "china-shanghai-transport"
+      ]
     }
-  ]
+  ],
+  "gallery": []
 }

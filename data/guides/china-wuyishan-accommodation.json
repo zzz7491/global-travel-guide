@@ -28,7 +28,7 @@
     {
       "kind": "section",
       "title": "建议",
-      "html": "<h3>怎么选</h3><p><strong>首次到访、想看演出、图省心</strong>：三姑度假区。<br><strong>自驾、追求安静与性价比</strong>：南源岭民宿村。<br><strong>想逛老街吃排档、不介意通勤</strong>：武夷山城区。<br><strong>家庭度假、追求环境</strong>：选择山水/茶园环绕的中高端度假酒店或山庄。</p><h3>动线建议</h3><p>把住宿钉在\u201c离你每日行程入口最近\u201d的原则上：玩主景区住度假区/南源岭；若专程去五夫、下梅，可考虑在其中一夜住古镇体验更深。</p>"
+      "html": "<h3>怎么选</h3><p><strong>首次到访、想看演出、图省心</strong>：三姑度假区。<br><strong>自驾、追求安静与性价比</strong>：南源岭民宿村。<br><strong>想逛老街吃排档、不介意通勤</strong>：武夷山城区。<br><strong>家庭度假、追求环境</strong>：选择山水/茶园环绕的中高端度假酒店或山庄。</p><h3>动线建议</h3><p>把住宿钉在“离你每日行程入口最近”的原则上：玩主景区住度假区/南源岭；若专程去五夫、下梅，可考虑在其中一夜住古镇体验更深。</p>"
     },
     {
       "kind": "notes",
@@ -53,7 +53,5 @@
       ]
     }
   ],
-  "category": "住宿",
-  "image": "https://picsum.photos/seed/china-wuyishan-guide-accommodation/1200/800",
-  "socialImage": "https://picsum.photos/seed/china-wuyishan-guide-accommodation-og/1200/800"
+  "category": "住宿"
 }

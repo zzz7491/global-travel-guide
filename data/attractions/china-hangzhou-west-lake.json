@@ -50,5 +50,14 @@
         "china-hangzhou-west-lake-classic-day"
       ]
     }
+  ],
+  "heroImage": "/assets/images/hangzhou/attractions/west-lake-hero.webp",
+  "socialImage": "/assets/images/hangzhou/attractions/west-lake-og.webp",
+  "gallery": [
+    {
+      "src": "/assets/images/hangzhou/attractions/west-lake-gallery-01.webp",
+      "alt": "杭州西湖：湖光山色与柳岸画舫",
+      "credit": "Wikimedia Commons · Louisa Salazar (CC BY-SA 3.0)"
+    }
   ]
 }

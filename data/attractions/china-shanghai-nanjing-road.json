@@ -9,7 +9,12 @@
   "keywords": "南京路,南京东路,步行街,上海购物,老字号,外滩,上海逛街",
   "h1": "南京路步行街攻略",
   "lead": "从老字号百货到潮流商场，南京东路步行街是上海经典的都市步行大道。",
-  "tags": ["街区", "购物", "建筑", "免费"],
+  "tags": [
+    "街区",
+    "购物",
+    "建筑",
+    "免费"
+  ],
   "blocks": [
     {
       "kind": "section",
@@ -29,12 +34,21 @@
     {
       "kind": "notes",
       "title": "注意事项",
-      "items": ["周末与节假日人流量大，注意随身物品。", "沿街餐饮排队普遍，错峰用餐更省时。", "只逛不买也开心，橱窗与建筑外观本身免费。"]
+      "items": [
+        "周末与节假日人流量大，注意随身物品。",
+        "沿街餐饮排队普遍，错峰用餐更省时。",
+        "只逛不买也开心，橱窗与建筑外观本身免费。"
+      ]
     },
     {
       "kind": "related",
       "title": "推荐阅读",
-      "refs": ["china-shanghai-bund", "china-shanghai-yuyuan", "china-shanghai-three-days"]
+      "refs": [
+        "china-shanghai-bund",
+        "china-shanghai-yuyuan",
+        "china-shanghai-three-days"
+      ]
     }
-  ]
+  ],
+  "gallery": []
 }
