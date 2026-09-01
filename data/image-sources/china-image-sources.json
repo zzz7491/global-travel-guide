@@ -1586,6 +1586,46 @@
             "matchScore": 100,
             "matchStatus": "VERIFIED",
             "risk": "LOW"
+        },
+        {
+            "city": "hangzhou",
+            "entity": "china-hangzhou-songcheng",
+            "name": "宋城",
+            "role": "attraction hero + og",
+            "localPath": [
+                "/assets/images/hangzhou/attractions/songcheng-hero.webp",
+                "/assets/images/hangzhou/og/songcheng-og.webp"
+            ],
+            "source": "https://commons.wikimedia.org/wiki/File:Song_Dynasty_City_(2970193581).jpg",
+            "sourceFile": "Song Dynasty City (2970193581).jpg",
+            "author": "kanegen",
+            "license": "CC BY 2.0",
+            "category": "Hangzhou Songcheng; CC-BY-2.0; Flickr images reviewed by FlickreviewR 2",
+            "locationVerification": "Category Hangzhou Songcheng confirms Songcheng location in Hangzhou; FlickreviewR 2 verified",
+            "geoConfidence": "confirmed",
+            "matchScore": 100,
+            "matchStatus": "VERIFIED",
+            "risk": "LOW"
+        },
+        {
+            "city": "hangzhou",
+            "entity": "china-hangzhou-longjing-village",
+            "name": "龙井村",
+            "role": "attraction hero + og",
+            "localPath": [
+                "/assets/images/hangzhou/attractions/longjing-village-hero.webp",
+                "/assets/images/hangzhou/og/longjing-village-og.webp"
+            ],
+            "source": "https://commons.wikimedia.org/wiki/File:20260424_Longjing_Village.jpg",
+            "sourceFile": "20260424 Longjing Village.jpg",
+            "author": "Windmemories",
+            "license": "CC BY-SA 4.0",
+            "category": "Longjing, Hangzhou; CC-BY-SA-4.0; China photographs taken on 2026-04-24; Self-published work",
+            "locationVerification": "Category Longjing, Hangzhou confirms Longjing Village location in Hangzhou; CC-BY-SA-4.0",
+            "geoConfidence": "confirmed",
+            "matchScore": 100,
+            "matchStatus": "VERIFIED",
+            "risk": "LOW"
         }
     ],
     "deliberateExclusions": [

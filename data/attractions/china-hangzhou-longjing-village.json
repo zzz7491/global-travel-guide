@@ -6,6 +6,8 @@
   "slug": "longjing-village",
   "title": "龙井村旅游攻略｜西湖群山龙井茶园与明前茶体验",
   "description": "龙井村旅游攻略：位于西湖群山狮峰、龙井一带的龙井茶园，采茶季清明前后明前茶、茶园徒步与梅家坞周边怎么逛，附品茶购茶提示。",
+  "heroImage": "/assets/images/hangzhou/attractions/longjing-village-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/longjing-village-og.webp",
   "keywords": "龙井村,龙井茶园,狮峰,明前茶,杭州茶园,梅家坞,采茶季,茶园徒步",
   "h1": "龙井村旅游攻略",
   "lead": "龙井村藏在西湖群山的狮峰、龙井一带，是龙井茶的核心产区之一——层层茶山间，清明前后采下的明前茶是这里最珍贵的一口春味。",
@@ -52,5 +54,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/hangzhou/attractions/longjing-village-hero.webp", "alt": "龙井村茶园梯田", "credit": "Wikimedia Commons: Windmemories, CC BY-SA 4.0" }
+  ]
 }

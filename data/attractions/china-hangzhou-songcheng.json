@@ -6,6 +6,8 @@
   "slug": "songcheng",
   "title": "宋城旅游攻略｜杭州宋城与宋城千古情大型歌舞秀",
   "description": "杭州宋城旅游攻略：宋文化主题公园怎么玩、宋城千古情大型歌舞秀怎么购票，附园区动线、餐饮与避开高峰的建议。",
+  "heroImage": "/assets/images/hangzhou/attractions/songcheng-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/songcheng-og.webp",
   "keywords": "杭州宋城,宋城千古情,宋文化主题公园,杭州歌舞秀,之江转塘,亲子游",
   "h1": "宋城旅游攻略",
   "lead": "杭州宋城是一座以宋文化为主题的大型主题公园，位于杭州之江（转塘）一带，「宋城千古情」大型歌舞秀是它最负盛名的核心体验。",
@@ -52,5 +54,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/hangzhou/attractions/songcheng-hero.webp", "alt": "杭州宋城仿宋街市", "credit": "Wikimedia Commons: kanegen, CC BY 2.0" }
+  ]
 }
