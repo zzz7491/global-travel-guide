@@ -6,6 +6,8 @@
   "slug": "tianzifang",
   "title": "田子坊攻略｜石库门创意弄堂指南",
   "description": "上海田子坊旅游攻略：石库门里弄改造的创意园区，小店、手作与街头艺术交织，位于打浦桥，附逛巷动线与交通建议。",
+  "heroImage": "/assets/images/shanghai/attractions/tianzifang-hero.webp",
+  "socialImage": "/assets/images/shanghai/og/tianzifang-og.webp",
   "keywords": "田子坊,石库门,创意园区,上海弄堂,手作,街头艺术,打浦桥",
   "h1": "田子坊攻略",
   "lead": "石库门里弄里藏着一座创意园区，田子坊的狭窄巷子里布满了小店与手作摊。",
@@ -50,5 +52,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/shanghai/attractions/tianzifang-hero.webp", "alt": "田子坊石库门弄堂", "credit": "Wikimedia Commons: xiquinhosilva, CC BY 2.0" }
+  ]
 }

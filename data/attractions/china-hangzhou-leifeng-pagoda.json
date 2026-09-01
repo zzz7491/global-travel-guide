@@ -6,6 +6,8 @@
   "slug": "leifeng-pagoda",
   "title": "雷峰塔旅游攻略｜西湖夕照与白蛇传说地标",
   "description": "雷峰塔旅游攻略：雷峰夕照的观景机位、登塔俯瞰西湖的路线、塔基遗址与电梯配置，帮你把这座西湖地标安排进半日行程。",
+  "heroImage": "/assets/images/hangzhou/attractions/leifeng-pagoda-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/leifeng-pagoda-og.webp",
   "keywords": "雷峰塔,雷峰夕照,西湖地标,白蛇传,净慈寺,杭州登高",
   "h1": "雷峰塔旅游攻略",
   "lead": "雷峰塔在南屏山麓、西湖南岸，与北面的保俶塔隔湖相望，「雷峰夕照」是西湖十景之一。",
@@ -51,5 +53,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/hangzhou/attractions/leifeng-pagoda-hero.webp", "alt": "雷峰塔夕阳西下", "credit": "Wikimedia Commons: xiquinhosilva, CC BY 2.0" }
+  ]
 }

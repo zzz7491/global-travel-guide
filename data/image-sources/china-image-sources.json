@@ -1506,6 +1506,86 @@
             "matchStatus": "VERIFIED",
             "risk": "LOW",
             "note": "GPS coordinates match Wuyi Palace / Da Wang Peak area; FlickreviewR verified source"
+        },
+        {
+            "city": "hangzhou",
+            "entity": "china-hangzhou-leifeng-pagoda",
+            "name": "雷峰塔",
+            "role": "attraction hero + og",
+            "localPath": [
+                "/assets/images/hangzhou/attractions/leifeng-pagoda-hero.webp",
+                "/assets/images/hangzhou/og/leifeng-pagoda-og.webp"
+            ],
+            "source": "https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda_20191102.jpg",
+            "sourceFile": "Leifeng Pagoda 20191102.jpg",
+            "author": "xiquinhosilva",
+            "license": "CC BY 2.0",
+            "category": "Leifeng Pagoda; CC-BY-2.0; Flickr images reviewed by FlickreviewR 2",
+            "locationVerification": "GPS 30.230157, 120.144445 confirms Leifeng Pagoda, Hangzhou; Category Leifeng Pagoda; FlickreviewR 2 verified",
+            "geoConfidence": "confirmed",
+            "matchScore": 100,
+            "matchStatus": "VERIFIED",
+            "risk": "LOW"
+        },
+        {
+            "city": "hangzhou",
+            "entity": "china-hangzhou-qiantang-river",
+            "name": "钱塘江观潮",
+            "role": "attraction hero + og",
+            "localPath": [
+                "/assets/images/hangzhou/attractions/qiantang-river-hero.webp",
+                "/assets/images/hangzhou/og/qiantang-river-og.webp"
+            ],
+            "source": "https://commons.wikimedia.org/wiki/File:Tidal_bore_at_the_Qiantang_river,_Hangzhou.jpg",
+            "sourceFile": "Tidal bore at the Qiantang river, Hangzhou.jpg",
+            "author": "gwydionwilliams",
+            "license": "CC BY 2.0",
+            "category": "Tidal bore of the Qiantang River at Old Yanguan Town; CC-BY-2.0; Flickr upload bot",
+            "locationVerification": "Category Tidal bore of the Qiantang River at Old Yanguan Town confirms Qiantang River tidal bore location; CC-BY-2.0",
+            "geoConfidence": "confirmed",
+            "matchScore": 100,
+            "matchStatus": "VERIFIED",
+            "risk": "LOW"
+        },
+        {
+            "city": "hangzhou",
+            "entity": "china-hangzhou-xixi-wetland",
+            "name": "西溪国家湿地公园",
+            "role": "attraction hero + og",
+            "localPath": [
+                "/assets/images/hangzhou/attractions/xixi-wetland-hero.webp",
+                "/assets/images/hangzhou/og/xixi-wetland-og.webp"
+            ],
+            "source": "https://commons.wikimedia.org/wiki/File:Xixi_Wetland_Park,_Hangzhou,_China.jpg",
+            "sourceFile": "Xixi Wetland Park, Hangzhou, China.jpg",
+            "author": "Yoshi Canopus",
+            "license": "CC BY-SA 3.0",
+            "category": "Bodies of water in Hangzhou; CC-BY-SA-3.0; Self-published work; Chinese pavilions in Hangzhou",
+            "locationVerification": "Category Bodies of water in Hangzhou + Chinese pavilions in Hangzhou confirms Xixi Wetland location in Hangzhou; CC-BY-SA-3.0",
+            "geoConfidence": "confirmed",
+            "matchScore": 100,
+            "matchStatus": "VERIFIED",
+            "risk": "LOW"
+        },
+        {
+            "city": "shanghai",
+            "entity": "china-shanghai-tianzifang",
+            "name": "田子坊",
+            "role": "attraction hero + og",
+            "localPath": [
+                "/assets/images/shanghai/attractions/tianzifang-hero.webp",
+                "/assets/images/shanghai/og/tianzifang-og.webp"
+            ],
+            "source": "https://commons.wikimedia.org/wiki/File:Tianzifang_21640-Shanghai_(32943988321).jpg",
+            "sourceFile": "Tianzifang 21640-Shanghai (32943988321).jpg",
+            "author": "xiquinhosilva",
+            "license": "CC BY 2.0",
+            "category": "CC-BY-2.0; Flickr images missing SDC published in; Flickr images reviewed by FlickreviewR 2; Photographs by Xiquinho Silva",
+            "locationVerification": "GPS 31.209797, 121.464294 confirms Tianzifang, Shanghai; FlickreviewR 2 verified",
+            "geoConfidence": "confirmed",
+            "matchScore": 100,
+            "matchStatus": "VERIFIED",
+            "risk": "LOW"
         }
     ],
     "deliberateExclusions": [

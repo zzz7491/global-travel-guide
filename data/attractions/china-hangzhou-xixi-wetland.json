@@ -6,6 +6,8 @@
   "slug": "xixi-wetland",
   "title": "西溪国家湿地公园旅游攻略｜杭州城市湿地与水上慢游",
   "description": "西溪国家湿地公园旅游攻略：摇橹船线路、芦苇与柿林季节景观、慢行绿道怎么安排，附与主城区景点的动线区隔建议。",
+  "heroImage": "/assets/images/hangzhou/attractions/xixi-wetland-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/xixi-wetland-og.webp",
   "keywords": "西溪湿地,西溪国家湿地公园,杭州湿地,摇橹船,芦苇,杭城慢游",
   "h1": "西溪国家湿地公园旅游攻略",
   "lead": "西溪是杭州城区罕见的城市湿地，水道纵横、芦苇连片，与西湖的湖光山色是两种完全不同的杭州气质。",
@@ -51,5 +53,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/hangzhou/attractions/xixi-wetland-hero.webp", "alt": "西溪湿地芦苇荡", "credit": "Wikimedia Commons: Yoshi Canopus, CC BY-SA 3.0" }
+  ]
 }

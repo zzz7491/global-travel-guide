@@ -6,6 +6,8 @@
   "slug": "qiantang-river",
   "title": "钱塘江观潮攻略｜钱塘江大潮与观潮安全指南",
   "description": "钱塘江观潮攻略：钱塘江大潮农历八月十八前后最盛、观潮点与盐官等地点怎么选，附潮汐预报与观潮安全提醒。",
+  "heroImage": "/assets/images/hangzhou/attractions/qiantang-river-hero.webp",
+  "socialImage": "/assets/images/hangzhou/og/qiantang-river-og.webp",
   "keywords": "钱塘江大潮,钱塘江观潮,观潮攻略,杭州观潮,盐官,八月十八,潮汐预报",
   "h1": "钱塘江观潮攻略",
   "lead": "钱塘江大潮是杭州一带最壮观的自然奇观，农历八月十八前后最为盛大——看潮要趁大潮日，更要懂看潮的安全。",
@@ -52,5 +54,7 @@
       ]
     }
   ],
-  "gallery": []
+  "gallery": [
+    { "src": "/assets/images/hangzhou/attractions/qiantang-river-hero.webp", "alt": "钱塘江大潮汹涌", "credit": "Wikimedia Commons: gwydionwilliams, CC BY 2.0" }
+  ]
 }
