@@ -60,25 +60,25 @@
     {
       "day": 1, "theme": "古城中轴", "title": "钟楼 · 鼓楼 · 回民街 · 城墙", "sub": "从中心走到城墙，免费街区打底", "tag": "必去高性价比", "ticketLabel": "经济档",
       "items": [
-        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "钟楼与鼓楼", "desc": "可登楼或仅外观，联票通常比单买划算；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1-2小时" }, { "label": "费用", "value": "联票估算（以官方为准）" }], "bestTime": "开门即入", "localTip": "联票比单买省", "tips": "外观也出片" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "钟楼与鼓楼", "desc": "可登楼或仅外观，联票通常比单买划算；具体开放与票务规则以官方最新公告为准。", "info": [{ "label": "建议时长", "value": "1-2小时" }, { "label": "费用", "value": "联票估算（以官方为准）" }], "bestTime": "开门即入", "localTip": "联票比单买省", "tips": "外观也出片" },
         { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "回民街简餐", "desc": "肉夹馍、凉皮、泡馍人均 ¥20-45，把预算留作门票或夜景。", "info": [{ "label": "人均", "value": "¥20-45" }], "bestTime": "12:30前", "localTip": "避开主街高价", "tips": "巷子里更实惠" },
-        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "西安城墙（南门段）", "desc": "可租自行车环城或步行，城墙全长约 13.7 公里；以现场售票为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "门票+单车估算" }], "bestTime": "下午光线柔", "localTip": "南门设施最全", "tips": "骑行最舒服" },
-        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "城墙夕照/夜景（可选登城）", "desc": "城墙灯亮后夜景可免费外观，登城按预算决定；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "外观免费 / 登城另购" }], "bestTime": "日落前", "localTip": "顶层风大保暖", "tips": "只拍外观也出片" }
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "西安城墙（南门段）", "desc": "可租自行车环城或步行，城墙全长约 13.7 公里；具体开放与票务规则以官方最新公告为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "门票+单车估算" }], "bestTime": "下午光线柔", "localTip": "南门设施最全", "tips": "骑行最舒服" },
+        { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "城墙夕照/夜景（可选登城）", "desc": "城墙灯亮后夜景可免费外观，登城按预算决定；具体开放与票务规则以官方最新公告为准。", "info": [{ "label": "建议时长", "value": "1小时" }, { "label": "费用", "value": "外观免费 / 登城另购" }], "bestTime": "日落前", "localTip": "顶层风大保暖", "tips": "只拍外观也出片" }
       ]
     },
     {
       "day": 2, "theme": "东线历史", "title": "兵马俑 · 华清宫", "sub": "一天东出，秦唐都照顾", "tag": "文化+历史", "ticketLabel": "经济档",
       "items": [
-        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "秦始皇兵马俑", "desc": "一号、二、三号坑与陈列厅，建议租导览或请讲解提升体验；以现场售票为准。", "info": [{ "label": "建议时长", "value": "3-4小时" }, { "label": "费用", "value": "门票估算（以官方为准）" }], "bestTime": "开门即入", "localTip": "早到避团队", "tips": "讲解提升体验" },
+        { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "秦始皇兵马俑", "desc": "一号、二、三号坑与铜车马展厅。兵马俑需提前通过官方渠道实名预约购票，老人/儿童等免票人员也应以官方预约规则为准；门票通常还涵盖丽山园（秦始皇陵遗址公园），两处参观整体预留 3-4 小时以上，具体以官方最新公告为准。", "info": [{ "label": "建议时长", "value": "3-4小时以上" }, { "label": "费用", "value": "门票估算（以官方为准）" }, { "label": "预约购票", "value": "需提前通过官方渠道实名预约" }], "bestTime": "按预约时段入园", "localTip": "提前在官方渠道约好时段", "tips": "务必提前在官方渠道约好时段", "alternative": "未约到可换时段或改日" },
         { "time": "中午", "category": "food", "categoryLabel": "餐饮", "title": "临潼简餐", "desc": "景区周边面食或小吃人均 ¥30-50，清淡实惠。", "info": [{ "label": "人均", "value": "¥30-50" }], "bestTime": "中午", "localTip": "选择有限", "tips": "附近餐饮有限" },
-        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "华清宫", "desc": "唐御汤遗址与园林，与兵马俑同线，可乘公交或旅游专线接驳；以现场售票为准。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "门票估算" }], "bestTime": "下午", "localTip": "与兵马俑顺路", "tips": "温泉可另购" }
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "华清宫", "desc": "唐御汤遗址与园林，与兵马俑同线，可乘公交或旅游专线接驳；具体开放与票务规则以官方最新公告为准。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "门票估算" }], "bestTime": "下午", "localTip": "与兵马俑顺路", "tips": "温泉可另购" }
       ]
     },
     {
       "day": 3, "theme": "南线文化与夜景", "title": "陕历博 · 大雁塔 · 大唐不夜城", "sub": "半日馆 + 夜景收尾", "tag": "文化+夜景", "ticketLabel": "经济档",
       "items": [
         { "time": "上午", "category": "scenic", "categoryLabel": "景点", "title": "陕西历史博物馆", "desc": "基本陈列通常免费需提前预约，珍宝馆等另票；以官方预约为准。", "info": [{ "label": "建议时长", "value": "2-3小时" }, { "label": "费用", "value": "基本陈列免费 / 特展另购" }], "bestTime": "预约时段", "localTip": "提前预约", "tips": "免费馆最值" },
-        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "大雁塔北广场 + 登塔（可选）", "desc": "北广场音乐喷泉免费，登塔看全城另票；以现场售票为准。", "info": [{ "label": "建议时长", "value": "1-2小时" }, { "label": "费用", "value": "喷泉免费 / 登塔另购" }], "bestTime": "傍晚喷泉", "localTip": "喷泉有时段", "tips": "不登塔也够看" },
+        { "time": "下午", "category": "scenic", "categoryLabel": "景点", "title": "大雁塔北广场 + 登塔（可选）", "desc": "北广场音乐喷泉免费，登塔看全城另票；具体开放与票务规则以官方最新公告为准。", "info": [{ "label": "建议时长", "value": "1-2小时" }, { "label": "费用", "value": "喷泉免费 / 登塔另购" }], "bestTime": "傍晚喷泉", "localTip": "喷泉有时段", "tips": "不登塔也够看" },
         { "time": "傍晚", "category": "experience", "categoryLabel": "体验", "title": "大唐不夜城", "desc": "步行街夜景免费，演出以当日公告为准。", "info": [{ "label": "建议时长", "value": "2小时" }, { "label": "费用", "value": "免费" }], "bestTime": "19:00后", "localTip": "周末人多", "tips": "夜景免费必去" }
       ]
     }
@@ -137,7 +137,7 @@
     { "title": "住宿区位", "text": "住钟楼/北大街性价比高，曲江贵但近景点，按重心选。" }
   ],
   "reminders": [
-    { "type": "urgent", "title": "预约日历", "items": ["陕西历史博物馆需提前预约", "兵马俑以现场售票为准，旺季早到", "华清宫温泉查当日公告", "城墙夜游留意开放时段"] },
+    { "type": "urgent", "title": "预约日历", "items": ["陕西历史博物馆需提前预约", "兵马俑需提前通过官方渠道实名预约购票", "华清宫温泉查当日公告", "城墙夜游留意开放时段", "具体开放时间、预约方式和票务规则以官方最新公告为准"] },
     { "type": "booking", "title": "预订时机", "items": ["钟楼住宿提前1-2个月更优", "高铁票按出行日购买", "热门正餐可提前订"] },
     { "type": "notice", "title": "行前须知", "items": ["带身份证（住宿/部分票务）", "小额现金+移动支付", "下载导航/地图App", "舒适步行鞋与薄外套", "春秋薄外套、冬季保暖"] }
   ],
