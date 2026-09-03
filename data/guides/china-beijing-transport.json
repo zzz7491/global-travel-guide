@@ -78,28 +78,3 @@
     ]
   }
 }
-    {
-      "kind": "section",
-      "title": "核心内容",
-      "html": "<h3>市内通勤</h3><p>占位：待补充详细攻略内容。</p><h3>机场 / 火车站接驳</h3><p>占位：待补充建议。</p>"
-    },
-    {
-      "kind": "notes",
-      "title": "注意事项",
-      "items": [
-        "下载「亿通行」或支付宝乘车码扫码进站。",
-        "早晚高峰避开 1/5/6 号线。"
-      ]
-    },
-    {
-      "kind": "related",
-      "title": "推荐阅读",
-      "refs": [
-        "china-beijing-accommodation",
-        "china-beijing-three-days",
-        "china-beijing-tips"
-      ]
-    }
-  ],
-  "category": "交通"
-}
