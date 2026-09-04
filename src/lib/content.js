@@ -721,7 +721,45 @@ export function buildRoutePlanBody(e, ctx) {
   const city = ctx.index[cityId] || ctx.home;
   plan.backUrl = linkUrl(city);
   plan.backLabel = `返回${city.name || '首页'}`;
-  return renderTemplate(tpl, plan);
+  let body = renderTemplate(tpl, plan);
+  // Optional arrival-decision guidance (data-driven). Appended as an extra
+  // section only when the route-plan carries an `arrivalGuide` field; absent
+  // for the vast majority of route-plans. Fully generic — reads the data, no
+  // city-specific branches.
+  body += buildArrivalGuideHtml(e.arrivalGuide);
+  return body;
+}
+
+// Render the optional `arrivalGuide` section of a route-plan.
+// Expected data shape: { title?, desc?, scenarios?: [{ case?, desc? }] }.
+// Returns '' when absent so old route-plans are unchanged. Uses the same
+// design-system section styling as the rest of the route-plan template, and
+// escapes all user-provided text (never injects raw JSON as HTML).
+function buildArrivalGuideHtml(guide) {
+  if (!guide) return '';
+  const scenarios = Array.isArray(guide.scenarios) ? guide.scenarios : [];
+  const cards = scenarios.map((s) => {
+    const caseName = escapeHtml(s && s.case ? s.case : '');
+    const desc = escapeHtml(s && s.desc ? s.desc : '');
+    if (!caseName && !desc) return '';
+    return (
+      '<div class="alt-card" style="border-top-color:var(--c-blue)">' +
+        `<h3>${caseName}</h3>` +
+        `<p class="alt">${desc}</p>` +
+      '</div>'
+    );
+  }).filter(Boolean).join('');
+  if (!cards) return '';
+  return (
+    '<section class="section">' +
+      '<div class="section-title"><div class="section-icon">🚉</div>' +
+        `<h2>${escapeHtml(guide.title || '抵达决策')}</h2>` +
+        '<p class="section-sub">抵达安排</p>' +
+      '</div>' +
+      (guide.desc ? `<p class="eco-banner__hint" style="max-width:760px;margin:0 auto 20px;text-align:center;color:var(--ink-light);font-size:14px;line-height:1.7;">${escapeHtml(guide.desc)}</p>` : '') +
+      '<div class="alt-grid">' + cards + '</div>' +
+    '</section>'
+  );
 }
 
 // Build the Chart.js <script> block for a route-plan page. Uses the same
